@@ -8,6 +8,22 @@
 
 Läuft die App schon, steht im schwarzen Fenster ein Hinweis. Dann kannst du einfach im Browser unter http://localhost:8093 weiterspielen.
 
+## 1b. Auf dem Handy spielen
+
+Das Lernspiel liegt auf GitHub und ist als Internetseite erreichbar:
+
+**https://josefine2163-dotcom.github.io/lernspiel/**
+
+1. Öffne die Adresse auf dem Handy (iPhone: Safari, Android: Chrome).
+2. Leg sie als App auf den Startbildschirm: iPhone: Teilen-Symbol → **Zum Home-Bildschirm**. Android: ⋮ → **Zum Startbildschirm hinzufügen** bzw. **App installieren**.
+3. Danach startest du das Lernspiel wie eine App. Es geht auch ohne Internet, sobald du es einmal geöffnet hast.
+
+**Spielstand:** Jedes Gerät hat seinen eigenen Spielstand. Zum Mitnehmen: am PC ⚙️ → **Spielstand speichern**, die Datei aufs Handy schicken (z. B. per Mail oder Cloud), am Handy ⚙️ → **Spielstand einspielen**. In die andere Richtung genauso. Es wird zusammengeführt, nichts doppelt gezählt.
+
+**Neue Inhalte:** Claude Code lädt jede Änderung selbst auf GitHub hoch. Nach 1–2 Minuten ist sie auf dem Handy; lade die App dafür einmal neu.
+
+**Fragen melden am Handy:** Melden geht genauso. Damit Claude die Meldungen sieht: ⚙️ → **Gemeldete Fragen** → **📋 Auftrag für Claude kopieren**, dann in der Claude-App **Claude Code** mit dem GitHub-Projekt `lernspiel` öffnen und den Text einfügen. Oder du spielst den Spielstand am PC ein (die Meldungen sind darin enthalten) und sagst dort „Bearbeite die gemeldeten Fragen“.
+
 ## 2. So funktioniert das Spiel
 
 - **Karte:** Jede Vorlesung ist eine Karte mit Welten und Leveln. Am Ende jeder Welt wartet ein Boss, ganz am Ende der Arbeitsblatt-Boss und die Probeklausur. Du kannst überall einsteigen, „Hier weiter“ zeigt dir den nächsten Schritt.
