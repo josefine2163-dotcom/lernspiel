@@ -18,11 +18,11 @@ Das Lernspiel liegt auf GitHub und ist als Internetseite erreichbar:
 2. Leg sie als App auf den Startbildschirm: iPhone: Teilen-Symbol → **Zum Home-Bildschirm**. Android: ⋮ → **Zum Startbildschirm hinzufügen** bzw. **App installieren**.
 3. Danach startest du das Lernspiel wie eine App. Es geht auch ohne Internet, sobald du es einmal geöffnet hast.
 
-**Spielstand:** Jedes Gerät hat seinen eigenen Spielstand. Zum Mitnehmen: am PC ⚙️ → **Spielstand speichern**, die Datei aufs Handy schicken (z. B. per Mail oder Cloud), am Handy ⚙️ → **Spielstand einspielen**. In die andere Richtung genauso. Es wird zusammengeführt, nichts doppelt gezählt.
+**Spielstand:** Handy und Laptop haben **getrennte Spielstände**. Nichts wird automatisch abgeglichen; Fortschritt, XP und Wiederholungen zählen auf jedem Gerät für sich. Damit das so bleibt, spiele keinen Spielstand vom einen Gerät auf dem anderen ein. „Spielstand speichern“ ist dann nur noch eine Sicherung für dasselbe Gerät.
 
 **Neue Inhalte:** Claude Code lädt jede Änderung selbst auf GitHub hoch. Nach 1–2 Minuten ist sie auf dem Handy; lade die App dafür einmal neu.
 
-**Fragen melden am Handy:** Melden geht genauso. Damit Claude die Meldungen sieht: ⚙️ → **Gemeldete Fragen** → **📋 Auftrag für Claude kopieren**, dann in der Claude-App **Claude Code** mit dem GitHub-Projekt `lernspiel` öffnen und den Text einfügen. Oder du spielst den Spielstand am PC ein (die Meldungen sind darin enthalten) und sagst dort „Bearbeite die gemeldeten Fragen“.
+**Fragen melden am Handy:** Melden geht genauso. Damit Claude die Meldungen sieht: ⚙️ → **Gemeldete Fragen** → **📋 Auftrag für Claude kopieren**, dann in der Claude-App **Claude Code** mit dem GitHub-Projekt `lernspiel` öffnen und den Text einfügen. Du kannst den kopierten Text auch am Laptop bei Claude Code einfügen; dein Spielstand bleibt dabei getrennt.
 
 ## 2. So funktioniert das Spiel
 
