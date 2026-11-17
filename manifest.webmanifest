@@ -1,0 +1,14 @@
+{
+  "name": "Lernspiel",
+  "short_name": "Lernspiel",
+  "description": "Spiele dich durch deinen Lernstoff – Level für Level, offline, ohne Konto.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14102b",
+  "theme_color": "#5b2be0",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
