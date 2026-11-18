@@ -1,0 +1,2863 @@
+{
+ "format": 1,
+ "id": "stat2-s1",
+ "fach": "Statistik 2",
+ "titel": "Grundbegriffe: Inferenzstatistik, Zufallsprozess, Mengenlehre, Ergebnismenge",
+ "kurztitel": "Sitzung 1",
+ "quelle": [
+  "Statistik 2/S2_Sitzung01_Grundbegriffe.md"
+ ],
+ "verarbeitet": "2026-11-18",
+ "sprache": "de",
+ "welten": [
+  {
+   "id": "stat2-s1-A",
+   "titel": "Was ist Inferenzstatistik?",
+   "farbe": 210,
+   "level": [
+    {
+     "id": "stat2-s1-A1",
+     "titel": "Grundgesamtheit und Stichprobe",
+     "wissen": [
+      {
+       "id": "stat2-s1-A1-w1",
+       "titel": "Grundgesamtheit vs. Stichprobe",
+       "merke": "Die **Grundgesamtheit** ist der „wahre“, **unbekannte** Zustand (z. B. alle 15-Jährigen in Deutschland), die **Stichprobe** der „empirische“, **beobachtete** Zustand (z. B. 15-Jährige in einer Stichprobe).",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Welcher Zustand ist „wahr“, aber unbekannt?",
+          "Was beschreibt den „wahren“, unbekannten Zustand?"
+         ],
+         "richtig": [
+          "die Grundgesamtheit"
+         ],
+         "falsch": [
+          "die Stichprobe",
+          "der Stichprobenkennwert",
+          "die Deskription"
+         ]
+        },
+        {
+         "id": "stat2-s1-A1-w1-a2",
+         "typ": "beispiel",
+         "frage": "Grundgesamtheit oder Stichprobe?",
+         "kategorien": [
+          "Grundgesamtheit",
+          "Stichprobe"
+         ],
+         "items": [
+          {
+           "text": "mittlere Testleistung **aller** 15-jährigen Schüler*innen in Deutschland",
+           "kategorie": 0
+          },
+          {
+           "text": "mittlere Testleistung 15-jähriger Schüler*innen in einer Stichprobe",
+           "kategorie": 1
+          },
+          {
+           "text": "„wahrer“, unbekannter Zustand",
+           "kategorie": 0
+          },
+          {
+           "text": "„empirischer“, beobachteter Zustand",
+           "kategorie": 1
+          },
+          {
+           "text": "Motivation aller Studierenden in Deutschland",
+           "kategorie": 0
+          },
+          {
+           "text": "Motivation von 389 befragten Studierenden der Uni Münster",
+           "kategorie": 1
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A1-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Grundgesamtheit ist in der Regel unbekannt.",
+           "richtig": true,
+           "begruendung": "Ja: Sie ist der „wahre“, unbekannte Zustand."
+          },
+          {
+           "text": "Die Stichprobe ist der „wahre“ Zustand.",
+           "richtig": false,
+           "begruendung": "Die Stichprobe ist der empirische, **beobachtete** Zustand; „wahr“ ist die Grundgesamtheit."
+          },
+          {
+           "text": "Die Stichprobe kann man beobachten.",
+           "richtig": true,
+           "begruendung": "Ja: empirisch, beobachtet."
+          },
+          {
+           "text": "Die Grundgesamtheit wird direkt beobachtet.",
+           "richtig": false,
+           "begruendung": "Sie ist unbekannt; man schließt aus der Stichprobe auf sie."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A1-w1-a4",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle.",
+         "kopf": [
+          "",
+          "Grundgesamtheit",
+          "Stichprobe"
+         ],
+         "zeilen": [
+          [
+           "Zustand",
+           {
+            "akzeptiert": [
+             "wahr, unbekannt",
+             "unbekannt",
+             "wahr"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "empirisch, beobachtet",
+             "beobachtet",
+             "empirisch"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 2
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-A1-w2",
+       "titel": "Parameter vs. Stichprobenkennwert",
+       "merke": "Kennwerte der Grundgesamtheit heißen **Parameter** (z. B. μ, σ²), Kennwerte der Stichprobe heißen **Stichprobenkennwerte** (z. B. x̄, s²).",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A1-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie heißen die Kennwerte der Grundgesamtheit?",
+          "Kennwerte wie μ und σ² heißen …"
+         ],
+         "richtig": [
+          "Parameter"
+         ],
+         "falsch": [
+          "Stichprobenkennwerte",
+          "Realisationen",
+          "Elementarereignisse"
+         ]
+        },
+        {
+         "id": "stat2-s1-A1-w2-a2",
+         "typ": "zuordnung",
+         "frage": "Ordne zu: Grundgesamtheit oder Stichprobe?",
+         "paare": [
+          {
+           "links": "μ",
+           "rechts": "Grundgesamtheit"
+          },
+          {
+           "links": "σ²",
+           "rechts": "Grundgesamtheit"
+          },
+          {
+           "links": "x̄",
+           "rechts": "Stichprobe"
+          },
+          {
+           "links": "s²",
+           "rechts": "Stichprobe"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A1-w2-a3",
+         "typ": "begriff",
+         "frage": "Wie heißen Kennwerte wie x̄ und s², die in einer Stichprobe berechnet werden?",
+         "akzeptiert": [
+          "Stichprobenkennwerte",
+          "Stichprobenkennwert"
+         ],
+         "musterloesung": "Stichprobenkennwerte."
+        },
+        {
+         "id": "stat2-s1-A1-w2-a4",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle.",
+         "kopf": [
+          "Kennwert",
+          "gehört zur …",
+          "heißt …"
+         ],
+         "zeilen": [
+          [
+           "μ",
+           {
+            "akzeptiert": [
+             "Grundgesamtheit"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "Parameter"
+            ]
+           }
+          ],
+          [
+           "x̄",
+           {
+            "akzeptiert": [
+             "Stichprobe"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "Stichprobenkennwert",
+             "Stichprobenkennwerte"
+            ]
+           }
+          ],
+          [
+           "σ²",
+           {
+            "akzeptiert": [
+             "Grundgesamtheit"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "Parameter"
+            ]
+           }
+          ],
+          [
+           "s²",
+           {
+            "akzeptiert": [
+             "Stichprobe"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "Stichprobenkennwert",
+             "Stichprobenkennwerte"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-A2",
+     "titel": "Deskription und Inferenz",
+     "wissen": [
+      {
+       "id": "stat2-s1-A2-w1",
+       "titel": "Deskription",
+       "merke": "**Deskription** (deskriptive Statistik, Statistik 1) berechnet Stichprobenkennwerte und trifft Aussagen **über die Stichprobe**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A2-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Worüber trifft die deskriptive Statistik Aussagen?",
+          "Die Deskription beschreibt …"
+         ],
+         "richtig": [
+          "die Stichprobe"
+         ],
+         "falsch": [
+          "die Grundgesamtheit",
+          "die „wahren“ Parameter",
+          "zukünftige Zufallsprozesse"
+         ]
+        },
+        {
+         "id": "stat2-s1-A2-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Deskription berechnet Stichprobenkennwerte.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Die Deskription trifft Wahrscheinlichkeitsaussagen über die Grundgesamtheit.",
+           "richtig": false,
+           "begruendung": "Das macht die **Inferenz**; die Deskription beschreibt nur die Stichprobe."
+          },
+          {
+           "text": "Deskriptive Statistik war Thema von Statistik 1.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A2-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die {} Statistik berechnet {} und trifft Aussagen über die {}.",
+         "luecken": [
+          [
+           "deskriptive",
+           "Deskription",
+           "beschreibende"
+          ],
+          [
+           "Stichprobenkennwerte",
+           "Kennwerte"
+          ],
+          [
+           "Stichprobe"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-A2-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Was macht die deskriptive Statistik? Antworte in wenigen Worten.",
+         "akzeptiert": [
+          "Aussagen über die Stichprobe",
+          "Stichprobe beschreiben",
+          "Stichprobenkennwerte berechnen",
+          "beschreibt die Stichprobe"
+         ],
+         "musterloesung": "Sie berechnet Stichprobenkennwerte und trifft Aussagen über die Stichprobe."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-A2-w2",
+       "titel": "Inferenz",
+       "merke": "**Inferenz** (Inferenzstatistik, Statistik 2) trifft **(Wahrscheinlichkeits-)Aussagen** über die „wahren“ Werte der **Grundgesamtheit** – durch **Schätzen und Testen**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A2-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Worüber trifft die Inferenzstatistik Aussagen?",
+          "Die Inferenz zielt auf …"
+         ],
+         "richtig": [
+          "die „wahren“ Werte der Grundgesamtheit"
+         ],
+         "falsch": [
+          "nur die beobachtete Stichprobe",
+          "einzelne Messwerte",
+          "die Datenerhebung selbst"
+         ]
+        },
+        {
+         "id": "stat2-s1-A2-w2-a2",
+         "typ": "beispiel",
+         "frage": "Deskriptiv oder inferenzstatistisch?",
+         "kategorien": [
+          "Deskription",
+          "Inferenz"
+         ],
+         "items": [
+          {
+           "text": "„In unserer Stichprobe liegt der Mittelwert bei 3,2.“",
+           "kategorie": 0
+          },
+          {
+           "text": "Aussagen über die Motivation der 389 befragten Studierenden",
+           "kategorie": 0
+          },
+          {
+           "text": "Aussagen über die „wahre“ Motivation aller Studierenden in Deutschland",
+           "kategorie": 1
+          },
+          {
+           "text": "Wahrscheinlichkeitsaussage über den Parameter μ",
+           "kategorie": 1
+          },
+          {
+           "text": "Stichprobenkennwerte berechnen",
+           "kategorie": 0
+          },
+          {
+           "text": "Hypothesen testen",
+           "kategorie": 1
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A2-w2-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Inferenzstatistik trifft {}aussagen über die „wahren“ Werte der {}.",
+         "luecken": [
+          [
+           "Wahrscheinlichkeits",
+           "Wahrscheinlichkeit"
+          ],
+          [
+           "Grundgesamtheit"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-A2-w2-a4",
+         "typ": "fall",
+         "fall": "Eine Forscherin befragt 500 Lehrkräfte aus NRW zu ihrer Arbeitszufriedenheit. Sie berichtet: (1) „Die befragten Lehrkräfte sind im Mittel eher zufrieden.“ (2) „Lehrkräfte in NRW sind vermutlich im Mittel eher zufrieden.“",
+         "frage": "Welche Aussage ist deskriptiv, welche inferenzstatistisch? Begründe.",
+         "kernpunkte": [
+          "(1) deskriptiv: Aussage über die Stichprobe",
+          "(2) inferenzstatistisch: Aussage über die Grundgesamtheit",
+          "Inferenz: Rückschluss von der Stichprobe auf die Grundgesamtheit"
+         ],
+         "musterloesung": "Aussage (1) beschreibt nur die 500 Befragten, also die Stichprobe – deskriptiv. Aussage (2) schließt auf alle Lehrkräfte in NRW, also auf die Grundgesamtheit – inferenzstatistisch."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-A2b",
+     "titel": "Der Weg zwischen den Welten",
+     "wissen": [
+      {
+       "id": "stat2-s1-A2b-w1",
+       "titel": "Stichprobe ziehen, beschreiben, zurückschließen",
+       "merke": "Aus der Grundgesamtheit wird eine **Stichprobe gezogen**; die Stichprobe wird **deskriptiv beschrieben**; über die **Inferenz** schließt man von der Stichprobe zurück auf die Grundgesamtheit.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A2b-w1-a1",
+         "typ": "reihenfolge",
+         "frage": "Bringe die Schritte in die richtige Reihenfolge.",
+         "elemente": [
+          "Stichprobe aus der Grundgesamtheit ziehen",
+          "Stichprobe deskriptiv beschreiben",
+          "per Inferenz auf die Grundgesamtheit zurückschließen"
+         ]
+        },
+        {
+         "id": "stat2-s1-A2b-w1-a2",
+         "typ": "single",
+         "frage": "In welche Richtung geht die Inferenz?",
+         "richtig": [
+          "von der Stichprobe zur Grundgesamtheit"
+         ],
+         "falsch": [
+          "von der Grundgesamtheit zur Stichprobe",
+          "von der Stichprobe zu einer zweiten Stichprobe",
+          "vom Parameter zum Messwert"
+         ]
+        },
+        {
+         "id": "stat2-s1-A2b-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Inferenz baut auf der Beschreibung der Stichprobe auf.",
+           "richtig": true,
+           "begruendung": "Ja: Inferenzstatistik trifft Aussagen „auf Basis der Stichprobe, die in der deskriptiven Statistik beschrieben wurde“."
+          },
+          {
+           "text": "Bei der Inferenz wird die Grundgesamtheit vollständig erhoben.",
+           "richtig": false,
+           "begruendung": "Nein: Man schließt aus einer **Stichprobe** zurück, weil die Grundgesamtheit unbekannt ist."
+          },
+          {
+           "text": "Die Stichprobe wird aus der Grundgesamtheit gezogen.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A2b-w1-a4",
+         "typ": "offen",
+         "frage": "Beschreibe den Weg von der Grundgesamtheit über die Stichprobe zurück zur Grundgesamtheit.",
+         "kernpunkte": [
+          "Stichprobe aus der Grundgesamtheit ziehen",
+          "Stichprobe deskriptiv beschreiben",
+          "per Inferenz auf die Grundgesamtheit zurückschließen"
+         ],
+         "musterloesung": "Aus der (wahren, unbekannten) Grundgesamtheit wird eine Stichprobe gezogen. Diese wird mit Stichprobenkennwerten beschrieben (Deskription). Mit Inferenzstatistik schließt man dann von der Stichprobe zurück auf die Grundgesamtheit."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-A3",
+     "titel": "Die Definition",
+     "wissen": [
+      {
+       "id": "stat2-s1-A3-w1",
+       "titel": "Definition Inferenzstatistik",
+       "merke": "Inferenzstatistik ist ein **(mathematisches) Hilfsmittel**, um auf Basis von **Informationen aus einer Stichprobe** und **statistischer Modellannahmen** über die Grundgesamtheit **Rückschlüsse auf die Situation in der Grundgesamtheit** zu ziehen.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A3-w1-a1",
+         "typ": "multi",
+         "frage": "Was gehört zur Definition der Inferenzstatistik?",
+         "richtig": [
+          "(mathematisches) Hilfsmittel",
+          "Informationen aus einer Stichprobe",
+          "statistische Modellannahmen",
+          "Rückschlüsse auf die Grundgesamtheit"
+         ],
+         "falsch": [
+          "vollständige Erhebung der Grundgesamtheit",
+          "Beschreibung nur der Stichprobe",
+          "Auslegung von Gesetzen"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
+        },
+        {
+         "id": "stat2-s1-A3-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Inferenzstatistik ist ein (mathematisches) {}, um auf Basis von Informationen aus einer {} und statistischer {} über die Grundgesamtheit Rückschlüsse auf die Situation in der {} zu ziehen.",
+         "luecken": [
+          [
+           "Hilfsmittel"
+          ],
+          [
+           "Stichprobe"
+          ],
+          [
+           "Modellannahmen",
+           "Modellannahme"
+          ],
+          [
+           "Grundgesamtheit"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-A3-w1-a3",
+         "typ": "fehler",
+         "frage": "In dieser Definition stecken zwei Fehler.",
+         "segmente": [
+          {
+           "text": "Inferenzstatistik ist ein (mathematisches) Hilfsmittel, um auf Basis von Informationen aus einer"
+          },
+          {
+           "text": "vollständigen Erhebung",
+           "fehler": true,
+           "korrektur": "**Stichprobe**"
+          },
+          {
+           "text": "und statistischer Modellannahmen über die Grundgesamtheit Rückschlüsse auf die Situation in der"
+          },
+          {
+           "text": "Stichprobe",
+           "fehler": true,
+           "korrektur": "**Grundgesamtheit**"
+          },
+          {
+           "text": "zu ziehen."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-A3-w1-a4",
+         "typ": "definition",
+         "frage": "Definiere Inferenzstatistik.",
+         "kernpunkte": [
+          "(mathematisches) Hilfsmittel",
+          "auf Basis von Informationen aus einer Stichprobe",
+          "und statistischer Modellannahmen über die Grundgesamtheit",
+          "Rückschlüsse auf die Situation in der Grundgesamtheit"
+         ],
+         "musterloesung": "Inferenzstatistik ist ein (mathematisches) Hilfsmittel, um auf Basis von Informationen aus einer Stichprobe und statistischer Modellannahmen über die Grundgesamtheit Rückschlüsse auf die Situation in der Grundgesamtheit zu ziehen."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-A3b",
+     "titel": "Schätzen und Testen",
+     "wissen": [
+      {
+       "id": "stat2-s1-A3b-w1",
+       "titel": "Wofür Inferenzstatistik eingesetzt wird",
+       "merke": "Inferenzstatistik wird eingesetzt, um (1) **Kennwerte zu schätzen** und ihre **Genauigkeit** zu bestimmen und (2) **Hypothesen zu testen**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A3b-w1-a1",
+         "typ": "multi",
+         "frage": "Wofür wird Inferenzstatistik eingesetzt?",
+         "richtig": [
+          "Kennwerte schätzen",
+          "die Genauigkeit von Schätzungen bestimmen",
+          "Hypothesen testen"
+         ],
+         "falsch": [
+          "Daten erheben",
+          "nur die Stichprobe beschreiben",
+          "Grundgesamtheiten vollständig auszählen"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
+        },
+        {
+         "id": "stat2-s1-A3b-w1-a2",
+         "typ": "wasPasstNicht",
+         "frage": "Was gehört **nicht** zu den Einsatzzwecken der Inferenzstatistik?",
+         "gehoert": [
+          "Kennwerte schätzen",
+          "Genauigkeit bestimmen",
+          "Hypothesen testen"
+         ],
+         "ausreisser": [
+          "Stichprobe nur beschreiben",
+          "Fragebogen entwickeln",
+          "Grundgesamtheit vollständig erheben"
+         ]
+        },
+        {
+         "id": "stat2-s1-A3b-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Inferenzstatistik wird eingesetzt, um Kennwerte zu {} und ihre {} zu bestimmen sowie um Hypothesen zu {}.",
+         "luecken": [
+          [
+           "schätzen"
+          ],
+          [
+           "Genauigkeit"
+          ],
+          [
+           "testen",
+           "prüfen",
+           "überprüfen"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-A3b-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Nenne die zwei großen Einsatzbereiche der Inferenzstatistik (Stichworte).",
+         "akzeptiert": [
+          "Schätzen und Testen",
+          "Testen und Schätzen",
+          "schätzen testen"
+         ],
+         "musterloesung": "Schätzen (Kennwerte und ihre Genauigkeit) und Testen (Hypothesen)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-A4",
+     "titel": "Hypothesentypen",
+     "wissen": [
+      {
+       "id": "stat2-s1-A4-w1",
+       "titel": "Unterschied, Veränderung, Zusammenhang",
+       "merke": "In der Vorlesung werden drei **Hypothesentypen** unterschieden: **Unterschied**, **Veränderung** und **Zusammenhang**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-A4-w1-a1",
+         "typ": "beispiel",
+         "frage": "Welcher Hypothesentyp ist das?",
+         "kategorien": [
+          "Unterschied",
+          "Veränderung",
+          "Zusammenhang"
+         ],
+         "items": [
+          {
+           "text": "Eltern von Kindern mit Förderbedarf an Regelschulen sind zufriedener als Eltern von Kindern an Förderschulen.",
+           "kategorie": 0
+          },
+          {
+           "text": "Nach dem Wechsel von der Förderschule zur Regelschule wird das Fähigkeitsselbstkonzept negativer.",
+           "kategorie": 1
+          },
+          {
+           "text": "Kinder mit hohem Fähigkeitsselbstkonzept haben auch gute Noten.",
+           "kategorie": 2
+          },
+          {
+           "text": "Mädchen und Jungen unterscheiden sich in ihrer Lesemotivation.",
+           "kategorie": 0
+          },
+          {
+           "text": "Nach einem Training steigt die Konzentrationsleistung.",
+           "kategorie": 1
+          },
+          {
+           "text": "Je mehr Lernzeit, desto bessere Noten.",
+           "kategorie": 2
+          }
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s1-A4-w1-a2",
+         "typ": "multi",
+         "frage": "Welche Hypothesentypen nennt die Vorlesung?",
+         "richtig": [
+          "Unterschied",
+          "Veränderung",
+          "Zusammenhang"
+         ],
+         "falsch": [
+          "Ursache",
+          "Beschreibung",
+          "Vollerhebung"
+         ]
+        },
+        {
+         "id": "stat2-s1-A4-w1-a3",
+         "typ": "single",
+         "fragen": [
+          "„Kinder mit einem hohen Fähigkeitsselbstkonzept haben auch gute Noten.“ – Welcher Hypothesentyp?"
+         ],
+         "richtig": [
+          "Zusammenhang"
+         ],
+         "falsch": [
+          "Unterschied",
+          "Veränderung",
+          "Deskription"
+         ]
+        },
+        {
+         "id": "stat2-s1-A4-w1-a4",
+         "typ": "fall",
+         "fall": "Eine Schulleitung vermutet: „Nach Einführung der Ganztagsschule sinkt die Zahl der Fehltage.“",
+         "frage": "Um welchen Hypothesentyp handelt es sich? Begründe kurz.",
+         "kernpunkte": [
+          "Veränderung",
+          "Vergleich vorher und nachher (zeitliche Veränderung)"
+         ],
+         "musterloesung": "Eine **Veränderungshypothese**: Es geht um eine Veränderung über die Zeit (vor vs. nach der Einführung)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-A-mix1",
+     "titel": "Mix: Inferenzstatistik",
+     "mix": [
+      "stat2-s1-A1",
+      "stat2-s1-A2",
+      "stat2-s1-A2b",
+      "stat2-s1-A3",
+      "stat2-s1-A3b",
+      "stat2-s1-A4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s1-B",
+   "titel": "Der Zufallsprozess",
+   "farbe": 150,
+   "level": [
+    {
+     "id": "stat2-s1-B1",
+     "titel": "Die Definition",
+     "wissen": [
+      {
+       "id": "stat2-s1-B1-w1",
+       "titel": "Definition Zufallsprozess",
+       "merke": "Ein **Zufallsprozess** ist ein **prinzipiell beliebig oft wiederholbarer Vorgang**, der (1) **nach festen Regeln** ausgeführt wird, bei dem (2) **mindestens zwei verschiedene Ergebnisse** möglich sind und bei dem (3) **im Vorfeld nicht eindeutig bestimmt** werden kann, welches Resultat eintritt.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-B1-w1-a1",
+         "typ": "multi",
+         "frage": "Welche Kriterien gehören zur Definition eines Zufallsprozesses?",
+         "richtig": [
+          "nach festen Regeln ausgeführt",
+          "mindestens zwei verschiedene Ergebnisse möglich",
+          "Ergebnis im Vorfeld nicht eindeutig bestimmbar",
+          "prinzipiell beliebig oft wiederholbar"
+         ],
+         "falsch": [
+          "genau ein mögliches Ergebnis",
+          "nur einmal durchführbar",
+          "Ergebnis vorher bekannt"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
+        },
+        {
+         "id": "stat2-s1-B1-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Ein Zufallsprozess ist ein prinzipiell beliebig oft {} Vorgang, der nach {} Regeln ausgeführt wird, bei dem mindestens {} verschiedene Ergebnisse möglich sind und bei dem im Vorfeld nicht eindeutig bestimmt werden kann, welches {} eintreten wird.",
+         "luecken": [
+          [
+           "wiederholbarer",
+           "wiederholbar"
+          ],
+          [
+           "festen",
+           "fest"
+          ],
+          [
+           "zwei",
+           "2"
+          ],
+          [
+           "Resultat",
+           "Ergebnis"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-B1-w1-a3",
+         "typ": "fehler",
+         "frage": "In dieser Definition stecken zwei Fehler.",
+         "segmente": [
+          {
+           "text": "Ein Zufallsprozess ist ein"
+          },
+          {
+           "text": "nur einmal durchführbarer",
+           "fehler": true,
+           "korrektur": "**prinzipiell beliebig oft wiederholbarer**"
+          },
+          {
+           "text": "Vorgang, der nach festen Regeln ausgeführt wird, bei dem"
+          },
+          {
+           "text": "mindestens ein",
+           "fehler": true,
+           "korrektur": "**mindestens zwei** verschiedene Ergebnisse"
+          },
+          {
+           "text": "mögliches Ergebnis vorkommt und bei dem im Vorfeld nicht eindeutig bestimmt werden kann, welches Resultat eintritt."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-B1-w1-a4",
+         "typ": "definition",
+         "frage": "Definiere den Begriff Zufallsprozess.",
+         "kernpunkte": [
+          "prinzipiell beliebig oft wiederholbarer Vorgang",
+          "nach festen Regeln ausgeführt",
+          "mindestens zwei verschiedene Ergebnisse möglich",
+          "Ergebnis im Vorfeld nicht eindeutig bestimmbar"
+         ],
+         "musterloesung": "Ein Zufallsprozess ist ein prinzipiell beliebig oft wiederholbarer Vorgang, der nach festen Regeln ausgeführt wird, bei dem mindestens zwei verschiedene Ergebnisse möglich sind und bei dem im Vorfeld nicht eindeutig bestimmt werden kann, welches Resultat eintreten wird."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-B1b",
+     "titel": "Beispiele und ihre Ergebnisse",
+     "wissen": [
+      {
+       "id": "stat2-s1-B1b-w1",
+       "titel": "Beispiele für Zufallsprozesse",
+       "merke": "Beispiele: **Würfeln** (1–6 Augen), **Glücksrad** mit 4 Farben (rot, gelb, grün, blau), **Münzwurf** (Kopf, Zahl), **Ziehen eines Loses** (Gewinn, Niete).",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-B1b-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne jedem Zufallsprozess seine möglichen Ergebnisse zu.",
+         "paare": [
+          {
+           "links": "Würfeln mit 6-seitigem Würfel",
+           "rechts": "1, 2, 3, 4, 5, 6 Augen"
+          },
+          {
+           "links": "Werfen einer Münze",
+           "rechts": "Kopf, Zahl"
+          },
+          {
+           "links": "Ziehen eines Loses",
+           "rechts": "Gewinn, Niete"
+          },
+          {
+           "links": "Glücksrad mit 4 Farben",
+           "rechts": "rot, gelb, grün, blau"
+          },
+          {
+           "links": "Glücksrad mit Feldern 1–10",
+           "rechts": "Feld 1, …, Feld 10"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-B1b-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Welche Ergebnisse hat der Zufallsprozess „Ziehen eines Loses“?",
+          "Ziehen eines Loses – mögliche Ergebnisse?"
+         ],
+         "richtig": [
+          "Gewinn, Niete"
+         ],
+         "falsch": [
+          "nur Gewinn",
+          "Kopf, Zahl",
+          "1 bis 6"
+         ]
+        },
+        {
+         "id": "stat2-s1-B1b-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Ist das ein Zufallsprozess im Sinne der Vorlesung?",
+         "aussagen": [
+          {
+           "text": "Würfeln mit einem 8-seitigen Würfel",
+           "richtig": true,
+           "begruendung": "Ja: wiederholbar, feste Regeln, 8 mögliche Ergebnisse, nicht vorhersagbar."
+          },
+          {
+           "text": "Werfen einer Münze, die auf beiden Seiten Kopf zeigt",
+           "richtig": false,
+           "begruendung": "Nein: Es gibt nur **ein** mögliches Ergebnis."
+          },
+          {
+           "text": "Einmaliges Drehen eines Glücksrads mit den Feldern 1–10",
+           "richtig": true,
+           "begruendung": "Ja (Beispiel aus dem Übungszettel 1)."
+          },
+          {
+           "text": "„Morgen scheint die Sonne.“",
+           "richtig": false,
+           "begruendung": "Nein: Der Vorgang ist nicht beliebig oft unter festen Regeln wiederholbar."
+          }
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s1-B1b-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Nenne ein Beispiel für einen Zufallsprozess aus der Vorlesung.",
+         "akzeptiert": [
+          "Würfeln",
+          "Münzwurf",
+          "Werfen einer Münze",
+          "Glücksrad",
+          "Ziehen eines Loses",
+          "Los ziehen",
+          "Würfelwurf",
+          "Münze werfen",
+          "Glücksrad drehen"
+         ],
+         "musterloesung": "Z. B. Würfeln, Werfen einer Münze, Drehen eines Glücksrads, Ziehen eines Loses."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-B1c",
+     "titel": "Prozess oder Ergebnis?",
+     "wissen": [
+      {
+       "id": "stat2-s1-B1c-w1",
+       "titel": "Typische Fallen",
+       "merke": "Ein Zufallsprozess braucht **mindestens zwei** Ergebnisse. „Eine gerade Zahl würfeln“ ist **kein** Zufallsprozess, sondern ein mögliches **Ergebnis/Zufallsereignis** – der Zufallsprozess ist das **Würfeln** selbst.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-B1c-w1-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Ein Zufallsprozess kann auch nur ein mögliches Ergebnis haben.",
+           "richtig": false,
+           "begruendung": "Falsch: Es braucht mindestens zwei unterscheidbare Ergebnisse."
+          },
+          {
+           "text": "„Eine gerade Zahl würfeln“ ist ein Zufallsprozess.",
+           "richtig": false,
+           "begruendung": "Falsch: Das ist ein mögliches Ergebnis bzw. Zufallsereignis; der Zufallsprozess ist das Würfeln."
+          },
+          {
+           "text": "Das Würfeln mit einem 8-seitigen Würfel ist ein Zufallsprozess.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Ein möglicher Zufallsprozess beim Würfeln mit einem 8-seitigen Würfel wäre, dass eine gerade Zahl gewürfelt wird.",
+           "richtig": false,
+           "begruendung": "Falsch: Das wäre ein mögliches Ergebnis (Zufallsereignis), kein Zufallsprozess."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-B1c-w1-a2",
+         "typ": "beispiel",
+         "frage": "Zufallsprozess oder Ergebnis/Ereignis?",
+         "kategorien": [
+          "Zufallsprozess",
+          "Ergebnis/Ereignis"
+         ],
+         "items": [
+          {
+           "text": "Würfeln",
+           "kategorie": 0
+          },
+          {
+           "text": "eine gerade Zahl fällt",
+           "kategorie": 1
+          },
+          {
+           "text": "Münze werfen",
+           "kategorie": 0
+          },
+          {
+           "text": "Kopf liegt oben",
+           "kategorie": 1
+          },
+          {
+           "text": "einmaliges Ziehen eines Zettels aus einer Urne",
+           "kategorie": 0
+          },
+          {
+           "text": "Niete",
+           "kategorie": 1
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-B1c-w1-a3",
+         "typ": "single",
+         "frage": "Was ist bei „Mit einem Würfel eine 6 werfen“ der Zufallsprozess?",
+         "richtig": [
+          "das Würfeln"
+         ],
+         "falsch": [
+          "die 6",
+          "die gerade Zahl",
+          "die Ergebnismenge"
+         ]
+        },
+        {
+         "id": "stat2-s1-B1c-w1-a4",
+         "typ": "offen",
+         "frage": "Warum ist das Werfen einer Münze mit zwei Kopf-Seiten kein Zufallsprozess?",
+         "kernpunkte": [
+          "nur ein mögliches Ergebnis",
+          "Zufallsprozess braucht mindestens zwei Ergebnisse",
+          "Ergebnis ist vorher bekannt"
+         ],
+         "musterloesung": "Es gibt nur ein mögliches Ergebnis (Kopf). Ein Zufallsprozess braucht aber mindestens zwei verschiedene Ergebnisse, und das Resultat darf vorher nicht feststehen."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-B2",
+     "titel": "Zufallsprozess erkennen",
+     "wissen": [
+      {
+       "id": "stat2-s1-B2-w1",
+       "titel": "Die Kriterien anwenden",
+       "merke": "Um zu prüfen, ob ein Zufallsprozess vorliegt, prüft man alle Kriterien: **wiederholbar**, **feste Regeln**, **mindestens zwei Ergebnisse**, **Ergebnis nicht vorhersagbar**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-B2-w1-a1",
+         "typ": "fall",
+         "fall": "In einem Spieleladen ziehen Kund*innen aus einer Urne einen Zettel: Kartenspiel, Würfel oder Murmel. Der Zettel wird danach zurückgelegt.",
+         "frage": "Was ist hier der Zufallsprozess?",
+         "kernpunkte": [
+          "das einmalige Ziehen eines Zettels"
+         ],
+         "musterloesung": "Der Zufallsprozess ist **das einmalige Ziehen eines Zettels** (aus Übungszettel 1)."
+        },
+        {
+         "id": "stat2-s1-B2-w1-a2",
+         "typ": "fall",
+         "fall": "Ein Lehrer lässt jede Stunde per Zufallsgenerator eine*n von 25 Schüler*innen an die Tafel kommen.",
+         "frage": "Prüfe anhand der Kriterien, ob das ein Zufallsprozess ist.",
+         "kernpunkte": [
+          "beliebig oft wiederholbar (jede Stunde)",
+          "feste Regeln (Zufallsgenerator)",
+          "mindestens zwei Ergebnisse (25 Schüler*innen)",
+          "Ergebnis nicht vorhersagbar"
+         ],
+         "musterloesung": "Ja: Der Vorgang ist wiederholbar, folgt festen Regeln, hat 25 mögliche Ergebnisse, und vorher steht nicht fest, wer drankommt."
+        },
+        {
+         "id": "stat2-s1-B2-w1-a3",
+         "typ": "single",
+         "frage": "Welches Kriterium verletzt „Morgen scheint die Sonne“?",
+         "richtig": [
+          "Der Vorgang ist nicht beliebig oft unter festen Regeln wiederholbar."
+         ],
+         "falsch": [
+          "Es gibt nur ein mögliches Ergebnis.",
+          "Das Ergebnis ist im Vorfeld sicher bekannt.",
+          "Es gibt keine Ergebnismenge."
+         ],
+         "pruefen": true,
+         "erklaerung": "Diese Antwort stammt aus einer selbst erstellten Zusatzaufgabe deiner Unterlagen, nicht direkt von den Folien."
+        },
+        {
+         "id": "stat2-s1-B2-w1-a4",
+         "typ": "wasPasstNicht",
+         "frage": "Welches ist **kein** Kriterium eines Zufallsprozesses?",
+         "gehoert": [
+          "feste Regeln",
+          "mindestens zwei mögliche Ergebnisse",
+          "Ergebnis nicht vorhersagbar",
+          "beliebig oft wiederholbar"
+         ],
+         "ausreisser": [
+          "genau ein mögliches Ergebnis",
+          "Ergebnis vorher bekannt",
+          "nur einmal durchführbar"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-B-mix1",
+     "titel": "Mix: Zufallsprozess",
+     "mix": [
+      "stat2-s1-B1",
+      "stat2-s1-B1b",
+      "stat2-s1-B1c",
+      "stat2-s1-B2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s1-C",
+   "titel": "Exkurs: Mengenlehre",
+   "farbe": 30,
+   "level": [
+    {
+     "id": "stat2-s1-C1",
+     "titel": "Menge und Element",
+     "wissen": [
+      {
+       "id": "stat2-s1-C1-w1",
+       "titel": "Was ist eine Menge?",
+       "merke": "Eine **Menge** ist eine Zusammenfassung von **unterscheidbaren „Dingen“**, den **Elementen**. Man schreibt die Elemente in **geschweifte Klammern**, z. B. {Gymnasium, Realschule, …}.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie heißen die „Dinge“, aus denen eine Menge besteht?",
+          "Eine Menge fasst unterscheidbare „Dinge“ zusammen. Wie heißen sie?"
+         ],
+         "richtig": [
+          "Elemente"
+         ],
+         "falsch": [
+          "Realisationen",
+          "Teilmengen",
+          "Parameter"
+         ]
+        },
+        {
+         "id": "stat2-s1-C1-w1-a2",
+         "typ": "single",
+         "frage": "Wie schreibt man eine Menge auf?",
+         "richtig": [
+          "Elemente in geschweiften Klammern { }"
+         ],
+         "falsch": [
+          "Elemente in runden Klammern ( )",
+          "Elemente in eckigen Klammern [ ]",
+          "Elemente mit „und“ verbunden"
+         ]
+        },
+        {
+         "id": "stat2-s1-C1-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Eine Menge ist eine Zusammenfassung von {} „Dingen“, den sogenannten {}. Sie werden in {} Klammern aufgelistet.",
+         "luecken": [
+          [
+           "unterscheidbaren",
+           "unterscheidbare"
+          ],
+          [
+           "Elementen",
+           "Elemente"
+          ],
+          [
+           "geschweiften",
+           "geschweifte"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-C1-w1-a4",
+         "typ": "definition",
+         "frage": "Was ist eine Menge?",
+         "kernpunkte": [
+          "Zusammenfassung von unterscheidbaren Dingen",
+          "die Dinge heißen Elemente",
+          "Darstellung in geschweiften Klammern"
+         ],
+         "musterloesung": "Eine Menge ist eine Zusammenfassung von unterscheidbaren „Dingen“, den Elementen. Sie wird dargestellt, indem man die Elemente in geschweiften Klammern auflistet."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-C1-w2",
+       "titel": "Notation",
+       "merke": "Mengen schreibt man mit **Großbuchstaben**, Elemente mit **Kleinbuchstaben**: A = {a₁, …, aₙ}. **a₁ ∈ A** heißt „a₁ ist **Element von** A“.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C1-w2-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "a ∈ A",
+           "rechts": "a ist Element von A"
+          },
+          {
+           "links": "A",
+           "rechts": "Menge (Großbuchstabe)"
+          },
+          {
+           "links": "a₁",
+           "rechts": "Element (Kleinbuchstabe)"
+          },
+          {
+           "links": "{ }",
+           "rechts": "leere Menge"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-C1-w2-a2",
+         "typ": "single",
+         "frage": "Was bedeutet a₁ ∈ A?",
+         "richtig": [
+          "a₁ ist Element von A"
+         ],
+         "falsch": [
+          "a₁ ist Teilmenge von A",
+          "A ist Element von a₁",
+          "a₁ ist nicht in A"
+         ]
+        },
+        {
+         "id": "stat2-s1-C1-w2-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Mengen werden mit Großbuchstaben bezeichnet.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Elemente werden mit Großbuchstaben bezeichnet.",
+           "richtig": false,
+           "begruendung": "Elemente schreibt man mit **Kleinbuchstaben**."
+          },
+          {
+           "text": "„∈“ liest man „ist Element von“.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-C1-w2-a4",
+         "typ": "begriff",
+         "frage": "Wie liest man das Zeichen ∈ in a ∈ A?",
+         "akzeptiert": [
+          "ist Element von",
+          "Element von",
+          "Element"
+         ],
+         "musterloesung": "„a ist Element von A“."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-C2",
+     "titel": "Teilmenge",
+     "wissen": [
+      {
+       "id": "stat2-s1-C2-w1",
+       "titel": "Teilmenge",
+       "merke": "**A ⊂ B** („A enthalten in B“): A hat **höchstens so viele Elemente** wie B, und **alle Elemente von A stammen aus B**. Auch die **leere Menge** und die **Ausgangsmenge selbst** sind Teilmengen.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C2-w1-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die leere Menge ist Teilmenge jeder Menge.",
+           "richtig": true,
+           "begruendung": "Ja: Die leere Menge ist Teilmenge jeder Menge."
+          },
+          {
+           "text": "Die Ausgangsmenge selbst ist keine Teilmenge von sich.",
+           "richtig": false,
+           "begruendung": "Doch: Auch die Ausgangsmenge selbst ist eine Teilmenge."
+          },
+          {
+           "text": "Eine Teilmenge kann mehr Elemente haben als die Ausgangsmenge.",
+           "richtig": false,
+           "begruendung": "Sie hat **höchstens so viele** Elemente wie die Ausgangsmenge."
+          },
+          {
+           "text": "A₁ = { } kann Teilmenge sowohl von „einfacher Würfelwurf“ als auch von „Drehen eines Glücksrads“ sein.",
+           "richtig": true,
+           "begruendung": "Richtig: Die leere Menge ist Teilmenge jeder Menge."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-C2-w1-a2",
+         "typ": "multi",
+         "frage": "Welche Mengen sind Teilmengen von B = {1, 2, 3}?",
+         "richtig": [
+          "{1, 2}",
+          "{3}",
+          "{ }",
+          "{1, 2, 3}"
+         ],
+         "falsch": [
+          "{4}",
+          "{1, 4}",
+          "{0, 1}"
+         ]
+        },
+        {
+         "id": "stat2-s1-C2-w1-a3",
+         "typ": "single",
+         "frage": "Was bedeutet A ⊂ B?",
+         "richtig": [
+          "A ist Teilmenge von B (A enthalten in B)"
+         ],
+         "falsch": [
+          "A ist Element von B",
+          "A und B sind disjunkt",
+          "A vereinigt B"
+         ]
+        },
+        {
+         "id": "stat2-s1-C2-w1-a4",
+         "typ": "definition",
+         "frage": "Was ist eine Teilmenge?",
+         "kernpunkte": [
+          "höchstens so viele Elemente wie die Ausgangsmenge",
+          "alle Elemente stammen aus der Ausgangsmenge",
+          "auch leere Menge und Ausgangsmenge selbst sind Teilmengen"
+         ],
+         "musterloesung": "Eine Teilmenge A ⊂ B ist eine Menge, die höchstens so viele Elemente hat wie die Ausgangsmenge und deren Elemente alle aus der Ausgangsmenge stammen. Auch die leere Menge und die Ausgangsmenge selbst sind Teilmengen."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-C2-w2",
+       "titel": "Anzahl der Teilmengen: 2ⁿ",
+       "merke": "Eine Menge mit **n** Elementen hat **2ⁿ Teilmengen** (z. B. 3 Elemente → 2³ = **8** Teilmengen, inklusive leerer Menge und Ausgangsmenge).",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C2-w2-a1",
+         "typ": "kurzfrage",
+         "fragen": [
+          "Wie viele Teilmengen hat eine Menge mit 3 Elementen?",
+          "Ω = {Kartenspiel, Würfel, Murmel}. Wie viele Teilmengen gibt es?"
+         ],
+         "akzeptiert": [
+          "8"
+         ],
+         "musterloesung": "2³ = **8** Teilmengen."
+        },
+        {
+         "id": "stat2-s1-C2-w2-a2",
+         "typ": "kurzfrage",
+         "frage": "Wie viele Teilmengen hat Ω = {Kopf, Zahl}?",
+         "akzeptiert": [
+          "4"
+         ],
+         "musterloesung": "2² = **4**: {Kopf, Zahl}, {Kopf}, {Zahl}, { }."
+        },
+        {
+         "id": "stat2-s1-C2-w2-a3",
+         "typ": "kurzfrage",
+         "frage": "Wie viele Teilmengen hat die Ergebnismenge eines 6-seitigen Würfels?",
+         "akzeptiert": [
+          "64"
+         ],
+         "musterloesung": "2⁶ = **64** Teilmengen."
+        },
+        {
+         "id": "stat2-s1-C2-w2-a4",
+         "typ": "single",
+         "frage": "Nach welcher Formel berechnet man die Anzahl der Teilmengen einer Menge mit n Elementen?",
+         "richtig": [
+          "2ⁿ"
+         ],
+         "falsch": [
+          "n²",
+          "2·n",
+          "n!"
+         ]
+        },
+        {
+         "id": "stat2-s1-C2-w2-a5",
+         "typ": "tabelle",
+         "frage": "Ergänze die Anzahl der Teilmengen.",
+         "kopf": [
+          "Elemente n",
+          "Teilmengen"
+         ],
+         "zeilen": [
+          [
+           "1",
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           }
+          ],
+          [
+           "2",
+           {
+            "akzeptiert": [
+             "4"
+            ]
+           }
+          ],
+          [
+           "3",
+           {
+            "akzeptiert": [
+             "8"
+            ]
+           }
+          ],
+          [
+           "4",
+           {
+            "akzeptiert": [
+             "16"
+            ]
+           }
+          ],
+          [
+           "5",
+           {
+            "akzeptiert": [
+             "32"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-C3",
+     "titel": "Schnittmenge und disjunkt",
+     "wissen": [
+      {
+       "id": "stat2-s1-C3-w1",
+       "titel": "Schnittmenge",
+       "merke": "Die **Schnittmenge A ∩ B** („A geschnitten B“) enthält die Elemente, die **in beiden Mengen** enthalten sind.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C3-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Welche Elemente enthält A ∩ B?",
+          "Was ist die Schnittmenge A ∩ B?"
+         ],
+         "richtig": [
+          "die Elemente, die in beiden Mengen enthalten sind"
+         ],
+         "falsch": [
+          "alle Elemente, die in mindestens einer Menge enthalten sind",
+          "die Elemente, die nur in A enthalten sind",
+          "die Anzahl der Elemente von A"
+         ]
+        },
+        {
+         "id": "stat2-s1-C3-w1-a2",
+         "typ": "single",
+         "frage": "A = {1, 2, 3}, B = {3, 4}. Was ist A ∩ B?",
+         "optionen": [
+          "{3}",
+          "{1, 2, 3, 4}",
+          "{ }",
+          "{1, 2}"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C3-w1-a3",
+         "typ": "single",
+         "frage": "A = {a, b, c, d}, B = {c, d, e}. Was ist A ∩ B?",
+         "optionen": [
+          "{c, d}",
+          "{a, b, c, d, e}",
+          "{e}",
+          "{a, b}"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C3-w1-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Schnittmenge A ∩ B (gelesen „A {} B“) enthält die Elemente, die in {} Mengen enthalten sind.",
+         "luecken": [
+          [
+           "geschnitten"
+          ],
+          [
+           "beiden",
+           "beide"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-C3-w2",
+       "titel": "Disjunkt und leere Menge",
+       "merke": "Zwei Mengen ohne **gemeinsames Element** heißen **disjunkt**. Ihre Schnittmenge ist die **leere Menge**: A ∩ B = { } = ∅.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C3-w2-a1",
+         "typ": "begriff",
+         "fragen": [
+          "Wie nennt man zwei Mengen, die kein gemeinsames Element haben?",
+          "A ∩ B = { }. Wie nennt man A und B?"
+         ],
+         "akzeptiert": [
+          "disjunkt",
+          "überschneidungsfrei"
+         ],
+         "musterloesung": "**Disjunkt** (überschneidungsfrei)."
+        },
+        {
+         "id": "stat2-s1-C3-w2-a2",
+         "typ": "single",
+         "frage": "A = {1, 3, 5}, B = {2, 4, 6}. A ∩ B = ?",
+         "optionen": [
+          "∅ (A und B sind disjunkt)",
+          "{1, 2, 3, 4, 5, 6}",
+          "{3}",
+          "{1}"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C3-w2-a3",
+         "typ": "richtigfalsch",
+         "frage": "Sind A und B disjunkt?",
+         "aussagen": [
+          {
+           "text": "A = {1, 2, 3}, B = {3, 4}: A und B sind disjunkt.",
+           "richtig": false,
+           "begruendung": "Nein: Sie haben die 3 gemeinsam."
+          },
+          {
+           "text": "A = {1, 3, 5}, B = {2, 4, 6}: A und B sind disjunkt.",
+           "richtig": true,
+           "begruendung": "Ja: kein gemeinsames Element, A ∩ B = ∅."
+          },
+          {
+           "text": "A = {a, b, c, d}, B = {c, d, e}: A und B sind disjunkt.",
+           "richtig": false,
+           "begruendung": "Nein: c und d sind in beiden."
+          },
+          {
+           "text": "Die Schnittmenge disjunkter Mengen ist die leere Menge.",
+           "richtig": true,
+           "begruendung": "Ja: A ∩ B = { } = ∅."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-C3-w2-a4",
+         "typ": "kurzfrage",
+         "frage": "Was ist die Schnittmenge zweier disjunkter Mengen?",
+         "akzeptiert": [
+          "die leere Menge",
+          "leere Menge",
+          "∅",
+          "{ }",
+          "{}"
+         ],
+         "musterloesung": "Die **leere Menge** { } = ∅."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-C4",
+     "titel": "Vereinigungsmenge",
+     "wissen": [
+      {
+       "id": "stat2-s1-C4-w1",
+       "titel": "Vereinigungsmenge",
+       "merke": "Die **Vereinigungsmenge A ∪ B** („A vereinigt B“) enthält alle Elemente, die **in mindestens einer** der beiden Mengen enthalten sind. Gemeinsame Elemente tauchen **nur einmal** auf.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C4-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Welche Elemente enthält A ∪ B?",
+          "Was ist die Vereinigungsmenge A ∪ B?"
+         ],
+         "richtig": [
+          "alle Elemente, die in mindestens einer der beiden Mengen enthalten sind"
+         ],
+         "falsch": [
+          "nur die Elemente, die in beiden Mengen enthalten sind",
+          "nur die Elemente, die in genau einer Menge enthalten sind",
+          "alle Elemente doppelt"
+         ]
+        },
+        {
+         "id": "stat2-s1-C4-w1-a2",
+         "typ": "single",
+         "frage": "A = {1, 2, 3}, B = {3, 4}. Was ist A ∪ B?",
+         "optionen": [
+          "{1, 2, 3, 4}",
+          "{1, 2, 3, 3, 4}",
+          "{3}",
+          "{1, 2, 4}"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C4-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "A ∪ B enthält alle Elemente, die in mindestens einer der beiden Mengen vorkommen.",
+           "richtig": true,
+           "begruendung": "Richtig (Übungszettel 1)."
+          },
+          {
+           "text": "In A ∪ B tauchen gemeinsame Elemente doppelt auf.",
+           "richtig": false,
+           "begruendung": "Nein: Mengen bestehen aus unterscheidbaren Elementen, gemeinsame tauchen nur einmal auf."
+          },
+          {
+           "text": "A ∪ B liest man „A vereinigt B“.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-C4-w1-a4",
+         "typ": "zuordnung",
+         "frage": "Ordne die Zeichen zu.",
+         "paare": [
+          {
+           "links": "A ∩ B",
+           "rechts": "Schnittmenge"
+          },
+          {
+           "links": "A ∪ B",
+           "rechts": "Vereinigungsmenge"
+          },
+          {
+           "links": "A ⊂ B",
+           "rechts": "Teilmenge"
+          },
+          {
+           "links": "a ∈ A",
+           "rechts": "Element von"
+          },
+          {
+           "links": "∅",
+           "rechts": "leere Menge"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-C5",
+     "titel": "Mächtigkeit",
+     "wissen": [
+      {
+       "id": "stat2-s1-C5-w1",
+       "titel": "Mächtigkeit n(A)",
+       "merke": "Die **Mächtigkeit n(A)** („n von A“) ist die **Anzahl der Elemente** einer Menge.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C5-w1-a1",
+         "typ": "begriff",
+         "fragen": [
+          "Wie heißt die Anzahl der Elemente einer Menge?",
+          "Wofür steht n(A)? Nenne den Fachbegriff."
+         ],
+         "akzeptiert": [
+          "Mächtigkeit"
+         ],
+         "musterloesung": "Die **Mächtigkeit** n(A)."
+        },
+        {
+         "id": "stat2-s1-C5-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "A = {a, b, c, d}. Wie groß ist n(A)?",
+         "akzeptiert": [
+          "4"
+         ],
+         "musterloesung": "n(A) = **4** (vier Elemente)."
+        },
+        {
+         "id": "stat2-s1-C5-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "A = {a, b, c, d}, B = {c, d, e}. Wie groß ist n(A ∪ B)?",
+         "akzeptiert": [
+          "5"
+         ],
+         "musterloesung": "A ∪ B = {a, b, c, d, e} → n = **5**."
+        },
+        {
+         "id": "stat2-s1-C5-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "A = {a, b, c, d}, B = {c, d, e}. Wie groß ist n(A ∩ B)?",
+         "akzeptiert": [
+          "2"
+         ],
+         "musterloesung": "A ∩ B = {c, d} → n = **2**."
+        },
+        {
+         "id": "stat2-s1-C5-w1-a5",
+         "typ": "single",
+         "frage": "Was ist n({ })?",
+         "richtig": [
+          "0"
+         ],
+         "falsch": [
+          "1",
+          "nicht definiert",
+          "∅"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-C5-w2",
+       "titel": "Grenzen für Schnitt und Vereinigung",
+       "merke": "Für die Mächtigkeit gilt: Teilmenge **A ⊂ B → n(A) ≤ n(B)**; Schnittmenge **0 ≤ n(A ∩ B) ≤ min(n(A), n(B))**; Vereinigung **min(n(A), n(B)) ≤ n(A ∪ B) ≤ n(A) + n(B)**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C5-w2-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Regeln zu.",
+         "paare": [
+          {
+           "links": "A ⊂ B",
+           "rechts": "n(A) ≤ n(B)"
+          },
+          {
+           "links": "A ∩ B",
+           "rechts": "0 ≤ n(A ∩ B) ≤ min(n(A), n(B))"
+          },
+          {
+           "links": "A ∪ B",
+           "rechts": "min(n(A), n(B)) ≤ n(A ∪ B) ≤ n(A) + n(B)"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-C5-w2-a2",
+         "typ": "single",
+         "frage": "Was gilt für n(A ∩ B)?",
+         "optionen": [
+          "0 ≤ n(A ∩ B) ≤ min(n(A), n(B))",
+          "n(A ∩ B) ≥ n(A) + n(B)",
+          "n(A ∩ B) = n(A) · n(B)",
+          "n(A ∩ B) ≥ max(n(A), n(B))"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C5-w2-a3",
+         "typ": "single",
+         "frage": "n(A) = 3, n(B) = 2. In welchem Bereich liegt n(A ∪ B)?",
+         "optionen": [
+          "zwischen 2 und 5",
+          "zwischen 0 und 2",
+          "zwischen 3 und 6",
+          "genau 5"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C5-w2-a4",
+         "typ": "single",
+         "frage": "n(A) = 3, n(B) = 2. In welchem Bereich liegt n(A ∩ B)?",
+         "optionen": [
+          "zwischen 0 und 2",
+          "zwischen 2 und 5",
+          "zwischen 0 und 5",
+          "genau 1"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s1-C5-w2-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "{} ≤ n(A ∩ B) ≤ {}(n(A), n(B))",
+         "luecken": [
+          [
+           "0",
+           "null"
+          ],
+          [
+           "min",
+           "Minimum"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-C5-w3",
+       "titel": "Mengen berechnen",
+       "merke": "Rechenbeispiel: A = {1, 2, 3}, B = {3, 4} → A ∩ B = {3} (n = 1), A ∪ B = {1, 2, 3, 4} (n = 4); nicht disjunkt, weil beide die 3 enthalten.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-C5-w3-a1",
+         "typ": "tabelle",
+         "frage": "A = {1, 2, 3}, B = {3, 4}. Ergänze die Tabelle.",
+         "kopf": [
+          "Ausdruck",
+          "Ergebnis"
+         ],
+         "zeilen": [
+          [
+           "n(A)",
+           {
+            "akzeptiert": [
+             "3"
+            ]
+           }
+          ],
+          [
+           "n(B)",
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           }
+          ],
+          [
+           "n(A ∩ B)",
+           {
+            "akzeptiert": [
+             "1"
+            ]
+           }
+          ],
+          [
+           "n(A ∪ B)",
+           {
+            "akzeptiert": [
+             "4"
+            ]
+           }
+          ],
+          [
+           "disjunkt?",
+           {
+            "akzeptiert": [
+             "nein"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s1-C5-w3-a2",
+         "typ": "tabelle",
+         "frage": "A = {a, b, c, d}, B = {c, d, e}. Ergänze die Tabelle.",
+         "kopf": [
+          "Ausdruck",
+          "Ergebnis"
+         ],
+         "zeilen": [
+          [
+           "A ∩ B",
+           {
+            "akzeptiert": [
+             "{c, d}",
+             "c, d",
+             "cd"
+            ]
+           }
+          ],
+          [
+           "A ∪ B",
+           {
+            "akzeptiert": [
+             "{a, b, c, d, e}",
+             "a, b, c, d, e",
+             "abcde"
+            ]
+           }
+          ],
+          [
+           "n(A ∩ B)",
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           }
+          ],
+          [
+           "n(A ∪ B)",
+           {
+            "akzeptiert": [
+             "5"
+            ]
+           }
+          ],
+          [
+           "disjunkt?",
+           {
+            "akzeptiert": [
+             "nein"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s1-C5-w3-a3",
+         "typ": "fall",
+         "fall": "Gegeben sind A = {1, 2, 3} und B = {3, 4}.",
+         "frage": "Bestimme A ∩ B und A ∪ B mit ihren Mächtigkeiten und prüfe, ob die Grenzen für n(A ∩ B) und n(A ∪ B) eingehalten sind. Sind A und B disjunkt?",
+         "kernpunkte": [
+          "A ∩ B = {3}, n = 1",
+          "A ∪ B = {1, 2, 3, 4}, n = 4",
+          "1 liegt zwischen 0 und min(3, 2) = 2",
+          "4 liegt zwischen 2 und 3 + 2 = 5",
+          "nicht disjunkt (gemeinsame 3)"
+         ],
+         "musterloesung": "A ∩ B = {3}, n = 1 – liegt zwischen 0 und min(3, 2) = 2. A ∪ B = {1, 2, 3, 4}, n = 4 – liegt zwischen 2 und 3 + 2 = 5. A und B sind nicht disjunkt, weil beide die 3 enthalten."
+        },
+        {
+         "id": "stat2-s1-C5-w3-a4",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Sind A und B disjunkt, gilt n(A ∪ B) = n(A) + n(B).",
+           "richtig": true,
+           "begruendung": "Ja: Dann wird die obere Grenze erreicht (Zusatz in deinen Unterlagen)."
+          },
+          {
+           "text": "Sind A und B nicht disjunkt, ist n(A ∪ B) kleiner als n(A) + n(B).",
+           "richtig": true,
+           "begruendung": "Ja: Gemeinsame Elemente werden nur einmal gezählt."
+          },
+          {
+           "text": "n(A ∩ B) kann größer sein als n(A).",
+           "richtig": false,
+           "begruendung": "Nein: höchstens min(n(A), n(B))."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-C-mix1",
+     "titel": "Mix: Mengenlehre",
+     "mix": [
+      "stat2-s1-C1",
+      "stat2-s1-C2",
+      "stat2-s1-C3",
+      "stat2-s1-C4",
+      "stat2-s1-C5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s1-D",
+   "titel": "Die Ergebnismenge Ω",
+   "farbe": 290,
+   "level": [
+    {
+     "id": "stat2-s1-D1",
+     "titel": "Ergebnismenge Ω",
+     "wissen": [
+      {
+       "id": "stat2-s1-D1-w1",
+       "titel": "Definition Ergebnismenge",
+       "merke": "Die **Menge aller möglichen Ergebnisse** eines Zufallsprozesses heißt **Ergebnismenge Ω** (Omega). Einzelne Ergebnisse notiert man als **ωᵢ**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-D1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie heißt die Menge aller möglichen Ergebnisse eines Zufallsprozesses?",
+          "Ω bezeichnet …"
+         ],
+         "richtig": [
+          "Ergebnismenge"
+         ],
+         "falsch": [
+          "Elementarereignis",
+          "Wertebereich",
+          "Stichprobe"
+         ]
+        },
+        {
+         "id": "stat2-s1-D1-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Menge aller möglichen {} eines Zufallsprozesses heißt {}. Man bezeichnet sie mit dem griechischen Großbuchstaben {}.",
+         "luecken": [
+          [
+           "Ergebnisse",
+           "Ergebnis"
+          ],
+          [
+           "Ergebnismenge"
+          ],
+          [
+           "Omega",
+           "Groß-Omega",
+           "Ω"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-D1-w1-a3",
+         "typ": "definition",
+         "frage": "Was ist die Ergebnismenge?",
+         "kernpunkte": [
+          "Menge aller möglichen Ergebnisse",
+          "eines Zufallsprozesses",
+          "Bezeichnung Ω"
+         ],
+         "musterloesung": "Die Ergebnismenge ist die Menge aller möglichen Ergebnisse eines Zufallsprozesses. Sie wird mit Ω bezeichnet; einzelne Ergebnisse mit ωᵢ."
+        },
+        {
+         "id": "stat2-s1-D1-w1-a4",
+         "typ": "begriff",
+         "frage": "Wie heißt der griechische Buchstabe, mit dem man die Ergebnismenge bezeichnet?",
+         "akzeptiert": [
+          "Omega",
+          "Groß-Omega",
+          "Ω"
+         ],
+         "musterloesung": "**Ω** (Groß-Omega)."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-D1-w2",
+       "titel": "Ω oder ω?",
+       "merke": "**Ω** (groß) ist die **Menge aller** möglichen Ergebnisse; **ω** bzw. ωᵢ (klein) ist **ein einzelnes** Ergebnis.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-D1-w2-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "Ω",
+           "rechts": "Menge aller möglichen Ergebnisse"
+          },
+          {
+           "links": "ωᵢ",
+           "rechts": "ein einzelnes Ergebnis"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s1-D1-w2-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "ω stellt die Menge aller möglichen Ergebnisse dar und heißt Ergebnismenge.",
+           "richtig": false,
+           "begruendung": "Falsch: **Ω** ist die Ergebnismenge, ω steht für die einzelnen Ergebnisse."
+          },
+          {
+           "text": "Ω ist die Ergebnismenge.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "ωᵢ ist ein einzelnes Ergebnis.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-D1-w2-a3",
+         "typ": "single",
+         "frage": "Was bezeichnet ω (Klein-Omega)?",
+         "richtig": [
+          "ein einzelnes Ergebnis"
+         ],
+         "falsch": [
+          "die Ergebnismenge",
+          "die leere Menge",
+          "die Wahrscheinlichkeit"
+         ]
+        },
+        {
+         "id": "stat2-s1-D1-w2-a4",
+         "typ": "fehler",
+         "frage": "Hier steckt ein Fehler.",
+         "segmente": [
+          {
+           "text": "Die Menge aller möglichen Ergebnisse eines Zufallsprozesses wird mit"
+          },
+          {
+           "text": "ω (Klein-Omega)",
+           "fehler": true,
+           "korrektur": "**Ω (Groß-Omega)**"
+          },
+          {
+           "text": "bezeichnet, ein einzelnes Ergebnis mit ωᵢ."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-D2",
+     "titel": "Ergebnismengen notieren",
+     "wissen": [
+      {
+       "id": "stat2-s1-D2-w1",
+       "titel": "Beispiele für Ergebnismengen",
+       "merke": "Würfel: Ω = {1, 2, 3, 4, 5, 6}; Münze: Ω = {Kopf, Zahl}; Glücksrad mit 4 Farben: Ω = {rot, gelb, grün, blau}; allgemein: Ω = {ω₁, ω₂, …, ωₙ}.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-D2-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne jedem Zufallsprozess seine Ergebnismenge zu.",
+         "paare": [
+          {
+           "links": "Würfeln mit 6-seitigem Würfel",
+           "rechts": "{1, 2, 3, 4, 5, 6}"
+          },
+          {
+           "links": "Werfen einer Münze",
+           "rechts": "{Kopf, Zahl}"
+          },
+          {
+           "links": "Glücksrad mit 4 Farben",
+           "rechts": "{rot, gelb, grün, blau}"
+          },
+          {
+           "links": "Ziehen eines Loses",
+           "rechts": "{Gewinn, Niete}"
+          },
+          {
+           "links": "Glücksrad mit Feldern 1–10",
+           "rechts": "{Feld 1, …, Feld 10}"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-D2-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Gib die Ergebnismenge für das Werfen einer Münze an.",
+         "akzeptiert": [
+          "{Kopf, Zahl}",
+          "Kopf, Zahl",
+          "Kopf Zahl",
+          "{Zahl, Kopf}",
+          "Zahl, Kopf"
+         ],
+         "musterloesung": "Ω = {Kopf, Zahl}"
+        },
+        {
+         "id": "stat2-s1-D2-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Gib die Ergebnismenge für das Ziehen eines Loses (Gewinn/Niete) an.",
+         "akzeptiert": [
+          "{Gewinn, Niete}",
+          "Gewinn, Niete",
+          "Gewinn Niete",
+          "Niete, Gewinn"
+         ],
+         "musterloesung": "Ω = {Gewinn, Niete}"
+        },
+        {
+         "id": "stat2-s1-D2-w1-a4",
+         "typ": "fall",
+         "fall": "In einem Spieleladen ziehen Kund*innen aus einer Urne einen Zettel: Kartenspiel, Würfel oder Murmel. Der Zettel wird zurückgelegt.",
+         "frage": "Gib die Ergebnismenge an.",
+         "kernpunkte": [
+          "Ω = {Kartenspiel, Würfel, Murmel}"
+         ],
+         "musterloesung": "Ω = {Kartenspiel, Würfel, Murmel}"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-D3",
+     "titel": "Teilmengen von Ω",
+     "wissen": [
+      {
+       "id": "stat2-s1-D3-w1",
+       "titel": "Alle Teilmengen auflisten",
+       "merke": "Für Ω = {K, W, M} (Kartenspiel, Würfel, Murmel) gibt es 2³ = 8 Teilmengen: {K, W, M}, {K, W}, {K, M}, {M, W}, {K}, {W}, {M} und { }.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-D3-w1-a1",
+         "typ": "multi",
+         "frage": "Welche Mengen sind Teilmengen von Ω = {K, W, M}?",
+         "richtig": [
+          "{K, W}",
+          "{M}",
+          "{ }",
+          "{K, W, M}",
+          "{K, M}"
+         ],
+         "falsch": [
+          "{K, W, M, R}",
+          "{Z}",
+          "{K, Z}"
+         ]
+        },
+        {
+         "id": "stat2-s1-D3-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Ω = {K, W, M}. Wie viele Teilmengen gibt es?",
+         "akzeptiert": [
+          "8"
+         ],
+         "musterloesung": "2³ = **8**."
+        },
+        {
+         "id": "stat2-s1-D3-w1-a3",
+         "typ": "offen",
+         "frage": "Liste alle Teilmengen von Ω = {Kopf, Zahl} auf.",
+         "kernpunkte": [
+          "{Kopf, Zahl}",
+          "{Kopf}",
+          "{Zahl}",
+          "{ }"
+         ],
+         "musterloesung": "{Kopf, Zahl}, {Kopf}, {Zahl}, { } – also 2² = 4 Teilmengen."
+        },
+        {
+         "id": "stat2-s1-D3-w1-a4",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das für Ω = {Kartenspiel, Würfel, Murmel}?",
+         "aussagen": [
+          {
+           "text": "{ } ist eine Teilmenge von Ω.",
+           "richtig": true,
+           "begruendung": "Ja: Die leere Menge ist immer Teilmenge."
+          },
+          {
+           "text": "Ω selbst ist eine Teilmenge von Ω.",
+           "richtig": true,
+           "begruendung": "Ja: Die Ausgangsmenge ist auch Teilmenge."
+          },
+          {
+           "text": "Es gibt 6 Teilmengen.",
+           "richtig": false,
+           "begruendung": "Es sind 2³ = 8 Teilmengen."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s1-D3-w2",
+       "titel": "Das Komma bedeutet ODER",
+       "merke": "Das **Komma** in einer Ereignismenge steht für **ODER**: A = {Kartenspiel, Würfel} heißt, die Person erhält ein Kartenspiel **oder** einen Würfel – **nicht** beides.",
+       "aufgaben": [
+        {
+         "id": "stat2-s1-D3-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Wofür steht das Komma in {Kartenspiel, Würfel}?",
+          "A = {K, W}. Was bedeutet das Komma?"
+         ],
+         "richtig": [
+          "für ODER"
+         ],
+         "falsch": [
+          "für UND",
+          "für NICHT",
+          "für die Reihenfolge"
+         ]
+        },
+        {
+         "id": "stat2-s1-D3-w2-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "A = {Kartenspiel, Würfel} bedeutet: Die Person bekommt Kartenspiel und zusätzlich Würfel.",
+           "richtig": false,
+           "begruendung": "Nein: Das Komma bedeutet ODER – sie bekommt Kartenspiel **oder** Würfel."
+          },
+          {
+           "text": "A = {Kartenspiel, Würfel} bedeutet: Die Person bekommt ein Kartenspiel oder einen Würfel.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s1-D3-w2-a3",
+         "typ": "fall",
+         "fall": "Im Spieleladen gilt Ω = {Kartenspiel, Würfel, Murmel}.",
+         "frage": "Was bedeutet A₂ = {Kartenspiel, Würfel}?",
+         "kernpunkte": [
+          "Person erhält ein Kartenspiel ODER einen Würfel",
+          "Komma bedeutet ODER",
+          "nicht beides zusammen"
+         ],
+         "musterloesung": "Die Person erhält ein Kartenspiel **oder** einen Würfel. Das Komma steht für ODER; sie bekommt nicht Kartenspiel und zusätzlich Würfel."
+        },
+        {
+         "id": "stat2-s1-D3-w2-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücke.",
+         "text": "Das Komma in einer Ereignismenge steht für {}.",
+         "luecken": [
+          [
+           "oder"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s1-D-mix1",
+     "titel": "Mix: Ergebnismenge",
+     "mix": [
+      "stat2-s1-D1",
+      "stat2-s1-D2",
+      "stat2-s1-D3"
+     ]
+    }
+   ]
+  }
+ ],
+ "arbeitsblatt": {
+  "titel": "Übungszettel 1 (Sitzung 1)",
+  "aufgaben": [
+   {
+    "id": "stat2-s1-ab1",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Erkläre den Begriff „Inferenzstatistik“ unter Angabe eines Beispiels und in Abgrenzung zur „deskriptiven Statistik“.",
+    "wissen": [
+     "stat2-s1-A3-w1",
+     "stat2-s1-A2-w1",
+     "stat2-s1-A2-w2",
+     "stat2-s1-A3b-w1"
+    ],
+    "kernpunkte": [
+     "Hilfsmittel, um auf Basis von Stichprobe und Modellannahmen auf die Grundgesamtheit zu schließen",
+     "Schätzen, Genauigkeit bestimmen, Hypothesen testen",
+     "Deskription: Aussagen über die Stichprobe",
+     "Beispiel mit Stichprobe und Grundgesamtheit"
+    ],
+    "musterloesung": "Inferenzstatistik ist ein (mathematisches) Hilfsmittel, um auf Basis von Informationen aus einer Stichprobe und statistischer Modellannahmen über die Grundgesamtheit Rückschlüsse auf die Situation in der Grundgesamtheit zu ziehen. Sie wird eingesetzt, um Kennwerte zu schätzen, ihre Genauigkeit zu bestimmen und Hypothesen zu testen. Die Inferenzstatistik trifft (Wahrscheinlichkeits-)Aussagen über „wahre“ Werte der Grundgesamtheit auf Basis der Stichprobe, die in der deskriptiven Statistik beschrieben wurde. Beispiel: Stichprobe = Motivation von 389 Studierenden der Uni Münster; Grundgesamtheit = Motivation aller Studierenden in Deutschland. Deskriptiv → Aussagen über die 389; inferenzstatistisch → Aussagen über die „wahre“ Motivation in Deutschland."
+   },
+   {
+    "id": "stat2-s1-ab2",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Definiere den Begriff „Zufallsprozess“ und nenne ein Beispiel.",
+    "wissen": [
+     "stat2-s1-B1-w1",
+     "stat2-s1-B1b-w1"
+    ],
+    "kernpunkte": [
+     "beliebig oft wiederholbarer Vorgang",
+     "feste Regeln",
+     "mindestens 2 unterscheidbare Ergebnisse",
+     "Resultat nicht vorauszusehen",
+     "Beispiel"
+    ],
+    "musterloesung": "Ein prinzipiell beliebig oft wiederholbarer Vorgang, der nach festen Regeln ausgeführt wird, bei dem mindestens 2 unterscheidbare Ergebnisse möglich sind und bei dem das Resultat nicht vorauszusehen ist. Beispiel: einmaliges Drehen eines Glücksrades mit den Feldern 1–10."
+   },
+   {
+    "id": "stat2-s1-ab3",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Definiere den Begriff „Ergebnismenge“ und nenne ein Beispiel.",
+    "wissen": [
+     "stat2-s1-D1-w1",
+     "stat2-s1-D2-w1"
+    ],
+    "kernpunkte": [
+     "Menge aller möglichen Ergebnisse eines Zufallsprozesses",
+     "Beispiel"
+    ],
+    "musterloesung": "Die Menge aller möglichen Ergebnisse eines Zufallsprozesses. Beispiel: Ω = {Feld 1, Feld 2, …, Feld 10}."
+   },
+   {
+    "id": "stat2-s1-ab4",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Spieleladen: Kund*innen ziehen aus einer Urne einen Zettel (Kartenspiel, Würfel oder Murmel); der Zettel wird zurückgelegt. a) Was ist der Zufallsprozess? b) Gib die Ergebnismenge an. c) Gib alle möglichen Teilmengen an. d) Was bedeutet A₂ = {Kartenspiel, Würfel}?",
+    "wissen": [
+     "stat2-s1-B2-w1",
+     "stat2-s1-D2-w1",
+     "stat2-s1-D3-w1",
+     "stat2-s1-D3-w2"
+    ],
+    "kernpunkte": [
+     "a) einmaliges Ziehen eines Zettels",
+     "b) Ω = {Kartenspiel, Würfel, Murmel}",
+     "c) 2³ = 8 Teilmengen inkl. { } und Ω",
+     "d) Kartenspiel ODER Würfel"
+    ],
+    "musterloesung": "a) Das einmalige Ziehen eines Zettels. b) Ω = {Kartenspiel, Würfel, Murmel}. c) A₁ = {K, W, M}, A₂ = {K, W}, A₃ = {K, M}, A₄ = {M, W}, A₅ = {K}, A₆ = {W}, A₇ = {M}, A₈ = { } (2³ = 8). d) Die Person erhält ein Kartenspiel ODER einen Würfel – das Komma steht für ODER, nicht für „und zusätzlich“."
+   }
+  ]
+ },
+ "probeklausur": {
+  "titel": "Probeklausur Statistik 2, Sitzung 1",
+  "bestehenProzent": 50,
+  "anzahl": 14,
+  "aufgaben": [
+   {
+    "id": "stat2-s1-pk1",
+    "typ": "single",
+    "frage": "Welche Aussage beschreibt die Inferenzstatistik am besten?",
+    "optionen": [
+     "Sie zieht auf Basis von Stichprobendaten und Modellannahmen Schlüsse auf die Grundgesamtheit.",
+     "Sie beschreibt die Stichprobe mit Kennwerten.",
+     "Sie erhebt Daten in der Grundgesamtheit.",
+     "Sie berechnet nur Mittelwerte."
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s1-A3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk2",
+    "typ": "beispiel",
+    "frage": "Deskriptiv oder inferenzstatistisch?",
+    "kategorien": [
+     "Deskription",
+     "Inferenz"
+    ],
+    "items": [
+     {
+      "text": "„Die 120 befragten Eltern sind im Mittel zufrieden.“",
+      "kategorie": 0
+     },
+     {
+      "text": "„Eltern in Deutschland sind vermutlich im Mittel zufrieden.“",
+      "kategorie": 1
+     },
+     {
+      "text": "Stichprobenkennwert x̄ berechnen",
+      "kategorie": 0
+     },
+     {
+      "text": "Parameter μ schätzen",
+      "kategorie": 1
+     }
+    ],
+    "wissen": [
+     "stat2-s1-A2-w1",
+     "stat2-s1-A2-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk3",
+    "typ": "beispiel",
+    "frage": "Welcher Hypothesentyp?",
+    "kategorien": [
+     "Unterschied",
+     "Veränderung",
+     "Zusammenhang"
+    ],
+    "items": [
+     {
+      "text": "Schüler*innen an Gesamtschulen sind motivierter als an Gymnasien.",
+      "kategorie": 0
+     },
+     {
+      "text": "Nach dem Schulwechsel sinkt das Selbstkonzept.",
+      "kategorie": 1
+     },
+     {
+      "text": "Je höher die Lesezeit, desto besser die Rechtschreibung.",
+      "kategorie": 2
+     }
+    ],
+    "zeigen": 3,
+    "wissen": [
+     "stat2-s1-A4-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk4",
+    "typ": "definition",
+    "frage": "Definiere den Begriff Zufallsprozess.",
+    "kernpunkte": [
+     "beliebig oft wiederholbarer Vorgang",
+     "feste Regeln",
+     "mindestens zwei verschiedene Ergebnisse",
+     "Resultat im Vorfeld nicht eindeutig bestimmbar"
+    ],
+    "musterloesung": "Ein prinzipiell beliebig oft wiederholbarer Vorgang, der nach festen Regeln ausgeführt wird, bei dem mindestens zwei verschiedene Ergebnisse möglich sind und bei dem im Vorfeld nicht eindeutig bestimmt werden kann, welches Resultat eintreten wird.",
+    "wissen": [
+     "stat2-s1-B1-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk5",
+    "typ": "richtigfalsch",
+    "frage": "Richtig oder falsch?",
+    "aussagen": [
+     {
+      "text": "Eine Münze, die auf beiden Seiten Kopf zeigt, zu werfen, ist ein Zufallsprozess.",
+      "richtig": false,
+      "begruendung": "Falsch: nur ein mögliches Ergebnis."
+     },
+     {
+      "text": "„Eine gerade Zahl würfeln“ ist ein Zufallsprozess.",
+      "richtig": false,
+      "begruendung": "Falsch: Das ist ein Ergebnis/Zufallsereignis; der Prozess ist das Würfeln."
+     },
+     {
+      "text": "Die leere Menge ist Teilmenge jeder Ergebnismenge.",
+      "richtig": true,
+      "begruendung": "Richtig."
+     },
+     {
+      "text": "ω bezeichnet die Ergebnismenge.",
+      "richtig": false,
+      "begruendung": "Falsch: Ω ist die Ergebnismenge, ω ein einzelnes Ergebnis."
+     }
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s1-B1c-w1",
+     "stat2-s1-C2-w1",
+     "stat2-s1-D1-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk6",
+    "typ": "tabelle",
+    "frage": "A = {2, 4, 6, 8}, B = {6, 8, 10}. Ergänze.",
+    "kopf": [
+     "Ausdruck",
+     "Ergebnis"
+    ],
+    "zeilen": [
+     [
+      "A ∩ B",
+      {
+       "akzeptiert": [
+        "{6, 8}",
+        "6, 8",
+        "68"
+       ]
+      }
+     ],
+     [
+      "A ∪ B",
+      {
+       "akzeptiert": [
+        "{2, 4, 6, 8, 10}",
+        "2, 4, 6, 8, 10",
+        "246810"
+       ]
+      }
+     ],
+     [
+      "n(A ∩ B)",
+      {
+       "akzeptiert": [
+        "2"
+       ]
+      }
+     ],
+     [
+      "n(A ∪ B)",
+      {
+       "akzeptiert": [
+        "5"
+       ]
+      }
+     ],
+     [
+      "disjunkt?",
+      {
+       "akzeptiert": [
+        "nein"
+       ]
+      }
+     ]
+    ],
+    "zeigen": 5,
+    "wissen": [
+     "stat2-s1-C3-w1",
+     "stat2-s1-C4-w1",
+     "stat2-s1-C5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk7",
+    "typ": "single",
+    "frage": "n(A) = 4, n(B) = 6. Welcher Wert ist für n(A ∪ B) **unmöglich**?",
+    "optionen": [
+     "3",
+     "6",
+     "8",
+     "10"
+    ],
+    "loesung": 0,
+    "erklaerung": "min(4, 6) = 4 ≤ n(A ∪ B) ≤ 4 + 6 = 10. Also ist 3 unmöglich.",
+    "wissen": [
+     "stat2-s1-C5-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk8",
+    "typ": "single",
+    "frage": "n(A) = 4, n(B) = 6. Welcher Wert ist für n(A ∩ B) **unmöglich**?",
+    "optionen": [
+     "5",
+     "0",
+     "2",
+     "4"
+    ],
+    "loesung": 0,
+    "erklaerung": "0 ≤ n(A ∩ B) ≤ min(4, 6) = 4. Also ist 5 unmöglich.",
+    "wissen": [
+     "stat2-s1-C5-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk9",
+    "typ": "kurzfrage",
+    "frage": "Ein Glücksrad hat die Felder 1–5. Wie viele Teilmengen hat die Ergebnismenge?",
+    "akzeptiert": [
+     "32"
+    ],
+    "musterloesung": "2⁵ = **32**.",
+    "wissen": [
+     "stat2-s1-C2-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk10",
+    "typ": "fall",
+    "fall": "Ein Glücksrad hat die Felder rot, gelb, grün. Es wird einmal gedreht.",
+    "frage": "Gib Zufallsprozess und Ergebnismenge an und liste alle Teilmengen der Ergebnismenge auf.",
+    "kernpunkte": [
+     "Zufallsprozess: einmaliges Drehen des Glücksrads",
+     "Ω = {rot, gelb, grün}",
+     "8 Teilmengen",
+     "inkl. { } und Ω"
+    ],
+    "musterloesung": "Zufallsprozess: einmaliges Drehen des Glücksrads. Ω = {rot, gelb, grün}. Teilmengen (2³ = 8): {rot, gelb, grün}, {rot, gelb}, {rot, grün}, {gelb, grün}, {rot}, {gelb}, {grün}, { }.",
+    "wissen": [
+     "stat2-s1-B2-w1",
+     "stat2-s1-D2-w1",
+     "stat2-s1-D3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk11",
+    "typ": "single",
+    "frage": "Ω = {rot, gelb, grün, blau}. Was bedeutet {gelb, blau}?",
+    "optionen": [
+     "Es wird gelb oder blau angezeigt.",
+     "Es werden gelb und blau gleichzeitig angezeigt.",
+     "Es wird weder gelb noch blau angezeigt.",
+     "Erst gelb, dann blau."
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s1-D3-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk12",
+    "typ": "zuordnung",
+    "frage": "Ordne die Symbole zu.",
+    "paare": [
+     {
+      "links": "Ω",
+      "rechts": "Ergebnismenge"
+     },
+     {
+      "links": "ωᵢ",
+      "rechts": "einzelnes Ergebnis"
+     },
+     {
+      "links": "A ∩ B",
+      "rechts": "Schnittmenge"
+     },
+     {
+      "links": "A ∪ B",
+      "rechts": "Vereinigungsmenge"
+     },
+     {
+      "links": "n(A)",
+      "rechts": "Mächtigkeit"
+     },
+     {
+      "links": "A ⊂ B",
+      "rechts": "Teilmenge"
+     }
+    ],
+    "zeigen": 6,
+    "wissen": [
+     "stat2-s1-D1-w2",
+     "stat2-s1-C3-w1",
+     "stat2-s1-C4-w1",
+     "stat2-s1-C5-w1",
+     "stat2-s1-C2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk13",
+    "typ": "lueckentext",
+    "frage": "Fülle die Lücken.",
+    "text": "Kennwerte der Grundgesamtheit heißen {}, z. B. μ; Kennwerte der Stichprobe heißen {}, z. B. x̄.",
+    "luecken": [
+     [
+      "Parameter"
+     ],
+     [
+      "Stichprobenkennwerte",
+      "Stichprobenkennwert"
+     ]
+    ],
+    "wissen": [
+     "stat2-s1-A1-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk14",
+    "typ": "multi",
+    "frage": "Wofür wird Inferenzstatistik eingesetzt?",
+    "richtig": [
+     "Kennwerte schätzen",
+     "Genauigkeit von Schätzungen bestimmen",
+     "Hypothesen testen"
+    ],
+    "falsch": [
+     "nur die Stichprobe beschreiben",
+     "Grundgesamtheit vollständig erheben"
+    ],
+    "anzahlRichtig": 3,
+    "anzahlFalsch": 2,
+    "wissen": [
+     "stat2-s1-A3b-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk15",
+    "typ": "offen",
+    "frage": "Erkläre den Unterschied zwischen Grundgesamtheit und Stichprobe und ordne die Begriffe Deskription und Inferenz zu.",
+    "kernpunkte": [
+     "Grundgesamtheit: wahrer, unbekannter Zustand",
+     "Stichprobe: empirischer, beobachteter Zustand",
+     "Deskription: Aussagen über die Stichprobe",
+     "Inferenz: Wahrscheinlichkeitsaussagen über die Grundgesamtheit"
+    ],
+    "musterloesung": "Die Grundgesamtheit ist der „wahre“, unbekannte Zustand, die Stichprobe der empirische, beobachtete. Die Deskription beschreibt die Stichprobe mit Stichprobenkennwerten; die Inferenz trifft auf dieser Basis Wahrscheinlichkeitsaussagen über die Grundgesamtheit.",
+    "wissen": [
+     "stat2-s1-A1-w1",
+     "stat2-s1-A2-w1",
+     "stat2-s1-A2-w2"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk16",
+    "typ": "wasPasstNicht",
+    "frage": "Was ist **kein** Zufallsprozess?",
+    "gehoert": [
+     "Würfeln mit einem 8-seitigen Würfel",
+     "Werfen einer Münze",
+     "Ziehen eines Loses",
+     "Drehen eines Glücksrads mit 4 Farben"
+    ],
+    "ausreisser": [
+     "Werfen einer Münze mit zwei Kopf-Seiten",
+     "eine gerade Zahl würfeln"
+    ],
+    "wissen": [
+     "stat2-s1-B1c-w1"
+    ]
+   },
+   {
+    "id": "stat2-s1-pk17",
+    "typ": "single",
+    "frage": "A = {1, 3, 5}, B = {2, 4, 6}. Welche Aussage stimmt?",
+    "optionen": [
+     "A und B sind disjunkt, A ∩ B = ∅.",
+     "A ∩ B = {1, 2, 3, 4, 5, 6}",
+     "A ∪ B = ∅",
+     "n(A ∪ B) = 3"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s1-C3-w2"
+    ]
+   }
+  ]
+ }
+}
