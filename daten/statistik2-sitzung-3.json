@@ -1,0 +1,2951 @@
+{
+ "format": 1,
+ "id": "stat2-s3",
+ "fach": "Statistik 2",
+ "titel": "Laplace-Regel und diskrete Zufallsvariablen: Verteilung, Verteilungsfunktion, Erwartungswert, Varianz",
+ "kurztitel": "Sitzung 3",
+ "quelle": [
+  "Statistik 2/S2_Sitzung03_DiskreteZufallsvariablen.md"
+ ],
+ "verarbeitet": "2026-11-18",
+ "sprache": "de",
+ "welten": [
+  {
+   "id": "stat2-s3-A",
+   "titel": "Die Regel von Laplace",
+   "farbe": 40,
+   "level": [
+    {
+     "id": "stat2-s3-A1",
+     "titel": "Günstige durch mögliche Fälle",
+     "wissen": [
+      {
+       "id": "stat2-s3-A1-w1",
+       "titel": "Die Laplace-Regel",
+       "merke": "**Regel von Laplace:** Bei **endlich vielen, gleichwahrscheinlichen** Ergebnissen gilt für jedes Zufallsereignis A ⊂ Ω: **P(A) = n(A) / n(Ω)** – Anzahl Elemente in A durch Anzahl Elemente in Ω („günstige durch mögliche Fälle“).",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-A1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie lautet die Regel von Laplace?",
+          "P(A) nach Laplace = …"
+         ],
+         "richtig": [
+          "P(A) = n(A) / n(Ω)"
+         ],
+         "falsch": [
+          "P(A) = n(Ω) / n(A)",
+          "P(A) = n(A) · n(Ω)",
+          "P(A) = 1 − n(A)"
+         ]
+        },
+        {
+         "id": "stat2-s3-A1-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Nach Laplace ist P(A) = Anzahl Elemente in {} geteilt durch Anzahl Elemente in {}.",
+         "luecken": [
+          [
+           "A"
+          ],
+          [
+           "Omega",
+           "Ω",
+           "der Ergebnismenge"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s3-A1-w1-a3",
+         "typ": "kurzfrage",
+         "fragen": [
+          "Würfel: Wie groß ist P(„gerade Zahl“) nach Laplace?",
+          "Würfel, A = {2, 4, 6}. P(A) = ?"
+         ],
+         "akzeptiert": [
+          "0,5",
+          "1/2",
+          "3/6",
+          "50 %"
+         ],
+         "musterloesung": "A = {2, 4, 6}, n(A) = 3, n(Ω) = 6 → P(A) = 3/6 = **1/2**."
+        },
+        {
+         "id": "stat2-s3-A1-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Urne mit 100 Losen, davon 10 Gewinne. Wie wahrscheinlich ist eine Niete?",
+         "akzeptiert": [
+          "0,9",
+          "9/10",
+          "90/100",
+          "90 %"
+         ],
+         "musterloesung": "90 Nieten von 100 Losen → 90/100 = **9/10 = 0,9**."
+        },
+        {
+         "id": "stat2-s3-A1-w1-a5",
+         "typ": "tabelle",
+         "frage": "Welche Wahrscheinlichkeit nutzt du intuitiv?",
+         "kopf": [
+          "Ereignis",
+          "Wahrscheinlichkeit"
+         ],
+         "zeilen": [
+          [
+           "sechs Augen beim Würfeln",
+           {
+            "akzeptiert": [
+             "1/6"
+            ]
+           }
+          ],
+          [
+           "mehr als sechs Augen beim Würfeln",
+           {
+            "akzeptiert": [
+             "0"
+            ]
+           }
+          ],
+          [
+           "Kopf beim Münzwurf",
+           {
+            "akzeptiert": [
+             "1/2",
+             "0,5"
+            ]
+           }
+          ],
+          [
+           "gerade Zahl beim Würfeln",
+           {
+            "akzeptiert": [
+             "1/2",
+             "0,5",
+             "3/6"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-A1b",
+     "titel": "Rechnen mit Laplace",
+     "wissen": [
+      {
+       "id": "stat2-s3-A1b-w1",
+       "titel": "Kaugummiautomat",
+       "merke": "Beim Kaugummiautomaten (7 rot, 6 blau, 8 gelb, 9 grün = 30) ist jedes **einzelne Kaugummi** ein Elementarereignis: P(blau) = 6/30 = 0,2; P(rot oder grün) = 16/30 ≈ 0,533; P(nicht gelb) = 22/30 = 1 − 8/30 ≈ 0,733.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-A1b-w1-a1",
+         "typ": "kurzfrage",
+         "frage": "Kaugummiautomat: 7 rote, 6 blaue, 8 gelbe, 9 grüne Kaugummis. Wie groß ist P(blau)?",
+         "akzeptiert": [
+          "0,2",
+          "6/30",
+          "1/5",
+          "20 %",
+          "20%"
+         ],
+         "musterloesung": "n(A) = 6, n(Ω) = 30 → 6/30 = **0,2 = 20 %**."
+        },
+        {
+         "id": "stat2-s3-A1b-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Kaugummiautomat (7 rot, 6 blau, 8 gelb, 9 grün). Wie groß ist P(rot oder grün)? Auf drei Nachkommastellen.",
+         "akzeptiert": [
+          "0,533",
+          "16/30",
+          "8/15",
+          "53,3 %",
+          "0,5333",
+          "0,53"
+         ],
+         "musterloesung": "(7 + 9)/30 = 16/30 ≈ **0,533 = 53,3 %**."
+        },
+        {
+         "id": "stat2-s3-A1b-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Kaugummiautomat (7 rot, 6 blau, 8 gelb, 9 grün). Wie groß ist P(nicht gelb)? Auf drei Nachkommastellen.",
+         "akzeptiert": [
+          "0,733",
+          "22/30",
+          "11/15",
+          "73,3 %",
+          "0,7333",
+          "0,73"
+         ],
+         "musterloesung": "Weg 1: (7 + 6 + 9)/30 = 22/30. Weg 2: 1 − 8/30. Beides ≈ **0,733**."
+        },
+        {
+         "id": "stat2-s3-A1b-w1-a4",
+         "typ": "single",
+         "frage": "Wie sieht die Ergebnismenge beim Kaugummiautomaten aus, damit Laplace gilt?",
+         "optionen": [
+          "Ω = {rot₁ … rot₇, blau₁ … blau₆, gelb₁ … gelb₈, grün₁ … grün₉}",
+          "Ω = {rot, blau, gelb, grün}",
+          "Ω = {7, 6, 8, 9}",
+          "Ω = {30}"
+         ],
+         "loesung": 0,
+         "erklaerung": "Jedes einzelne Kaugummi muss ein Element sein, damit die Elementarereignisse gleichwahrscheinlich sind."
+        },
+        {
+         "id": "stat2-s3-A1b-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "Urne: 3 rote, 5 blaue, 2 weiße Kugeln. P(nicht blau) = ?",
+         "akzeptiert": [
+          "0,5",
+          "1/2",
+          "5/10",
+          "50 %"
+         ],
+         "musterloesung": "1 − 5/10 = **0,5**."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-A1b-w2",
+       "titel": "Gegenwahrscheinlichkeit",
+       "merke": "Die **Gegenwahrscheinlichkeit** ist **P(nicht A) = 1 − P(A)**. So geht P(nicht gelb) = 1 − 8/30 schneller als das Auszählen aller anderen Farben.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-A1b-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie berechnet man P(nicht A)?",
+          "Formel für die Gegenwahrscheinlichkeit?"
+         ],
+         "richtig": [
+          "1 − P(A)"
+         ],
+         "falsch": [
+          "P(A) − 1",
+          "1 / P(A)",
+          "P(A) · P(Ω)"
+         ]
+        },
+        {
+         "id": "stat2-s3-A1b-w2-a2",
+         "typ": "kurzfrage",
+         "frage": "P(A) = 0,35. Wie groß ist P(nicht A)?",
+         "akzeptiert": [
+          "0,65",
+          "65 %"
+         ],
+         "musterloesung": "1 − 0,35 = **0,65**."
+        },
+        {
+         "id": "stat2-s3-A1b-w2-a3",
+         "typ": "kurzfrage",
+         "frage": "Urne mit 20 roten, 10 gelben, 70 blauen Kugeln. P(nicht blau) = ?",
+         "akzeptiert": [
+          "0,3",
+          "30/100",
+          "3/10",
+          "30 %"
+         ],
+         "musterloesung": "1 − 70/100 = **0,3**."
+        },
+        {
+         "id": "stat2-s3-A1b-w2-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücke.",
+         "text": "P(nicht A) = {} − P(A)",
+         "luecken": [
+          [
+           "1",
+           "eins"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-A2",
+     "titel": "Die Falle: gleichwahrscheinlich?",
+     "wissen": [
+      {
+       "id": "stat2-s3-A2-w1",
+       "titel": "Voraussetzung: gleichwahrscheinlich",
+       "merke": "Laplace gilt **nur**, wenn alle Elementarereignisse **gleichwahrscheinlich** sind. Bei 20 roten, 10 gelben, 70 blauen Kugeln ist P(rot) **nicht** 1/3 (Farben sind nicht gleichwahrscheinlich), sondern **20/100 = 0,2** – Elementarereignis ist jede **einzelne Kugel**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-A2-w1-a1",
+         "typ": "single",
+         "frage": "Urne mit 20 roten, 10 gelben, 70 blauen Kugeln. P(rot) = ?",
+         "optionen": [
+          "0,2",
+          "1/3",
+          "0,7",
+          "20"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-A2-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Warum ist P(rot) = 1/3 bei 20 roten, 10 gelben, 70 blauen Kugeln falsch?",
+          "Was ist an Ω = {r, g, b} mit P(rot) = 1/3 falsch?"
+         ],
+         "richtig": [
+          "Die Farben sind nicht gleichwahrscheinlich – Laplace muss auf die einzelnen Kugeln angewendet werden."
+         ],
+         "falsch": [
+          "Weil es mehr als drei Farben gibt.",
+          "Weil Laplace nur bei Würfeln gilt.",
+          "Weil 1/3 keine Wahrscheinlichkeit sein kann."
+         ]
+        },
+        {
+         "id": "stat2-s3-A2-w1-a3",
+         "typ": "multi",
+         "frage": "Welche Voraussetzungen braucht die Laplace-Regel?",
+         "richtig": [
+          "endlich viele Ergebnisse",
+          "gleichwahrscheinliche Elementarereignisse"
+         ],
+         "falsch": [
+          "mindestens 100 Ergebnisse",
+          "nur zwei mögliche Ergebnisse",
+          "eine metrische Zufallsvariable"
+         ],
+         "anzahlRichtig": 2,
+         "anzahlFalsch": 2
+        },
+        {
+         "id": "stat2-s3-A2-w1-a4",
+         "typ": "fall",
+         "fall": "Bei 20 roten und 80 blauen Kugeln rechnet ein Kommilitone: „Es gibt zwei Farben, also P(rot) = 1/2.“",
+         "frage": "Was ist falsch, und wie lautet die richtige Lösung?",
+         "kernpunkte": [
+          "Farben sind nicht gleichwahrscheinlich",
+          "Laplace auf die einzelnen Kugeln anwenden",
+          "Ω mit 100 Kugeln",
+          "P(rot) = 20/100 = 0,2"
+         ],
+         "musterloesung": "Die Laplace-Regel setzt gleichwahrscheinliche Elementarereignisse voraus – die Farben sind es nicht. Elementarereignis ist jede einzelne Kugel: n(Ω) = 100, n(rot) = 20, also P(rot) = 20/100 = 0,2."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-A2b",
+     "titel": "Keine Definition",
+     "wissen": [
+      {
+       "id": "stat2-s3-A2b-w1",
+       "titel": "Laplace ist keine Definition von Wahrscheinlichkeit",
+       "merke": "Laplace ist nur eine **Rechenregel**, die bei **gleichwahrscheinlichen** Elementarereignissen gilt. Weil „gleich**wahrscheinlich**“ den Wahrscheinlichkeitsbegriff schon voraussetzt (**Zirkelschluss**), ist sie **keine Definition** von Wahrscheinlichkeit.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-A2b-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Warum ist die Laplace-Regel keine Definition von Wahrscheinlichkeit?",
+          "Laplace ist keine Definition, weil …"
+         ],
+         "richtig": [
+          "„gleichwahrscheinlich“ den Wahrscheinlichkeitsbegriff schon voraussetzt (Zirkelschluss)"
+         ],
+         "falsch": [
+          "sie die Kolmogorov-Axiome verletzt",
+          "sie nur für Münzen gilt",
+          "sie zu ungenau ist"
+         ]
+        },
+        {
+         "id": "stat2-s3-A2b-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Laplace-Regel ist eine Rechenregel, keine Definition.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Die Laplace-Regel erfüllt die 3 Axiome von Kolmogorov.",
+           "richtig": true,
+           "begruendung": "Ja (Beweis in Sitzung 2)."
+          },
+          {
+           "text": "Die Laplace-Regel gilt für jeden Zufallsprozess.",
+           "richtig": false,
+           "begruendung": "Nein: nur bei endlich vielen, gleichwahrscheinlichen Elementarereignissen."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-A2b-w1-a3",
+         "typ": "begriff",
+         "frage": "Welcher logische Fehler entstünde, wenn man Wahrscheinlichkeit über Laplace definieren würde?",
+         "akzeptiert": [
+          "Zirkelschluss",
+          "Zirkel",
+          "Zirkeldefinition"
+         ],
+         "musterloesung": "Ein **Zirkelschluss**: „gleichwahrscheinlich“ enthält den Begriff schon."
+        },
+        {
+         "id": "stat2-s3-A2b-w1-a4",
+         "typ": "offen",
+         "frage": "Erkläre, warum die Regel von Laplace keine Definition von Wahrscheinlichkeit ist.",
+         "kernpunkte": [
+          "Rechenregel",
+          "nur bei gleichwahrscheinlichen Elementarereignissen anwendbar",
+          "„gleichwahrscheinlich“ setzt Wahrscheinlichkeit voraus",
+          "Zirkelschluss"
+         ],
+         "musterloesung": "Die Laplace-Regel ist eine Regel zur Berechnung von Wahrscheinlichkeiten, die nur bei gleichwahrscheinlichen Elementarereignissen gilt. Das Konzept „Wahrscheinlichkeit“ steckt in dieser Voraussetzung schon drin („gleichwahrscheinlich“) – ein Zirkelschluss. Deshalb ist sie keine Definition."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-A-mix1",
+     "titel": "Mix: Laplace",
+     "mix": [
+      "stat2-s3-A1",
+      "stat2-s3-A1b",
+      "stat2-s3-A2",
+      "stat2-s3-A2b"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s3-B",
+   "titel": "Die Zufallsvariable",
+   "farbe": 180,
+   "level": [
+    {
+     "id": "stat2-s3-B1",
+     "titel": "Von Mengen zu Zahlen",
+     "wissen": [
+      {
+       "id": "stat2-s3-B1-w1",
+       "titel": "Analogie zu Statistik 1",
+       "merke": "Statt mit **Mengen** rechnet man einfacher mit **Zahlen**. Analogie: **Merkmal ↔ Zufallsprozess**, **Ausprägung ↔ Ergebnis**, **Variable ↔ Zufallsvariable**, **Messwert ↔ Realisation**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B1-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Begriffe aus Statistik 1 den Begriffen aus Statistik 2 zu.",
+         "paare": [
+          {
+           "links": "Merkmal",
+           "rechts": "Zufallsprozess"
+          },
+          {
+           "links": "Ausprägung",
+           "rechts": "Ergebnis"
+          },
+          {
+           "links": "Variable",
+           "rechts": "Zufallsvariable"
+          },
+          {
+           "links": "Messwert",
+           "rechts": "Realisation"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B1-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Was entspricht in Statistik 2 dem Messwert aus Statistik 1?",
+          "Messwert (Statistik 1) ↔ ? (Statistik 2)"
+         ],
+         "richtig": [
+          "Realisation"
+         ],
+         "falsch": [
+          "Ergebnis",
+          "Zufallsprozess",
+          "Ergebnismenge"
+         ]
+        },
+        {
+         "id": "stat2-s3-B1-w1-a3",
+         "typ": "tabelle",
+         "frage": "Ergänze die Analogie.",
+         "kopf": [
+          "Statistik 1",
+          "Statistik 2"
+         ],
+         "zeilen": [
+          [
+           "Merkmal",
+           {
+            "akzeptiert": [
+             "Zufallsprozess"
+            ]
+           }
+          ],
+          [
+           "Ausprägung",
+           {
+            "akzeptiert": [
+             "Ergebnis"
+            ]
+           }
+          ],
+          [
+           "Variable",
+           {
+            "akzeptiert": [
+             "Zufallsvariable"
+            ]
+           }
+          ],
+          [
+           "Messwert",
+           {
+            "akzeptiert": [
+             "Realisation"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-B1-w1-a4",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Zufallsvariablen erlauben es, mit Zahlen statt mit Mengen zu operieren.",
+           "richtig": true,
+           "begruendung": "Ja: Das ist die Motivation."
+          },
+          {
+           "text": "Die Zahlen einer Zufallsvariable bilden Relationen zwischen den Ergebnissen ab.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Einer Ausprägung in Statistik 1 entspricht in Statistik 2 die Realisation.",
+           "richtig": false,
+           "begruendung": "Nein: Ausprägung ↔ **Ergebnis**; Messwert ↔ Realisation."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-B2",
+     "titel": "Die Definition",
+     "wissen": [
+      {
+       "id": "stat2-s3-B2-w1",
+       "titel": "Definition Zufallsvariable",
+       "merke": "Eine **Zufallsvariable** ist eine **regelgeleitete Zuordnungsvorschrift** (ähnlich einer „Messung“), die **jedem Element aus Ω** nach einer **eindeutig definierten Regel** eine **Zahl** zuweist.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B2-w1-a1",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Eine Zufallsvariable ist eine regelgeleitete {}, die jedem Element aus {} nach einer eindeutig definierten {} eine {} zuweist.",
+         "luecken": [
+          [
+           "Zuordnungsvorschrift",
+           "Zuordnungsregel"
+          ],
+          [
+           "Omega",
+           "Ω",
+           "der Ergebnismenge"
+          ],
+          [
+           "Regel"
+          ],
+          [
+           "Zahl"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s3-B2-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Was ist eine Zufallsvariable?",
+          "Eine Zufallsvariable ist …"
+         ],
+         "richtig": [
+          "eine Zuordnungsvorschrift, die jedem Element aus Ω nach einer festen Regel eine Zahl zuweist"
+         ],
+         "falsch": [
+          "eine Zahl, die zufällig gezogen wird",
+          "die Menge aller möglichen Ergebnisse",
+          "eine Wahrscheinlichkeit zwischen 0 und 1"
+         ]
+        },
+        {
+         "id": "stat2-s3-B2-w1-a3",
+         "typ": "fehler",
+         "frage": "In dieser Definition stecken zwei Fehler.",
+         "segmente": [
+          {
+           "text": "Eine Zufallsvariable ist eine"
+          },
+          {
+           "text": "zufällige",
+           "fehler": true,
+           "korrektur": "**regelgeleitete**"
+          },
+          {
+           "text": "Zuordnungsvorschrift. Sie weist jedem Element aus Ω nach einer eindeutig definierten Regel"
+          },
+          {
+           "text": "eine Wahrscheinlichkeit",
+           "fehler": true,
+           "korrektur": "**eine Zahl**"
+          },
+          {
+           "text": "zu."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B2-w1-a4",
+         "typ": "definition",
+         "frage": "Definiere den Begriff Zufallsvariable.",
+         "kernpunkte": [
+          "regelgeleitete Zuordnungsvorschrift",
+          "jedem Element aus Ω",
+          "nach einer eindeutig definierten Regel",
+          "eine Zahl zugewiesen"
+         ],
+         "musterloesung": "Eine Zufallsvariable ist eine regelgeleitete Zuordnungsvorschrift, die jedem Element aus Ω nach einer eindeutig definierten Regel eine Zahl zuweist."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-B2-w2",
+       "titel": "Nicht zufällig!",
+       "merke": "Eine Zufallsvariable weist **nicht zufällig** eine Zahl zu, sondern nach einer **festen Regel**. Zufällig ist nur, **welches Ergebnis ω** im Zufallsprozess eintritt. „Zufalls“variable heißt sie, weil ihr Definitionsbereich die Ergebnismenge eines **Zufallsprozesses** ist.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B2-w2-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Eine Zufallsvariable weist jedem Element von Ω zufällig eine Zahl zu.",
+           "richtig": false,
+           "begruendung": "Falsch: Sie ist eine regelgeleitete Zuordnungsvorschrift – feste Regel."
+          },
+          {
+           "text": "Zufällig ist nur, welches Ergebnis im Zufallsprozess eintritt.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Die Ergebnisse von Zufallsprozessen werden in Realisationen von Zufallsvariablen „überführt“.",
+           "richtig": true,
+           "begruendung": "Richtig (Übungszettel 3)."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B2-w2-a2",
+         "typ": "single",
+         "frage": "Warum heißt die Zufallsvariable „Zufalls“variable?",
+         "richtig": [
+          "Weil ihr Definitionsbereich die Ergebnismenge eines Zufallsprozesses ist."
+         ],
+         "falsch": [
+          "Weil sie die Zahlen zufällig zuweist.",
+          "Weil ihre Werte zufällig gewählt werden.",
+          "Weil sie keine Regel hat."
+         ]
+        },
+        {
+         "id": "stat2-s3-B2-w2-a3",
+         "typ": "single",
+         "frage": "Was ist an einer Zufallsvariable zufällig?",
+         "optionen": [
+          "welches Ergebnis ω eintritt",
+          "welche Zahl einem bestimmten ω zugewiesen wird",
+          "die Zuordnungsregel",
+          "gar nichts"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-B2-w2-a4",
+         "typ": "offen",
+         "frage": "Was ist an einer Zufallsvariable zufällig und was nicht?",
+         "kernpunkte": [
+          "Zuordnung nach fester Regel – nicht zufällig",
+          "zufällig ist, welches Ergebnis eintritt",
+          "Definitionsbereich = Ergebnismenge eines Zufallsprozesses"
+         ],
+         "musterloesung": "Die Zuordnung selbst ist nicht zufällig: Jedem ω wird nach einer festen Regel eine Zahl zugewiesen. Zufällig ist nur, welches Ergebnis ω im Zufallsprozess eintritt. Daher der Name: Der Definitionsbereich ist die Ergebnismenge eines Zufallsprozesses."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-B3",
+     "titel": "Definitions- und Wertebereich",
+     "wissen": [
+      {
+       "id": "stat2-s3-B3-w1",
+       "titel": "Ω und X(Ω)",
+       "merke": "**Definitionsbereich = Ω** (Menge der möglichen Ergebnisse); **Wertebereich = X(Ω)** (Menge der möglichen **Realisationen**). Dazu kommt die **Zuordnungsvorschrift X**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B3-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "Definitionsbereich",
+           "rechts": "Ω, die Ergebnismenge"
+          },
+          {
+           "links": "Wertebereich",
+           "rechts": "X(Ω), die möglichen Realisationen"
+          },
+          {
+           "links": "Zuordnungsvorschrift",
+           "rechts": "X, die Regel ω → Zahl"
+          }
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-B3-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Wie heißt X(Ω)?",
+          "Die Menge der möglichen Realisationen heißt …"
+         ],
+         "richtig": [
+          "Wertebereich"
+         ],
+         "falsch": [
+          "Definitionsbereich",
+          "Ergebnismenge",
+          "Zufallsereignis"
+         ]
+        },
+        {
+         "id": "stat2-s3-B3-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Ω ist die Menge aller möglichen Ergebnisse und wird als Definitionsbereich der Zufallsvariable bezeichnet.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Der Wertebereich ist die Menge der möglichen Ergebnisse.",
+           "richtig": false,
+           "begruendung": "Nein: der möglichen **Realisationen** X(Ω)."
+          },
+          {
+           "text": "Beim Würfel mit X = 1 für gerade, 0 für ungerade ist X(Ω) = {0, 1}.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B3-w1-a4",
+         "typ": "tabelle",
+         "frage": "Würfel: X(ω) = 0, wenn die Augenzahl kleiner 4 ist, 1, wenn sie größer 3 ist. Ergänze.",
+         "kopf": [
+          "",
+          "Menge"
+         ],
+         "zeilen": [
+          [
+           "Definitionsbereich",
+           {
+            "akzeptiert": [
+             "{1, 2, 3, 4, 5, 6}",
+             "1, 2, 3, 4, 5, 6",
+             "123456"
+            ]
+           }
+          ],
+          [
+           "Wertebereich",
+           {
+            "akzeptiert": [
+             "{0, 1}",
+             "0, 1",
+             "01"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 2
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-B3-w2",
+       "titel": "Notation",
+       "merke": "Zufallsvariablen schreibt man mit **Großbuchstaben** (X, Y, Z), ihre **Realisationen** mit **Kleinbuchstaben** (x, y, z bzw. xᵢ).",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B3-w2-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Eine Zufallsvariable wird in Großbuchstaben notiert, Realisationen mit Kleinbuchstaben.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Realisationen schreibt man mit Großbuchstaben.",
+           "richtig": false,
+           "begruendung": "Nein: Kleinbuchstaben."
+          },
+          {
+           "text": "x₃ ist eine Realisation.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B3-w2-a2",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "X",
+           "rechts": "Zufallsvariable"
+          },
+          {
+           "links": "xᵢ",
+           "rechts": "Realisation"
+          },
+          {
+           "links": "Ω",
+           "rechts": "Definitionsbereich"
+          },
+          {
+           "links": "X(Ω)",
+           "rechts": "Wertebereich"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B3-w2-a3",
+         "typ": "single",
+         "frage": "Was bezeichnet y in „Y(ω) = y“?",
+         "richtig": [
+          "eine Realisation"
+         ],
+         "falsch": [
+          "die Zufallsvariable",
+          "die Ergebnismenge",
+          "ein Ergebnis ω"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-B4",
+     "titel": "Zufallsvariable aufstellen",
+     "wissen": [
+      {
+       "id": "stat2-s3-B4-w1",
+       "titel": "Beispiele für Zufallsvariablen",
+       "merke": "Beispiele: Würfel mit X = 0 (ungerade) / 1 (gerade); X = 0 (kleiner 4) / 1 (größer 3); X(ω) = Augenzahl mit X(Ω) = {1, …, 6}. Wie bei der Messung gibt es **Messniveaus**: nominal, ordinal, metrisch.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B4-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Würfel, X(ω) = 0 bei ungerader, 1 bei gerader Augenzahl. Ordne zu.",
+         "paare": [
+          {
+           "links": "ω = 1",
+           "rechts": "x = 0"
+          },
+          {
+           "links": "ω = 2",
+           "rechts": "x = 1"
+          },
+          {
+           "links": "ω = 5",
+           "rechts": "x = 0"
+          },
+          {
+           "links": "ω = 6",
+           "rechts": "x = 1"
+          }
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s3-B4-w1-a2",
+         "typ": "multi",
+         "frage": "Welche Messniveaus kann eine Zufallsvariable haben?",
+         "richtig": [
+          "nominal",
+          "ordinal",
+          "metrisch"
+         ],
+         "falsch": [
+          "zufällig",
+          "empirisch",
+          "theoretisch"
+         ]
+        },
+        {
+         "id": "stat2-s3-B4-w1-a3",
+         "typ": "fall",
+         "fall": "Glücksrad mit den Farben rot, grün, gelb, blau, weiß. Rot: 2 Bonbons abgeben, grün: 1 abgeben, gelb: nichts, blau: 1 erhalten, weiß: 2 erhalten. X = Anzahl gewonnener Bonbons.",
+         "frage": "Gib Definitionsbereich, Wertebereich und Zuordnungsvorschrift an.",
+         "kernpunkte": [
+          "Ω = {rot, grün, gelb, blau, weiß}",
+          "X(Ω) = {−2, −1, 0, 1, 2}",
+          "X(ω) = −2 rot, −1 grün, 0 gelb, 1 blau, 2 weiß"
+         ],
+         "musterloesung": "Definitionsbereich Ω = {rot, grün, gelb, blau, weiß}; Wertebereich X(Ω) = {−2, −1, 0, 1, 2}; Zuordnungsvorschrift: X(ω) = −2 wenn rot, −1 wenn grün, 0 wenn gelb, 1 wenn blau, 2 wenn weiß."
+        },
+        {
+         "id": "stat2-s3-B4-w1-a4",
+         "typ": "single",
+         "frage": "Würfel: X(ω) = Augenzahl von ω. Was ist X(Ω)?",
+         "optionen": [
+          "{1, 2, 3, 4, 5, 6}",
+          "{0, 1}",
+          "{⚀, …, ⚅}",
+          "{1/6}"
+         ],
+         "loesung": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-B5",
+     "titel": "In den Sozialwissenschaften",
+     "wissen": [
+      {
+       "id": "stat2-s3-B5-w1",
+       "titel": "Stichprobenziehung als Zufallsprozess",
+       "merke": "In der sozialwissenschaftlichen Forschung ist der **Zufallsprozess** die **Stichprobenziehung**, **Ω** die **Grundgesamtheit** (= Definitionsbereich). Die Zufallsvariable ordnet **jedem Fall der Grundgesamtheit** nach fester Regel eine Zahl zu.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-B5-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu: Was ist was in der sozialwissenschaftlichen Forschung?",
+         "paare": [
+          {
+           "links": "Zufallsprozess",
+           "rechts": "Stichprobenziehung"
+          },
+          {
+           "links": "Ω / Definitionsbereich",
+           "rechts": "Grundgesamtheit"
+          },
+          {
+           "links": "Zufallsvariable",
+           "rechts": "Regel, die jedem Fall eine Zahl zuordnet"
+          },
+          {
+           "links": "Wertebereich",
+           "rechts": "mögliche zuweisbare Zahlen"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-B5-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Was ist in der Sozialforschung der Zufallsprozess?",
+          "Zufallsprozess in der sozialwissenschaftlichen Forschung = ?"
+         ],
+         "richtig": [
+          "die Stichprobenziehung"
+         ],
+         "falsch": [
+          "die Grundgesamtheit",
+          "die Realisation",
+          "die Datenauswertung"
+         ]
+        },
+        {
+         "id": "stat2-s3-B5-w1-a3",
+         "typ": "single",
+         "frage": "Ω = alle 10-Jährigen in NRW; X(ω) = 1, wenn ω Einzelkind, 0 sonst. Welchen Wert hat X(Jan), wenn Jan ein Einzelkind ist?",
+         "optionen": [
+          "1",
+          "0",
+          "Jan",
+          "zufällig 0 oder 1"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-B5-w1-a4",
+         "typ": "fall",
+         "fall": "Eine Forscherin zieht eine Zufallsstichprobe aus allen Studierenden in Deutschland und erfasst Y(ω) = Testleistung von ω.",
+         "frage": "Benenne Zufallsprozess, Definitionsbereich, Zufallsvariable und Realisationen.",
+         "kernpunkte": [
+          "Zufallsprozess: Stichprobenziehung",
+          "Definitionsbereich Ω: Grundgesamtheit aller Studierenden in Deutschland",
+          "Zufallsvariable Y: Zuordnung Person → Testleistung",
+          "Realisationen: die Testwerte y"
+         ],
+         "musterloesung": "Zufallsprozess = Stichprobenziehung; Ω = Grundgesamtheit (alle Studierenden in Deutschland) = Definitionsbereich; Y ist die Regel, die jeder Person ihre Testleistung zuordnet; die Testwerte (z. B. 450, 503 …) sind die Realisationen y."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-B-mix1",
+     "titel": "Mix: Zufallsvariable",
+     "mix": [
+      "stat2-s3-B1",
+      "stat2-s3-B2",
+      "stat2-s3-B3",
+      "stat2-s3-B4",
+      "stat2-s3-B5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s3-C",
+   "titel": "Verteilung und Verteilungsfunktion",
+   "farbe": 300,
+   "level": [
+    {
+     "id": "stat2-s3-C1",
+     "titel": "Wahrscheinlichkeitsverteilung",
+     "wissen": [
+      {
+       "id": "stat2-s3-C1-w1",
+       "titel": "Von P(A) zu P(X = x)",
+       "merke": "Statt P(A) fragt man jetzt **P(X = x)**: Wie wahrscheinlich nimmt X die Realisation x an? Man betrachtet, wie wahrscheinlich **eines der Ergebnisse eintritt, denen diese Realisation zugeordnet ist**. Beispiel: X = 1 für gerade Augenzahl → P(X = 1) = P({2, 4, 6}) = 1/2.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-C1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was bedeutet P(X = x)?",
+          "P(X = 1) gibt an …"
+         ],
+         "richtig": [
+          "wie wahrscheinlich die Zufallsvariable X die Realisation x annimmt"
+         ],
+         "falsch": [
+          "wie oft x in einer Stichprobe vorkam",
+          "die Wahrscheinlichkeit, dass X ≤ x ist",
+          "den Erwartungswert von X"
+         ]
+        },
+        {
+         "id": "stat2-s3-C1-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Würfel, X = 1 bei gerader, 0 bei ungerader Augenzahl. P(X = 0) = ?",
+         "akzeptiert": [
+          "0,5",
+          "1/2",
+          "3/6"
+         ],
+         "musterloesung": "X = 0 gehört zu {1, 3, 5} → 3/6 = **1/2**."
+        },
+        {
+         "id": "stat2-s3-C1-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Würfel, X = 1, wenn die Augenzahl größer 3 ist, sonst 0. P(X = 1) = ?",
+         "akzeptiert": [
+          "0,5",
+          "1/2",
+          "3/6"
+         ],
+         "musterloesung": "X = 1 gehört zu {4, 5, 6} → **1/2**."
+        },
+        {
+         "id": "stat2-s3-C1-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Würfel, X = 1 bei 1 oder 2 Augen, sonst 0. P(X = 1) = ? (als Bruch)",
+         "akzeptiert": [
+          "1/3",
+          "2/6",
+          "0,333",
+          "0,33"
+         ],
+         "musterloesung": "X = 1 gehört zu {1, 2} → 2/6 = **1/3**."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-C1-w2",
+       "titel": "Definition Wahrscheinlichkeitsverteilung",
+       "merke": "Die Wahrscheinlichkeiten für **alle möglichen Realisationen** einer Zufallsvariable zusammen heißen **Wahrscheinlichkeitsverteilung**. Sie ist das **„theoretische“ Gegenstück zur relativen Häufigkeitsverteilung**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-C1-w2-a1",
+         "typ": "begriff",
+         "fragen": [
+          "Wie heißen die Wahrscheinlichkeiten für alle Realisationen einer Zufallsvariable zusammen?",
+          "Alle P(X = xᵢ) zusammen bilden die …"
+         ],
+         "akzeptiert": [
+          "Wahrscheinlichkeitsverteilung"
+         ],
+         "musterloesung": "Die **Wahrscheinlichkeitsverteilung**."
+        },
+        {
+         "id": "stat2-s3-C1-w2-a2",
+         "typ": "single",
+         "frage": "Was ist das theoretische Gegenstück zur relativen Häufigkeitsverteilung?",
+         "richtig": [
+          "die Wahrscheinlichkeitsverteilung"
+         ],
+         "falsch": [
+          "die Verteilungsfunktion",
+          "der Erwartungswert",
+          "die kumulierte Häufigkeit"
+         ]
+        },
+        {
+         "id": "stat2-s3-C1-w2-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Wahrscheinlichkeitsverteilung stellt die kumulierten Wahrscheinlichkeiten dar.",
+           "richtig": false,
+           "begruendung": "Falsch: P(X = x) gibt für jede Realisation die Wahrscheinlichkeit an, dass **genau diese** realisiert wird. Kumuliert → Verteilungsfunktion."
+          },
+          {
+           "text": "Die Summe aller P(X = xᵢ) ist 1.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Die Wahrscheinlichkeitsverteilung ist theoretisch, die relative Häufigkeitsverteilung empirisch.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-C1-w2-a4",
+         "typ": "kurzfrage",
+         "frage": "X hat die Realisationen 1, 2, 3 mit P(X = 1) = 0,2 und P(X = 2) = 0,5. P(X = 3) = ?",
+         "akzeptiert": [
+          "0,3",
+          "30 %"
+         ],
+         "musterloesung": "Summe = 1 → 1 − 0,2 − 0,5 = **0,3**."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-C2",
+     "titel": "Verteilungsfunktion",
+     "wissen": [
+      {
+       "id": "stat2-s3-C2-w1",
+       "titel": "F(x) = P(X ≤ x)",
+       "merke": "Die **Verteilungsfunktion F(x) = P(X ≤ x)** gibt an, wie wahrscheinlich X die Realisation x **oder eine kleinere** annimmt. Voraussetzung: endlich viele, **der Größe nach sortierbare** Realisationen. F(xₖ) = P(X = x₁) + … + P(X = xₖ).",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-C2-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was gibt F(x) an?",
+          "Wofür steht die Verteilungsfunktion?"
+         ],
+         "optionen": [
+          "P(X ≤ x)",
+          "P(X = x)",
+          "P(X > x)",
+          "E(X)"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-C2-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "F(xₖ) = P(X {} xₖ) gibt die Wahrscheinlichkeit an, dass X die Realisation xₖ oder eine {} annimmt.",
+         "luecken": [
+          [
+           "kleiner gleich",
+           "kleinergleich",
+           "≤"
+          ],
+          [
+           "kleinere",
+           "kleinere Realisation"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s3-C2-w1-a3",
+         "typ": "tabelle",
+         "frage": "Augenzahl Y beim fairen Würfel. Ergänze F(y).",
+         "kopf": [
+          "y",
+          "P(Y = y)",
+          "F(y)"
+         ],
+         "zeilen": [
+          [
+           "1",
+           "1/6",
+           {
+            "akzeptiert": [
+             "1/6"
+            ]
+           }
+          ],
+          [
+           "2",
+           "1/6",
+           {
+            "akzeptiert": [
+             "2/6",
+             "1/3"
+            ]
+           }
+          ],
+          [
+           "3",
+           "1/6",
+           {
+            "akzeptiert": [
+             "3/6",
+             "1/2",
+             "0,5"
+            ]
+           }
+          ],
+          [
+           "4",
+           "1/6",
+           {
+            "akzeptiert": [
+             "4/6",
+             "2/3"
+            ]
+           }
+          ],
+          [
+           "5",
+           "1/6",
+           {
+            "akzeptiert": [
+             "5/6"
+            ]
+           }
+          ],
+          [
+           "6",
+           "1/6",
+           {
+            "akzeptiert": [
+             "1",
+             "6/6"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-C2-w1-a4",
+         "typ": "begriff",
+         "frage": "Welche Voraussetzung müssen die Realisationen für die Verteilungsfunktion erfüllen?",
+         "akzeptiert": [
+          "der Größe nach sortierbar",
+          "sortierbar",
+          "nach Größe sortierbar",
+          "ordinal"
+         ],
+         "musterloesung": "Sie müssen **der Größe nach sortierbar** sein (endlich viele)."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-C2-w2",
+       "titel": "Eigenschaften und Kolmogorov",
+       "merke": "F ist eine **monoton wachsende Treppenfunktion** (keine Stufen nach unten, Stufenhöhe 0 möglich) mit Werten **zwischen 0 und 1**; beim größten Wert ist F = 1. **Stufenhöhe an xᵢ = P(X = xᵢ)**. Aufsummieren ist erlaubt wegen des **3. Axioms von Kolmogorov** (die Ereignisse X = xᵢ sind disjunkt). F ist das Gegenstück zur **kumulierten relativen Häufigkeitsverteilung**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-C2-w2-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Eine Verteilungsfunktion kann auch Stufen nach unten haben.",
+           "richtig": false,
+           "begruendung": "Falsch: Sie ist monoton wachsend."
+          },
+          {
+           "text": "Eine Stufenhöhe von 0 ist möglich.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Beim größten Wert ist F = 1.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Die Stufenhöhe an der Stelle xᵢ ist P(X = xᵢ).",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-C2-w2-a2",
+         "typ": "single",
+         "fragen": [
+          "Warum darf man bei F(x) die Wahrscheinlichkeiten aufsummieren?",
+          "Welches Axiom erlaubt das Aufsummieren bei F(x)?"
+         ],
+         "richtig": [
+          "wegen des 3. Axioms von Kolmogorov (Additivität disjunkter Ereignisse)"
+         ],
+         "falsch": [
+          "wegen des 1. Axioms (Positivität)",
+          "wegen des 2. Axioms (Normiertheit)",
+          "wegen der Laplace-Regel"
+         ]
+        },
+        {
+         "id": "stat2-s3-C2-w2-a3",
+         "typ": "single",
+         "frage": "Was ist das empirische Gegenstück zur Verteilungsfunktion?",
+         "richtig": [
+          "die kumulierte relative Häufigkeitsverteilung"
+         ],
+         "falsch": [
+          "die relative Häufigkeitsverteilung",
+          "der Mittelwert",
+          "die empirische Varianz"
+         ]
+        },
+        {
+         "id": "stat2-s3-C2-w2-a4",
+         "typ": "multi",
+         "frage": "Welche Eigenschaften hat eine Verteilungsfunktion?",
+         "richtig": [
+          "monoton wachsend",
+          "Treppenfunktion",
+          "Werte zwischen 0 und 1",
+          "beim größten Wert gleich 1"
+         ],
+         "falsch": [
+          "kann fallen",
+          "Werte bis 100",
+          "beim kleinsten Wert immer 1"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-C3",
+     "titel": "Rückwärts rechnen",
+     "wissen": [
+      {
+       "id": "stat2-s3-C3-w1",
+       "titel": "Aus F zurückrechnen",
+       "merke": "Rückwärts: **P(X = xₖ) = F(xₖ) − F(xₖ₋₁)** (Stufenhöhe); **P(X > xₖ) = 1 − F(xₖ)**; die **Summe aller P(X = xᵢ) = 1**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-C3-w1-a1",
+         "typ": "kurzfrage",
+         "frage": "F(x₂) = 0,45, F(x₃) = 0,8. P(X = x₃) = ?",
+         "akzeptiert": [
+          "0,35"
+         ],
+         "musterloesung": "0,8 − 0,45 = **0,35**."
+        },
+        {
+         "id": "stat2-s3-C3-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "F(1) = 0,2, F(2) = 0,5, F(3) = 1. P(X = 2) = ?",
+         "akzeptiert": [
+          "0,3"
+         ],
+         "musterloesung": "F(2) − F(1) = 0,5 − 0,2 = **0,3**."
+        },
+        {
+         "id": "stat2-s3-C3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "F(1) = 0,2, F(2) = 0,5, F(3) = 1. P(X > 1) = ?",
+         "akzeptiert": [
+          "0,8"
+         ],
+         "musterloesung": "1 − F(1) = 1 − 0,2 = **0,8**."
+        },
+        {
+         "id": "stat2-s3-C3-w1-a4",
+         "typ": "zuordnung",
+         "frage": "Ordne die Formeln zu.",
+         "paare": [
+          {
+           "links": "P(X = xₖ)",
+           "rechts": "F(xₖ) − F(xₖ₋₁)"
+          },
+          {
+           "links": "P(X > xₖ)",
+           "rechts": "1 − F(xₖ)"
+          },
+          {
+           "links": "F(xₖ)",
+           "rechts": "P(X = x₁) + … + P(X = xₖ)"
+          },
+          {
+           "links": "Summe aller P(X = xᵢ)",
+           "rechts": "1"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-C3-w1-a5",
+         "typ": "single",
+         "frage": "F(x₂) = 0,45, F(x₃) = 0,8. P(X = x₃) = ?",
+         "optionen": [
+          "0,35",
+          "0,8",
+          "0,45",
+          "1,25"
+         ],
+         "loesung": 0
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-C3-w2",
+       "titel": "Tabellen vervollständigen",
+       "merke": "Fehlende Werte findet man mit F(xₖ) = F(xₖ₋₁) + P(X = xₖ) und P(X = xₖ) = F(xₖ) − F(xₖ₋₁). Beispiel: x = −7, 18, 20, 24, 100, 126 mit P = 0,2; 0,1; 0,3; 0,25; 0,05; 0,1 → F = 0,2; 0,3; 0,6; 0,85; 0,9; 1.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-C3-w2-a1",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle.",
+         "kopf": [
+          "xᵢ",
+          "P(X = xᵢ)",
+          "F(xᵢ)"
+         ],
+         "zeilen": [
+          [
+           "−7",
+           "0,2",
+           {
+            "akzeptiert": [
+             "0,2"
+            ]
+           }
+          ],
+          [
+           "18",
+           {
+            "akzeptiert": [
+             "0,1"
+            ]
+           },
+           "0,3"
+          ],
+          [
+           "20",
+           "0,3",
+           {
+            "akzeptiert": [
+             "0,6"
+            ]
+           }
+          ],
+          [
+           "24",
+           {
+            "akzeptiert": [
+             "0,25"
+            ]
+           },
+           "0,85"
+          ],
+          [
+           "100",
+           "0,05",
+           {
+            "akzeptiert": [
+             "0,9"
+            ]
+           }
+          ],
+          [
+           "126",
+           {
+            "akzeptiert": [
+             "0,1"
+            ]
+           },
+           "1"
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-C3-w2-a2",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle (Übungszettel 3, Aufgabe 3.2; kumuliert in der Reihenfolge des Index).",
+         "kopf": [
+          "i",
+          "xᵢ",
+          "P(X = xᵢ)",
+          "F(xᵢ)"
+         ],
+         "zeilen": [
+          [
+           "1",
+           "5",
+           "0,19",
+           {
+            "akzeptiert": [
+             "0,19"
+            ]
+           }
+          ],
+          [
+           "2",
+           "4",
+           {
+            "akzeptiert": [
+             "0,41"
+            ]
+           },
+           "0,6"
+          ],
+          [
+           "3",
+           "7",
+           "0,17",
+           {
+            "akzeptiert": [
+             "0,77"
+            ]
+           }
+          ],
+          [
+           "4",
+           "2",
+           {
+            "akzeptiert": [
+             "0,23"
+            ]
+           },
+           "1"
+          ]
+         ],
+         "erklaerung": "Hinweis aus deinen Unterlagen: Die Realisationen sind hier nicht der Größe nach sortiert; die Musterlösung kumuliert in der Reihenfolge des Index.",
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s3-C3-w2-a3",
+         "typ": "tabelle",
+         "frage": "Glücksrad mit Bonbons. Ergänze F(xᵢ).",
+         "kopf": [
+          "xᵢ",
+          "P(X = xᵢ)",
+          "F(xᵢ)"
+         ],
+         "zeilen": [
+          [
+           "−2",
+           "0,31",
+           {
+            "akzeptiert": [
+             "0,31"
+            ]
+           }
+          ],
+          [
+           "−1",
+           "0,19",
+           {
+            "akzeptiert": [
+             "0,5",
+             "0,50"
+            ]
+           }
+          ],
+          [
+           "0",
+           "0,1",
+           {
+            "akzeptiert": [
+             "0,6",
+             "0,60"
+            ]
+           }
+          ],
+          [
+           "1",
+           "0,32",
+           {
+            "akzeptiert": [
+             "0,92"
+            ]
+           }
+          ],
+          [
+           "2",
+           "0,08",
+           {
+            "akzeptiert": [
+             "1"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-C3-w2-a4",
+         "typ": "kurzfrage",
+         "frage": "X: x = 0, 1, 2 mit P = 0,5; 0,3; 0,2. Wie groß ist F(1)?",
+         "akzeptiert": [
+          "0,8"
+         ],
+         "musterloesung": "F(1) = 0,5 + 0,3 = **0,8**."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-C-mix1",
+     "titel": "Mix: Verteilung und Verteilungsfunktion",
+     "mix": [
+      "stat2-s3-C1",
+      "stat2-s3-C2",
+      "stat2-s3-C3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s3-D",
+   "titel": "Erwartungswert und Varianz",
+   "farbe": 340,
+   "level": [
+    {
+     "id": "stat2-s3-D1",
+     "titel": "Rückblick: Mittelwert",
+     "wissen": [
+      {
+       "id": "stat2-s3-D1-w1",
+       "titel": "Mittelwert als gewichtete Summe",
+       "merke": "Der **Mittelwert x̄** ist der **Schwerpunkt der empirischen Häufigkeitsverteilung**: x̄ = (1/n) · Σ hᵢ·xᵢ = Σ (hᵢ/n)·xᵢ – die Messwerte, **gewichtet mit ihrer relativen Häufigkeit** hᵢ/n.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Womit werden die Messwerte beim Mittelwert gewichtet?",
+          "x̄ = Σ (hᵢ/n)·xᵢ. Was ist hᵢ/n?"
+         ],
+         "richtig": [
+          "mit ihrer relativen Häufigkeit hᵢ/n"
+         ],
+         "falsch": [
+          "mit ihrer Wahrscheinlichkeit",
+          "mit ihrem Abstand zum Mittelwert",
+          "gar nicht"
+         ]
+        },
+        {
+         "id": "stat2-s3-D1-w1-a2",
+         "typ": "single",
+         "frage": "Was ist der Mittelwert anschaulich?",
+         "richtig": [
+          "der Schwerpunkt der empirischen Häufigkeitsverteilung"
+         ],
+         "falsch": [
+          "der Schwerpunkt der Wahrscheinlichkeitsverteilung",
+          "die mittlere quadrierte Abweichung",
+          "der häufigste Wert"
+         ]
+        },
+        {
+         "id": "stat2-s3-D1-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "x̄ = Σ ({}/n) · xᵢ – Summe der Messwerte, gewichtet mit der {} Häufigkeit.",
+         "luecken": [
+          [
+           "hᵢ",
+           "h",
+           "hi"
+          ],
+          [
+           "relativen",
+           "relative"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-D2",
+     "titel": "Erwartungswert",
+     "wissen": [
+      {
+       "id": "stat2-s3-D2-w1",
+       "titel": "Definition Erwartungswert",
+       "merke": "Der **Erwartungswert μ = E(X) = Σ pᵢ · xᵢ** ist der **Schwerpunkt der Wahrscheinlichkeitsverteilung**: die Realisationen, **gewichtet mit ihrer Wahrscheinlichkeit**. Er ist der Wert, den man **auf lange Sicht im Mittel** erwartet.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D2-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie lautet die Formel für den Erwartungswert?",
+          "E(X) = ?"
+         ],
+         "optionen": [
+          "Σ pᵢ · xᵢ",
+          "Σ pᵢ · (xᵢ − μ)²",
+          "Σ xᵢ / m",
+          "Σ hᵢ · xᵢ"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D2-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Der Erwartungswert ist der Schwerpunkt der Wahrscheinlichkeitsverteilung.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Beim Erwartungswert werden die Realisationen mit ihrer Wahrscheinlichkeit gewichtet.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Der Erwartungswert ist immer eine der möglichen Realisationen.",
+           "richtig": false,
+           "begruendung": "Nein: Beim Würfel ist E(X) = 3,5 – keine Augenzahl."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-D2-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Der Erwartungswert ist die Summe der {}, gewichtet mit ihrer {}. Er ist der {} der Wahrscheinlichkeitsverteilung.",
+         "luecken": [
+          [
+           "Realisationen"
+          ],
+          [
+           "Wahrscheinlichkeit",
+           "Wahrscheinlichkeiten"
+          ],
+          [
+           "Schwerpunkt"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s3-D2-w1-a4",
+         "typ": "definition",
+         "frage": "Was ist der Erwartungswert einer diskreten Zufallsvariable? Nenne die Formel.",
+         "kernpunkte": [
+          "Schwerpunkt der Wahrscheinlichkeitsverteilung",
+          "Realisationen gewichtet mit ihrer Wahrscheinlichkeit",
+          "E(X) = Σ pᵢ · xᵢ",
+          "auf lange Sicht im Mittel erwarteter Wert"
+         ],
+         "musterloesung": "Der Erwartungswert μ = E(X) = Σ pᵢ · xᵢ ist der Schwerpunkt der Wahrscheinlichkeitsverteilung: die Summe der Realisationen, gewichtet mit ihrer Wahrscheinlichkeit – der Wert, den man auf lange Sicht im Mittel erwartet."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-D2-w2",
+       "titel": "Nur bei metrischen Zufallsvariablen sinnvoll",
+       "merke": "Der Erwartungswert ist **nur bei metrischen** Zufallsvariablen **inhaltlich interpretierbar**, nicht bei nominalskalierten.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D2-w2-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Bei einer nominalskalierten Zufallsvariable ist der Erwartungswert inhaltlich interpretierbar.",
+           "richtig": false,
+           "begruendung": "Falsch: nur bei metrischen Zufallsvariablen sinnvoll."
+          },
+          {
+           "text": "Bei einer metrischen Zufallsvariable ist der Erwartungswert inhaltlich interpretierbar.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s3-D2-w2-a2",
+         "typ": "single",
+         "frage": "Bei welchem Messniveau ist der Erwartungswert inhaltlich sinnvoll interpretierbar?",
+         "richtig": [
+          "metrisch"
+         ],
+         "falsch": [
+          "nominal",
+          "bei jedem Messniveau",
+          "nur bei 0/1-Variablen"
+         ]
+        },
+        {
+         "id": "stat2-s3-D2-w2-a3",
+         "typ": "single",
+         "frage": "X = 1, 2, 3 für die Lieblingsfarben rot, grün, blau. E(X) = 2,1. Was folgt daraus?",
+         "optionen": [
+          "Nichts Inhaltliches: X ist nominal, E(X) ist nicht interpretierbar.",
+          "Die mittlere Lieblingsfarbe ist grün.",
+          "Die meisten mögen grün.",
+          "Blau ist am wahrscheinlichsten."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D2-w2-a4",
+         "typ": "offen",
+         "frage": "Warum kann man bei einer nominalskalierten Zufallsvariable den Erwartungswert zwar ausrechnen, aber nicht interpretieren?",
+         "kernpunkte": [
+          "Zahlen sind nur Kennzeichnungen ohne Reihenfolge/Abstände",
+          "Erwartungswert nur bei metrischen ZV inhaltlich sinnvoll"
+         ],
+         "musterloesung": "Bei einer nominalen Zufallsvariable sind die Zahlen nur Namen für Kategorien – ohne Reihenfolge und Abstände. Der Erwartungswert ist daher nur bei metrischen Zufallsvariablen inhaltlich sinnvoll interpretierbar."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-D3",
+     "titel": "Erwartungswert berechnen",
+     "wissen": [
+      {
+       "id": "stat2-s3-D3-w1",
+       "titel": "Rechenweg Erwartungswert",
+       "merke": "**Rechenweg:** (1) Tabelle mit xᵢ und P(X = xᵢ) aufstellen (Summe = 1), (2) für jede Zeile P(X = xᵢ) · xᵢ bilden, (3) alle Produkte addieren. Fairer Würfel: E(X) = 21/6 = **3,5**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D3-w1-a1",
+         "typ": "reihenfolge",
+         "frage": "Bringe den Rechenweg in die richtige Reihenfolge.",
+         "elemente": [
+          "Tabelle mit xᵢ und P(X = xᵢ) aufstellen (Summe = 1 prüfen)",
+          "für jede Zeile P(X = xᵢ) · xᵢ bilden",
+          "alle Produkte addieren"
+         ]
+        },
+        {
+         "id": "stat2-s3-D3-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "Fairer Würfel. E(X) = ?",
+          "X = Augenzahl beim fairen Würfel. Berechne E(X)."
+         ],
+         "akzeptiert": [
+          "3,5",
+          "21/6",
+          "7/2"
+         ],
+         "musterloesung": "1/6·1 + 1/6·2 + … + 1/6·6 = 21/6 = **3,5**."
+        },
+        {
+         "id": "stat2-s3-D3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "X: x = 1, 2 mit P = 0,4 und 0,6. E(X) = ?",
+         "akzeptiert": [
+          "1,6"
+         ],
+         "musterloesung": "0,4·1 + 0,6·2 = 0,4 + 1,2 = **1,6**."
+        },
+        {
+         "id": "stat2-s3-D3-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "X: x = 0, 1, 2 mit P = 0,5; 0,3; 0,2. E(X) = ?",
+         "akzeptiert": [
+          "0,7"
+         ],
+         "musterloesung": "0·0,5 + 1·0,3 + 2·0,2 = 0 + 0,3 + 0,4 = **0,7**."
+        },
+        {
+         "id": "stat2-s3-D3-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "X: x = 2, 5, 10 mit P = 0,5; 0,3; 0,2. E(X) = ?",
+         "akzeptiert": [
+          "4,5"
+         ],
+         "musterloesung": "2·0,5 + 5·0,3 + 10·0,2 = 1 + 1,5 + 2 = **4,5**."
+        },
+        {
+         "id": "stat2-s3-D3-w1-a6",
+         "typ": "tabelle",
+         "frage": "Berechne E(X) Schritt für Schritt.",
+         "kopf": [
+          "xᵢ",
+          "P(X = xᵢ)",
+          "P · xᵢ"
+         ],
+         "zeilen": [
+          [
+           "3",
+           "0,1",
+           {
+            "akzeptiert": [
+             "0,3"
+            ]
+           }
+          ],
+          [
+           "14",
+           "0,3",
+           {
+            "akzeptiert": [
+             "4,2"
+            ]
+           }
+          ],
+          [
+           "23",
+           "0,1",
+           {
+            "akzeptiert": [
+             "2,3"
+            ]
+           }
+          ],
+          [
+           "24",
+           "0,2",
+           {
+            "akzeptiert": [
+             "4,8"
+            ]
+           }
+          ],
+          [
+           "51",
+           "0,3",
+           {
+            "akzeptiert": [
+             "15,3"
+            ]
+           }
+          ],
+          [
+           "Summe = E(X)",
+           "1",
+           {
+            "akzeptiert": [
+             "26,9"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-D3-w2",
+       "titel": "Lohnt sich das Spiel?",
+       "merke": "Glücksrad mit Bonbons (−2, −1, 0, 1, 2 mit 0,31; 0,19; 0,1; 0,32; 0,08): **E(X) = −0,33** → auf lange Sicht verliert man **0,33 Bonbons pro Runde**; Mitmachen lohnt sich **nicht**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D3-w2-a1",
+         "typ": "single",
+         "frage": "Glücksrad: X = −2, −1, 0, 1, 2 mit P = 0,31; 0,19; 0,1; 0,32; 0,08. E(X) = ?",
+         "optionen": [
+          "−0,33",
+          "0,33",
+          "0",
+          "−0,62"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D3-w2-a2",
+         "typ": "single",
+         "frage": "E(X) = −0,33 Bonbons pro Runde. Lohnt sich das Spiel?",
+         "optionen": [
+          "Nein, auf lange Sicht verliert man im Mittel 0,33 Bonbons pro Runde.",
+          "Ja, man gewinnt 0,33 Bonbons.",
+          "Man kann es nicht sagen.",
+          "Ja, weil blau am wahrscheinlichsten ist."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D3-w2-a3",
+         "typ": "tabelle",
+         "frage": "Glücksrad: Berechne die Produkte.",
+         "kopf": [
+          "xᵢ",
+          "P(X = xᵢ)",
+          "P · xᵢ"
+         ],
+         "zeilen": [
+          [
+           "−2",
+           "0,31",
+           {
+            "akzeptiert": [
+             "−0,62",
+             "-0,62"
+            ]
+           }
+          ],
+          [
+           "−1",
+           "0,19",
+           {
+            "akzeptiert": [
+             "−0,19",
+             "-0,19"
+            ]
+           }
+          ],
+          [
+           "0",
+           "0,1",
+           {
+            "akzeptiert": [
+             "0"
+            ]
+           }
+          ],
+          [
+           "1",
+           "0,32",
+           {
+            "akzeptiert": [
+             "0,32"
+            ]
+           }
+          ],
+          [
+           "2",
+           "0,08",
+           {
+            "akzeptiert": [
+             "0,16"
+            ]
+           }
+          ]
+         ],
+         "erklaerung": "Das Minuszeichen gehört bei negativen Produkten dazu.",
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-D3-w2-a4",
+         "typ": "fall",
+         "fall": "Glücksrad mit Bonbons: rot (P = 0,31) 2 abgeben, grün (0,19) 1 abgeben, gelb (0,1) nichts, blau (0,32) 1 erhalten, weiß (0,08) 2 erhalten.",
+         "frage": "Berechne den Erwartungswert und beurteile, ob sich das Mitspielen lohnt.",
+         "kernpunkte": [
+          "E(X) = 0,31·(−2) + 0,19·(−1) + 0,1·0 + 0,32·1 + 0,08·2",
+          "= −0,62 − 0,19 + 0 + 0,32 + 0,16 = −0,33",
+          "auf lange Sicht Verlust von 0,33 Bonbons pro Runde",
+          "lohnt sich nicht"
+         ],
+         "musterloesung": "E(X) = −0,62 − 0,19 + 0 + 0,32 + 0,16 = −0,33. Auf lange Sicht verliert man 0,33 Bonbons pro Runde – Mitmachen lohnt sich nicht."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-D4",
+     "titel": "Varianz",
+     "wissen": [
+      {
+       "id": "stat2-s3-D4-w1",
+       "titel": "Rückblick: empirische Varianz",
+       "merke": "Die **empirische Varianz s²** ist die **mittlere quadrierte Abweichung der Messwerte vom Mittelwert**: s² = Σ (hᵢ/n)·(xᵢ − x̄)².",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D4-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was ist die empirische Varianz s²?",
+          "s² beschreibt …"
+         ],
+         "richtig": [
+          "die mittlere quadrierte Abweichung der Messwerte vom Mittelwert"
+         ],
+         "falsch": [
+          "den Schwerpunkt der Verteilung",
+          "die Summe der Messwerte",
+          "die größte Abweichung vom Mittelwert"
+         ]
+        },
+        {
+         "id": "stat2-s3-D4-w1-a2",
+         "typ": "single",
+         "frage": "Wie lautet die Formel der empirischen Varianz?",
+         "optionen": [
+          "s² = Σ (hᵢ/n)·(xᵢ − x̄)²",
+          "s² = Σ (hᵢ/n)·xᵢ",
+          "s² = Σ pᵢ·xᵢ",
+          "s² = Σ (xᵢ − x̄)"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D4-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die empirische Varianz ist die mittlere {} Abweichung der Messwerte vom {}.",
+         "luecken": [
+          [
+           "quadrierte"
+          ],
+          [
+           "Mittelwert"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-D4-w2",
+       "titel": "Varianz einer Zufallsvariable",
+       "merke": "Die **Varianz σ² = Var(X) = Σ pᵢ · (xᵢ − μ)²** ist die Summe der **quadrierten Abweichungen** der Realisationen vom **Erwartungswert**, **gewichtet mit der Wahrscheinlichkeit** – die „erwartete“ quadrierte Abweichung. **Standardabweichung σ = √σ²**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D4-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie lautet die Formel für die Varianz einer Zufallsvariable?",
+          "Var(X) = ?"
+         ],
+         "optionen": [
+          "Σ pᵢ · (xᵢ − μ)²",
+          "Σ pᵢ · xᵢ",
+          "Σ (xᵢ − μ)",
+          "Σ pᵢ · (xᵢ − μ)"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D4-w2-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Varianz ist die Summe der {} Abweichungen der Realisationen vom {}, gewichtet mit der jeweiligen {}.",
+         "luecken": [
+          [
+           "quadrierten",
+           "quadrierte"
+          ],
+          [
+           "Erwartungswert"
+          ],
+          [
+           "Wahrscheinlichkeit"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s3-D4-w2-a3",
+         "typ": "single",
+         "frage": "Wie erhält man die Standardabweichung σ aus der Varianz?",
+         "richtig": [
+          "σ = √σ² (Wurzel aus der Varianz)"
+         ],
+         "falsch": [
+          "σ = σ²/2",
+          "σ = σ² · σ²",
+          "σ = 1 − σ²"
+         ]
+        },
+        {
+         "id": "stat2-s3-D4-w2-a4",
+         "typ": "definition",
+         "frage": "Was ist die Varianz einer Zufallsvariable? Nenne auch die Formel.",
+         "kernpunkte": [
+          "Summe der quadrierten Abweichungen vom Erwartungswert",
+          "gewichtet mit der Wahrscheinlichkeit",
+          "erwartete quadrierte Abweichung",
+          "Var(X) = Σ pᵢ · (xᵢ − μ)²"
+         ],
+         "musterloesung": "Die Varianz σ² = Var(X) = Σ pᵢ · (xᵢ − μ)² ist die Summe der quadrierten Abweichungen der Realisationen vom Erwartungswert, gewichtet mit der jeweiligen Wahrscheinlichkeit – also die „erwartete“ quadrierte Abweichung vom Erwartungswert."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-D5",
+     "titel": "Varianz berechnen",
+     "wissen": [
+      {
+       "id": "stat2-s3-D5-w1",
+       "titel": "Rechenweg Varianz",
+       "merke": "**Rechenweg:** (1) erst **E(X) = μ** berechnen, (2) Abweichungen **(xᵢ − μ)**, (3) **quadrieren**, (4) mit **pᵢ gewichten**, (5) **addieren**. Fairer Würfel: Var(X) = 17,5/6 ≈ **2,917**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D5-w1-a1",
+         "typ": "reihenfolge",
+         "frage": "Bringe den Rechenweg für die Varianz in die richtige Reihenfolge.",
+         "elemente": [
+          "E(X) = μ berechnen",
+          "Abweichungen (xᵢ − μ) bilden",
+          "Abweichungen quadrieren",
+          "mit der Wahrscheinlichkeit pᵢ gewichten",
+          "alle Werte addieren"
+         ]
+        },
+        {
+         "id": "stat2-s3-D5-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "X: x = 1, 2 mit P = 0,4 und 0,6; E(X) = 1,6. Var(X) = ?",
+         "akzeptiert": [
+          "0,24"
+         ],
+         "musterloesung": "0,4·(1 − 1,6)² + 0,6·(2 − 1,6)² = 0,4·0,36 + 0,6·0,16 = 0,144 + 0,096 = **0,24**."
+        },
+        {
+         "id": "stat2-s3-D5-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "X: x = 0, 1, 2 mit P = 0,5; 0,3; 0,2; E(X) = 0,7. Var(X) = ?",
+         "akzeptiert": [
+          "0,61"
+         ],
+         "musterloesung": "0,5·0,49 + 0,3·0,09 + 0,2·1,69 = 0,245 + 0,027 + 0,338 = **0,61**."
+        },
+        {
+         "id": "stat2-s3-D5-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "X: x = 0, 10, 20 mit P = 0,2; 0,5; 0,3. Berechne zuerst E(X), dann Var(X). Wie groß ist Var(X)?",
+         "akzeptiert": [
+          "49"
+         ],
+         "musterloesung": "E(X) = 0 + 5 + 6 = 11. Var(X) = 0,2·121 + 0,5·1 + 0,3·81 = 24,2 + 0,5 + 24,3 = **49**."
+        },
+        {
+         "id": "stat2-s3-D5-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "Fairer Würfel, μ = 3,5. Var(X) = ? (auf drei Nachkommastellen)",
+         "akzeptiert": [
+          "2,917",
+          "2,9167",
+          "2,92",
+          "35/12",
+          "17,5/6"
+         ],
+         "musterloesung": "1/6·(6,25 + 2,25 + 0,25 + 0,25 + 2,25 + 6,25) = 17,5/6 ≈ **2,917**."
+        },
+        {
+         "id": "stat2-s3-D5-w1-a6",
+         "typ": "tabelle",
+         "frage": "Berechne Var(X) für x = 2, 5, 10 mit P = 0,5; 0,3; 0,2 (μ = 4,5).",
+         "kopf": [
+          "xᵢ",
+          "xᵢ − μ",
+          "(xᵢ − μ)²",
+          "pᵢ · (xᵢ − μ)²"
+         ],
+         "zeilen": [
+          [
+           "2",
+           {
+            "akzeptiert": [
+             "−2,5",
+             "-2,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "6,25"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "3,125"
+            ]
+           }
+          ],
+          [
+           "5",
+           {
+            "akzeptiert": [
+             "0,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,25"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,075"
+            ]
+           }
+          ],
+          [
+           "10",
+           {
+            "akzeptiert": [
+             "5,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "30,25"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "6,05"
+            ]
+           }
+          ],
+          [
+           "Summe",
+           "",
+           "",
+           {
+            "akzeptiert": [
+             "9,25"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 4
+        }
+       ]
+      },
+      {
+       "id": "stat2-s3-D5-w2",
+       "titel": "Standardabweichung",
+       "merke": "Die **Standardabweichung** ist die Wurzel aus der Varianz: **σ = √Var(X)**. Beim fairen Würfel: σ = √2,917 ≈ 1,708.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D5-w2-a1",
+         "typ": "kurzfrage",
+         "frage": "Var(X) = 49. Wie groß ist die Standardabweichung σ?",
+         "akzeptiert": [
+          "7"
+         ],
+         "musterloesung": "σ = √49 = **7**."
+        },
+        {
+         "id": "stat2-s3-D5-w2-a2",
+         "typ": "kurzfrage",
+         "frage": "Var(X) = 0,25. Wie groß ist σ?",
+         "akzeptiert": [
+          "0,5"
+         ],
+         "musterloesung": "σ = √0,25 = **0,5**."
+        },
+        {
+         "id": "stat2-s3-D5-w2-a3",
+         "typ": "kurzfrage",
+         "frage": "σ = 3. Wie groß ist die Varianz?",
+         "akzeptiert": [
+          "9"
+         ],
+         "musterloesung": "σ² = 3² = **9**."
+        },
+        {
+         "id": "stat2-s3-D5-w2-a4",
+         "typ": "single",
+         "frage": "Wofür braucht man die Standardabweichung in Sitzung 4?",
+         "richtig": [
+          "für die z-Transformation"
+         ],
+         "falsch": [
+          "für die Laplace-Regel",
+          "für die Verteilungsfunktion",
+          "für die Mengenlehre"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-D6",
+     "titel": "Statistik 1 ↔ Statistik 2",
+     "wissen": [
+      {
+       "id": "stat2-s3-D6-w1",
+       "titel": "Gegenüberstellung",
+       "merke": "Empirisch ↔ theoretisch: **relative Häufigkeitsverteilung ↔ Wahrscheinlichkeitsverteilung**, **kumulierte rel. Häufigkeitsverteilung ↔ Verteilungsfunktion F(x)**, **Mittelwert x̄ ↔ Erwartungswert E(X)**, **empirische Varianz s² ↔ theoretische Varianz Var(X)**, **Messwert ↔ Realisation**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s3-D6-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne Statistik 1 (empirisch) und Statistik 2 (theoretisch) zu.",
+         "paare": [
+          {
+           "links": "relative Häufigkeitsverteilung",
+           "rechts": "Wahrscheinlichkeitsverteilung"
+          },
+          {
+           "links": "kumulierte rel. Häufigkeitsverteilung",
+           "rechts": "Verteilungsfunktion F(x)"
+          },
+          {
+           "links": "Mittelwert x̄",
+           "rechts": "Erwartungswert E(X)"
+          },
+          {
+           "links": "empirische Varianz s²",
+           "rechts": "theoretische Varianz Var(X)"
+          },
+          {
+           "links": "Messwert",
+           "rechts": "Realisation"
+          }
+         ],
+         "zeigen": 5
+        },
+        {
+         "id": "stat2-s3-D6-w1-a2",
+         "typ": "tabelle",
+         "frage": "Ergänze die Gegenüberstellung.",
+         "kopf": [
+          "Statistik 1 (empirisch)",
+          "Statistik 2 (theoretisch)"
+         ],
+         "zeilen": [
+          [
+           "relative Häufigkeitsverteilung",
+           {
+            "akzeptiert": [
+             "Wahrscheinlichkeitsverteilung"
+            ]
+           }
+          ],
+          [
+           "kumulierte relative Häufigkeitsverteilung",
+           {
+            "akzeptiert": [
+             "Verteilungsfunktion"
+            ]
+           }
+          ],
+          [
+           "Mittelwert",
+           {
+            "akzeptiert": [
+             "Erwartungswert"
+            ]
+           }
+          ],
+          [
+           "empirische Varianz",
+           {
+            "akzeptiert": [
+             "theoretische Varianz",
+             "Varianz"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-D6-w1-a3",
+         "typ": "single",
+         "frage": "Womit wird beim Erwartungswert gewichtet, womit beim Mittelwert?",
+         "optionen": [
+          "E(X): mit pᵢ; x̄: mit hᵢ/n",
+          "E(X): mit hᵢ/n; x̄: mit pᵢ",
+          "beide mit pᵢ",
+          "beide gar nicht"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s3-D6-w1-a4",
+         "typ": "offen",
+         "frage": "Vergleiche Mittelwert und Erwartungswert.",
+         "kernpunkte": [
+          "Mittelwert: Schwerpunkt der empirischen Häufigkeitsverteilung, gewichtet mit hᵢ/n",
+          "Erwartungswert: Schwerpunkt der Wahrscheinlichkeitsverteilung, gewichtet mit pᵢ",
+          "empirisch vs. theoretisch"
+         ],
+         "musterloesung": "Beide sind Schwerpunkte einer Verteilung. Der Mittelwert x̄ = Σ (hᵢ/n)·xᵢ gewichtet Messwerte mit ihrer relativen Häufigkeit (empirisch, Stichprobe). Der Erwartungswert E(X) = Σ pᵢ·xᵢ gewichtet Realisationen mit ihrer Wahrscheinlichkeit (theoretisch)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s3-D-mix1",
+     "titel": "Mix: Erwartungswert und Varianz",
+     "mix": [
+      "stat2-s3-D1",
+      "stat2-s3-D2",
+      "stat2-s3-D3",
+      "stat2-s3-D4",
+      "stat2-s3-D5",
+      "stat2-s3-D6"
+     ]
+    }
+   ]
+  }
+ ],
+ "arbeitsblatt": {
+  "titel": "Übungszettel 3 (Sitzung 3)",
+  "aufgaben": [
+   {
+    "id": "stat2-s3-ab1",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Kaugummiautomat mit 7 roten, 6 blauen, 8 gelben und 9 grünen Kaugummis; das einmalige Einwerfen einer Münze ist der Zufallsprozess. a) Gib die Ergebnismenge an. b) P(blau)? c) P(rot oder grün)? d) P(nicht gelb)?",
+    "wissen": [
+     "stat2-s3-A1b-w1",
+     "stat2-s3-A1b-w2",
+     "stat2-s3-A2-w1"
+    ],
+    "kernpunkte": [
+     "a) Ω mit jedem einzelnen Kaugummi (gleichwahrscheinlich)",
+     "b) 6/30 = 0,2",
+     "c) 16/30 ≈ 0,533",
+     "d) 22/30 bzw. 1 − 8/30 ≈ 0,733"
+    ],
+    "musterloesung": "a) Ω = {rot₁ … rot₇, blau₁ … blau₆, gelb₁ … gelb₈, grün₁ … grün₉} – jedes einzelne Kaugummi, damit die Elementarereignisse gleichwahrscheinlich sind. b) P = 6/30 = 0,2 = 20 %. c) P = (7 + 9)/30 = 16/30 ≈ 0,533 = 53,3 %. d) Weg 1: (7 + 6 + 9)/30 = 22/30 ≈ 0,733; Weg 2: 1 − 8/30 ≈ 0,733 = 73,3 %."
+   },
+   {
+    "id": "stat2-s3-ab2",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Vervollständige die Tabelle (x = 5, 4, 7, 2; P = 0,19, ?, 0,17, ?; F = ?, 0,6, ?, 1) und berechne E(X) und Var(X).",
+    "wissen": [
+     "stat2-s3-C3-w2",
+     "stat2-s3-D3-w1",
+     "stat2-s3-D5-w1"
+    ],
+    "kernpunkte": [
+     "fehlende Werte: 0,19; 0,41; 0,77; 0,23",
+     "E(X) = 4,24",
+     "Var(X) ≈ 2,58"
+    ],
+    "musterloesung": "F(x₁) = 0,19; P(X = 4) = 0,6 − 0,19 = 0,41; F(x₃) = 0,6 + 0,17 = 0,77; P(X = 2) = 1 − 0,77 = 0,23. E(X) = 0,19·5 + 0,41·4 + 0,17·7 + 0,23·2 = 0,95 + 1,64 + 1,19 + 0,46 = 4,24. Var(X) = 0,19·(5 − 4,24)² + 0,41·(4 − 4,24)² + 0,17·(7 − 4,24)² + 0,23·(2 − 4,24)² ≈ 0,1097 + 0,0236 + 1,2950 + 1,1540 ≈ 2,58.",
+    "erklaerung": "Laut deinen Unterlagen steht in der Musterlösung im letzten Summanden versehentlich (2 − 4,1)²; richtig ist (2 − 4,24)². Das Endergebnis 2,58 stimmt."
+   },
+   {
+    "id": "stat2-s3-ab3",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Richtig oder falsch? Begründe: (1) Eine Zufallsvariable weist jedem Element von Ω zufällig eine Zahl zu. (2) Die Ergebnisse von Zufallsprozessen werden in Realisationen von Zufallsvariablen „überführt“. (3) Ω ist die Menge aller möglichen Ergebnisse und wird als Definitionsbereich bezeichnet. (4) Die Wahrscheinlichkeitsverteilung stellt die kumulierten Wahrscheinlichkeiten dar. (5) Eine Zufallsvariable wird in Großbuchstaben notiert, Realisationen mit Kleinbuchstaben.",
+    "wissen": [
+     "stat2-s3-B2-w2",
+     "stat2-s3-B3-w1",
+     "stat2-s3-C1-w2",
+     "stat2-s3-B3-w2"
+    ],
+    "kernpunkte": [
+     "(1) falsch: feste Regel",
+     "(2) richtig",
+     "(3) richtig",
+     "(4) falsch: kumuliert = Verteilungsfunktion",
+     "(5) richtig"
+    ],
+    "musterloesung": "(1) Falsch: Sie ist eine regelgeleitete Zuordnungsvorschrift – jedem Element aus Ω wird nach einer festen Regel eine Zahl zugewiesen. (2) Richtig. (3) Richtig. (4) Falsch: P(X = x) gibt für jede Realisation die Wahrscheinlichkeit an, dass genau diese realisiert wird; kumulierte Wahrscheinlichkeiten zeigt die Verteilungsfunktion F(x) = P(X ≤ x). (5) Richtig."
+   },
+   {
+    "id": "stat2-s3-ab4",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Glücksrad mit Bonbons: rot (0,31) 2 abgeben, grün (0,19) 1 abgeben, gelb (0,1) nichts, blau (0,32) 1 erhalten, weiß (0,08) 2 erhalten. a) Stelle die Tabelle mit xᵢ, P(X = xᵢ) und F(xᵢ) auf. b) Definiere die Zufallsvariable (Definitionsbereich, Wertebereich, Zuordnungsvorschrift). c) Berechne den Erwartungswert. Lohnt sich das Spiel?",
+    "wissen": [
+     "stat2-s3-C3-w2",
+     "stat2-s3-B4-w1",
+     "stat2-s3-D3-w2"
+    ],
+    "kernpunkte": [
+     "a) x = −2, −1, 0, 1, 2; F = 0,31; 0,5; 0,6; 0,92; 1",
+     "b) Zuordnungsregel; Ω = Farben; X(Ω) = {−2, …, 2}",
+     "c) E(X) = −0,33",
+     "lohnt sich nicht"
+    ],
+    "musterloesung": "a) x: −2, −1, 0, 1, 2; P: 0,31; 0,19; 0,1; 0,32; 0,08; F: 0,31; 0,5; 0,6; 0,92; 1. b) Eine Zufallsvariable ist eine Zuordnungsregel, die jedem Element von Ω nach einer eindeutig bestimmten Regel eine Zahl zuweist; hier wird jeder Farbe die Anzahl abgegebener bzw. erhaltener Bonbons zugeordnet. Ω = {rot, grün, gelb, blau, weiß}; X(Ω) = {−2, −1, 0, 1, 2}; X(ω) = −2 bei rot, −1 bei grün, 0 bei gelb, 1 bei blau, 2 bei weiß. c) E(X) = −0,62 − 0,19 + 0 + 0,32 + 0,16 = −0,33 → auf lange Sicht verliert man 0,33 Bonbons pro Runde; Mitmachen lohnt sich nicht."
+   }
+  ]
+ },
+ "probeklausur": {
+  "titel": "Probeklausur Statistik 2, Sitzung 3",
+  "bestehenProzent": 50,
+  "anzahl": 14,
+  "aufgaben": [
+   {
+    "id": "stat2-s3-pk1",
+    "typ": "single",
+    "frage": "Urne mit 15 roten, 25 gelben und 60 blauen Kugeln. P(gelb) = ?",
+    "optionen": [
+     "0,25",
+     "1/3",
+     "0,6",
+     "25"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s3-A2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk2",
+    "typ": "kurzfrage",
+    "frage": "Urne mit 15 roten, 25 gelben und 60 blauen Kugeln. P(nicht blau) = ?",
+    "akzeptiert": [
+     "0,4",
+     "40/100",
+     "2/5",
+     "40 %"
+    ],
+    "musterloesung": "1 − 60/100 = **0,4**.",
+    "wissen": [
+     "stat2-s3-A1b-w2"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk3",
+    "typ": "offen",
+    "frage": "Warum ist die Regel von Laplace keine Definition von Wahrscheinlichkeit, und wann darf man sie anwenden?",
+    "kernpunkte": [
+     "Rechenregel",
+     "nur bei endlich vielen, gleichwahrscheinlichen Elementarereignissen",
+     "„gleichwahrscheinlich“ setzt Wahrscheinlichkeit voraus → Zirkelschluss"
+    ],
+    "musterloesung": "Sie ist eine Rechenregel, die nur bei endlich vielen, gleichwahrscheinlichen Elementarereignissen angewendet werden darf. Weil „gleichwahrscheinlich“ den Wahrscheinlichkeitsbegriff schon voraussetzt, wäre sie als Definition ein Zirkelschluss.",
+    "wissen": [
+     "stat2-s3-A2b-w1",
+     "stat2-s3-A2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk4",
+    "typ": "definition",
+    "frage": "Definiere den Begriff Zufallsvariable und nenne Definitions- und Wertebereich.",
+    "kernpunkte": [
+     "regelgeleitete Zuordnungsvorschrift",
+     "jedem Element aus Ω eine Zahl",
+     "nach eindeutig definierter Regel",
+     "Definitionsbereich Ω, Wertebereich X(Ω)"
+    ],
+    "musterloesung": "Eine Zufallsvariable ist eine regelgeleitete Zuordnungsvorschrift, die jedem Element aus Ω nach einer eindeutig definierten Regel eine Zahl zuweist. Definitionsbereich: Ω; Wertebereich: X(Ω), die Menge der möglichen Realisationen.",
+    "wissen": [
+     "stat2-s3-B2-w1",
+     "stat2-s3-B3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk5",
+    "typ": "richtigfalsch",
+    "frage": "Richtig oder falsch?",
+    "aussagen": [
+     {
+      "text": "Eine Zufallsvariable weist jedem Element von Ω zufällig eine Zahl zu.",
+      "richtig": false,
+      "begruendung": "Falsch: feste Regel."
+     },
+     {
+      "text": "Die Wahrscheinlichkeitsverteilung stellt die kumulierten Wahrscheinlichkeiten dar.",
+      "richtig": false,
+      "begruendung": "Falsch: Das macht die Verteilungsfunktion."
+     },
+     {
+      "text": "Eine Verteilungsfunktion kann Stufen nach unten haben.",
+      "richtig": false,
+      "begruendung": "Falsch: monoton wachsend."
+     },
+     {
+      "text": "Der Erwartungswert ist der Schwerpunkt der Wahrscheinlichkeitsverteilung.",
+      "richtig": true,
+      "begruendung": "Richtig."
+     }
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s3-B2-w2",
+     "stat2-s3-C1-w2",
+     "stat2-s3-C2-w2",
+     "stat2-s3-D2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk6",
+    "typ": "tabelle",
+    "frage": "Ergänze die Tabelle.",
+    "kopf": [
+     "xᵢ",
+     "P(X = xᵢ)",
+     "F(xᵢ)"
+    ],
+    "zeilen": [
+     [
+      "1",
+      "0,15",
+      {
+       "akzeptiert": [
+        "0,15"
+       ]
+      }
+     ],
+     [
+      "3",
+      {
+       "akzeptiert": [
+        "0,25"
+       ]
+      },
+      "0,4"
+     ],
+     [
+      "4",
+      "0,35",
+      {
+       "akzeptiert": [
+        "0,75"
+       ]
+      }
+     ],
+     [
+      "8",
+      {
+       "akzeptiert": [
+        "0,25"
+       ]
+      },
+      "1"
+     ]
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s3-C3-w1",
+     "stat2-s3-C3-w2"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk7",
+    "typ": "kurzfrage",
+    "frage": "X: x = 1, 3, 4, 8 mit P = 0,15; 0,25; 0,35; 0,25. E(X) = ?",
+    "akzeptiert": [
+     "4,3"
+    ],
+    "musterloesung": "0,15 + 0,75 + 1,4 + 2 = **4,3**.",
+    "wissen": [
+     "stat2-s3-D3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk8",
+    "typ": "kurzfrage",
+    "frage": "X: x = 0, 10, 20 mit P = 0,2; 0,5; 0,3. E(X) = ?",
+    "akzeptiert": [
+     "11"
+    ],
+    "musterloesung": "0 + 5 + 6 = **11**.",
+    "wissen": [
+     "stat2-s3-D3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk9",
+    "typ": "kurzfrage",
+    "frage": "X: x = 0, 10, 20 mit P = 0,2; 0,5; 0,3; E(X) = 11. Var(X) = ?",
+    "akzeptiert": [
+     "49"
+    ],
+    "musterloesung": "0,2·121 + 0,5·1 + 0,3·81 = 24,2 + 0,5 + 24,3 = **49**.",
+    "wissen": [
+     "stat2-s3-D5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk10",
+    "typ": "kurzfrage",
+    "frage": "Var(X) = 49. Standardabweichung σ = ?",
+    "akzeptiert": [
+     "7"
+    ],
+    "musterloesung": "√49 = **7**.",
+    "wissen": [
+     "stat2-s3-D5-w2"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk11",
+    "typ": "single",
+    "frage": "F(x₃) = 0,55, F(x₄) = 0,9. P(X = x₄) = ?",
+    "optionen": [
+     "0,35",
+     "0,9",
+     "0,55",
+     "1,45"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s3-C3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk12",
+    "typ": "single",
+    "frage": "F(2) = 0,3. P(X > 2) = ?",
+    "optionen": [
+     "0,7",
+     "0,3",
+     "1,3",
+     "nicht bestimmbar"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s3-C3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk13",
+    "typ": "fall",
+    "fall": "Ein Losstand: Mit P = 0,7 gewinnt man nichts (0 €), mit P = 0,25 gewinnt man 2 €, mit P = 0,05 gewinnt man 10 €. Ein Los kostet 1,50 €.",
+    "frage": "Berechne den erwarteten Gewinn pro Los (ohne Lospreis) und beurteile, ob sich der Kauf auf lange Sicht lohnt.",
+    "kernpunkte": [
+     "E(X) = 0,7·0 + 0,25·2 + 0,05·10",
+     "= 0 + 0,5 + 0,5 = 1 €",
+     "1 € < 1,50 € Lospreis",
+     "lohnt sich auf lange Sicht nicht (−0,50 € pro Los)"
+    ],
+    "musterloesung": "E(X) = 0 + 0,5 + 0,5 = 1 €. Bei 1,50 € Lospreis verliert man auf lange Sicht im Mittel 0,50 € pro Los – der Kauf lohnt sich nicht.",
+    "wissen": [
+     "stat2-s3-D3-w2",
+     "stat2-s3-D2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk14",
+    "typ": "zuordnung",
+    "frage": "Ordne Statistik 1 und Statistik 2 zu.",
+    "paare": [
+     {
+      "links": "Mittelwert x̄",
+      "rechts": "Erwartungswert E(X)"
+     },
+     {
+      "links": "empirische Varianz s²",
+      "rechts": "Varianz Var(X)"
+     },
+     {
+      "links": "kumulierte rel. Häufigkeit",
+      "rechts": "Verteilungsfunktion F(x)"
+     },
+     {
+      "links": "relative Häufigkeitsverteilung",
+      "rechts": "Wahrscheinlichkeitsverteilung"
+     }
+    ],
+    "wissen": [
+     "stat2-s3-D6-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk15",
+    "typ": "zuordnung",
+    "frage": "Ordne zu: sozialwissenschaftliche Forschung.",
+    "paare": [
+     {
+      "links": "Zufallsprozess",
+      "rechts": "Stichprobenziehung"
+     },
+     {
+      "links": "Ω",
+      "rechts": "Grundgesamtheit"
+     },
+     {
+      "links": "Zufallsvariable",
+      "rechts": "Regel: Fall → Zahl"
+     }
+    ],
+    "zeigen": 3,
+    "wissen": [
+     "stat2-s3-B5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk16",
+    "typ": "single",
+    "frage": "Welche Aussage über den Erwartungswert einer nominalskalierten Zufallsvariable stimmt?",
+    "optionen": [
+     "Er lässt sich berechnen, ist aber inhaltlich nicht interpretierbar.",
+     "Er ist immer 0.",
+     "Er ist der häufigste Wert.",
+     "Er ist besonders gut interpretierbar."
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s3-D2-w2"
+    ]
+   },
+   {
+    "id": "stat2-s3-pk17",
+    "typ": "multi",
+    "frage": "Welche Eigenschaften hat F(x)?",
+    "richtig": [
+     "monoton wachsend",
+     "Werte zwischen 0 und 1",
+     "Stufenhöhe = P(X = xᵢ)"
+    ],
+    "falsch": [
+     "kann fallen",
+     "Summe aller F-Werte = 1"
+    ],
+    "anzahlRichtig": 3,
+    "anzahlFalsch": 2,
+    "wissen": [
+     "stat2-s3-C2-w2"
+    ]
+   }
+  ]
+ }
+}
