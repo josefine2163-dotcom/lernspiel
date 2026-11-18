@@ -52,6 +52,8 @@ Der Ordner `lernspiel` ist ein Git-Repository, das öffentlich auf GitHub liegt.
 - **Nie hochladen:** `dokumente/` (Vorlesungsfolien, urheberrechtlich geschützt; steht in `.gitignore`) und `meldungen/gemeldet.json` (persönlich).
 - **Commit-Autor:** nur die GitHub-noreply-Adresse aus der Repository-Konfiguration verwenden, nie die private E-Mail-Adresse.
 - **In einer Cloud-Sitzung vom Handy aus** fehlen die Originale in `dokumente/`. Neue Dokumente hängt die Nutzerin dann im Chat an. Gemeldete Fragen fügt sie als Text ein: „Bearbeite die gemeldeten Fragen … ```json {…} ```“ im selben Format wie `meldungen/gemeldet.json`; die Quelle zum Prüfen sind die bestehenden Aufgaben, `merke`-Texte und, falls angehängt, die Folien. Wenn die Sitzung nicht direkt auf `main` pushen darf, die Nutzerin bitten, den Pull Request auf GitHub zu mergen.
+- **Ohne Browser (Cloud):** JSON mit `node` oder `python` validieren und die Regeln aus `katalog.js` (`pruefeForm`: Pflichtfelder je Typ, Lückenanzahl = `{}` im Text, `falsch`-Pool bei `richtig`, IDs eindeutig, mindestens 3 Formen je Wissenspunkt, `mix` nur auf Level derselben Welt) per Skript nachprüfen. Der Nutzerin sagen, dass sie in der App einmal ⚙️ → Daten prüfen → „Alle Aufgaben testen“ tippen soll.
+- **Anleitung für andere Claude-Seiten:** `PROMPT-Inhalte-hinzufuegen.md`.
 
 ## Fortschritt muss erhalten bleiben (IDs!)
 
