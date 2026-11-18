@@ -69,7 +69,8 @@
           "3/6",
           "50 %"
          ],
-         "musterloesung": "A = {2, 4, 6}, n(A) = 3, n(Ω) = 6 → P(A) = 3/6 = **1/2**."
+         "musterloesung": "A = {2, 4, 6}, n(A) = 3, n(Ω) = 6 → P(A) = 3/6 = **1/2**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-A1-w1-a4",
@@ -81,7 +82,8 @@
           "90/100",
           "90 %"
          ],
-         "musterloesung": "90 Nieten von 100 Losen → 90/100 = **9/10 = 0,9**."
+         "musterloesung": "90 Nieten von 100 Losen → 90/100 = **9/10 = 0,9**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-A1-w1-a5",
@@ -154,7 +156,8 @@
           "20 %",
           "20%"
          ],
-         "musterloesung": "n(A) = 6, n(Ω) = 30 → 6/30 = **0,2 = 20 %**."
+         "musterloesung": "n(A) = 6, n(Ω) = 30 → 6/30 = **0,2 = 20 %**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-A1b-w1-a2",
@@ -168,7 +171,8 @@
           "0,5333",
           "0,53"
          ],
-         "musterloesung": "(7 + 9)/30 = 16/30 ≈ **0,533 = 53,3 %**."
+         "musterloesung": "(7 + 9)/30 = 16/30 ≈ **0,533 = 53,3 %**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-A1b-w1-a3",
@@ -182,7 +186,8 @@
           "0,7333",
           "0,73"
          ],
-         "musterloesung": "Weg 1: (7 + 6 + 9)/30 = 22/30. Weg 2: 1 − 8/30. Beides ≈ **0,733**."
+         "musterloesung": "Weg 1: (7 + 6 + 9)/30 = 22/30. Weg 2: 1 − 8/30. Beides ≈ **0,733**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-A1b-w1-a4",
@@ -240,7 +245,8 @@
           "0,65",
           "65 %"
          ],
-         "musterloesung": "1 − 0,35 = **0,65**."
+         "musterloesung": "1 − 0,35 = **0,65**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-A1b-w2-a3",
@@ -544,6 +550,23 @@
            "begruendung": "Nein: Ausprägung ↔ **Ergebnis**; Messwert ↔ Realisation."
           }
          ]
+        },
+        {
+         "id": "stat2-s3-B1-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken (Statistik 1 → Statistik 2).",
+         "text": "Merkmal → {}, Ausprägung → {}, Messwert → {}",
+         "luecken": [
+          [
+           "Zufallsprozess"
+          ],
+          [
+           "Ergebnis"
+          ],
+          [
+           "Realisation"
+          ]
+         ]
         }
        ]
       }
@@ -699,6 +722,22 @@
           "Definitionsbereich = Ergebnismenge eines Zufallsprozesses"
          ],
          "musterloesung": "Die Zuordnung selbst ist nicht zufällig: Jedem ω wird nach einer festen Regel eine Zahl zugewiesen. Zufällig ist nur, welches Ergebnis ω im Zufallsprozess eintritt. Daher der Name: Der Definitionsbereich ist die Ergebnismenge eines Zufallsprozesses."
+        },
+        {
+         "id": "stat2-s3-B2-w2-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Eine Zufallsvariable weist Zahlen nach einer {} Regel zu. Zufällig ist nur, welches {} im Zufallsprozess eintritt.",
+         "luecken": [
+          [
+           "festen",
+           "fest",
+           "eindeutigen"
+          ],
+          [
+           "Ergebnis"
+          ]
+         ]
         }
        ]
       }
@@ -802,6 +841,23 @@
           ]
          ],
          "zeigen": 2
+        },
+        {
+         "id": "stat2-s3-B3-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Der Definitionsbereich einer Zufallsvariable ist {}. Der Wertebereich X(Ω) ist die Menge der möglichen {}.",
+         "luecken": [
+          [
+           "die Ergebnismenge",
+           "Ergebnismenge",
+           "Omega",
+           "Ω"
+          ],
+          [
+           "Realisationen"
+          ]
+         ]
         }
        ]
       },
@@ -867,6 +923,31 @@
           "die Ergebnismenge",
           "ein Ergebnis ω"
          ]
+        },
+        {
+         "id": "stat2-s3-B3-w2-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Zufallsvariablen schreibt man mit {}buchstaben, Realisationen mit {}buchstaben.",
+         "luecken": [
+          [
+           "Groß"
+          ],
+          [
+           "Klein"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s3-B3-w2-a5",
+         "typ": "offen",
+         "frage": "Erkläre die Notation von Zufallsvariable und Realisation an einem Beispiel.",
+         "kernpunkte": [
+          "Zufallsvariable: Großbuchstabe, z. B. X",
+          "Realisation: Kleinbuchstabe, z. B. x bzw. xᵢ",
+          "Beispiel"
+         ],
+         "musterloesung": "Die Zufallsvariable wird mit einem Großbuchstaben notiert (X, Y, Z), ihre Realisationen mit Kleinbuchstaben (x, y, z bzw. xᵢ). Beispiel: X = Augenzahl, x₃ = 3."
         }
        ]
       }
@@ -1020,6 +1101,20 @@
           "Realisationen: die Testwerte y"
          ],
          "musterloesung": "Zufallsprozess = Stichprobenziehung; Ω = Grundgesamtheit (alle Studierenden in Deutschland) = Definitionsbereich; Y ist die Regel, die jeder Person ihre Testleistung zuordnet; die Testwerte (z. B. 450, 503 …) sind die Realisationen y."
+        },
+        {
+         "id": "stat2-s3-B5-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "In der sozialwissenschaftlichen Forschung ist der Zufallsprozess die {} und Ω die {}.",
+         "luecken": [
+          [
+           "Stichprobenziehung"
+          ],
+          [
+           "Grundgesamtheit"
+          ]
+         ]
         }
        ]
       }
@@ -1077,7 +1172,8 @@
           "1/2",
           "3/6"
          ],
-         "musterloesung": "X = 0 gehört zu {1, 3, 5} → 3/6 = **1/2**."
+         "musterloesung": "X = 0 gehört zu {1, 3, 5} → 3/6 = **1/2**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-C1-w1-a3",
@@ -1088,7 +1184,8 @@
           "1/2",
           "3/6"
          ],
-         "musterloesung": "X = 1 gehört zu {4, 5, 6} → **1/2**."
+         "musterloesung": "X = 1 gehört zu {4, 5, 6} → **1/2**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-C1-w1-a4",
@@ -1373,6 +1470,18 @@
           "Werte bis 100",
           "beim kleinsten Wert immer 1"
          ]
+        },
+        {
+         "id": "stat2-s3-C2-w2-a5",
+         "typ": "offen",
+         "frage": "Beschreibe die Eigenschaften der Verteilungsfunktion F(x).",
+         "kernpunkte": [
+          "monoton wachsende Treppenfunktion",
+          "Werte zwischen 0 und 1, beim größten Wert 1",
+          "Stufenhöhe = P(X = xᵢ)",
+          "Aufsummieren erlaubt wegen 3. Axiom (Additivität)"
+         ],
+         "musterloesung": "F ist eine monoton wachsende Treppenfunktion (keine Stufen nach unten, Stufenhöhe 0 möglich) mit Werten zwischen 0 und 1; beim größten Wert ist F = 1. Die Stufenhöhe an xᵢ ist P(X = xᵢ). Aufsummieren darf man wegen des 3. Axioms von Kolmogorov."
         }
        ]
       }
@@ -1394,7 +1503,8 @@
          "akzeptiert": [
           "0,35"
          ],
-         "musterloesung": "0,8 − 0,45 = **0,35**."
+         "musterloesung": "0,8 − 0,45 = **0,35**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-C3-w1-a2",
@@ -1403,7 +1513,8 @@
          "akzeptiert": [
           "0,3"
          ],
-         "musterloesung": "F(2) − F(1) = 0,5 − 0,2 = **0,3**."
+         "musterloesung": "F(2) − F(1) = 0,5 − 0,2 = **0,3**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-C3-w1-a3",
@@ -1645,7 +1756,20 @@
          "akzeptiert": [
           "0,8"
          ],
-         "musterloesung": "F(1) = 0,5 + 0,3 = **0,8**."
+         "musterloesung": "F(1) = 0,5 + 0,3 = **0,8**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s3-C3-w2-a5",
+         "typ": "single",
+         "frage": "X: x = 1, 2, 3 mit P = 0,2; 0,5; 0,3. Welche F-Werte stimmen?",
+         "optionen": [
+          "0,2; 0,7; 1",
+          "0,2; 0,5; 0,3",
+          "0,3; 0,8; 1",
+          "1; 0,8; 0,3"
+         ],
+         "loesung": 0
         }
        ]
       }
@@ -1721,6 +1845,17 @@
            "relative"
           ]
          ]
+        },
+        {
+         "id": "stat2-s3-D1-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Was ist der Mittelwert anschaulich? (Ein Begriff aus der Physik)",
+         "akzeptiert": [
+          "Schwerpunkt",
+          "Schwerpunkt der Häufigkeitsverteilung",
+          "Schwerpunkt der empirischen Häufigkeitsverteilung"
+         ],
+         "musterloesung": "Der **Schwerpunkt** der empirischen Häufigkeitsverteilung."
         }
        ]
       }
@@ -1860,6 +1995,18 @@
           "Erwartungswert nur bei metrischen ZV inhaltlich sinnvoll"
          ],
          "musterloesung": "Bei einer nominalen Zufallsvariable sind die Zahlen nur Namen für Kategorien – ohne Reihenfolge und Abstände. Der Erwartungswert ist daher nur bei metrischen Zufallsvariablen inhaltlich sinnvoll interpretierbar."
+        },
+        {
+         "id": "stat2-s3-D2-w2-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücke.",
+         "text": "Der Erwartungswert ist nur bei {} Zufallsvariablen inhaltlich interpretierbar.",
+         "luecken": [
+          [
+           "metrischen",
+           "metrisch"
+          ]
+         ]
         }
        ]
       }
@@ -1896,7 +2043,8 @@
           "21/6",
           "7/2"
          ],
-         "musterloesung": "1/6·1 + 1/6·2 + … + 1/6·6 = 21/6 = **3,5**."
+         "musterloesung": "1/6·1 + 1/6·2 + … + 1/6·6 = 21/6 = **3,5**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D3-w1-a3",
@@ -1905,7 +2053,8 @@
          "akzeptiert": [
           "1,6"
          ],
-         "musterloesung": "0,4·1 + 0,6·2 = 0,4 + 1,2 = **1,6**."
+         "musterloesung": "0,4·1 + 0,6·2 = 0,4 + 1,2 = **1,6**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D3-w1-a4",
@@ -1914,7 +2063,8 @@
          "akzeptiert": [
           "0,7"
          ],
-         "musterloesung": "0·0,5 + 1·0,3 + 2·0,2 = 0 + 0,3 + 0,4 = **0,7**."
+         "musterloesung": "0·0,5 + 1·0,3 + 2·0,2 = 0 + 0,3 + 0,4 = **0,7**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D3-w1-a5",
@@ -1923,7 +2073,8 @@
          "akzeptiert": [
           "4,5"
          ],
-         "musterloesung": "2·0,5 + 5·0,3 + 10·0,2 = 1 + 1,5 + 2 = **4,5**."
+         "musterloesung": "2·0,5 + 5·0,3 + 10·0,2 = 1 + 1,5 + 2 = **4,5**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D3-w1-a6",
@@ -1991,6 +2142,18 @@
           ]
          ],
          "zeigen": 3
+        },
+        {
+         "id": "stat2-s3-D3-w1-a7",
+         "typ": "single",
+         "frage": "X: x = 2, 4 mit P = 0,5 und 0,5. E(X) = ?",
+         "optionen": [
+          "3",
+          "6",
+          "2",
+          "4"
+         ],
+         "loesung": 0
         }
        ]
       },
@@ -2096,6 +2259,20 @@
           "lohnt sich nicht"
          ],
          "musterloesung": "E(X) = −0,62 − 0,19 + 0 + 0,32 + 0,16 = −0,33. Auf lange Sicht verliert man 0,33 Bonbons pro Runde – Mitmachen lohnt sich nicht."
+        },
+        {
+         "id": "stat2-s3-D3-w2-a5",
+         "typ": "multi",
+         "frage": "Glücksrad mit E(X) = −0,33 Bonbons. Welche Aussagen stimmen?",
+         "richtig": [
+          "Auf lange Sicht verliert man im Mittel 0,33 Bonbons pro Runde.",
+          "Mitmachen lohnt sich nicht.",
+          "E(X) ist die mit den Wahrscheinlichkeiten gewichtete Summe der Realisationen."
+         ],
+         "falsch": [
+          "Man verliert in jeder Runde genau 0,33 Bonbons.",
+          "Mitmachen lohnt sich."
+         ]
         }
        ]
       }
@@ -2151,6 +2328,17 @@
            "Mittelwert"
           ]
          ]
+        },
+        {
+         "id": "stat2-s3-D4-w1-a4",
+         "typ": "offen",
+         "frage": "Erkläre die empirische Varianz in eigenen Worten und nenne die Formel.",
+         "kernpunkte": [
+          "mittlere quadrierte Abweichung",
+          "der Messwerte vom Mittelwert",
+          "s² = Σ (hᵢ/n)·(xᵢ − x̄)²"
+         ],
+         "musterloesung": "Die empirische Varianz ist die mittlere quadrierte Abweichung der Messwerte vom Mittelwert: s² = (1/n)·Σ hᵢ·(xᵢ − x̄)² = Σ (hᵢ/n)·(xᵢ − x̄)²."
         }
        ]
       },
@@ -2249,7 +2437,8 @@
          "akzeptiert": [
           "0,24"
          ],
-         "musterloesung": "0,4·(1 − 1,6)² + 0,6·(2 − 1,6)² = 0,4·0,36 + 0,6·0,16 = 0,144 + 0,096 = **0,24**."
+         "musterloesung": "0,4·(1 − 1,6)² + 0,6·(2 − 1,6)² = 0,4·0,36 + 0,6·0,16 = 0,144 + 0,096 = **0,24**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D5-w1-a3",
@@ -2258,7 +2447,8 @@
          "akzeptiert": [
           "0,61"
          ],
-         "musterloesung": "0,5·0,49 + 0,3·0,09 + 0,2·1,69 = 0,245 + 0,027 + 0,338 = **0,61**."
+         "musterloesung": "0,5·0,49 + 0,3·0,09 + 0,2·1,69 = 0,245 + 0,027 + 0,338 = **0,61**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D5-w1-a4",
@@ -2267,7 +2457,8 @@
          "akzeptiert": [
           "49"
          ],
-         "musterloesung": "E(X) = 0 + 5 + 6 = 11. Var(X) = 0,2·121 + 0,5·1 + 0,3·81 = 24,2 + 0,5 + 24,3 = **49**."
+         "musterloesung": "E(X) = 0 + 5 + 6 = 11. Var(X) = 0,2·121 + 0,5·1 + 0,3·81 = 24,2 + 0,5 + 24,3 = **49**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D5-w1-a5",
@@ -2280,7 +2471,8 @@
           "35/12",
           "17,5/6"
          ],
-         "musterloesung": "1/6·(6,25 + 2,25 + 0,25 + 0,25 + 2,25 + 6,25) = 17,5/6 ≈ **2,917**."
+         "musterloesung": "1/6·(6,25 + 2,25 + 0,25 + 0,25 + 2,25 + 6,25) = 17,5/6 ≈ **2,917**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D5-w1-a6",
@@ -2360,6 +2552,18 @@
           ]
          ],
          "zeigen": 4
+        },
+        {
+         "id": "stat2-s3-D5-w1-a7",
+         "typ": "single",
+         "frage": "X: x = 1, 2 mit P = 0,4 und 0,6; E(X) = 1,6. Var(X) = ?",
+         "optionen": [
+          "0,24",
+          "0,5",
+          "1,6",
+          "0,16"
+         ],
+         "loesung": 0
         }
        ]
       },
@@ -2375,7 +2579,8 @@
          "akzeptiert": [
           "7"
          ],
-         "musterloesung": "σ = √49 = **7**."
+         "musterloesung": "σ = √49 = **7**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D5-w2-a2",
@@ -2384,7 +2589,8 @@
          "akzeptiert": [
           "0,5"
          ],
-         "musterloesung": "σ = √0,25 = **0,5**."
+         "musterloesung": "σ = √0,25 = **0,5**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s3-D5-w2-a3",
@@ -2516,6 +2722,20 @@
           "empirisch vs. theoretisch"
          ],
          "musterloesung": "Beide sind Schwerpunkte einer Verteilung. Der Mittelwert x̄ = Σ (hᵢ/n)·xᵢ gewichtet Messwerte mit ihrer relativen Häufigkeit (empirisch, Stichprobe). Der Erwartungswert E(X) = Σ pᵢ·xᵢ gewichtet Realisationen mit ihrer Wahrscheinlichkeit (theoretisch)."
+        },
+        {
+         "id": "stat2-s3-D6-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Dem Mittelwert entspricht in Statistik 2 der {}, der kumulierten relativen Häufigkeitsverteilung die {}.",
+         "luecken": [
+          [
+           "Erwartungswert"
+          ],
+          [
+           "Verteilungsfunktion"
+          ]
+         ]
         }
        ]
       }
@@ -2646,6 +2866,7 @@
      "40 %"
     ],
     "musterloesung": "1 − 60/100 = **0,4**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s3-A1b-w2"
     ]
@@ -2776,6 +2997,7 @@
      "4,3"
     ],
     "musterloesung": "0,15 + 0,75 + 1,4 + 2 = **4,3**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s3-D3-w1"
     ]
@@ -2788,6 +3010,7 @@
      "11"
     ],
     "musterloesung": "0 + 5 + 6 = **11**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s3-D3-w1"
     ]
@@ -2800,6 +3023,7 @@
      "49"
     ],
     "musterloesung": "0,2·121 + 0,5·1 + 0,3·81 = 24,2 + 0,5 + 24,3 = **49**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s3-D5-w1"
     ]
@@ -2812,6 +3036,7 @@
      "7"
     ],
     "musterloesung": "√49 = **7**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s3-D5-w2"
     ]

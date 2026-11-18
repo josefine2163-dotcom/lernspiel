@@ -1,0 +1,3265 @@
+{
+ "format": 1,
+ "id": "stat2-s4",
+ "fach": "Statistik 2",
+ "titel": "Spezielle diskrete Verteilungen und Transformation von Zufallsvariablen",
+ "kurztitel": "Sitzung 4",
+ "quelle": [
+  "Statistik 2/S2_Sitzung04_Verteilungen_Transformation.md"
+ ],
+ "verarbeitet": "2026-11-18",
+ "sprache": "de",
+ "welten": [
+  {
+   "id": "stat2-s4-A",
+   "titel": "Die diskrete Gleichverteilung",
+   "farbe": 230,
+   "level": [
+    {
+     "id": "stat2-s4-A1",
+     "titel": "Aufwärmen: E und Var",
+     "wissen": [
+      {
+       "id": "stat2-s4-A1-w1",
+       "titel": "Wiederholung: Kennwerte berechnen",
+       "merke": "Jede Zufallsvariable ist durch ihre **Wahrscheinlichkeitsverteilung** charakterisiert. Für **metrische** Zufallsvariablen: **E(X) = Σ pᵢ·xᵢ** (Lage) und **Var(X) = Σ pᵢ·(xᵢ − μ)²** (Streuung). Übungsbeispiel: x = 10, 15, …, 40 mit P = 0,02; 0,03; 0,1; 0,4; 0,25; 0,15; 0,05 → E(X) = 27,4; Var(X) = 36,74.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-A1-w1-a1",
+         "typ": "kurzfrage",
+         "frage": "X: x = 10, 15, 20, 25, 30, 35, 40 mit P = 0,02; 0,03; 0,1; 0,4; 0,25; 0,15; 0,05. E(X) = ?",
+         "akzeptiert": [
+          "27,4"
+         ],
+         "musterloesung": "0,2 + 0,45 + 2 + 10 + 7,5 + 5,25 + 2 = **27,4**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A1-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Gleiche Verteilung, μ = 27,4. Var(X) = ?",
+         "akzeptiert": [
+          "36,74"
+         ],
+         "musterloesung": "6,0552 + 4,6128 + 5,476 + 2,304 + 1,69 + 8,664 + 7,938 = **36,74**."
+        },
+        {
+         "id": "stat2-s4-A1-w1-a3",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "Erwartungswert",
+           "rechts": "Lageparameter"
+          },
+          {
+           "links": "Varianz",
+           "rechts": "Streuungsparameter"
+          },
+          {
+           "links": "Wahrscheinlichkeitsverteilung",
+           "rechts": "Realisationen + zugehörige Wahrscheinlichkeiten"
+          }
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s4-A1-w1-a4",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Jede Zufallsvariable ist durch eine Wahrscheinlichkeitsverteilung charakterisiert.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Erwartungswert und Varianz sind für metrische Zufallsvariablen gedacht.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Die Varianz ist ein Lageparameter.",
+           "richtig": false,
+           "begruendung": "Nein: Streuungsparameter; der Erwartungswert ist der Lageparameter."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-A2",
+     "titel": "Was ist gleichverteilt?",
+     "wissen": [
+      {
+       "id": "stat2-s4-A2-w1",
+       "titel": "Definition Gleichverteilung",
+       "merke": "Hat eine Zufallsvariable X genau **m mögliche Realisationen**, die **alle mit gleicher Wahrscheinlichkeit P(X = xᵢ) = 1/m** vorkommen, ist sie **gleichverteilt**: **X ~ U(m)** (U = *uniform distribution*).",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-A2-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wann ist eine Zufallsvariable gleichverteilt?",
+          "X ist gleichverteilt, wenn …"
+         ],
+         "richtig": [
+          "alle m Realisationen dieselbe Wahrscheinlichkeit 1/m haben"
+         ],
+         "falsch": [
+          "sie genau die Realisationen 0 und 1 hat",
+          "ihre Realisationen gleich weit auseinanderliegen",
+          "ihr Erwartungswert 0 ist"
+         ]
+        },
+        {
+         "id": "stat2-s4-A2-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Eine gleichverteilte Zufallsvariable mit m Realisationen schreibt man X ~ {}(m). Jede Realisation hat die Wahrscheinlichkeit {}.",
+         "luecken": [
+          [
+           "U"
+          ],
+          [
+           "1/m"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s4-A2-w1-a3",
+         "typ": "kurzfrage",
+         "fragen": [
+          "X ~ U(5). Wie groß ist P(X = xᵢ)?",
+          "Eine Zufallsvariable hat 5 gleich wahrscheinliche Realisationen. P(X = xᵢ) = ?"
+         ],
+         "akzeptiert": [
+          "1/5",
+          "0,2",
+          "20 %"
+         ],
+         "musterloesung": "P = 1/m = **1/5 = 0,2**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A2-w1-a4",
+         "typ": "single",
+         "frage": "Fairer Würfel, X = Augenzahl. Welche Schreibweise passt?",
+         "optionen": [
+          "X ~ U(6)",
+          "X ~ Bin(1, 1/6)",
+          "X ~ U(1/6)",
+          "X ~ Bin(6, 1)"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-A2-w1-a5",
+         "typ": "definition",
+         "frage": "Definiere die (diskrete) Gleichverteilung.",
+         "kernpunkte": [
+          "genau m mögliche Realisationen",
+          "alle mit gleicher Wahrscheinlichkeit 1/m",
+          "Schreibweise X ~ U(m)"
+         ],
+         "musterloesung": "Wenn eine Zufallsvariable X genau m mögliche Realisationen hat, die alle mit gleicher Wahrscheinlichkeit P(X = xᵢ) = 1/m vorkommen, ist sie gleichverteilt. Schreibweise: X ~ U(m)."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-A2-w2",
+       "titel": "Der Parameter m",
+       "merke": "Bei der Gleichverteilung ist die Wahrscheinlichkeit jeder Realisation **eindeutig durch die Anzahl der Realisationen m** bestimmt. **m** ist der **charakterisierende Parameter**; U steht für *uniform*.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-A2-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Welcher Parameter charakterisiert die Gleichverteilung?",
+          "X ~ U(m): Was ist der charakterisierende Parameter?"
+         ],
+         "richtig": [
+          "m, die Anzahl der Realisationen"
+         ],
+         "falsch": [
+          "p₁, die Wahrscheinlichkeit des Zielereignisses",
+          "der Erwartungswert",
+          "die Varianz"
+         ]
+        },
+        {
+         "id": "stat2-s4-A2-w2-a2",
+         "typ": "begriff",
+         "frage": "Wofür steht das U in X ~ U(m)?",
+         "akzeptiert": [
+          "uniform",
+          "uniform distribution",
+          "Gleichverteilung"
+         ],
+         "musterloesung": "*uniform distribution* = Gleichverteilung."
+        },
+        {
+         "id": "stat2-s4-A2-w2-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Bei der Gleichverteilung ist die Wahrscheinlichkeit jeder Realisation durch m eindeutig bestimmt.",
+           "richtig": true,
+           "begruendung": "Ja: 1/m."
+          },
+          {
+           "text": "U(4) bedeutet: Jede Realisation hat die Wahrscheinlichkeit 4.",
+           "richtig": false,
+           "begruendung": "Nein: 1/4."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-A2-w2-a4",
+         "typ": "kurzfrage",
+         "frage": "Was gibt m in X ~ U(m) an?",
+         "akzeptiert": [
+          "Anzahl der Realisationen",
+          "die Anzahl der Realisationen",
+          "Anzahl Realisationen"
+         ],
+         "musterloesung": "Die **Anzahl der (gleich wahrscheinlichen) Realisationen**."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-A3",
+     "titel": "Die Kurzformeln",
+     "wissen": [
+      {
+       "id": "stat2-s4-A3-w1",
+       "titel": "E und Var der Gleichverteilung",
+       "merke": "Nur wenn die Realisationen **genau 1, 2, …, m** sind: **E(X) = (m + 1)/2** und **Var(X) = (m² − 1)/12**. Würfel U(6): E = 3,5; Var = 35/12 ≈ 2,917.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-A3-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Kurzformeln zu (X ~ U(m), Werte 1…m).",
+         "paare": [
+          {
+           "links": "E(X)",
+           "rechts": "(m + 1)/2"
+          },
+          {
+           "links": "Var(X)",
+           "rechts": "(m² − 1)/12"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-A3-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "X ~ U(10) mit Werten 1…10. E(X) = ?",
+          "X ~ U(10), Werte 1 bis 10. Berechne E(X)."
+         ],
+         "akzeptiert": [
+          "5,5",
+          "11/2"
+         ],
+         "musterloesung": "(10 + 1)/2 = **5,5**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "X ~ U(10) mit Werten 1…10. Var(X) = ?",
+         "akzeptiert": [
+          "8,25",
+          "99/12"
+         ],
+         "musterloesung": "(100 − 1)/12 = 99/12 = **8,25**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A3-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "X ~ U(5) mit Werten 1…5. Var(X) = ?",
+         "akzeptiert": [
+          "2",
+          "24/12"
+         ],
+         "musterloesung": "(25 − 1)/12 = **2**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A3-w1-a5",
+         "typ": "single",
+         "frage": "X ~ U(8) mit Werten 1…8. E(X) = ?",
+         "optionen": [
+          "4,5",
+          "4",
+          "5,25",
+          "8"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-A3-w1-a6",
+         "typ": "tabelle",
+         "frage": "Ergänze mit den Kurzformeln (Werte 1…m).",
+         "kopf": [
+          "m",
+          "E(X)",
+          "Var(X)"
+         ],
+         "zeilen": [
+          [
+           "4",
+           {
+            "akzeptiert": [
+             "2,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1,25"
+            ]
+           }
+          ],
+          [
+           "6",
+           {
+            "akzeptiert": [
+             "3,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "2,917",
+             "35/12",
+             "2,92",
+             "2,9167"
+            ]
+           }
+          ],
+          [
+           "8",
+           {
+            "akzeptiert": [
+             "4,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "5,25",
+             "63/12"
+            ]
+           }
+          ],
+          [
+           "10",
+           {
+            "akzeptiert": [
+             "5,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "8,25"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-A3-w2",
+       "titel": "Wann die Kurzformeln nicht gelten",
+       "merke": "Sind die Realisationen **nicht** 1 … m (z. B. {2, 4, 6}), gelten die Kurzformeln **nicht direkt** → mit der **allgemeinen Formel** rechnen (oder über **Transformation**).",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-A3-w2-a1",
+         "typ": "single",
+         "frage": "X ist gleichverteilt mit den Werten {2, 4, 6}. Darf man E(X) = (m + 1)/2 = 2 verwenden?",
+         "optionen": [
+          "Nein, die Werte sind nicht 1 … m – allgemein oder per Transformation rechnen.",
+          "Ja, X ist gleichverteilt.",
+          "Ja, weil m = 3.",
+          "Nein, weil die Gleichverteilung gar keinen Erwartungswert hat."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-A3-w2-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Kurzformeln gelten für jede gleichverteilte Zufallsvariable.",
+           "richtig": false,
+           "begruendung": "Nein: nur wenn die Realisationen genau 1, 2, …, m sind."
+          },
+          {
+           "text": "Bei Werten {2, 4, 6} kann man über die Transformation Y = 2·X mit X ~ U(3) rechnen.",
+           "richtig": true,
+           "begruendung": "Ja: Transformation ist laut deinen Unterlagen ein Weg; die Rechenregeln kommen in Welt C."
+          },
+          {
+           "text": "Bei Werten {2, 4, 6} kann man die allgemeine Formel E(X) = Σ pᵢ·xᵢ nutzen.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-A3-w2-a3",
+         "typ": "kurzfrage",
+         "frage": "X gleichverteilt mit den Werten {2, 4, 6}. Berechne E(X) mit der allgemeinen Formel.",
+         "akzeptiert": [
+          "4"
+         ],
+         "musterloesung": "1/3·2 + 1/3·4 + 1/3·6 = 12/3 = **4**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A3-w2-a4",
+         "typ": "offen",
+         "frage": "Unter welcher Bedingung darfst du die Kurzformeln der Gleichverteilung verwenden, und was tust du sonst?",
+         "kernpunkte": [
+          "nur bei Realisationen 1, 2, …, m",
+          "sonst allgemeine Formel",
+          "oder über Transformation"
+         ],
+         "musterloesung": "Nur wenn die Realisationen genau die Zahlen 1, 2, …, m sind. Sonst rechnet man mit der allgemeinen Formel (E = Σ pᵢ·xᵢ, Var = Σ pᵢ·(xᵢ − μ)²) oder über eine Transformation."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-A4",
+     "titel": "Bäckertüten",
+     "wissen": [
+      {
+       "id": "stat2-s4-A4-w1",
+       "titel": "Chiaras Bäckertüten",
+       "merke": "Chiara greift zufällig eine von 4 Tüten (Brezeln, Laugenstangen, Croissants, Brötchen; X = 1…4): **X ~ U(4)**, E(X) = 2,5, Var(X) = 1,25. Aber: X ist **nominalskaliert** → E und Var sind **nicht inhaltlich interpretierbar** (nur bei metrischen ZV).",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-A4-w1-a1",
+         "typ": "single",
+         "frage": "Chiara greift zufällig eine von 4 Tüten; X = 1, 2, 3, 4 für Brezeln, Laugenstangen, Croissants, Brötchen. Welche Verteilung?",
+         "optionen": [
+          "X ~ U(4)",
+          "X ~ Bin(1; 0,25)",
+          "X ~ U(1/4)",
+          "keine spezielle Verteilung"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-A4-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Bäckertüten, X ~ U(4). E(X) = ?",
+         "akzeptiert": [
+          "2,5"
+         ],
+         "musterloesung": "(4 + 1)/2 = **2,5**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A4-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Bäckertüten, X ~ U(4). Var(X) = ?",
+         "akzeptiert": [
+          "1,25",
+          "15/12"
+         ],
+         "musterloesung": "(16 − 1)/12 = **1,25**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-A4-w1-a4",
+         "typ": "single",
+         "frage": "Sind E(X) = 2,5 und Var(X) = 1,25 bei den Bäckertüten inhaltlich interpretierbar?",
+         "optionen": [
+          "Nein, X ist nominalskaliert – Backwaren haben keine logische Reihenfolge.",
+          "Ja, im Mittel bekommt man Laugenstangen oder Croissants.",
+          "Ja, weil X gleichverteilt ist.",
+          "Nur der Erwartungswert."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-A4-w1-a5",
+         "typ": "fall",
+         "fall": "Je eine Tüte Brezeln, Laugenstangen, Croissants, Brötchen; Chiara greift zufällig eine.",
+         "frage": "a) Definiere die Zufallsvariable (Definitionsbereich, Wertebereich, Zuordnungsvorschrift). b) Welche Verteilung liegt vor? c) Berechne E(X) und Var(X) möglichst einfach und beurteile, ob sie interpretierbar sind.",
+         "kernpunkte": [
+          "Ω = {Brezeln, Laugenstangen, Croissants, Brötchen}",
+          "X(Ω) = {1, 2, 3, 4} mit Zuordnung",
+          "Gleichverteilung X ~ U(4)",
+          "E = 2,5; Var = 1,25",
+          "nicht interpretierbar: nominalskaliert"
+         ],
+         "musterloesung": "a) Ω = {Brezeln, Laugenstangen, Croissants, Brötchen}; X(Ω) = {1, 2, 3, 4}; X = 1 Brezeln, 2 Laugenstangen, 3 Croissants, 4 Brötchen. b) Gleichverteilung, da alle Realisationen gleich wahrscheinlich sind (0,25) → X ~ U(4). c) E(X) = (4 + 1)/2 = 2,5; Var(X) = (16 − 1)/12 = 1,25. Nicht interpretierbar, da X nominalskaliert ist."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-A-mix1",
+     "titel": "Mix: Gleichverteilung",
+     "mix": [
+      "stat2-s4-A1",
+      "stat2-s4-A2",
+      "stat2-s4-A3",
+      "stat2-s4-A4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s4-B",
+   "titel": "Die Bernoulli-Verteilung",
+   "farbe": 90,
+   "level": [
+    {
+     "id": "stat2-s4-B1",
+     "titel": "0 und 1",
+     "wissen": [
+      {
+       "id": "stat2-s4-B1-w1",
+       "titel": "Definition Bernoulli-Verteilung",
+       "merke": "Hat X genau die **zwei Realisationen 0 und 1**, ist X **bernoulliverteilt**. **1 = Zielereignis**, **0 = Gegenereignis**. P(X = 1) = p₁, P(X = 0) = 1 − p₁.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wann ist eine Zufallsvariable bernoulliverteilt?",
+          "X ist bernoulliverteilt, wenn …"
+         ],
+         "richtig": [
+          "sie genau die Realisationen 0 und 1 hat"
+         ],
+         "falsch": [
+          "alle Realisationen gleich wahrscheinlich sind",
+          "sie genau m Realisationen hat",
+          "ihr Erwartungswert 0,5 ist"
+         ]
+        },
+        {
+         "id": "stat2-s4-B1-w1-a2",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "Realisation 1",
+           "rechts": "Zielereignis"
+          },
+          {
+           "links": "Realisation 0",
+           "rechts": "Gegenereignis"
+          },
+          {
+           "links": "P(X = 1)",
+           "rechts": "p₁"
+          },
+          {
+           "links": "P(X = 0)",
+           "rechts": "1 − p₁"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-B1-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "X bernoulliverteilt mit p₁ = 0,15. P(X = 0) = ?",
+         "akzeptiert": [
+          "0,85",
+          "85 %"
+         ],
+         "musterloesung": "1 − 0,15 = **0,85**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-B1-w1-a4",
+         "typ": "definition",
+         "frage": "Definiere die Bernoulli-Verteilung.",
+         "kernpunkte": [
+          "genau zwei Realisationen 0 und 1",
+          "1 = Zielereignis, 0 = Gegenereignis",
+          "P(X = 1) = p₁, P(X = 0) = 1 − p₁"
+         ],
+         "musterloesung": "Wenn eine Zufallsvariable X genau die zwei Realisationen 0 und 1 hat, ist sie bernoulliverteilt. Die Realisation 1 steht für das Zielereignis (P = p₁), 0 für das Gegenereignis (P = 1 − p₁)."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-B1-w2",
+       "titel": "Parameter p₁ und Schreibweise",
+       "merke": "Die Bernoulli-Verteilung ist durch **p₁** (Wahrscheinlichkeit des Zielereignisses) **eindeutig bestimmt**; **p₁** ist der **charakterisierende Parameter**. Schreibweise: **X ~ Bin(1, p₁)**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B1-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Welcher Parameter charakterisiert die Bernoulli-Verteilung?",
+          "X ~ Bin(1, p₁): Was ist der charakterisierende Parameter?"
+         ],
+         "richtig": [
+          "p₁, die Wahrscheinlichkeit des Zielereignisses"
+         ],
+         "falsch": [
+          "m, die Anzahl der Realisationen",
+          "die 1",
+          "die Varianz"
+         ]
+        },
+        {
+         "id": "stat2-s4-B1-w2-a2",
+         "typ": "single",
+         "frage": "Urne mit 100 Losen, davon 15 Gewinne; X = 1 bei Gewinn, 0 bei Niete. Welche Schreibweise passt?",
+         "optionen": [
+          "X ~ Bin(1; 0,15)",
+          "X ~ Bin(1; 0,85)",
+          "X ~ U(100)",
+          "X ~ U(15)"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-B1-w2-a3",
+         "typ": "zuordnung",
+         "frage": "Ordne die Schreibweise zu.",
+         "paare": [
+          {
+           "links": "X ~ U(m)",
+           "rechts": "gleichverteilt mit m Realisationen"
+          },
+          {
+           "links": "X ~ Bin(1, p₁)",
+           "rechts": "bernoulliverteilt mit Zielwahrscheinlichkeit p₁"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-B1-w2-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Eine bernoulliverteilte Zufallsvariable schreibt man X ~ {}(1, p₁). Der charakterisierende Parameter ist {}.",
+         "luecken": [
+          [
+           "Bin"
+          ],
+          [
+           "p₁",
+           "p1",
+           "p"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s4-B1-w2-a5",
+         "typ": "kurzfrage",
+         "frage": "Urne mit 20 Losen, davon 5 Gewinne; X = 1 bei Gewinn, 0 bei Niete. Gib die Verteilung in Kurzschreibweise an.",
+         "akzeptiert": [
+          "Bin(1; 0,25)",
+          "X ~ Bin(1; 0,25)",
+          "Bin(1, 0,25)",
+          "Bin(1; 1/4)",
+          "Bin(1, 1/4)"
+         ],
+         "musterloesung": "X ~ Bin(1; 0,25), denn p₁ = 5/20 = 0,25."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-B2",
+     "titel": "Kennwerte der Bernoulli-Verteilung",
+     "wissen": [
+      {
+       "id": "stat2-s4-B2-w1",
+       "titel": "E = p₁, Var = p₁(1 − p₁)",
+       "merke": "Für X ~ Bin(1, p₁): **E(X) = p₁** und **Var(X) = p₁ · (1 − p₁)**. Beispiel 15 Gewinne bei 100 Losen: E = 0,15; Var = 0,15 · 0,85 = 0,1275.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B2-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu (X ~ Bin(1, p₁)).",
+         "paare": [
+          {
+           "links": "E(X)",
+           "rechts": "p₁"
+          },
+          {
+           "links": "Var(X)",
+           "rechts": "p₁ · (1 − p₁)"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-B2-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "X ~ Bin(1; 0,3). Var(X) = ?",
+          "X ~ Bin(1; 0,3). Berechne die Varianz."
+         ],
+         "akzeptiert": [
+          "0,21"
+         ],
+         "musterloesung": "0,3 · 0,7 = **0,21**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-B2-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "X ~ Bin(1; 0,15). Var(X) = ?",
+         "akzeptiert": [
+          "0,1275"
+         ],
+         "musterloesung": "0,15 · 0,85 = **0,1275**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-B2-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "X ~ Bin(1; 0,4). E(X) = ?",
+         "akzeptiert": [
+          "0,4"
+         ],
+         "musterloesung": "E(X) = p₁ = **0,4**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-B2-w1-a5",
+         "typ": "single",
+         "frage": "X ~ Bin(1; 0,2). Var(X) = ?",
+         "optionen": [
+          "0,16",
+          "0,2",
+          "0,04",
+          "0,8"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-B2-w1-a6",
+         "typ": "tabelle",
+         "frage": "Ergänze.",
+         "kopf": [
+          "p₁",
+          "E(X)",
+          "Var(X)"
+         ],
+         "zeilen": [
+          [
+           "0,1",
+           {
+            "akzeptiert": [
+             "0,1"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,09"
+            ]
+           }
+          ],
+          [
+           "0,25",
+           {
+            "akzeptiert": [
+             "0,25"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,1875"
+            ]
+           }
+          ],
+          [
+           "0,5",
+           {
+            "akzeptiert": [
+             "0,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,25"
+            ]
+           }
+          ],
+          [
+           "0,3",
+           {
+            "akzeptiert": [
+             "0,3"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,21"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-B2-w2",
+       "titel": "Herleitung und Interpretation",
+       "merke": "E(X) = 0·(1 − p₁) + 1·p₁ = **p₁**; Var(X) = (0 − p₁)²·(1 − p₁) + (1 − p₁)²·p₁ = **p₁(1 − p₁)**. Interpretation: X = **Anzahl der Gewinne beim einmaligen Ziehen**; der Erwartungswert entspricht genau der **Gewinnwahrscheinlichkeit**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B2-w2-a1",
+         "typ": "reihenfolge",
+         "frage": "Bringe die Herleitung von E(X) in die richtige Reihenfolge.",
+         "elemente": [
+          "E(X) = Σ pᵢ · xᵢ",
+          "= 0 · (1 − p₁) + 1 · p₁",
+          "= p₁"
+         ]
+        },
+        {
+         "id": "stat2-s4-B2-w2-a2",
+         "typ": "single",
+         "frage": "Wie lautet der erste Schritt der Varianz-Herleitung für Bin(1, p₁)?",
+         "optionen": [
+          "(0 − p₁)²·(1 − p₁) + (1 − p₁)²·p₁",
+          "0·(1 − p₁) + 1·p₁",
+          "p₁ + (1 − p₁)",
+          "(1 − p₁)²"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-B2-w2-a3",
+         "typ": "single",
+         "frage": "Wie kann man E(X) = 0,15 bei der Losurne (15 Gewinne bei 100 Losen) interpretieren?",
+         "richtig": [
+          "Der Erwartungswert entspricht genau der Gewinnwahrscheinlichkeit; X zählt die Gewinne beim einmaligen Ziehen."
+         ],
+         "falsch": [
+          "Man gewinnt 15 Lose.",
+          "Man verliert 15 % seines Einsatzes.",
+          "Er ist nicht interpretierbar."
+         ]
+        },
+        {
+         "id": "stat2-s4-B2-w2-a4",
+         "typ": "offen",
+         "frage": "Leite den Erwartungswert der Bernoulli-Verteilung her und interpretiere ihn.",
+         "kernpunkte": [
+          "E(X) = 0·(1 − p₁) + 1·p₁ = p₁",
+          "X = Anzahl der Zielereignisse (0 oder 1) beim einmaligen Durchführen",
+          "E(X) = Wahrscheinlichkeit des Zielereignisses"
+         ],
+         "musterloesung": "E(X) = 0·(1 − p₁) + 1·p₁ = p₁. X zählt, wie oft das Zielereignis beim einmaligen Durchführen eintritt (0 oder 1); der Erwartungswert entspricht daher genau der Wahrscheinlichkeit des Zielereignisses."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-B3",
+     "titel": "Bernoulli aus jedem Prozess",
+     "wissen": [
+      {
+       "id": "stat2-s4-B3-w1",
+       "titel": "Ziel- und Gegenereignis festlegen",
+       "merke": "Zu **jedem** Zufallsprozess lässt sich eine bernoulliverteilte Zufallsvariable konstruieren: Bestimmte Ergebnisse werden zum **Zielereignis** (1), **alle anderen** zum **Gegenereignis** (0). Würfel, „niedrige Augenzahl (1 oder 2)“: X ~ Bin(1, 1/3), E = 1/3, Var = 2/9.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B3-w1-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Zu jedem Zufallsprozess kann man eine bernoulliverteilte Zufallsvariable konstruieren.",
+           "richtig": true,
+           "begruendung": "Ja: Zielereignis vs. alle anderen Ergebnisse."
+          },
+          {
+           "text": "Eine Bernoulli-Variable braucht einen Zufallsprozess mit genau zwei Ergebnissen.",
+           "richtig": false,
+           "begruendung": "Nein: Man fasst Ergebnisse zu Ziel- und Gegenereignis zusammen, z. B. beim Würfel."
+          },
+          {
+           "text": "Beim Würfel mit „gerade = 1, ungerade = 0“ ist X ~ Bin(1; 0,5).",
+           "richtig": true,
+           "begruendung": "Ja: {2, 4, 6} hat P = 1/2."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-B3-w1-a2",
+         "typ": "kurzfrage",
+         "frage": "Würfel, X = 1 bei 1 oder 2 Augen, sonst 0. p₁ = ? (als Bruch)",
+         "akzeptiert": [
+          "1/3",
+          "2/6",
+          "0,333",
+          "0,33"
+         ],
+         "musterloesung": "{1, 2} → 2/6 = **1/3**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-B3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Würfel, X = 1 bei 1 oder 2 Augen, sonst 0. Var(X) = ? (als Bruch)",
+         "akzeptiert": [
+          "2/9",
+          "0,222",
+          "0,22"
+         ],
+         "musterloesung": "1/3 · 2/3 = **2/9 ≈ 0,222**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-B3-w1-a4",
+         "typ": "fall",
+         "fall": "Chiara hat noch drei Tüten: Croissants, Brötchen, Brezeln. Sie hofft auf Croissants und greift zufällig eine.",
+         "frage": "Definiere eine passende Zufallsvariable und bestimme die Verteilung (mit Parameter), E(X) und Var(X).",
+         "kernpunkte": [
+          "Ω = {Croissants, Brötchen, Brezeln}",
+          "X(Ω) = {0, 1}; X = 1 bei Croissants, sonst 0",
+          "Bernoulli, X ~ Bin(1, 1/3)",
+          "E = 1/3; Var = 2/9 ≈ 0,222"
+         ],
+         "musterloesung": "Ω = {Croissants, Brötchen, Brezeln}; X(Ω) = {0, 1}; X(ω) = 1, wenn ω = Croissants, sonst 0. Bernoulliverteilung (Zielereignis Croissants, p₁ = 1/3 nach Laplace) → X ~ Bin(1, 1/3); E(X) = 1/3; Var(X) = 1/3 · 2/3 = 2/9 ≈ 0,222."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-B3-w2",
+       "titel": "Bernoulli-Experiment",
+       "merke": "Ein **Bernoulli-Experiment** ist ein Zufallsprozess, bei dem **nur genau zwei verschiedene Ergebnisse** (Zielereignis vs. Gegenereignis) unterschieden werden.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B3-w2-a1",
+         "typ": "begriff",
+         "fragen": [
+          "Wie heißt ein Zufallsprozess, bei dem nur Ziel- und Gegenereignis unterschieden werden?",
+          "Zufallsprozess mit genau zwei unterschiedenen Ergebnissen – Fachbegriff?"
+         ],
+         "akzeptiert": [
+          "Bernoulli-Experiment",
+          "Bernoulliexperiment"
+         ],
+         "musterloesung": "**Bernoulli-Experiment**."
+        },
+        {
+         "id": "stat2-s4-B3-w2-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Ein Bernoulli-Experiment ist ein Zufallsprozess, bei dem nur genau {} verschiedene Ergebnisse unterschieden werden: {} und Gegenereignis.",
+         "luecken": [
+          [
+           "zwei",
+           "2"
+          ],
+          [
+           "Zielereignis"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s4-B3-w2-a3",
+         "typ": "beispiel",
+         "frage": "Wird hier ein Bernoulli-Experiment beschrieben?",
+         "kategorien": [
+          "ja",
+          "nein"
+         ],
+         "items": [
+          {
+           "text": "Münzwurf: Kopf oder Zahl",
+           "kategorie": 0
+          },
+          {
+           "text": "Los ziehen: Gewinn oder Niete",
+           "kategorie": 0
+          },
+          {
+           "text": "Würfeln und die genaue Augenzahl 1–6 notieren",
+           "kategorie": 1
+          },
+          {
+           "text": "Würfeln und nur notieren, ob eine 6 fällt",
+           "kategorie": 0
+          },
+          {
+           "text": "Glücksrad mit 4 Farben, jede Farbe wird notiert",
+           "kategorie": 1
+          }
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-B3-w2-a4",
+         "typ": "definition",
+         "frage": "Was ist ein Bernoulli-Experiment?",
+         "kernpunkte": [
+          "Zufallsprozess",
+          "nur genau zwei verschiedene Ergebnisse unterschieden",
+          "Zielereignis vs. Gegenereignis"
+         ],
+         "musterloesung": "Ein Zufallsprozess, bei dem nur genau zwei verschiedene Ergebnisse (Zielereignis vs. Gegenereignis) voneinander unterschieden werden."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-B4",
+     "titel": "Gleichverteilung vs. Bernoulli",
+     "wissen": [
+      {
+       "id": "stat2-s4-B4-w1",
+       "titel": "Die Abgrenzung",
+       "merke": "**Gleichverteilung U(m):** m beliebige Werte, alle P gleich (1/m), Parameter m. **Bernoulli Bin(1, p₁):** genau 0 und 1, P = 1 − p₁ und p₁ (können, müssen aber nicht gleich sein), Parameter p₁. Eine Bernoulli-ZV mit **p₁ = 0,5** ist **gleichzeitig gleichverteilt**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-B4-w1-a1",
+         "typ": "tabelle",
+         "frage": "Ergänze die Abgrenzung.",
+         "kopf": [
+          "",
+          "Gleichverteilung U(m)",
+          "Bernoulli Bin(1, p₁)"
+         ],
+         "zeilen": [
+          [
+           "Realisationen",
+           {
+            "akzeptiert": [
+             "m beliebige Werte",
+             "m Werte",
+             "beliebig"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0 und 1",
+             "genau 0 und 1"
+            ]
+           }
+          ],
+          [
+           "Parameter",
+           {
+            "akzeptiert": [
+             "m"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "p₁",
+             "p1",
+             "p"
+            ]
+           }
+          ],
+          [
+           "E(X)",
+           {
+            "akzeptiert": [
+             "(m+1)/2",
+             "(m + 1)/2"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "p₁",
+             "p1",
+             "p"
+            ]
+           }
+          ],
+          [
+           "Var(X)",
+           {
+            "akzeptiert": [
+             "(m²−1)/12",
+             "(m^2-1)/12",
+             "(m² − 1)/12"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "p₁(1 − p₁)",
+             "p1(1-p1)",
+             "p(1-p)"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-B4-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Bei einer Bernoulliverteilung sind alle Realisationen genau gleich wahrscheinlich.",
+           "richtig": false,
+           "begruendung": "Falsch: p₁ und 1 − p₁ **können** gleich sein, müssen aber nicht. Gleich wahrscheinliche Realisationen kennzeichnen die Gleichverteilung."
+          },
+          {
+           "text": "Eine Bernoulli-ZV mit p₁ = 0,5 ist auch gleichverteilt.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Eine gleichverteilte ZV kann mehr als zwei Realisationen haben.",
+           "richtig": true,
+           "begruendung": "Ja: m beliebige Werte."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-B4-w1-a3",
+         "typ": "beispiel",
+         "frage": "Gleichverteilung oder Bernoulli?",
+         "kategorien": [
+          "Gleichverteilung",
+          "Bernoulli"
+         ],
+         "items": [
+          {
+           "text": "Parameter m",
+           "kategorie": 0
+          },
+          {
+           "text": "Parameter p₁",
+           "kategorie": 1
+          },
+          {
+           "text": "genau die Realisationen 0 und 1",
+           "kategorie": 1
+          },
+          {
+           "text": "alle Wahrscheinlichkeiten 1/m",
+           "kategorie": 0
+          },
+          {
+           "text": "E(X) = p₁",
+           "kategorie": 1
+          },
+          {
+           "text": "E(X) = (m + 1)/2 bei Werten 1…m",
+           "kategorie": 0
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-B4-w1-a4",
+         "typ": "single",
+         "frage": "X hat die Realisationen 0 und 1 mit P = 0,5 und 0,5. Welche Aussage stimmt?",
+         "optionen": [
+          "X ~ Bin(1; 0,5) und zugleich X ~ U(2).",
+          "X ist nur bernoulliverteilt.",
+          "X ist nur gleichverteilt.",
+          "X ist weder noch."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-B4-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücke.",
+         "text": "Eine Bernoulli-Zufallsvariable mit p₁ = {} ist gleichzeitig gleichverteilt.",
+         "luecken": [
+          [
+           "0,5",
+           "1/2"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-B-mix1",
+     "titel": "Mix: Bernoulli und Gleichverteilung",
+     "mix": [
+      "stat2-s4-B1",
+      "stat2-s4-B2",
+      "stat2-s4-B3",
+      "stat2-s4-B4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s4-C",
+   "titel": "Transformation: Addition und Multiplikation",
+   "farbe": 330,
+   "level": [
+    {
+     "id": "stat2-s4-C1",
+     "titel": "Die Grundidee",
+     "wissen": [
+      {
+       "id": "stat2-s4-C1-w1",
+       "titel": "Was bei einer Transformation passiert",
+       "merke": "Bei einer **Transformation** (z. B. Addition oder Multiplikation mit einer Konstanten) wird **jeder Realisation** eine **neue Realisation** zugeordnet. Die **Punktwahrscheinlichkeiten übertragen sich unverändert**. Beispiel Y = 2·X beim Würfel: 1→2, …, 6→12, jeweils P = 1/6.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was passiert bei einer Transformation mit den Wahrscheinlichkeiten?",
+          "Y = X + 10. Was gilt für P(Y = y)?"
+         ],
+         "richtig": [
+          "Sie werden unverändert auf die neuen Realisationen übertragen."
+         ],
+         "falsch": [
+          "Sie werden mittransformiert.",
+          "Sie werden alle gleich.",
+          "Sie verdoppeln sich."
+         ]
+        },
+        {
+         "id": "stat2-s4-C1-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Bei einer Transformation wird jeder Realisation eine neue Realisation zugeordnet.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Mit Zufallsvariablen kann man rechnen, obwohl sie keine „einfachen“ Zahlen sind.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Bei einer Transformation ändern sich die Punktwahrscheinlichkeiten.",
+           "richtig": false,
+           "begruendung": "Nein: Sie übertragen sich unverändert."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-C1-w1-a3",
+         "typ": "tabelle",
+         "frage": "Würfel, Y = 2·X. Ergänze.",
+         "kopf": [
+          "x",
+          "y",
+          "P(Y = y)"
+         ],
+         "zeilen": [
+          [
+           "1",
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6"
+            ]
+           }
+          ],
+          [
+           "3",
+           {
+            "akzeptiert": [
+             "6"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6"
+            ]
+           }
+          ],
+          [
+           "4",
+           {
+            "akzeptiert": [
+             "8"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6"
+            ]
+           }
+          ],
+          [
+           "6",
+           {
+            "akzeptiert": [
+             "12"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s4-C1-w1-a4",
+         "typ": "multi",
+         "frage": "Wie kann man eine Zufallsvariable transformieren?",
+         "richtig": [
+          "Addition einer Konstanten",
+          "Subtraktion einer Konstanten",
+          "Multiplikation mit einer Konstanten",
+          "Division durch eine Konstante"
+         ],
+         "falsch": [
+          "Ändern der Wahrscheinlichkeiten",
+          "Weglassen von Realisationen"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-C2",
+     "titel": "Addition: Y = X + a",
+     "wissen": [
+      {
+       "id": "stat2-s4-C2-w1",
+       "titel": "Regel Addition",
+       "merke": "**E(X + a) = E(X) + a** und **Var(X + a) = Var(X)**. Würfel: E(X + 10) = 13,5; Var(X + 10) = 2,917.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C2-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Regeln zu.",
+         "paare": [
+          {
+           "links": "E(X + a)",
+           "rechts": "E(X) + a"
+          },
+          {
+           "links": "Var(X + a)",
+           "rechts": "Var(X)"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-C2-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "E(X) = 3,5. E(X + 10) = ?",
+          "Würfel: Y = X + 10. E(Y) = ?"
+         ],
+         "akzeptiert": [
+          "13,5"
+         ],
+         "musterloesung": "3,5 + 10 = **13,5**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-C2-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Var(X) = 7,34. Var(X + 18) = ?",
+         "akzeptiert": [
+          "7,34"
+         ],
+         "musterloesung": "Die Addition ändert die Varianz nicht: **7,34**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-C2-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 4,5. E(X + 18) = ?",
+         "akzeptiert": [
+          "22,5"
+         ],
+         "musterloesung": "4,5 + 18 = **22,5**."
+        },
+        {
+         "id": "stat2-s4-C2-w1-a5",
+         "typ": "single",
+         "frage": "E(X) = 4,5. E(X − 7) = ?",
+         "optionen": [
+          "−2,5",
+          "2,5",
+          "11,5",
+          "−7"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-C2-w1-a6",
+         "typ": "single",
+         "frage": "Var(X) = 5. Var(X − 3) = ?",
+         "optionen": [
+          "5",
+          "2",
+          "8",
+          "−15"
+         ],
+         "loesung": 0
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-C2-w2",
+       "titel": "Was bei der Addition passiert",
+       "merke": "Bei der Addition bleibt die **Anzahl der Realisationen gleich**, die **Wahrscheinlichkeiten** werden übernommen, alle Realisationen werden **verschoben** (a > 0 nach oben, a < 0 nach unten). Die **Abstände bleiben gleich** → **Varianz unverändert**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C2-w2-a1",
+         "typ": "richtigfalsch",
+         "frage": "Y = X + a. Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Anzahl der Realisationen bleibt gleich.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Die Abstände zwischen den Realisationen bleiben gleich.",
+           "richtig": true,
+           "begruendung": "Ja: Es wird nur verschoben."
+          },
+          {
+           "text": "Bei der Addition einer Konstanten ändert sich die Varianz.",
+           "richtig": false,
+           "begruendung": "Falsch: Abstände bleiben gleich → Varianz bleibt."
+          },
+          {
+           "text": "Für a < 0 wird der Erwartungswert kleiner.",
+           "richtig": true,
+           "begruendung": "Ja: Verschiebung nach unten."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-C2-w2-a2",
+         "typ": "single",
+         "fragen": [
+          "Warum ändert die Addition einer Konstanten die Varianz nicht?",
+          "Var(X + a) = Var(X). Warum?"
+         ],
+         "richtig": [
+          "Weil die Abstände zwischen den Realisationen gleich bleiben – alles wird nur verschoben."
+         ],
+         "falsch": [
+          "Weil die Wahrscheinlichkeiten gleich bleiben.",
+          "Weil a immer klein ist.",
+          "Weil der Erwartungswert gleich bleibt."
+         ]
+        },
+        {
+         "id": "stat2-s4-C2-w2-a3",
+         "typ": "single",
+         "frage": "Würfel, Y = X + 10. Welche Realisationen hat Y?",
+         "optionen": [
+          "11, 12, 13, 14, 15, 16",
+          "10, 20, …, 60",
+          "1, …, 6",
+          "11, 13, 15, …, 21"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-C2-w2-a4",
+         "typ": "offen",
+         "frage": "Beschreibe, was bei Y = X + 10 (Würfel) mit Realisationen, Wahrscheinlichkeiten, Abständen, E und Var passiert.",
+         "kernpunkte": [
+          "Anzahl der Realisationen gleich",
+          "Wahrscheinlichkeiten unverändert",
+          "Verschiebung um 10 nach oben (11 … 16)",
+          "Abstände gleich → Var unverändert",
+          "E steigt um 10 auf 13,5"
+         ],
+         "musterloesung": "Die Anzahl der Realisationen bleibt gleich, die Wahrscheinlichkeiten werden übernommen. Alle Realisationen werden um 10 nach oben verschoben (1…6 → 11…16); die Abstände bleiben gleich. Daher E(Y) = 3,5 + 10 = 13,5 und Var(Y) = Var(X) = 2,917."
+        },
+        {
+         "id": "stat2-s4-C2-w2-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Bei Y = X + a bleiben die {} zwischen den Realisationen gleich. Daher bleibt die {} unverändert.",
+         "luecken": [
+          [
+           "Abstände",
+           "Abstand"
+          ],
+          [
+           "Varianz"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-C3",
+     "titel": "Multiplikation: Y = b · X",
+     "wissen": [
+      {
+       "id": "stat2-s4-C3-w1",
+       "titel": "Regel Multiplikation",
+       "merke": "**E(b·X) = b·E(X)** und **Var(b·X) = b²·Var(X)**. Würfel: E(2·X) = 7; Var(2·X) = 4·2,917 ≈ 11,667. ⚠️ Typischer Fehler: Var(b·X) = b·Var(X) – richtig ist **b²**!",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C3-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Regeln zu.",
+         "paare": [
+          {
+           "links": "E(b · X)",
+           "rechts": "b · E(X)"
+          },
+          {
+           "links": "Var(b · X)",
+           "rechts": "b² · Var(X)"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-C3-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "Var(X) = 7,34. Var(4·X) = ?",
+          "Var(X) = 7,34. Berechne Var(X · 4)."
+         ],
+         "akzeptiert": [
+          "117,44"
+         ],
+         "musterloesung": "4² · 7,34 = 16 · 7,34 = **117,44**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-C3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 4,5. E(4·X) = ?",
+         "akzeptiert": [
+          "18"
+         ],
+         "musterloesung": "4 · 4,5 = **18**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-C3-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Würfel, E(X) = 3,5. E(2·X) = ?",
+         "akzeptiert": [
+          "7"
+         ],
+         "musterloesung": "2 · 3,5 = **7**."
+        },
+        {
+         "id": "stat2-s4-C3-w1-a5",
+         "typ": "single",
+         "frage": "Var(X) = 5. Var(3·X) = ?",
+         "optionen": [
+          "45",
+          "15",
+          "8",
+          "9"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-C3-w1-a6",
+         "typ": "fehler",
+         "frage": "Hier steckt ein typischer Fehler.",
+         "segmente": [
+          {
+           "text": "Für Y = 3·X gilt E(Y) = 3·E(X) und"
+          },
+          {
+           "text": "Var(Y) = 3·Var(X)",
+           "fehler": true,
+           "korrektur": "**Var(Y) = 3²·Var(X) = 9·Var(X)**"
+          },
+          {
+           "text": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-C3-w2",
+       "titel": "Strecken und Stauchen",
+       "merke": "Bei der Multiplikation bleibt die **Anzahl der Realisationen gleich**, die **Abstände ändern sich**. **b > 1**: Verteilung wird **gestreckt**, E und Var werden **größer**. **0 < b < 1**: Verteilung wird **gestaucht**, E und Var werden **kleiner** (bei positivem E).",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C3-w2-a1",
+         "typ": "single",
+         "frage": "Multiplikation mit b = 0,5 bewirkt …",
+         "optionen": [
+          "Stauchung, E und Var kleiner (bei positivem E)",
+          "Streckung, E und Var größer",
+          "nur eine Verschiebung",
+          "keine Änderung der Varianz"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-C3-w2-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Bei der Transformation einer ZV bleiben die Abstände zwischen den Realisationen immer gleich.",
+           "richtig": false,
+           "begruendung": "Falsch: Nur bei Addition. Bei Multiplikation: b > 1 → größer, b < 1 → kleiner."
+          },
+          {
+           "text": "Bei Addition bleibt die Anzahl der Realisationen gleich, bei Multiplikation verändert sie sich.",
+           "richtig": false,
+           "begruendung": "Falsch: Die Anzahl bleibt in beiden Fällen gleich."
+          },
+          {
+           "text": "Ist der Multiplikator < 1, werden E und Var größer; die Verteilung wird gestreckt.",
+           "richtig": false,
+           "begruendung": "Falsch: E und Var werden kleiner; die Verteilung wird gestaucht und nach unten verschoben."
+          },
+          {
+           "text": "Bei b = 2 verdoppeln sich die Abstände zwischen den Realisationen.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-C3-w2-a3",
+         "typ": "beispiel",
+         "frage": "Was passiert? (positiver Erwartungswert)",
+         "kategorien": [
+          "gestreckt, E und Var größer",
+          "gestaucht, E und Var kleiner",
+          "nur verschoben, Var gleich"
+         ],
+         "items": [
+          {
+           "text": "Y = 2 · X",
+           "kategorie": 0
+          },
+          {
+           "text": "Y = 0,5 · X",
+           "kategorie": 1
+          },
+          {
+           "text": "Y = X + 10",
+           "kategorie": 2
+          },
+          {
+           "text": "Y = 1,1 · X",
+           "kategorie": 0
+          },
+          {
+           "text": "Y = X / 3",
+           "kategorie": 1
+          },
+          {
+           "text": "Y = X − 7",
+           "kategorie": 2
+          }
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-C3-w2-a4",
+         "typ": "begriff",
+         "frage": "Wie nennt man es, wenn die Verteilung bei 0 < b < 1 zusammengedrückt wird?",
+         "akzeptiert": [
+          "gestaucht",
+          "Stauchung",
+          "stauchen"
+         ],
+         "musterloesung": "Die Verteilung wird **gestaucht**."
+        },
+        {
+         "id": "stat2-s4-C3-w2-a5",
+         "typ": "offen",
+         "frage": "Was passiert mit der Verteilung von X (positiver Erwartungswert) bei der Transformation Y = 0,5 · X?",
+         "kernpunkte": [
+          "Anzahl der Realisationen und Wahrscheinlichkeiten bleiben",
+          "Abstände halbieren sich",
+          "Verteilung wird gestaucht, in niedrigeren Wertebereich verschoben",
+          "E halbiert, Var wird mit 0,25 multipliziert (kleiner)"
+         ],
+         "musterloesung": "Die Anzahl der Realisationen und ihre Wahrscheinlichkeiten bleiben gleich. Alle Realisationen und Abstände halbieren sich: Die Verteilung wird gestaucht und in einen niedrigeren Wertebereich verschoben. E(Y) = 0,5·E(X), Var(Y) = 0,25·Var(X) – beide werden kleiner."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-C3-w3",
+       "titel": "Division",
+       "merke": "**Division** durch c ist eine Multiplikation mit **1/c**: E(X/c) = E(X)/c und **Var(X/c) = Var(X)/c²**. Beispiel: E(X) = 4,5, Var(X) = 7,34 → E(X/3) = 1,5; Var(X/3) = 7,34/9 ≈ 0,816.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C3-w3-a1",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 4,5. E(X/3) = ?",
+         "akzeptiert": [
+          "1,5"
+         ],
+         "musterloesung": "4,5 / 3 = **1,5**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-C3-w3-a2",
+         "typ": "kurzfrage",
+         "frage": "Var(X) = 7,34. Var(X/3) = ? (auf drei Nachkommastellen)",
+         "akzeptiert": [
+          "0,816",
+          "0,8156",
+          "0,82"
+         ],
+         "musterloesung": "7,34 / 3² = 7,34 / 9 ≈ **0,816**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-C3-w3-a3",
+         "typ": "kurzfrage",
+         "frage": "Var(X) = 36. Var(X/2) = ?",
+         "akzeptiert": [
+          "9"
+         ],
+         "musterloesung": "36 / 2² = **9**."
+        },
+        {
+         "id": "stat2-s4-C3-w3-a4",
+         "typ": "single",
+         "frage": "Var(X) = 18. Var(X/3) = ?",
+         "optionen": [
+          "2",
+          "6",
+          "54",
+          "3"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-C3-w3-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Division durch c ist eine Multiplikation mit {}. Daher gilt Var(X/c) = Var(X) / {}.",
+         "luecken": [
+          [
+           "1/c"
+          ],
+          [
+           "c²",
+           "c^2",
+           "c hoch 2",
+           "c quadrat"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-C4",
+     "titel": "Kennwerttabelle",
+     "wissen": [
+      {
+       "id": "stat2-s4-C4-w1",
+       "titel": "Vier Transformationen im Vergleich",
+       "merke": "Übungszettel 4.4 (E(X) = 4,5; Var(X) = 7,34): X + 18 → E 22,5, Var 7,34; X − 7 → E −2,5, Var 7,34; X · 4 → E 18, Var 117,44; X / 3 → E 1,5, Var ≈ 0,816.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-C4-w1-a1",
+         "typ": "tabelle",
+         "frage": "E(X) = 4,5, Var(X) = 7,34. Ergänze.",
+         "kopf": [
+          "Transformation",
+          "E",
+          "Var"
+         ],
+         "zeilen": [
+          [
+           "Y₁ = X + 18",
+           {
+            "akzeptiert": [
+             "22,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "7,34"
+            ]
+           }
+          ],
+          [
+           "Y₂ = X − 7",
+           "−2,5",
+           {
+            "akzeptiert": [
+             "7,34"
+            ]
+           }
+          ],
+          [
+           "Y₃ = X · 4",
+           {
+            "akzeptiert": [
+             "18"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "117,44"
+            ]
+           }
+          ],
+          [
+           "Y₄ = X / 3",
+           {
+            "akzeptiert": [
+             "1,5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,816",
+             "0,8156",
+             "0,82"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-C4-w1-a2",
+         "typ": "tabelle",
+         "frage": "E(X) = 6, Var(X) = 2. Ergänze.",
+         "kopf": [
+          "Transformation",
+          "E",
+          "Var"
+         ],
+         "zeilen": [
+          [
+           "X + 4",
+           {
+            "akzeptiert": [
+             "10"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           }
+          ],
+          [
+           "X · 5",
+           {
+            "akzeptiert": [
+             "30"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "50"
+            ]
+           }
+          ],
+          [
+           "X / 2",
+           {
+            "akzeptiert": [
+             "3"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0,5"
+            ]
+           }
+          ],
+          [
+           "X − 1",
+           {
+            "akzeptiert": [
+             "5"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-C4-w1-a3",
+         "typ": "single",
+         "frage": "E(X) = 4,5. Welchen Erwartungswert hat Y₂ = X − 7?",
+         "optionen": [
+          "−2,5",
+          "2,5",
+          "−7",
+          "11,5"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-C4-w1-a4",
+         "typ": "beispiel",
+         "frage": "Ändert sich die Varianz?",
+         "kategorien": [
+          "Varianz bleibt gleich",
+          "Varianz ändert sich"
+         ],
+         "items": [
+          {
+           "text": "Y = X + 18",
+           "kategorie": 0
+          },
+          {
+           "text": "Y = X − 7",
+           "kategorie": 0
+          },
+          {
+           "text": "Y = 4 · X",
+           "kategorie": 1
+          },
+          {
+           "text": "Y = X / 3",
+           "kategorie": 1
+          },
+          {
+           "text": "Y = X + 0,5",
+           "kategorie": 0
+          },
+          {
+           "text": "Y = 1,1 · X",
+           "kategorie": 1
+          }
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-C4-w1-a5",
+         "typ": "multi",
+         "frage": "E(X) = 4,5, Var(X) = 7,34. Welche Aussagen stimmen?",
+         "richtig": [
+          "E(X + 18) = 22,5",
+          "Var(X − 7) = 7,34",
+          "Var(4 · X) = 117,44",
+          "E(X / 3) = 1,5"
+         ],
+         "falsch": [
+          "Var(4 · X) = 29,36",
+          "Var(X + 18) = 25,34",
+          "E(X − 7) = 11,5"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-C-mix1",
+     "titel": "Mix: Addition und Multiplikation",
+     "mix": [
+      "stat2-s4-C1",
+      "stat2-s4-C2",
+      "stat2-s4-C3",
+      "stat2-s4-C4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s4-D",
+   "titel": "Lineare Transformation und z-Transformation",
+   "farbe": 0,
+   "level": [
+    {
+     "id": "stat2-s4-D1",
+     "titel": "Y = b · X + a",
+     "wissen": [
+      {
+       "id": "stat2-s4-D1-w1",
+       "titel": "Erst multiplizieren, dann addieren",
+       "merke": "**Y = b·X + a:** **E(b·X + a) = b·E(X) + a**, **Var(b·X + a) = b²·Var(X)**. Würfel: Y = 2·X + 10 → Realisationen 12, 14, …, 22; E(Y) = 2·3,5 + 10 = **17**; Var(Y) = 4·2,917 ≈ 11,667.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D1-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Regeln zu.",
+         "paare": [
+          {
+           "links": "E(b·X + a)",
+           "rechts": "b·E(X) + a"
+          },
+          {
+           "links": "Var(b·X + a)",
+           "rechts": "b²·Var(X)"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-D1-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "Würfel: E(X) = 3,5. E(2·X + 10) = ?",
+          "Würfel, Y = 2·X + 10. E(Y) = ?"
+         ],
+         "akzeptiert": [
+          "17"
+         ],
+         "musterloesung": "2·3,5 + 10 = **17**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D1-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 10, Var(X) = 4. Y = 3X − 5. E(Y) = ?",
+         "akzeptiert": [
+          "25"
+         ],
+         "musterloesung": "3·10 − 5 = **25**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D1-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 10, Var(X) = 4. Y = 3X − 5. Var(Y) = ?",
+         "akzeptiert": [
+          "36"
+         ],
+         "musterloesung": "3²·4 = **36** (die −5 fällt weg)."
+        },
+        {
+         "id": "stat2-s4-D1-w1-a5",
+         "typ": "single",
+         "frage": "Var(X) = 5. Var(3X + 7) = ?",
+         "optionen": [
+          "45",
+          "15",
+          "22",
+          "52"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D1-w1-a6",
+         "typ": "single",
+         "frage": "Würfel, Y = 2·X + 10. Welche Realisationen hat Y?",
+         "optionen": [
+          "12, 14, 16, 18, 20, 22",
+          "22, 24, 26, 28, 30, 32",
+          "11, 12, …, 16",
+          "2, 4, …, 12"
+         ],
+         "loesung": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-D2",
+     "titel": "Y = b · (X + a)",
+     "wissen": [
+      {
+       "id": "stat2-s4-D2-w1",
+       "titel": "Erst addieren, dann multiplizieren",
+       "merke": "**Y = b·(X + a):** **E(b·(X + a)) = b·E(X) + b·a**, **Var(b·(X + a)) = b²·Var(X)**. Würfel: Y = (X + 10)·2 → Realisationen 22, 24, …, 32; E(Y) = 2·3,5 + 2·10 = **27**; Var(Y) ≈ 11,667.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D2-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne die Regeln zu.",
+         "paare": [
+          {
+           "links": "E(b·(X + a))",
+           "rechts": "b·E(X) + b·a"
+          },
+          {
+           "links": "Var(b·(X + a))",
+           "rechts": "b²·Var(X)"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-D2-w1-a2",
+         "typ": "kurzfrage",
+         "fragen": [
+          "Würfel: E(X) = 3,5. E((X + 10)·2) = ?",
+          "Würfel, Y = (X + 10)·2. E(Y) = ?"
+         ],
+         "akzeptiert": [
+          "27"
+         ],
+         "musterloesung": "2·3,5 + 2·10 = 7 + 20 = **27**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D2-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 10, Var(X) = 4. W = 3(X − 5). E(W) = ?",
+         "akzeptiert": [
+          "15"
+         ],
+         "musterloesung": "3·10 − 3·5 = 30 − 15 = **15**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D2-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 10, Var(X) = 4. W = 3(X − 5). Var(W) = ?",
+         "akzeptiert": [
+          "36"
+         ],
+         "musterloesung": "3²·4 = **36**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D2-w1-a5",
+         "typ": "single",
+         "frage": "E(X) = 2. E((X + 4)·3) = ?",
+         "optionen": [
+          "18",
+          "10",
+          "14",
+          "24"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D2-w1-a6",
+         "typ": "tabelle",
+         "frage": "Würfel, Y = (X + 10)·2. Ergänze.",
+         "kopf": [
+          "x",
+          "y",
+          "P(Y = y)"
+         ],
+         "zeilen": [
+          [
+           "1",
+           {
+            "akzeptiert": [
+             "22"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6",
+             "0,167"
+            ]
+           }
+          ],
+          [
+           "2",
+           {
+            "akzeptiert": [
+             "24"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6",
+             "0,167"
+            ]
+           }
+          ],
+          [
+           "5",
+           {
+            "akzeptiert": [
+             "30"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6",
+             "0,167"
+            ]
+           }
+          ],
+          [
+           "6",
+           {
+            "akzeptiert": [
+             "32"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/6",
+             "0,167"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-D3",
+     "titel": "Die Reihenfolge zählt",
+     "wissen": [
+      {
+       "id": "stat2-s4-D3-w1",
+       "titel": "b·X + a ≠ b·(X + a)",
+       "merke": "**b·X + a ≠ b·(X + a)**: Im Beispiel ergibt 2·X + 10 E = **17**, (X + 10)·2 aber E = **27**. Die **Varianz ist gleich** (11,667), weil die Addition die Varianz nicht ändert.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D3-w1-a1",
+         "typ": "single",
+         "frage": "Welche Aussage ist korrekt?",
+         "optionen": [
+          "2·X + 10 und 2·(X + 10) haben dieselbe Varianz.",
+          "2·X + 10 und 2·(X + 10) haben denselben Erwartungswert.",
+          "Beide haben weder gleiches E noch gleiche Var.",
+          "Die Reihenfolge der Schritte ist egal."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D3-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "2·X + 10 und (X + 10)·2 haben beim Würfel denselben Erwartungswert.",
+           "richtig": false,
+           "begruendung": "Nein: 17 vs. 27."
+          },
+          {
+           "text": "2·X + 10 und (X + 10)·2 haben dieselbe Varianz.",
+           "richtig": true,
+           "begruendung": "Ja: Die Addition ändert die Varianz nicht, beide Male 4·Var(X)."
+          },
+          {
+           "text": "Bei linearen Transformationen muss man die Reihenfolge der Schritte beachten.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-D3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "E(X) = 5. Wie groß ist der Unterschied zwischen E(3·(X + 2)) und E(3·X + 2)?",
+         "akzeptiert": [
+          "4"
+         ],
+         "musterloesung": "E(3(X + 2)) = 15 + 6 = 21; E(3X + 2) = 17 → Unterschied **4**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D3-w1-a4",
+         "typ": "offen",
+         "frage": "Warum haben 2·X + 10 und 2·(X + 10) unterschiedliche Erwartungswerte, aber dieselbe Varianz?",
+         "kernpunkte": [
+          "bei 2·(X + 10) wird auch die 10 verdoppelt: + 20 statt + 10",
+          "E: 17 vs. 27 beim Würfel",
+          "Addition ändert die Varianz nicht",
+          "Var in beiden Fällen b²·Var(X)"
+         ],
+         "musterloesung": "Bei 2·(X + 10) wird auch die Konstante mit 2 multipliziert: E = 2·E(X) + 20 statt 2·E(X) + 10 (beim Würfel 27 statt 17). Die Varianz ist in beiden Fällen 4·Var(X), weil die Addition einer Konstanten die Varianz nicht verändert."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-D3-w2",
+       "titel": "Rückwärts arbeiten",
+       "merke": "Bei der Berechnung der Kennwerte wird **„rückwärts“** gearbeitet: Die Transformationsschritte werden in **umgekehrter Reihenfolge** aufgelöst (**äußerste Operation zuerst**). Bei b·X + a zuerst +a, dann ·b; bei b·(X + a) zuerst ·b, dann +a.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D3-w2-a1",
+         "typ": "reihenfolge",
+         "frage": "Rechenweg für die Kennwerte einer transformierten ZV: Bringe die Schritte in die richtige Reihenfolge.",
+         "elemente": [
+          "Transformation genau aufschreiben, Klammern beachten",
+          "äußerste Operation bestimmen",
+          "Addition: bei E addieren, bei Var weglassen – Multiplikation: bei E mal b, bei Var mal b²",
+          "nach innen weiterarbeiten bis E(X) bzw. Var(X)",
+          "Werte einsetzen und ausrechnen"
+         ]
+        },
+        {
+         "id": "stat2-s4-D3-w2-a2",
+         "typ": "single",
+         "fragen": [
+          "In welcher Reihenfolge berechnet man Kennwerte bei mehrschrittigen Transformationen?",
+          "Wie geht man bei E(b·X + a) vor?"
+         ],
+         "richtig": [
+          "rückwärts – in umgekehrter Reihenfolge der Transformationsschritte"
+         ],
+         "falsch": [
+          "vorwärts in der Reihenfolge der Schritte",
+          "die Reihenfolge ist egal",
+          "immer zuerst die Multiplikation"
+         ]
+        },
+        {
+         "id": "stat2-s4-D3-w2-a3",
+         "typ": "single",
+         "frage": "Y = b·(X + a). Welche Operation löst man zuerst auf?",
+         "optionen": [
+          "die Multiplikation mit b (äußerste Operation)",
+          "die Addition von a",
+          "beide gleichzeitig",
+          "keine – man rechnet vorwärts"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D3-w2-a4",
+         "typ": "beispiel",
+         "frage": "Was macht man mit der Operation bei der Varianz?",
+         "kategorien": [
+          "weglassen",
+          "mit b² multiplizieren"
+         ],
+         "items": [
+          {
+           "text": "+ a",
+           "kategorie": 0
+          },
+          {
+           "text": "− a",
+           "kategorie": 0
+          },
+          {
+           "text": "· b",
+           "kategorie": 1
+          },
+          {
+           "text": "/ c (als · 1/c)",
+           "kategorie": 1
+          }
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s4-D3-w2-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Ist die äußerste Operation eine Addition, wird sie bei der Varianz {}. Ist sie eine Multiplikation mit b, multipliziert man die Varianz mit {}.",
+         "luecken": [
+          [
+           "weggelassen",
+           "weglassen"
+          ],
+          [
+           "b²",
+           "b^2",
+           "b hoch 2",
+           "b quadrat"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s4-D3-w2-a6",
+         "typ": "offen",
+         "frage": "Erkläre an Y = 2·(X + 10), wie man E(Y) „rückwärts“ berechnet (E(X) = 3,5).",
+         "kernpunkte": [
+          "äußerste Operation ist ·2 – zuerst auflösen",
+          "E(Y) = 2·E(X + 10)",
+          "dann Addition auflösen: 2·(E(X) + 10)",
+          "= 2·3,5 + 2·10 = 27"
+         ],
+         "musterloesung": "Die äußerste Operation ist die Multiplikation mit 2: E(Y) = 2·E(X + 10). Dann die Addition: = 2·(E(X) + 10) = 2·3,5 + 2·10 = 7 + 20 = 27."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-D4",
+     "titel": "Anwenden",
+     "wissen": [
+      {
+       "id": "stat2-s4-D4-w1",
+       "titel": "Flohmarkt: Preis würfeln",
+       "merke": "Flohmarkt (X = gewürfelter Preis, E = 3,5, Var = 2,917): Nicht-Studierende zahlen **Y = X + 1,5** → E = 5, Var = 2,917. Später 10 % mehr: **Z = X + 0,1·X = 1,1·X** → E = 3,85, Var = 1,21·2,917 ≈ 3,53. **Z ist günstiger** (kleinerer Erwartungswert).",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D4-w1-a1",
+         "typ": "single",
+         "frage": "Nicht-Studierende zahlen den gewürfelten Preis X plus 1,50 €. Welche Transformation?",
+         "optionen": [
+          "Y = X + 1,5",
+          "Y = 1,5 · X",
+          "Y = X − 1,5",
+          "Y = 1,15 · X"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D4-w1-a2",
+         "typ": "single",
+         "frage": "Nicht-Studierende zahlen in den letzten zwei Stunden 10 % mehr als den gewürfelten Preis X. Welche Transformation?",
+         "optionen": [
+          "Z = 1,1 · X",
+          "Z = X + 0,1",
+          "Z = X + 10",
+          "Z = 0,1 · X"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D4-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Z = 1,1 · X, E(X) = 3,5. E(Z) = ?",
+         "akzeptiert": [
+          "3,85"
+         ],
+         "musterloesung": "1,1 · 3,5 = **3,85**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D4-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Z = 1,1 · X, Var(X) = 2,917. Var(Z) = ? (auf zwei Nachkommastellen)",
+         "akzeptiert": [
+          "3,53",
+          "3,530",
+          "3,529"
+         ],
+         "musterloesung": "1,1² · 2,917 = 1,21 · 2,917 ≈ **3,53**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D4-w1-a5",
+         "typ": "fall",
+         "fall": "Flohmarkt: Der Preis X wird gewürfelt (E(X) = 3,5; Var(X) = 2,917). Studierende zahlen X, Nicht-Studierende zunächst X + 1,50 €; in den letzten zwei Stunden zahlen Nicht-Studierende stattdessen 10 % mehr als X.",
+         "frage": "Stelle beide Transformationen auf, berechne jeweils E und Var und entscheide, welche Variante für Nicht-Studierende günstiger ist.",
+         "kernpunkte": [
+          "Y = X + 1,5: E = 5, Var = 2,917",
+          "Z = 1,1·X: E = 3,85, Var ≈ 3,53",
+          "Z ist günstiger, weil der Erwartungswert kleiner ist"
+         ],
+         "musterloesung": "Y = X + 1,5 → E(Y) = 3,5 + 1,5 = 5; Var(Y) = 2,917. Z = X + 0,1·X = 1,1·X → E(Z) = 3,85; Var(Z) = 1,21 · 2,917 ≈ 3,530. Z ist günstiger, da der Erwartungswert (3,85 €) kleiner ist als bei Y (5 €)."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-D4-w2",
+       "titel": "Punkte in Prozent",
+       "merke": "Umrechnen ist eine Transformation: Punkte X (E = 40, Var = 64) in Prozent **Y = X/80 · 100 = 1,25·X** → E(Y) = **50**, Var(Y) = 1,5625 · 64 = **100**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D4-w2-a1",
+         "typ": "kurzfrage",
+         "frage": "Y = X/80 · 100 = 1,25 · X. E(X) = 40. E(Y) = ?",
+         "akzeptiert": [
+          "50"
+         ],
+         "musterloesung": "1,25 · 40 = **50**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D4-w2-a2",
+         "typ": "kurzfrage",
+         "frage": "Y = 1,25 · X. Var(X) = 64. Var(Y) = ?",
+         "akzeptiert": [
+          "100"
+         ],
+         "musterloesung": "1,25² · 64 = 1,5625 · 64 = **100**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D4-w2-a3",
+         "typ": "single",
+         "frage": "Eine Lehrerin rechnet Punkte (max. 80) in Prozent um: Y = X/80 · 100. Welchen Faktor b hat diese Transformation?",
+         "optionen": [
+          "1,25",
+          "0,8",
+          "100",
+          "80"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D4-w2-a4",
+         "typ": "offen",
+         "frage": "Ein Test hat 50 Punkte; die Punktzahl X hat E(X) = 30 und Var(X) = 25. Die Ergebnisse werden in Prozent umgerechnet (Y = X/50 · 100). Berechne E(Y) und Var(Y).",
+         "kernpunkte": [
+          "Y = 2 · X",
+          "E(Y) = 2 · 30 = 60",
+          "Var(Y) = 2² · 25 = 100"
+         ],
+         "musterloesung": "Y = X/50 · 100 = 2·X. E(Y) = 2·30 = 60 (Prozent); Var(Y) = 4·25 = 100."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-D-mix1",
+     "titel": "Mix: Lineare Transformation",
+     "mix": [
+      "stat2-s4-D1",
+      "stat2-s4-D2",
+      "stat2-s4-D3",
+      "stat2-s4-D4"
+     ]
+    },
+    {
+     "id": "stat2-s4-D5",
+     "titel": "z-Transformation",
+     "wissen": [
+      {
+       "id": "stat2-s4-D5-w1",
+       "titel": "Definition z-Transformation",
+       "merke": "Die **z-Transformation Z = (X − μ)/σ = (1/σ)·(X − μ)** ist eine zweischrittige Transformation: (1) **Subtraktion des Erwartungswerts μ**, (2) **Division durch die Standardabweichung σ**. μ und σ sind **feste Werte**, daher gelten die Rechenregeln.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D5-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wie lautet die Formel der z-Transformation?",
+          "Z = ?"
+         ],
+         "optionen": [
+          "(X − μ)/σ",
+          "(X − σ)/μ",
+          "(X + μ)·σ",
+          "X/σ − μ"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D5-w1-a2",
+         "typ": "reihenfolge",
+         "frage": "Bringe die Schritte der z-Transformation in die richtige Reihenfolge.",
+         "elemente": [
+          "Erwartungswert μ subtrahieren",
+          "durch die Standardabweichung σ dividieren"
+         ]
+        },
+        {
+         "id": "stat2-s4-D5-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die z-Transformation teilt durch die Varianz.",
+           "richtig": false,
+           "begruendung": "Nein: durch die **Standardabweichung** σ."
+          },
+          {
+           "text": "μ und σ sind bei der z-Transformation konstante Werte.",
+           "richtig": true,
+           "begruendung": "Ja: deshalb gelten die Rechenregeln für E und Var."
+          },
+          {
+           "text": "Z = (1/σ)·(X − μ) ist dieselbe Transformation wie (X − μ)/σ.",
+           "richtig": true,
+           "begruendung": "Ja: Division durch σ = Multiplikation mit 1/σ."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-D5-w1-a4",
+         "typ": "kurzfrage",
+         "fragen": [
+          "E(X) = 50, σ = 5. Welchen z-Wert hat x = 60?",
+          "μ = 50, σ = 5, x = 60. z = ?"
+         ],
+         "akzeptiert": [
+          "2"
+         ],
+         "musterloesung": "z = (60 − 50)/5 = **2**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D5-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "μ = 100, σ = 15, x = 130. z = ?",
+         "akzeptiert": [
+          "2"
+         ],
+         "musterloesung": "(130 − 100)/15 = **2**."
+        },
+        {
+         "id": "stat2-s4-D5-w1-a6",
+         "typ": "single",
+         "frage": "μ = 100, σ = 15, x = 85. z = ?",
+         "optionen": [
+          "−1",
+          "1",
+          "−15",
+          "0,85"
+         ],
+         "loesung": 0
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-D5-w2",
+       "titel": "E(Z) = 0 und Var(Z) = 1",
+       "merke": "Jede z-transformierte Zufallsvariable hat **E(Z) = 0** und **Var(Z) = 1**. Herleitung: E(Z) = (1/σ)·(E(X) − μ) = (1/σ)·0 = 0; Var(Z) = (1/σ)²·Var(X − μ) = σ²/σ² = 1. Rechnen **rückwärts**: erst ·1/σ, dann −μ auflösen.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D5-w2-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "E(Z)",
+           "rechts": "0"
+          },
+          {
+           "links": "Var(Z)",
+           "rechts": "1"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s4-D5-w2-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Eine z-transformierte Zufallsvariable hat immer den Erwartungswert 0 und die Varianz 1.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Die Varianz von Z hängt von der Varianz von X ab.",
+           "richtig": false,
+           "begruendung": "Nein: Var(Z) = Var(X)/σ² = 1."
+          },
+          {
+           "text": "E(Z) = 0, weil E(X) − μ = μ − μ = 0.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s4-D5-w2-a3",
+         "typ": "reihenfolge",
+         "frage": "Bringe die Herleitung von Var(Z) in die richtige Reihenfolge.",
+         "elemente": [
+          "Var(Z) = Var((1/σ)·(X − μ))",
+          "= (1/σ)² · Var(X − μ)",
+          "= (1/σ²) · Var(X)",
+          "= σ²/σ² = 1"
+         ]
+        },
+        {
+         "id": "stat2-s4-D5-w2-a4",
+         "typ": "kurzfrage",
+         "frage": "X ist z-transformiert. Wie groß ist Var(Z)?",
+         "akzeptiert": [
+          "1",
+          "eins"
+         ],
+         "musterloesung": "Var(Z) = **1**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D5-w2-a5",
+         "typ": "offen",
+         "frage": "Leite her, warum E(Z) = 0 und Var(Z) = 1 gilt.",
+         "kernpunkte": [
+          "E(Z) = (1/σ)·E(X − μ) = (1/σ)·(μ − μ) = 0",
+          "Var(Z) = (1/σ)²·Var(X − μ)",
+          "Var(X − μ) = Var(X) = σ²",
+          "σ²/σ² = 1"
+         ],
+         "musterloesung": "E(Z) = (1/σ)·E(X − μ) = (1/σ)·(E(X) − μ) = (1/σ)·(μ − μ) = 0. Var(Z) = (1/σ)²·Var(X − μ) = (1/σ²)·Var(X) = σ²/σ² = 1 (die Subtraktion von μ ändert die Varianz nicht)."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s4-D5-w3",
+       "titel": "z-Transformation beim Würfel",
+       "merke": "Würfel: E(X) = 3,5; Var(X) ≈ 2,917; σ ≈ **1,708**. z-Werte: 1 → −1,464; 2 → −0,878; 3 → −0,293; 4 → 0,293; 5 → 0,878; 6 → 1,464 (je P = 1/6). E(Z) = 0, Var(Z) = 1.",
+       "aufgaben": [
+        {
+         "id": "stat2-s4-D5-w3-a1",
+         "typ": "kurzfrage",
+         "frage": "Würfel: Var(X) = 2,917. Wie groß ist σ? (auf drei Nachkommastellen)",
+         "akzeptiert": [
+          "1,708",
+          "1,71",
+          "1,7078"
+         ],
+         "musterloesung": "σ = √2,917 ≈ **1,708**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D5-w3-a2",
+         "typ": "kurzfrage",
+         "frage": "Würfel, μ = 3,5, σ = 1,708. Welchen z-Wert hat x = 5? (auf drei Nachkommastellen)",
+         "akzeptiert": [
+          "0,878",
+          "0,88"
+         ],
+         "musterloesung": "(5 − 3,5)/1,708 ≈ **0,878**.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s4-D5-w3-a3",
+         "typ": "kurzfrage",
+         "frage": "Würfel, μ = 3,5, σ = 1,708. Welchen z-Wert hat x = 6? (auf drei Nachkommastellen)",
+         "akzeptiert": [
+          "1,464",
+          "1,46"
+         ],
+         "musterloesung": "(6 − 3,5)/1,708 ≈ **1,464**."
+        },
+        {
+         "id": "stat2-s4-D5-w3-a4",
+         "typ": "single",
+         "frage": "Würfel, μ = 3,5, σ = 1,708. Welchen z-Wert hat x = 1?",
+         "optionen": [
+          "−1,464",
+          "1,464",
+          "−2,5",
+          "−0,878"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s4-D5-w3-a5",
+         "typ": "single",
+         "frage": "Welche Wahrscheinlichkeit hat beim Würfel der z-Wert 0,293?",
+         "optionen": [
+          "1/6",
+          "0,293",
+          "1/2",
+          "0"
+         ],
+         "loesung": 0,
+         "erklaerung": "Die Wahrscheinlichkeiten übertragen sich unverändert: x = 4 → z = 0,293 mit P = 1/6."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s4-D-mix2",
+     "titel": "Mix: Alle Transformationen",
+     "mix": [
+      "stat2-s4-D1",
+      "stat2-s4-D2",
+      "stat2-s4-D3",
+      "stat2-s4-D4",
+      "stat2-s4-D5"
+     ]
+    }
+   ]
+  }
+ ],
+ "arbeitsblatt": {
+  "titel": "Übungszettel 4 (Sitzung 4)",
+  "aufgaben": [
+   {
+    "id": "stat2-s4-ab1",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Chiaras Bäckertüten: Je eine Tüte Brezeln, Laugenstangen, Croissants, Brötchen; Chiara greift zufällig eine. a) Definiere die Zufallsvariable. b) Stelle die Wahrscheinlichkeitsverteilung auf. c) Welche Verteilung liegt vor? d) Berechne E(X) und Var(X) möglichst einfach. Sind sie interpretierbar?",
+    "wissen": [
+     "stat2-s4-A2-w1",
+     "stat2-s4-A3-w1",
+     "stat2-s4-A4-w1"
+    ],
+    "kernpunkte": [
+     "a) Ω, X(Ω) = {1, 2, 3, 4}, Zuordnung",
+     "b) je 0,25",
+     "c) Gleichverteilung X ~ U(4)",
+     "d) E = 2,5; Var = 1,25; nicht interpretierbar (nominal)"
+    ],
+    "musterloesung": "a) Ω = {Brezeln, Laugenstangen, Croissants, Brötchen}; X(Ω) = {1, 2, 3, 4}; X = 1 Brezeln, 2 Laugenstangen, 3 Croissants, 4 Brötchen. b) P(X = xᵢ) = 0,25 für alle; Summe 1. c) Gleichverteilung, da alle Realisationen gleich wahrscheinlich sind; die Wahrscheinlichkeit hängt nur von m = 4 ab → X ~ U(4). d) E(X) = (4 + 1)/2 = 2,5; Var(X) = (16 − 1)/12 = 1,25. Nicht interpretierbar: X ist nominalskaliert (Backwaren haben keine logische Reihenfolge); E und Var sind nur bei metrischen ZV interpretierbar."
+   },
+   {
+    "id": "stat2-s4-ab2",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Croissants für die Freundin: Übrig sind Croissants, Brötchen, Brezeln; Chiara hofft auf Croissants. a) Definiere eine passende Zufallsvariable. b) Welche Verteilung liegt vor?",
+    "wissen": [
+     "stat2-s4-B3-w1",
+     "stat2-s4-B1-w2"
+    ],
+    "kernpunkte": [
+     "a) Ω = {Croissants, Brötchen, Brezeln}, X(Ω) = {0, 1}, X = 1 bei Croissants",
+     "b) Bernoulli: Zielereignis Croissants, p₁ = 1/3, X ~ Bin(1, 1/3)"
+    ],
+    "musterloesung": "a) Ω = {Croissants, Brötchen, Brezeln}; X(Ω) = {0, 1}; X(ω) = 0, wenn ω ≠ Croissants; 1, wenn ω = Croissants. b) Bernoulliverteilung, da X genau die Realisationen 0 und 1 annehmen kann. Zielereignis: Croissants; Gegenereignis: keine Croissants. p₁ = 1/3 (Laplace) → X ~ Bin(1, 1/3)."
+   },
+   {
+    "id": "stat2-s4-ab3",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Flohmarkt: X = „Preis in Augenzahl“ (E(X) = 3,5; Var(X) = 2,917). Studierende zahlen X, Nicht-Studierende X + 1,50 €. a) Gib die Transformation an. b) Stelle die Verteilung von Y auf. c) In den letzten zwei Stunden zahlen Nicht-Studierende 10 % mehr: Gib die Transformation an. d) Berechne E und Var beider Varianten. Welche ist günstiger?",
+    "wissen": [
+     "stat2-s4-D4-w1",
+     "stat2-s4-C2-w1",
+     "stat2-s4-C3-w1"
+    ],
+    "kernpunkte": [
+     "a) Y = X + 1,5",
+     "b) 2,5; 3,5; …; 7,5 je 1/6",
+     "c) Z = 1,1·X",
+     "d) E(Y) = 5, Var(Y) = 2,917; E(Z) = 3,85, Var(Z) ≈ 3,53; Z günstiger"
+    ],
+    "musterloesung": "a) Y = X + 1,5. b) y = 2,5; 3,5; 4,5; 5,5; 6,5; 7,5 mit je P ≈ 0,167. c) Z = X + 0,1·X = 1,1·X. d) E(Y) = 5; Var(Y) = 2,917; E(Z) = 1,1·3,5 = 3,85; Var(Z) = 1,21·2,917 ≈ 3,530. Günstiger ist Z, weil der Erwartungswert (3,85 €) kleiner ist als bei Y (5 €)."
+   },
+   {
+    "id": "stat2-s4-ab4",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Gegeben E(X) = 4,5 und Var(X) = 7,34. Berechne E und Var für Y₁ = X + 18, Y₂ = X − 7, Y₃ = X · 4, Y₄ = X / 3.",
+    "wissen": [
+     "stat2-s4-C4-w1"
+    ],
+    "kernpunkte": [
+     "Y₁: 22,5 / 7,34",
+     "Y₂: −2,5 / 7,34",
+     "Y₃: 18 / 117,44",
+     "Y₄: 1,5 / 0,816"
+    ],
+    "musterloesung": "Y₁: E = 22,5; Var = 7,34. Y₂: E = −2,5; Var = 7,34. Y₃: E = 18; Var = 7,34 · 16 = 117,44. Y₄: E = 1,5; Var = 7,34 / 9 ≈ 0,816."
+   },
+   {
+    "id": "stat2-s4-ab5",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Richtig oder falsch? Begründe: (1) Bei einer Bernoulliverteilung sind alle Realisationen genau gleich wahrscheinlich. (2) Bei der Transformation einer ZV bleiben die Abstände zwischen den Realisationen immer gleich. (3) Bei Addition bleibt die Anzahl der Realisationen gleich, bei Multiplikation verändert sie sich. (4) Ist der Multiplikator < 1, werden E und Var größer; die Verteilung wird gestreckt und nach oben verschoben.",
+    "wissen": [
+     "stat2-s4-B4-w1",
+     "stat2-s4-C3-w2",
+     "stat2-s4-C2-w2"
+    ],
+    "kernpunkte": [
+     "alle vier falsch",
+     "(1) p₁ und p₀ können, müssen aber nicht gleich sein",
+     "(2) nur bei Addition gleich",
+     "(3) Anzahl bleibt in beiden Fällen",
+     "(4) kleiner, gestaucht, nach unten"
+    ],
+    "musterloesung": "(1) Falsch: Kennzeichnend ist, dass X genau 0 und 1 annimmt; p₁ und p₀ können gleich sein, müssen aber nicht (dann wäre sie auch gleichverteilt). (2) Falsch: Nur bei Addition bleiben die Abstände (und die Varianz) gleich; bei Multiplikation ändern sie sich. (3) Falsch: Die Anzahl bleibt in beiden Fällen gleich. (4) Falsch: E und Var werden kleiner; die Verteilung wird gestaucht und in einen niedrigeren Wertebereich verschoben."
+   },
+   {
+    "id": "stat2-s4-ab6",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Zusatzvideo z-Transformation: X = Augenzahl eines fairen Würfels. a) Berechne E(X), Var(X) und SD(X). b) Stelle die Verteilung von Z = (X − E(X))/SD(X) auf. c) Berechne E(Z) und Var(Z) über die Rechenregeln.",
+    "wissen": [
+     "stat2-s4-D5-w3",
+     "stat2-s4-D5-w2",
+     "stat2-s4-D5-w1"
+    ],
+    "kernpunkte": [
+     "a) 3,5; 2,917; 1,708",
+     "b) z = −1,464; −0,878; −0,293; 0,293; 0,878; 1,464 je 1/6",
+     "c) E(Z) = 0; Var(Z) = 1"
+    ],
+    "musterloesung": "a) E(X) = 3,5; Var(X) = 35/12 ≈ 2,917; SD(X) = √2,917 ≈ 1,708. b) z = (x − 3,5)/1,708: −1,464; −0,878; −0,293; 0,293; 0,878; 1,464, jeweils mit P = 1/6. c) E(Z) = (1/σ)·(E(X) − 3,5) = 0; Var(Z) = (1/σ)²·Var(X) = 2,917/2,917 = 1."
+   }
+  ]
+ },
+ "probeklausur": {
+  "titel": "Probeklausur Statistik 2, Sitzung 4",
+  "bestehenProzent": 50,
+  "anzahl": 14,
+  "aufgaben": [
+   {
+    "id": "stat2-s4-pk1",
+    "typ": "single",
+    "frage": "X ~ U(12) mit Werten 1…12. E(X) = ?",
+    "optionen": [
+     "6,5",
+     "6",
+     "12",
+     "11,92"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s4-A3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk2",
+    "typ": "kurzfrage",
+    "frage": "X ~ U(3) mit Werten 1, 2, 3. Var(X) = ? (als Bruch oder auf drei Nachkommastellen)",
+    "akzeptiert": [
+     "8/12",
+     "2/3",
+     "0,667",
+     "0,67"
+    ],
+    "musterloesung": "(9 − 1)/12 = 8/12 = **2/3 ≈ 0,667**.",
+    "schwere": 2,
+    "wissen": [
+     "stat2-s4-A3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk3",
+    "typ": "kurzfrage",
+    "frage": "X ~ Bin(1; 0,1). Var(X) = ?",
+    "akzeptiert": [
+     "0,09"
+    ],
+    "musterloesung": "0,1 · 0,9 = **0,09**.",
+    "schwere": 2,
+    "wissen": [
+     "stat2-s4-B2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk4",
+    "typ": "fall",
+    "fall": "In einer Klasse mit 25 Schüler*innen tragen 5 eine Brille. Eine Person wird zufällig ausgewählt.",
+    "frage": "Konstruiere eine bernoulliverteilte Zufallsvariable, gib die Verteilung an und berechne E(X) und Var(X).",
+    "kernpunkte": [
+     "Zielereignis: Person trägt Brille (X = 1), sonst 0",
+     "p₁ = 5/25 = 0,2",
+     "X ~ Bin(1; 0,2)",
+     "E = 0,2; Var = 0,2·0,8 = 0,16"
+    ],
+    "musterloesung": "X(ω) = 1, wenn ω eine Brille trägt, sonst 0. p₁ = 5/25 = 0,2 (Laplace) → X ~ Bin(1; 0,2). E(X) = 0,2; Var(X) = 0,2 · 0,8 = 0,16.",
+    "wissen": [
+     "stat2-s4-B3-w1",
+     "stat2-s4-B2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk5",
+    "typ": "tabelle",
+    "frage": "E(X) = 8, Var(X) = 3. Ergänze.",
+    "kopf": [
+     "Transformation",
+     "E",
+     "Var"
+    ],
+    "zeilen": [
+     [
+      "X + 5",
+      {
+       "akzeptiert": [
+        "13"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "3"
+       ]
+      }
+     ],
+     [
+      "2 · X",
+      {
+       "akzeptiert": [
+        "16"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "12"
+       ]
+      }
+     ],
+     [
+      "2 · X + 5",
+      {
+       "akzeptiert": [
+        "21"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "12"
+       ]
+      }
+     ],
+     [
+      "2 · (X + 5)",
+      {
+       "akzeptiert": [
+        "26"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "12"
+       ]
+      }
+     ]
+    ],
+    "zeigen": 6,
+    "wissen": [
+     "stat2-s4-C2-w1",
+     "stat2-s4-C3-w1",
+     "stat2-s4-D1-w1",
+     "stat2-s4-D2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk6",
+    "typ": "single",
+    "frage": "E(X) = 2. E((X + 4) · 3) = ?",
+    "optionen": [
+     "18",
+     "10",
+     "14",
+     "24"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s4-D2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk7",
+    "typ": "single",
+    "frage": "Var(X) = 5. Var(3X + 7) = ?",
+    "optionen": [
+     "45",
+     "15",
+     "22",
+     "52"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s4-D1-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk8",
+    "typ": "richtigfalsch",
+    "frage": "Richtig oder falsch?",
+    "aussagen": [
+     {
+      "text": "Bei der Addition einer Konstanten ändert sich die Varianz.",
+      "richtig": false,
+      "begruendung": "Falsch."
+     },
+     {
+      "text": "Eine z-transformierte Zufallsvariable hat immer E = 0 und Var = 1.",
+      "richtig": true,
+      "begruendung": "Richtig."
+     },
+     {
+      "text": "Eine Bernoulli-ZV mit p₁ = 0,5 ist auch gleichverteilt.",
+      "richtig": true,
+      "begruendung": "Richtig."
+     },
+     {
+      "text": "Bei Multiplikation ändert sich die Anzahl der Realisationen.",
+      "richtig": false,
+      "begruendung": "Falsch: Sie bleibt gleich."
+     }
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s4-C2-w2",
+     "stat2-s4-D5-w2",
+     "stat2-s4-B4-w1",
+     "stat2-s4-C3-w2"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk9",
+    "typ": "kurzfrage",
+    "frage": "μ = 40, σ = 8, x = 52. z = ?",
+    "akzeptiert": [
+     "1,5"
+    ],
+    "musterloesung": "(52 − 40)/8 = 12/8 = **1,5**.",
+    "schwere": 2,
+    "wissen": [
+     "stat2-s4-D5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk10",
+    "typ": "single",
+    "frage": "Was gilt für Z = (X − 40)/8, wenn E(X) = 40 und Var(X) = 64?",
+    "optionen": [
+     "E(Z) = 0, Var(Z) = 1",
+     "E(Z) = 40, Var(Z) = 8",
+     "E(Z) = 0, Var(Z) = 8",
+     "E(Z) = 5, Var(Z) = 1"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s4-D5-w2"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk11",
+    "typ": "fall",
+    "fall": "Ein Kiosk verkauft Lose: Der Gewinn X (in €) hat E(X) = 2 und Var(X) = 9. Der Betreiber zieht von jedem Gewinn 0,50 € Gebühr ab und zahlt den Rest in einer Aktion doppelt aus: Y = 2 · (X − 0,5).",
+    "frage": "Berechne E(Y) und Var(Y) und erkläre, in welcher Reihenfolge du rechnest.",
+    "kernpunkte": [
+     "rückwärts: zuerst ·2, dann −0,5 auflösen",
+     "E(Y) = 2·E(X) − 2·0,5 = 4 − 1 = 3",
+     "Var(Y) = 2²·Var(X) = 36",
+     "Subtraktion ändert die Varianz nicht"
+    ],
+    "musterloesung": "Rückwärts arbeiten: Die äußerste Operation ist ·2, dann −0,5. E(Y) = 2·(E(X) − 0,5) = 2·1,5 = 3. Var(Y) = 2²·Var(X − 0,5) = 4·9 = 36; die Subtraktion ändert die Varianz nicht.",
+    "wissen": [
+     "stat2-s4-D2-w1",
+     "stat2-s4-D3-w2"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk12",
+    "typ": "beispiel",
+    "frage": "Welche Verteilung?",
+    "kategorien": [
+     "Gleichverteilung",
+     "Bernoulli",
+     "beides"
+    ],
+    "items": [
+     {
+      "text": "X = Augenzahl beim fairen Würfel",
+      "kategorie": 0
+     },
+     {
+      "text": "X = 1 bei Gewinn (P = 0,15), 0 bei Niete",
+      "kategorie": 1
+     },
+     {
+      "text": "X = 1 bei Kopf, 0 bei Zahl (faire Münze)",
+      "kategorie": 2
+     },
+     {
+      "text": "X = Nummer des gezogenen Feldes bei 8 gleich großen Feldern",
+      "kategorie": 0
+     }
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s4-A2-w1",
+     "stat2-s4-B1-w1",
+     "stat2-s4-B4-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk13",
+    "typ": "definition",
+    "frage": "Definiere die Bernoulli-Verteilung und nenne Parameter, Schreibweise, E(X) und Var(X).",
+    "kernpunkte": [
+     "genau Realisationen 0 und 1",
+     "Parameter p₁ (Wahrscheinlichkeit des Zielereignisses)",
+     "X ~ Bin(1, p₁)",
+     "E = p₁; Var = p₁(1 − p₁)"
+    ],
+    "musterloesung": "Eine Zufallsvariable mit genau den Realisationen 0 (Gegenereignis) und 1 (Zielereignis) ist bernoulliverteilt. Sie ist durch p₁ eindeutig bestimmt: X ~ Bin(1, p₁); E(X) = p₁; Var(X) = p₁(1 − p₁).",
+    "wissen": [
+     "stat2-s4-B1-w1",
+     "stat2-s4-B1-w2",
+     "stat2-s4-B2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk14",
+    "typ": "offen",
+    "frage": "Erkläre, was bei der Multiplikation einer Zufallsvariable mit b = 3 mit Realisationen, Wahrscheinlichkeiten, Abständen, Erwartungswert und Varianz passiert.",
+    "kernpunkte": [
+     "Anzahl der Realisationen bleibt gleich",
+     "Wahrscheinlichkeiten werden übernommen",
+     "Realisationen und Abstände verdreifachen sich (gestreckt)",
+     "E(3X) = 3·E(X)",
+     "Var(3X) = 9·Var(X)"
+    ],
+    "musterloesung": "Die Anzahl der Realisationen bleibt gleich, die Wahrscheinlichkeiten werden unverändert übernommen. Alle Realisationen werden verdreifacht, die Abstände verdreifachen sich – die Verteilung wird gestreckt. E(3X) = 3·E(X), Var(3X) = 3²·Var(X) = 9·Var(X).",
+    "wissen": [
+     "stat2-s4-C3-w1",
+     "stat2-s4-C3-w2"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk15",
+    "typ": "kurzfrage",
+    "frage": "E(X) = 50, Var(X) = 25. Ein Ergebnis wird in Z = (X − 50)/5 umgerechnet. Welchen z-Wert hat x = 65?",
+    "akzeptiert": [
+     "3"
+    ],
+    "musterloesung": "(65 − 50)/5 = **3**.",
+    "schwere": 2,
+    "wissen": [
+     "stat2-s4-D5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk16",
+    "typ": "kurzfrage",
+    "frage": "X ~ Bin(1; 0,25). E(3·X + 1) = ?",
+    "akzeptiert": [
+     "1,75"
+    ],
+    "musterloesung": "E(X) = 0,25 → 3·0,25 + 1 = **1,75**.",
+    "schwere": 2,
+    "wissen": [
+     "stat2-s4-B2-w1",
+     "stat2-s4-D1-w1"
+    ]
+   },
+   {
+    "id": "stat2-s4-pk17",
+    "typ": "kurzfrage",
+    "frage": "X ~ U(6) (Würfel), Var(X) = 35/12. Var(2·X + 1) = ? (auf zwei Nachkommastellen)",
+    "akzeptiert": [
+     "11,67",
+     "11,667",
+     "35/3",
+     "11,7"
+    ],
+    "musterloesung": "2²·35/12 = 140/12 = 35/3 ≈ **11,67**.",
+    "schwere": 2,
+    "wissen": [
+     "stat2-s4-A3-w1",
+     "stat2-s4-D1-w1"
+    ]
+   }
+  ]
+ }
+}

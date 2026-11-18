@@ -253,6 +253,21 @@
           "{rot} ist ein Zufallsereignis (Elementarereignis)"
          ],
          "musterloesung": "rot ist ein Element, also ein Ergebnis des Zufallsprozesses. {rot} ist eine einelementige Menge und damit ein Zufallsereignis, genauer ein Elementarereignis."
+        },
+        {
+         "id": "stat2-s2-A2-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "rot ist ein {}, also ein Ergebnis. {rot} ist eine einelementige {}, also ein Elementarereignis.",
+         "luecken": [
+          [
+           "Element"
+          ],
+          [
+           "Menge",
+           "Teilmenge"
+          ]
+         ]
         }
        ]
       }
@@ -402,7 +417,8 @@
          "akzeptiert": [
           "0"
          ],
-         "musterloesung": "P({ }) = **0**."
+         "musterloesung": "P({ }) = **0**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s2-A3-w2-a4",
@@ -420,6 +436,18 @@
            "begruendung": "Doch: Die leere Menge ist Teilmenge jeder Menge, also auch ein Zufallsereignis."
           }
          ]
+        },
+        {
+         "id": "stat2-s2-A3-w2-a5",
+         "typ": "kurzfrage",
+         "frage": "Ω = {rot, gelb, grün, blau}. Gib das Ereignis „das Feld hat keine der vier Farben“ an.",
+         "akzeptiert": [
+          "leere Menge",
+          "die leere Menge",
+          "{ }",
+          "∅"
+         ],
+         "musterloesung": "{ } – die leere Menge, das unmögliche Ereignis."
         }
        ]
       }
@@ -799,6 +827,20 @@
           "n(A) = Anzahl der Elemente von A"
          ],
          "musterloesung": "Jedem Zufallsereignis A wird die Zahl n(A)/3 zugewiesen, also die Anzahl seiner Elemente geteilt durch 3."
+        },
+        {
+         "id": "stat2-s2-B2b-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Glücksrad R, B, G mit P(A) = n(A)/3. Fülle die Lücken (als Bruch).",
+         "text": "P({R, B}) = {} und P({R}) = {}.",
+         "luecken": [
+          [
+           "2/3"
+          ],
+          [
+           "1/3"
+          ]
+         ]
         }
        ]
       }
@@ -971,6 +1013,17 @@
            "begruendung": "Ja: n(A) + 1 ≥ 1 > 0, also B(A) > 0."
           }
          ]
+        },
+        {
+         "id": "stat2-s2-C2-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "Ω = {a, b}: R({ }) = 0, R({a}) = −0,2, R({b}) = 1,2, R({a, b}) = 1. Welches Axiom ist verletzt?",
+         "akzeptiert": [
+          "Positivität",
+          "Axiom 1",
+          "erstes Axiom"
+         ],
+         "musterloesung": "Die **Positivität**: R({a}) = −0,2 < 0."
         }
        ]
       }
@@ -1127,6 +1180,19 @@
           "Additivitaet"
          ],
          "musterloesung": "**Additivität** (Axiom 3)."
+        },
+        {
+         "id": "stat2-s2-C4-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "Unter welcher Bedingung gilt P(A₁ ∪ A₂) = P(A₁) + P(A₂)?",
+         "akzeptiert": [
+          "disjunkt",
+          "wenn A₁ und A₂ disjunkt sind",
+          "überschneidungsfrei",
+          "Schnittmenge leer",
+          "Schnittmenge ist leer"
+         ],
+         "musterloesung": "Wenn A₁ und A₂ **disjunkt** sind (A₁ ∩ A₂ = { })."
         }
        ]
       }
@@ -1325,6 +1391,18 @@
           "Additivität prüfen: Vereinigung disjunkter Ereignisse = Summe?",
           "Fazit: Nur wenn alle drei erfüllt → Wahrscheinlichkeitsmaß"
          ]
+        },
+        {
+         "id": "stat2-s2-C5-w1-a5",
+         "typ": "offen",
+         "frage": "Warum reicht ein Gegenbeispiel, um die Additivität zu widerlegen, aber ein Beispiel nicht, um sie zu beweisen?",
+         "kernpunkte": [
+          "Additivität muss für beliebige disjunkte Ereignisse gelten",
+          "ein Gegenbeispiel zeigt, dass sie nicht für alle gilt",
+          "ein Beispiel zeigt nur einen Einzelfall",
+          "Beweis muss allgemein geführt werden"
+         ],
+         "musterloesung": "Das Axiom fordert die Additivität für **alle** disjunkten Ereignisse. Ein einziger Fall, in dem sie nicht gilt, widerlegt das. Ein passendes Beispiel zeigt dagegen nur einen Einzelfall – für den Beweis muss man allgemein argumentieren."
         }
        ]
       }
@@ -1386,7 +1464,8 @@
           "0.6",
           "0,60"
          ],
-         "musterloesung": "{a} und {b} sind disjunkt → P({a, b}) = 0,25 + 0,35 = **0,6**."
+         "musterloesung": "{a} und {b} sind disjunkt → P({a, b}) = 0,25 + 0,35 = **0,6**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s2-C5b-w1-a5",
@@ -1490,7 +1569,8 @@
           "0,34",
           "0.34"
          ],
-         "musterloesung": "0,24 + 0,1 = **0,34** – Maria hat aber 0,7 zugeordnet."
+         "musterloesung": "0,24 + 0,1 = **0,34** – Maria hat aber 0,7 zugeordnet.",
+         "schwere": 2
         },
         {
          "id": "stat2-s2-C6-w1-a4",
@@ -1619,6 +1699,24 @@
           "kein Wahrscheinlichkeitsmaß"
          ],
          "musterloesung": "Positivität ✔ (B(A) > 0). Normiertheit ✘: B(Ω) = 1/(3 + 1) = 1/4 ≠ 1. Additivität ✘: {R} und {B} sind disjunkt, B({R}) + B({B}) = 1, aber B({R, B}) = 1/3. → Kein Wahrscheinlichkeitsmaß."
+        },
+        {
+         "id": "stat2-s2-C7-w1-a5",
+         "typ": "multi",
+         "frage": "B(A) = 1/(n(A) + 1) auf Ω = {R, B, G}. Welche Aussagen stimmen?",
+         "richtig": [
+          "B(Ω) = 1/4",
+          "B({ }) = 1",
+          "B({R}) + B({B}) = 1, aber B({R, B}) = 1/3",
+          "Die Positivität ist erfüllt"
+         ],
+         "falsch": [
+          "B(Ω) = 1",
+          "B ist ein Wahrscheinlichkeitsmaß",
+          "B({R}) = 1/3"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
         }
        ]
       },
@@ -1671,6 +1769,21 @@
           "(n(A₁) + n(A₂))/3 = P(A₁) + P(A₂)"
          ],
          "musterloesung": "Für disjunkte A₁, A₂ gilt n(A₁ ∪ A₂) = n(A₁) + n(A₂). Also ist P(A₁ ∪ A₂) = (n(A₁) + n(A₂))/3 = n(A₁)/3 + n(A₂)/3 = P(A₁) + P(A₂)."
+        },
+        {
+         "id": "stat2-s2-C7-w2-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Bei P(A) = n(A)/3 mit drei Ergebnissen ist P(Ω) = 3/3 = {}. Die Werte sind nie {}, weil n(A) ≥ 0 ist.",
+         "luecken": [
+          [
+           "1",
+           "eins"
+          ],
+          [
+           "negativ"
+          ]
+         ]
         }
        ]
       }
@@ -1799,7 +1912,20 @@
           "1.5",
           "3/2"
          ],
-         "musterloesung": "F(A₁) + F(A₂) = 1 + ½ = **1,5**, aber F(A₁ ∪ A₂) = ½ (3 Elemente) → Additivität verletzt."
+         "musterloesung": "F(A₁) + F(A₂) = 1 + ½ = **1,5**, aber F(A₁ ∪ A₂) = ½ (3 Elemente) → Additivität verletzt.",
+         "schwere": 2
+        },
+        {
+         "id": "stat2-s2-C8-w2-a4",
+         "typ": "offen",
+         "frage": "F(A) = 0 bei n(A) = 0, ½ bei ungeradem n(A), 1 bei geradem n(A). Zeige mit einem Gegenbeispiel, dass F die Additivität verletzt.",
+         "kernpunkte": [
+          "A₁ mit gerader, A₂ mit ungerader Anzahl, disjunkt",
+          "F(A₁) + F(A₂) = 1 + ½ = 1,5",
+          "Vereinigung hat ungerade Anzahl → F = ½",
+          "1,5 ≠ ½"
+         ],
+         "musterloesung": "Nimm disjunkte A₁ mit gerader und A₂ mit ungerader Elementzahl, z. B. A₁ = {R, B}, A₂ = {G}. Dann F(A₁) + F(A₂) = 1 + ½ = 1,5. Die Vereinigung hat 3 Elemente (ungerade), also F(A₁ ∪ A₂) = ½ ≠ 1,5."
         }
        ]
       }
@@ -2091,6 +2217,21 @@
           "Niemand ist sehr unzufrieden."
          ],
          "loesung": 0
+        },
+        {
+         "id": "stat2-s2-D3-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Eine relative Häufigkeit von 0 heißt: Das Ereignis ist {} eingetreten. Eine Wahrscheinlichkeit von 0 heißt: Es ist {}.",
+         "luecken": [
+          [
+           "keinmal",
+           "nie"
+          ],
+          [
+           "unmöglich"
+          ]
+         ]
         }
        ]
       },
@@ -2242,6 +2383,20 @@
           "rel. Häufigkeit nähert die Wahrscheinlichkeit bei großem n an"
          ],
          "musterloesung": "Die relative Häufigkeit beschreibt, was bei einer endlichen Wiederholung passiert ist (retrospektiv, empirisch, beobachtbar): 0 = keinmal, 1 = jedes Mal eingetreten. Die Wahrscheinlichkeit bezieht sich auf zukünftige Durchführungen (prospektiv, theoretisch, nicht beobachtbar): 0 = unmöglich, 1 = sicher. Bei großem n ist die relative Häufigkeit eine gute Näherung der Wahrscheinlichkeit."
+        },
+        {
+         "id": "stat2-s2-D3-w2-a6",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die relative Häufigkeit ist {} und empirisch, die Wahrscheinlichkeit ist {} und theoretisch.",
+         "luecken": [
+          [
+           "retrospektiv"
+          ],
+          [
+           "prospektiv"
+          ]
+         ]
         }
        ]
       }
@@ -2578,6 +2733,7 @@
      "0,30"
     ],
     "musterloesung": "Normiertheit: P(Ω) = 1. Additivität: P({a}) + P({b}) + P({c}) = P(Ω) → P({c}) = 1 − 0,2 − 0,5 = **0,3**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s2-C3-w1",
      "stat2-s2-C4-w1"

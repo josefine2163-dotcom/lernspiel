@@ -131,6 +131,20 @@
           ]
          ],
          "zeigen": 2
+        },
+        {
+         "id": "stat2-s1-A1-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die {} ist der „wahre“, unbekannte Zustand; die {} ist der „empirische“, beobachtete Zustand.",
+         "luecken": [
+          [
+           "Grundgesamtheit"
+          ],
+          [
+           "Stichprobe"
+          ]
+         ]
         }
        ]
       },
@@ -581,6 +595,22 @@
           "Rückschlüsse auf die Situation in der Grundgesamtheit"
          ],
          "musterloesung": "Inferenzstatistik ist ein (mathematisches) Hilfsmittel, um auf Basis von Informationen aus einer Stichprobe und statistischer Modellannahmen über die Grundgesamtheit Rückschlüsse auf die Situation in der Grundgesamtheit zu ziehen."
+        },
+        {
+         "id": "stat2-s1-A3-w1-a5",
+         "typ": "single",
+         "fragen": [
+          "Worauf stützt sich die Inferenzstatistik?",
+          "Auf welcher Basis zieht die Inferenzstatistik Rückschlüsse?"
+         ],
+         "richtig": [
+          "auf Informationen aus einer Stichprobe und statistische Modellannahmen"
+         ],
+         "falsch": [
+          "auf eine vollständige Erhebung der Grundgesamtheit",
+          "nur auf Modellannahmen ohne Daten",
+          "auf Gesetzestexte"
+         ]
         }
        ]
       }
@@ -859,6 +889,33 @@
           "Ergebnis im Vorfeld nicht eindeutig bestimmbar"
          ],
          "musterloesung": "Ein Zufallsprozess ist ein prinzipiell beliebig oft wiederholbarer Vorgang, der nach festen Regeln ausgeführt wird, bei dem mindestens zwei verschiedene Ergebnisse möglich sind und bei dem im Vorfeld nicht eindeutig bestimmt werden kann, welches Resultat eintreten wird."
+        },
+        {
+         "id": "stat2-s1-B1-w1-a5",
+         "typ": "richtigfalsch",
+         "frage": "Gehört das zur Definition eines Zufallsprozesses?",
+         "aussagen": [
+          {
+           "text": "Er wird nach festen Regeln ausgeführt.",
+           "richtig": true,
+           "begruendung": "Ja: Kriterium 1."
+          },
+          {
+           "text": "Mindestens zwei verschiedene Ergebnisse sind möglich.",
+           "richtig": true,
+           "begruendung": "Ja: Kriterium 2."
+          },
+          {
+           "text": "Das Ergebnis steht im Vorfeld fest.",
+           "richtig": false,
+           "begruendung": "Nein: Es darf im Vorfeld **nicht** eindeutig bestimmt werden können."
+          },
+          {
+           "text": "Er ist nur ein einziges Mal durchführbar.",
+           "richtig": false,
+           "begruendung": "Nein: Er ist prinzipiell beliebig oft wiederholbar."
+          }
+         ]
         }
        ]
       }
@@ -960,6 +1017,24 @@
           "Glücksrad drehen"
          ],
          "musterloesung": "Z. B. Würfeln, Werfen einer Münze, Drehen eines Glücksrads, Ziehen eines Loses."
+        },
+        {
+         "id": "stat2-s1-B1b-w1-a5",
+         "typ": "multi",
+         "frage": "Welche Beispiele für Zufallsprozesse nennt die Vorlesung?",
+         "richtig": [
+          "Würfeln mit einem 6-seitigen Würfel",
+          "Werfen einer Münze",
+          "Ziehen eines Loses",
+          "Drehen eines Glücksrads mit 4 Farben"
+         ],
+         "falsch": [
+          "eine gerade Zahl würfeln",
+          "Werfen einer Münze mit zwei Kopf-Seiten",
+          "Kopf liegt oben"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
         }
        ]
       }
@@ -1059,6 +1134,22 @@
           "Ergebnis ist vorher bekannt"
          ],
          "musterloesung": "Es gibt nur ein mögliches Ergebnis (Kopf). Ein Zufallsprozess braucht aber mindestens zwei verschiedene Ergebnisse, und das Resultat darf vorher nicht feststehen."
+        },
+        {
+         "id": "stat2-s1-B1c-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "„Eine gerade Zahl würfeln“ ist kein Zufallsprozess, sondern ein mögliches {}. Der Zufallsprozess ist das {}.",
+         "luecken": [
+          [
+           "Ergebnis",
+           "Zufallsereignis",
+           "Ereignis"
+          ],
+          [
+           "Würfeln"
+          ]
+         ]
         }
        ]
       }
@@ -1126,6 +1217,23 @@
           "Ergebnis vorher bekannt",
           "nur einmal durchführbar"
          ]
+        },
+        {
+         "id": "stat2-s1-B2-w1-a5",
+         "typ": "multi",
+         "frage": "Ziehen eines Zettels (Kartenspiel, Würfel, Murmel) aus einer Urne, mit Zurücklegen. Welche Kriterien eines Zufallsprozesses sind erfüllt?",
+         "richtig": [
+          "beliebig oft wiederholbar",
+          "feste Regeln",
+          "mindestens zwei mögliche Ergebnisse",
+          "Ergebnis nicht vorhersagbar"
+         ],
+         "falsch": [
+          "nur ein mögliches Ergebnis",
+          "Ergebnis steht vorher fest"
+         ],
+         "anzahlRichtig": 3,
+         "anzahlFalsch": 2
         }
        ]
       }
@@ -1292,6 +1400,17 @@
           "Element"
          ],
          "musterloesung": "„a ist Element von A“."
+        },
+        {
+         "id": "stat2-s1-C1-w2-a5",
+         "typ": "kurzfrage",
+         "frage": "Schreibe in Zeichen: „a ist Element von A“.",
+         "akzeptiert": [
+          "a ∈ A",
+          "a Element von A",
+          "a ist Element von A"
+         ],
+         "musterloesung": "a ∈ A"
         }
        ]
       }
@@ -1390,7 +1509,8 @@
          "akzeptiert": [
           "8"
          ],
-         "musterloesung": "2³ = **8** Teilmengen."
+         "musterloesung": "2³ = **8** Teilmengen.",
+         "schwere": 2
         },
         {
          "id": "stat2-s1-C2-w2-a2",
@@ -1399,7 +1519,8 @@
          "akzeptiert": [
           "4"
          ],
-         "musterloesung": "2² = **4**: {Kopf, Zahl}, {Kopf}, {Zahl}, { }."
+         "musterloesung": "2² = **4**: {Kopf, Zahl}, {Kopf}, {Zahl}, { }.",
+         "schwere": 2
         },
         {
          "id": "stat2-s1-C2-w2-a3",
@@ -1408,7 +1529,8 @@
          "akzeptiert": [
           "64"
          ],
-         "musterloesung": "2⁶ = **64** Teilmengen."
+         "musterloesung": "2⁶ = **64** Teilmengen.",
+         "schwere": 2
         },
         {
          "id": "stat2-s1-C2-w2-a4",
@@ -1542,6 +1664,16 @@
            "beide"
           ]
          ]
+        },
+        {
+         "id": "stat2-s1-C3-w1-a5",
+         "typ": "kurzfrage",
+         "frage": "A = {rot, gelb, blau}, B = {gelb, grün}. Gib A ∩ B an.",
+         "akzeptiert": [
+          "{gelb}",
+          "gelb"
+         ],
+         "musterloesung": "A ∩ B = {gelb}"
         }
        ]
       },
@@ -1704,6 +1836,31 @@
            "rechts": "leere Menge"
           }
          ]
+        },
+        {
+         "id": "stat2-s1-C4-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Vereinigungsmenge enthält alle Elemente, die in {} einer der beiden Mengen enthalten sind. Gemeinsame Elemente tauchen nur {} auf.",
+         "luecken": [
+          [
+           "mindestens"
+          ],
+          [
+           "einmal"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s1-C4-w1-a6",
+         "typ": "kurzfrage",
+         "frage": "A = {1, 3}, B = {3, 5, 7}. Gib A ∪ B an.",
+         "akzeptiert": [
+          "{1, 3, 5, 7}",
+          "1, 3, 5, 7",
+          "1 3 5 7"
+         ],
+         "musterloesung": "A ∪ B = {1, 3, 5, 7} – die 3 nur einmal."
         }
        ]
       }
@@ -1737,7 +1894,8 @@
          "akzeptiert": [
           "4"
          ],
-         "musterloesung": "n(A) = **4** (vier Elemente)."
+         "musterloesung": "n(A) = **4** (vier Elemente).",
+         "schwere": 2
         },
         {
          "id": "stat2-s1-C5-w1-a3",
@@ -1746,7 +1904,8 @@
          "akzeptiert": [
           "5"
          ],
-         "musterloesung": "A ∪ B = {a, b, c, d, e} → n = **5**."
+         "musterloesung": "A ∪ B = {a, b, c, d, e} → n = **5**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s1-C5-w1-a4",
@@ -1847,6 +2006,17 @@
            "Minimum"
           ]
          ]
+        },
+        {
+         "id": "stat2-s1-C5-w2-a6",
+         "typ": "offen",
+         "frage": "n(A) = 5 und n(B) = 3. In welchen Bereichen können n(A ∩ B) und n(A ∪ B) liegen? Begründe mit den Regeln.",
+         "kernpunkte": [
+          "0 ≤ n(A ∩ B) ≤ min(5, 3) = 3",
+          "min(5, 3) = 3 ≤ n(A ∪ B) ≤ 5 + 3 = 8",
+          "obere Grenze bei disjunkten Mengen"
+         ],
+         "musterloesung": "0 ≤ n(A ∩ B) ≤ min(5, 3) = 3 und 3 ≤ n(A ∪ B) ≤ 5 + 3 = 8. Die obere Grenze 8 wird erreicht, wenn A und B disjunkt sind."
         }
        ]
       },
@@ -1997,6 +2167,21 @@
            "richtig": false,
            "begruendung": "Nein: höchstens min(n(A), n(B))."
           }
+         ]
+        },
+        {
+         "id": "stat2-s1-C5-w3-a5",
+         "typ": "multi",
+         "frage": "A = {1, 2, 3}, B = {3, 4}. Welche Aussagen stimmen?",
+         "richtig": [
+          "A ∩ B = {3}",
+          "n(A ∪ B) = 4",
+          "A und B sind nicht disjunkt"
+         ],
+         "falsch": [
+          "n(A ∩ B) = 0",
+          "A ∪ B = {1, 2, 3, 3, 4}",
+          "n(A ∪ B) = 5"
          ]
         }
        ]
@@ -2163,6 +2348,17 @@
            "text": "bezeichnet, ein einzelnes Ergebnis mit ωᵢ."
           }
          ]
+        },
+        {
+         "id": "stat2-s1-D1-w2-a5",
+         "typ": "offen",
+         "frage": "Erkläre den Unterschied zwischen Ω und ω an einem Beispiel.",
+         "kernpunkte": [
+          "Ω: Menge aller möglichen Ergebnisse (Ergebnismenge)",
+          "ω bzw. ωᵢ: ein einzelnes Ergebnis",
+          "Beispiel, z. B. Würfel Ω = {1, …, 6}, ω = 4"
+         ],
+         "musterloesung": "Ω (Groß-Omega) ist die Ergebnismenge, also die Menge aller möglichen Ergebnisse, z. B. Ω = {1, 2, 3, 4, 5, 6} beim Würfel. ω bzw. ωᵢ (Klein-Omega) ist ein einzelnes Ergebnis, z. B. ω = 4."
         }
        ]
       }
@@ -2238,6 +2434,23 @@
           "Ω = {Kartenspiel, Würfel, Murmel}"
          ],
          "musterloesung": "Ω = {Kartenspiel, Würfel, Murmel}"
+        },
+        {
+         "id": "stat2-s1-D2-w1-a5",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Würfel: Ω = {1, 2, 3, 4, 5, {}}. Münze: Ω = {Kopf, {}}. Glücksrad mit 4 Farben: Ω = {rot, gelb, grün, {}}.",
+         "luecken": [
+          [
+           "6"
+          ],
+          [
+           "Zahl"
+          ],
+          [
+           "blau"
+          ]
+         ]
         }
        ]
       }
@@ -2276,7 +2489,8 @@
          "akzeptiert": [
           "8"
          ],
-         "musterloesung": "2³ = **8**."
+         "musterloesung": "2³ = **8**.",
+         "schwere": 2
         },
         {
          "id": "stat2-s1-D3-w1-a3",
@@ -2695,6 +2909,7 @@
      "32"
     ],
     "musterloesung": "2⁵ = **32**.",
+    "schwere": 2,
     "wissen": [
      "stat2-s1-C2-w2"
     ]
