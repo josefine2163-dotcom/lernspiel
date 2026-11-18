@@ -1,0 +1,2740 @@
+{
+ "format": 1,
+ "id": "stat2-s2",
+ "fach": "Statistik 2",
+ "titel": "Zufallsereignisse und Wahrscheinlichkeit: Kolmogorov-Axiome, relative Häufigkeit",
+ "kurztitel": "Sitzung 2",
+ "quelle": [
+  "Statistik 2/S2_Sitzung02_Wahrscheinlichkeit.md"
+ ],
+ "verarbeitet": "2026-11-18",
+ "sprache": "de",
+ "welten": [
+  {
+   "id": "stat2-s2-A",
+   "titel": "Zufallsereignisse",
+   "farbe": 200,
+   "level": [
+    {
+     "id": "stat2-s2-A1",
+     "titel": "Zufallsereignis",
+     "wissen": [
+      {
+       "id": "stat2-s2-A1-w1",
+       "titel": "Definition Zufallsereignis",
+       "merke": "**Jede Teilmenge der Ergebnismenge** eines Zufallsprozesses (A ⊂ Ω) ist ein **Zufallsereignis**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-A1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was ist ein Zufallsereignis?",
+          "Wie ist ein Zufallsereignis definiert?"
+         ],
+         "richtig": [
+          "jede Teilmenge der Ergebnismenge (A ⊂ Ω)"
+         ],
+         "falsch": [
+          "nur ein einzelnes Ergebnis ω",
+          "die Ergebnismenge selbst und nichts sonst",
+          "eine Zahl zwischen 0 und 1"
+         ]
+        },
+        {
+         "id": "stat2-s2-A1-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Jede {} der {} eines Zufallsprozesses ist ein Zufallsereignis.",
+         "luecken": [
+          [
+           "Teilmenge"
+          ],
+          [
+           "Ergebnismenge"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-A1-w1-a3",
+         "typ": "zuordnung",
+         "frage": "Ordne jedem sprachlichen Zufallsereignis die Menge zu.",
+         "paare": [
+          {
+           "links": "Würfeln: Eine gerade Zahl fällt",
+           "rechts": "{2, 4, 6}"
+          },
+          {
+           "links": "Münze: Zahl liegt oben",
+           "rechts": "{Zahl}"
+          },
+          {
+           "links": "Glücksrad (4 Farben): eine „Ampel“-Farbe",
+           "rechts": "{rot, gelb, grün}"
+          },
+          {
+           "links": "Glücksrad (4 Farben): ein rotes Feld",
+           "rechts": "{rot}"
+          },
+          {
+           "links": "Würfeln: Augenzahl größer als 4",
+           "rechts": "{5, 6}"
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-A1-w1-a4",
+         "typ": "definition",
+         "frage": "Definiere den Begriff Zufallsereignis.",
+         "kernpunkte": [
+          "Teilmenge",
+          "der Ergebnismenge Ω",
+          "eines Zufallsprozesses (A ⊂ Ω)"
+         ],
+         "musterloesung": "Jede Teilmenge der Ergebnismenge eines Zufallsprozesses ist ein Zufallsereignis: Wenn A ⊂ Ω, dann ist A ein Zufallsereignis."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-A1b",
+     "titel": "Elementarereignis",
+     "wissen": [
+      {
+       "id": "stat2-s2-A1b-w1",
+       "titel": "Definition Elementarereignis",
+       "merke": "Ein Zufallsereignis mit **nur einem Element** heißt **Elementarereignis**, z. B. {Zahl} beim Münzwurf oder {rot} beim Glücksrad.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-A1b-w1-a1",
+         "typ": "begriff",
+         "fragen": [
+          "Wie heißt ein Zufallsereignis mit nur einem Element?",
+          "{rot} ist ein Zufallsereignis mit genau einem Element. Fachbegriff?"
+         ],
+         "akzeptiert": [
+          "Elementarereignis"
+         ],
+         "musterloesung": "**Elementarereignis**."
+        },
+        {
+         "id": "stat2-s2-A1b-w1-a2",
+         "typ": "beispiel",
+         "frage": "Elementarereignis oder nicht?",
+         "kategorien": [
+          "Elementarereignis",
+          "kein Elementarereignis"
+         ],
+         "items": [
+          {
+           "text": "{Zahl}",
+           "kategorie": 0
+          },
+          {
+           "text": "{rot}",
+           "kategorie": 0
+          },
+          {
+           "text": "{2, 4, 6}",
+           "kategorie": 1
+          },
+          {
+           "text": "{5, 6}",
+           "kategorie": 1
+          },
+          {
+           "text": "{rot, gelb, grün}",
+           "kategorie": 1
+          },
+          {
+           "text": "{6}",
+           "kategorie": 0
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-A1b-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "{rot} ist ein Elementarereignis.",
+           "richtig": true,
+           "begruendung": "Richtig: einelementige Teilmenge."
+          },
+          {
+           "text": "„Augenzahl größer als 4“ = {5, 6} ist ein Elementarereignis.",
+           "richtig": false,
+           "begruendung": "Nein: zwei Elemente."
+          },
+          {
+           "text": "Jedes Elementarereignis ist auch ein Zufallsereignis.",
+           "richtig": true,
+           "begruendung": "Ja: Es ist eine (einelementige) Teilmenge von Ω."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-A1b-w1-a4",
+         "typ": "definition",
+         "frage": "Was ist ein Elementarereignis? Nenne ein Beispiel.",
+         "kernpunkte": [
+          "Zufallsereignis",
+          "mit nur einem Element (einelementige Teilmenge)",
+          "Beispiel, z. B. {rot}"
+         ],
+         "musterloesung": "Ein Zufallsereignis, das nur ein Element enthält (einelementige Teilmenge von Ω). Beispiel: Es wird das rote Feld gedreht → {rot}."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-A2",
+     "titel": "Element oder Menge?",
+     "wissen": [
+      {
+       "id": "stat2-s2-A2-w1",
+       "titel": "rot vs. {rot}",
+       "merke": "**rot** ist ein **Element** = ein **Ergebnis** des Zufallsprozesses. **{rot}** ist eine **einelementige Menge** = ein **Zufallsereignis** (genauer: Elementarereignis).",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-A2-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "rot",
+           "rechts": "Element / Ergebnis"
+          },
+          {
+           "links": "{rot}",
+           "rechts": "einelementige Menge / Elementarereignis"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s2-A2-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Was ist {rot}?",
+          "{rot} ist …"
+         ],
+         "richtig": [
+          "eine einelementige Menge, also ein Elementarereignis"
+         ],
+         "falsch": [
+          "ein Element",
+          "ein Ergebnis ω",
+          "die Ergebnismenge"
+         ]
+        },
+        {
+         "id": "stat2-s2-A2-w1-a3",
+         "typ": "single",
+         "frage": "Was ist „rot“ (ohne Klammern)?",
+         "richtig": [
+          "ein Element, also ein Ergebnis des Zufallsprozesses"
+         ],
+         "falsch": [
+          "ein Elementarereignis",
+          "ein Zufallsereignis",
+          "eine Teilmenge"
+         ]
+        },
+        {
+         "id": "stat2-s2-A2-w1-a4",
+         "typ": "offen",
+         "frage": "Erkläre den Unterschied zwischen rot und {rot}.",
+         "kernpunkte": [
+          "rot: Element / Ergebnis",
+          "{rot}: einelementige Menge",
+          "{rot} ist ein Zufallsereignis (Elementarereignis)"
+         ],
+         "musterloesung": "rot ist ein Element, also ein Ergebnis des Zufallsprozesses. {rot} ist eine einelementige Menge und damit ein Zufallsereignis, genauer ein Elementarereignis."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-A3",
+     "titel": "Sicher und unmöglich",
+     "wissen": [
+      {
+       "id": "stat2-s2-A3-w1",
+       "titel": "Sicheres Ereignis",
+       "merke": "Das **sichere Ereignis** ist die Ergebnismenge **Ω** selbst, z. B. {rot, gelb, grün, blau} beim Glücksrad: Irgendeines der Ergebnisse tritt sicher ein. P(Ω) = 1.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-A3-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Welches Ereignis ist das sichere Ereignis?",
+          "Ω = {rot, gelb, grün, blau}. Welches ist das sichere Ereignis?"
+         ],
+         "richtig": [
+          "die Ergebnismenge Ω selbst"
+         ],
+         "falsch": [
+          "die leere Menge { }",
+          "jedes Elementarereignis",
+          "{rot}"
+         ]
+        },
+        {
+         "id": "stat2-s2-A3-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Das sichere Ereignis hat die Wahrscheinlichkeit 1.",
+           "richtig": true,
+           "begruendung": "Ja: P(Ω) = 1."
+          },
+          {
+           "text": "Bei der Urne mit rot, gelb, blau, grün ist Ω das einzige sichere Ereignis.",
+           "richtig": true,
+           "begruendung": "Ja (Übungszettel 2)."
+          },
+          {
+           "text": "Das sichere Ereignis ist ein Elementarereignis.",
+           "richtig": false,
+           "begruendung": "Nein: Es ist Ω mit allen Ergebnissen."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-A3-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Urne mit 4 Kugeln (rot, gelb, blau, grün), Ziehen mit Zurücklegen. Gib das sichere Ereignis an.",
+         "akzeptiert": [
+          "{rot, gelb, blau, grün}",
+          "rot, gelb, blau, grün",
+          "Ω",
+          "Omega",
+          "rot gelb blau grün"
+         ],
+         "musterloesung": "Ω = {rot, blau, grün, gelb} – das einzige sichere Ereignis."
+        },
+        {
+         "id": "stat2-s2-A3-w1-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Das sichere Ereignis ist {}; ihm wird die Wahrscheinlichkeit {} zugeordnet.",
+         "luecken": [
+          [
+           "Omega",
+           "Ω",
+           "die Ergebnismenge",
+           "Ergebnismenge"
+          ],
+          [
+           "1",
+           "eins"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "id": "stat2-s2-A3-w2",
+       "titel": "Unmögliches Ereignis",
+       "merke": "Das **unmögliche Ereignis** ist die **leere Menge { }**: z. B. „das Feld hat keine der vier Farben“. P({ }) = 0.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-A3-w2-a1",
+         "typ": "single",
+         "fragen": [
+          "Welche Menge ist das unmögliche Ereignis?",
+          "Wie schreibt man das unmögliche Ereignis?"
+         ],
+         "richtig": [
+          "die leere Menge { }"
+         ],
+         "falsch": [
+          "Ω",
+          "{0}",
+          "{rot}"
+         ]
+        },
+        {
+         "id": "stat2-s2-A3-w2-a2",
+         "typ": "beispiel",
+         "frage": "Sicher, unmöglich oder Elementarereignis? (Ω = {rot, gelb, grün, blau})",
+         "kategorien": [
+          "sicheres Ereignis",
+          "unmögliches Ereignis",
+          "Elementarereignis"
+         ],
+         "items": [
+          {
+           "text": "{rot, gelb, grün, blau}",
+           "kategorie": 0
+          },
+          {
+           "text": "{ }",
+           "kategorie": 1
+          },
+          {
+           "text": "{rot}",
+           "kategorie": 2
+          },
+          {
+           "text": "„Feld hat keine der vier Farben“",
+           "kategorie": 1
+          },
+          {
+           "text": "„Feld ist rot oder gelb oder grün oder blau“",
+           "kategorie": 0
+          },
+          {
+           "text": "{blau}",
+           "kategorie": 2
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-A3-w2-a3",
+         "typ": "kurzfrage",
+         "frage": "Welche Wahrscheinlichkeit hat das unmögliche Ereignis?",
+         "akzeptiert": [
+          "0"
+         ],
+         "musterloesung": "P({ }) = **0**."
+        },
+        {
+         "id": "stat2-s2-A3-w2-a4",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Dem unmöglichen Ereignis wird der Wert 0 zugewiesen.",
+           "richtig": true,
+           "begruendung": "Ja (Axiom 1: unmögliches Ereignis → 0)."
+          },
+          {
+           "text": "Das unmögliche Ereignis ist keine Teilmenge von Ω.",
+           "richtig": false,
+           "begruendung": "Doch: Die leere Menge ist Teilmenge jeder Menge, also auch ein Zufallsereignis."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-A4",
+     "titel": "ODER und NICHT",
+     "wissen": [
+      {
+       "id": "stat2-s2-A4-w1",
+       "titel": "Komma = ODER, Gegenereignis",
+       "merke": "Das **Komma** in einer Ereignismenge bedeutet **ODER**: {gelb, blau} = „gelb **oder** blau“. „**nicht** grün“ sind alle anderen Ergebnisse: {rot, gelb, blau} (**Gegenereignis**).",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-A4-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Ω = {rot, gelb, blau, grün}. Welches Ereignis beschreibt „nicht grün“?"
+         ],
+         "optionen": [
+          "{rot, gelb, blau}",
+          "{grün}",
+          "{ }",
+          "Ω"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-A4-w1-a2",
+         "typ": "single",
+         "frage": "Ω = {rot, gelb, blau, grün}. Wie schreibt man „gelb oder blau wird gezogen“?",
+         "optionen": [
+          "{gelb, blau}",
+          "{gelb} und {blau} getrennt",
+          "{gelb ∩ blau}",
+          "{rot, grün}"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-A4-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Ω = {rot, gelb, blau, grün}. Gib das Ereignis „grün wird nicht gezogen“ als Menge an.",
+         "akzeptiert": [
+          "{rot, gelb, blau}",
+          "rot, gelb, blau",
+          "rot gelb blau",
+          "{rot, blau, gelb}",
+          "rot, blau, gelb",
+          "gelb, blau, rot"
+         ],
+         "musterloesung": "A = {rot, gelb, blau}"
+        },
+        {
+         "id": "stat2-s2-A4-w1-a4",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Das Komma in {gelb, blau} bedeutet {}. Alle Ergebnisse außer grün bilden das {} von {grün}.",
+         "luecken": [
+          [
+           "oder"
+          ],
+          [
+           "Gegenereignis"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-A4-w1-a5",
+         "typ": "begriff",
+         "frage": "Wie heißt das Ereignis „nicht A“, also alle Ergebnisse, die nicht in A liegen?",
+         "akzeptiert": [
+          "Gegenereignis"
+         ],
+         "musterloesung": "Das **Gegenereignis**."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-A-mix1",
+     "titel": "Mix: Zufallsereignisse",
+     "mix": [
+      "stat2-s2-A1",
+      "stat2-s2-A1b",
+      "stat2-s2-A2",
+      "stat2-s2-A3",
+      "stat2-s2-A4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s2-B",
+   "titel": "Wahrscheinlichkeit und Wahrscheinlichkeitsmaß",
+   "farbe": 260,
+   "level": [
+    {
+     "id": "stat2-s2-B1",
+     "titel": "Was ist Wahrscheinlichkeit?",
+     "wissen": [
+      {
+       "id": "stat2-s2-B1-w1",
+       "titel": "Definition Wahrscheinlichkeit",
+       "merke": "Die **Wahrscheinlichkeit** ist ein **Wert zwischen 0 und 1**, der die **Sicherheit quantifiziert**, mit der ein Zufallsereignis **eintreten wird**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-B1-w1-a1",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Wahrscheinlichkeit ist ein Wert zwischen {} und {}, der die {} quantifiziert, mit der ein Zufallsereignis {} wird.",
+         "luecken": [
+          [
+           "0",
+           "null"
+          ],
+          [
+           "1",
+           "eins"
+          ],
+          [
+           "Sicherheit"
+          ],
+          [
+           "eintreten"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-B1-w1-a2",
+         "typ": "single",
+         "fragen": [
+          "Was quantifiziert die Wahrscheinlichkeit?",
+          "Wahrscheinlichkeit ist ein Wert zwischen 0 und 1, der …"
+         ],
+         "richtig": [
+          "die Sicherheit, mit der ein Zufallsereignis eintreten wird"
+         ],
+         "falsch": [
+          "wie oft ein Zufallsereignis eingetreten ist",
+          "die Anzahl der Elemente eines Ereignisses",
+          "den Mittelwert einer Stichprobe"
+         ]
+        },
+        {
+         "id": "stat2-s2-B1-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Wahrscheinlichkeit beschreibt, wie oft ein Zufallsereignis eingetreten ist.",
+           "richtig": false,
+           "begruendung": "Falsch: Sie quantifiziert die Sicherheit, mit der es **eintreten wird**. „Wie oft eingetreten“ ist die relative Häufigkeit."
+          },
+          {
+           "text": "Wahrscheinlichkeiten liegen immer zwischen 0 und 1.",
+           "richtig": true,
+           "begruendung": "Ja: 0 ≤ P(A) ≤ 1."
+          },
+          {
+           "text": "Eine Wahrscheinlichkeit von 1,2 ist möglich.",
+           "richtig": false,
+           "begruendung": "Nein: höchstens 1."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-B1-w1-a4",
+         "typ": "definition",
+         "frage": "Definiere den mathematischen Wahrscheinlichkeitsbegriff.",
+         "kernpunkte": [
+          "Wert zwischen 0 und 1",
+          "quantifiziert die Sicherheit",
+          "mit der ein Zufallsereignis eintreten wird"
+         ],
+         "musterloesung": "Die Wahrscheinlichkeit ist ein Wert zwischen 0 und 1, der die Sicherheit quantifiziert, mit der ein Zufallsereignis eintreten wird."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-B2",
+     "titel": "Wahrscheinlichkeitsmaß",
+     "wissen": [
+      {
+       "id": "stat2-s2-B2-w1",
+       "titel": "Wahrscheinlichkeitsmaß P",
+       "merke": "Ein **Wahrscheinlichkeitsmaß P** (*probability*) ist eine **Zuordnungsvorschrift**, die **Zufallsereignissen nach eindeutigen Regeln Zahlen zwischen 0 und 1** zuordnet. Notation: **P(A)**, lies „P von A“.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-B2-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was ist ein Wahrscheinlichkeitsmaß?",
+          "Ein Wahrscheinlichkeitsmaß P ist …"
+         ],
+         "richtig": [
+          "eine Zuordnungsvorschrift, die Zufallsereignissen nach eindeutigen Regeln Zahlen zwischen 0 und 1 zuordnet"
+         ],
+         "falsch": [
+          "eine Zuordnungsvorschrift, die Zufallsereignissen beliebige Zahlen zuordnet",
+          "die relative Häufigkeit in einer Stichprobe",
+          "die Menge aller Ergebnisse"
+         ]
+        },
+        {
+         "id": "stat2-s2-B2-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Ein Wahrscheinlichkeitsmaß ordnet Zufallsereignissen nach festen Regeln eine beliebige Zahl zu.",
+           "richtig": false,
+           "begruendung": "Falsch: eine Zahl **zwischen 0 und 1**."
+          },
+          {
+           "text": "Das P in P(A) steht für *probability*.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Ein Wahrscheinlichkeitsmaß ordnet Zufallsereignissen (Teilmengen von Ω) Werte zu.",
+           "richtig": true,
+           "begruendung": "Ja: jeder Teilmenge A aus Ω."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-B2-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Ein Wahrscheinlichkeitsmaß ist eine {}, die {} nach eindeutigen Regeln Zahlen zwischen 0 und 1 zuordnet.",
+         "luecken": [
+          [
+           "Zuordnungsvorschrift",
+           "Zuordnungsregel"
+          ],
+          [
+           "Zufallsereignissen",
+           "Zufallsereignisse",
+           "Ereignissen"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-B2-w1-a4",
+         "typ": "definition",
+         "frage": "Was ist ein Wahrscheinlichkeitsmaß?",
+         "kernpunkte": [
+          "Zuordnungsvorschrift",
+          "ordnet Zufallsereignissen Zahlen zu",
+          "nach eindeutigen Regeln",
+          "Zahlen zwischen 0 und 1"
+         ],
+         "musterloesung": "Ein Wahrscheinlichkeitsmaß P ist eine Zuordnungsvorschrift, die Zufallsereignissen nach eindeutigen Regeln Zahlen zwischen 0 und 1 zuordnet (Notation P(A))."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-B2b",
+     "titel": "Eine Vorschrift anwenden",
+     "wissen": [
+      {
+       "id": "stat2-s2-B2b-w1",
+       "titel": "Beispiel P(A) = n(A)/3",
+       "merke": "Glücksrad mit 3 gleich großen Feldern (R, B, G), Vorschrift **P(A) = n(A)/3**: {R, B, G} → 1; zweielementige Ereignisse → 2/3; Elementarereignisse → 1/3; { } → 0.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-B2b-w1-a1",
+         "typ": "tabelle",
+         "frage": "Wende die Vorschrift P(A) = n(A)/3 an (Glücksrad R, B, G).",
+         "kopf": [
+          "Zufallsereignis A",
+          "n(A)",
+          "P(A)"
+         ],
+         "zeilen": [
+          [
+           "{R, B, G}",
+           {
+            "akzeptiert": [
+             "3"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1",
+             "3/3"
+            ]
+           }
+          ],
+          [
+           "{R, B}",
+           {
+            "akzeptiert": [
+             "2"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "2/3",
+             "0,67",
+             "0,667",
+             "0,6"
+            ]
+           }
+          ],
+          [
+           "{G}",
+           {
+            "akzeptiert": [
+             "1"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "1/3",
+             "0,33",
+             "0,333",
+             "0,3"
+            ]
+           }
+          ],
+          [
+           "{ }",
+           {
+            "akzeptiert": [
+             "0"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "0",
+             "0/3"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s2-B2b-w1-a2",
+         "typ": "single",
+         "frage": "Glücksrad R, B, G mit P(A) = n(A)/3. Welcher Wert gehört zu {R, G}?",
+         "optionen": [
+          "2/3",
+          "1/3",
+          "1",
+          "0"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-B2b-w1-a3",
+         "typ": "single",
+         "frage": "Glücksrad R, B, G mit P(A) = n(A)/3. Welcher Wert gehört zu { }?",
+         "optionen": [
+          "0",
+          "1/3",
+          "1",
+          "nicht definiert"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-B2b-w1-a4",
+         "typ": "offen",
+         "frage": "Beschreibe die Zuordnungsvorschrift P(A) = n(A)/3 in Worten.",
+         "kernpunkte": [
+          "jedem Zufallsereignis A",
+          "wird die Zahl n(A)/3 zugewiesen",
+          "n(A) = Anzahl der Elemente von A"
+         ],
+         "musterloesung": "Jedem Zufallsereignis A wird die Zahl n(A)/3 zugewiesen, also die Anzahl seiner Elemente geteilt durch 3."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-B-mix1",
+     "titel": "Mix: Wahrscheinlichkeit",
+     "mix": [
+      "stat2-s2-B1",
+      "stat2-s2-B2",
+      "stat2-s2-B2b"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s2-C",
+   "titel": "Die Axiome von Kolmogorov",
+   "farbe": 20,
+   "level": [
+    {
+     "id": "stat2-s2-C1",
+     "titel": "Wer und wozu?",
+     "wissen": [
+      {
+       "id": "stat2-s2-C1-w1",
+       "titel": "Kolmogorov und der Zweck der Axiome",
+       "merke": "**Andrej N. Kolmogorov (1903–1987)** formulierte **drei Axiome**, die erfüllt sein müssen, damit eine Funktion ein **Wahrscheinlichkeitsmaß** ist. Sie dienen zum **Prüfen**, geben aber **keine Regel**, wie man Wahrscheinlichkeiten **berechnet**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Wofür sind die Axiome von Kolmogorov da?",
+          "Was leisten die Kolmogorov-Axiome?"
+         ],
+         "richtig": [
+          "zu entscheiden, ob eine Zuordnungsvorschrift ein Wahrscheinlichkeitsmaß ist"
+         ],
+         "falsch": [
+          "zu berechnen, wie wahrscheinlich ein Ereignis ist",
+          "die relative Häufigkeit zu bestimmen",
+          "Stichproben zu ziehen"
+         ]
+        },
+        {
+         "id": "stat2-s2-C1-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Axiome von Kolmogorov geben eine Regel an, wie man Wahrscheinlichkeiten berechnet.",
+           "richtig": false,
+           "begruendung": "Falsch: Sie dienen nur zur Entscheidung, ob eine Vorschrift ein Wahrscheinlichkeitsmaß ist."
+          },
+          {
+           "text": "Kolmogorov hat drei Axiome formuliert.",
+           "richtig": true,
+           "begruendung": "Ja: Positivität, Normiertheit, Additivität."
+          },
+          {
+           "text": "Die Axiome sind Bedingungen, die ein Wahrscheinlichkeitsmaß erfüllen muss.",
+           "richtig": true,
+           "begruendung": "Ja."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C1-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Axiome nach Kolmogorov stellen {} dar, die erfüllt sein müssen, damit eine Funktion ein {} darstellt.",
+         "luecken": [
+          [
+           "Bedingungen"
+          ],
+          [
+           "Wahrscheinlichkeitsmaß"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-C1-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Wie viele Axiome hat Kolmogorov formuliert?",
+         "akzeptiert": [
+          "3",
+          "drei"
+         ],
+         "musterloesung": "**Drei**: Positivität, Normiertheit, Additivität."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C2",
+     "titel": "Axiom 1: Positivität",
+     "wissen": [
+      {
+       "id": "stat2-s2-C2-w1",
+       "titel": "Positivität",
+       "merke": "**Axiom 1 (Positivität): P(A) ≥ 0 für alle A ⊂ Ω.** Es gibt **keine negativen Wahrscheinlichkeiten**; das unmögliche Ereignis bekommt 0, sonst ein positiver Wert.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C2-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was besagt Axiom 1 (Positivität)?",
+          "Welche Formel gehört zur Positivität?"
+         ],
+         "richtig": [
+          "P(A) ≥ 0 für alle A ⊂ Ω"
+         ],
+         "falsch": [
+          "P(Ω) = 1",
+          "P(A₁ ∪ A₂) = P(A₁) + P(A₂)",
+          "P(A) ≤ 0"
+         ]
+        },
+        {
+         "id": "stat2-s2-C2-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Das erste Axiom besagt, dass es keine {} Wahrscheinlichkeiten gibt. Einem unmöglichen Ereignis wird der Wert {} zugewiesen, sonst ein {} Wert.",
+         "luecken": [
+          [
+           "negativen",
+           "negative"
+          ],
+          [
+           "Null",
+           "0"
+          ],
+          [
+           "positiver",
+           "positiven"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-C2-w1-a3",
+         "typ": "begriff",
+         "frage": "Wie heißt das Axiom P(A) ≥ 0?",
+         "akzeptiert": [
+          "Positivität",
+          "Positivitaet"
+         ],
+         "musterloesung": "**Positivität** (Axiom 1)."
+        },
+        {
+         "id": "stat2-s2-C2-w1-a4",
+         "typ": "richtigfalsch",
+         "frage": "Ist die Positivität erfüllt?",
+         "aussagen": [
+          {
+           "text": "Q({a}) = 0,7, Q({b}) = 0,4",
+           "richtig": true,
+           "begruendung": "Ja: beide Werte ≥ 0."
+          },
+          {
+           "text": "R({a}) = −0,2, R({b}) = 1,2",
+           "richtig": false,
+           "begruendung": "Nein: −0,2 ist negativ."
+          },
+          {
+           "text": "B(A) = 1/(n(A) + 1)",
+           "richtig": true,
+           "begruendung": "Ja: n(A) + 1 ≥ 1 > 0, also B(A) > 0."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C3",
+     "titel": "Axiom 2: Normiertheit",
+     "wissen": [
+      {
+       "id": "stat2-s2-C3-w1",
+       "titel": "Normiertheit",
+       "merke": "**Axiom 2 (Normiertheit): P(Ω) = 1.** P(Ω) ist die Wahrscheinlichkeit, dass **irgendeines** der möglichen Ergebnisse eintritt; dieser Wert wird auf **1** festgesetzt.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C3-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was besagt Axiom 2 (Normiertheit)?",
+          "Welche Formel gehört zur Normiertheit?"
+         ],
+         "richtig": [
+          "P(Ω) = 1"
+         ],
+         "falsch": [
+          "P(A) ≥ 0",
+          "P({ }) = 1",
+          "P(A₁ ∪ A₂) = P(A₁) + P(A₂)"
+         ]
+        },
+        {
+         "id": "stat2-s2-C3-w1-a2",
+         "typ": "single",
+         "frage": "Welches Axiom ist verletzt, wenn P(Ω) = 0,9?",
+         "optionen": [
+          "Normiertheit",
+          "Positivität",
+          "Additivität",
+          "keines"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-C3-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Im zweiten Axiom geht es um P(Ω), also die Wahrscheinlichkeit, dass {} der möglichen Ergebnisse eintritt. Diese Wahrscheinlichkeit ist {}.",
+         "luecken": [
+          [
+           "irgendeines",
+           "irgendeins",
+           "eines"
+          ],
+          [
+           "1",
+           "eins"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-C3-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Glücksrad R, B, G. Vorschrift B(A) = 1/(n(A) + 1). Welchen Wert bekommt B(Ω)? (als Bruch oder Dezimalzahl)",
+         "akzeptiert": [
+          "1/4",
+          "0,25",
+          "0.25"
+         ],
+         "musterloesung": "B(Ω) = 1/(3 + 1) = **1/4** ≠ 1 → Normiertheit verletzt."
+        },
+        {
+         "id": "stat2-s2-C3-w1-a5",
+         "typ": "begriff",
+         "frage": "Wie heißt das Axiom P(Ω) = 1?",
+         "akzeptiert": [
+          "Normiertheit",
+          "Normierung"
+         ],
+         "musterloesung": "**Normiertheit** (Axiom 2)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C4",
+     "titel": "Axiom 3: Additivität",
+     "wissen": [
+      {
+       "id": "stat2-s2-C4-w1",
+       "titel": "Additivität",
+       "merke": "**Axiom 3 (Additivität): P(A₁ ∪ A₂) = P(A₁) + P(A₂), wenn A₁ ∩ A₂ = { }.** Für zwei **disjunkte** (überschneidungsfreie) Ereignisse ist die Wahrscheinlichkeit der Vereinigung die **Summe** der Einzelwahrscheinlichkeiten.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C4-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was besagt Axiom 3 (Additivität)?",
+          "Welche Formel gehört zur Additivität?"
+         ],
+         "richtig": [
+          "P(A₁ ∪ A₂) = P(A₁) + P(A₂), wenn A₁ ∩ A₂ = { }"
+         ],
+         "falsch": [
+          "P(A₁ ∪ A₂) = P(A₁) + P(A₂) für alle Ereignisse",
+          "P(A₁ ∩ A₂) = P(A₁) · P(A₂)",
+          "P(Ω) = 1"
+         ]
+        },
+        {
+         "id": "stat2-s2-C4-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Das dritte Axiom besagt, dass die Wahrscheinlichkeit für zwei {} Zufallsereignisse als die {} der Wahrscheinlichkeiten der einzelnen Zufallsereignisse berechnet werden kann.",
+         "luecken": [
+          [
+           "disjunkte",
+           "überschneidungsfreie",
+           "disjunkten"
+          ],
+          [
+           "Summe"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-C4-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Additivität gilt nur für disjunkte Ereignisse.",
+           "richtig": true,
+           "begruendung": "Ja: Bedingung A₁ ∩ A₂ = { }."
+          },
+          {
+           "text": "Überschneidungsfrei heißt: Kein Ergebnis ist in beiden Ereignissen enthalten.",
+           "richtig": true,
+           "begruendung": "Ja: Die Schnittmenge ist leer."
+          },
+          {
+           "text": "Bei der Additivität werden die Wahrscheinlichkeiten multipliziert.",
+           "richtig": false,
+           "begruendung": "Nein: addiert."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C4-w1-a4",
+         "typ": "begriff",
+         "frage": "Wie heißt das Axiom P(A₁ ∪ A₂) = P(A₁) + P(A₂) für disjunkte Ereignisse?",
+         "akzeptiert": [
+          "Additivität",
+          "Additivitaet"
+         ],
+         "musterloesung": "**Additivität** (Axiom 3)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C4b",
+     "titel": "Alle drei Axiome",
+     "wissen": [
+      {
+       "id": "stat2-s2-C4b-w1",
+       "titel": "Die drei Axiome im Überblick",
+       "merke": "Ein Wahrscheinlichkeitsmaß muss **alle drei** Axiome erfüllen: **Positivität** (P(A) ≥ 0), **Normiertheit** (P(Ω) = 1), **Additivität** (P(A₁ ∪ A₂) = P(A₁) + P(A₂) für disjunkte Ereignisse). Zwei reichen **nicht**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C4b-w1-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne Name und Formel zu.",
+         "paare": [
+          {
+           "links": "Positivität",
+           "rechts": "P(A) ≥ 0 für alle A ⊂ Ω"
+          },
+          {
+           "links": "Normiertheit",
+           "rechts": "P(Ω) = 1"
+          },
+          {
+           "links": "Additivität",
+           "rechts": "P(A₁ ∪ A₂) = P(A₁) + P(A₂), wenn A₁ ∩ A₂ = { }"
+          }
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s2-C4b-w1-a2",
+         "typ": "reihenfolge",
+         "frage": "Bringe die Axiome in die Reihenfolge ihrer Nummer.",
+         "elemente": [
+          "Positivität",
+          "Normiertheit",
+          "Additivität"
+         ]
+        },
+        {
+         "id": "stat2-s2-C4b-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Es reicht, wenn zwei der drei Axiome erfüllt sind.",
+           "richtig": false,
+           "begruendung": "Falsch: Alle drei müssen erfüllt sein."
+          },
+          {
+           "text": "Ein Wahrscheinlichkeitsmaß muss alle drei Axiome erfüllen.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C4b-w1-a4",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle.",
+         "kopf": [
+          "Nr.",
+          "Name",
+          "Formel"
+         ],
+         "zeilen": [
+          [
+           "1",
+           {
+            "akzeptiert": [
+             "Positivität"
+            ]
+           },
+           "P(A) ≥ 0"
+          ],
+          [
+           "2",
+           {
+            "akzeptiert": [
+             "Normiertheit"
+            ]
+           },
+           "P(Ω) = 1"
+          ],
+          [
+           "3",
+           {
+            "akzeptiert": [
+             "Additivität"
+            ]
+           },
+           "P(A₁ ∪ A₂) = P(A₁) + P(A₂) bei A₁ ∩ A₂ = { }"
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s2-C4b-w1-a5",
+         "typ": "offen",
+         "frage": "Nenne und erkläre die drei Axiome von Kolmogorov.",
+         "kernpunkte": [
+          "Positivität: P(A) ≥ 0, keine negativen Wahrscheinlichkeiten",
+          "Normiertheit: P(Ω) = 1",
+          "Additivität: Summe bei disjunkten Ereignissen",
+          "alle drei müssen erfüllt sein"
+         ],
+         "musterloesung": "1. Positivität: P(A) ≥ 0 für alle A ⊂ Ω – keine negativen Wahrscheinlichkeiten. 2. Normiertheit: P(Ω) = 1 – irgendein Ergebnis tritt sicher ein. 3. Additivität: Für disjunkte Ereignisse ist P(A₁ ∪ A₂) = P(A₁) + P(A₂). Ein Wahrscheinlichkeitsmaß muss alle drei erfüllen."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C-mix1",
+     "titel": "Mix: Die drei Axiome",
+     "mix": [
+      "stat2-s2-C1",
+      "stat2-s2-C2",
+      "stat2-s2-C3",
+      "stat2-s2-C4",
+      "stat2-s2-C4b"
+     ]
+    },
+    {
+     "id": "stat2-s2-C5",
+     "titel": "Prüfen: widerlegen und beweisen",
+     "wissen": [
+      {
+       "id": "stat2-s2-C5-w1",
+       "titel": "Gegenbeispiel vs. allgemeiner Beweis",
+       "merke": "Zum **Widerlegen** eines Axioms reicht **ein Gegenbeispiel**. Zum **Beweisen** reicht ein Beispiel **nicht** – es muss **allgemein** (für beliebige disjunkte Ereignisse) gezeigt werden.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C5-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was reicht, um zu zeigen, dass die Additivität verletzt ist?",
+          "Wie widerlegt man ein Axiom?"
+         ],
+         "richtig": [
+          "ein einziges Gegenbeispiel"
+         ],
+         "falsch": [
+          "zwei Gegenbeispiele",
+          "ein allgemeiner Beweis",
+          "das ist nicht möglich"
+         ]
+        },
+        {
+         "id": "stat2-s2-C5-w1-a2",
+         "typ": "single",
+         "frage": "Reicht ein passendes Zahlenbeispiel, um zu beweisen, dass die Additivität gilt?",
+         "richtig": [
+          "Nein, man muss es allgemein für beliebige disjunkte Ereignisse zeigen."
+         ],
+         "falsch": [
+          "Ja, ein Beispiel genügt.",
+          "Ja, wenn es zwei Beispiele sind.",
+          "Nein, Axiome kann man nie beweisen."
+         ]
+        },
+        {
+         "id": "stat2-s2-C5-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Zum Widerlegen eines Axioms reicht ein Gegenbeispiel.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Zum Beweisen der Additivität reicht ein Beispiel.",
+           "richtig": false,
+           "begruendung": "Nein: Es muss allgemein gezeigt werden."
+          },
+          {
+           "text": "Man prüft Positivität, Normiertheit und Additivität und zieht dann ein Fazit.",
+           "richtig": true,
+           "begruendung": "Ja: Nur wenn alle drei erfüllt sind → Wahrscheinlichkeitsmaß."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C5-w1-a4",
+         "typ": "reihenfolge",
+         "frage": "Bringe das Vorgehen beim Prüfen in die Reihenfolge des Rezepts.",
+         "elemente": [
+          "Positivität prüfen: alle Werte ≥ 0?",
+          "Normiertheit prüfen: Bekommt Ω den Wert 1?",
+          "Additivität prüfen: Vereinigung disjunkter Ereignisse = Summe?",
+          "Fazit: Nur wenn alle drei erfüllt → Wahrscheinlichkeitsmaß"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C5b",
+     "titel": "Prüfen mit Zahlen",
+     "wissen": [
+      {
+       "id": "stat2-s2-C5b-w1",
+       "titel": "Additivität mit Zahlen prüfen",
+       "merke": "Man prüft die Additivität, indem man für **disjunkte** Ereignisse die **Summe** der Einzelwerte mit dem **Wert der Vereinigung** vergleicht. Beispiel: P({a}) = 0,3, P({b}) = 0,3, P({a, b}) = 0,5 → 0,3 + 0,3 = 0,6 ≠ 0,5 → **Additivität verletzt**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C5b-w1-a1",
+         "typ": "single",
+         "frage": "P({a}) = 0,3, P({b}) = 0,3, P({a, b}) = 0,5. Welches Axiom ist verletzt?",
+         "optionen": [
+          "Additivität",
+          "Positivität",
+          "Normiertheit",
+          "keines"
+         ],
+         "loesung": 0,
+         "erklaerung": "0,3 + 0,3 = 0,6 ≠ 0,5."
+        },
+        {
+         "id": "stat2-s2-C5b-w1-a2",
+         "typ": "single",
+         "frage": "Ω = {a, b}: Q({ }) = 0, Q({a}) = 0,7, Q({b}) = 0,4, Q({a, b}) = 1. Ist Q ein Wahrscheinlichkeitsmaß?",
+         "optionen": [
+          "Nein, die Additivität ist verletzt (0,7 + 0,4 = 1,1 ≠ 1).",
+          "Nein, die Positivität ist verletzt.",
+          "Nein, die Normiertheit ist verletzt.",
+          "Ja, alle drei Axiome sind erfüllt."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-C5b-w1-a3",
+         "typ": "single",
+         "frage": "Ω = {a, b}: R({ }) = 0, R({a}) = −0,2, R({b}) = 1,2, R({a, b}) = 1. Ist R ein Wahrscheinlichkeitsmaß?",
+         "optionen": [
+          "Nein, die Positivität ist verletzt.",
+          "Nein, die Additivität ist verletzt.",
+          "Nein, die Normiertheit ist verletzt.",
+          "Ja, alle drei Axiome sind erfüllt."
+         ],
+         "loesung": 0,
+         "erklaerung": "Normiertheit ✔ (R(Ω) = 1) und Additivität ✔ (−0,2 + 1,2 = 1), aber −0,2 < 0."
+        },
+        {
+         "id": "stat2-s2-C5b-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "P({a}) = 0,25, P({b}) = 0,35. a und b sind verschieden. Welchen Wert muss P({a, b}) haben, damit die Additivität gilt?",
+         "akzeptiert": [
+          "0,6",
+          "0.6",
+          "0,60"
+         ],
+         "musterloesung": "{a} und {b} sind disjunkt → P({a, b}) = 0,25 + 0,35 = **0,6**."
+        },
+        {
+         "id": "stat2-s2-C5b-w1-a5",
+         "typ": "fall",
+         "fall": "Ω = {x, y, z}. Eine Vorschrift ordnet zu: { } → 0, {x} → 0,2, {y} → 0,3, {z} → 0,5, {x, y} → 0,5, {x, z} → 0,7, {y, z} → 0,9, {x, y, z} → 1.",
+         "frage": "Prüfe alle drei Axiome. Ist die Vorschrift ein Wahrscheinlichkeitsmaß?",
+         "kernpunkte": [
+          "Positivität erfüllt: alle Werte ≥ 0",
+          "Normiertheit erfüllt: Ω bekommt 1",
+          "Additivität verletzt: {y} + {z} = 0,3 + 0,5 = 0,8 ≠ 0,9",
+          "Fazit: kein Wahrscheinlichkeitsmaß"
+         ],
+         "musterloesung": "Positivität ✔ (alle ≥ 0). Normiertheit ✔ ({x, y, z} → 1). Additivität ✘: {y} und {z} sind disjunkt, 0,3 + 0,5 = 0,8, aber {y, z} → 0,9. Ein Gegenbeispiel reicht → kein Wahrscheinlichkeitsmaß."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C6",
+     "titel": "Das Keks-Beispiel",
+     "wissen": [
+      {
+       "id": "stat2-s2-C6-w1",
+       "titel": "Marias Keks-Regel",
+       "merke": "Marias Regel (Kekse Schoko, Rosinen, Haselnuss): Positivität ✔, Normiertheit ✔ (Ω → 1), aber **Additivität ✘**: P({Schoko}) + P({Haselnuss}) = 0,24 + 0,1 = 0,34, P({Schoko, Haselnuss}) = 0,7 → **kein Wahrscheinlichkeitsmaß**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C6-w1-a1",
+         "typ": "tabelle",
+         "frage": "Marias Regel: { } → 0, {Rosinen} → 0,17, {Schoko} → 0,24, {Haselnuss} → 0,1, {Rosinen, Schoko} → 0,41, {Rosinen, Haselnuss} → 0,27, {Schoko, Haselnuss} → 0,7, Ω → 1. Prüfe die Additivität.",
+         "kopf": [
+          "Disjunkte Ereignisse",
+          "Summe",
+          "Wert der Vereinigung",
+          "erfüllt?"
+         ],
+         "zeilen": [
+          [
+           "{Rosinen} + {Schoko}",
+           {
+            "akzeptiert": [
+             "0,41"
+            ]
+           },
+           "0,41",
+           {
+            "akzeptiert": [
+             "ja"
+            ]
+           }
+          ],
+          [
+           "{Rosinen} + {Haselnuss}",
+           {
+            "akzeptiert": [
+             "0,27"
+            ]
+           },
+           "0,27",
+           {
+            "akzeptiert": [
+             "ja"
+            ]
+           }
+          ],
+          [
+           "{Schoko} + {Haselnuss}",
+           {
+            "akzeptiert": [
+             "0,34"
+            ]
+           },
+           "0,7",
+           {
+            "akzeptiert": [
+             "nein"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 4
+        },
+        {
+         "id": "stat2-s2-C6-w1-a2",
+         "typ": "single",
+         "frage": "Welches Axiom verletzt Marias Keks-Regel?",
+         "optionen": [
+          "Additivität",
+          "Positivität",
+          "Normiertheit",
+          "keines – es ist ein Wahrscheinlichkeitsmaß"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-C6-w1-a3",
+         "typ": "kurzfrage",
+         "frage": "Keks-Regel: P({Schoko}) = 0,24 und P({Haselnuss}) = 0,1. Was müsste P({Schoko, Haselnuss}) nach der Additivität sein?",
+         "akzeptiert": [
+          "0,34",
+          "0.34"
+         ],
+         "musterloesung": "0,24 + 0,1 = **0,34** – Maria hat aber 0,7 zugeordnet."
+        },
+        {
+         "id": "stat2-s2-C6-w1-a4",
+         "typ": "fall",
+         "fall": "Bäckerei-Jubiläum: verpackte Kekse Schoko, Rosinen, Haselnuss. Maria ordnet zu: { } → 0; {Rosinen} → 0,17; {Schoko} → 0,24; {Haselnuss} → 0,1; {Rosinen, Schoko} → 0,41; {Rosinen, Haselnuss} → 0,27; {Schoko, Haselnuss} → 0,7; {Rosinen, Schoko, Haselnuss} → 1.",
+         "frage": "Prüfe, ob Marias Zuordnungsregel ein Wahrscheinlichkeitsmaß ist.",
+         "kernpunkte": [
+          "Positivität eingehalten: alle Werte ≥ 0",
+          "Normiertheit eingehalten: P(Ω) = 1",
+          "Additivität nicht eingehalten: 0,24 + 0,1 = 0,34 ≠ 0,7",
+          "ein Gegenbeispiel reicht",
+          "kein Wahrscheinlichkeitsmaß"
+         ],
+         "musterloesung": "1. Positivität ✔: alle Werte ≥ 0. 2. Normiertheit ✔: P(Ω) = 1. 3. Additivität ✘: P({Schoko}) + P({Haselnuss}) = 0,24 + 0,1 = 0,34, aber P({Schoko, Haselnuss}) = 0,7. Ein Gegenbeispiel reicht. Fazit: kein Wahrscheinlichkeitsmaß."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C7",
+     "titel": "Klassische Prüfungen",
+     "wissen": [
+      {
+       "id": "stat2-s2-C7-w1",
+       "titel": "B(A) = 1/(n(A)+1)",
+       "merke": "**B(A) = 1/(n(A) + 1)** (Glücksrad R, B, G): Positivität ✔, Normiertheit ✘ (B(Ω) = 1/4), Additivität ✘ (B({R}) + B({B}) = 1, aber B({R, B}) = 1/3) → **kein** Wahrscheinlichkeitsmaß.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C7-w1-a1",
+         "typ": "tabelle",
+         "frage": "Glücksrad R, B, G. Vorschrift B(A) = 1/(n(A) + 1). Ergänze.",
+         "kopf": [
+          "Zufallsereignis",
+          "B(A)"
+         ],
+         "zeilen": [
+          [
+           "{R, B, G}",
+           {
+            "akzeptiert": [
+             "1/4",
+             "0,25"
+            ]
+           }
+          ],
+          [
+           "{R, B}",
+           {
+            "akzeptiert": [
+             "1/3",
+             "0,33",
+             "0,333"
+            ]
+           }
+          ],
+          [
+           "{R}",
+           {
+            "akzeptiert": [
+             "1/2",
+             "0,5"
+            ]
+           }
+          ],
+          [
+           "{ }",
+           {
+            "akzeptiert": [
+             "1",
+             "1/1"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s2-C7-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "B(A) = 1/(n(A) + 1) auf Ω = {R, B, G}. Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Positivität ist erfüllt.",
+           "richtig": true,
+           "begruendung": "Ja: n(A) + 1 ≥ 1 > 0."
+          },
+          {
+           "text": "Die Normiertheit ist erfüllt.",
+           "richtig": false,
+           "begruendung": "Nein: B(Ω) = 1/4 ≠ 1."
+          },
+          {
+           "text": "Die Additivität ist erfüllt.",
+           "richtig": false,
+           "begruendung": "Nein: B({R}) + B({B}) = 1/2 + 1/2 = 1, aber B({R, B}) = 1/3."
+          },
+          {
+           "text": "Dem unmöglichen Ereignis wird 1 zugeordnet.",
+           "richtig": true,
+           "begruendung": "Ja: B({ }) = 1/(0 + 1) = 1."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C7-w1-a3",
+         "typ": "single",
+         "frage": "Welche Axiome verletzt B(A) = 1/(n(A) + 1)?",
+         "optionen": [
+          "Normiertheit und Additivität",
+          "nur die Positivität",
+          "nur die Additivität",
+          "keines"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-C7-w1-a4",
+         "typ": "fall",
+         "fall": "Glücksrad mit drei gleich großen Feldern R, B, G. Vorschrift: B(A) = 1/(n(A) + 1).",
+         "frage": "Ist B ein Wahrscheinlichkeitsmaß? Prüfe alle drei Axiome.",
+         "kernpunkte": [
+          "Positivität erfüllt",
+          "Normiertheit verletzt: B(Ω) = 1/4",
+          "Additivität verletzt: Gegenbeispiel {R}, {B}",
+          "kein Wahrscheinlichkeitsmaß"
+         ],
+         "musterloesung": "Positivität ✔ (B(A) > 0). Normiertheit ✘: B(Ω) = 1/(3 + 1) = 1/4 ≠ 1. Additivität ✘: {R} und {B} sind disjunkt, B({R}) + B({B}) = 1, aber B({R, B}) = 1/3. → Kein Wahrscheinlichkeitsmaß."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s2-C7-w2",
+       "titel": "P(A) = n(A)/3 ist ein Wahrscheinlichkeitsmaß",
+       "merke": "**P(A) = n(A)/3** (3 Ergebnisse) erfüllt alle drei Axiome: n(A)/3 ≥ 0; P(Ω) = 3/3 = 1; für disjunkte A₁, A₂ ist n(A₁ ∪ A₂) = n(A₁) + n(A₂), also P(A₁ ∪ A₂) = P(A₁) + P(A₂).",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C7-w2-a1",
+         "typ": "single",
+         "frage": "Ist P(A) = n(A)/3 (Ω mit 3 Ergebnissen) ein Wahrscheinlichkeitsmaß?",
+         "optionen": [
+          "Ja, alle drei Axiome sind erfüllt.",
+          "Nein, die Normiertheit ist verletzt.",
+          "Nein, die Additivität ist verletzt.",
+          "Nein, die Positivität ist verletzt."
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-C7-w2-a2",
+         "typ": "richtigfalsch",
+         "frage": "P(A) = n(A)/3 bei 3 Ergebnissen. Stimmt das?",
+         "aussagen": [
+          {
+           "text": "P(Ω) = 3/3 = 1, die Normiertheit ist erfüllt.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Für disjunkte A₁, A₂ gilt n(A₁ ∪ A₂) = n(A₁) + n(A₂).",
+           "richtig": true,
+           "begruendung": "Ja: Kein Element wird doppelt gezählt."
+          },
+          {
+           "text": "n(A)/3 kann negativ werden.",
+           "richtig": false,
+           "begruendung": "Nein: n(A) ≥ 0."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C7-w2-a3",
+         "typ": "offen",
+         "frage": "Zeige, dass P(A) = n(A)/3 die Additivität erfüllt.",
+         "kernpunkte": [
+          "A₁, A₂ disjunkt",
+          "n(A₁ ∪ A₂) = n(A₁) + n(A₂)",
+          "(n(A₁) + n(A₂))/3 = P(A₁) + P(A₂)"
+         ],
+         "musterloesung": "Für disjunkte A₁, A₂ gilt n(A₁ ∪ A₂) = n(A₁) + n(A₂). Also ist P(A₁ ∪ A₂) = (n(A₁) + n(A₂))/3 = n(A₁)/3 + n(A₂)/3 = P(A₁) + P(A₂)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C8",
+     "titel": "Laplace als Wahrscheinlichkeitsmaß",
+     "wissen": [
+      {
+       "id": "stat2-s2-C8-w1",
+       "titel": "Beweis für die Laplace-Regel",
+       "merke": "Die **Laplace-Regel P(A) = n(A)/n(Ω)** definiert ein Wahrscheinlichkeitsmaß: Quotient ≥ 0; P(Ω) = n(Ω)/n(Ω) = 1; für disjunkte A₁, A₂: n(A₁ ∪ A₂)/n(Ω) = (n(A₁) + n(A₂))/n(Ω) = n(A₁)/n(Ω) + n(A₂)/n(Ω).",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C8-w1-a1",
+         "typ": "reihenfolge",
+         "frage": "Bringe die Beweisschritte für die Additivität bei Laplace in die richtige Reihenfolge.",
+         "elemente": [
+          "P(A₁ ∪ A₂) = n(A₁ ∪ A₂)/n(Ω)",
+          "= (n(A₁) + n(A₂))/n(Ω)",
+          "= n(A₁)/n(Ω) + n(A₂)/n(Ω)",
+          "= P(A₁) + P(A₂)"
+         ]
+        },
+        {
+         "id": "stat2-s2-C8-w1-a2",
+         "typ": "zuordnung",
+         "frage": "Welche Begründung gehört zu welchem Beweisschritt?",
+         "paare": [
+          {
+           "links": "n(A₁ ∪ A₂) = n(A₁) + n(A₂)",
+           "rechts": "A₁ und A₂ haben keine gemeinsamen Elemente"
+          },
+          {
+           "links": "(x + y)/z = x/z + y/z",
+           "rechts": "Bruchrechenregel"
+          },
+          {
+           "links": "n(A₁)/n(Ω) = P(A₁)",
+           "rechts": "Definition von Laplace"
+          }
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s2-C8-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Bei Laplace ist P(Ω) = n(Ω)/n(Ω) = 1 für alle beliebigen Mengen Ω.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Das Würfelbeispiel A₁ = {1, 2}, A₂ = {4, 5, 6} beweist die Additivität allgemein.",
+           "richtig": false,
+           "begruendung": "Nein: Es illustriert sie nur; der Beweis muss allgemein sein."
+          },
+          {
+           "text": "Die Laplace-Regel definiert ein Wahrscheinlichkeitsmaß.",
+           "richtig": true,
+           "begruendung": "Ja: Alle drei Axiome sind erfüllt."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C8-w1-a4",
+         "typ": "kurzfrage",
+         "frage": "Würfel, A₁ = {1, 2}, A₂ = {4, 5, 6}. Berechne P(A₁ ∪ A₂) mit Laplace (als Bruch).",
+         "akzeptiert": [
+          "5/6",
+          "0,833",
+          "0,83"
+         ],
+         "musterloesung": "A₁ ∪ A₂ = {1, 2, 4, 5, 6} → 5/6 = 2/6 + 3/6 ✔."
+        }
+       ]
+      },
+      {
+       "id": "stat2-s2-C8-w2",
+       "titel": "F(A): gerade und ungerade",
+       "merke": "**F(A) = 0** bei n(A) = 0, **½** bei ungeradem n(A), **1** bei geradem n(A) > 0: Positivität ✔, Normiertheit ✘ (bei ungerader Anzahl in Ω ist F(Ω) = ½), Additivität ✘ (gerade + ungerade: 1 + ½ ≠ ½) → **kein** Wahrscheinlichkeitsmaß.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-C8-w2-a1",
+         "typ": "richtigfalsch",
+         "frage": "F(A) = 0 (n(A) = 0), ½ (n(A) ungerade), 1 (n(A) gerade). Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Positivität ist erfüllt.",
+           "richtig": true,
+           "begruendung": "Ja: nur die Werte 0, ½ und 1."
+          },
+          {
+           "text": "Die Normiertheit ist immer erfüllt.",
+           "richtig": false,
+           "begruendung": "Nein: Hat Ω eine ungerade Anzahl an Elementen (z. B. 3), ist F(Ω) = ½ ≠ 1."
+          },
+          {
+           "text": "Die Additivität ist verletzt.",
+           "richtig": true,
+           "begruendung": "Ja: n(A₁) gerade, n(A₂) ungerade → Vereinigung ungerade, F = ½, aber 1 + ½ = 1,5."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-C8-w2-a2",
+         "typ": "single",
+         "frage": "Ω hat 3 Elemente. Welchen Wert hat F(Ω)?",
+         "optionen": [
+          "½",
+          "1",
+          "0",
+          "1,5"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-C8-w2-a3",
+         "typ": "kurzfrage",
+         "frage": "F wie oben. A₁ hat 2 Elemente, A₂ hat 1 Element, disjunkt. Wie groß ist F(A₁) + F(A₂)?",
+         "akzeptiert": [
+          "1,5",
+          "1.5",
+          "3/2"
+         ],
+         "musterloesung": "F(A₁) + F(A₂) = 1 + ½ = **1,5**, aber F(A₁ ∪ A₂) = ½ (3 Elemente) → Additivität verletzt."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-C-mix2",
+     "titel": "Mix: Axiome prüfen",
+     "mix": [
+      "stat2-s2-C5",
+      "stat2-s2-C5b",
+      "stat2-s2-C6",
+      "stat2-s2-C7",
+      "stat2-s2-C8"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stat2-s2-D",
+   "titel": "Relative Häufigkeit und Wahrscheinlichkeit",
+   "farbe": 120,
+   "level": [
+    {
+     "id": "stat2-s2-D1",
+     "titel": "Das Münz-Experiment",
+     "wissen": [
+      {
+       "id": "stat2-s2-D1-w1",
+       "titel": "Grenzwert der relativen Häufigkeit",
+       "merke": "Wirft man eine faire Münze sehr oft (**n → ∞**), **pendelt sich** die relative Häufigkeit für Kopf bei **½** ein. Wahrscheinlichkeit kann daher als **Grenzwert der relativen Häufigkeit** definiert werden.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-D1-w1-a1",
+         "typ": "single",
+         "fragen": [
+          "Was passiert mit der relativen Häufigkeit für Kopf, wenn man eine faire Münze immer öfter wirft?",
+          "n → ∞ beim fairen Münzwurf: Was macht die relative Häufigkeit?"
+         ],
+         "richtig": [
+          "Sie pendelt sich bei ½ ein."
+         ],
+         "falsch": [
+          "Sie wird immer größer.",
+          "Sie schwankt immer stärker.",
+          "Sie ist von Anfang an genau ½."
+         ]
+        },
+        {
+         "id": "stat2-s2-D1-w1-a2",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die Wahrscheinlichkeit kann als {} der relativen Häufigkeit für n → ∞ definiert werden.",
+         "luecken": [
+          [
+           "Grenzwert"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-D1-w1-a3",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Zu Beginn schwankt die relative Häufigkeit stark, mit wachsendem n immer weniger.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "n → ∞ liest man „n geht gegen Unendlich“.",
+           "richtig": true,
+           "begruendung": "Ja."
+          },
+          {
+           "text": "Schon nach 10 Würfen ist die relative Häufigkeit gleich der Wahrscheinlichkeit.",
+           "richtig": false,
+           "begruendung": "Nein: Sie nähert sich erst bei sehr großem n an."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-D1-w1-a4",
+         "typ": "fall",
+         "fall": "Du wirfst eine Münze 10-mal und erhältst 7-mal Kopf.",
+         "frage": "Ist P(Kopf) = 0,7? Begründe.",
+         "kernpunkte": [
+          "Nein",
+          "0,7 ist die relative Häufigkeit in einer kleinen Stichprobe",
+          "Wahrscheinlichkeit = Grenzwert für n → ∞",
+          "bei fairer Münze 0,5"
+         ],
+         "musterloesung": "Nein. 0,7 ist die **relative Häufigkeit** in dieser kleinen Stichprobe. Die Wahrscheinlichkeit ist der Grenzwert der relativen Häufigkeit für n → ∞ – bei einer fairen Münze 0,5."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-D2",
+     "titel": "Nicht beobachtbar",
+     "wissen": [
+      {
+       "id": "stat2-s2-D2-w1",
+       "titel": "Wahrscheinlichkeit als Modell",
+       "merke": "Die **relative Häufigkeit** ist **empirisch beobachtbar** und bei hinreichend großer Stichprobe eine **gute Näherung**. Die **Wahrscheinlichkeit** ist **nicht direkt beobachtbar** (man kann nicht unendlich oft wiederholen); sie ist ein **mathematisches Modell**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-D2-w1-a1",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Die Wahrscheinlichkeit ist eine empirisch beobachtbare Größe.",
+           "richtig": false,
+           "begruendung": "Falsch: Die relative Häufigkeit ist empirisch beobachtbar und liefert bei großer Stichprobe eine Näherung."
+          },
+          {
+           "text": "Im Gegensatz zur relativen Häufigkeit ist die Wahrscheinlichkeit nie direkt beobachtbar.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Die relative Häufigkeit ist eine empirisch beobachtbare Größe.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          },
+          {
+           "text": "Bei großen Stichproben entspricht die relative Häufigkeit der Wahrscheinlichkeit.",
+           "richtig": false,
+           "begruendung": "Falsch: Sie liefert nur eine **gute Näherung**."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-D2-w1-a2",
+         "typ": "single",
+         "frage": "Warum ist Wahrscheinlichkeit nicht direkt beobachtbar?",
+         "richtig": [
+          "Weil man ein Experiment nicht unendlich oft wiederholen kann."
+         ],
+         "falsch": [
+          "Weil sie immer 0,5 ist.",
+          "Weil sie nur bei Münzen gilt.",
+          "Weil man sie nicht berechnen kann."
+         ]
+        },
+        {
+         "id": "stat2-s2-D2-w1-a3",
+         "typ": "lueckentext",
+         "frage": "Fülle die Lücken.",
+         "text": "Die relative Häufigkeit liefert bei hinreichend großer Stichprobe eine gute {} der Wahrscheinlichkeit. Die Wahrscheinlichkeit selbst ist ein {} Modell.",
+         "luecken": [
+          [
+           "Näherung",
+           "Annäherung"
+          ],
+          [
+           "mathematisches",
+           "mathematisch"
+          ]
+         ]
+        },
+        {
+         "id": "stat2-s2-D2-w1-a4",
+         "typ": "offen",
+         "frage": "Warum spricht man bei der Wahrscheinlichkeit von einem mathematischen Modell?",
+         "kernpunkte": [
+          "Grenzwert der relativen Häufigkeit für n → ∞",
+          "nicht unendlich oft wiederholbar",
+          "daher nicht direkt beobachtbar",
+          "Modell zur Beschreibung der Sicherheit des Eintretens"
+         ],
+         "musterloesung": "Wahrscheinlichkeit ist der Grenzwert der relativen Häufigkeit für n → ∞. Da man kein Experiment unendlich oft wiederholen kann, ist sie nicht direkt beobachtbar. Sie ist ein mathematisches Modell zur Beschreibung der Sicherheit, mit der Ereignisse von Zufallsprozessen eintreten."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-D3",
+     "titel": "Der Vergleich",
+     "wissen": [
+      {
+       "id": "stat2-s2-D3-w1",
+       "titel": "Was 0 und 1 bedeuten",
+       "merke": "Relative Häufigkeit **0** = Ereignis ist **keinmal eingetreten**; Wahrscheinlichkeit **0** = Ereignis ist **unmöglich**. Relative Häufigkeit **1** = **jedes Mal eingetreten**; Wahrscheinlichkeit **1** = Ereignis ist **sicher**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-D3-w1-a1",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle.",
+         "kopf": [
+          "Wert",
+          "relative Häufigkeit: Das Ereignis ist …",
+          "Wahrscheinlichkeit: Das Ereignis ist …"
+         ],
+         "zeilen": [
+          [
+           "0",
+           {
+            "akzeptiert": [
+             "keinmal eingetreten",
+             "nie eingetreten",
+             "keinmal"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "unmöglich"
+            ]
+           }
+          ],
+          [
+           "1",
+           {
+            "akzeptiert": [
+             "jedes Mal eingetreten",
+             "immer eingetreten",
+             "jedes Mal"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "sicher"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s2-D3-w1-a2",
+         "typ": "richtigfalsch",
+         "frage": "Stimmt das?",
+         "aussagen": [
+          {
+           "text": "Wenn die relative Häufigkeit 0 beträgt, ist das Ereignis unmöglich und wird niemals eintreten.",
+           "richtig": false,
+           "begruendung": "Falsch: Das gilt für eine **Wahrscheinlichkeit** von 0. Relative Häufigkeit 0 heißt nur: In der Stichprobe nicht vorgekommen."
+          },
+          {
+           "text": "Relative Häufigkeit 1 → das Ereignis ist sicher und wird immer eintreten.",
+           "richtig": false,
+           "begruendung": "Falsch: Es ist bisher immer eingetreten; sicher ist es erst bei Wahrscheinlichkeit 1."
+          },
+          {
+           "text": "Wahrscheinlichkeit 0 heißt: Das Ereignis ist unmöglich.",
+           "richtig": true,
+           "begruendung": "Richtig."
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-D3-w1-a3",
+         "typ": "beispiel",
+         "frage": "Relative Häufigkeit oder Wahrscheinlichkeit?",
+         "kategorien": [
+          "relative Häufigkeit",
+          "Wahrscheinlichkeit"
+         ],
+         "items": [
+          {
+           "text": "0 = keinmal eingetreten",
+           "kategorie": 0
+          },
+          {
+           "text": "0 = unmöglich",
+           "kategorie": 1
+          },
+          {
+           "text": "1 = jedes Mal eingetreten",
+           "kategorie": 0
+          },
+          {
+           "text": "1 = sicher",
+           "kategorie": 1
+          }
+         ]
+        },
+        {
+         "id": "stat2-s2-D3-w1-a4",
+         "typ": "single",
+         "frage": "In einer Befragung hat niemand „sehr unzufrieden“ angekreuzt (relative Häufigkeit 0). Was folgt daraus?",
+         "optionen": [
+          "Die Antwort ist in dieser Stichprobe nicht vorgekommen – unmöglich ist sie nicht.",
+          "Die Antwort ist unmöglich.",
+          "Die Wahrscheinlichkeit ist 0.",
+          "Niemand ist sehr unzufrieden."
+         ],
+         "loesung": 0
+        }
+       ]
+      },
+      {
+       "id": "stat2-s2-D3-w2",
+       "titel": "Retrospektiv vs. prospektiv",
+       "merke": "Die **relative Häufigkeit** bezieht sich auf eine **endliche Wiederholung** (vergangen): **retrospektiv, empirisch, beobachtbar**. Die **Wahrscheinlichkeit** bezieht sich auf **zukünftige Durchführungen**: **prospektiv, theoretisch, nicht beobachtbar**.",
+       "aufgaben": [
+        {
+         "id": "stat2-s2-D3-w2-a1",
+         "typ": "zuordnung",
+         "frage": "Ordne zu.",
+         "paare": [
+          {
+           "links": "relative Häufigkeit",
+           "rechts": "retrospektiv; empirisch"
+          },
+          {
+           "links": "Wahrscheinlichkeit",
+           "rechts": "prospektiv; theoretisch"
+          }
+         ],
+         "zeigen": 2
+        },
+        {
+         "id": "stat2-s2-D3-w2-a2",
+         "typ": "single",
+         "frage": "Welche Aussage trifft auf die relative Häufigkeit zu?",
+         "optionen": [
+          "retrospektiv, empirisch",
+          "prospektiv, theoretisch",
+          "nicht beobachtbar",
+          "immer gleich der Wahrscheinlichkeit"
+         ],
+         "loesung": 0
+        },
+        {
+         "id": "stat2-s2-D3-w2-a3",
+         "typ": "beispiel",
+         "frage": "Relative Häufigkeit oder Wahrscheinlichkeit?",
+         "kategorien": [
+          "relative Häufigkeit",
+          "Wahrscheinlichkeit"
+         ],
+         "items": [
+          {
+           "text": "retrospektiv",
+           "kategorie": 0
+          },
+          {
+           "text": "prospektiv",
+           "kategorie": 1
+          },
+          {
+           "text": "empirisch",
+           "kategorie": 0
+          },
+          {
+           "text": "theoretisch",
+           "kategorie": 1
+          },
+          {
+           "text": "beobachtbar",
+           "kategorie": 0
+          },
+          {
+           "text": "nicht beobachtbar",
+           "kategorie": 1
+          },
+          {
+           "text": "bezieht sich auf eine endliche Wiederholung",
+           "kategorie": 0
+          },
+          {
+           "text": "bezieht sich auf eine zukünftige Durchführung",
+           "kategorie": 1
+          }
+         ],
+         "zeigen": 6
+        },
+        {
+         "id": "stat2-s2-D3-w2-a4",
+         "typ": "tabelle",
+         "frage": "Ergänze die Tabelle.",
+         "kopf": [
+          "",
+          "relative Häufigkeit",
+          "Wahrscheinlichkeit"
+         ],
+         "zeilen": [
+          [
+           "bezieht sich auf …",
+           {
+            "akzeptiert": [
+             "endliche Wiederholung",
+             "vergangene Durchführungen",
+             "endliche"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "zukünftige Durchführung",
+             "zukünftige",
+             "Zukunft"
+            ]
+           }
+          ],
+          [
+           "Charakter",
+           {
+            "akzeptiert": [
+             "retrospektiv",
+             "retrospektiv, empirisch",
+             "empirisch"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "prospektiv",
+             "prospektiv, theoretisch",
+             "theoretisch"
+            ]
+           }
+          ],
+          [
+           "beobachtbar?",
+           {
+            "akzeptiert": [
+             "ja"
+            ]
+           },
+           {
+            "akzeptiert": [
+             "nein"
+            ]
+           }
+          ]
+         ],
+         "zeigen": 3
+        },
+        {
+         "id": "stat2-s2-D3-w2-a5",
+         "typ": "offen",
+         "frage": "Grenze relative Häufigkeit und Wahrscheinlichkeit voneinander ab.",
+         "kernpunkte": [
+          "rel. Häufigkeit: retrospektiv, empirisch, beobachtbar",
+          "Wahrscheinlichkeit: prospektiv, theoretisch, nicht beobachtbar",
+          "Bedeutung von 0 und 1",
+          "rel. Häufigkeit nähert die Wahrscheinlichkeit bei großem n an"
+         ],
+         "musterloesung": "Die relative Häufigkeit beschreibt, was bei einer endlichen Wiederholung passiert ist (retrospektiv, empirisch, beobachtbar): 0 = keinmal, 1 = jedes Mal eingetreten. Die Wahrscheinlichkeit bezieht sich auf zukünftige Durchführungen (prospektiv, theoretisch, nicht beobachtbar): 0 = unmöglich, 1 = sicher. Bei großem n ist die relative Häufigkeit eine gute Näherung der Wahrscheinlichkeit."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stat2-s2-D-mix1",
+     "titel": "Mix: Häufigkeit und Wahrscheinlichkeit",
+     "mix": [
+      "stat2-s2-D1",
+      "stat2-s2-D2",
+      "stat2-s2-D3"
+     ]
+    }
+   ]
+  }
+ ],
+ "arbeitsblatt": {
+  "titel": "Übungszettel 1 und 2 (Sitzung 2)",
+  "aufgaben": [
+   {
+    "id": "stat2-s2-ab1",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Erkläre die Begriffe „Zufallsereignis“ und „Elementarereignis“ und nenne ein Beispiel.",
+    "wissen": [
+     "stat2-s2-A1-w1",
+     "stat2-s2-A1b-w1"
+    ],
+    "kernpunkte": [
+     "Zufallsereignis: jede Teilmenge von Ω (A ⊂ Ω)",
+     "Elementarereignis: einelementige Teilmenge",
+     "Beispiel"
+    ],
+    "musterloesung": "Jede Teilmenge von möglichen Ergebnissen eines Zufallsprozesses ist ein Zufallsereignis: Wenn A ⊂ Ω, dann ist A ein Zufallsereignis. Eine einelementige Teilmenge heißt Elementarereignis. Beispiel: Es wird das rote Feld gedreht → {rot}."
+   },
+   {
+    "id": "stat2-s2-ab2",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Vervollständige: Die Axiome nach Kolmogorov stellen … dar, die erfüllt sein müssen, damit eine Funktion ein … darstellt. Das erste Axiom besagt, dass es keine … Wahrscheinlichkeiten gibt … Im zweiten Axiom geht es um … Das dritte Axiom besagt, dass …",
+    "wissen": [
+     "stat2-s2-C1-w1",
+     "stat2-s2-C2-w1",
+     "stat2-s2-C3-w1",
+     "stat2-s2-C4-w1"
+    ],
+    "kernpunkte": [
+     "Bedingungen / Wahrscheinlichkeitsmaß",
+     "keine negativen Wahrscheinlichkeiten; unmögliches Ereignis 0, sonst positiv",
+     "P(Ω) = 1",
+     "disjunkte Ereignisse: Summe der Wahrscheinlichkeiten"
+    ],
+    "musterloesung": "Die Axiome nach Kolmogorov stellen Bedingungen dar, die erfüllt sein müssen, damit eine Funktion ein Wahrscheinlichkeitsmaß darstellt. Das erste Axiom besagt, dass es keine negativen Wahrscheinlichkeiten gibt. Wenn es sich um ein unmögliches Ereignis handelt, wird der Wert Null zugewiesen, sonst ein positiver Wert. Im zweiten Axiom geht es um P(Ω), also die Wahrscheinlichkeit, dass irgendeines der möglichen Ergebnisse eintritt. Diese Wahrscheinlichkeit ist 1. Das dritte Axiom besagt, dass die Wahrscheinlichkeit für zwei disjunkte/überschneidungsfreie Zufallsereignisse als die Summe der Wahrscheinlichkeiten der einzelnen Zufallsereignisse berechnet werden kann."
+   },
+   {
+    "id": "stat2-s2-ab3",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Bäckerei-Jubiläum (Kekse Schoko, Rosinen, Haselnuss): Maria ordnet zu { } → 0; {Rosinen} → 0,17; {Schoko} → 0,24; {Haselnuss} → 0,1; {Rosinen, Schoko} → 0,41; {Rosinen, Haselnuss} → 0,27; {Schoko, Haselnuss} → 0,7; {Rosinen, Schoko, Haselnuss} → 1. Überprüfe, ob Marias Zuordnungsregel die Axiome von Kolmogorov erfüllt.",
+    "wissen": [
+     "stat2-s2-C6-w1",
+     "stat2-s2-C5-w1"
+    ],
+    "kernpunkte": [
+     "Positivität eingehalten",
+     "Normiertheit eingehalten",
+     "Additivität verletzt: 0,24 + 0,1 = 0,34 ≠ 0,7",
+     "kein Wahrscheinlichkeitsmaß"
+    ],
+    "musterloesung": "1. Positivität ✔: alle zugeordneten Werte sind ≥ 0. 2. Normiertheit ✔: P(Ω) = P(A₇) = 1. 3. Additivität ✘: P(A₂) + P(A₃) = 0,24 + 0,1 = 0,34, aber P(A₂ ∪ A₃) = P(A₆) = 0,7 → 0,34 ≠ 0,7 (ein Gegenbeispiel reicht). Fazit: kein Wahrscheinlichkeitsmaß."
+   },
+   {
+    "id": "stat2-s2-ab4",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Urne mit 4 Kugeln (rot, gelb, blau, grün), Ziehen mit Zurücklegen. a) Gib die Ergebnismenge an. b) Gib das sichere Ereignis an. c) Notiere „gelb oder blau“. d) Notiere „grün wird nicht gezogen“.",
+    "wissen": [
+     "stat2-s2-A3-w1",
+     "stat2-s2-A4-w1"
+    ],
+    "kernpunkte": [
+     "a) Ω = {rot, blau, grün, gelb}",
+     "b) Ω – das einzige sichere Ereignis",
+     "c) {gelb, blau}",
+     "d) {rot, gelb, blau}"
+    ],
+    "musterloesung": "a) Ω = {rot, blau, grün, gelb}. b) Ω = {rot, blau, grün, gelb} – das einzige sichere Ereignis. c) A = {gelb, blau}. d) A = {rot, gelb, blau}."
+   },
+   {
+    "id": "stat2-s2-ab5",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Richtig oder falsch? Begründe: „Die Wahrscheinlichkeit ist eine empirisch beobachtbare Größe.“ – „Wenn die relative Häufigkeit 0 beträgt, ist das Ereignis unmöglich.“ – „Bei großen Stichproben entspricht die relative Häufigkeit der Wahrscheinlichkeit.“",
+    "wissen": [
+     "stat2-s2-D2-w1",
+     "stat2-s2-D3-w1"
+    ],
+    "kernpunkte": [
+     "alle drei falsch",
+     "beobachtbar ist die relative Häufigkeit",
+     "rel. Häufigkeit 0: nur nicht vorgekommen; unmöglich erst bei Wahrscheinlichkeit 0",
+     "nur gute Näherung, Grenzwert"
+    ],
+    "musterloesung": "Alle drei sind falsch. (1) Die relative Häufigkeit ist empirisch beobachtbar und liefert bei hinreichend großer Stichprobe eine Näherung der Wahrscheinlichkeit. (2) Unmöglich ist ein Ereignis erst bei einer Wahrscheinlichkeit von 0; relative Häufigkeit 0 heißt nur, dass es in der Stichprobe nicht vorkam. (3) Sie liefert nur eine gute Näherung; deshalb kann Wahrscheinlichkeit als Grenzwert der relativen Häufigkeit definiert werden."
+   }
+  ]
+ },
+ "probeklausur": {
+  "titel": "Probeklausur Statistik 2, Sitzung 2",
+  "bestehenProzent": 50,
+  "anzahl": 14,
+  "aufgaben": [
+   {
+    "id": "stat2-s2-pk1",
+    "typ": "single",
+    "frage": "Welches Axiom ist verletzt, wenn P(Ω) = 0,8?",
+    "optionen": [
+     "Normiertheit",
+     "Positivität",
+     "Additivität",
+     "keines"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s2-C3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk2",
+    "typ": "single",
+    "frage": "Ω = {a, b}: P({ }) = 0, P({a}) = 0,45, P({b}) = 0,45, P({a, b}) = 1. Welches Axiom ist verletzt?",
+    "optionen": [
+     "Additivität",
+     "Positivität",
+     "Normiertheit",
+     "keines"
+    ],
+    "loesung": 0,
+    "erklaerung": "0,45 + 0,45 = 0,9 ≠ 1.",
+    "wissen": [
+     "stat2-s2-C5b-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk3",
+    "typ": "single",
+    "frage": "Ω = {a, b}: P({ }) = 0, P({a}) = 1,1, P({b}) = −0,1, P({a, b}) = 1. Welche Aussage stimmt?",
+    "optionen": [
+     "Positivität verletzt, Normiertheit und Additivität erfüllt – kein Wahrscheinlichkeitsmaß.",
+     "Alle Axiome erfüllt.",
+     "Nur die Normiertheit ist verletzt.",
+     "Nur die Additivität ist verletzt."
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s2-C5b-w1",
+     "stat2-s2-C2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk4",
+    "typ": "fall",
+    "fall": "Ω = {1, 2, 3, 4}. Vorschrift: P(A) = n(A)/4.",
+    "frage": "Prüfe alle drei Axiome von Kolmogorov allgemein. Ist P ein Wahrscheinlichkeitsmaß?",
+    "kernpunkte": [
+     "Positivität: n(A) ≥ 0 → P(A) ≥ 0",
+     "Normiertheit: P(Ω) = 4/4 = 1",
+     "Additivität: disjunkt → n(A₁ ∪ A₂) = n(A₁) + n(A₂), daher Summe",
+     "allgemein gezeigt, nicht nur am Beispiel",
+     "Wahrscheinlichkeitsmaß"
+    ],
+    "musterloesung": "Positivität ✔: n(A) ≥ 0, also n(A)/4 ≥ 0. Normiertheit ✔: P(Ω) = 4/4 = 1. Additivität ✔: Für disjunkte A₁, A₂ ist n(A₁ ∪ A₂) = n(A₁) + n(A₂), also P(A₁ ∪ A₂) = (n(A₁) + n(A₂))/4 = P(A₁) + P(A₂). → Wahrscheinlichkeitsmaß.",
+    "wissen": [
+     "stat2-s2-C7-w2",
+     "stat2-s2-C5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk5",
+    "typ": "richtigfalsch",
+    "frage": "Richtig oder falsch?",
+    "aussagen": [
+     {
+      "text": "Die Axiome von Kolmogorov geben eine Regel an, wie man Wahrscheinlichkeiten berechnet.",
+      "richtig": false,
+      "begruendung": "Falsch: Sie prüfen nur, ob eine Vorschrift ein Wahrscheinlichkeitsmaß ist."
+     },
+     {
+      "text": "{rot} ist ein Elementarereignis.",
+      "richtig": true,
+      "begruendung": "Richtig."
+     },
+     {
+      "text": "Ein Wahrscheinlichkeitsmaß muss alle drei Axiome erfüllen.",
+      "richtig": true,
+      "begruendung": "Richtig."
+     },
+     {
+      "text": "Die Wahrscheinlichkeit beschreibt, wie oft ein Ereignis eingetreten ist.",
+      "richtig": false,
+      "begruendung": "Falsch: Das ist die relative Häufigkeit."
+     }
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s2-C1-w1",
+     "stat2-s2-A1b-w1",
+     "stat2-s2-C4b-w1",
+     "stat2-s2-B1-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk6",
+    "typ": "single",
+    "frage": "Ω = {rot, gelb, blau, grün}. Welches Ereignis beschreibt „nicht blau“?",
+    "optionen": [
+     "{rot, gelb, grün}",
+     "{blau}",
+     "{ }",
+     "Ω"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s2-A4-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk7",
+    "typ": "beispiel",
+    "frage": "Ω = {1, 2, 3, 4, 5, 6}. Ordne ein.",
+    "kategorien": [
+     "sicheres Ereignis",
+     "unmögliches Ereignis",
+     "Elementarereignis",
+     "weder noch"
+    ],
+    "items": [
+     {
+      "text": "{1, 2, 3, 4, 5, 6}",
+      "kategorie": 0
+     },
+     {
+      "text": "{ }",
+      "kategorie": 1
+     },
+     {
+      "text": "{4}",
+      "kategorie": 2
+     },
+     {
+      "text": "{2, 4, 6}",
+      "kategorie": 3
+     }
+    ],
+    "zeigen": 4,
+    "wissen": [
+     "stat2-s2-A3-w1",
+     "stat2-s2-A3-w2",
+     "stat2-s2-A1b-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk8",
+    "typ": "tabelle",
+    "frage": "Ergänze den Vergleich.",
+    "kopf": [
+     "",
+     "relative Häufigkeit",
+     "Wahrscheinlichkeit"
+    ],
+    "zeilen": [
+     [
+      "0 bedeutet",
+      {
+       "akzeptiert": [
+        "keinmal eingetreten",
+        "nie eingetreten",
+        "keinmal"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "unmöglich"
+       ]
+      }
+     ],
+     [
+      "1 bedeutet",
+      {
+       "akzeptiert": [
+        "jedes Mal eingetreten",
+        "immer eingetreten",
+        "jedes Mal"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "sicher"
+       ]
+      }
+     ],
+     [
+      "Charakter",
+      {
+       "akzeptiert": [
+        "retrospektiv",
+        "empirisch",
+        "retrospektiv, empirisch"
+       ]
+      },
+      {
+       "akzeptiert": [
+        "prospektiv",
+        "theoretisch",
+        "prospektiv, theoretisch"
+       ]
+      }
+     ]
+    ],
+    "zeigen": 6,
+    "wissen": [
+     "stat2-s2-D3-w1",
+     "stat2-s2-D3-w2"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk9",
+    "typ": "kurzfrage",
+    "frage": "Ω = {a, b, c}. P({a}) = 0,2, P({b}) = 0,5. Welchen Wert muss P({c}) haben, damit P ein Wahrscheinlichkeitsmaß sein kann?",
+    "akzeptiert": [
+     "0,3",
+     "0.3",
+     "0,30"
+    ],
+    "musterloesung": "Normiertheit: P(Ω) = 1. Additivität: P({a}) + P({b}) + P({c}) = P(Ω) → P({c}) = 1 − 0,2 − 0,5 = **0,3**.",
+    "wissen": [
+     "stat2-s2-C3-w1",
+     "stat2-s2-C4-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk10",
+    "typ": "fall",
+    "fall": "Ein Glücksrad hat die Felder A, B, C. Jemand schlägt vor: Jedem Ereignis wird die Zahl n(A)/2 zugeordnet.",
+    "frage": "Prüfe die Axiome. Ist das ein Wahrscheinlichkeitsmaß?",
+    "kernpunkte": [
+     "Positivität erfüllt",
+     "Normiertheit verletzt: P(Ω) = 3/2 ≠ 1",
+     "ein Gegenbeispiel reicht",
+     "kein Wahrscheinlichkeitsmaß"
+    ],
+    "musterloesung": "Positivität ✔ (n(A)/2 ≥ 0). Normiertheit ✘: P(Ω) = 3/2 = 1,5 ≠ 1. (Die Additivität wäre erfüllt, n(A₁ ∪ A₂) = n(A₁) + n(A₂).) Da nicht alle drei Axiome erfüllt sind: kein Wahrscheinlichkeitsmaß.",
+    "wissen": [
+     "stat2-s2-C5-w1",
+     "stat2-s2-C3-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk11",
+    "typ": "definition",
+    "frage": "Definiere den Begriff Wahrscheinlichkeitsmaß.",
+    "kernpunkte": [
+     "Zuordnungsvorschrift",
+     "ordnet Zufallsereignissen Zahlen zu",
+     "nach eindeutigen Regeln",
+     "zwischen 0 und 1"
+    ],
+    "musterloesung": "Ein Wahrscheinlichkeitsmaß P ist eine Zuordnungsvorschrift, die Zufallsereignissen nach eindeutigen Regeln Zahlen zwischen 0 und 1 zuordnet.",
+    "wissen": [
+     "stat2-s2-B2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk12",
+    "typ": "single",
+    "frage": "Welche Aussage trifft auf die Wahrscheinlichkeit zu?",
+    "optionen": [
+     "prospektiv, theoretisch, nicht direkt beobachtbar",
+     "retrospektiv, empirisch",
+     "bei großen Stichproben gleich der relativen Häufigkeit",
+     "beschreibt, wie oft ein Ereignis eingetreten ist"
+    ],
+    "loesung": 0,
+    "wissen": [
+     "stat2-s2-D3-w2",
+     "stat2-s2-D2-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk13",
+    "typ": "fall",
+    "fall": "Eine Studentin würfelt 30-mal und erhält nie eine 6.",
+    "frage": "Sie folgert: „Eine 6 ist mit diesem Würfel unmöglich.“ Beurteile die Aussage.",
+    "kernpunkte": [
+     "relative Häufigkeit 0",
+     "heißt nur: in der Stichprobe nicht vorgekommen",
+     "unmöglich wäre erst Wahrscheinlichkeit 0",
+     "Wahrscheinlichkeit nicht direkt beobachtbar / Grenzwert für n → ∞"
+    ],
+    "musterloesung": "Die Folgerung ist falsch. Die relative Häufigkeit der 6 ist 0 – die 6 ist in diesen 30 Würfen nur nicht vorgekommen. Unmöglich wäre sie erst bei einer Wahrscheinlichkeit von 0; die Wahrscheinlichkeit ist aber nicht direkt beobachtbar (Grenzwert für n → ∞).",
+    "wissen": [
+     "stat2-s2-D3-w1",
+     "stat2-s2-D1-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk14",
+    "typ": "zuordnung",
+    "frage": "Ordne zu.",
+    "paare": [
+     {
+      "links": "Positivität",
+      "rechts": "P(A) ≥ 0"
+     },
+     {
+      "links": "Normiertheit",
+      "rechts": "P(Ω) = 1"
+     },
+     {
+      "links": "Additivität",
+      "rechts": "Summe bei disjunkten Ereignissen"
+     },
+     {
+      "links": "Zufallsereignis",
+      "rechts": "Teilmenge von Ω"
+     },
+     {
+      "links": "Elementarereignis",
+      "rechts": "einelementige Teilmenge"
+     }
+    ],
+    "zeigen": 5,
+    "wissen": [
+     "stat2-s2-C4b-w1",
+     "stat2-s2-A1-w1",
+     "stat2-s2-A1b-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk15",
+    "typ": "multi",
+    "frage": "Was gilt für die Vorschrift B(A) = 1/(n(A) + 1) auf Ω = {R, B, G}?",
+    "richtig": [
+     "Positivität erfüllt",
+     "Normiertheit verletzt",
+     "Additivität verletzt",
+     "kein Wahrscheinlichkeitsmaß"
+    ],
+    "falsch": [
+     "Normiertheit erfüllt",
+     "Wahrscheinlichkeitsmaß"
+    ],
+    "anzahlRichtig": 3,
+    "anzahlFalsch": 2,
+    "wissen": [
+     "stat2-s2-C7-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk16",
+    "typ": "lueckentext",
+    "frage": "Fülle die Lücken.",
+    "text": "Zum {} eines Axioms reicht ein Gegenbeispiel; zum {} muss es allgemein gezeigt werden.",
+    "luecken": [
+     [
+      "Widerlegen",
+      "widerlegen"
+     ],
+     [
+      "Beweisen",
+      "beweisen"
+     ]
+    ],
+    "wissen": [
+     "stat2-s2-C5-w1"
+    ]
+   },
+   {
+    "id": "stat2-s2-pk17",
+    "typ": "offen",
+    "frage": "Warum ist die Laplace-Regel P(A) = n(A)/n(Ω) ein Wahrscheinlichkeitsmaß? Begründe für alle drei Axiome.",
+    "kernpunkte": [
+     "Positivität: Quotient aus Anzahlen ≥ 0",
+     "Normiertheit: n(Ω)/n(Ω) = 1",
+     "Additivität: n(A₁ ∪ A₂) = n(A₁) + n(A₂) bei disjunkten Ereignissen",
+     "Bruchrechenregel"
+    ],
+    "musterloesung": "Positivität: n(A) und n(Ω) sind ≥ 0, also auch der Quotient. Normiertheit: P(Ω) = n(Ω)/n(Ω) = 1. Additivität: Für disjunkte A₁, A₂ gilt n(A₁ ∪ A₂) = n(A₁) + n(A₂); mit der Bruchrechenregel folgt n(A₁ ∪ A₂)/n(Ω) = n(A₁)/n(Ω) + n(A₂)/n(Ω) = P(A₁) + P(A₂).",
+    "wissen": [
+     "stat2-s2-C8-w1"
+    ]
+   }
+  ]
+ }
+}
