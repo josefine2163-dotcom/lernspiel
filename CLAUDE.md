@@ -7,7 +7,7 @@ Lern-App im Spielstil: **nur Fragen und Aufgaben, keine Lerninhalte vorab**. Die
 - `dokumente/<Fach>/` – Originaldateien. Dokumente im selben Unterordner gehören zu einem Fach und erscheinen als Vorlesungen.
 - `daten/` – pro Vorlesung eine JSON-Datei, dazu `daten/index.json` (Liste aller Dateien).
 - `meldungen/` – `gemeldet.json` (schreibt die App über den Server) und `antworten.json` (schreibt Claude Code), siehe unten.
-- App: `index.html`, `app.js` (Seiten), `spiel.js` (Spiellogik), `runde.js` (Spielrunde), `klausur.js`, `aufgaben.js` (Aufgabentypen), `katalog.js`, `speicher.js`, `meldungen.js` (Fragen melden), `pruefen.js`, `util.js`, `style.css`, `sw.js`.
+- App: `index.html`, `app.js` (Seiten), `spiel.js` (Spiellogik), `runde.js` (Spielrunde), `klausur.js`, `aufgaben.js` (Aufgabentypen), `katalog.js`, `speicher.js`, `meldungen.js` (Fragen melden), `rechnen.js` (Extra-Übungsaufgaben), `pruefen.js`, `util.js`, `style.css`, `sw.js`.
 - Start: `App-starten.bat` (PowerShell-Server auf http://localhost:8093). Vorschau in Claude Code: launch-Konfiguration `lernspiel`.
 
 ## Auftrag „Verarbeite die neuen Dokumente“
@@ -117,6 +117,10 @@ Diese Logik steckt in `spiel.js` und muss zum Katalog passen:
 - **Rückblick nach der Runde (`runde.js`, `rueckblick()`):** Die Ergebnisseite listet alle beantworteten Fragen der Runde (Antwort, Lösung, `merke`), standardmäßig nur die nicht voll richtigen. Die Karten nutzen `aufgabeKarte(…, { gesperrt: true, nurLesen: true })`: Nichts lässt sich dort mehr ändern, und gespeichert wird nichts.
 - **Melden (`meldungen.js`):** „⚑ Melden“ steht in jeder Aufgabe (Runde, Rückblick, Probeklausur). In einer Runde wird die gemeldete Frage übersprungen und nicht gewertet; in der Probeklausur zählt sie nicht mit. `waehleForm`, Blitzrunde, Arbeitsblatt und Probeklausur lassen ausgeblendete Formen weg. Der Server nimmt dafür `POST /meldungen` an.
 - **Level-Statistik (`#/statistik`):** Nur Lernlevel, keine Mischlevel und Bosse; Antworten aus allen Modi zählen. „Besser“ oder „schlechter“ = aktueller Kann-Wert mindestens 15 Punkte über oder unter dem Schnitt der ersten Runde, frühestens ab der zweiten Runde.
+
+## Extra-Übungsaufgaben (`rechnen.js`)
+
+Für Rechenfächer (bisher nur „Statistik 2“, siehe `RECHEN_FAECHER`) gibt es den Button „Extra-Übungsaufgaben“: auf der Startseite unter Arcade und in der Seitenleiste jeder Vorlesung des Fachs (`#/rechnen/<Fach>`, `#/rechnen/<Fach>/<thema>`, `…/mix`). Jedes Thema hat ein `schema` (aus den Folien) und `neu()`, das eine Aufgabe mit **zufälligen Zahlen** erzeugt: Text, optional Tabelle, `schritte` (Zahl: `wert`, `stellen`, `toleranz`; Auswahl: `optionen`, `loesung`) und je Schritt eine `erklaerung` (Rechenweg). Es zählt nicht für XP oder „Kann ich“; die Bilanz pro Thema liegt in `localStorage` `ls-rechnen` (pro Gerät). Neue Themen nur mit Formeln aus den Folien; nach Änderungen in der Konsole `(await import("./rechnen.js")).testeRechnen(400)` laufen lassen.
 
 ## Technik (nicht ohne Grund ändern)
 

@@ -604,3 +604,27 @@ dialog.melde-dlg { text-align: left; width: min(520px, calc(100vw - 32px)); }
 .meldung-antwort { background: var(--fl2); border-radius: 10px; padding: .5rem .7rem; }
 .meldung .knopf { margin-top: .4rem; }
 .auftrag-text { width: 100%; box-sizing: border-box; font: .8rem/1.4 ui-monospace, monospace; margin: .6rem 0; padding: .5rem; border: 2px solid var(--rand); border-radius: 12px; background: var(--fl); color: var(--text); }
+
+/* ---------- Extra-Übungsaufgaben (rechnen.js) ---------- */
+.rechnen-gruppe h2 { margin: 1.4rem 0 .6rem; font-size: 1.1rem; }
+.rechnen-kachel { border-color: var(--akzent); }
+.rechen-aufgabe { display: grid; gap: .9rem; }
+.rechen-text { margin: 0; font-size: 1.08rem; line-height: 1.5; }
+.rechen-tabelle { width: auto; min-width: 260px; }
+.rechen-tabelle td, .rechen-tabelle th { text-align: right; font-variant-numeric: tabular-nums; }
+.rechen-schema { background: var(--fl2); border-radius: 12px; padding: .5rem .9rem; }
+.rechen-schema summary { cursor: pointer; font-weight: 700; }
+.rechen-schema ol { margin: .5rem 0 .2rem; padding-left: 1.3rem; line-height: 1.5; }
+.rechen-schritte { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; }
+.rechen-schritt { border: 2px solid var(--rand); border-radius: 14px; padding: .7rem .9rem; display: grid; gap: .5rem; }
+.rechen-schritt.aktiv { border-color: var(--akzent); }
+.rechen-schritt.ok { border-color: var(--gruen-kn); }
+.rechen-schritt.nok { border-color: var(--rot-kn); }
+.rechen-frage { font-weight: 700; }
+.rechen-eingabe { display: flex; gap: .6rem; align-items: center; }
+.rechen-feld { max-width: 220px; }
+.rechen-wahl { display: flex; gap: .5rem; flex-wrap: wrap; }
+.rechen-ergebnis:empty { display: none; }
+.rechen-weg { color: var(--muted); margin-top: .2rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.rechen-fuss { display: grid; gap: .7rem; justify-items: start; }
+.rechen-fuss:empty { display: none; }

@@ -2,10 +2,10 @@
 // Immer zuerst aus dem Netz laden (damit neue Lernstoffe sofort ankommen),
 // ohne Netz die zuletzt gespeicherte Fassung nehmen.
 
-const SPEICHER = "lernspiel-v7";
+const SPEICHER = "lernspiel-v8";
 const APP_DATEIEN = [
   "./", "index.html", "style.css", "manifest.webmanifest", "icon.svg",
-  "app.js", "util.js", "speicher.js", "katalog.js", "aufgaben.js", "spiel.js", "runde.js", "klausur.js", "pruefen.js", "meldungen.js",
+  "app.js", "util.js", "speicher.js", "katalog.js", "aufgaben.js", "spiel.js", "runde.js", "klausur.js", "pruefen.js", "meldungen.js", "rechnen.js",
   "daten/index.json"
 ];
 

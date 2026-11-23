@@ -12,6 +12,7 @@ import { spieleRunde } from "./runde.js";
 import { spieleKlausur } from "./klausur.js";
 import { pruefSeite } from "./pruefen.js";
 import { M, ladeMeldungen, meldungsZeile, statusVon, STATUS, meldungenAlsAuftrag } from "./meldungen.js";
+import { hatRechnen, rechnenKachel, rechnenUebersicht, rechnenUeben } from "./rechnen.js";
 
 const app = document.getElementById("app");
 let aufraeumen = null;
@@ -125,7 +126,8 @@ function fachBlock(name, docs) {
       },
         h("option", { value: "f:" + name, selected: auswahl === "f:" + name }, "Alle Vorlesungen"),
         docs.map(d => h("option", { value: "d:" + d.id, selected: auswahl === "d:" + d.id }, d.kurztitel))))),
-    kacheln);
+    kacheln,
+    hatRechnen(name) ? [h("h3", {}, "Extra-Übungsaufgaben"), h("div", { class: "kacheln" }, rechnenKachel(name))] : null);
 }
 
 function vorlesungKarte(doc) {
@@ -183,6 +185,7 @@ function kartenSeite(docId) {
           h("small", { class: "panel-info" }, `🧠 ${k.fest} von ${ids.length} Wissenspunkten sitzen fest`),
           h("a", { class: "knopf leise stat-knopf", href: "#/statistik" }, "📈 Level-Statistik")),
         h("section", { class: "panel" }, h("h3", {}, "Arcade"), modusKacheln("d:" + doc.id)),
+        hatRechnen(doc.fach) ? h("section", { class: "panel" }, h("h3", {}, "Extra-Übungsaufgaben"), h("div", { class: "kacheln" }, rechnenKachel(doc.fach))) : null,
         schwerPanel(ids))));
   setTimeout(() => document.querySelector(".knoten-box.hier")?.scrollIntoView({ block: "center", behavior: "smooth" }), 80);
 }
@@ -636,6 +639,12 @@ function route() {
   } else if (was === "klausur" && docVon(a)?.probeklausur) {
     fuelle(app);
     aufraeumen = spieleKlausur(app, docVon(a));
+  } else if (was === "rechnen" && hatRechnen(a)) {
+    if (!b) seite(rechnenUebersicht(a));
+    else {
+      fuelle(app, kopfleiste(), h("div", { class: "seite" }));
+      if (!rechnenUeben(app.querySelector(".seite"), a, b)) seite(rechnenUebersicht(a));
+    }
   } else if (was === "karte") kartenSeite(a);
   else if (was === "statistik") statistikSeite();
   else if (was === "fortschritt") fortschrittSeite();
