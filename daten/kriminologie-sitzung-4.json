@@ -1,0 +1,3089 @@
+{
+   "arbeitsblatt": {
+      "aufgaben": [
+         {
+            "ab": true,
+            "frage": "Wie funktioniert die operante Konditionierung theoretisch?",
+            "id": "krim-s4-ab1",
+            "kernpunkte": [
+               "Verhalten wird durch Konsequenzen beeinflusst (Verstärkung bzw. Bestrafung)",
+               "aktive Rolle des Individuums: Lernen durch Versuch und Irrtum",
+               "Anpassung des Verhaltens, um gewünschte Ergebnisse zu erzielen",
+               "Beispiel: Ratte in der Skinner-Box"
+            ],
+            "musterloesung": "Bei der operanten Konditionierung wird Verhalten durch seine Konsequenzen beeinflusst: Verstärkung (Belohnung) macht es wahrscheinlicher, Bestrafung unwahrscheinlicher. Anders als bei der klassischen Konditionierung ist das Individuum aktiv; es lernt durch Versuch und Irrtum und passt sein Verhalten an, um gewünschte Ergebnisse zu erzielen – etwa die Ratte in der Skinner-Box, die durch Hebeldrücken Futter bekommt.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-C1-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "erklaerung": "Der Ablauf des Experiments steht nicht auf der Folie (nur Verweis auf ein Video); bitte mit dem Video abgleichen.",
+            "frage": "Erläutern Sie das „Bobo Doll Experiment“ von Albert Bandura und seine Schlussfolgerungen daraus.",
+            "id": "krim-s4-ab2",
+            "kernpunkte": [
+               "Kinder beobachten ein Modell, das sich aggressiv gegenüber einer Puppe verhält",
+               "Kinder ahmen das aggressive Verhalten nach (Aggression und Nachahmungseffekte)",
+               "Schluss: Modell- bzw. Beobachtungslernen; Lernen nicht nur durch eigene Belohnung/Bestrafung",
+               "Baustein der Social Learning Theory (Akers/Bandura)"
+            ],
+            "musterloesung": "Im Bobo-Doll-Experiment beobachteten Kinder ein erwachsenes Vorbild, das eine Puppe aggressiv behandelte. Danach verhielten sich die Kinder selbst ähnlich aggressiv gegenüber der Puppe. Bandura folgerte, dass Verhalten auch durch Beobachtung und Nachahmung eines Modells gelernt wird (Modelllernen), nicht nur durch eigene Belohnung oder Bestrafung. Das ist ein Kernbaustein der Social Learning Theory.",
+            "pruefen": true,
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-C6-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Nach Sutherland (1934) ist abweichendes bzw. kriminelles Verhalten, wie jedes andere Verhalten auch, erlernt. In seiner Theorie der differentiellen Assoziation führt er die neun Prinzipien des Erlernens krimineller Verhaltensweisen auf. Welche sind das?",
+            "id": "krim-s4-ab3",
+            "kernpunkte": [
+               "(1) kriminelles Verhalten wird erlernt, (2) in Interaktion mit anderen (Kommunikation), (3) in kleinen sozialen Gruppen",
+               "(4) praktische Fertigkeiten, (5) Werte, Normen, Einstellungen, (6) Definitionen pro und kontra Gesetzesverstöße",
+               "(7) Häufigkeit, Dauer, Priorität und Intensität sind relevant",
+               "(8) gleiche Mechanismen wie jedes Lernen, (9) allgemeine Bedürfnisse und Werte erklären Kriminalität nicht"
+            ],
+            "musterloesung": "(1) Kriminelles Verhalten wird erlernt, (2) in Interaktion mit anderen in Kommunikationsprozessen, (3) in kleinen sozialen Gruppen. (4) Gelernt werden praktische Fertigkeiten („kriminelles Handwerkszeug“), (5) Werte, Normen und Einstellungen und (6) Definitionen („Wahrheiten“) pro und kontra Gesetzesverstöße. (7) Häufigkeit, Dauer, Priorität und Intensität der Kontakte sind entscheidend. (8) Der Lernprozess folgt den gleichen Mechanismen wie jedes andere Lernen. (9) Allgemeine Bedürfnisse und Werte erklären Kriminalität nicht.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-C3-w1",
+               "krim-s4-C3-w2",
+               "krim-s4-C3-w3"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Welche Deliktsbereiche kann Sutherland gut bzw. weniger gut erklären?",
+            "id": "krim-s4-ab4",
+            "kernpunkte": [
+               "gut: in Gruppen erlernte Delikte mit Fertigkeiten und zustimmenden Definitionen, z. B. Drogenkonsum, Prostitution, Waffenkauf",
+               "weniger gut: Affekttaten",
+               "Ursprung abweichenden Verhaltens wird nicht erklärt"
+            ],
+            "musterloesung": "Gut erklärbar sind Delikte, die in Gruppen erlernt werden und für die man Fertigkeiten und zustimmende Definitionen braucht, etwa Drogenkonsum, Prostitution oder Waffenkauf. Weniger gut erklärbar sind spontane Affekttaten. Außerdem bleibt offen, wie abweichendes Verhalten ursprünglich entsteht.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-C4-w2",
+               "krim-s4-C5-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Nennen Sie die Grundannahmen der Bindungstheorie.",
+            "id": "krim-s4-ab5",
+            "kernpunkte": [
+               "natürliche Neigung jedes Menschen zur Kriminalität",
+               "Fokus auf Konformität: Warum begehen die meisten Menschen keine Straftaten?",
+               "informelle und formelle soziale Kontrolle",
+               "soziale Bindungen (Familie, Schule, Gesellschaft) verhindern kriminelles Verhalten"
+            ],
+            "musterloesung": "Die Bindungstheorie (Hirschi 1969) ist eine Kontrolltheorie. Jeder Mensch neigt von Natur aus zu Kriminalität; soziale Kontrolle schränkt diese Neigung ein. Statt nach Ursachen der Kriminalität fragt sie, warum Menschen konform bleiben („Warum begehen die meisten Menschen keine Straftaten?“). Die Antwort sind informelle und formelle soziale Kontrolle, besonders soziale Bindungen an Familie, Schule und Gesellschaft.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-D1-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Was sind die vier wesentlichen Elemente sozialer Bindung/Kontrolle?",
+            "id": "krim-s4-ab6",
+            "kernpunkte": [
+               "Attachment: Familie, Freunde, Gemeinschaft",
+               "Commitment: Zukunft, Karriere, Erfolg, persönliche Ziele",
+               "Belief: Ehrlichkeit, Werte, Normen, Moral, Fairness",
+               "Involvement: schulische Aktivitäten, Ehrenamt, Religion, Sportvereine"
+            ],
+            "musterloesung": "Nach Hirschi (1969): Attachment (Bindung an Familie, Freunde, Gemeinschaft), Commitment (Verpflichtung gegenüber Zukunft, Karriere, Erfolg und persönlichen Zielen), Belief (Überzeugung von Ehrlichkeit, Werten, Normen, Moral und Fairness) und Involvement (Einbindung in Aktivitäten wie Schule, Ehrenamt, religiöse Gruppen oder Sportvereine).",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-D2-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Welche Deliktsfelder kann die Rational Choice Theorie besonders gut erklären?",
+            "id": "krim-s4-ab7",
+            "kernpunkte": [
+               "Eigentums- und Vermögensdelikte",
+               "organisierte Kriminalität",
+               "Wirtschaftskriminalität"
+            ],
+            "musterloesung": "Besonders gut erklärt die Rational Choice Theorie geplante Taten mit Kosten-Nutzen-Abwägung: Eigentums- und Vermögensdelikte, organisierte Kriminalität und Wirtschaftskriminalität.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-B3-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Nennen Sie wesentliche Kritikpunkte an der Rational Choice Theorie.",
+            "id": "krim-s4-ab8",
+            "kernpunkte": [
+               "irrationale, psychologische und situative Faktoren ausgeblendet (Affekte, unbewusste Konflikte, Sucht, Zwänge, Dominanz; bei Wirtschaftskriminalität Ehrgeiz, Status, Konkurrenzdruck, Gruppenkonformität)",
+               "Realitätsferne: Rational-Choice-Kriminalität taucht selten in Justiz und Vollzug auf; Verurteilte dachten nicht an Folgen",
+               "homo oeconomicus blendet Gefühle, idealistische Motive, Anerkennung und Zugehörigkeit aus",
+               "empirisch nur geringe Abschreckungseffekte (negative Generalprävention)"
+            ],
+            "musterloesung": "Erstens blendet sie irrationale, psychologische und situative Faktoren aus: Affekte, unbewusste Konflikte, Sucht, Zwänge, Dominanzverhalten, bei Wirtschaftskriminalität auch Ehrgeiz, Statusdenken, Konkurrenzdruck oder Gruppenkonformität. Zweitens ist sie realitätsfern: Rational handelnde Täter:innen kalkulieren das Risiko ein und sichern sich ab, sodass sie selten in Justiz und Vollzug auftauchen; Verurteilte haben oft nicht über Folgen nachgedacht. Das Menschenbild des homo oeconomicus übersieht Gefühle, idealistische Motive und das Bedürfnis nach Anerkennung und Zugehörigkeit. Drittens zeigt die Empirie nur geringe Abschreckungseffekte durch Strafen.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-B4-w1",
+               "krim-s4-B4-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "erklaerung": "Anwendung der Theorien; die Vorlesung gibt keine Lösung vor.",
+            "frage": "In Schweden wird aufgrund der Zunahme von Bandenkriminalität eine Absenkung des Strafmündigkeitsalters auf 13 Jahre diskutiert. Beurteilen Sie die Forderung mit Hilfe der Rational-Choice Theorie, biologischer/entwicklungspsychologischer Befunde und der Bindungs-/Lerntheorien.",
+            "id": "krim-s4-ab9",
+            "kernpunkte": [
+               "Rational Choice: Absenkung soll abschrecken; empirisch nur geringe Abschreckungseffekte, Kinder kalkulieren kaum",
+               "Biologie/Entwicklung: präfrontaler Kortex, exekutive Funktionen, Pubertät → Entscheidungsfindung noch in Entwicklung",
+               "Bindungstheorie: Bindungen an Familie/Schule stärken; Strafe kann Bindungen schwächen",
+               "Lerntheorie: Banden als Lernorte; Strafe/Haft kann Kontakt zu kriminellen Gruppen verstärken → Prävention und andere Lernumfelder"
+            ],
+            "musterloesung": "Rational Choice: Die Forderung setzt auf Abschreckung durch höhere Kosten. Empirisch sind Abschreckungseffekte aber gering, und 13-Jährige wägen Folgen kaum rational ab. Biologische und entwicklungsbezogene Befunde zeigen, dass präfrontaler Kortex, exekutive Funktionen und Impulskontrolle in der Pubertät noch reifen. Bindungstheorie: Jugendliche halten vor allem Bindungen an Familie und Schule von Kriminalität ab; Strafen können diese Bindungen schwächen. Lerntheorien: Kriminalität wird in Gruppen gelernt, Banden sind Lernorte; Sanktionen wie Haft können den Kontakt zu kriminellen Gruppen verstärken. Die Theorien sprechen eher für Prävention, Bindungsstärkung und andere Lernumfelder als für eine frühere Strafmündigkeit.",
+            "pruefen": true,
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-E2-w1",
+               "krim-s4-B4-w2",
+               "krim-s4-A5-w1",
+               "krim-s4-D2-w1",
+               "krim-s4-C3-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "erklaerung": "Verdrängung und Privatsphäre sind Anwendungsüberlegungen, nicht Folieninhalt.",
+            "frage": "Es wird immer wieder diskutiert, an Bahnhöfen Videoüberwachungen einzuführen bzw. auszuweiten. Welche Wirkungen sagt die Rational-Choice Theorie voraus? Welche unbeabsichtigten Effekte sind denkbar? Skizzieren Sie Argumente von Befürworter:innen und Kritiker:innen?",
+            "id": "krim-s4-ab10",
+            "kernpunkte": [
+               "Rational Choice: höhere Entdeckungswahrscheinlichkeit = höhere Kosten → weniger geplante Taten",
+               "unbeabsichtigt: Verdrängung an andere Orte, keine Wirkung auf Affekt-/Rausch-/Suchttaten, Anpassung rationaler Täter",
+               "Befürworter:innen: Abschreckung, Aufklärung, Sicherheitsgefühl",
+               "Kritiker:innen: geringe Abschreckungseffekte, irrationale Faktoren ausgeblendet, Privatsphäre"
+            ],
+            "musterloesung": "Nach Rational Choice erhöhen Kameras die wahrgenommene Entdeckungswahrscheinlichkeit und damit die Kosten einer Tat; geplante Taten wie Taschen- oder Fahrraddiebstahl sollten seltener werden. Unbeabsichtigt kann Kriminalität an unbewachte Orte verdrängt werden; Affekttaten und Taten unter Alkohol oder Sucht bleiben weitgehend unbeeinflusst. Befürworter:innen betonen Abschreckung, bessere Aufklärung und mehr Sicherheitsgefühl. Kritiker:innen verweisen auf die empirisch geringen Abschreckungseffekte, die Ausblendung irrationaler Faktoren und den Eingriff in die Privatsphäre.",
+            "pruefen": true,
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-E3-w1",
+               "krim-s4-B2-w1",
+               "krim-s4-B4-w2"
+            ]
+         }
+      ],
+      "titel": "Arbeitsblatt 4: „Klassische“ Theorien"
+   },
+   "fach": "Kriminologie",
+   "format": 1,
+   "id": "krim-s4",
+   "kurztitel": "Sitzung 4",
+   "probeklausur": {
+      "anzahl": 14,
+      "aufgaben": [
+         {
+            "frage": "Ordne die Theorien ihrer Analyseebene zu.",
+            "id": "krim-s4-pk1",
+            "items": [
+               {
+                  "kategorie": "Mikroebene",
+                  "text": "Rational Choice"
+               },
+               {
+                  "kategorie": "Mikroebene",
+                  "text": "Lerntheorien"
+               },
+               {
+                  "kategorie": "Mesoebene",
+                  "text": "Bindungstheorie"
+               },
+               {
+                  "kategorie": "Mesoebene",
+                  "text": "Selbstkontrolltheorie"
+               },
+               {
+                  "kategorie": "Makroebene",
+                  "text": "Anomietheorie"
+               },
+               {
+                  "kategorie": "Makroebene",
+                  "text": "Subkulturtheorie"
+               }
+            ],
+            "kategorien": [
+               "Mikroebene",
+               "Mesoebene",
+               "Makroebene"
+            ],
+            "typ": "beispiel",
+            "wissen": [
+               "krim-s4-A1-w2"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja, nicht empirisch belegt.",
+                  "richtig": true,
+                  "text": "Lombrosos Annahmen sind nach heutigen wissenschaftlichen Standards nicht haltbar."
+               },
+               {
+                  "begruendung": "Nein, nur Korrelation mit Impulsivität.",
+                  "richtig": false,
+                  "text": "Niedrige Serotoninspiegel beeinflussen kriminelles Verhalten kausal."
+               },
+               {
+                  "begruendung": "Nein, hormonelle Einflüsse determinieren nichts.",
+                  "richtig": false,
+                  "text": "Testosteron determiniert kriminelles Verhalten."
+               },
+               {
+                  "begruendung": "Ja, Befund der Biosocial Criminology.",
+                  "richtig": true,
+                  "text": "Pränatale und frühkindliche Belastungen können biologische Reaktionsmuster beeinflussen."
+               }
+            ],
+            "frage": "Welche Aussagen zu biologischen Kriminalitätstheorien treffen zu?",
+            "id": "krim-s4-pk2",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "krim-s4-A2-w1",
+               "krim-s4-A4-w1",
+               "krim-s4-A5-w1"
+            ],
+            "zeigen": 4
+         },
+         {
+            "frage": "Was zeigen Zwillings- und Adoptionsstudien, und welche Grenzen haben sie?",
+            "id": "krim-s4-pk3",
+            "kernpunkte": [
+               "eineiige Zwillinge 33 %, zweieiige 12,5 % Übereinstimmung",
+               "Adoptivsöhne: 20 % bei kriminellem, 13,5 % bei nichtkriminellem biologischem Vater, 24,5 % wenn auch Adoptivvater kriminell",
+               "keine eindeutige genetische Verursachung; Umwelt nicht kontrolliert → Wechselwirkung Anlage/Umwelt"
+            ],
+            "musterloesung": "Eineiige Zwillinge stimmen häufiger in Kriminalität überein (33 %) als zweieiige (12,5 %). Adoptivsöhne krimineller biologischer Väter sind häufiger kriminell (20 % gegenüber 13,5 %), am häufigsten, wenn auch der Adoptivvater kriminell ist (24,5 %). Eine eindeutige genetische Ursache lässt sich nicht nachweisen, weil Umwelteinflüsse und Adoptionskriterien nicht ausreichend kontrolliert sind; die Befunde sprechen für eine Wechselwirkung von Anlage und Umwelt.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-A3-w1",
+               "krim-s4-A3-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "Der Fokus liegt auf der Täter:in, nicht der Situation.",
+               "Das Risiko der Entdeckung wird nicht einkalkuliert.",
+               "Sie erklärt Affekttaten.",
+               "Sie geht von biologischem Determinismus aus."
+            ],
+            "frage": "Welche Aussage zur Rational Choice Theorie ist korrekt?",
+            "id": "krim-s4-pk4",
+            "richtig": [
+               "Irrationale, psychologische oder situative Faktoren werden ausgeblendet."
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s4-B1-w1",
+               "krim-s4-B4-w1"
+            ]
+         },
+         {
+            "frage": "Nutzen oder Kosten im Sinne Beckers (1968)?",
+            "id": "krim-s4-pk5",
+            "items": [
+               {
+                  "kategorie": "Nutzen",
+                  "text": "wirtschaftlicher Gewinn"
+               },
+               {
+                  "kategorie": "Nutzen",
+                  "text": "Anerkennung in der Gruppe"
+               },
+               {
+                  "kategorie": "Kosten",
+                  "text": "Wahrscheinlichkeit der Entdeckung"
+               },
+               {
+                  "kategorie": "Kosten",
+                  "text": "Risiko und Höhe der Bestrafung"
+               },
+               {
+                  "kategorie": "Kosten",
+                  "text": "soziale Konsequenzen"
+               }
+            ],
+            "kategorien": [
+               "Nutzen",
+               "Kosten"
+            ],
+            "typ": "beispiel",
+            "wissen": [
+               "krim-s4-B2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Affekttaten",
+               "Taten unter Suchtdruck"
+            ],
+            "frage": "Für welche Delikte ist die Rational Choice Theorie besonders relevant?",
+            "id": "krim-s4-pk6",
+            "richtig": [
+               "Eigentums- und Vermögensdelikte",
+               "organisierte Kriminalität",
+               "Wirtschaftskriminalität"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "krim-s4-B3-w1"
+            ]
+         },
+         {
+            "frage": "Ordne die Lernformen ihrem Beispiel zu.",
+            "id": "krim-s4-pk7",
+            "paare": [
+               {
+                  "links": "klassische Konditionierung",
+                  "rechts": "Pawlows Hunde"
+               },
+               {
+                  "links": "operante Konditionierung",
+                  "rechts": "Ratte in der Skinner-Box"
+               },
+               {
+                  "links": "Modell-/Beobachtungslernen",
+                  "rechts": "Bobo-Doll-Experiment"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "krim-s4-C1-w1",
+               "krim-s4-C1-w2",
+               "krim-s4-C6-w2"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "krim-s4-pk8",
+            "luecken": [
+               [
+                  "Gruppen"
+               ],
+               [
+                  "Definitionen"
+               ],
+               [
+                  "Priorität"
+               ]
+            ],
+            "text": "Nach Sutherland wird kriminelles Verhalten in Interaktion in kleinen sozialen {} erlernt. Gelernt werden Fertigkeiten, Werte und {} pro und kontra Gesetzesverstöße; relevant sind Häufigkeit, Dauer, {} und Intensität.",
+            "typ": "lueckentext",
+            "wissen": [
+               "krim-s4-C3-w1",
+               "krim-s4-C3-w2"
+            ]
+         },
+         {
+            "fall": "Jana (16) jobbt in einem Kiosk. Ihre Kolleg:innen nehmen sich regelmäßig Zigaretten aus dem Lager und sagen: „Das merkt doch keiner, und der Chef verdient genug.“ Sie zeigen ihr, wie man den Bestand anpasst. An einem ruhigen Abend ist sie allein im Laden.",
+            "frage": "Wie würde Sutherland erklären, dass Jana anfängt, Zigaretten mitzunehmen?",
+            "id": "krim-s4-pk9",
+            "kernpunkte": [
+               "Lernen in Interaktion in kleiner Gruppe (Kolleg:innen), häufige/intensive Kontakte",
+               "Definitionen pro Gesetzesverstoß („merkt keiner“, „Chef verdient genug“) überwiegen",
+               "Fertigkeiten (Bestand anpassen) gelernt",
+               "günstige Gelegenheit (allein im Laden)"
+            ],
+            "musterloesung": "Jana lernt in Interaktion mit einer kleinen Gruppe, mit der sie häufig und intensiv Kontakt hat. Sie übernimmt Definitionen pro Gesetzesverstoß („das merkt keiner“, „der Chef verdient genug“), die die Definitionen dagegen überwiegen. Sie lernt die nötige Technik (Bestand anpassen). Und sie hat eine günstige Gelegenheit, als sie allein im Laden ist. Damit sind alle drei Bedingungen erfüllt.",
+            "typ": "fall",
+            "wissen": [
+               "krim-s4-C4-w1",
+               "krim-s4-C4-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "Kriminelles Verhalten wird durch biologische Veranlagung weitergegeben.",
+               "Bandura nimmt an, Verhalten werde ausschließlich durch eigene Belohnung und Bestrafung gelernt.",
+               "Nach Sutherland wird kriminelles Verhalten nur gelernt, wenn keine Bindung zu Familie und Schule besteht.",
+               "Akers lehnt Sutherlands Theorie vollständig ab."
+            ],
+            "frage": "Welche Aussage zu den lerntheoretischen Ansätzen ist korrekt?",
+            "id": "krim-s4-pk10",
+            "richtig": [
+               "Akers verbindet Sutherlands Theorie mit operanter Konditionierung und Beobachtungslernen und betont differenzielle Verstärkung und Imitation."
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s4-C6-w1",
+               "krim-s4-C3-w3"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Anzahl krimineller Freunde, Kausalrichtung unklar",
+               "kriminelle Freunde",
+               "Anzahl krimineller Freunde"
+            ],
+            "frage": "Welcher empirische Befund (Warr, 2001) stützt die Lerntheorie, und was bleibt dabei unklar?",
+            "id": "krim-s4-pk11",
+            "musterloesung": "Die Anzahl krimineller Freunde ist ein starker Prädiktor für kriminelles Verhalten; die Kausalrichtung bleibt aber unklar.",
+            "typ": "kurzfrage",
+            "wissen": [
+               "krim-s4-C5-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Attachment, Belief, Commitment, Morality",
+               "Achievement, Belief, Commitment, Involvement",
+               "Achievement, Belief, Commitment, Morality",
+               "Attachment, Control, Belief, Identity"
+            ],
+            "frage": "Welche Antwort nennt die vier Elemente sozialer Bindung nach Hirschi richtig?",
+            "id": "krim-s4-pk12",
+            "richtig": [
+               "Attachment, Belief, Commitment, Involvement"
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s4-D2-w1"
+            ]
+         },
+         {
+            "frage": "Erkläre den Perspektivwechsel der Kontrolltheorien.",
+            "id": "krim-s4-pk13",
+            "kernpunkte": [
+               "jeder Mensch neigt von Natur aus zu Kriminalität",
+               "nicht Frage nach Ursachen, sondern: Warum bleiben die meisten konform?",
+               "soziale Kontrolle/Bindungen verhindern Kriminalität"
+            ],
+            "musterloesung": "Kontrolltheorien nehmen an, dass jeder Mensch von Natur aus zu Kriminalität neigt. Sie fragen daher nicht, warum Menschen Straftaten begehen, sondern warum die meisten es nicht tun. Die Antwort ist soziale Kontrolle, vor allem soziale Bindungen an Familie, Schule und Gesellschaft.",
+            "typ": "definition",
+            "wissen": [
+               "krim-s4-D1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Die Freunde bringen einem Kriminalität bei.",
+               "Kriminalität führt zu neuen Freundschaften.",
+               "Es gibt keinen Zusammenhang.",
+               "Gene bewirken beides."
+            ],
+            "frage": "Wie deutet Hirschi die Korrelation zwischen delinquenten Freunden und eigener Delinquenz?",
+            "id": "krim-s4-pk14",
+            "richtig": [
+               "als Scheinkorrelation: Fehlende Bindung an die Gesellschaft bewirkt beides."
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s4-D3-w2"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Nein, genau das ist der Kerngedanke: geringe Selbstkontrolle erklärt Kriminalität.",
+                  "richtig": false,
+                  "text": "Kriminelles Verhalten ist durch geringe Selbstkontrolle nicht erklärbar."
+               },
+               {
+                  "begruendung": "Ja (Opportunity).",
+                  "richtig": true,
+                  "text": "Die Gelegenheit ist notwendig, um Kriminalität zu realisieren."
+               },
+               {
+                  "begruendung": "Nein, sie sind zweifelhaft und unbelegt.",
+                  "richtig": false,
+                  "text": "Die Annahmen lebenslanger niedriger Selbstkontrolle sind empirisch gut belegt."
+               },
+               {
+                  "begruendung": "Ja, durch frühkindliche Fürsorge.",
+                  "richtig": true,
+                  "text": "Selbstkontrolle entwickelt sich bis etwa 8 Jahre."
+               }
+            ],
+            "frage": "Welche Aussagen zur General Theory of Crime sind korrekt?",
+            "id": "krim-s4-pk15",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "krim-s4-D4-w1",
+               "krim-s4-D4-w2"
+            ],
+            "zeigen": 4
+         },
+         {
+            "frage": "Nenne drei Kritikpunkte an der General Theory of Crime.",
+            "id": "krim-s4-pk16",
+            "kernpunkte": [
+               "Tautologie: niedrige Selbstkontrolle wird aus Kriminalität geschlossen",
+               "Verantwortung primär bei den Eltern; konservativer Erziehungsstil, weniger gesellschaftliche Verantwortung",
+               "lebenslange Konstanz empirisch unbelegt, widerspricht entwicklungsbezogener Kriminologie",
+               "eher Theorie niedriger Selbstkontrolle; Moralisierung; Rolle staatlicher Kontrolle unklar"
+            ],
+            "musterloesung": "Erstens ist die Theorie tautologisch: Kriminalität wird mit niedriger Selbstkontrolle erklärt, die wiederum aus kriminellem Verhalten erschlossen wird. Zweitens verlagert sie die Verantwortung auf die Eltern und betont einen konservativen Erziehungsstil, während die Gesellschaft entlastet wird. Drittens ist die Annahme lebenslanger Konstanz empirisch unbelegt und widerspricht der entwicklungsbezogenen Kriminologie.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s4-D4-w2"
+            ]
+         },
+         {
+            "ausreisser": [
+               "Rational-Choice-Ansatz"
+            ],
+            "frage": "Welche Theorie ist keine individualbezogene, ätiologische Theorie im Sinne der Take Home Messages?",
+            "gehoert": [
+               "Theorie der differenziellen Assoziation",
+               "soziale Lerntheorie",
+               "Bindungstheorie"
+            ],
+            "id": "krim-s4-pk17",
+            "typ": "wasPasstNicht",
+            "wissen": [
+               "krim-s4-E1-w2"
+            ]
+         },
+         {
+            "frage": "Ordne die Theorie ihrem Namen zu.",
+            "id": "krim-s4-pk18",
+            "paare": [
+               {
+                  "links": "Lombroso (1876)",
+                  "rechts": "Der geborene Verbrecher"
+               },
+               {
+                  "links": "Becker (1968)",
+                  "rechts": "Theorie der rationalen Wahl"
+               },
+               {
+                  "links": "Sutherland (1934)",
+                  "rechts": "differenzielle Assoziation"
+               },
+               {
+                  "links": "Hirschi (1969)",
+                  "rechts": "Social Control Theory"
+               },
+               {
+                  "links": "Gottfredson & Hirschi (1990)",
+                  "rechts": "General Theory of Crime"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "krim-s4-A2-w1",
+               "krim-s4-B2-w1",
+               "krim-s4-C3-w1",
+               "krim-s4-D2-w1",
+               "krim-s4-D4-w1"
+            ],
+            "zeigen": 5
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur Kriminologie I, Sitzung 4"
+   },
+   "quelle": [
+      "Kriminologie/4_KRI_Klassische Theorien.pdf",
+      "Kriminologie/Arbeitsblatt 4.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Zeitlose Weisheiten? „Klassische“ Theorien",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 262,
+         "id": "krim-s4-A",
+         "level": [
+            {
+               "id": "krim-s4-A1",
+               "titel": "Mikro, Meso, Makro",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Ebenen ihrer Perspektive zu.",
+                           "id": "krim-s4-A1-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Mikroebene",
+                                 "rechts": "Individualperspektive: einzelne Personen und ihre Entwicklung"
+                              },
+                              {
+                                 "links": "Mesoebene",
+                                 "rechts": "Gruppenperspektive: soziale Gruppen und unmittelbares Umfeld"
+                              },
+                              {
+                                 "links": "Makroebene",
+                                 "rechts": "Gesellschaftsperspektive: gesellschaftliche/strukturelle Zusammenhänge"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, das ist die Makroebene; die Mikroebene betrachtet einzelne Personen.",
+                                 "richtig": false,
+                                 "text": "Die Mikroebene betrachtet gesellschaftliche und strukturelle Zusammenhänge."
+                              },
+                              {
+                                 "begruendung": "Ja, das ist die Gruppenperspektive.",
+                                 "richtig": true,
+                                 "text": "Die Mesoebene betrachtet soziale Gruppen und ihr unmittelbares Umfeld."
+                              },
+                              {
+                                 "begruendung": "Nein, sie gehören zur Mikroebene (Individualperspektive).",
+                                 "richtig": false,
+                                 "text": "Biologische Theorien gehören zur Makroebene."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-A1-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Mesoebene",
+                              "Meso-Ebene",
+                              "Meso"
+                           ],
+                           "frage": "Wie heißt die Ebene der Gruppenperspektive?",
+                           "id": "krim-s4-A1-w1-a3",
+                           "musterloesung": "Mesoebene.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s4-A1-w1",
+                     "merke": "Kriminologische Theorien lassen sich nach **Analyseebenen** ordnen: **Mikroebene** = **Individualperspektive** (einzelne Personen und ihre Entwicklung), **Mesoebene** = **Gruppenperspektive** (soziale Gruppen und unmittelbares Umfeld), **Makroebene** = **Gesellschaftsperspektive** (gesellschaftliche/strukturelle Zusammenhänge).",
+                     "titel": "Die drei Ebenen"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Auf welcher Ebene steht die Theorie?",
+                           "id": "krim-s4-A1-w2-a1",
+                           "items": [
+                              {
+                                 "kategorie": "Mikroebene",
+                                 "text": "Biologische Ansätze"
+                              },
+                              {
+                                 "kategorie": "Mikroebene",
+                                 "text": "Rational Choice Theorie"
+                              },
+                              {
+                                 "kategorie": "Mikroebene",
+                                 "text": "Lerntheoretische Ansätze"
+                              },
+                              {
+                                 "kategorie": "Mesoebene",
+                                 "text": "Bindungstheorie"
+                              },
+                              {
+                                 "kategorie": "Mesoebene",
+                                 "text": "Selbstkontrolltheorie"
+                              },
+                              {
+                                 "kategorie": "Makroebene",
+                                 "text": "Anomietheorie"
+                              },
+                              {
+                                 "kategorie": "Makroebene",
+                                 "text": "Labeling Approach"
+                              },
+                              {
+                                 "kategorie": "Makroebene",
+                                 "text": "Theorie der sozialen Desorganisation"
+                              }
+                           ],
+                           "kategorien": [
+                              "Mikroebene",
+                              "Mesoebene",
+                              "Makroebene"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "Mikroebene (Individualperspektive)",
+                              "Makroebene (Gesellschaftsperspektive)",
+                              "Sie gehören zu keiner Ebene.",
+                              "zu den integrativen Konzepten"
+                           ],
+                           "fragen": [
+                              "Auf welcher Ebene ordnet die Vorlesung die Bindungstheorie ein?",
+                              "Zu welcher Analyseebene gehören Bindungs- und Selbstkontrolltheorie?"
+                           ],
+                           "id": "krim-s4-A1-w2-a2",
+                           "richtig": [
+                              "Mesoebene (Gruppenperspektive)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "ausreisser": [
+                              "Anomietheorie",
+                              "Subkulturtheorie",
+                              "Labeling Approach"
+                           ],
+                           "frage": "Was gehört nicht zur Mikroebene?",
+                           "gehoert": [
+                              "Biologische Theorien",
+                              "Rational Choice Theorie",
+                              "Theorie der differenziellen Assoziation",
+                              "Social Learning Theory"
+                           ],
+                           "id": "krim-s4-A1-w2-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "krim-s4-A1-w2",
+                     "merke": "**Mikro:** biologische Ansätze, **Rational Choice**, **Lerntheorien**. **Meso:** **Bindungstheorie**, **Selbstkontrolltheorie**. **Makro:** soziale Desorganisation, Subkulturtheorie, Labeling Approach, General Strain, **Anomietheorie**. Daneben **integrative Konzepte** (Lebenslauftheorien, Routine Activity, Situational Action Theory).",
+                     "titel": "Welche Theorie wohin"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-A2",
+               "titel": "Lombroso: der geborene Verbrecher",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Kriminalität wird in kleinen Gruppen erlernt.",
+                              "Kriminalität entsteht durch fehlende soziale Bindungen.",
+                              "Kriminalität ist eine rationale Kosten-Nutzen-Entscheidung.",
+                              "Kriminalität entsteht durch geringe Selbstkontrolle."
+                           ],
+                           "fragen": [
+                              "Was behauptete Lombroso mit dem „geborenen Verbrecher“?",
+                              "Worin besteht Lombrosos biologischer Determinismus?"
+                           ],
+                           "id": "krim-s4-A2-w1-a1",
+                           "richtig": [
+                              "Kriminalität ist anlagebedingt und am Phänotyp ablesbar."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, sie sind empirisch nicht belegt.",
+                                 "richtig": true,
+                                 "text": "Lombrosos Annahmen sind nach heutigen wissenschaftlichen Standards nicht haltbar."
+                              },
+                              {
+                                 "begruendung": "Ja, seit Beginn des 20. Jahrhunderts.",
+                                 "richtig": true,
+                                 "text": "Lombrosos Theorie wird auch wegen ihrer rassistischen Hintergründe kritisiert."
+                              },
+                              {
+                                 "begruendung": "Nein, er steht für die positivistische Schule.",
+                                 "richtig": false,
+                                 "text": "Lombroso gilt als Vertreter der klassischen Schule."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-A2-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-A2-w1-a3",
+                           "luecken": [
+                              [
+                                 "Verbrecher"
+                              ],
+                              [
+                                 "Atavismen"
+                              ],
+                              [
+                                 "Determinismus"
+                              ]
+                           ],
+                           "text": "Lombroso (1876) sprach vom „geborenen {}“. Er nahm {} an und vertrat einen biologischen {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "akzeptiert": [
+                              "positivistische Schule",
+                              "Positivismus",
+                              "positivistisch",
+                              "positivistischen Schule"
+                           ],
+                           "frage": "Welcher Schule wird Lombroso zugeordnet?",
+                           "id": "krim-s4-A2-w1-a4",
+                           "musterloesung": "Der positivistischen Schule.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "krim-s4-A2-w1",
+                     "merke": "**Lombroso** (auf den Folien „Lambroso“; Arzt, Professor der gerichtlichen Medizin und Psychiatrie) begründete mit der Frage nach den Ursachen der Kriminalität die Kriminologie als Disziplin (**positivistische Schule**). „**Der geborene Verbrecher**“ (**1876**): **Atavismen**, **biologischer Determinismus** – Kriminalität sei **anlagebedingt und am Phänotyp ablesbar**. Heute: **nicht empirisch belegt, wissenschaftlich unhaltbar**, auch wegen **rassistischer Hintergründe** kritisiert.",
+                     "titel": "Lombroso 1876"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-A3",
+               "titel": "Zwillinge und Adoptierte",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Befunde der späteren Zwillingsstudien zu.",
+                           "id": "krim-s4-A3-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "eineiige Zwillinge",
+                                 "rechts": "33 % Übereinstimmung"
+                              },
+                              {
+                                 "links": "zweieiige Zwillinge",
+                                 "rechts": "12,5 % Übereinstimmung"
+                              },
+                              {
+                                 "links": "Stichprobe",
+                                 "rechts": "über 3.000 Zwillingspaare"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Es wurden nur zweieiige Zwillinge untersucht.",
+                              "Sie fanden keine Unterschiede zwischen ein- und zweieiigen Zwillingen.",
+                              "Sie untersuchten nur Frauen.",
+                              "Sie nutzten bildgebende Verfahren falsch."
+                           ],
+                           "fragen": [
+                              "Was war die Hauptkritik an den frühen Zwillingsstudien?",
+                              "Warum gelten die frühen Zwillingsstudien als methodisch unzureichend?"
+                           ],
+                           "id": "krim-s4-A3-w1-a2",
+                           "richtig": [
+                              "zu geringe Fallzahl"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, eine eindeutige genetische Verursachung ist nicht nachweisbar; Umwelteinflüsse wurden nicht ausreichend berücksichtigt.",
+                                 "richtig": false,
+                                 "text": "Die späteren Zwillingsstudien beweisen eine genetische Verursachung von Kriminalität."
+                              },
+                              {
+                                 "begruendung": "Ja, bei zweieiigen nur 2 von 17.",
+                                 "richtig": true,
+                                 "text": "In frühen Studien waren bei 10 von 13 eineiigen Paaren beide Zwillinge kriminell."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-A3-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "krim-s4-A3-w1",
+                     "merke": "**Frühe Zwillingsstudien:** bei **10 von 13 eineiigen**, aber nur **2 von 17 zweieiigen** Paaren waren beide kriminell – methodisch unzureichend (**zu geringe Fallzahl**). **Spätere Studien** (über 3.000 Paare): **33 %** Übereinstimmung bei eineiigen, **12,5 %** bei zweieiigen Zwillingen; **keine eindeutige genetische Verursachung**, Umwelteinflüsse zu wenig berücksichtigt.",
+                     "titel": "Zwillingsforschung"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Kriminalitätsraten der Adoptivsöhne zu.",
+                           "id": "krim-s4-A3-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "biologischer Vater kriminell",
+                                 "rechts": "20 %"
+                              },
+                              {
+                                 "links": "biologischer Vater nicht kriminell",
+                                 "rechts": "13,5 %"
+                              },
+                              {
+                                 "links": "zusätzlich Adoptivvater kriminell",
+                                 "rechts": "24,5 %"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Kriminalität ist rein genetisch bedingt.",
+                              "Kriminalität ist rein umweltbedingt.",
+                              "Adoptierte sind nie kriminell.",
+                              "Nur der Adoptivvater beeinflusst die Kriminalität."
+                           ],
+                           "fragen": [
+                              "Was folgt aus den Adoptionsstudien?",
+                              "Welche Schlussfolgerung ziehen die Adoptionsstudien?"
+                           ],
+                           "id": "krim-s4-A3-w2-a2",
+                           "richtig": [
+                              "eine komplexe Wechselwirkung zwischen Anlage und Umwelt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Was zeigen Zwillings- und Adoptionsstudien über biologische Ursachen von Kriminalität, und wo liegen ihre Grenzen?",
+                           "id": "krim-s4-A3-w2-a3",
+                           "kernpunkte": [
+                              "höhere Übereinstimmung bei eineiigen (33 %) als bei zweieiigen Zwillingen (12,5 %)",
+                              "Adoptivsöhne mit kriminellem biologischem Vater häufiger kriminell (20 % vs. 13,5 %), am höchsten bei zusätzlich kriminellem Adoptivvater (24,5 %)",
+                              "keine eindeutige genetische Verursachung; Umwelt nicht ausreichend kontrolliert, Adoptionskriterien verzerren",
+                              "→ Wechselwirkung von Anlage und Umwelt"
+                           ],
+                           "musterloesung": "Eineiige Zwillinge stimmen häufiger überein (33 %) als zweieiige (12,5 %), und Adoptivsöhne krimineller biologischer Väter sind häufiger kriminell (20 % gegenüber 13,5 %). Am höchsten ist die Rate aber, wenn zusätzlich der Adoptivvater kriminell ist (24,5 %). Eine eindeutige genetische Verursachung lässt sich nicht nachweisen: Umwelteinflüsse sind nicht ausreichend kontrolliert, Adoptionskriterien verzerren. Die Befunde sprechen für eine komplexe Wechselwirkung von Anlage und Umwelt.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-A3-w2",
+                     "merke": "**Adoptionsstudien:** **20 %** Kriminalität bei Adoptivsöhnen mit **kriminellem biologischem Vater**, **13,5 %** bei nichtkriminellem, **24,5 %**, wenn **zusätzlich der Adoptivvater kriminell** ist. Probleme: Verzerrung durch Adoptionskriterien, Umwelt nicht kontrolliert → **komplexe Wechselwirkung zwischen Anlage und Umwelt**.",
+                     "titel": "Adoptionsstudien"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-A4",
+               "titel": "Neuere biologische Ansätze",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Er verursacht kriminelles Verhalten kausal.",
+                              "Er senkt die Impulsivität.",
+                              "Er ist das „Mörderchromosom“.",
+                              "Er hat keinerlei Zusammenhang mit Verhalten."
+                           ],
+                           "fragen": [
+                              "Was gilt für den niedrigen Serotoninspiegel?",
+                              "Welche Aussage über Serotonin ist korrekt?"
+                           ],
+                           "id": "krim-s4-A4-w1-a1",
+                           "richtig": [
+                              "Er korreliert mit erhöhter Impulsivität, ist aber nicht als Ursache belegt."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, sie ist empirisch nicht bestätigt.",
+                                 "richtig": false,
+                                 "text": "Die These vom „Mörderchromosom“ wurde empirisch bestätigt."
+                              },
+                              {
+                                 "begruendung": "Nein, es gibt nur eine Korrelation mit Impulsivität (Korrelation ≠ Kausalität).",
+                                 "richtig": false,
+                                 "text": "Niedrige Serotoninspiegel beeinflussen kriminelles Verhalten kausal."
+                              },
+                              {
+                                 "begruendung": "Nein, hormonelle Einflüsse korrelieren nur; sie determinieren nichts.",
+                                 "richtig": false,
+                                 "text": "Testosteron determiniert kriminelles Verhalten."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-A4-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Korrelation ist nicht Kausalität",
+                              "Korrelation ≠ Kausalität",
+                              "Korrelation ungleich Kausalität",
+                              "Korrelation nicht gleich Kausalität"
+                           ],
+                           "frage": "Mit welchem Grundsatz kritisiert man Befunde zu Serotonin und Kriminalität?",
+                           "id": "krim-s4-A4-w1-a3",
+                           "musterloesung": "Korrelation ≠ Kausalität.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "krim-s4-A4-w1",
+                     "merke": "Die These vom „**Mörderchromosom**“ (1960er) ist **empirisch nicht bestätigt**. Bei **Hormonen und Neurotransmittern** liegt der Fokus auf **Testosteron und Serotonin**: Ein **niedriger Serotoninspiegel korreliert mit erhöhter Impulsivität** – aber **Korrelation ≠ Kausalität**.",
+                     "titel": "Chromosomen und Hormone"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Gene bestimmen das Verhalten unabhängig von Erfahrungen.",
+                              "Kriminalität ist am Phänotyp ablesbar.",
+                              "Das Gehirn ist ein reines Denkorgan.",
+                              "Ein bestimmtes Chromosom macht zum Mörder."
+                           ],
+                           "fragen": [
+                              "Was besagt die Epigenetik?",
+                              "Welche Erkenntnis steckt hinter epigenetischen Markern?"
+                           ],
+                           "id": "krim-s4-A4-w2-a1",
+                           "richtig": [
+                              "Lebenserfahrungen hinterlassen Marker, die die Aktivierung von Genen blockieren können."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-A4-w2-a2",
+                           "luecken": [
+                              [
+                                 "Sozialorgan"
+                              ],
+                              [
+                                 "Denkorgan"
+                              ]
+                           ],
+                           "text": "Das Gehirn ist laut Vorlesung ein „{}“, kein reines „{}“.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "frage": "Ordne die Ansätze ihrer Kernaussage zu.",
+                           "id": "krim-s4-A4-w2-a3",
+                           "paare": [
+                              {
+                                 "links": "Chromosomenanomalien",
+                                 "rechts": "„Mörderchromosom“ empirisch nicht bestätigt"
+                              },
+                              {
+                                 "links": "Hormone/Neurotransmitter",
+                                 "rechts": "niedriges Serotonin korreliert mit Impulsivität"
+                              },
+                              {
+                                 "links": "Neurobiologie",
+                                 "rechts": "MRT zeigt Zusammenhänge von dissozialer Persönlichkeit und Hirnaktivität"
+                              },
+                              {
+                                 "links": "Epigenetik",
+                                 "rechts": "Lebenserfahrungen hinterlassen Marker an Genen"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        }
+                     ],
+                     "id": "krim-s4-A4-w2",
+                     "merke": "**Neurobiologie:** Bildgebende Verfahren (z. B. **MRT**) zeigen Zusammenhänge zwischen dissozialer Persönlichkeit und Hirnaktivität; aber Wechselwirkung von Genetik und Umwelt, das Gehirn ist ein „**Sozialorgan**“, kein reines Denkorgan. **Epigenetik:** **Lebenserfahrungen hinterlassen epigenetische Marker** (Methylmoleküle), die die Aktivierung von Genen blockieren können.",
+                     "titel": "Neurobiologie und Epigenetik"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-A5",
+               "titel": "Biosocial Criminology",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Hormone wie Testosteron determinieren kriminelles Verhalten.",
+                              "Niedrige Serotoninspiegel verursachen Kriminalität.",
+                              "Lombrosos Annahmen sind heute bestätigt.",
+                              "Biologische Faktoren wirken unabhängig von der Umwelt."
+                           ],
+                           "fragen": [
+                              "Welche Aussage zu biologischen Erkenntnissen trifft zu?",
+                              "Was ist ein Befund der Biosocial Criminology?"
+                           ],
+                           "id": "krim-s4-A5-w1-a1",
+                           "richtig": [
+                              "Pränatale und frühkindliche Belastungen können biologische Reaktionsmuster beeinflussen."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Atavismen am Phänotyp",
+                              "Kosten-Nutzen-Abwägung",
+                              "Definitionen pro Gesetzesverstoß"
+                           ],
+                           "frage": "Welche Faktoren betrachtet die Biosocial Criminology?",
+                           "id": "krim-s4-A5-w1-a2",
+                           "richtig": [
+                              "präfrontaler Kortex und limbisches System",
+                              "Testosteron, Serotonin und Dopamin",
+                              "Stressachse (Hypothalamus-Hypophyse)",
+                              "pränatale Einflüsse wie maternaler Stress",
+                              "exekutive Funktionen"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, sie fokussiert statistische Zusammenhänge (Korrelation ≠ Kausalität).",
+                                 "richtig": true,
+                                 "text": "Die Biosocial Criminology ist ein korrelationaler Ansatz."
+                              },
+                              {
+                                 "begruendung": "Nein, gerade die Interaktion biologischer und sozialer Faktoren.",
+                                 "richtig": false,
+                                 "text": "Sie betrachtet nur genetische Faktoren."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-A5-w1-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Erkläre den Grundgedanken der Biosocial Criminology mit einem Beispiel.",
+                           "id": "krim-s4-A5-w1-a4",
+                           "kernpunkte": [
+                              "Interaktion biologischer und sozialer Faktoren",
+                              "Beispiel: pränatale/frühkindliche Belastungen (Stress, Vernachlässigung, Missbrauch) beeinflussen biologische Reaktionen und Verhalten",
+                              "Biomarker korrelieren mit Kriminalität; korrelationaler Ansatz, Korrelation ≠ Kausalität"
+                           ],
+                           "musterloesung": "Die Biosocial Criminology geht davon aus, dass biologische und soziale Faktoren zusammenwirken. So können pränatale oder frühkindliche Belastungen wie Stress, Substanzmissbrauch, Vernachlässigung oder Missbrauch biologische Reaktionen (z. B. die Stressachse) und Verhaltensmuster beeinflussen. Biomarker wie Neurotransmitter oder Gehirnstrukturen korrelieren mit kriminellem Verhalten; es handelt sich aber um Korrelationen, nicht um Kausalität.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-A5-w1",
+                     "merke": "Die **Biosocial Criminology** untersucht **Interaktionen zwischen biologischen und sozialen Faktoren**: z. B. können **pränatale oder frühkindliche Belastungen** (Stress, Substanzmissbrauch, Vernachlässigung, Missbrauch) **biologische Reaktionen und Verhaltensmuster beeinflussen**. Sie ist ein **korrelationaler Ansatz** (Korrelation ≠ Kausalität).",
+                     "titel": "Biologisch und sozial"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-A-mix1",
+               "mix": [
+                  "krim-s4-A1",
+                  "krim-s4-A2",
+                  "krim-s4-A3",
+                  "krim-s4-A4",
+                  "krim-s4-A5"
+               ],
+               "titel": "🔀 Gemischt: Ebenen und Biologie"
+            }
+         ],
+         "titel": "Analyseebenen und Biologie"
+      },
+      {
+         "farbe": 30,
+         "id": "krim-s4-B",
+         "level": [
+            {
+               "id": "krim-s4-B1",
+               "titel": "Der homo oeconomicus",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "wenn Definitionen pro Gesetzesverstoß überwiegen",
+                              "wenn soziale Bindungen fehlen",
+                              "wenn die Selbstkontrolle gering ist",
+                              "wenn die Person biologisch vorbelastet ist"
+                           ],
+                           "fragen": [
+                              "Wann tritt Kriminalität nach der Rational Choice Theorie auf?",
+                              "Was ist die Kernthese der Rational Choice Theorie?"
+                           ],
+                           "id": "krim-s4-B1-w1-a1",
+                           "richtig": [
+                              "wenn der Nutzen der Tat ihre Kosten übersteigt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, umgekehrt: Fokus auf Tat und Situation.",
+                                 "richtig": false,
+                                 "text": "Bei Rational Choice liegt der Fokus auf der Täter:in, nicht auf der Situation."
+                              },
+                              {
+                                 "begruendung": "Ja, in Anlehnung an die klassische Schule (Beccaria).",
+                                 "richtig": true,
+                                 "text": "Rational Choice betont Willensfreiheit und persönliche Verantwortung."
+                              },
+                              {
+                                 "begruendung": "Ja, sie wurde erst später auf Kriminalität übertragen.",
+                                 "richtig": true,
+                                 "text": "Rational Choice war ursprünglich eine volkswirtschaftliche Theorie."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-B1-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "homo oeconomicus",
+                              "Homo oeconomicus",
+                              "homo öconomicus"
+                           ],
+                           "frage": "Welches Menschenbild liegt der Rational Choice Theorie zugrunde?",
+                           "id": "krim-s4-B1-w1-a3",
+                           "musterloesung": "Der homo oeconomicus.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "die positivistische Schule (Lombroso)",
+                              "die Chicago School",
+                              "die Biosocial Criminology",
+                              "die Lerntheorie (Sutherland)"
+                           ],
+                           "fragen": [
+                              "An welche Schule lehnt sich der Rational-Choice-Ansatz an?",
+                              "Auf wen geht die Idee der Willensfreiheit im Rational-Choice-Ansatz zurück?"
+                           ],
+                           "id": "krim-s4-B1-w1-a4",
+                           "richtig": [
+                              "die klassische Schule (Beccaria)"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s4-B1-w1",
+                     "merke": "Die **Rational Choice Theorie** stammt aus der **Volkswirtschaft** (ursprünglich keine Kriminalitätstheorie). Der Mensch ist ein „**homo oeconomicus**“; betont werden **Willensfreiheit und persönliche Verantwortung** (in Anlehnung an die **klassische Schule, Beccaria**). Kriminalität tritt auf, wenn der **Nutzen die Kosten übersteigt**. Der **Fokus liegt auf Tat und Situation, nicht auf der Täter:in**.",
+                     "titel": "Grundannahmen"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-B2",
+               "titel": "Nutzen und Kosten",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Nutzen oder Kosten einer Tat?",
+                           "id": "krim-s4-B2-w1-a1",
+                           "items": [
+                              {
+                                 "kategorie": "Nutzen",
+                                 "text": "Geld"
+                              },
+                              {
+                                 "kategorie": "Nutzen",
+                                 "text": "Nervenkitzel"
+                              },
+                              {
+                                 "kategorie": "Nutzen",
+                                 "text": "Anerkennung"
+                              },
+                              {
+                                 "kategorie": "Kosten",
+                                 "text": "Entdeckungswahrscheinlichkeit"
+                              },
+                              {
+                                 "kategorie": "Kosten",
+                                 "text": "Höhe der Bestrafung"
+                              },
+                              {
+                                 "kategorie": "Kosten",
+                                 "text": "soziale Konsequenzen"
+                              },
+                              {
+                                 "kategorie": "Kosten",
+                                 "text": "direkte Aufwendungen"
+                              }
+                           ],
+                           "kategorien": [
+                              "Nutzen",
+                              "Kosten"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "Sutherland",
+                              "Hirschi",
+                              "Bandura",
+                              "Lombroso"
+                           ],
+                           "fragen": [
+                              "Wer formulierte 1968 die Theorie der rationalen Wahl?",
+                              "Mit welchem Namen ist die Kosten-Nutzen-Theorie von 1968 verbunden?"
+                           ],
+                           "id": "krim-s4-B2-w1-a2",
+                           "richtig": [
+                              "Becker"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-B2-w1-a3",
+                           "luecken": [
+                              [
+                                 "immaterielle"
+                              ],
+                              [
+                                 "Wahrscheinlichkeit"
+                              ]
+                           ],
+                           "text": "Zum Nutzen zählen materielle Vorteile wie Geld und {} Vorteile wie Nervenkitzel. Zu den Kosten zählen direkte Aufwendungen, Folgekosten und die {} der Entdeckung.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s4-B2-w1",
+                     "merke": "**Theorie der rationalen Wahl (Becker, 1968):** **Nutzen** = **materiell** (z. B. Geld, wirtschaftlicher Gewinn) und **immateriell** (z. B. Nervenkitzel, Anerkennung). **Kosten** = **direkte Aufwendungen**, **Folgekosten bei Entdeckung** (Risiko und Höhe der Bestrafung, soziale Konsequenzen) und **Entdeckungswahrscheinlichkeit**.",
+                     "titel": "Becker 1968"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-B3",
+               "titel": "Was Rational Choice gut erklärt",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Affekttaten",
+                              "Taten unter Suchtdruck"
+                           ],
+                           "frage": "Welche Deliktsfelder kann die Rational Choice Theorie besonders gut erklären?",
+                           "id": "krim-s4-B3-w1-a1",
+                           "richtig": [
+                              "Eigentums- und Vermögensdelikte",
+                              "organisierte Kriminalität",
+                              "Wirtschaftskriminalität"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "ein geplanter Versicherungsbetrug",
+                              "Steuerhinterziehung in einem Unternehmen",
+                              "ein organisierter Einbruch",
+                              "Geldwäsche einer Bande"
+                           ],
+                           "fragen": [
+                              "Welche Tat lässt sich mit Rational Choice am schlechtesten erklären?",
+                              "Wofür eignet sich die Rational Choice Theorie nicht?"
+                           ],
+                           "id": "krim-s4-B3-w1-a2",
+                           "richtig": [
+                              "eine Affekttat im Streit"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Eigentumsdelikte",
+                              "Vermögensdelikte",
+                              "organisierte Kriminalität",
+                              "Wirtschaftskriminalität",
+                              "Eigentums- und Vermögensdelikte"
+                           ],
+                           "frage": "Nenne zwei Deliktsfelder, die Rational Choice besonders gut erklärt.",
+                           "id": "krim-s4-B3-w1-a3",
+                           "musterloesung": "Eigentums- und Vermögensdelikte, organisierte Kriminalität, Wirtschaftskriminalität.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "krim-s4-B3-w1",
+                     "merke": "Rational Choice ist **besonders relevant** für **Eigentums- und Vermögensdelikte**, **organisierte Kriminalität** und **Wirtschaftskriminalität**. **Affekttaten** erklärt sie **nicht**.",
+                     "titel": "Eigentum, OK, Wirtschaft"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-B4",
+               "titel": "Kritik an Rational Choice",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Der Fokus liegt auf der Täter:in, nicht der Situation.",
+                              "Das Entdeckungsrisiko wird nicht einkalkuliert.",
+                              "Sie erklärt Affekttaten besonders gut.",
+                              "Sie betont biologische Ursachen."
+                           ],
+                           "fragen": [
+                              "Welche Aussage zur Rational Choice Theorie ist korrekt?",
+                              "Was wird der Rational Choice Theorie vorgeworfen?"
+                           ],
+                           "id": "krim-s4-B4-w1-a1",
+                           "richtig": [
+                              "Irrationale, psychologische oder situative Faktoren werden ausgeblendet."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Entdeckungswahrscheinlichkeit",
+                              "materieller Gewinn",
+                              "Höhe der Strafe"
+                           ],
+                           "frage": "Welche Faktoren blendet die Rational Choice Theorie aus?",
+                           "id": "krim-s4-B4-w1-a2",
+                           "richtig": [
+                              "Affekte und Emotionen",
+                              "unbewusste Konflikte",
+                              "Suchtverhalten und Zwänge",
+                              "Statusdenken und Gruppenkonformität"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "ausreisser": [
+                              "Entdeckungsrisiko",
+                              "Höhe des Gewinns",
+                              "Strafhöhe"
+                           ],
+                           "frage": "Was ist kein irrationaler Faktor, den Rational Choice ausblendet?",
+                           "gehoert": [
+                              "Affekte",
+                              "Sucht",
+                              "Zwänge",
+                              "Dominanzverhalten",
+                              "Konkurrenzdruck"
+                           ],
+                           "id": "krim-s4-B4-w1-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "krim-s4-B4-w1",
+                     "merke": "**Kritik 1:** **Irrationale, psychologische und situative Faktoren** werden ausgeblendet: **Affekte und Emotionen**, **unbewusste Konflikte**, **Sucht, Zwänge, Dominanzverhalten** – auch bei Wirtschaftskriminalität (Ehrgeiz, Statusdenken, Konkurrenzdruck, Rettung des Familienunternehmens, Gruppenkonformität).",
+                     "titel": "Irrationales wird ausgeblendet"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "sehr starke Abschreckungseffekte",
+                              "Strafen erhöhen die Kriminalität immer",
+                              "Abschreckung wirkt nur bei Affekttaten",
+                              "es gibt dazu keine Forschung"
+                           ],
+                           "fragen": [
+                              "Was zeigt die Empirie zur Abschreckung durch Strafen?",
+                              "Wie stark ist laut Vorlesung die abschreckende Wirkung von Strafen belegt?"
+                           ],
+                           "id": "krim-s4-B4-w2-a1",
+                           "richtig": [
+                              "nur geringe Abschreckungseffekte (negative Generalprävention)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, sie sichern sich z. B. durch Delegation oder juristische Hilfe ab.",
+                                 "richtig": true,
+                                 "text": "Rational handelnde Täter:innen tauchen selten in der Strafjustiz auf, weil sie das Entdeckungsrisiko einkalkulieren."
+                              },
+                              {
+                                 "begruendung": "Nein, sie machten sich nicht unbedingt Gedanken über die Folgen.",
+                                 "richtig": false,
+                                 "text": "Inhaftierte haben sich vor der Tat meist genau über die Folgen Gedanken gemacht."
+                              },
+                              {
+                                 "begruendung": "Ja, das ist Teil der Kritik.",
+                                 "richtig": true,
+                                 "text": "Das Menschenbild des homo oeconomicus blendet Gefühle und das Verlangen nach Zugehörigkeit aus."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-B4-w2-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Nenne wesentliche Kritikpunkte an der Rational Choice Theorie.",
+                           "id": "krim-s4-B4-w2-a3",
+                           "kernpunkte": [
+                              "irrationale, psychologische, situative Faktoren ausgeblendet (Affekte, unbewusste Konflikte, Sucht, Zwänge; bei Wirtschaftskriminalität Ehrgeiz, Status, Konkurrenzdruck)",
+                              "Realitätsferne: Rational-Choice-Kriminalität selten in Justiz/Vollzug (Risiko einkalkuliert, Absicherung); Verurteilte dachten nicht an Folgen",
+                              "Menschenbild homo oeconomicus blendet Gefühle, Ideale, Anerkennung/Zugehörigkeit aus",
+                              "Empirie: nur geringe Abschreckungseffekte (negative Generalprävention)"
+                           ],
+                           "musterloesung": "Erstens blendet die Theorie irrationale, psychologische und situative Faktoren aus: Affekte, unbewusste Konflikte, Sucht, Zwänge und Dominanzverhalten; selbst bei Wirtschaftskriminalität spielen Ehrgeiz, Statusdenken, Konkurrenzdruck oder Gruppenkonformität mit. Zweitens ist sie realitätsfern: Wer rational handelt, kalkuliert das Entdeckungsrisiko ein und sichert sich ab, taucht also selten in Justiz und Vollzug auf; Verurteilte haben oft gar nicht über Folgen nachgedacht. Das Menschenbild des homo oeconomicus übersieht Gefühle, Ideale und das Bedürfnis nach Anerkennung. Drittens sind empirisch nur geringe Abschreckungseffekte von Strafen belegt.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-B4-w2",
+                     "merke": "**Kritik 2:** **Realitätsferne**: „Rational-Choice-Kriminalität“ taucht **selten in Strafjustiz und Strafvollzug** auf, weil das Entdeckungsrisiko einkalkuliert und abgesichert wird (Delegation, juristische Hilfe). Verurteilte machten sich oft **keine Gedanken über Folgen**. Der homo oeconomicus blendet Gefühle, Ideale und das Verlangen nach Anerkennung aus. **Kritik 3:** Empirisch nur **geringe Abschreckungseffekte** durch Strafen (**negative Generalprävention**).",
+                     "titel": "Realitätsferne und Empirie"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-B-mix1",
+               "mix": [
+                  "krim-s4-B1",
+                  "krim-s4-B2",
+                  "krim-s4-B3",
+                  "krim-s4-B4"
+               ],
+               "titel": "🔀 Gemischt: Rational Choice"
+            }
+         ],
+         "titel": "Rational Choice"
+      },
+      {
+         "farbe": 120,
+         "id": "krim-s4-C",
+         "level": [
+            {
+               "id": "krim-s4-C1",
+               "titel": "Klassisch und operant",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Eine Ratte drückt in der Skinner-Box einen Hebel für Futter.",
+                              "Kinder ahmen ein aggressives Vorbild nach.",
+                              "Jugendliche lernen Einstellungen in ihrer Clique.",
+                              "Ein Täter wägt Kosten und Nutzen ab."
+                           ],
+                           "fragen": [
+                              "Welches Beispiel gehört zur klassischen Konditionierung?",
+                              "Woran denkt man bei klassischer Konditionierung?"
+                           ],
+                           "id": "krim-s4-C1-w1-a1",
+                           "richtig": [
+                              "Pawlows Hunde reagieren auf eine Glocke mit Speichelfluss."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-C1-w1-a2",
+                           "luecken": [
+                              [
+                                 "neutraler"
+                              ],
+                              [
+                                 "unbedingten"
+                              ],
+                              [
+                                 "unwillkürlich"
+                              ]
+                           ],
+                           "text": "Bei der klassischen Konditionierung wird ein {} Reiz mit einem {} Reiz gekoppelt. Die Reaktion erfolgt automatisch und {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, die Reaktion erfolgt automatisch und unwillkürlich; aktiv ist das Individuum bei der operanten Konditionierung.",
+                                 "richtig": false,
+                                 "text": "Bei der klassischen Konditionierung spielt das Individuum eine aktive Rolle."
+                              },
+                              {
+                                 "begruendung": "Ja, z. B. Speichelfluss auf die Glocke.",
+                                 "richtig": true,
+                                 "text": "Der neutrale Reiz löst nach der Kopplung eine ähnliche Reaktion aus wie der unbedingte."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-C1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "krim-s4-C1-w1",
+                     "merke": "**Klassische Konditionierung:** Ein **neutraler Reiz** wird mit einem **unbedingten Reiz gekoppelt** und löst dann eine ähnliche Reaktion aus (**Pawlows Hunde**: Speichelfluss auf die Glocke). Die Reaktion erfolgt **automatisch und unwillkürlich**.",
+                     "titel": "Klassische Konditionierung"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Wie funktioniert die operante Konditionierung theoretisch?",
+                           "id": "krim-s4-C1-w2-a1",
+                           "kernpunkte": [
+                              "Verhalten wird durch seine Konsequenzen beeinflusst (Verstärkung/Belohnung bzw. Bestrafung)",
+                              "aktive Rolle des Individuums, Lernen durch Versuch und Irrtum",
+                              "Verhalten wird angepasst, um gewünschte Ergebnisse zu erzielen",
+                              "Beispiel: Ratte in der Skinner-Box drückt Hebel → Futter"
+                           ],
+                           "musterloesung": "Bei der operanten Konditionierung wird Verhalten durch seine Konsequenzen gesteuert: Wird es verstärkt (belohnt), tritt es häufiger auf; wird es bestraft, seltener. Das Individuum ist aktiv, lernt durch Versuch und Irrtum und passt sein Verhalten an, um gewünschte Ergebnisse zu erreichen. Beispiel: Eine Ratte in der Skinner-Box lernt, dass Hebeldrücken Futter bringt.",
+                           "typ": "offen"
+                        },
+                        {
+                           "frage": "Klassische oder operante Konditionierung?",
+                           "id": "krim-s4-C1-w2-a2",
+                           "items": [
+                              {
+                                 "kategorie": "klassisch",
+                                 "text": "Pawlows Hunde"
+                              },
+                              {
+                                 "kategorie": "klassisch",
+                                 "text": "Reaktion automatisch und unwillkürlich"
+                              },
+                              {
+                                 "kategorie": "klassisch",
+                                 "text": "Kopplung eines neutralen mit einem unbedingten Reiz"
+                              },
+                              {
+                                 "kategorie": "operant",
+                                 "text": "Skinner-Box"
+                              },
+                              {
+                                 "kategorie": "operant",
+                                 "text": "Versuch und Irrtum"
+                              },
+                              {
+                                 "kategorie": "operant",
+                                 "text": "Verstärkung und Bestrafung"
+                              }
+                           ],
+                           "kategorien": [
+                              "klassisch",
+                              "operant"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "durch die Kopplung zweier Reize",
+                              "durch biologische Anlagen",
+                              "durch reine Beobachtung",
+                              "durch Zufall"
+                           ],
+                           "fragen": [
+                              "Wodurch wird Verhalten bei der operanten Konditionierung beeinflusst?",
+                              "Was steuert das Verhalten bei der operanten Konditionierung?"
+                           ],
+                           "id": "krim-s4-C1-w2-a3",
+                           "richtig": [
+                              "durch seine Konsequenzen (Verstärkung oder Bestrafung)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Skinner-Box",
+                              "Skinnerbox",
+                              "Skinner Box"
+                           ],
+                           "frage": "Wie heißt die Versuchsanordnung, in der eine Ratte durch Hebeldrücken Futter bekommt?",
+                           "id": "krim-s4-C1-w2-a4",
+                           "musterloesung": "Skinner-Box.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s4-C1-w2",
+                     "merke": "**Operante Konditionierung:** **Verhalten wird durch Konsequenzen beeinflusst** (**Verstärkung oder Bestrafung**). Beispiel: Eine **Ratte in der Skinner-Box** lernt, durch **Hebeldrücken Futter** zu bekommen. Das Individuum ist **aktiv**, lernt durch **Versuch und Irrtum** und passt sein Verhalten an, um gewünschte Ergebnisse zu erzielen.",
+                     "titel": "Operante Konditionierung"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-C2",
+               "titel": "Was Lerntheorien annehmen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Kriminalität ist am Phänotyp ablesbar.",
+                              "Jeder Mensch neigt von Natur aus zu Kriminalität.",
+                              "Kriminalität ist eine Kosten-Nutzen-Rechnung."
+                           ],
+                           "frage": "Welche Annahmen gehören zu den lerntheoretischen Ansätzen?",
+                           "id": "krim-s4-C2-w1-a1",
+                           "richtig": [
+                              "Kriminalität ist Ergebnis misslungener Sozialisation.",
+                              "Verhalten kann erlernt und verlernt werden.",
+                              "Lernprozesse sind kognitiv, nicht nur Konditionierung.",
+                              "Lernorte sind vor allem Familie, Peers und Schule."
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Ordne die beiden Lernarten zu.",
+                           "id": "krim-s4-C2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Modelllernen",
+                                 "rechts": "Beobachtung und Imitation"
+                              },
+                              {
+                                 "links": "Lernen durch Erfolg",
+                                 "rechts": "Verstärkung, wenn das Verhalten zum Ziel führt"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-C2-w1-a3",
+                           "luecken": [
+                              [
+                                 "misslungener"
+                              ],
+                              [
+                                 "Kumulation",
+                                 "Häufung"
+                              ]
+                           ],
+                           "text": "Lerntheorien sehen Kriminalität als Ergebnis {} Sozialisation. Nach dem sozio-kognitiven Lernmodell entsteht Delinquenz durch {} von Entwicklungsrisiken.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s4-C2-w1",
+                     "merke": "**Grundannahme:** Kriminalität ist Ergebnis **misslungener Sozialisation** und wird **durch Interaktion erlernt**; Verhalten kann **erlernt und verlernt** werden. Lernprozesse sind **kognitiv**, nicht nur Konditionierung. Zwei Lernarten: **Modelllernen** (Beobachtung/Imitation) und **Lernen durch Erfolg**. Lernorte: **Familie, Peers, Schule**.",
+                     "titel": "Kriminalität ist erlernt"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-C3",
+               "titel": "Sutherland: Wie gelernt wird",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "in der Gesamtgesellschaft über Medien",
+                              "in Gefängnissen",
+                              "allein durch eigene Erfahrung",
+                              "in der Schule durch Unterricht"
+                           ],
+                           "fragen": [
+                              "Wo wird kriminelles Verhalten nach Sutherland gelernt?",
+                              "Welche Gruppen sind nach Sutherland für das Lernen entscheidend?"
+                           ],
+                           "id": "krim-s4-C3-w1-a1",
+                           "richtig": [
+                              "in kleinen sozialen Gruppen"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Theorie der differenziellen Assoziation",
+                              "differenzielle Assoziation",
+                              "differentielle Assoziation",
+                              "Theorie der differentiellen Assoziation",
+                              "Theorie der differentiellen Kontakte"
+                           ],
+                           "frage": "Wie heißt Sutherlands Lerntheorie der Kriminalität?",
+                           "id": "krim-s4-C3-w1-a2",
+                           "musterloesung": "Theorie der differenziellen (differentiellen) Assoziation.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-C3-w1-a3",
+                           "luecken": [
+                              [
+                                 "erlernt",
+                                 "gelernt"
+                              ],
+                              [
+                                 "Interaktion",
+                                 "Kommunikation"
+                              ],
+                              [
+                                 "Gruppen"
+                              ]
+                           ],
+                           "text": "Nach Sutherland wird kriminelles Verhalten (1) {}, (2) in {} mit anderen und (3) in kleinen sozialen {}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s4-C3-w1",
+                     "merke": "**Theorie der differenziellen Assoziation (Sutherland, 1934):** Identität ist ein soziales Produkt. **(1)** Kriminelles Verhalten wird **erlernt**, **(2)** in **Interaktion mit anderen** (Kommunikationsprozesse), **(3)** in **kleinen sozialen Gruppen**.",
+                     "titel": "Prinzipien 1–3"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "genetische Anlagen",
+                              "Höhe der Strafandrohung",
+                              "allgemeine Bedürfnisse wie Geld"
+                           ],
+                           "frage": "Was wird nach Sutherland gelernt bzw. ist für das Lernen relevant?",
+                           "id": "krim-s4-C3-w2-a1",
+                           "richtig": [
+                              "praktische Fertigkeiten („kriminelles Handwerkszeug“)",
+                              "Werte, Normen und Einstellungen",
+                              "Definitionen pro und kontra Gesetzesverstöße",
+                              "Häufigkeit, Dauer, Priorität und Intensität der Kontakte"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Ergänze die Merkmale der Kontakte, die nach Sutherland relevant sind.",
+                           "id": "krim-s4-C3-w2-a2",
+                           "kopf": [
+                              "Nr.",
+                              "Merkmal"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "1",
+                                 {
+                                    "akzeptiert": [
+                                       "Häufigkeit"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "2",
+                                 {
+                                    "akzeptiert": [
+                                       "Dauer"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "3",
+                                 {
+                                    "akzeptiert": [
+                                       "Priorität"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "4",
+                                 {
+                                    "akzeptiert": [
+                                       "Intensität"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "akzeptiert": [
+                              "Definitionen",
+                              "Definitionen pro und kontra",
+                              "Definition"
+                           ],
+                           "frage": "Wie nennt Sutherland die gelernten „Wahrheiten“ für oder gegen Gesetzesverstöße?",
+                           "id": "krim-s4-C3-w2-a3",
+                           "musterloesung": "Definitionen (pro und kontra Gesetzesverstöße).",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "krim-s4-C3-w2",
+                     "merke": "**Lerninhalte:** **(4)** praktische **Fertigkeiten** („kriminelles Handwerkszeug“), **(5)** **Werte, Normen und Einstellungen**, **(6)** **Definitionen („Wahrheiten“) pro und kontra Gesetzesverstöße**, **(7)** **Häufigkeit, Dauer, Priorität und Intensität** der Kontakte sind von Relevanz.",
+                     "titel": "Prinzipien 4–7: Lerninhalte"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, Prinzip 8.",
+                                 "richtig": true,
+                                 "text": "folgt das Lernen krimineller Verhaltensweisen den gleichen Mechanismen wie jedes andere Lernen."
+                              },
+                              {
+                                 "begruendung": "Nein, Prinzip 9: allgemeine Bedürfnisse und Werte erklären Kriminalität nicht.",
+                                 "richtig": false,
+                                 "text": "erklären allgemeine Bedürfnisse wie der Wunsch nach Geld Kriminalität."
+                              },
+                              {
+                                 "begruendung": "Nein, das vermischt Sutherland mit der Bindungstheorie.",
+                                 "richtig": false,
+                                 "text": "wird kriminelles Verhalten nur gelernt, wenn Personen keine Bindung an Familie und Schule haben."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach Sutherland …",
+                           "id": "krim-s4-C3-w3-a1",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "Allgemeine Bedürfnisse sind die Hauptursache von Kriminalität.",
+                              "Kriminalität wird angeboren.",
+                              "Das Lernen krimineller Verhaltensweisen ist ein besonderer Mechanismus.",
+                              "Strafen verhindern das Lernen."
+                           ],
+                           "fragen": [
+                              "Was besagt Sutherlands 9. Prinzip?",
+                              "Welche Rolle spielen allgemeine Bedürfnisse und Werte nach Sutherland?"
+                           ],
+                           "id": "krim-s4-C3-w3-a2",
+                           "richtig": [
+                              "Allgemeine Bedürfnisse und Werte erklären Kriminalität nicht."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Nach Sutherland (1934) ist kriminelles Verhalten, wie jedes andere Verhalten auch, erlernt. Nenne die neun Prinzipien des Erlernens krimineller Verhaltensweisen.",
+                           "id": "krim-s4-C3-w3-a3",
+                           "kernpunkte": [
+                              "(1) kriminelles Verhalten wird erlernt, (2) in Interaktion mit anderen/Kommunikation, (3) in kleinen sozialen Gruppen",
+                              "(4) Fertigkeiten, (5) Werte, Normen, Einstellungen, (6) Definitionen pro/kontra Gesetzesverstöße",
+                              "(7) Häufigkeit, Dauer, Priorität, Intensität der Kontakte",
+                              "(8) gleiche Mechanismen wie jedes Lernen, (9) allgemeine Bedürfnisse und Werte erklären Kriminalität nicht"
+                           ],
+                           "musterloesung": "(1) Kriminelles Verhalten wird erlernt, (2) in Interaktion mit anderen, also in Kommunikationsprozessen, (3) vor allem in kleinen sozialen Gruppen. Gelernt werden (4) praktische Fertigkeiten („kriminelles Handwerkszeug“), (5) Werte, Normen und Einstellungen sowie (6) Definitionen („Wahrheiten“) pro und kontra Gesetzesverstöße. (7) Häufigkeit, Dauer, Priorität und Intensität der Kontakte sind entscheidend. (8) Der Lernprozess folgt denselben Mechanismen wie jedes andere Lernen. (9) Allgemeine Bedürfnisse und Werte erklären Kriminalität nicht.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-C3-w3",
+                     "merke": "**(8)** Der **Lernprozess** folgt den **gleichen Mechanismen wie jedes andere Lernen**. **(9)** **Allgemeine Bedürfnisse und Werte erklären Kriminalität nicht** (denn auch nicht-kriminelles Verhalten dient ihnen).",
+                     "titel": "Prinzipien 8–9"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-C4",
+               "titel": "Definitionen pro und kontra",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Definition pro oder kontra Gesetzesverstoß?",
+                           "id": "krim-s4-C4-w1-a1",
+                           "items": [
+                              {
+                                 "kategorie": "pro Gesetzesverstoß",
+                                 "text": "„Jeder betrügt bei der Einkommensteuer – das ist nicht wirklich kriminell.“"
+                              },
+                              {
+                                 "kategorie": "pro Gesetzesverstoß",
+                                 "text": "„Ich kann nach fünf Bier noch fahren, kein Problem!“"
+                              },
+                              {
+                                 "kategorie": "pro Gesetzesverstoß",
+                                 "text": "„Wenn es niemandem schadet, ist es kein Verbrechen.“"
+                              },
+                              {
+                                 "kategorie": "kontra Gesetzesverstoß",
+                                 "text": "„Kriminalität zahlt sich nicht aus.“"
+                              },
+                              {
+                                 "kategorie": "kontra Gesetzesverstoß",
+                                 "text": "„Drogen sind ungesund und machen abhängig.“"
+                              },
+                              {
+                                 "kategorie": "kontra Gesetzesverstoß",
+                                 "text": "„Wirf nicht dein Leben weg, indem du etwas Kriminelles tust.“"
+                              }
+                           ],
+                           "kategorien": [
+                              "pro Gesetzesverstoß",
+                              "kontra Gesetzesverstoß"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "wenn eine Person überhaupt kriminelle Freunde hat",
+                              "wenn der Nutzen die Kosten übersteigt",
+                              "wenn die Selbstkontrolle gering ist",
+                              "wenn die Bindung an die Familie fehlt"
+                           ],
+                           "fragen": [
+                              "Wann ist Kriminalität nach der Theorie der differenziellen Assoziation wahrscheinlich?",
+                              "Was macht nach Sutherland kriminelles Handeln wahrscheinlich?"
+                           ],
+                           "id": "krim-s4-C4-w1-a2",
+                           "richtig": [
+                              "wenn das Gesamtgewicht der Definitionen pro Gesetzesverstoß das der Definitionen kontra übersteigt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "als Definition kontra Gesetzesverstoß",
+                              "als Kosten der Tat",
+                              "als Element sozialer Bindung",
+                              "als Zeichen geringer Selbstkontrolle"
+                           ],
+                           "fragen": [
+                              "Wie ordnet Sutherlands Theorie diesen Satz ein?"
+                           ],
+                           "id": "krim-s4-C4-w1-a3",
+                           "richtig": [
+                              "als Definition pro Gesetzesverstoß"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„Die Justiz sollte sich um die echten Kriminellen kümmern, nicht um mich.“"
+                        }
+                     ],
+                     "id": "krim-s4-C4-w1",
+                     "merke": "Kriminalität ist wahrscheinlich, wenn das **Gesamtgewicht der Definitionen pro Gesetzesverstoß** das der **Definitionen kontra** übersteigt. Pro: „Wenn es niemandem schadet, ist es kein Verbrechen.“ Kontra: „Kriminalität zahlt sich nicht aus.“",
+                     "titel": "Wann Kriminalität wahrscheinlich ist"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "eine biologische Veranlagung",
+                              "fehlende Bindung an die Schule",
+                              "ein Nutzen, der die Kosten übersteigt"
+                           ],
+                           "frage": "Welche drei Bedingungen müssen nach Sutherland für kriminelles Handeln vorliegen?",
+                           "id": "krim-s4-C4-w2-a1",
+                           "richtig": [
+                              "mehr gelernte Definitionen pro Gesetzesverstoß",
+                              "nötige Fertigkeiten und Techniken",
+                              "eine entsprechende Gelegenheit"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "elemente": [
+                              "mehr Definitionen pro Gesetzesverstoß gelernt",
+                              "nötige Fertigkeiten und Techniken",
+                              "entsprechende Gelegenheit (Situation)"
+                           ],
+                           "frage": "Bringe die drei Bedingungen in die Reihenfolge der Vorlesung.",
+                           "id": "krim-s4-C4-w2-a2",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "fall": "Tom (17) verbringt fast jeden Abend mit einer älteren Clique, die regelmäßig kifft. Sie sagen: „Gras ist harmloser als Alkohol.“ Sie zeigen ihm, wo man es kauft. Auf einer Party wird ihm ein Joint angeboten, und er raucht mit.",
+                           "frage": "Erkläre Toms Verhalten mit der Theorie der differenziellen Assoziation.",
+                           "id": "krim-s4-C4-w2-a3",
+                           "kernpunkte": [
+                              "Lernen in Interaktion in einer kleinen Gruppe (Clique)",
+                              "hohe Häufigkeit, Dauer, Intensität der Kontakte",
+                              "Definition pro Gesetzesverstoß („harmloser als Alkohol“) überwiegt",
+                              "Fertigkeiten/Wissen (wo kaufen) + günstige Gelegenheit (Party)"
+                           ],
+                           "musterloesung": "Tom lernt in Interaktion mit einer kleinen Gruppe. Die Kontakte sind häufig, dauerhaft und intensiv. Er übernimmt die Definition pro Gesetzesverstoß, Gras sei harmlos; sie überwiegt offenbar die Definitionen kontra. Er erwirbt Wissen und Techniken (wo man kauft). Mit der Party gibt es eine günstige Gelegenheit. Damit sind alle drei Bedingungen erfüllt; Drogenkonsum ist ein typisches Beispiel, das die Theorie gut erklärt.",
+                           "typ": "fall"
+                        }
+                     ],
+                     "id": "krim-s4-C4-w2",
+                     "merke": "**Notwendige und hinreichende Bedingung** für kriminelles Handeln: **1.** die Person hat **mehr Definitionen pro** gelernt, **2.** sie hat die **nötigen Fertigkeiten und Techniken**, **3.** es gibt eine **entsprechende Gelegenheit** – „günstig“ im Sinne der Person, die die Situation definiert. Erklärt z. B. **Drogenkonsum, Prostitution, Waffenkauf**.",
+                     "titel": "Notwendig und hinreichend"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-C5",
+               "titel": "Kritik an Sutherland",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Kann Sutherlands Theorie das gut erklären?",
+                           "id": "krim-s4-C5-w1-a1",
+                           "items": [
+                              {
+                                 "kategorie": "gut erklärbar",
+                                 "text": "Drogenkonsum"
+                              },
+                              {
+                                 "kategorie": "gut erklärbar",
+                                 "text": "Prostitution"
+                              },
+                              {
+                                 "kategorie": "gut erklärbar",
+                                 "text": "illegaler Waffenkauf"
+                              },
+                              {
+                                 "kategorie": "weniger gut erklärbar",
+                                 "text": "Affekttat im Streit"
+                              },
+                              {
+                                 "kategorie": "weniger gut erklärbar",
+                                 "text": "die allererste Entstehung abweichenden Verhaltens"
+                              }
+                           ],
+                           "kategorien": [
+                              "gut erklärbar",
+                              "weniger gut erklärbar"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "Sie ist rassistisch.",
+                              "Sie ignoriert soziale Gruppen.",
+                              "Sie überschätzt die Abschreckung."
+                           ],
+                           "frage": "Welche Kritikpunkte an der Theorie der differenziellen Assoziation nennt die Vorlesung?",
+                           "id": "krim-s4-C5-w1-a2",
+                           "richtig": [
+                              "Affekttaten lassen sich nicht erklären.",
+                              "Der Ursprung abweichenden Verhaltens bleibt offen (Tautologie).",
+                              "Individuelle Unterschiede in der Lernfähigkeit fehlen.",
+                              "Lernerfahrungen sind schwer empirisch nachzuweisen."
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "Eineiige Zwillinge sind zu 100 % übereinstimmend kriminell.",
+                              "Strafen schrecken stark ab.",
+                              "Selbstkontrolle bleibt lebenslang konstant.",
+                              "Bindung an Vereine erhöht Kriminalität stets."
+                           ],
+                           "fragen": [
+                              "Welcher empirische Befund stützt die Lerntheorie?",
+                              "Was fand Warr (2001)?"
+                           ],
+                           "id": "krim-s4-C5-w1-a3",
+                           "richtig": [
+                              "Die Anzahl krimineller Freunde ist ein starker Prädiktor für kriminelles Verhalten."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "erklaerung": "Die Vorlesung nennt Drogenkonsum, Prostitution und Waffenkauf als erklärbar und Affekttaten als nicht erklärbar.",
+                           "frage": "Welche Deliktsbereiche kann Sutherland gut bzw. weniger gut erklären?",
+                           "id": "krim-s4-C5-w1-a4",
+                           "kernpunkte": [
+                              "gut: Delikte, die in Gruppen gelernt werden und Fertigkeiten/Definitionen voraussetzen, z. B. Drogenkonsum, Prostitution, Waffenkauf",
+                              "weniger gut: Affekttaten",
+                              "Ursprung abweichenden Verhaltens nicht erklärt (Tautologie)"
+                           ],
+                           "musterloesung": "Gut erklärbar sind Delikte, die in Gruppen erlernt werden und Fertigkeiten sowie zustimmende Definitionen voraussetzen, etwa Drogenkonsum, Prostitution oder Waffenkauf. Weniger gut erklärbar sind spontane Affekttaten. Außerdem erklärt die Theorie nicht, wie abweichendes Verhalten ursprünglich entsteht.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-C5-w1",
+                     "merke": "**Kritik:** Nur bestimmte Delikte erklärbar, **nicht z. B. Affekttaten**; der **Ursprung** abweichenden Verhaltens wird nicht erklärt (**Tautologie**); **individuelle Unterschiede in der Lernfähigkeit** fehlen; Lernerfahrungen sind **schwer messbar**. **Beleg:** Die **Anzahl krimineller Freunde** ist ein **starker Prädiktor** (**Warr, 2001**), die **Kausalrichtung bleibt aber unklar**.",
+                     "titel": "Grenzen und Belege"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-C-mix1",
+               "mix": [
+                  "krim-s4-C1",
+                  "krim-s4-C2",
+                  "krim-s4-C3",
+                  "krim-s4-C4",
+                  "krim-s4-C5"
+               ],
+               "titel": "🔀 Gemischt: Konditionierung und Sutherland"
+            },
+            {
+               "id": "krim-s4-C6",
+               "titel": "Social Learning Theory (Akers)",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Kriminelles Verhalten wird durch biologische Veranlagung weitergegeben.",
+                              "Bandura nimmt an, Verhalten werde nur durch eigene Belohnung und Bestrafung gelernt.",
+                              "Nach Sutherland wird kriminelles Verhalten nur ohne Bindung an Familie und Schule gelernt.",
+                              "Akers lehnt jede Form von Konditionierung ab."
+                           ],
+                           "fragen": [
+                              "Welche Aussage zu den lerntheoretischen Ansätzen ist korrekt?",
+                              "Was kennzeichnet Akers’ Social Learning Theory?"
+                           ],
+                           "id": "krim-s4-C6-w1-a1",
+                           "richtig": [
+                              "Akers verbindet Sutherlands Theorie mit operanter Konditionierung und Beobachtungslernen und betont differenzielle Verstärkung und Imitation."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-C6-w1-a2",
+                           "luecken": [
+                              [
+                                 "Assoziation"
+                              ],
+                              [
+                                 "operante"
+                              ],
+                              [
+                                 "Imitation",
+                                 "Nachahmung"
+                              ]
+                           ],
+                           "text": "Akers knüpft an die differenzielle {} an. Normen und Techniken werden durch {} Konditionierung verstärkt; er betont differenzielle Verstärkung und {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "Kopplung neutraler Reize",
+                              "Atavismus"
+                           ],
+                           "frage": "Welche Mechanismen der operanten Konditionierung nennt Akers?",
+                           "id": "krim-s4-C6-w1-a3",
+                           "richtig": [
+                              "Belohnung",
+                              "Tolerierung",
+                              "Bestrafung"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "krim-s4-C6-w1",
+                     "merke": "**Ronald Akers** knüpft an die **differenzielle Assoziation** an und ergänzt **sozialpsychologische Lernmechanismen**: Kriminelles Verhalten wird in Interaktion, in Kommunikation und in kleinen Gruppen erlernt; **Normen, Techniken und Verhaltensweisen** werden durch **operante Konditionierung** (Belohnung, Tolerierung, Bestrafung) **verstärkt**. Er betont **differenzielle Verstärkung und Imitation**.",
+                     "titel": "Akers verbindet"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "erklaerung": "Die Folie nennt nur Modell-/Beobachtungslernen, Aggression und Nachahmungseffekte bei Kindern und verweist auf ein Video. Der Ablauf (Erwachsener schlägt Puppe, Kinder ahmen nach) stammt aus dem bekannten Experiment, steht aber nicht auf der Folie – bitte mit dem Video abgleichen.",
+                           "frage": "Erläutere das „Bobo Doll Experiment“ von Albert Bandura und seine Schlussfolgerungen daraus.",
+                           "id": "krim-s4-C6-w2-a1",
+                           "kernpunkte": [
+                              "Kinder beobachten ein Modell (Erwachsenen), das sich gegenüber einer Puppe (Bobo) aggressiv verhält",
+                              "danach ahmen die Kinder das aggressive Verhalten nach (Nachahmungseffekte)",
+                              "Schluss: Modell-/Beobachtungslernen – Verhalten wird auch durch Beobachtung gelernt, nicht nur durch eigene Belohnung/Bestrafung",
+                              "Grundlage der Social Learning Theory"
+                           ],
+                           "musterloesung": "Im Bobo-Doll-Experiment beobachteten Kinder ein erwachsenes Vorbild, das eine aufblasbare Puppe („Bobo“) aggressiv behandelte. Danach zeigten die Kinder selbst ähnliche Aggressionen gegenüber der Puppe; sie ahmten das Modell nach. Bandura schloss daraus, dass Verhalten auch durch Beobachtung (Modelllernen) gelernt wird, nicht nur durch eigene Belohnung oder Bestrafung. Das ist ein Kernbaustein der Social Learning Theory.",
+                           "pruefen": true,
+                           "typ": "offen"
+                        },
+                        {
+                           "falsch": [
+                              "klassische Konditionierung",
+                              "Lernen durch Versuch und Irrtum in der Skinner-Box",
+                              "Lernen durch Strafe",
+                              "angeborene Aggression"
+                           ],
+                           "fragen": [
+                              "Welche Lernform belegt das Bobo-Doll-Experiment?",
+                              "Wofür steht Banduras Bobo-Doll-Experiment?"
+                           ],
+                           "id": "krim-s4-C6-w2-a2",
+                           "richtig": [
+                              "Modell- bzw. Beobachtungslernen"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, gerade auch durch Beobachtung (Modelllernen).",
+                                 "richtig": false,
+                                 "text": "Bandura geht davon aus, dass Verhalten ausschließlich durch eigene Belohnung und Bestrafung gelernt wird."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Das Bobo-Doll-Experiment zeigte Aggression und Nachahmungseffekte bei Kindern."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-C6-w2-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Bandura",
+                              "Albert Bandura"
+                           ],
+                           "frage": "Wer führte das Bobo-Doll-Experiment durch?",
+                           "id": "krim-s4-C6-w2-a4",
+                           "musterloesung": "Albert Bandura.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "krim-s4-C6-w2",
+                     "merke": "**Bandura (1960er)**: **Modell- bzw. Beobachtungslernen**. Im **Bobo-Doll-Experiment** zeigten Kinder **Aggression und Nachahmungseffekte**: Sie ahmten aggressives Verhalten nach, das sie bei einem Vorbild **beobachtet** hatten. Schluss: Verhalten wird **nicht nur durch eigene Belohnung**, sondern auch **durch Beobachtung** gelernt.",
+                     "titel": "Bandura: Bobo-Doll-Experiment"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-C-mix2",
+               "mix": [
+                  "krim-s4-C1",
+                  "krim-s4-C3",
+                  "krim-s4-C4",
+                  "krim-s4-C5",
+                  "krim-s4-C6"
+               ],
+               "titel": "🔀 Gemischt: Lerntheorien"
+            }
+         ],
+         "titel": "Lerntheorien"
+      },
+      {
+         "farbe": 210,
+         "id": "krim-s4-D",
+         "level": [
+            {
+               "id": "krim-s4-D1",
+               "titel": "Kontrolltheorien",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Warum begehen manche Menschen Straftaten?",
+                              "Welcher Nutzen motiviert Täter:innen?",
+                              "Wie wird Kriminalität gelernt?",
+                              "Welche Gene machen kriminell?"
+                           ],
+                           "fragen": [
+                              "Welche Frage stellen Kontrolltheorien?",
+                              "Worin besteht der Perspektivwechsel der Kontrolltheorien?"
+                           ],
+                           "id": "krim-s4-D1-w1-a1",
+                           "richtig": [
+                              "Warum begehen die meisten Menschen keine Straftaten?"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Kriminalität wird in Gruppen erlernt.",
+                              "Kriminalität ist am Phänotyp erkennbar.",
+                              "Täter:innen wägen Kosten und Nutzen ab."
+                           ],
+                           "frage": "Was sind Grundannahmen der Bindungstheorie (als Kontrolltheorie)?",
+                           "id": "krim-s4-D1-w1-a2",
+                           "richtig": [
+                              "Jeder Mensch neigt von Natur aus zu Kriminalität.",
+                              "Soziale Kontrolle schränkt diese Neigung ein.",
+                              "Gefragt wird, warum Menschen konform bleiben.",
+                              "Soziale Bindungen (Familie, Schule, Gesellschaft) verhindern Kriminalität."
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "Sutherland – Kriminalität wird erlernt.",
+                              "Lombroso – es gibt geborene Verbrecher.",
+                              "Becker – Menschen handeln rational.",
+                              "Bandura – Verhalten wird beobachtet."
+                           ],
+                           "fragen": [
+                              "Wer schrieb das (1969), und welche Annahme drückt es aus?"
+                           ],
+                           "id": "krim-s4-D1-w1-a3",
+                           "richtig": [
+                              "Hirschi – jeder Mensch neigt von Natur aus zu Kriminalität."
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„(...) we are all animals and thus all naturally capable of committing criminal acts“"
+                        },
+                        {
+                           "frage": "Nenne die Grundannahmen der Bindungstheorie.",
+                           "id": "krim-s4-D1-w1-a4",
+                           "kernpunkte": [
+                              "natürliche Neigung zur Kriminalität bei jedem Menschen",
+                              "Frage nach Konformität: Warum begehen die meisten keine Straftaten?",
+                              "informelle und formelle soziale Kontrolle schränkt ein",
+                              "soziale Bindungen an Familie, Schule, Gesellschaft verhindern Kriminalität (Hirschi 1969)"
+                           ],
+                           "musterloesung": "Die Bindungstheorie (Hirschi 1969) ist eine Kontrolltheorie. Sie geht davon aus, dass jeder Mensch von Natur aus zu Kriminalität neigt. Sie fragt deshalb nicht, warum Menschen kriminell werden, sondern warum die meisten konform bleiben. Die Antwort: Informelle und formelle soziale Kontrolle, vor allem soziale Bindungen an Familie, Schule und Gesellschaft, halten Menschen von Straftaten ab.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-D1-w1",
+                     "merke": "**Kontrolltheorien:** **Jeder Mensch neigt von Natur aus zu Kriminalität**; **soziale Kontrolle** (informell und formell) schränkt das ein. Sie fragen nicht nach den Ursachen, sondern **warum Menschen konform bleiben** – Perspektivwechsel: „**Warum begehen die meisten Menschen keine Straftaten?**“ **Soziale Bindungen** (Familie, Schule, Gesellschaft) **verhindern** kriminelles Verhalten.",
+                     "titel": "Warum bleiben Menschen konform?"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-D2",
+               "titel": "Die vier Elemente nach Hirschi",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Attachment, Belief, Commitment, Morality",
+                              "Achievement, Belief, Commitment, Involvement",
+                              "Achievement, Belief, Commitment, Morality",
+                              "Attachment, Control, Belief, Identity"
+                           ],
+                           "fragen": [
+                              "Welche vier Elemente sozialer Bindung nennt Hirschi?",
+                              "Wie lauten die vier Bindungselemente nach Hirschi?"
+                           ],
+                           "id": "krim-s4-D2-w1-a1",
+                           "richtig": [
+                              "Attachment, Commitment, Belief, Involvement"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne die Elemente ihren Beispielen zu.",
+                           "id": "krim-s4-D2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Attachment",
+                                 "rechts": "Familie, Freunde, Gemeinschaft"
+                              },
+                              {
+                                 "links": "Commitment",
+                                 "rechts": "Zukunft, Karriere, persönliche Ziele"
+                              },
+                              {
+                                 "links": "Belief",
+                                 "rechts": "Ehrlichkeit, Werte, Moral, Fairness"
+                              },
+                              {
+                                 "links": "Involvement",
+                                 "rechts": "Schule, Ehrenamt, Sportverein"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "erklaerung": "Die Personen sind erfunden; die Zuordnung folgt Hirschis Elementen aus der Vorlesung.",
+                           "frage": "Welches Bindungselement ist gemeint?",
+                           "id": "krim-s4-D2-w1-a3",
+                           "items": [
+                              {
+                                 "kategorie": "Commitment",
+                                 "text": "Lea will ihr Medizinstudium nicht gefährden."
+                              },
+                              {
+                                 "kategorie": "Attachment",
+                                 "text": "Ben hängt sehr an seinen Eltern."
+                              },
+                              {
+                                 "kategorie": "Belief",
+                                 "text": "Mia findet Ehrlichkeit wichtig."
+                              },
+                              {
+                                 "kategorie": "Involvement",
+                                 "text": "Can trainiert viermal pro Woche im Fußballverein."
+                              },
+                              {
+                                 "kategorie": "Involvement",
+                                 "text": "Ali engagiert sich ehrenamtlich bei der Tafel."
+                              }
+                           ],
+                           "kategorien": [
+                              "Attachment",
+                              "Commitment",
+                              "Belief",
+                              "Involvement"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "frage": "Ergänze die vier Elemente sozialer Bindung.",
+                           "id": "krim-s4-D2-w1-a4",
+                           "kopf": [
+                              "Element",
+                              "Beispiele"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Attachment",
+                                       "Bindung",
+                                       "Zuneigung"
+                                    ]
+                                 },
+                                 "Familie, Freunde"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Commitment",
+                                       "Verpflichtung"
+                                    ]
+                                 },
+                                 "Karriere, Zukunft"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Belief",
+                                       "Überzeugung",
+                                       "Glaube"
+                                    ]
+                                 },
+                                 "Werte, Moral"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Involvement",
+                                       "Einbindung",
+                                       "Engagement"
+                                    ]
+                                 },
+                                 "Ehrenamt, Sportverein"
+                              ]
+                           ]
+                        }
+                     ],
+                     "id": "krim-s4-D2-w1",
+                     "merke": "**Social Control Theory (Hirschi, 1969)** – vier Elemente sozialer Bindung: **Attachment** (Bindung an Familie, Freunde, Gemeinschaft), **Commitment** (Verpflichtung gegenüber Zukunft, Karriere, Erfolg, persönlichen Zielen), **Belief** (Überzeugungen: Ehrlichkeit, Werte, Normen, Moral, Fairness), **Involvement** (Einbindung in Aktivitäten: Schule, Ehrenamt, Religion, Sportvereine).",
+                     "titel": "Attachment, Commitment, Belief, Involvement"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-D3",
+               "titel": "Belege und Kritik",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Attachment",
+                              "Commitment",
+                              "Belief",
+                              "Achievement"
+                           ],
+                           "fragen": [
+                              "Welches Bindungselement korreliert mitunter sogar positiv mit Delinquenz?",
+                              "Bei welchem Element sind die Befunde zur Bindungstheorie am schwächsten?"
+                           ],
+                           "id": "krim-s4-D3-w1-a1",
+                           "richtig": [
+                              "Involvement"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, das sind die stärksten Belege.",
+                                 "richtig": true,
+                                 "text": "Attachment und Commitment hängen negativ mit delinquentem Verhalten zusammen."
+                              },
+                              {
+                                 "begruendung": "Nein, Affekttaten und Wirtschaftskriminalität werden nicht erklärt.",
+                                 "richtig": false,
+                                 "text": "Die Bindungstheorie erklärt Wirtschaftskriminalität besonders gut."
+                              },
+                              {
+                                 "begruendung": "Ja, das ist ein Kritikpunkt.",
+                                 "richtig": true,
+                                 "text": "Die Wirkrichtung zwischen schwachen Bindungen und Delinquenz ist unklar."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-D3-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "Sie ist rassistisch begründet.",
+                              "Sie ignoriert die Familie.",
+                              "Sie setzt einen homo oeconomicus voraus."
+                           ],
+                           "frage": "Welche Kritikpunkte an der Bindungstheorie nennt die Vorlesung?",
+                           "id": "krim-s4-D3-w1-a3",
+                           "richtig": [
+                              "Involvement korreliert mitunter positiv mit Delinquenz.",
+                              "Affekttaten und Wirtschaftskriminalität werden nicht erklärt.",
+                              "Ob starke Bindungen hinreichend sind, ist fraglich.",
+                              "Die Wirkrichtung ist unklar."
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "krim-s4-D3-w1",
+                     "merke": "**Belege:** **Attachment und Commitment** hängen **negativ** mit Delinquenz zusammen; Delinquente haben ein **niedrigeres Anspruchsniveau**. **Belief** korreliert tendenziell negativ; unklar, ob schwache konventionelle oder starke deviante Überzeugungen verantwortlich sind. **Kritik:** **Involvement** korreliert mitunter sogar **positiv** mit Delinquenz; **Affekttaten und Wirtschaftskriminalität** werden nicht erklärt; ob starke Bindungen **hinreichend** sind, ist offen; die **Wirkrichtung ist unklar**.",
+                     "titel": "Was die Forschung zeigt"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Delinquente Freunde bringen einem Kriminalität bei.",
+                              "Kriminalität führt zu delinquenten Freunden.",
+                              "Es gibt keinen Zusammenhang.",
+                              "Gene verursachen beides."
+                           ],
+                           "fragen": [
+                              "Wie erklärt Hirschi den Zusammenhang zwischen delinquenten Freunden und eigener Delinquenz?",
+                              "Was ist nach Hirschi die gemeinsame Ursache von delinquenten Freundschaften und Kriminalität?"
+                           ],
+                           "id": "krim-s4-D3-w2-a1",
+                           "richtig": [
+                              "als Scheinkorrelation: Fehlende Bindung an die Gesellschaft bewirkt beides."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Wie erklären die Theorien den Zusammenhang „kriminelle Freunde – eigene Kriminalität“?",
+                           "id": "krim-s4-D3-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "Sutherland/Lerntheorie",
+                                 "rechts": "Kriminalität wird von den Freunden gelernt."
+                              },
+                              {
+                                 "links": "Hirschi/Bindungstheorie",
+                                 "rechts": "Scheinkorrelation durch fehlende Bindung an die Gesellschaft"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Scheinkorrelation",
+                              "Schein-Korrelation",
+                              "Scheinzusammenhang"
+                           ],
+                           "frage": "Wie nennt man einen Zusammenhang zweier Merkmale, der nur durch eine gemeinsame dritte Ursache entsteht?",
+                           "id": "krim-s4-D3-w2-a3",
+                           "musterloesung": "Scheinkorrelation.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s4-D3-w2",
+                     "merke": "Laut **Hirschi** ist die Korrelation zwischen der **Anzahl delinquenter Freunde und Delinquenz** eine **Scheinkorrelation**: **Mangelnde Bindung an die Gesellschaft** bewirkt **sowohl** den Zusammenschluss mit delinquenten Peers **als auch** Kriminalität.",
+                     "titel": "Delinquente Peers: Scheinkorrelation"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-D-mix1",
+               "mix": [
+                  "krim-s4-D1",
+                  "krim-s4-D2",
+                  "krim-s4-D3"
+               ],
+               "titel": "🔀 Gemischt: Bindungstheorie"
+            },
+            {
+               "id": "krim-s4-D4",
+               "titel": "General Theory of Crime",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die beiden Elemente zu.",
+                           "id": "krim-s4-D4-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Criminality",
+                                 "rechts": "geringe Selbstkontrolle durch mangelnde frühkindliche Fürsorge"
+                              },
+                              {
+                                 "links": "Opportunity",
+                                 "rechts": "Gelegenheit, situationsabhängig und teils zufällig"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "bis etwa 3 Jahre",
+                              "bis etwa 14 Jahre",
+                              "bis etwa 25 Jahre",
+                              "sie entwickelt sich lebenslang"
+                           ],
+                           "fragen": [
+                              "Bis zu welchem Alter entwickelt sich die Selbstkontrolle nach Gottfredson und Hirschi?",
+                              "Wann ist die Selbstkontrolle laut General Theory of Crime ausgebildet?"
+                           ],
+                           "id": "krim-s4-D4-w1-a2",
+                           "richtig": [
+                              "bis etwa 8 Jahre"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, das ist der Kerngedanke.",
+                                 "richtig": true,
+                                 "text": "Kriminelles Verhalten ist nach der General Theory of Crime durch geringe Selbstkontrolle erklärbar."
+                              },
+                              {
+                                 "begruendung": "Ja, ohne Opportunity keine Tat.",
+                                 "richtig": true,
+                                 "text": "Die Gelegenheit ist notwendig, um Criminality zu realisieren."
+                              },
+                              {
+                                 "begruendung": "Nein, sie ist zweifelhaft und widerspricht der entwicklungsbezogenen Kriminologie.",
+                                 "richtig": false,
+                                 "text": "Die Annahme lebenslang niedriger Selbstkontrolle ist empirisch gut belegt."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-D4-w1-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s4-D4-w1-a4",
+                           "luecken": [
+                              [
+                                 "Hirschi"
+                              ],
+                              [
+                                 "1990"
+                              ],
+                              [
+                                 "stabiles"
+                              ]
+                           ],
+                           "text": "Die „Allgemeine Theorie der Kriminalität“ stammt von Gottfredson und {} ({}). Selbstkontrolle gilt dort als {} Persönlichkeitsmerkmal.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s4-D4-w1",
+                     "merke": "**General Theory of Crime (Gottfredson & Hirschi, 1990):** Kriminelles Verhalten ist durch **geringe Selbstkontrolle** erklärbar; Selbstkontrolle ist ein **stabiles Persönlichkeitsmerkmal**. Zwei Elemente: **a) Criminality** – geringe Selbstkontrolle durch **mangelnde frühkindliche Fürsorge**, entwickelt **bis ca. 8 Jahre**, führt zu **lebenslang stabiler Neigung**; **b) Opportunity** – **Gelegenheit**, situationsabhängig, **notwendig**, um Criminality zu realisieren.",
+                     "titel": "Geringe Selbstkontrolle"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Sie erklärt nur Affekttaten.",
+                              "Sie setzt biologische Ursachen voraus.",
+                              "Sie berücksichtigt keine Gelegenheiten.",
+                              "Sie stammt aus der Volkswirtschaft."
+                           ],
+                           "fragen": [
+                              "Warum wird die General Theory of Crime als tautologisch kritisiert?",
+                              "Worin liegt der Zirkelschluss der Selbstkontrolltheorie?"
+                           ],
+                           "id": "krim-s4-D4-w2-a1",
+                           "richtig": [
+                              "Kriminalität wird mit niedriger Selbstkontrolle erklärt, die wiederum aus kriminellem Verhalten geschlossen wird."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "sie ignoriert die frühe Kindheit",
+                              "sie überschätzt Gruppenprozesse",
+                              "sie ist rein biologisch"
+                           ],
+                           "frage": "Welche Kritikpunkte an der General Theory of Crime nennt die Vorlesung?",
+                           "id": "krim-s4-D4-w2-a2",
+                           "richtig": [
+                              "Tautologie",
+                              "Verantwortung wird primär auf die Eltern verlagert",
+                              "lebenslange Konstanz niedriger Selbstkontrolle ist empirisch unbelegt",
+                              "eher Theorie niedriger Selbstkontrolle als Kriminalitätstheorie"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "krim-s4-D4-w2-a3",
+                           "segmente": [
+                              {
+                                 "text": "Nach Gottfredson und Hirschi entsteht geringe Selbstkontrolle durch mangelnde frühkindliche Fürsorge."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Die Verantwortung wird primär auf die Eltern verlagert; die Gesellschaft trägt weniger Verantwortung für soziale Probleme.",
+                                 "text": "Damit wird die Verantwortung vor allem der Gesellschaft zugeschrieben."
+                              },
+                              {
+                                 "text": "Kritiker halten die Annahme lebenslanger Konstanz für empirisch unbelegt."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "krim-s4-D4-w2",
+                     "merke": "**Kritik:** eher Theorie **niedriger Selbstkontrolle** als Kriminalitätstheorie (fördert **Moralisierung**); **Tautologie** (Kriminalität wird mit niedriger Selbstkontrolle erklärt, die aus Kriminalität geschlossen wird); verlagert die **Verantwortung auf die Eltern** (konservativer Erziehungsstil, weniger gesellschaftliche Verantwortung); **lebenslange Konstanz** zweifelhaft und empirisch unbelegt; Rolle staatlicher Kontrolle unklar.",
+                     "titel": "Kritik an der General Theory"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-D-mix2",
+               "mix": [
+                  "krim-s4-D1",
+                  "krim-s4-D2",
+                  "krim-s4-D3",
+                  "krim-s4-D4"
+               ],
+               "titel": "🔀 Gemischt: Kontrolltheorien"
+            }
+         ],
+         "titel": "Bindung und Selbstkontrolle"
+      },
+      {
+         "farbe": 330,
+         "id": "krim-s4-E",
+         "level": [
+            {
+               "id": "krim-s4-E1",
+               "titel": "Take Home Messages",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, keine kann das; sie eignen sich aber für bestimmte Delikte sehr gut.",
+                                 "richtig": false,
+                                 "text": "Eine der klassischen Theorien kann jede Art von Kriminalität umfassend erklären."
+                              },
+                              {
+                                 "begruendung": "Ja, z. B. Psychologie oder Soziologie; Mikro-, Meso-, Makroebene.",
+                                 "richtig": true,
+                                 "text": "Theorien unterscheiden sich nach Herkunft und Untersuchungsebene."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Theorien unterscheiden sich darin, ob sie Täter:in, Gesellschaft, Tatbegehung oder Tatumstände in den Fokus rücken."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s4-E1-w1-a1",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Welche Theorie erklärt welches Delikt gut?",
+                           "id": "krim-s4-E1-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Rational Choice",
+                                 "rechts": "Wirtschaftskriminalität"
+                              },
+                              {
+                                 "links": "differenzielle Assoziation",
+                                 "rechts": "Drogenkonsum in einer Clique"
+                              },
+                              {
+                                 "links": "keine der klassischen Theorien gut",
+                                 "rechts": "Affekttat"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Alter der Autor:innen",
+                              "Länge der Theorie"
+                           ],
+                           "frage": "Wonach unterscheiden sich Kriminalitätstheorien laut Take Home Messages?",
+                           "id": "krim-s4-E1-w1-a3",
+                           "richtig": [
+                              "Herkunft (Psychologie, Soziologie …)",
+                              "Untersuchungsebene (Mikro, Meso, Makro)",
+                              "Fokus (Täter:in, Gesellschaft, Tatbegehung, Tatumstände)"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "krim-s4-E1-w1",
+                     "merke": "Theorien unterscheiden sich nach **Herkunft** (Psychologie, Soziologie …), **Untersuchungsebene** (Mikro, Meso, Makro) und **Fokus** (Täter:in, gesellschaftliche Rahmenbedingungen, Tatbegehung oder Tatumstände). **Keine klassische Theorie erklärt jede Art von Kriminalität**, aber verschiedene Theorien erklären **bestimmte Delikte sehr gut**.",
+                     "titel": "Keine Theorie erklärt alles"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ätiologische Theorie oder Willensfreiheit?",
+                           "id": "krim-s4-E1-w2-a1",
+                           "items": [
+                              {
+                                 "kategorie": "individualbezogen-ätiologisch",
+                                 "text": "Theorie der differenziellen Assoziation"
+                              },
+                              {
+                                 "kategorie": "individualbezogen-ätiologisch",
+                                 "text": "soziale Lerntheorie"
+                              },
+                              {
+                                 "kategorie": "individualbezogen-ätiologisch",
+                                 "text": "Bindungstheorie"
+                              },
+                              {
+                                 "kategorie": "Willensfreiheit",
+                                 "text": "Rational Choice"
+                              }
+                           ],
+                           "kategorien": [
+                              "individualbezogen-ätiologisch",
+                              "Willensfreiheit"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "akzeptiert": [
+                              "ätiologisch",
+                              "ätiologische Theorien",
+                              "ätiologische Kriminalitätstheorien",
+                              "individualbezogene ätiologische Theorien"
+                           ],
+                           "frage": "Wie nennt man Theorien, die nach den Ursachen von Kriminalität (im Individuum) suchen?",
+                           "id": "krim-s4-E1-w2-a2",
+                           "musterloesung": "Individualbezogene, ätiologische Kriminalitätstheorien.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "die Bindungstheorie",
+                              "die Theorie der differenziellen Assoziation",
+                              "die Biosocial Criminology",
+                              "die Social Learning Theory"
+                           ],
+                           "fragen": [
+                              "Welcher Ansatz geht von Willensfreiheit und persönlicher Verantwortung aus?",
+                              "Welche Theorie steht in der Tradition Beccarias?"
+                           ],
+                           "id": "krim-s4-E1-w2-a3",
+                           "richtig": [
+                              "der Rational-Choice-Ansatz"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s4-E1-w2",
+                     "merke": "**Differenzielle Assoziation, soziale Lerntheorie und Bindungstheorie** suchen die Ursachen **im Individuum** (**individualbezogene, ätiologische** Theorien). **Rational Choice** geht in Anlehnung an die **klassische Schule (Beccaria)** von **Willensfreiheit und persönlicher Verantwortung** aus. In jüngerer Zeit werden **vermehrt auch biologische und medizinische Ansätze** diskutiert.",
+                     "titel": "Ätiologisch oder Willensfreiheit"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-E2",
+               "titel": "Theorien anwenden: Strafmündigkeit",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Kinder handeln immer völlig rational.",
+                              "Strafen haben gar keine Folgen.",
+                              "Rational Choice erklärt Bandenkriminalität nicht.",
+                              "13-Jährige sind biologisch erwachsen."
+                           ],
+                           "fragen": [
+                              "Was spricht aus Sicht der Rational-Choice-Empirie gegen die Hoffnung, eine frühere Strafmündigkeit schrecke ab?",
+                              "Warum ist von einer Absenkung der Strafmündigkeit wenig Abschreckung zu erwarten?"
+                           ],
+                           "id": "krim-s4-E2-w1-a1",
+                           "richtig": [
+                              "Empirisch sind nur geringe Abschreckungseffekte durch Strafen belegt."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "erklaerung": "Die Zuordnung wendet die Theorien der Vorlesung auf die Arbeitsblattfrage an.",
+                           "frage": "Welches Argument zur Strafmündigkeit mit 13 gehört zu welcher Theorie?",
+                           "id": "krim-s4-E2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Rational Choice",
+                                 "rechts": "Abschreckung setzt rationale Abwägung voraus; empirisch geringe Effekte"
+                              },
+                              {
+                                 "links": "Biologie/Entwicklung",
+                                 "rechts": "präfrontaler Kortex und Pubertät: Entscheidungsfindung noch in Entwicklung"
+                              },
+                              {
+                                 "links": "Bindungstheorie",
+                                 "rechts": "Bindungen an Familie und Schule stärken statt kappen"
+                              },
+                              {
+                                 "links": "Lerntheorien",
+                                 "rechts": "Banden als Lernorte; Kontakt zu kriminellen Gruppen vermeiden"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "erklaerung": "Die Musterlösung wendet die Theorien der Vorlesung an; eine Lösung gibt die Vorlesung nicht vor. Bitte mit der Besprechung im Seminar abgleichen.",
+                           "frage": "In Schweden wird wegen zunehmender Bandenkriminalität eine Absenkung des Strafmündigkeitsalters auf 13 Jahre diskutiert. Beurteile die Forderung mit Rational Choice, biologischen bzw. entwicklungspsychologischen Befunden und den Bindungs- und Lerntheorien.",
+                           "id": "krim-s4-E2-w1-a3",
+                           "kernpunkte": [
+                              "Rational Choice: Hoffnung auf Abschreckung (höhere Kosten); aber nur geringe Abschreckungseffekte belegt, Kinder kalkulieren kaum",
+                              "Biologie/Entwicklung: präfrontaler Kortex, Pubertät, exekutive Funktionen noch in Entwicklung → eingeschränkte rationale Steuerung",
+                              "Bindungstheorie: Strafen/Haft können Bindungen an Familie, Schule (Attachment, Commitment, Involvement) schwächen",
+                              "Lerntheorie: Banden sind Lernorte (Definitionen pro, Fertigkeiten); Strafvollzug kann Kontakt zu kriminellen Gruppen verstärken; besser Prävention über Bindung und andere Lernumfelder"
+                           ],
+                           "musterloesung": "Aus Sicht der Rational Choice Theorie soll die Absenkung die Kosten der Tat erhöhen und abschrecken. Empirisch sind aber nur geringe Abschreckungseffekte belegt, und gerade 13-Jährige wägen Folgen kaum ab. Biologische und entwicklungsbezogene Befunde zeigen, dass präfrontaler Kortex, exekutive Funktionen und Impulskontrolle in der Pubertät noch reifen. Nach der Bindungstheorie halten Bindungen an Familie und Schule von Kriminalität ab; Strafen können diese Bindungen schwächen. Nach den Lerntheorien lernen Jugendliche Kriminalität in Gruppen; Banden sind Lernorte, und Sanktionen wie Haft können den Kontakt zu kriminellen Gruppen sogar verstärken. Insgesamt spricht mehr für Prävention, Bindungsstärkung und andere Lernumfelder als für eine frühere Strafmündigkeit.",
+                           "pruefen": true,
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-E2-w1",
+                     "merke": "Eine **Absenkung der Strafmündigkeit** (Schweden diskutiert 13 Jahre) lässt sich mit den Theorien kritisch prüfen: **Rational Choice** setzt rationale Abwägung voraus, empirisch gibt es aber **nur geringe Abschreckungseffekte**; **biologische/entwicklungsbezogene Befunde** (präfrontaler Kortex, Pubertät, exekutive Funktionen) sprechen gegen voll rationale Entscheidungen; **Bindungs- und Lerntheorien** setzen auf Bindung (Familie, Schule) und lernen in Gruppen – Strafe kann Bindungen schwächen und Kontakt zu kriminellen Gruppen verstärken.",
+                     "titel": "Strafmündigkeit mit 13?"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-E3",
+               "titel": "Theorien anwenden: Videoüberwachung",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Sie verhindert vor allem Affekttaten.",
+                              "Sie stärkt die soziale Bindung der Reisenden.",
+                              "Sie verändert die gelernten Definitionen der Täter:innen.",
+                              "Sie hat nach Rational Choice keine Wirkung."
+                           ],
+                           "fragen": [
+                              "Welche Wirkung von Videoüberwachung sagt die Rational Choice Theorie voraus?",
+                              "Wie wirkt eine Kamera am Bahnhof nach Rational Choice?"
+                           ],
+                           "id": "krim-s4-E3-w1-a1",
+                           "richtig": [
+                              "Sie erhöht die wahrgenommene Entdeckungswahrscheinlichkeit, also die Kosten, und senkt so geplante Taten."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Wirkt Videoüberwachung hier nach Rational Choice eher gut oder eher schlecht?",
+                           "id": "krim-s4-E3-w1-a2",
+                           "items": [
+                              {
+                                 "kategorie": "eher wirksam",
+                                 "text": "geplanter Taschendiebstahl"
+                              },
+                              {
+                                 "kategorie": "eher wirksam",
+                                 "text": "Fahrraddiebstahl"
+                              },
+                              {
+                                 "kategorie": "eher unwirksam",
+                                 "text": "Schlägerei unter starkem Alkoholeinfluss"
+                              },
+                              {
+                                 "kategorie": "eher unwirksam",
+                                 "text": "Affekttat im Streit"
+                              },
+                              {
+                                 "kategorie": "eher unwirksam",
+                                 "text": "Tat unter Suchtdruck"
+                              }
+                           ],
+                           "kategorien": [
+                              "eher wirksam",
+                              "eher unwirksam"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "erklaerung": "Verdrängung und Privatsphäre stehen nicht auf den Folien; sie sind Anwendungsüberlegungen zur Arbeitsblattfrage. Bitte mit der Besprechung abgleichen.",
+                           "frage": "Es wird immer wieder diskutiert, an Bahnhöfen Videoüberwachung einzuführen bzw. auszuweiten. Welche Wirkungen sagt die Rational-Choice-Theorie voraus? Welche unbeabsichtigten Effekte sind denkbar? Skizziere Argumente von Befürworter:innen und Kritiker:innen.",
+                           "id": "krim-s4-E3-w1-a3",
+                           "kernpunkte": [
+                              "RC: höhere wahrgenommene Entdeckungswahrscheinlichkeit = höhere Kosten → weniger geplante, rationale Taten (Eigentums-/Vermögensdelikte)",
+                              "unbeabsichtigt: Verdrängung an unbewachte Orte; Affekttaten, Taten unter Alkohol/Sucht unbeeinflusst; Absicherung rationaler Täter",
+                              "Befürworter:innen: Abschreckung, bessere Aufklärung, Sicherheitsgefühl",
+                              "Kritiker:innen: empirisch geringe Abschreckungseffekte, irrationale Faktoren ausgeblendet, Eingriff in Privatsphäre/Kosten"
+                           ],
+                           "musterloesung": "Nach Rational Choice erhöhen Kameras die wahrgenommene Entdeckungswahrscheinlichkeit und damit die Kosten einer Tat; geplante Taten wie Taschen- oder Fahrraddiebstahl sollten abnehmen. Unbeabsichtigt kann Kriminalität an unbewachte Orte verdrängt werden; Affekttaten und Taten unter Alkohol oder Sucht bleiben kaum beeinflusst, weil die Theorie irrationale Faktoren ausblendet. Befürworter:innen verweisen auf Abschreckung, bessere Aufklärung und mehr Sicherheitsgefühl. Kritiker:innen verweisen auf die empirisch geringen Abschreckungseffekte, darauf, dass rational Handelnde sich anpassen, und auf den Eingriff in die Privatsphäre.",
+                           "pruefen": true,
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s4-E3-w1",
+                     "merke": "**Videoüberwachung** erhöht nach **Rational Choice** die **wahrgenommene Entdeckungswahrscheinlichkeit** (höhere Kosten) → weniger **geplante** Taten (z. B. Diebstahl). **Unbeabsichtigt** möglich: **Verdrängung** an andere Orte, kaum Wirkung bei **Affekttaten**, Taten unter Alkohol oder Sucht, trügerisches Sicherheitsgefühl. **Befürworter:innen:** Abschreckung, Aufklärung; **Kritiker:innen:** geringe Abschreckungseffekte, irrationale Taten, Eingriff in die Privatsphäre.",
+                     "titel": "Kameras am Bahnhof"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s4-E-mix1",
+               "mix": [
+                  "krim-s4-E1",
+                  "krim-s4-E2",
+                  "krim-s4-E3"
+               ],
+               "titel": "🔀 Gemischt: Theorien im Vergleich"
+            }
+         ],
+         "titel": "Bilanz der klassischen Theorien"
+      }
+   ]
+}
