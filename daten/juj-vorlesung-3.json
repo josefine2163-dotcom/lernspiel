@@ -1,0 +1,1005 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s3",
+   "kurztitel": "Vorlesung 3",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "frage": "Ordne die Disziplin ihrem Jugendbegriff zu.",
+            "id": "juj-s3-pk1",
+            "paare": [
+               {
+                  "links": "Biologie",
+                  "rechts": "Pubertät"
+               },
+               {
+                  "links": "Entwicklungspsychologie",
+                  "rechts": "Adoleszenz"
+               },
+               {
+                  "links": "Soziologie",
+                  "rechts": "Integrationsprozess oder soziale Kategorie"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s3-A1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "weil die Biologie es verlangt",
+               "weil Jugend überall gleich ist",
+               "weil es die Pubertät misst"
+            ],
+            "frage": "Warum legt das Recht feste Altersgrenzen für Jugend fest?",
+            "id": "juj-s3-pk2",
+            "richtig": [
+               "aus Gründen der Rechtssicherheit"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s3-A1-w2"
+            ]
+         },
+         {
+            "frage": "Ergänze die strafrechtlichen Altersgrenzen.",
+            "id": "juj-s3-pk3",
+            "kopf": [
+               "Gruppe",
+               "Alter"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s3-A2-w1"
+            ],
+            "zeigen": 3,
+            "zeilen": [
+               [
+                  "Kind",
+                  {
+                     "akzeptiert": [
+                        "unter 14",
+                        "bis unter 14",
+                        "bis 13"
+                     ]
+                  }
+               ],
+               [
+                  "Jugendlicher",
+                  {
+                     "akzeptiert": [
+                        "14 bis unter 18",
+                        "14-17",
+                        "14–17"
+                     ]
+                  }
+               ],
+               [
+                  "Heranwachsender",
+                  {
+                     "akzeptiert": [
+                        "18 bis unter 21",
+                        "18-20",
+                        "18–20"
+                     ]
+                  }
+               ],
+               [
+                  "Erwachsener",
+                  {
+                     "akzeptiert": [
+                        "ab 21",
+                        "21"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Kinder sind nach § 19 StGB schuldunfähig."
+               },
+               {
+                  "begruendung": "Nein, ab 21 (§ 1 II JGG); 18 gilt im Zivilrecht.",
+                  "richtig": false,
+                  "text": "Erwachsener im Strafrecht ist man ab 18."
+               },
+               {
+                  "begruendung": "Ja, § 1 II JGG.",
+                  "richtig": true,
+                  "text": "Jugendlicher ist, wer zur Tatzeit 14, aber noch nicht 18 ist."
+               }
+            ],
+            "frage": "Richtig oder falsch?",
+            "id": "juj-s3-pk4",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s3-A2-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "kleine Erwachsene"
+            ],
+            "frage": "Wie nennt die Vorlesung Kinder in der vorindustriellen Zeit?",
+            "id": "juj-s3-pk5",
+            "musterloesung": "„Kleine Erwachsene“.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s3-B1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "in der Schule",
+               "im Studium",
+               "in Lehrwerkstätten des Staates"
+            ],
+            "frage": "Wie lernten Kinder in der vorindustriellen Zeit ihre Tätigkeiten?",
+            "id": "juj-s3-pk6",
+            "richtig": [
+               "durch Nachahmen und Hineinwachsen in die Produktion"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s3-B1-w1"
+            ]
+         },
+         {
+            "frage": "Bürgerliche Jugend oder Arbeiterjugend?",
+            "id": "juj-s3-pk7",
+            "items": [
+               {
+                  "kategorie": "bürgerliche Jugend",
+                  "text": "Jugend etwa 14.–25. Lj."
+               },
+               {
+                  "kategorie": "bürgerliche Jugend",
+                  "text": "Studium"
+               },
+               {
+                  "kategorie": "Arbeiterjugend",
+                  "text": "Jugend etwa 12.–16. Lj."
+               },
+               {
+                  "kategorie": "Arbeiterjugend",
+                  "text": "Kinderarbeit"
+               }
+            ],
+            "kategorien": [
+               "bürgerliche Jugend",
+               "Arbeiterjugend"
+            ],
+            "typ": "beispiel",
+            "wissen": [
+               "juj-s3-B2-w1",
+               "juj-s3-B2-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "im Proletariat",
+               "im Mittelalter",
+               "in der DDR"
+            ],
+            "frage": "Wo erfolgte die eigentliche „Geburt“ der Jugend?",
+            "id": "juj-s3-pk8",
+            "richtig": [
+               "im Unternehmertum und Bildungsbürgertum"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s3-B2-w2"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "juj-s3-pk9",
+            "luecken": [
+               [
+                  "Problemfall",
+                  "Problem"
+               ],
+               [
+                  "Straftäter",
+                  "Straftaeter"
+               ]
+            ],
+            "text": "Ende des 19. Jh. galt der Jugendliche zunächst als sozialer {} oder junger {}.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s3-B3-w1"
+            ]
+         },
+         {
+            "elemente": [
+               "kleine Erwachsene",
+               "Jugend als soziales Problem",
+               "neutrale Verwendung in der Jugendfürsorge",
+               "Homogenisierung durch Verschulung"
+            ],
+            "frage": "Bringe in die zeitliche Reihenfolge.",
+            "id": "juj-s3-pk10",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s3-B3-w1",
+               "juj-s3-B4-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Post-Adoleszenz",
+               "Postadoleszenz"
+            ],
+            "frage": "Wie heißt die Verlängerung der Jugend durch Ausbildung/Studium bis Mitte/Ende 20?",
+            "id": "juj-s3-pk11",
+            "musterloesung": "Post-Adoleszenz.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s3-B4-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Kinderarbeit ab 8 Jahren",
+               "feste ständische Einbindung"
+            ],
+            "frage": "Was kennzeichnet die Jugend in der modernen Wissensgesellschaft?",
+            "id": "juj-s3-pk12",
+            "richtig": [
+               "Bildungsexpansion auch für untere Schichten",
+               "Homogenisierung durch Verschulung",
+               "Jugend vom 14. bis 27. Lj.",
+               "Pluralisierung von Lebensstilen"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s3-B4-w1"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s3-pk13",
+            "segmente": [
+               {
+                  "text": "Jugend ist eine soziale Konstruktion."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Sie entstand erst in der **bürgerlichen Gesellschaft Ende des 19. Jahrhunderts**.",
+                  "text": "Als eigene soziale Kategorie gibt es sie seit dem Mittelalter."
+               },
+               {
+                  "text": "Seitdem differenzierten sich die Jugendwissenschaften aus."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s3-B5-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "nur die Rechtswissenschaft",
+               "nur die Medizin",
+               "keine"
+            ],
+            "frage": "Welche Wissenschaften entstanden laut Keyfacts mit der Kategorie Jugend?",
+            "id": "juj-s3-pk14",
+            "richtig": [
+               "u. a. Jugendpsychologie, Jugendsoziologie, Jugendkriminologie und Jugendkriminalrecht"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s3-B5-w1"
+            ]
+         },
+         {
+            "fall": "Sara war zur Tatzeit 17 Jahre und 11 Monate alt. Als die Anklage erhoben wird, ist sie 18.",
+            "frage": "Ist Sara strafrechtlich als Jugendliche oder Heranwachsende zu behandeln?",
+            "id": "juj-s3-pk15",
+            "kernpunkte": [
+               "entscheidend ist das Alter zur Tatzeit",
+               "zur Tatzeit 17 = Jugendliche (14 bis unter 18, § 1 II JGG)",
+               "JGG anwendbar"
+            ],
+            "musterloesung": "Entscheidend ist das Alter zur Tatzeit (§ 1 II JGG). Sara war 17, also Jugendliche (14 bis unter 18). Auf sie ist das JGG anzuwenden, auch wenn sie bei Anklage schon 18 ist.",
+            "typ": "fall",
+            "wissen": [
+               "juj-s3-A2-w1"
+            ]
+         },
+         {
+            "frage": "Vergleiche die Jugendphase von Arbeiter- und Bürgerkindern im 19. Jahrhundert.",
+            "id": "juj-s3-pk16",
+            "kernpunkte": [
+               "Arbeiterkinder: eingeschränkte Jugend 12.–16. Lj.",
+               "Kinderarbeit, Unterlaufen der Schulpflicht, von der Schule in die Fabrik, früh unabhängig, frühe Heirat",
+               "Bürgertum: eigentliche Geburt der Jugend, weiterführende Bildung/Studium",
+               "14.–z. T. 25. Lj., lange Abhängigkeit, Askese, Sekundärtugenden"
+            ],
+            "musterloesung": "Arbeiterkinder hatten nur eine eingeschränkte Jugend vom 12. bis 16. Lj.: Kinderarbeit, die Schulpflicht wurde unterlaufen, sie gingen von der Schule in die Fabrik, waren früh unabhängig von den Eltern und heirateten früh. Im Unternehmertum und Bildungsbürgertum entstand dagegen die eigentliche Jugend: weiterführende Bildung bis zum Studium, eine Jugendphase vom 14. bis z. T. 25. Lj. mit langer Abhängigkeit von den Eltern, Askese und Sekundärtugenden.",
+            "typ": "offen",
+            "wissen": [
+               "juj-s3-B2-w1",
+               "juj-s3-B2-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 3"
+   },
+   "quelle": [
+      "JuJ/3. Vorlesung JuJ.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Die gesellschaftliche Entstehung der Kategorie „Jugend“",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 30,
+         "id": "juj-s3-A",
+         "level": [
+            {
+               "id": "juj-s3-A1",
+               "titel": "Wie man „Jugend“ fassen kann",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Disziplin ihrem Jugendbegriff zu.",
+                           "id": "juj-s3-A1-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Biologie",
+                                 "rechts": "Pubertät: körperlicher Wachstumsprozess"
+                              },
+                              {
+                                 "links": "Entwicklungspsychologie",
+                                 "rechts": "Adoleszenz: Entwicklungsphase ca. 11.–21. Lj."
+                              },
+                              {
+                                 "links": "Soziologie",
+                                 "rechts": "Integrationsprozess ca. 13.–25. Lj. oder soziale Kategorie"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Jugend beginnt immer genau mit 14 Jahren.",
+                              "Jugend endet immer genau mit 18 Jahren.",
+                              "Jugend ist nur biologisch bestimmt.",
+                              "Jugend ist nur rechtlich bestimmt."
+                           ],
+                           "fragen": [
+                              "Was haben die verschiedenen Jugendbegriffe gemeinsam?",
+                              "Worin stimmen Biologie, Psychologie und Soziologie beim Jugendbegriff überein?"
+                           ],
+                           "id": "juj-s3-A1-w1-a2",
+                           "richtig": [
+                              "Jugend ist die Phase zwischen Kindheit und Erwachsenenalter, meist ohne starre Altersgrenzen."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Adoleszenz",
+                              "Adoleszens"
+                           ],
+                           "frage": "Wie nennt die Entwicklungspsychologie die Jugendphase?",
+                           "id": "juj-s3-A1-w1-a3",
+                           "musterloesung": "Adoleszenz.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "juj-s3-A1-w1",
+                     "merke": "Jugend wird verschieden gefasst: **Biologie: Pubertät** (körperliches Wachstum zwischen Geschlechtsreife und ca. 17./18. Lj.), **Entwicklungspsychologie: Adoleszenz** (ca. 11.–21. Lj., ggf. länger), **Soziologie:** **Integrationsprozess** (ca. 13.–25. Lj.) oder **soziale Kategorie**. Gemeinsam: **Phase zwischen Kindheit und Erwachsenenalter**, i. d. R. **ohne starre Altersgrenzen**.",
+                     "titel": "Drei Zugangswege"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "weil die Biologie sie vorgibt",
+                              "weil die Pubertät immer gleich verläuft",
+                              "weil es keine Jugendforschung gibt",
+                              "weil das Grundgesetz Jugend definiert"
+                           ],
+                           "fragen": [
+                              "Warum braucht das Recht konkrete Altersgrenzen für „Jugend“?"
+                           ],
+                           "id": "juj-s3-A1-w2-a1",
+                           "richtig": [
+                              "wegen der Rechtssicherheit"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, nur kontextbezogen.",
+                                 "richtig": true,
+                                 "text": "Die Wissenschaften bestimmen Jugend meist ohne starre Altersgrenzen."
+                              },
+                              {
+                                 "begruendung": "Nein, aus Gründen der Rechtssicherheit braucht es konkrete Altersvorgaben.",
+                                 "richtig": false,
+                                 "text": "Auch das Recht verzichtet auf feste Altersgrenzen."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Die Soziologie kann Jugend auch als soziale Kategorie verstehen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s3-A1-w2-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Rechtssicherheit",
+                              "Rechtsicherheit"
+                           ],
+                           "frage": "Welcher Rechtsgrundsatz verlangt konkrete Altersgrenzen?",
+                           "id": "juj-s3-A1-w2-a3",
+                           "musterloesung": "Die Rechtssicherheit.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s3-A1-w2",
+                     "merke": "Das **Recht** braucht **Rechtssicherheit** und deshalb **konkrete Altersvorgaben** – anders als die Wissenschaften, die Jugend nur kontextbezogen ohne starre Grenzen bestimmen.",
+                     "titel": "Das Recht braucht feste Grenzen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s3-A2",
+               "titel": "Gesetzliche Altersspannen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ergänze die strafrechtlichen Altersgruppen.",
+                           "id": "juj-s3-A2-w1-a1",
+                           "kopf": [
+                              "Gruppe",
+                              "Alter",
+                              "Norm"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "Kind",
+                                 {
+                                    "akzeptiert": [
+                                       "unter 14",
+                                       "bis unter 14",
+                                       "0-13",
+                                       "bis 13"
+                                    ]
+                                 },
+                                 {
+                                    "akzeptiert": [
+                                       "§ 19 StGB",
+                                       "19 StGB"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Jugendlicher",
+                                 {
+                                    "akzeptiert": [
+                                       "14 bis unter 18",
+                                       "14-17",
+                                       "14–17",
+                                       "14 bis 17"
+                                    ]
+                                 },
+                                 {
+                                    "akzeptiert": [
+                                       "§ 1 II JGG",
+                                       "1 II JGG",
+                                       "§ 1 Abs. 2 JGG"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Heranwachsender",
+                                 {
+                                    "akzeptiert": [
+                                       "18 bis unter 21",
+                                       "18-20",
+                                       "18–20",
+                                       "18 bis 20"
+                                    ]
+                                 },
+                                 {
+                                    "akzeptiert": [
+                                       "§§ 1 II, 105 I JGG",
+                                       "105 JGG",
+                                       "§ 105 JGG"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "falsch": [
+                              "ab 18 Jahren",
+                              "ab 14 Jahren",
+                              "ab 16 Jahren",
+                              "ab 25 Jahren"
+                           ],
+                           "fragen": [
+                              "Ab wann ist man im Strafrecht Erwachsener?",
+                              "Ab welchem Alter gilt jemand nach § 1 II JGG als Erwachsener?"
+                           ],
+                           "id": "juj-s3-A2-w1-a2",
+                           "richtig": [
+                              "ab 21 Jahren"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Kinder unter 14 Jahren sind nach § 19 StGB schuldunfähig."
+                              },
+                              {
+                                 "begruendung": "Nein, ab 18 (§ 2 BGB); 21 gilt im Strafrecht.",
+                                 "richtig": false,
+                                 "text": "Im Zivilrecht ist man ab 21 Jahren volljährig."
+                              },
+                              {
+                                 "begruendung": "Ja, ggf. nach § 105 I JGG.",
+                                 "richtig": true,
+                                 "text": "Auf Heranwachsende kann das JGG angewendet werden."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s3-A2-w1-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "fall": "Lukas ist 19 Jahre alt. Er hat einen Kaufvertrag über ein Auto abgeschlossen und eine Woche später einen Diebstahl begangen.",
+                           "frage": "Ist Lukas im Zivilrecht und im Strafrecht „Erwachsener“?",
+                           "id": "juj-s3-A2-w1-a4",
+                           "kernpunkte": [
+                              "Zivilrecht: volljährig ab 18 (§ 2 BGB), also erwachsen",
+                              "Strafrecht: Heranwachsender (18 bis unter 21, § 1 II JGG)",
+                              "ggf. Anwendung des JGG (§ 105 I JGG)",
+                              "Erwachsener im Strafrecht erst ab 21"
+                           ],
+                           "musterloesung": "Im Zivilrecht ist Lukas mit 19 volljährig (§ 2 BGB) und kann wirksam Verträge schließen. Im Strafrecht ist er dagegen Heranwachsender (18 bis unter 21, § 1 II JGG); auf ihn kann ggf. Jugendstrafrecht angewendet werden (§ 105 I JGG). Erwachsener im Strafrecht ist man erst ab 21.",
+                           "typ": "fall"
+                        }
+                     ],
+                     "id": "juj-s3-A2-w1",
+                     "merke": "**Kind:** bis unter 14 J. – im Strafrecht **schuldunfähig (§ 19 StGB)**. **Jugendlicher:** 14 bis unter 18 J. (**§ 1 II JGG**). **Heranwachsender:** 18 bis unter 21 J. (**§§ 1 II, 105 I JGG**, ggf. JGG). **Erwachsener:** im Strafrecht **ab 21** (§ 1 II JGG), im **Zivilrecht aber ab 18** (§ 2 BGB).",
+                     "titel": "Kind, Jugendlicher, Heranwachsender, Erwachsener"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s3-A-mix1",
+               "mix": [
+                  "juj-s3-A1",
+                  "juj-s3-A2"
+               ],
+               "titel": "🔀 Gemischt: Begriff und Alter"
+            }
+         ],
+         "titel": "Begriff und Altersgrenzen"
+      },
+      {
+         "farbe": 200,
+         "id": "juj-s3-B",
+         "level": [
+            {
+               "id": "juj-s3-B1",
+               "titel": "Mittelalter und vorindustrielle Zeit",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "akzeptiert": [
+                              "kleine Erwachsene",
+                              "kleine Erwachsenen"
+                           ],
+                           "frage": "Wie bezeichnet die Vorlesung Kinder im Mittelalter, die an allen Bereichen der Erwachsenenwelt teilnahmen?",
+                           "id": "juj-s3-B1-w1-a1",
+                           "musterloesung": "Als „kleine Erwachsene“.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "Es gab bereits eine lange Schulpflicht.",
+                              "Sie wurden bis 25 von den Eltern versorgt.",
+                              "Es gab Berufsberatung.",
+                              "Sie lebten alle in Städten."
+                           ],
+                           "fragen": [
+                              "Warum gab es in der vorindustriellen Zeit keine Probleme der Identitätsfindung oder Berufswahl?",
+                              "Was erklärt, dass junge Menschen im Mittelalter keine Berufswahl treffen mussten?"
+                           ],
+                           "id": "juj-s3-B1-w1-a2",
+                           "richtig": [
+                              "Sie waren fest in ständisch-feudale Gesellschaftsstrukturen eingebunden."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "waren Kinder ab etwa 8–10 Jahren Arbeitskräfte."
+                              },
+                              {
+                                 "begruendung": "Nein, durch Nachahmen und Hineinwachsen in die Produktion.",
+                                 "richtig": false,
+                                 "text": "lernten Kinder ihre Tätigkeiten vor allem in der Schule."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "verließen viele früh das Elternhaus für eine Lehre in der Fremde."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? In der vorindustriellen Zeit …",
+                           "id": "juj-s3-B1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s3-B1-w1",
+                     "merke": "Im **Mittelalter/vorindustrieller Zeit** nahmen Kinder an **allen Bereichen der Erwachsenenwelt** teil („**kleine Erwachsene**“), **ab 8–10 Jahren als Arbeitskraft**. Sie lernten **durch Nachahmen und Hineinwachsen** in die Produktion, ohne schulische Ausbildung oder Berufswahl. Fest **eingebunden in ständisch-feudale Strukturen**, hatten sie **keine Probleme der Identitätsfindung oder Berufswahl**.",
+                     "titel": "Kleine Erwachsene"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s3-B2",
+               "titel": "Industrialisierung",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "vom 14. bis 25. Lebensjahr",
+                              "vom 14. bis 27. Lebensjahr",
+                              "gar keine, sie galten als Erwachsene ab Geburt",
+                              "vom 18. bis 21. Lebensjahr"
+                           ],
+                           "fragen": [
+                              "Wie lang war die Jugendphase der Arbeiterkinder im 19. Jahrhundert?",
+                              "Welche Jugendphase hatten Proletarierkinder bis ins 20. Jahrhundert?"
+                           ],
+                           "id": "juj-s3-B2-w1-a1",
+                           "richtig": [
+                              "nur eingeschränkt, etwa vom 12. bis 16. Lebensjahr"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Studium",
+                              "lange Abhängigkeit von den Eltern",
+                              "Askese und Sekundärtugenden"
+                           ],
+                           "frage": "Was kennzeichnete die Jugend der Arbeiterkinder im 19. Jahrhundert?",
+                           "id": "juj-s3-B2-w1-a2",
+                           "richtig": [
+                              "Kinderarbeit",
+                              "Unterlaufen der Schulpflicht",
+                              "von der Schule in die Fabrik",
+                              "frühe Unabhängigkeit von elterlicher Kontrolle"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s3-B2-w1-a3",
+                           "luecken": [
+                              [
+                                 "Bildung",
+                                 "Bildung und Ausbildung",
+                                 "Ausbildung"
+                              ],
+                              [
+                                 "Fabrik"
+                              ]
+                           ],
+                           "text": "Mit der Industrialisierung entstand durch funktionale Differenzierung und Arbeitsteilung ein Bedarf nach {}. Arbeiterkinder gingen aber spätestens mit 12/14 von der Schule in die {}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s3-B2-w1",
+                     "merke": "**Industrialisierung (19. Jh.):** funktionale Differenzierung, Arbeitsteilung, „Explosion“ des Wissens → **Bedarf an Bildung**. Für die **Proletarier** gab es nur eine **eingeschränkte Jugendphase (ca. 12.–16. Lj.)**: Kinderarbeit, Unterlaufen der Schulpflicht, **von der Schule in die Fabrik**, früh unabhängig von elterlicher Kontrolle, frühe Heirat.",
+                     "titel": "Arbeiterjugend"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "im Proletariat",
+                              "im Adel des Mittelalters",
+                              "bei den Bauern",
+                              "in der Arbeiterbewegung"
+                           ],
+                           "fragen": [
+                              "In welcher Schicht erfolgte die eigentliche „Geburt“ der Jugend?",
+                              "Wo entstand die Jugendphase im eigentlichen Sinn?"
+                           ],
+                           "id": "juj-s3-B2-w2-a1",
+                           "richtig": [
+                              "im Unternehmertum und Bildungsbürgertum"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Bürgerliche Jugend oder Arbeiterjugend im 19. Jahrhundert?",
+                           "id": "juj-s3-B2-w2-a2",
+                           "items": [
+                              {
+                                 "kategorie": "bürgerliche Jugend",
+                                 "text": "Studium"
+                              },
+                              {
+                                 "kategorie": "bürgerliche Jugend",
+                                 "text": "lange Abhängigkeit von den Eltern"
+                              },
+                              {
+                                 "kategorie": "bürgerliche Jugend",
+                                 "text": "Askese und Sekundärtugenden"
+                              },
+                              {
+                                 "kategorie": "Arbeiterjugend",
+                                 "text": "Kinderarbeit"
+                              },
+                              {
+                                 "kategorie": "Arbeiterjugend",
+                                 "text": "von der Schule in die Fabrik"
+                              },
+                              {
+                                 "kategorie": "Arbeiterjugend",
+                                 "text": "frühe Heirat"
+                              }
+                           ],
+                           "kategorien": [
+                              "bürgerliche Jugend",
+                              "Arbeiterjugend"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s3-B2-w2-a3",
+                           "luecken": [
+                              [
+                                 "14"
+                              ],
+                              [
+                                 "25"
+                              ]
+                           ],
+                           "text": "Im Bildungsbürgertum dauerte die Jugend vom {}. bis zum Teil {}. Lebensjahr.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s3-B2-w2",
+                     "merke": "Im **Unternehmertum und Bildungsbürgertum** erfolgte die **eigentliche „Geburt“ der Jugend**: **weiterführende Bildung (Studium)** zur Fortführung des sozialen und ökonomischen Status. Die Jugendphase dauerte **vom 14. bis z. T. 25. Lj.**, mit **langer Abhängigkeit von den Eltern**, **Askese** und **Sekundärtugenden**.",
+                     "titel": "Bürgerliche Jugend"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s3-B3",
+               "titel": "Jugend als Problem",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "als Hoffnungsträger der Nation",
+                              "als neutraler Altersbegriff",
+                              "als kleiner Erwachsener",
+                              "als Kunde und Konsument"
+                           ],
+                           "fragen": [
+                              "Wie wurde „der Jugendliche“ Ende des 19. Jahrhunderts zunächst gesehen?",
+                              "Als was erschien Jugend, als sie Ende des 19. Jh. erstmals als Gruppe wahrgenommen wurde?"
+                           ],
+                           "id": "juj-s3-B3-w1-a1",
+                           "richtig": [
+                              "als sozialer Problemfall oder junger Straftäter"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "elemente": [
+                              "„kleine Erwachsene“ in der vorindustriellen Zeit",
+                              "Jugend als soziale Gruppe und soziales Problem (Ende 19. Jh.)",
+                              "neutrale Verwendung in der Jugendfürsorge (Anfang 20. Jh.)",
+                              "Post-Adoleszenz in der Wissensgesellschaft (seit Mitte 20. Jh.)"
+                           ],
+                           "frage": "Bringe die Entwicklung des Jugendbegriffs in die richtige Reihenfolge.",
+                           "id": "juj-s3-B3-w1-a2",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s3-B3-w1-a3",
+                           "luecken": [
+                              [
+                                 "19",
+                                 "neunzehnten"
+                              ],
+                              [
+                                 "20",
+                                 "zwanzigsten"
+                              ],
+                              [
+                                 "fürsorge",
+                                 "pflege",
+                                 "fuersorge"
+                              ]
+                           ],
+                           "text": "Jugend als eigene soziale Gruppe erscheint erstmals Ende des {}. Jahrhunderts; neutral verwendet wird der Begriff erst ab Anfang des {}. Jahrhunderts, vor allem in der Jugend{}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s3-B3-w1",
+                     "merke": "„**Jugend**“ als **eigene soziale Gruppe** erschien **erstmals Ende des 19. Jh.**, **zunächst nur als soziales Problem**: Der Jugendliche war ein **sozialer Problemfall oder junger Straftäter**. Eine **neutrale Verwendung** gab es erst **ab Anfang des 20. Jh.**, vor allem in der **Jugendfürsorge/-pflege**.",
+                     "titel": "Vom Problemfall zum neutralen Begriff"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s3-B4",
+               "titel": "Moderne Wissensgesellschaft",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "12. bis 16. Lebensjahr",
+                              "14. bis 18. Lebensjahr",
+                              "8. bis 14. Lebensjahr",
+                              "14. bis 21. Lebensjahr"
+                           ],
+                           "fragen": [
+                              "Welche Altersspanne nennt die Vorlesung für die Jugend in der modernen Wissensgesellschaft?",
+                              "Wie lange dauert die Jugendphase heute laut Vorlesung?"
+                           ],
+                           "id": "juj-s3-B4-w1-a1",
+                           "richtig": [
+                              "14. bis 27. Lebensjahr"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Post-Adoleszenz",
+                              "Postadoleszenz",
+                              "Post Adoleszenz"
+                           ],
+                           "frage": "Wie heißt die verlängerte Phase von Ausbildung/Studium bis Mitte/Ende 20?",
+                           "id": "juj-s3-B4-w1-a2",
+                           "musterloesung": "Post-Adoleszenz.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, „Homogenisierung von Jugend durch Verschulung“.",
+                                 "richtig": true,
+                                 "text": "gleichen sich bürgerliche und proletarische Jugendphasen durch Verschulung an."
+                              },
+                              {
+                                 "begruendung": "Nein, die Bildungsexpansion erfasst auch untere Schichten.",
+                                 "richtig": false,
+                                 "text": "haben nur Kinder aus oberen Schichten eine längere Bildung."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "pluralisieren sich Lebensstile und Jugendkulturen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? In der modernen Wissensgesellschaft …",
+                           "id": "juj-s3-B4-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s3-B4-w1",
+                     "merke": "**Seit Mitte des 20. Jh.:** **Bildungsexpansion** (längere Bildung auch für untere Schichten), **Angleichung** bürgerlicher und proletarischer Jugendphasen („**Homogenisierung von Jugend durch Verschulung**“), **Post-Adoleszenz** (Ausbildung/Studium bis Mitte/Ende 20). Jugend reicht nun vom **14. bis 27. Lj.**, mit **Pluralisierung von Lebensstilen** und zunehmender **Eigenverantwortung für die Berufskarriere**.",
+                     "titel": "Verschulung und Post-Adoleszenz"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s3-B-mix1",
+               "mix": [
+                  "juj-s3-B1",
+                  "juj-s3-B2",
+                  "juj-s3-B3",
+                  "juj-s3-B4"
+               ],
+               "titel": "🔀 Gemischt: Geschichte der Jugend"
+            },
+            {
+               "id": "juj-s3-B5",
+               "titel": "Keyfacts",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "um junge Menschen früher arbeiten zu lassen",
+                              "um die Strafmündigkeit zu senken",
+                              "weil die Pubertät früher einsetzte",
+                              "um das Militär zu stärken"
+                           ],
+                           "fragen": [
+                              "Wozu entstand „Jugend“ laut Vorlesung?",
+                              "Welche Funktion hatte die Entstehung der Jugendphase?"
+                           ],
+                           "id": "juj-s3-B5-w1-a1",
+                           "richtig": [
+                              "um durch eine intensive Bildungsphase auf die Anforderungen der Industrie- und Wissensgesellschaft vorzubereiten"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Jugend ist eine rein biologische Tatsache.",
+                              "Jugend gab es in allen Epochen in gleicher Form."
+                           ],
+                           "frage": "Welche Aussagen gehören zu den Keyfacts der Vorlesung?",
+                           "id": "juj-s3-B5-w1-a2",
+                           "richtig": [
+                              "Jugend ist eine soziale Konstruktion.",
+                              "Jugend entstand als eigene Kategorie Ende des 19. Jh. in der bürgerlichen Gesellschaft.",
+                              "Seitdem entstanden Jugendwissenschaften wie Jugendkriminologie.",
+                              "Jugend bereitet durch eine intensive Bildungsphase vor."
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Erkläre, warum „Jugend“ eine soziale Konstruktion ist und wie sie entstand.",
+                           "id": "juj-s3-B5-w1-a3",
+                           "kernpunkte": [
+                              "vorindustriell: keine Jugend, „kleine Erwachsene“, Arbeit ab 8–10",
+                              "Industrialisierung: Bildungsbedarf; Arbeiterjugend nur 12.–16. Lj.; bürgerliche Jugend 14.–25. Lj. als eigentliche Geburt",
+                              "Ende 19. Jh. eigene soziale Kategorie, zunächst als Problem; neutral ab Anfang 20. Jh.",
+                              "Wissensgesellschaft: Bildungsexpansion, Verschulung, Post-Adoleszenz, 14.–27. Lj.",
+                              "Zweck: Vorbereitung auf Industrie- und Wissensgesellschaft durch Bildungsphase"
+                           ],
+                           "musterloesung": "Jugend ist keine Naturtatsache, sondern entstand gesellschaftlich. Im Mittelalter gab es keine Jugendphase: Kinder waren „kleine Erwachsene“ und arbeiteten ab 8–10 Jahren. Mit der Industrialisierung wuchs der Bildungsbedarf; Arbeiterkinder hatten nur eine kurze Jugend (12.–16. Lj.), im Bildungsbürgertum entstand mit dem Studium die eigentliche Jugend (14.–25. Lj.). Ende des 19. Jh. wurde Jugend als eigene soziale Kategorie wahrgenommen, zuerst als Problem, ab Anfang des 20. Jh. neutral. In der Wissensgesellschaft führten Bildungsexpansion und Verschulung zur Angleichung und zur Post-Adoleszenz (14.–27. Lj.). Jugend dient der Vorbereitung auf die Anforderungen der Industrie- und Wissensgesellschaft durch eine intensive Bildungsphase.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "juj-s3-B5-w1",
+                     "merke": "**Keyfacts:** „Jugend“ entstand als eigenständige soziale Kategorie **erst in der bürgerlichen Gesellschaft Ende des 19. Jh.** Sie ist ein **gesellschaftliches Phänomen, eine soziale Konstruktion**. Sie entstand, um auf die **Anforderungen der Industrie- und Wissensgesellschaft durch eine intensive Bildungsphase** vorzubereiten. Seitdem differenzierten sich die **Jugendwissenschaften** aus (Pädagogik, Jugendpsychologie und -soziologie, Pädiatrie, **Jugendkriminologie und Jugendkriminalrecht**).",
+                     "titel": "Jugend als soziale Konstruktion"
+                  }
+               ]
+            }
+         ],
+         "titel": "Wie „Jugend“ entstand"
+      }
+   ]
+}

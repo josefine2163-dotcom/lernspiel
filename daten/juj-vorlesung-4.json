@@ -1,0 +1,1330 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s4",
+   "kurztitel": "Vorlesung 4",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "frage": "Definiere Sozialisation nach Hurrelmann.",
+            "id": "juj-s4-pk1",
+            "kernpunkte": [
+               "Prozess der Entstehung und Entwicklung der Persönlichkeit",
+               "in wechselseitiger Abhängigkeit",
+               "von der gesellschaftlich vermittelten sozialen und materiellen Umwelt"
+            ],
+            "musterloesung": "Sozialisation ist der Prozess der Entstehung und Entwicklung der Persönlichkeit in wechselseitiger Abhängigkeit von der gesellschaftlich vermittelten sozialen und materiellen Umwelt.",
+            "typ": "definition",
+            "wissen": [
+               "juj-s4-A1-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s4-pk2",
+            "paare": [
+               {
+                  "links": "Durkheim",
+                  "rechts": "Sozialisation als Anpassung"
+               },
+               {
+                  "links": "Hurrelmann",
+                  "rechts": "produktive Realitätsverarbeitung"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s4-A1-w2"
+            ]
+         },
+         {
+            "frage": "Nenne die vier Bestandteile der Persönlichkeit.",
+            "id": "juj-s4-pk3",
+            "kopf": [
+               "Nr.",
+               "Bestandteil"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s4-A2-w1"
+            ],
+            "zeigen": 4,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Eigenschaften"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Wertorientierungen",
+                        "Werte"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Einstellungen"
+                     ]
+                  }
+               ],
+               [
+                  "4",
+                  {
+                     "akzeptiert": [
+                        "Handlungskompetenzen",
+                        "Handlungskompetenz",
+                        "Agency"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "falsch": [
+               "Sie sind angeboren und unveränderbar.",
+               "Sie wechseln von Situation zu Situation.",
+               "Sie betreffen nur Erwachsene."
+            ],
+            "frage": "Was gilt für Persönlichkeitseigenschaften?",
+            "id": "juj-s4-pk4",
+            "richtig": [
+               "Sie wirken über Situationen und längere Zeit, sind aber veränderbar."
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s4-A2-w2"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s4-pk5",
+            "paare": [
+               {
+                  "links": "Wertorientierungen",
+                  "rechts": "generalisierte, relativ konstante Überzeugungen"
+               },
+               {
+                  "links": "Einstellungen",
+                  "rechts": "wertende Reaktionen auf bestimmte Personen/Gruppen"
+               },
+               {
+                  "links": "Handlungskompetenz",
+                  "rechts": "Umsetzung im praktischen Handeln"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s4-A2-w3"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "genetisch",
+               "normativ"
+            ],
+            "frage": "In welchen Formen äußern sich Einstellungen?",
+            "id": "juj-s4-pk6",
+            "richtig": [
+               "kognitiv",
+               "affektiv",
+               "konativ"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s4-A2-w3"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s4-pk7",
+            "paare": [
+               {
+                  "links": "Individuation",
+                  "rechts": "personale Identität"
+               },
+               {
+                  "links": "Integration",
+                  "rechts": "soziale Identität"
+               },
+               {
+                  "links": "Austarieren beider",
+                  "rechts": "Ich-Identität"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s4-B1-w1",
+               "juj-s4-B1-w2"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Statuspassagen",
+               "Statuspassage"
+            ],
+            "frage": "Wie heißen die Übergänge Kind → Jugendlicher → Erwachsener?",
+            "id": "juj-s4-pk8",
+            "musterloesung": "Statuspassagen.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s4-B1-w2"
+            ]
+         },
+         {
+            "frage": "Nenne die vier Bereiche der Entwicklungsaufgaben.",
+            "id": "juj-s4-pk9",
+            "kopf": [
+               "Nr.",
+               "Bereich"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s4-B2-w1"
+            ],
+            "zeigen": 3,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Qualifikation"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Bindung"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Konsum"
+                     ]
+                  }
+               ],
+               [
+                  "4",
+                  {
+                     "akzeptiert": [
+                        "Partizipation"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "falsch": [
+               "bei der Wahl des Gerichtsorts",
+               "bei der Berechnung der Verjährung",
+               "bei der Schöffenwahl"
+            ],
+            "frage": "Wobei kann das Modell der Entwicklungsaufgaben im Jugendstrafverfahren helfen?",
+            "id": "juj-s4-pk10",
+            "richtig": [
+               "bei der Reifebeurteilung nach §§ 3 und 105 JGG"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s4-B2-w2"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Maturation Gap",
+               "Reifungslücke",
+               "maturity gap"
+            ],
+            "frage": "Wie heißt die Lücke zwischen biologischer Reifung und sozialer Entwicklung?",
+            "id": "juj-s4-pk11",
+            "musterloesung": "Maturation Gap.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s4-B3-w1"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s4-pk12",
+            "segmente": [
+               {
+                  "text": "Zur Grundproblematik der Sozialisation gehört der Maturation Gap."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Sie stehen in einem **Spannungsverhältnis** mit individuellen Krisenerfahrungen.",
+                  "text": "Individuation und Integration ergänzen sich immer spannungsfrei."
+               },
+               {
+                  "text": "Ziel ist eine stabile Ich-Identität."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s4-B3-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Finanzamt",
+               "Bundestag"
+            ],
+            "frage": "Welche Instanzen der Sozialisation nennt die Vorlesung?",
+            "id": "juj-s4-pk13",
+            "richtig": [
+               "Familie",
+               "Schule",
+               "Freunde",
+               "Medien"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s4-C1-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "juj-s4-pk14",
+            "luecken": [
+               [
+                  "methodische"
+               ],
+               [
+                  "gemeinschaftsfähige",
+                  "gemeinschaftsfaehige"
+               ]
+            ],
+            "text": "Erziehung ist nach Durkheim „{} Sozialisation“. Ihr Ziel ist eine eigenverantwortliche und {} Persönlichkeit.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s4-C2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Sozialisation ersetzen",
+               "Strafen vollstrecken",
+               "Rollen abschaffen"
+            ],
+            "frage": "Welche Funktion hat Erziehung nach Luhmann?",
+            "id": "juj-s4-pk15",
+            "richtig": [
+               "ergänzen oder korrigieren, was als Resultat von Sozialisation zu erwarten ist"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s4-C2-w2"
+            ]
+         },
+         {
+            "fall": "Tom (20) studiert noch, wohnt bei den Eltern und wird von ihnen finanziert. Er hat eine feste Freundin und gibt sein Geld selbstständig für Konsum und Freizeit aus.",
+            "frage": "Wie lässt sich Toms Entwicklungsstand mit den Entwicklungsaufgaben beschreiben?",
+            "id": "juj-s4-pk16",
+            "kernpunkte": [
+               "Konsum: Konsumentenrolle schon weitgehend übernommen",
+               "Bindung: Partnerschaft vorhanden, aber noch keine Familie",
+               "Qualifikation: noch keine Berufsrolle/ökonomische Selbstversorgung",
+               "Statusinkonsistenz: Übergang ungleichzeitig und entkoppelt"
+            ],
+            "musterloesung": "Tom hat die Entwicklungsaufgaben ungleichzeitig gelöst: Die Konsumentenrolle hat er weitgehend übernommen, eine Partnerschaft besteht, aber die Qualifikation ist nicht abgeschlossen, er hat keine Berufsrolle und versorgt sich nicht selbst ökonomisch. Das ist typische Statusinkonsistenz: Der Übergang ins Erwachsenenalter verläuft uneinheitlich und entkoppelt. Da Qualifikation und Bindung als stärkste Hinweise auf den Erwachsenenstatus gelten, ist er in diesem Sinne noch nicht ganz erwachsen.",
+            "typ": "fall",
+            "wissen": [
+               "juj-s4-B2-w1",
+               "juj-s4-B2-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 4"
+   },
+   "quelle": [
+      "JuJ/4. Vorlesung JuJ.pdf",
+      "JuJ/4. Boers et al., Skript Sozialisation.pdf",
+      "JuJ/JuJ 3 Mitschrift.odt"
+   ],
+   "sprache": "de",
+   "titel": "Sozialisation und Erziehung",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 30,
+         "id": "juj-s4-A",
+         "level": [
+            {
+               "id": "juj-s4-A1",
+               "titel": "Was ist Sozialisation?",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "bewusst ergriffene Maßnahmen zur Förderung der Persönlichkeit",
+                              "einseitige Prägung des Kindes durch die Eltern",
+                              "angeborene Entwicklung der Persönlichkeit",
+                              "Bestrafung abweichenden Verhaltens"
+                           ],
+                           "fragen": [
+                              "Wie definiert Hurrelmann Sozialisation?",
+                              "Was ist Sozialisation nach der Vorlesung?"
+                           ],
+                           "id": "juj-s4-A1-w1-a1",
+                           "richtig": [
+                              "Prozess der Entstehung und Entwicklung der Persönlichkeit in wechselseitiger Abhängigkeit von der sozialen und materiellen Umwelt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (Hurrelmann).",
+                           "id": "juj-s4-A1-w1-a2",
+                           "luecken": [
+                              [
+                                 "Persönlichkeit",
+                                 "Persoenlichkeit"
+                              ],
+                              [
+                                 "wechselseitiger"
+                              ],
+                              [
+                                 "materiellen"
+                              ]
+                           ],
+                           "text": "Sozialisation ist der Prozess der Entstehung und Entwicklung der {} in {} Abhängigkeit von der gesellschaftlich vermittelten sozialen und {} Umwelt.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Wie wird man ein Mitglied der Gesellschaft?",
+                              "Wie wird man Mitglied der Gesellschaft",
+                              "Mitglied der Gesellschaft"
+                           ],
+                           "frage": "Welche Leitfrage stellt die Vorlesung zur jugendlichen Sozialisation?",
+                           "id": "juj-s4-A1-w1-a3",
+                           "musterloesung": "Wie wird man ein Mitglied der Gesellschaft?",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s4-A1-w1",
+                     "merke": "**Sozialisation** ist der **Prozess der Entstehung und Entwicklung der Persönlichkeit** in **wechselseitiger Abhängigkeit** von der **gesellschaftlich vermittelten sozialen und materiellen Umwelt** (Hurrelmann u. a.). Leitfrage: **Wie wird man ein Mitglied der Gesellschaft?**",
+                     "titel": "Definition nach Hurrelmann"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s4-A1-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "Durkheim (traditionell)",
+                                 "rechts": "Sozialisation als Anpassung an die Umwelt"
+                              },
+                              {
+                                 "links": "neuere Ansätze (Hurrelmann)",
+                                 "rechts": "produktive Verarbeitung innerer und äußerer Realität"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Innere oder äußere Realität (Hurrelmann)?",
+                           "id": "juj-s4-A1-w2-a2",
+                           "items": [
+                              {
+                                 "kategorie": "innere Realität",
+                                 "text": "körperliche Dispositionen"
+                              },
+                              {
+                                 "kategorie": "innere Realität",
+                                 "text": "psychische Eigenschaften"
+                              },
+                              {
+                                 "kategorie": "äußere Realität",
+                                 "text": "soziale Umwelt"
+                              },
+                              {
+                                 "kategorie": "äußere Realität",
+                                 "text": "physische Umwelt"
+                              }
+                           ],
+                           "kategorien": [
+                              "innere Realität",
+                              "äußere Realität"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "Weil sie wirtschaftlichen Nutzen bringt.",
+                              "Weil der Mensch passiv geprägt wird.",
+                              "Weil nur Erwachsene sozialisiert werden.",
+                              "Weil sie vom Staat gesteuert wird."
+                           ],
+                           "fragen": [
+                              "Warum ist die Realitätsverarbeitung nach Hurrelmann „produktiv“?"
+                           ],
+                           "id": "juj-s4-A1-w2-a3",
+                           "richtig": [
+                              "Weil sich der Mensch stets aktiv mit seinem Leben auseinandersetzt und Entwicklungsaufgaben zu bewältigen versucht."
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s4-A1-w2",
+                     "merke": "**Durkheim** verstand Sozialisation als **Anpassung** des Menschen an seine Umwelt. Neuere Ansätze sehen sie als **interdependenten Vorgang** der **aktiven Auseinandersetzung**: Es geht um die **produktive Verarbeitung der inneren** (Körper, Psyche) **und äußeren Realität** (soziale und physische Umwelt) (Hurrelmann & Bauer; Boers et al., Skript Sozialisation).",
+                     "titel": "Von Anpassung zu produktiver Verarbeitung"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-A2",
+               "titel": "Bestandteile der Persönlichkeit",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Nenne die vier Bestandteile der Persönlichkeit.",
+                           "id": "juj-s4-A2-w1-a1",
+                           "kopf": [
+                              "Nr.",
+                              "Bestandteil"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "1",
+                                 {
+                                    "akzeptiert": [
+                                       "Eigenschaften",
+                                       "Persönlichkeitseigenschaften"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "2",
+                                 {
+                                    "akzeptiert": [
+                                       "Wertorientierungen",
+                                       "Werte",
+                                       "Wertorientierung"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "3",
+                                 {
+                                    "akzeptiert": [
+                                       "Einstellungen",
+                                       "Einstellung"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "4",
+                                 {
+                                    "akzeptiert": [
+                                       "Handlungskompetenzen",
+                                       "Handlungskompetenz",
+                                       "Agency"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "ausreisser": [
+                              "Schulabschluss",
+                              "Einkommen",
+                              "Wohnort"
+                           ],
+                           "frage": "Was gehört nicht zu den Bestandteilen der Persönlichkeit laut Vorlesung?",
+                           "gehoert": [
+                              "Eigenschaften",
+                              "Wertorientierungen",
+                              "Einstellungen",
+                              "Handlungskompetenzen"
+                           ],
+                           "id": "juj-s4-A2-w1-a2",
+                           "typ": "wasPasstNicht"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Staatsangehörigkeit",
+                              "Vorstrafen"
+                           ],
+                           "frage": "Was kennzeichnet laut Vorlesung die Persönlichkeit eines Menschen?",
+                           "id": "juj-s4-A2-w1-a3",
+                           "richtig": [
+                              "Eigenschaften",
+                              "Wertorientierungen",
+                              "Einstellungen",
+                              "Handlungskompetenzen"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s4-A2-w1",
+                     "merke": "**Persönlichkeit** = die den einzelnen Menschen kennzeichnenden **Eigenschaften, Wertorientierungen, Einstellungen und Handlungskompetenzen**.",
+                     "titel": "Vier Bestandteile"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "unveränderliche, angeborene Merkmale",
+                              "kurzfristige Stimmungen",
+                              "wertende Reaktionen auf bestimmte Personen",
+                              "die Fähigkeit, Werte im Handeln umzusetzen"
+                           ],
+                           "fragen": [
+                              "Was sind Persönlichkeitseigenschaften laut Vorlesung?",
+                              "Wie definiert die Vorlesung (Persönlichkeits-)Eigenschaften?"
+                           ],
+                           "id": "juj-s4-A2-w2-a1",
+                           "richtig": [
+                              "über Situationen und längere Zeit wirksame, aber veränderbare Verhaltensbereitschaften"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Intelligenz",
+                              "Religiosität",
+                              "Kriminalität"
+                           ],
+                           "frage": "Welche Eigenschaften gehören zu den Big Five?",
+                           "id": "juj-s4-A2-w2-a2",
+                           "richtig": [
+                              "Aufgeschlossenheit",
+                              "Gewissenhaftigkeit",
+                              "Extraversion",
+                              "Verträglichkeit",
+                              "Neurotizismus"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "akzeptiert": [
+                              "sonst wäre Erziehung durch Jugendstrafe unlogisch",
+                              "weil sonst Erziehung nicht möglich wäre",
+                              "Erziehbarkeit",
+                              "weil Jugendliche noch erziehbar sind"
+                           ],
+                           "erklaerung": "Der Gedanke stammt aus der Mitschrift der Nutzerin zur Vorlesung, nicht von den Folien.",
+                           "frage": "Warum ist es für das Jugendstrafrecht wichtig, dass Persönlichkeitseigenschaften veränderbar sind?",
+                           "id": "juj-s4-A2-w2-a3",
+                           "musterloesung": "Weil das Jugendstrafrecht auf Erziehung setzt: Wären Eigenschaften unveränderbar, wäre Erziehung durch Jugendstrafe unlogisch.",
+                           "pruefen": true,
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s4-A2-w2",
+                     "merke": "**(Persönlichkeits-)Eigenschaften** sind **über verschiedene Situationen und einen längeren Zeitraum wirksame, jedoch auch veränderbare Verhaltensbereitschaften**, z. B. die **Big Five**: Aufgeschlossenheit, Gewissenhaftigkeit, Extraversion, Verträglichkeit, Neurotizismus. Dass sie **veränderbar** sind, ist für das Jugendstrafrecht wichtig – sonst wäre Erziehung durch Jugendstrafe unlogisch.",
+                     "titel": "Eigenschaften sind veränderbar"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Begriffe zu.",
+                           "id": "juj-s4-A2-w3-a1",
+                           "paare": [
+                              {
+                                 "links": "Wertorientierungen",
+                                 "rechts": "generalisierte, relativ konstante Überzeugungen"
+                              },
+                              {
+                                 "links": "Einstellungen",
+                                 "rechts": "wertende Reaktionen auf bestimmte Personen, Gruppen, Objekte"
+                              },
+                              {
+                                 "links": "Handlungskompetenz (Agency)",
+                                 "rechts": "Fähigkeit, Werte und Einstellungen im Handeln umzusetzen"
+                              },
+                              {
+                                 "links": "Eigenschaften",
+                                 "rechts": "situationsübergreifende, veränderbare Verhaltensbereitschaften"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "genetisch",
+                              "juristisch"
+                           ],
+                           "frage": "In welchen Formen äußern sich Einstellungen?",
+                           "id": "juj-s4-A2-w3-a2",
+                           "richtig": [
+                              "kognitiv (Einschätzung, Überzeugung)",
+                              "affektiv (Gefühle)",
+                              "konativ (bestimmtes Verhalten)"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Handlungskompetenz",
+                              "Agency",
+                              "Handlungskompetenzen"
+                           ],
+                           "frage": "Wie heißt die Fähigkeit, Wertorientierungen und Einstellungen im praktischen Handeln zu realisieren (englisch oder deutsch)?",
+                           "id": "juj-s4-A2-w3-a3",
+                           "musterloesung": "Handlungskompetenz (Agency).",
+                           "typ": "begriff"
+                        },
+                        {
+                           "frage": "Wertorientierung oder Einstellung?",
+                           "id": "juj-s4-A2-w3-a4",
+                           "items": [
+                              {
+                                 "kategorie": "Wertorientierung",
+                                 "text": "generelle Überzeugung, dass Gerechtigkeit wichtig ist"
+                              },
+                              {
+                                 "kategorie": "Wertorientierung",
+                                 "text": "generalisierte Überzeugung zur Gestaltung politischer Gegebenheiten"
+                              },
+                              {
+                                 "kategorie": "Einstellung",
+                                 "text": "Abneigung gegenüber einer bestimmten Partei"
+                              },
+                              {
+                                 "kategorie": "Einstellung",
+                                 "text": "Meinung, wie hart Straftäter bestraft werden sollen (Sanktionseinstellung)"
+                              },
+                              {
+                                 "kategorie": "Einstellung",
+                                 "text": "Sicherheitsgefühl gegenüber Kriminalität"
+                              }
+                           ],
+                           "kategorien": [
+                              "Wertorientierung",
+                              "Einstellung"
+                           ],
+                           "typ": "beispiel"
+                        }
+                     ],
+                     "id": "juj-s4-A2-w3",
+                     "merke": "**Wertorientierungen:** **generalisierte, zeitlich relativ konstante Überzeugungen** zur Gestaltung sozialer, wirtschaftlicher, politischer, kultureller oder individueller Gegebenheiten. **Einstellungen:** **wertende Reaktionen auf bestimmte Personen, Gruppen, Situationen, Objekte** – **kognitiv, affektiv, konativ** (z. B. Sanktionseinstellung, Sicherheitsgefühl). **Handlungskompetenz (Agency):** Fähigkeit, **Wertorientierungen und Einstellungen im praktischen Handeln zu realisieren**.",
+                     "titel": "Werte, Einstellungen, Handlungskompetenz"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-A-mix1",
+               "mix": [
+                  "juj-s4-A1",
+                  "juj-s4-A2"
+               ],
+               "titel": "🔀 Gemischt: Sozialisation und Persönlichkeit"
+            }
+         ],
+         "titel": "Sozialisation und Persönlichkeit"
+      },
+      {
+         "farbe": 270,
+         "id": "juj-s4-B",
+         "level": [
+            {
+               "id": "juj-s4-B1",
+               "titel": "Zwei Seiten der Sozialisation",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "soziale Identität",
+                              "Statuspassage",
+                              "Maturation Gap",
+                              "Rollenübernahme"
+                           ],
+                           "fragen": [
+                              "Was ist das Ergebnis des Individuationsprozesses?",
+                              "Welche Identität entsteht durch Individuation?"
+                           ],
+                           "id": "juj-s4-B1-w1-a1",
+                           "richtig": [
+                              "personale Identität"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "ökonomische Selbstversorgung",
+                              "Kinderbetreuung",
+                              "emotionales Grundvertrauen"
+                           ],
+                           "frage": "Welche Entwicklungsaufgaben gehören zur Individuation im Jugendalter?",
+                           "id": "juj-s4-B1-w1-a2",
+                           "richtig": [
+                              "intellektuelle und soziale Kompetenz für Schule und Beruf",
+                              "Geschlechtsidentität, Empathie- und Bindungsfähigkeit",
+                              "Bindung zu Gleichaltrigen",
+                              "eigenständige Wert- und Normorientierungen",
+                              "eigenständige Handlungsmuster bzgl. Medien, Konsum, Freizeit"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s4-B1-w1-a3",
+                           "luecken": [
+                              [
+                                 "situationsunabhängiger",
+                                 "situationsunabhaengiger"
+                              ],
+                              [
+                                 "Kontinuität",
+                                 "Kontinuitaet"
+                              ]
+                           ],
+                           "text": "Personale Identität ist das Erleben {} lebensgeschichtlicher {}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s4-B1-w1",
+                     "merke": "**Entwicklungspsychologisch** ist jugendliche Sozialisation ein **Individuationsprozess** (Hurrelmann): Entwicklung einer **unverwechselbaren Persönlichkeit**, die sich durch **selbstständiges Handeln** behauptet. Ergebnis: **personale Identität** (Erleben **situationsunabhängiger lebensgeschichtlicher Kontinuität**), erreicht durch das **Lösen von Entwicklungsaufgaben**.",
+                     "titel": "Individuation → personale Identität"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne zu (Hurrelmann).",
+                           "id": "juj-s4-B1-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "Individuation (Psychologie)",
+                                 "rechts": "personale Identität"
+                              },
+                              {
+                                 "links": "Integration (Soziologie)",
+                                 "rechts": "soziale Identität"
+                              },
+                              {
+                                 "links": "Ausgleich beider",
+                                 "rechts": "Ich-Identität"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Statuspassage",
+                              "Statuspassagen",
+                              "Statusübergang"
+                           ],
+                           "frage": "Wie heißt der Übergang von einer Lebensphase in die nächste, z. B. vom Jugendlichen zum Erwachsenen?",
+                           "id": "juj-s4-B1-w2-a2",
+                           "musterloesung": "Statuspassage.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "Entwicklung einer unverwechselbaren Persönlichkeit",
+                              "biologische Reifung",
+                              "Bestrafung durch den Staat",
+                              "Ablösung von allen Rollen"
+                           ],
+                           "fragen": [
+                              "Was bedeutet soziale Integration im Sinne Hurrelmanns?",
+                              "Wie beschreibt die Soziologie die Sozialisation?"
+                           ],
+                           "id": "juj-s4-B1-w2-a3",
+                           "richtig": [
+                              "Übernahme von Rollen (Erwartungen) in Schule, Beruf, Familie, Konsum und Institutionen"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s4-B1-w2",
+                     "merke": "**Soziologisch** ist Sozialisation **soziale Integration als Übernahme von Rollen (Erwartungen)** in **Schule, Beruf(sausbildung), Partnerschaft/Ehe/Familie, Konsum** und sozialen, politischen, kulturellen Institutionen. Ergebnis: **soziale Identität**. Spezifische Rollenübernahmen kennzeichnen die **Statuspassagen** Kind → Jugendlicher → Erwachsener.",
+                     "titel": "Integration → soziale Identität"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-B2",
+               "titel": "Entwicklungsaufgaben",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ergänze die vier Bereiche der Entwicklungsaufgaben und die Rolle im Erwachsenenalter.",
+                           "id": "juj-s4-B2-w1-a1",
+                           "kopf": [
+                              "Bereich",
+                              "Rolle im Erwachsenenalter"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Qualifikation"
+                                    ]
+                                 },
+                                 "Berufsrolle"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Bindung"
+                                    ]
+                                 },
+                                 "Partner- und Familienrolle"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Konsum"
+                                    ]
+                                 },
+                                 "Kultur- und Konsumentenrolle"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Partizipation",
+                                       "Norm- und Wertorientierung"
+                                    ]
+                                 },
+                                 "politische Bürgerrolle"
+                              ]
+                           ]
+                        },
+                        {
+                           "frage": "Ordne die Entwicklungsaufgabe der Rolle im Erwachsenenalter zu.",
+                           "id": "juj-s4-B2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "intellektuelle und soziale Kompetenz",
+                                 "rechts": "Berufsrolle"
+                              },
+                              {
+                                 "links": "Geschlechtsrolle und Partnerfähigkeit",
+                                 "rechts": "Partner- und Familienrolle"
+                              },
+                              {
+                                 "links": "Konsumfähigkeit",
+                                 "rechts": "Kultur- und Konsumentenrolle"
+                              },
+                              {
+                                 "links": "Norm- und Wertorientierung",
+                                 "rechts": "politische Bürgerrolle"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "ausreisser": [
+                              "Bestrafung",
+                              "Vererbung",
+                              "Delinquenz"
+                           ],
+                           "frage": "Was ist kein Bereich der Entwicklungsaufgaben nach Hurrelmann & Quenzel?",
+                           "gehoert": [
+                              "Qualifikation",
+                              "Bindung",
+                              "Konsum",
+                              "Partizipation"
+                           ],
+                           "id": "juj-s4-B2-w1-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "juj-s4-B2-w1",
+                     "merke": "Entwicklungsaufgaben lassen sich nach Hurrelmann & Quenzel in **vier Bereiche** teilen: **Qualifikation** (schulische/berufliche Leistung zur Existenzsicherung), **Bindung** (Geschlechtsidentität, Ablösung vom Elternhaus, Freunde, Partnerschaft), **Konsum** (Waren, Medien, Freizeit) und **Partizipation** (politische Bürgerrolle auf Basis eines Werte- und Normensystems). Im Erwachsenenalter werden daraus **Berufsrolle, Partner-/Familienrolle, Konsumentenrolle, politische Bürgerrolle**.",
+                     "titel": "Vier Bereiche"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "akzeptiert": [
+                              "Statusinkonsistenz",
+                              "Status-Inkonsistenz"
+                           ],
+                           "frage": "Wie heißt es, wenn junge Menschen in einigen Bereichen schon erwachsen sind (z. B. Konsum), in anderen (Beruf, Familie) noch nicht?",
+                           "id": "juj-s4-B2-w2-a1",
+                           "musterloesung": "Statusinkonsistenz.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "bei der örtlichen Zuständigkeit",
+                              "bei der Wahl der Schöffen",
+                              "bei der Strafzumessung nach § 46 StGB",
+                              "bei der Verjährung"
+                           ],
+                           "fragen": [
+                              "Bei welchen JGG-Entscheidungen kann das Konzept der Entwicklungsaufgaben helfen?",
+                              "Wofür kann das Modell der Entwicklungsaufgaben im Jugendstrafverfahren genutzt werden?"
+                           ],
+                           "id": "juj-s4-B2-w2-a2",
+                           "richtig": [
+                              "bei der Reifebeurteilung nach §§ 3 und 105 JGG"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Der Berufseinstieg erfolgt heute wegen der Bildungsexpansion deutlich später."
+                              },
+                              {
+                                 "begruendung": "Nein, uneinheitlich, ungleichzeitig und entkoppelt.",
+                                 "richtig": false,
+                                 "text": "Der Übergang ins Erwachsenenalter verläuft heute in allen Bereichen gleichzeitig."
+                              },
+                              {
+                                 "begruendung": "Ja, laut Skript.",
+                                 "richtig": true,
+                                 "text": "Die Bewältigung von Qualifikation und Bindung gilt als stärkster Hinweis auf den Erwachsenenstatus."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s4-B2-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s4-B2-w2",
+                     "merke": "Der Übergang ins Erwachsenenalter verläuft heute **uneinheitlich, ungleichzeitig und entkoppelt**: früh Geschlechtsreife, Partnerschaft und Konsumentenrolle, aber **später Berufseinstieg** und Familiengründung → **Statusinkonsistenz**. Das Konzept der Entwicklungsaufgaben kann im Jugendstrafverfahren die **Reifebeurteilung nach §§ 3 und 105 JGG** unterstützen (Boers et al., Skript).",
+                     "titel": "Statusinkonsistenz"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-B3",
+               "titel": "Grundproblematik der Sozialisation",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "akzeptiert": [
+                              "Maturation Gap",
+                              "maturity gap",
+                              "Reifungslücke",
+                              "Maturation-Gap"
+                           ],
+                           "frage": "Wie heißt die Lücke zwischen biologischer/kognitiver Reifung und sozialer Entwicklung?",
+                           "id": "juj-s4-B3-w1-a1",
+                           "musterloesung": "Maturation Gap (Reifungslücke).",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "allein durch biologische Reifung",
+                              "allein durch Rollenübernahme",
+                              "durch Strafe",
+                              "durch die Ablösung von allen sozialen Rollen"
+                           ],
+                           "fragen": [
+                              "Wie entsteht nach Hurrelmann die Ich-Identität?",
+                              "Was ist die Ich-Identität?"
+                           ],
+                           "id": "juj-s4-B3-w1-a2",
+                           "richtig": [
+                              "durch das Austarieren von personaler und sozialer Identität"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s4-B3-w1-a3",
+                           "segmente": [
+                              {
+                                 "text": "Individuation und Integration stehen in einem Spannungsverhältnis."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Gelingt der Ausgleich nicht, kann es zu einem **krisenhaften Verlauf** kommen; eine stabile Ich-Identität entsteht erst durch das Austarieren.",
+                                 "text": "Gelingt der Ausgleich nicht, entsteht automatisch eine besonders stabile Ich-Identität."
+                              },
+                              {
+                                 "text": "Die biologische Entwicklung ist oft schon weiter als die soziale Reifung."
+                              }
+                           ],
+                           "typ": "fehler"
+                        },
+                        {
+                           "frage": "Erkläre das Spannungsverhältnis zwischen Individuation und Integration nach Hurrelmann.",
+                           "id": "juj-s4-B3-w1-a4",
+                           "kernpunkte": [
+                              "Individuation (Psychologie): unverwechselbare Persönlichkeit → personale Identität",
+                              "Integration (Soziologie): Übernahme sozialer Rollen → soziale Identität",
+                              "beide müssen austariert werden → Ich-Identität",
+                              "Spannung mit individuellen Krisenerfahrungen; Maturation Gap verschärft"
+                           ],
+                           "musterloesung": "Individuation ist die (psychologische) Entwicklung einer unverwechselbaren Persönlichkeit; ihr Ergebnis ist die personale Identität. Integration ist die (soziologische) Übernahme sozialer Rollen in Schule, Beruf, Familie, Konsum und Institutionen; ihr Ergebnis ist die soziale Identität. Beide stehen in Spannung: Eigene Bedürfnisse und gesellschaftliche Erwartungen widerstreiten. Erst wenn beide austariert werden, entsteht eine stabile Ich-Identität; sonst drohen Krisen. Verschärft wird das durch den Maturation Gap zwischen biologischer und sozialer Reifung.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "juj-s4-B3-w1",
+                     "merke": "**Grundproblematik:** die **Lücke zwischen biologischer und kognitiver Reifung und sozialer Entwicklung** (**Maturation Gap**) sowie die **Spannung zwischen Individuation und sozialer Integration**. Erst durch das **Austarieren** von personaler und sozialer Identität entsteht eine stabile **Ich-Identität**; gelingt es nicht, drohen **Krisenerfahrungen**.",
+                     "titel": "Maturation Gap und Spannung"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-B-mix1",
+               "mix": [
+                  "juj-s4-B1",
+                  "juj-s4-B2",
+                  "juj-s4-B3"
+               ],
+               "titel": "🔀 Gemischt: Individuation und Integration"
+            }
+         ],
+         "titel": "Individuation und Integration"
+      },
+      {
+         "farbe": 140,
+         "id": "juj-s4-C",
+         "level": [
+            {
+               "id": "juj-s4-C1",
+               "titel": "Sozialisationsinstanzen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Bundesverfassungsgericht",
+                              "Finanzamt"
+                           ],
+                           "frage": "Welche Sozialisationsinstanzen nennt die Vorlesung?",
+                           "id": "juj-s4-C1-w1-a1",
+                           "richtig": [
+                              "Familie",
+                              "Schule",
+                              "Freunde",
+                              "Medien",
+                              "Betrieb",
+                              "Kirchen",
+                              "Militär",
+                              "Universität"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "wenn sie jede Abweichung sofort bestrafen",
+                              "wenn sie sich widersprechen",
+                              "wenn sie sich ganz heraushalten",
+                              "wenn nur eine Instanz zuständig ist"
+                           ],
+                           "fragen": [
+                              "Wann können Sozialisationsinstanzen Jugendliche laut Skript besonders gut unterstützen?",
+                              "Was macht die Unterstützung durch Familie, Schule und Freunde erfolgreich?"
+                           ],
+                           "id": "juj-s4-C1-w1-a2",
+                           "richtig": [
+                              "wenn sie Spielraum lassen, Strukturen vorgeben und in ihren Erwartungen harmonieren"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, um den Entwicklungsdruck nicht zu erhöhen.",
+                                 "richtig": true,
+                                 "text": "sollten auch Wege, die vom Idealtyp abweichen, zunächst akzeptiert werden."
+                              },
+                              {
+                                 "begruendung": "Nein, sie sollten harmonieren und keine zusätzlichen Spannungen erzeugen.",
+                                 "richtig": false,
+                                 "text": "sollten Instanzen widersprüchliche Erwartungen stellen, um Selbstständigkeit zu fördern."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "können Strukturen und Regeln helfen, auf den Entwicklungspfad zurückzufinden."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach dem Skript Sozialisation …",
+                           "id": "juj-s4-C1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s4-C1-w1",
+                     "merke": "**Ebenen und Instanzen der Sozialisation:** um das **Subjekt** herum **Familie, Schule, Freunde, Medien, Betrieb, Universität, Kirchen, Militär**, eingebettet in Institutionen und die Gesamtgesellschaft. Die Instanzen sollten Jugendlichen **Spielraum** lassen, Struktur und Regeln vorgeben und in ihren Erwartungen **harmonieren**, statt zusätzliche Spannungen zu erzeugen (Skript).",
+                     "titel": "Wer sozialisiert?"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-C2",
+               "titel": "Erziehung",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Klaus Hurrelmann",
+                              "Franz von Liszt",
+                              "Niklas Luhmann",
+                              "Klaus Boers"
+                           ],
+                           "fragen": [
+                              "Wer bezeichnete Erziehung so?"
+                           ],
+                           "id": "juj-s4-C2-w1-a1",
+                           "richtig": [
+                              "Émile Durkheim"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„methodische Sozialisation“"
+                        },
+                        {
+                           "falsch": [
+                              "Erziehung ist der ungeplante Einfluss der Umwelt.",
+                              "Sozialisation ist ein Teil der Erziehung.",
+                              "Beide Begriffe sind identisch.",
+                              "Erziehung betrifft nur Erwachsene."
+                           ],
+                           "fragen": [
+                              "Was unterscheidet Erziehung von Sozialisation?",
+                              "Wie definiert die Vorlesung Erziehung?"
+                           ],
+                           "id": "juj-s4-C2-w1-a2",
+                           "richtig": [
+                              "Erziehung umfasst bewusst ergriffene Maßnahmen zur gezielten Förderung der Persönlichkeit; Sozialisation ist der Gesamtprozess."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "gruppen": [
+                              [
+                                 0,
+                                 1
+                              ]
+                           ],
+                           "id": "juj-s4-C2-w1-a3",
+                           "luecken": [
+                              [
+                                 "eigenverantwortliche"
+                              ],
+                              [
+                                 "gemeinschaftsfähige",
+                                 "gemeinschaftsfaehige"
+                              ]
+                           ],
+                           "text": "Erziehungsziel ist eine {} und {} Persönlichkeit.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "akzeptiert": [
+                              "sie sind noch erziehbar",
+                              "noch erziehbar",
+                              "weil auf ihre Mängel noch gezielt eingewirkt werden kann"
+                           ],
+                           "frage": "Warum ist Erziehung gerade bei jungen Straftätern sinnvoll?",
+                           "id": "juj-s4-C2-w1-a4",
+                           "musterloesung": "Junge Straftäter sind noch erziehbar: Auf ihre Mängel kann noch gezielt eingewirkt werden.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s4-C2-w1",
+                     "merke": "**Erziehung** ist der **systematische Teil des Sozialisationsprozesses** (Durkheim: „**methodische Sozialisation**“): **bewusst ergriffene Maßnahmen und Handlungen zur spezifischen Förderung und Entwicklung der Persönlichkeit**. **Erziehungsziel:** eine **eigenverantwortliche und gemeinschaftsfähige Persönlichkeit**. **Junge Straftäter sind noch erziehbar** – auf ihre Mängel kann noch gezielt eingewirkt werden.",
+                     "titel": "Methodische Sozialisation"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Émile Durkheim",
+                              "Klaus Hurrelmann",
+                              "William Shakespeare",
+                              "Franz von Liszt"
+                           ],
+                           "fragen": [
+                              "Von wem stammt diese Aussage?"
+                           ],
+                           "id": "juj-s4-C2-w2-a1",
+                           "richtig": [
+                              "Niklas Luhmann"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„Erziehung [wird] eingerichtet, um das zu ergänzen oder zu korrigieren, was als Resultat von Sozialisation zu erwarten ist.“"
+                        },
+                        {
+                           "falsch": [
+                              "die Sozialisation zu ersetzen",
+                              "Straftäter zu bestrafen",
+                              "Gene zu verändern",
+                              "die Gesellschaft abzuschaffen"
+                           ],
+                           "fragen": [
+                              "Welche Funktion hat Erziehung nach Luhmann?"
+                           ],
+                           "id": "juj-s4-C2-w2-a2",
+                           "richtig": [
+                              "das zu ergänzen oder zu korrigieren, was als Resultat der Sozialisation zu erwarten ist"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Erziehung meint absichtsvolle Impulse, meist von Eltern oder Pädagogen."
+                              },
+                              {
+                                 "begruendung": "Nein, Sozialisation ist der Gesamtprozess; Erziehung ist ihr gezielter Teil.",
+                                 "richtig": false,
+                                 "text": "Sozialisation umfasst nur die bewussten Erziehungsmaßnahmen."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Beide Konzepte zielen auf eine Persönlichkeit als Voraussetzung gesellschaftlicher Teilhabe."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s4-C2-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s4-C2-w2",
+                     "merke": "Nach **Luhmann** wird „**Erziehung eingerichtet, um das zu ergänzen oder zu korrigieren, was als Resultat von Sozialisation zu erwarten ist**“. Erziehung meint die **absichtsvollen Impulse**, meist von Eltern oder Pädagogen (Hurrelmann & Bauer; Skript Sozialisation).",
+                     "titel": "Erziehung ergänzt Sozialisation"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s4-C-mix1",
+               "mix": [
+                  "juj-s4-C1",
+                  "juj-s4-C2"
+               ],
+               "titel": "🔀 Gemischt: Instanzen und Erziehung"
+            }
+         ],
+         "titel": "Instanzen und Erziehung"
+      }
+   ]
+}
