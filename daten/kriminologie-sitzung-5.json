@@ -1,0 +1,2721 @@
+{
+   "arbeitsblatt": {
+      "aufgaben": [
+         {
+            "ab": true,
+            "frage": "Was meint Durkheim mit „Anomie“?",
+            "id": "krim-s5-ab1",
+            "kernpunkte": [
+               "Zustand der Regellosigkeit",
+               "schwache/fehlende soziale Ordnung und verbindliche Werte und Normen",
+               "Verlust sozialer Solidarität, Schwächung sozialer Kontrolle, soziale Desintegration",
+               "v. a. in Zeiten raschen sozialen Wandels und moralischer Desorientierung"
+            ],
+            "musterloesung": "Anomie ist ein Zustand der Regellosigkeit: Soziale Ordnung und verbindliche Werte und Normen sind schwach oder fehlen, die gesellschaftliche Solidarität geht verloren, soziale Kontrolle wird geschwächt, und die zunehmend arbeitsteilige Gesellschaft desintegriert. Durkheim erklärt damit erhöhte Kriminalität in Zeiten raschen sozialen Wandels und moralischer Desorientierung.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-A4-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Erläutern Sie Durkheims funktionalistische Sicht auf Kriminalität. Warum bezeichnet er Kriminalität als „unvermeidbar und notwendig für soziale Ordnung“? Welche Funktionen erfüllt Kriminalität nach Durkheim?",
+            "id": "krim-s5-ab2",
+            "kernpunkte": [
+               "Kriminalität als normales, funktionales Phänomen; keine Gesellschaft ohne Kriminalität",
+               "nicht pathologisch, sondern integrierender Bestandteil jedes gesunden Gemeinwesens",
+               "Funktion: Normbekräftigung durch kollektive Reaktion (stärkt kollektives Gewissen)",
+               "Funktion: sozialer Wandel"
+            ],
+            "musterloesung": "Durkheim betrachtet Kriminalität als normales und funktionales Phänomen: Es gibt keine Gesellschaft ohne Kriminalität; sie ist kein krankhafter Zustand, sondern integrierender Bestandteil jedes gesunden Gemeinwesens. Notwendig ist sie, weil sie Funktionen erfüllt: Die kollektive Reaktion auf die Tat bekräftigt die verletzte Norm und stärkt das kollektive Gewissen. Außerdem ermöglicht Abweichung sozialen Wandel.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-A3-w1",
+               "krim-s5-A3-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Wann wird Kriminalität in der Gesellschaft nach Durkheim „pathologisch“ (krankhaft)?",
+            "id": "krim-s5-ab3",
+            "kernpunkte": [
+               "wenn Abweichung zur Regel wird",
+               "kollektives Gewissen kann die Ordnung nicht mehr aufrechterhalten (Anomie)",
+               "Übergang vom Normal- in den pathologischen Zustand: messbare negative soziale Akte (Selbstmord, Kriminalität, Ehescheidungen) steigen"
+            ],
+            "musterloesung": "Pathologisch wird Kriminalität, wenn Abweichung in der Gesellschaft zur Regel wird, weil das kollektive Gewissen nicht mehr in der Lage ist, die Ordnung aufrechtzuerhalten. Dann geht die Gesellschaft vom Normalzustand in einen pathologischen Zustand (Anomie) über, in dem statistisch messbare negative soziale Akte wie Selbstmord, Kriminalität und Ehescheidungen steigen.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-A4-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Was beschreibt Merton als anomische Gesellschaft?",
+            "id": "krim-s5-ab4",
+            "kernpunkte": [
+               "zu großes Gewicht der kulturellen Ziele (z. B. materieller Erfolg)",
+               "Vernachlässigung der Normen bzw. legitimen Mittel → Desintegration",
+               "Folge: Instabilität, hohe Kriminalität",
+               "kann chronisch sein (moderne amerikanische Gesellschaft)"
+            ],
+            "musterloesung": "In einer anomischen Gesellschaft haben die kulturellen Ziele, etwa materieller Erfolg, ein zu großes Gewicht, während die Normen bzw. legitimen Mittel zur Zielerreichung vernachlässigt werden. Ziele und Mittel sind nicht mehr im Gleichgewicht. Das führt zu Instabilität und hoher Kriminalität; nach Merton ist dieser Zustand in der modernen amerikanischen Gesellschaft chronisch.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-B1-w1",
+               "krim-s5-B1-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Wie entsteht nach Merton die erhöhte Rate von Kriminalität bei sozial benachteiligten, armutsbetroffenen Personen?",
+            "id": "krim-s5-ab5",
+            "kernpunkte": [
+               "gleiche kulturelle Ziele (materieller Erfolg) für alle",
+               "fehlender Zugang zu legitimen Mitteln → Diskrepanz von Zielen und Mitteln",
+               "Diskrepanz erzeugt Druck (Strain)",
+               "Anpassung v. a. durch Innovation (illegitime Mittel) → höhere Kriminalität in der Unterschicht"
+            ],
+            "musterloesung": "Alle sollen dieselben kulturellen Ziele erreichen, vor allem materiellen Erfolg. Sozial Benachteiligten fehlt aber der Zugang zu legitimen Mitteln. Diese Diskrepanz zwischen Zielen und Mitteln erzeugt Druck (Strain). Viele reagieren mit Innovation: Sie halten am Ziel fest und greifen zu illegitimen, auch kriminellen Mitteln. Deshalb ist die Rate abweichenden Verhaltens in der Unterschicht höher.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-B3-w1",
+               "krim-s5-B2-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Nennen Sie bitte neben „Konformität“ die weiteren vier Anpassungstypen auf Druck (Strain) nach Merton.",
+            "id": "krim-s5-ab6",
+            "kernpunkte": [
+               "Innovation: Ziele akzeptiert, legitime Mittel abgelehnt → auch illegitime Mittel",
+               "Ritualismus: Ziele aufgegeben, Mittel/Regeln blind befolgt",
+               "Rückzug: Ziele und Mittel abgelehnt, kein Ersatz",
+               "Rebellion: Ziele und Mittel abgelehnt und durch neue ersetzt"
+            ],
+            "musterloesung": "Innovation (Ziele werden akzeptiert, aber mit allen Mitteln, auch illegitimen, verfolgt), Ritualismus (die Ziele werden aufgegeben, die legitimen Mittel und Regeln aber blind befolgt), Rückzug (Ziele und Mittel werden abgelehnt, ohne Ersatz) und Rebellion (Ziele und Mittel werden abgelehnt und durch neue ersetzt).",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-B2-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "erklaerung": "Die Folie nennt die Folgen der ökonomischen Dominanz; die Schwächung der anderen Institutionen ist nur allgemein beschrieben.",
+            "frage": "Wie wirkt sich die Dominanz wirtschaftlicher Werte auf andere gesellschaftliche Institutionen aus (entsprechend der institutionelle Anomie-Theorie nach Messner & Rosenfeld)?",
+            "id": "krim-s5-ab7",
+            "kernpunkte": [
+               "Balance der Institutionen (Ökonomie, Politik, Gemeinwesen, Familie, Religion) gerät aus dem Gleichgewicht",
+               "andere Institutionen verlieren an Gewicht: Bindung und soziale Kontrolle werden schwächer, Werte/Normen schwächer vermittelt",
+               "Streben nach Profit mit allen Mitteln (marktförmiger Extremismus)",
+               "→ hohes Niveau profitorientierter, instrumenteller Kriminalität"
+            ],
+            "musterloesung": "Nach Messner & Rosenfeld (1994) hängt Kriminalität von der Balance der Institutionen Ökonomie, Politik, Gemeinwesen, Familie und Religion ab. Dominiert die Ökonomie, verlieren die anderen Institutionen an Gewicht: Die Bindung an sie und ihre soziale Kontrolle werden schwächer, sie vermitteln Werte und Normen weniger wirksam. Es setzt sich das Streben nach Profit mit allen Mitteln durch, was zu einem hohen Niveau profitorientierter, instrumenteller Kriminalität führt.",
+            "pruefen": true,
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-B5-w1",
+               "krim-s5-B5-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Beschreiben Sie die räumliche Verteilung von Jugendkriminalität in Chicago nach Shaw & McKay. In welchen Zonen war die Kriminalität am höchsten und warum blieb dieses Muster über die Zeit stabil?",
+            "id": "krim-s5-ab8",
+            "kernpunkte": [
+               "höchste Raten in den Übergangszonen (Zone 2) nahe dem Zentrum, geringer in den Randzonen",
+               "Muster stabil trotz wechselnder ethnischer Zusammensetzung",
+               "Ursache am Ort: soziale Desorganisation (Armut, Mobilität, wenig Kontrolle)",
+               "kulturelle Transmission delinquenter Traditionen von Älteren an Jüngere"
+            ],
+            "musterloesung": "Die Delinquenz war in den Übergangszonen nahe dem Geschäftszentrum am höchsten und nahm zu den Randzonen hin ab. Das Muster blieb stabil, obwohl in den Übergangszonen nacheinander verschiedene Einwanderergruppen lebten. Grund: Die soziale Desorganisation dieser Gebiete (Armut, hohe Mobilität, Verwahrlosung, wenig soziale Kontrolle) blieb bestehen, und delinquente Traditionen wurden durch kulturelle Transmission von älteren an jüngere Jugendgruppen weitergegeben.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-C1-w2",
+               "krim-s5-C2-w1",
+               "krim-s5-C3-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Was sind die vier wesentlichen empirischen Befunde, die Shaw und McKay erklären wollten?",
+            "id": "krim-s5-ab9",
+            "kernpunkte": [
+               "1. hohe Kriminalitätsraten in Übergangszonen",
+               "2. geringere Raten in Randzonen",
+               "3. Raten bleiben hoch trotz Veränderung der (ethnischen) Zusammensetzung",
+               "4. ethnische Gruppen, die in Randbereiche ziehen, haben niedrigere Raten"
+            ],
+            "musterloesung": "(1) Hohe Kriminalitätsraten in den Übergangszonen, (2) geringere Raten in den Randzonen weiter vom Zentrum entfernt, (3) die Raten bleiben hoch, obwohl sich die (ethnische) Zusammensetzung der Bewohner ändert, und (4) ethnische Gruppen, die in Randbereiche ziehen, weisen dort niedrigere Raten auf.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-C2-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Wie erklären soziale Desorganisation und kulturelle Transmission diese Befunde?",
+            "id": "krim-s5-ab10",
+            "kernpunkte": [
+               "soziale Desorganisation: Unfähigkeit, Probleme kollektiv zu lösen; Armut, Mobilität, Mieteranteil, Verwahrlosung → wenig soziale Kontrolle in Übergangszonen (Befunde 1, 2)",
+               "Desorganisation haftet am Ort, nicht an der Gruppe (Befunde 3, 4)",
+               "kulturelle Transmission: ältere Gangmitglieder geben delinquente Traditionen (Werte, Druck, Sanktionen) an jüngere weiter → dauerhaft hohe Raten"
+            ],
+            "musterloesung": "Soziale Desorganisation ist die Unfähigkeit einer Gemeinschaft, ihre Probleme kollektiv zu lösen. In den Übergangszonen schwächen Armut, hohe Mobilität, viele Mieter und Verwahrlosung die soziale Kontrolle, daher sind die Raten dort hoch und in den stabileren Randzonen niedriger. Weil diese Bedingungen am Ort haften, bleiben die Raten auch bei Bewohnerwechsel hoch, und Gruppen, die wegziehen, werden weniger kriminell. Die kulturelle Transmission verstärkt das: Ältere Gangmitglieder geben delinquente Traditionen (Werte, Druck, Sanktionen) an jüngere Spielgruppen weiter, sodass die Delinquenz im Viertel dauerhaft hoch bleibt.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-C3-w1",
+               "krim-s5-C3-w2"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Was sind die praktischen Konsequenzen von Shaw und McKays Theorie für mögliche Präventionsmaßnahmen gegen Kriminalität?",
+            "id": "krim-s5-ab11",
+            "kernpunkte": [
+               "Prävention am Viertel/Gemeinschaft statt am Einzelnen",
+               "Gemeinschaftssinn und informelle soziale Kontrolle stärken, Beteiligung der Bewohner",
+               "Institutionen (Familie, Schule, Kirche, Nachbarschaft) stärken und vernetzen; Kontrolle über Kinder erhöhen",
+               "community empowerment durch natürliche Führungspersonen; Freizeitprogramme (Chicago Area Project, Wirksamkeit ungeklärt)"
+            ],
+            "musterloesung": "Prävention muss am Wohnviertel ansetzen. Das Chicago Area Project unterstützte Bewohner von Problemvierteln, den Gemeinschaftssinn und damit die informelle soziale Kontrolle zu stärken: mehr Beteiligung an Belangen des Viertels, Stärkung und Vernetzung von Familien, Schulen, Kirchen und Nachbarschaftsorganisationen, mehr Kontrolle über die Kinder, community empowerment durch natürliche Führungspersonen und Freizeitprogramme. Die Wirksamkeit ist allerdings ungeklärt.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-C4-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Erklären Sie den Teufelskreis der Broken Windows Theory: Wie führt städtebaulicher Verfall nach Wilson & Kelling zu mehr Kriminalität? Beschreiben Sie die einzelnen Schritte des Prozesses.",
+            "id": "krim-s5-ab12",
+            "kernpunkte": [
+               "1. Verfallserscheinungen signalisieren fehlende Sozialkontrolle/Toleranz",
+               "2. ziehen problematische Personen an",
+               "3. Bewohner nehmen Unordnung wahr, Furcht steigt, Rückzug/Wegzug",
+               "4. Zivilcourage und informelle Sozialkontrolle sinken",
+               "5. Straftäter:innen werden angezogen, Kriminalität steigt",
+               "6. Furcht steigt weiter, weiterer Rückzug, weiter sinkende Kontrolle"
+            ],
+            "musterloesung": "(1) Verfallserscheinungen wie zerbrochene Fenster, Leerstand, Müll und Graffiti signalisieren fehlende Sozialkontrolle und Toleranz gegenüber Regelverletzungen. (2) Der unkontrolliert wirkende Raum zieht „problematische“ Personen an. (3) Die Ansässigen nehmen die Unordnung wahr, ihre Kriminalitätsfurcht steigt, sie ziehen sich zurück oder verlassen das Viertel. (4) Zivilcourage und informelle Sozialkontrolle gehen zurück. (5) Das wirkt anziehend auf Straftäter:innen, Kriminalität steigt. (6) Die Furcht steigt weiter, anständige Bürger:innen ziehen sich weiter zurück, die Sozialkontrolle sinkt weiter.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-D2-w1"
+            ]
+         },
+         {
+            "ab": true,
+            "frage": "Unterscheiden Sie zwischen präventiven Maßnahmen und polizeilichen Strategien im Rahmen des Broken Windows Policing. Nennen Sie konkrete Beispiele für beide Bereiche.",
+            "id": "krim-s5-ab13",
+            "kernpunkte": [
+               "Prävention: Reinigung verwahrloster Orte, Bürgereinbindung/Aktivierung, Stärkung der Gemeinschaft (informelle Kontrolle)",
+               "Polizei: Fußstreifen statt motorisierter Einheiten, mehr Ressourcen und Präsenz",
+               "Zero Tolerance (NY-Modell, Giuliani): konsequente Verfolgung kleiner Vergehen, gesenkte Eingriffsschwelle",
+               "computergestützte Dokumentation, Schnellgerichte"
+            ],
+            "musterloesung": "Präventive (situationale) Maßnahmen: verwahrloste Orte reinigen, Anwohnende einbinden und aktivieren, die Gemeinschaft stärken, damit sie informelle Kontrolle übernimmt. Polizeiliche Strategien: Fußstreifen statt motorisierter Einheiten, Aufstockung der Ressourcen und mehr Präsenz, konsequente Verfolgung kleiner Vergehen („Zero Tolerance“, New Yorker Modell unter Giuliani) mit abgesenkter Eingriffsschwelle, computergestützte Dokumentation von Kontrollen, Straftaten, Festnahmen und Beschlagnahmen sowie Schnellgerichte.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-D3-w1"
+            ]
+         }
+      ],
+      "titel": "Arbeitsblatt 5: Sozialstrukturelle Kriminalitätstheorien"
+   },
+   "fach": "Kriminologie",
+   "format": 1,
+   "id": "krim-s5",
+   "kurztitel": "Sitzung 5",
+   "probeklausur": {
+      "anzahl": 14,
+      "aufgaben": [
+         {
+            "falsch": [
+               "mit größerer Armut",
+               "mit geringerer Bildung",
+               "mit biologischen Unterschieden",
+               "mit schwächerer Polizei"
+            ],
+            "frage": "Wie erklärte Guerry (1833), dass reichere Regionen mehr Eigentumsdelikte hatten?",
+            "id": "krim-s5-pk1",
+            "richtig": [
+               "mit besseren Kriminalitätsgelegenheiten"
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s5-A1-w2"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja, makrosoziologische Perspektive.",
+                  "richtig": true,
+                  "text": "Durkheim will „Soziales mit Sozialem erklären“."
+               },
+               {
+                  "begruendung": "Nein, sie ist normal und Bestandteil jedes gesunden Gemeinwesens.",
+                  "richtig": false,
+                  "text": "Für Durkheim ist Kriminalität ein krankhaftes Phänomen."
+               },
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Es gibt nach Durkheim keine Gesellschaft ohne Kriminalität."
+               },
+               {
+                  "begruendung": "Nein, er grenzt sich davon ab.",
+                  "richtig": false,
+                  "text": "Durkheim knüpft an Lombrosos Pathologisierung an."
+               }
+            ],
+            "frage": "Richtig oder falsch? Zu Durkheim:",
+            "id": "krim-s5-pk2",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "krim-s5-A2-w1",
+               "krim-s5-A3-w1"
+            ],
+            "zeigen": 4
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 2,
+            "falsch": [
+               "Abschreckung",
+               "Wohlstandssteigerung",
+               "Stärkung der Polizei"
+            ],
+            "frage": "Welche Funktionen hat Kriminalität nach Durkheim?",
+            "id": "krim-s5-pk3",
+            "richtig": [
+               "Normbekräftigung durch kollektive Reaktion",
+               "sozialer Wandel"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "krim-s5-A3-w2"
+            ]
+         },
+         {
+            "frage": "Erkläre Durkheims Anomiebegriff und nenne, wann Kriminalität pathologisch wird.",
+            "id": "krim-s5-pk4",
+            "kernpunkte": [
+               "Anomie = Zustand der Regellosigkeit, schwache Normen, Verlust von Solidarität und sozialer Kontrolle",
+               "v. a. bei raschem sozialem Wandel",
+               "pathologisch, wenn Abweichung zur Regel wird und das kollektive Gewissen die Ordnung nicht mehr aufrechterhält; negative soziale Akte steigen"
+            ],
+            "musterloesung": "Anomie ist ein Zustand der Regellosigkeit: verbindliche Werte und Normen sind schwach, Solidarität und soziale Kontrolle gehen verloren, typischerweise bei raschem sozialem Wandel. Pathologisch wird Kriminalität, wenn Abweichung zur Regel wird, weil das kollektive Gewissen die Ordnung nicht mehr aufrechterhalten kann; dann steigen Selbstmord, Kriminalität und Ehescheidungen.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-A4-w1",
+               "krim-s5-A4-w2"
+            ]
+         },
+         {
+            "frage": "Ordne Durkheims Suizidtypen zu.",
+            "id": "krim-s5-pk5",
+            "paare": [
+               {
+                  "links": "egoistisch",
+                  "rechts": "Integration niedrig"
+               },
+               {
+                  "links": "altruistisch",
+                  "rechts": "Integration hoch"
+               },
+               {
+                  "links": "anomisch",
+                  "rechts": "Regulation niedrig"
+               },
+               {
+                  "links": "fatalistisch",
+                  "rechts": "Regulation hoch"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "krim-s5-A5-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "krim-s5-pk6",
+            "luecken": [
+               [
+                  "Auseinanderklaffen"
+               ],
+               [
+                  "Zielen",
+                  "Ziele"
+               ]
+            ],
+            "text": "Nach Merton ist abweichendes Verhalten ein Symptom für das {} von kulturell vorgegebenen {} und sozial strukturierten Wegen.",
+            "typ": "lueckentext",
+            "wissen": [
+               "krim-s5-B1-w1"
+            ]
+         },
+         {
+            "frage": "Welcher Anpassungstyp nach Merton?",
+            "id": "krim-s5-pk7",
+            "items": [
+               {
+                  "kategorie": "Konformität",
+                  "text": "Ziele und Mittel akzeptiert"
+               },
+               {
+                  "kategorie": "Innovation",
+                  "text": "Ziel Reichtum, erreicht durch Betrug"
+               },
+               {
+                  "kategorie": "Ritualismus",
+                  "text": "Aufstieg aufgegeben, Vorschriften blind befolgt"
+               },
+               {
+                  "kategorie": "Rückzug",
+                  "text": "Ziele und Mittel abgelehnt, kein Ersatz"
+               },
+               {
+                  "kategorie": "Rebellion",
+                  "text": "neue Ziele und Mittel, Revolution"
+               }
+            ],
+            "kategorien": [
+               "Konformität",
+               "Innovation",
+               "Ritualismus",
+               "Rückzug",
+               "Rebellion"
+            ],
+            "typ": "beispiel",
+            "wissen": [
+               "krim-s5-B2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Innovation",
+               "Rückzug",
+               "Rebellion",
+               "Konformität"
+            ],
+            "frage": "Welcher Anpassungstyp betrifft nach Merton vor allem die untere Mittelschicht und geht mit sehr niedriger Kriminalität einher?",
+            "id": "krim-s5-pk8",
+            "richtig": [
+               "Ritualismus"
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s5-B2-w2"
+            ]
+         },
+         {
+            "frage": "Erkläre mit Merton, warum die Kriminalitätsrate in der Unterschicht höher ist.",
+            "id": "krim-s5-pk9",
+            "kernpunkte": [
+               "gleiche Erfolgsziele für alle",
+               "fehlende legitime Mittel → Diskrepanz",
+               "Strain",
+               "Innovation: illegitime Mittel"
+            ],
+            "musterloesung": "Alle sollen materiellen Erfolg anstreben, der Unterschicht fehlen aber legitime Mittel. Die Diskrepanz zwischen Zielen und Mitteln erzeugt Strain. Viele passen sich durch Innovation an und verfolgen das Ziel mit illegitimen Mitteln; daher ist die Rate abweichenden Verhaltens in der Unterschicht höher.",
+            "typ": "offen",
+            "wissen": [
+               "krim-s5-B3-w1"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "krim-s5-pk10",
+            "segmente": [
+               {
+                  "text": "Mertons Theorie geht von einer homogenen Gesellschaft aus."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Sie erklärt vor allem monetäre Delikte wie Raub oder Einbruch, nicht Mord oder Vergewaltigung.",
+                  "text": "Sie erklärt besonders gut Mord und Vergewaltigung."
+               },
+               {
+                  "text": "Offen bleibt, warum jemand gerade Ritualist oder Innovator wird."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "krim-s5-B4-w1"
+            ]
+         },
+         {
+            "frage": "IAT: Welche Folge hat welche Dominanz?",
+            "id": "krim-s5-pk11",
+            "paare": [
+               {
+                  "links": "Ökonomie",
+                  "rechts": "Profit mit allen Mitteln, instrumentelle Kriminalität"
+               },
+               {
+                  "links": "Staat/Politik",
+                  "rechts": "Korruption, Schwarzmarkt, Steuerbetrug"
+               },
+               {
+                  "links": "zivile Institutionen",
+                  "rechts": "Hypermoral, Hasskriminalität, Bürgerwehren"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "krim-s5-B5-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "Sie erklärt Kriminalität biologisch.",
+               "Sie bezieht sich nur auf Stadtviertel.",
+               "Sie lehnt den Institutionenbegriff ab.",
+               "Sie stammt aus der Chicago School."
+            ],
+            "frage": "Was ist die Besonderheit der Institutionellen Anomietheorie?",
+            "id": "krim-s5-pk12",
+            "richtig": [
+               "Sie erlaubt Vorhersagen nicht nur zum Umfang, sondern vor allem zur Struktur der Kriminalität."
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s5-B5-w1"
+            ]
+         },
+         {
+            "elemente": [
+               "City",
+               "Übergangszone",
+               "Zone der Arbeiterklasse",
+               "Wohnviertel",
+               "Pendlerzone"
+            ],
+            "frage": "Ordne die Zonen nach Burgess von innen nach außen.",
+            "id": "krim-s5-pk13",
+            "typ": "reihenfolge",
+            "wissen": [
+               "krim-s5-C1-w2"
+            ]
+         },
+         {
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Raten steigen mit der Entfernung vom Zentrum",
+               "bestimmte Ethnien sind überall krimineller"
+            ],
+            "frage": "Welche Befunde stammen von Shaw & McKay?",
+            "id": "krim-s5-pk14",
+            "richtig": [
+               "hohe Raten in Übergangszonen",
+               "geringere Raten in Randzonen",
+               "Raten bleiben trotz Bewohnerwechsel hoch",
+               "Gruppen haben nach Umzug in Randgebiete niedrigere Raten"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "krim-s5-C2-w1"
+            ]
+         },
+         {
+            "frage": "Definiere soziale Desorganisation und kulturelle Transmission.",
+            "id": "krim-s5-pk15",
+            "kernpunkte": [
+               "soziale Desorganisation: Unfähigkeit einer Gemeinschaft, ihre Probleme kollektiv zu lösen",
+               "gemessen über Mobilität, Mieteranteil, Einkommen, Verwahrlosung, Ethnizität",
+               "kulturelle Transmission: Weitergabe delinquenter Traditionen von älteren an jüngere Jugendgruppen"
+            ],
+            "musterloesung": "Soziale Desorganisation ist die Unfähigkeit einer Gemeinschaft, ihre Probleme kollektiv zu lösen; gemessen wird sie über Bewohnermobilität, Mieteranteil, Einkommen, physische Verwahrlosung und Ethnizität. Kulturelle Transmission bedeutet, dass delinquente Traditionen (Werte, Druck, Sanktionen) von älteren Gangmitgliedern an jüngere Spielgruppen weitergegeben werden.",
+            "typ": "definition",
+            "wissen": [
+               "krim-s5-C3-w1",
+               "krim-s5-C3-w2"
+            ]
+         },
+         {
+            "fall": "Eine Stadt hat ein Viertel mit viel Leerstand, Graffiti, hoher Fluktuation und vielen Jugendgangs. Der Stadtrat streitet: Die eine Seite will Zero Tolerance, die andere ein Nachbarschaftsprojekt.",
+            "frage": "Ordne beide Vorschläge den Theorien zu und nenne je typische Maßnahmen.",
+            "id": "krim-s5-pk16",
+            "kernpunkte": [
+               "Nachbarschaftsprojekt = soziale Desorganisation/Chicago Area Project: Gemeinschaft, Beteiligung, Institutionen stärken, natürliche Führungspersonen, Freizeitangebote",
+               "Zero Tolerance = Broken Windows (polizeiliche Strategie): konsequente Verfolgung kleiner Vergehen, Fußstreifen, Präsenz, Schnellgerichte",
+               "Broken Windows kennt auch Prävention: Reinigung, Bürgeraktivierung",
+               "Risiken Zero Tolerance: Polizeigewalt, Diskriminierung; Wirksamkeit des CAP ungeklärt"
+            ],
+            "musterloesung": "Das Nachbarschaftsprojekt folgt der Theorie der sozialen Desorganisation (Shaw & McKay, Chicago Area Project): Bewohner beteiligen, Familien, Schulen und Nachbarschaftsorganisationen stärken, natürliche Führungspersonen einbinden, Freizeitangebote schaffen. Zero Tolerance ist die polizeiliche Strategie der Broken-Windows-Theorie: konsequente Verfolgung auch kleiner Vergehen, Fußstreifen, mehr Präsenz, Schnellgerichte; ergänzend auch präventiv Reinigung und Aktivierung der Anwohnenden. Zero Tolerance birgt das Risiko von Polizeigewalt und Diskriminierung; die Wirksamkeit des Chicago Area Project ist ungeklärt.",
+            "typ": "fall",
+            "wissen": [
+               "krim-s5-C4-w1",
+               "krim-s5-D3-w1"
+            ]
+         },
+         {
+            "elemente": [
+               "Verfall signalisiert fehlende Kontrolle",
+               "problematische Personen werden angezogen",
+               "Furcht und Rückzug der Bewohner",
+               "informelle Sozialkontrolle sinkt",
+               "Kriminalität steigt"
+            ],
+            "frage": "Bringe die Schritte der Broken-Windows-Theorie in die richtige Reihenfolge.",
+            "id": "krim-s5-pk17",
+            "typ": "reihenfolge",
+            "wissen": [
+               "krim-s5-D2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Autos werden nur in armen Vierteln gestohlen.",
+               "Menschen ahmen aggressive Vorbilder nach.",
+               "Strafen schrecken ab.",
+               "Kriminalität ist angeboren."
+            ],
+            "frage": "Was zeigte Zimbardos Experiment (1969)?",
+            "id": "krim-s5-pk18",
+            "richtig": [
+               "Menschen übertreten Regeln eher, wenn andere es schon getan haben und das Umfeld verwahrlost wirkt."
+            ],
+            "typ": "single",
+            "wissen": [
+               "krim-s5-D1-w1"
+            ]
+         },
+         {
+            "ausreisser": [
+               "Rückgang der Gewaltverbrechen",
+               "Öffnung früherer No-go-Areas"
+            ],
+            "frage": "Was ist keine negative Folge der Zero-Tolerance-Strategie in New York?",
+            "gehoert": [
+               "Beschwerden über Übergriffe",
+               "27 Mio. $ Schadensersatz",
+               "Proteste der Bürgerrechtsbewegung",
+               "„hire and fire“-Management"
+            ],
+            "id": "krim-s5-pk19",
+            "typ": "wasPasstNicht",
+            "wissen": [
+               "krim-s5-D4-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Zero Tolerance",
+               "Null-Toleranz",
+               "Nulltoleranz",
+               "Zero-Tolerance"
+            ],
+            "frage": "Wie heißt die Polizeistrategie, die schon bei geringfügigen Verstößen konsequent einschreitet?",
+            "id": "krim-s5-pk20",
+            "musterloesung": "Zero Tolerance (Null-Toleranz).",
+            "typ": "kurzfrage",
+            "wissen": [
+               "krim-s5-D2-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur Kriminologie I, Sitzung 5"
+   },
+   "quelle": [
+      "Kriminologie/5_KrimI_Sozialstrukturelle Theorien_WS26_27.pdf",
+      "Kriminologie/Arbeitsblatt 5.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Der Einfluss der Gesellschaft: Sozialstrukturelle Theorien",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 220,
+         "id": "krim-s5-A",
+         "level": [
+            {
+               "id": "krim-s5-A1",
+               "titel": "Die französische Schule",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Kriminalität ist reiner Zufall.",
+                              "Kriminalität ist angeboren.",
+                              "Kriminalität entsteht nur durch freien Willen.",
+                              "Kriminalität lässt sich nicht messen."
+                           ],
+                           "fragen": [
+                              "Was schlossen Guerry und Quetelet aus der Regelhaftigkeit der Kriminalitätsraten?",
+                              "Welche Idee stand hinter der frühen Kriminalgeografie?"
+                           ],
+                           "id": "krim-s5-A1-w1-a1",
+                           "richtig": [
+                              "Menschliches Handeln lässt sich anhand sozialer Gesetze beschreiben."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Befragungen im Dunkelfeld",
+                              "kleine Analyseeinheiten wie Wohnblocks",
+                              "Experimente mit Autos"
+                           ],
+                           "frage": "Was kennzeichnet die frühe französische Kriminalgeografie?",
+                           "id": "krim-s5-A1-w1-a2",
+                           "richtig": [
+                              "kartografische Darstellung der Verteilung von Devianz",
+                              "Verknüpfung mit Bevölkerungsdichte, Einkommen und Bildung",
+                              "große Analyseeinheiten wie Departements",
+                              "ausschließlich offizielle Kriminalstatistiken"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "Lombroso",
+                              "Merton",
+                              "Hirschi",
+                              "Becker"
+                           ],
+                           "fragen": [
+                              "Von wem stammt dieses Zitat?"
+                           ],
+                           "id": "krim-s5-A1-w1-a3",
+                           "richtig": [
+                              "Quetelet"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„Die Gesellschaft bereitet das Verbrechen vor, und die Schuldigen sind nur die Instrumente, durch die es ausgeführt wird.“"
+                        }
+                     ],
+                     "id": "krim-s5-A1-w1",
+                     "merke": "Frühe **Kriminalgeografie** (v. a. Frankreich, Belgien, England; u. a. **Guerry 1833**, **Quetelet 1831**) stellte die **Verteilung von Devianz kartografisch** dar und verknüpfte sie mit **Bevölkerungsdichte, Einkommen, Wirtschaft und Bildung** – mit **großen Analyseeinheiten** (Departements, Provinzen) und **nur offiziellen Statistiken**. Die **Regelhaftigkeit** legte nahe, dass menschliches Handeln **sozialen Gesetzen** folgt.",
+                     "titel": "Kriminalität auf der Landkarte"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "mehr Armut in reichen Regionen",
+                              "geringere Bildung in reichen Regionen",
+                              "angeborene Neigungen der Bevölkerung",
+                              "fehlende Polizei"
+                           ],
+                           "fragen": [
+                              "Wie erklärte Guerry die höheren Eigentumsdeliktsraten in reichen Regionen?",
+                              "Was war Guerrys These zu reichen Regionen?"
+                           ],
+                           "id": "krim-s5-A1-w2-a1",
+                           "richtig": [
+                              "bessere Kriminalitätsgelegenheiten in reicheren Regionen"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, aber höhere Eigentumsdeliktsraten.",
+                                 "richtig": true,
+                                 "text": "hatten die reichsten Regionen nur halb so hohe Gewaltdeliktsraten wie ärmere."
+                              },
+                              {
+                                 "begruendung": "Nein, die Befunde widersprachen dieser Annahme.",
+                                 "richtig": false,
+                                 "text": "bestätigte sich die Annahme, dass Kriminalität vor allem mit Armut zusammenhängt."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "korrelierte höhere Bildung mit mehr Eigentumsdelikten, nicht aber mit Gewaltdelikten."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach Guerry …",
+                           "id": "krim-s5-A1-w2-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-A1-w2-a3",
+                           "luecken": [
+                              [
+                                 "Eigentums"
+                              ],
+                              [
+                                 "Gewalt"
+                              ],
+                              [
+                                 "Gelegenheiten",
+                                 "Kriminalitätsgelegenheiten",
+                                 "Tatgelegenheiten"
+                              ]
+                           ],
+                           "text": "Guerry fand in reichen Regionen mehr {}delikte, aber nur halb so viele {}delikte. Er erklärte das mit besseren {}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s5-A1-w2",
+                     "merke": "**Guerry (1833):** In den **reichsten Regionen** fanden sich **höhere Eigentumsdeliktsraten**, aber **nur halb so hohe Gewaltdeliktsraten** wie in ärmeren Regionen; höhere Bildung ging mit mehr Eigentumsdelikten einher. Seine These: **bessere Kriminalitätsgelegenheiten in reicheren Regionen**. Wäre Kriminalität nur durch freien Willen erklärbar, gäbe es keine so regelmäßigen Muster.",
+                     "titel": "Guerrys Befunde"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-A2",
+               "titel": "Durkheims Perspektive",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Kriminalität ist angeboren.",
+                              "Kriminalität ist eine rationale Wahl.",
+                              "Kriminalität wird in Gruppen erlernt.",
+                              "Kriminalität ist eine Krankheit des Einzelnen."
+                           ],
+                           "fragen": [
+                              "Wie grenzte sich Durkheim von der italienischen Schule (Lombroso) ab?",
+                              "Was ist Durkheims Gegenposition zu Lombroso?"
+                           ],
+                           "id": "krim-s5-A2-w1-a1",
+                           "richtig": [
+                              "Kriminalität ist nicht zu pathologisieren; sie wird soziologisch erklärt."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "mit Sozialem erklären",
+                              "durch Soziales erklären",
+                              "mit Sozialem"
+                           ],
+                           "frage": "Ergänze Durkheims methodischen Grundsatz: „Soziales …“",
+                           "id": "krim-s5-A2-w1-a2",
+                           "musterloesung": "„Soziales mit Sozialem erklären“.",
+                           "typ": "kurzfrage"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, er verweist oft auf die italienische Schule.",
+                                 "richtig": true,
+                                 "text": "Durkheim lebte zur selben Zeit wie Lombroso."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Durkheim sieht das Soziale als Einheit mit eigenen Gesetzmäßigkeiten, bei der das Ganze mehr ist als die Summe seiner Teile."
+                              },
+                              {
+                                 "begruendung": "Nein, mit der Struktur der Gesellschaft (strukturfunktional).",
+                                 "richtig": false,
+                                 "text": "Durkheim erklärte Kriminalität mit individuellen Persönlichkeitsmerkmalen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s5-A2-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "krim-s5-A2-w1",
+                     "merke": "**Émile Durkheim (1858–1917)** etablierte die **makrosoziologische Perspektive** in der Kriminologie. Er lebte zeitgleich mit **Lombroso**, grenzte sich aber ab: **Kriminalität ist nicht zu pathologisieren**. Als Begründer der empirischen Soziologie wollte er „**Soziales mit Sozialem erklären**“. Er bezog Kriminalität auf die **Struktur der modernen Industriegesellschaft** (**strukturfunktionale Kriminalitätstheorie**).",
+                     "titel": "Soziales mit Sozialem erklären"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Digitalisierung und Internet",
+                              "sinkende Ungleichheit",
+                              "Rückkehr zur Großfamilie"
+                           ],
+                           "frage": "Welche gesellschaftlichen Entwicklungen bilden den Hintergrund von Durkheims Theorie?",
+                           "id": "krim-s5-A2-w2-a1",
+                           "richtig": [
+                              "rascher sozialer Wandel und Arbeitsteilung",
+                              "religiöse und moralische Vorstellungen verlieren an Bedeutung",
+                              "Chancengleichheit wird in der Realität nicht eingehalten",
+                              "Großfamilie nimmt ab, Kleinfamilie zu"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "auf die mittelalterliche Ständegesellschaft",
+                              "auf die heutige Informationsgesellschaft",
+                              "auf Stammesgesellschaften",
+                              "auf die amerikanische Gesellschaft der 1990er"
+                           ],
+                           "fragen": [
+                              "In welche Zeit fällt Durkheims Theorie?",
+                              "Auf welche Gesellschaft bezieht Durkheim Kriminalität?"
+                           ],
+                           "id": "krim-s5-A2-w2-a2",
+                           "richtig": [
+                              "auf die moderne, arbeitsteilige Industriegesellschaft"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "ausreisser": [
+                              "zunehmende Chancengleichheit",
+                              "Stärkung der Großfamilie",
+                              "Abschaffung der Schichten"
+                           ],
+                           "frage": "Was gehört nicht zu Durkheims gesellschaftlichem Hintergrund?",
+                           "gehoert": [
+                              "rascher sozialer Wandel",
+                              "Arbeitsteilung",
+                              "Bedeutungsverlust der Religion",
+                              "ungleiche Lebensverhältnisse"
+                           ],
+                           "id": "krim-s5-A2-w2-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "krim-s5-A2-w2",
+                     "merke": "Durkheims Hintergrund: **rascher sozialer Wandel**, **Arbeitsteilung** und ungleiche Lebensverhältnisse; **religiöse und moralische Vorstellungen verlieren an Bedeutung**; das **Postulat der Chancengleichheit** wird nicht eingehalten; die **Großfamilie nimmt ab**, die Kleinfamilie zu.",
+                     "titel": "Gesellschaftlicher Hintergrund"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-A3",
+               "titel": "Kriminalität ist normal",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Sie ist eine Krankheit, die geheilt werden muss.",
+                              "Sie tritt nur in armen Gesellschaften auf.",
+                              "Sie ist eine Folge biologischer Defekte.",
+                              "Sie ist ein Zeichen für das Versagen des Einzelnen."
+                           ],
+                           "fragen": [
+                              "Was meint Durkheim, wenn er Kriminalität ein „normales Phänomen“ nennt?",
+                              "Wie sieht Durkheim Kriminalität?"
+                           ],
+                           "id": "krim-s5-A3-w1-a1",
+                           "richtig": [
+                              "Sie ist in jeder Gesellschaft zu erwarten und integrierender Bestandteil jedes gesunden Gemeinwesens."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Kriminalität ist pathologisch.",
+                              "Kriminalität ist eine rationale Wahl.",
+                              "Kriminalität ist erlernt.",
+                              "Kriminalität ist angeboren."
+                           ],
+                           "fragen": [
+                              "Welche These Durkheims steckt in diesem Satz?"
+                           ],
+                           "id": "krim-s5-A3-w1-a2",
+                           "richtig": [
+                              "Kriminalität ist normal und unvermeidbar."
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„Es gibt (...) keine Gesellschaft, in der keine Kriminalität existierte.“"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-A3-w1-a3",
+                           "luecken": [
+                              [
+                                 "pathologisches",
+                                 "krankhaftes"
+                              ],
+                              [
+                                 "integrierender"
+                              ],
+                              [
+                                 "notwendig"
+                              ]
+                           ],
+                           "text": "Nach Durkheim ist Kriminalität kein {} Phänomen, sondern ein {} Bestandteil jedes gesunden Gemeinwesens; sie ist unvermeidbar und sogar {} für soziale Ordnung.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s5-A3-w1",
+                     "merke": "Durkheims **funktionalistische Sicht**: Kriminalität ist ein **„normales“ und funktionales Phänomen** – **unvermeidbar, sogar notwendig für soziale Ordnung**. „**Es gibt keine Gesellschaft, in der keine Kriminalität existierte.**“ Sie ist **kein pathologisches** Phänomen, sondern **integrierender Bestandteil jedes gesunden Gemeinwesens**.",
+                     "titel": "Normal und notwendig"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 2,
+                           "falsch": [
+                              "Abschreckung durch harte Strafen",
+                              "Steigerung des Wohlstands",
+                              "Stärkung der Großfamilie"
+                           ],
+                           "frage": "Welche Funktionen erfüllt Kriminalität nach Durkheim?",
+                           "id": "krim-s5-A3-w2-a1",
+                           "richtig": [
+                              "Normbekräftigung durch kollektive Reaktion",
+                              "Ermöglichung sozialen Wandels"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "akzeptiert": [
+                              "kollektives Gewissen",
+                              "kollektives Bewusstsein",
+                              "conscience collective",
+                              "Kollektivbewusstsein"
+                           ],
+                           "frage": "Wie nennt Durkheim das gemeinsame Bewusstsein einer Gesellschaft, das durch Erziehung weitergegeben wird?",
+                           "id": "krim-s5-A3-w2-a2",
+                           "musterloesung": "Das kollektive Gewissen bzw. Bewusstsein („conscience collective“).",
+                           "typ": "begriff"
+                        },
+                        {
+                           "frage": "Erläutere Durkheims funktionalistische Sicht auf Kriminalität. Warum bezeichnet er Kriminalität als „unvermeidbar und notwendig für soziale Ordnung“? Welche Funktionen erfüllt sie?",
+                           "id": "krim-s5-A3-w2-a3",
+                           "kernpunkte": [
+                              "Kriminalität ist normal: keine Gesellschaft ohne Kriminalität, Bestandteil jedes gesunden Gemeinwesens, nicht pathologisch",
+                              "kollektives Gewissen wird durch Erziehung vermittelt; Abweichungen kommen immer vor",
+                              "Funktion 1: Normbekräftigung durch die kollektive Reaktion auf die Tat",
+                              "Funktion 2: sozialer Wandel"
+                           ],
+                           "musterloesung": "Durkheim sieht Kriminalität als normales, funktionales Phänomen: Keine Gesellschaft ist ohne Kriminalität, sie ist Bestandteil jedes gesunden Gemeinwesens und nicht krankhaft. Notwendig ist sie, weil sie Funktionen erfüllt: Die kollektive Reaktion auf eine Tat bekräftigt die verletzte Norm und stärkt das kollektive Gewissen, das durch Erziehung weitergegeben wird. Zugleich ermöglicht Abweichung sozialen Wandel.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s5-A3-w2",
+                     "merke": "Das **kollektive Gewissen** („**conscience collective**“) wird durch **Erziehung** in den Einzelnen hineingetragen. **Funktionen von Kriminalität:** **Normbekräftigung durch kollektive Reaktion** (die Reaktion auf die Tat bestätigt die Norm) und **sozialer Wandel**.",
+                     "titel": "Funktionen der Kriminalität"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-A4",
+               "titel": "Anomie bei Durkheim",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Was meint Durkheim mit „Anomie“?",
+                           "id": "krim-s5-A4-w1-a1",
+                           "kernpunkte": [
+                              "Zustand der Regellosigkeit",
+                              "schwache/fehlende soziale Ordnung und verbindliche Werte und Normen",
+                              "Verlust sozialer Solidarität, Schwächung sozialer Kontrolle, soziale Desintegration",
+                              "v. a. in Zeiten raschen sozialen Wandels"
+                           ],
+                           "musterloesung": "Anomie ist ein Zustand der Regellosigkeit: Die soziale Ordnung und verbindliche Werte und Normen sind schwach oder fehlen, die soziale Solidarität geht verloren, die soziale Kontrolle wird geschwächt, und die Gesellschaft desintegriert. Das tritt besonders in Zeiten raschen sozialen Wandels und moralischer Desorientierung auf.",
+                           "typ": "definition"
+                        },
+                        {
+                           "falsch": [
+                              "Überreglementierung",
+                              "sehr starke Bindungen",
+                              "Balance von Zielen und Mitteln"
+                           ],
+                           "frage": "Was kennzeichnet einen anomischen Zustand nach Durkheim?",
+                           "id": "krim-s5-A4-w1-a2",
+                           "richtig": [
+                              "schwache oder fehlende verbindliche Werte und Normen",
+                              "Verlust sozialer Solidarität",
+                              "Schwächung sozialer Kontrolle",
+                              "soziale Desintegration"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "in Zeiten stabiler Werte",
+                              "nur bei individueller Armut",
+                              "bei hoher Polizeipräsenz",
+                              "bei starken religiösen Bindungen"
+                           ],
+                           "fragen": [
+                              "Wann steigt Kriminalität laut Durkheims Anomiekonzept besonders?",
+                              "Was erklärt das Konzept der Anomie?"
+                           ],
+                           "id": "krim-s5-A4-w1-a3",
+                           "richtig": [
+                              "in Zeiten raschen sozialen Wandels und moralischer Desorientierung"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s5-A4-w1",
+                     "merke": "**Anomie** = **Zustand der Regellosigkeit**: schwache oder fehlende soziale Ordnung und verbindliche Werte und Normen, **Verlust sozialer Solidarität**, **Schwächung sozialer Kontrolle**, **soziale Desintegration** in einer arbeitsteiligen Gesellschaft. Sie erklärt **erhöhte Kriminalität in Zeiten raschen sozialen Wandels** und moralischer Desorientierung.",
+                     "titel": "Zustand der Regellosigkeit"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "sobald es überhaupt Kriminalität gibt",
+                              "wenn die Polizei Taten nicht aufklärt",
+                              "wenn Kriminalität sozialen Wandel auslöst",
+                              "wenn Normen durch Strafen bekräftigt werden"
+                           ],
+                           "fragen": [
+                              "Wann wird Kriminalität nach Durkheim „pathologisch“?",
+                              "Ab wann ist eine Gesellschaft nach Durkheim krank?"
+                           ],
+                           "id": "krim-s5-A4-w2-a1",
+                           "richtig": [
+                              "wenn Abweichung zur Regel wird und das kollektive Gewissen die Ordnung nicht mehr aufrechterhalten kann"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Geburtenraten",
+                              "Kirchenbesuche"
+                           ],
+                           "frage": "Welche negativen sozialen Akte steigen nach Durkheim im pathologischen Zustand?",
+                           "id": "krim-s5-A4-w2-a2",
+                           "richtig": [
+                              "Selbstmord",
+                              "Kriminalität",
+                              "Ehescheidungen"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Wann wird Kriminalität in der Gesellschaft nach Durkheim „pathologisch“ (krankhaft)?",
+                           "id": "krim-s5-A4-w2-a3",
+                           "kernpunkte": [
+                              "normal ist Kriminalität in gewissem Maß; pathologisch, wenn Abweichung zur Regel wird",
+                              "kollektives Gewissen kann die Ordnung nicht mehr aufrechterhalten → Anomie",
+                              "Übergang vom Normal- in einen pathologischen Zustand: messbare negative soziale Akte steigen (Selbstmord, Kriminalität, Ehescheidungen)"
+                           ],
+                           "musterloesung": "Ein gewisses Maß an Kriminalität ist normal. Pathologisch wird sie, wenn Abweichung zur Regel wird, weil das kollektive Gewissen nicht mehr in der Lage ist, die Ordnung aufrechtzuerhalten. Diesen Zustand nennt Durkheim Anomie: Die Gesellschaft geht vom Normalzustand in einen pathologischen Zustand über, in dem statistisch messbare negative soziale Akte wie Selbstmord, Kriminalität und Ehescheidungen steigen.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s5-A4-w2",
+                     "merke": "**Pathologisch** wird Kriminalität, wenn die **Abweichung zur Regel** wird, das **kollektive Gewissen** also **nicht mehr für die Aufrechterhaltung der Ordnung sorgen kann** (= Anomie). Dann steigen **statistisch messbare negative soziale Akte** wie **Selbstmord, Kriminalität, Ehescheidungen**.",
+                     "titel": "Wann es pathologisch wird"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-A5",
+               "titel": "Durkheims Suizidtypen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Suizidtypen zu.",
+                           "id": "krim-s5-A5-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "egoistisch",
+                                 "rechts": "Integration niedrig – keine Bindungen"
+                              },
+                              {
+                                 "links": "altruistisch",
+                                 "rechts": "Integration hoch – starke Bindungen"
+                              },
+                              {
+                                 "links": "anomisch",
+                                 "rechts": "Regulation niedrig – keine Regeln"
+                              },
+                              {
+                                 "links": "fatalistisch",
+                                 "rechts": "Regulation hoch – viele Regeln"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Welcher Suizidtyp ist das?",
+                           "id": "krim-s5-A5-w1-a2",
+                           "items": [
+                              {
+                                 "kategorie": "altruistisch",
+                                 "text": "Kamikaze-Flieger"
+                              },
+                              {
+                                 "kategorie": "anomisch",
+                                 "text": "Suizid nach plötzlichem Lottogewinn"
+                              },
+                              {
+                                 "kategorie": "anomisch",
+                                 "text": "Suizid in der Wirtschaftskrise"
+                              },
+                              {
+                                 "kategorie": "fatalistisch",
+                                 "text": "Insasse einer totalen Institution"
+                              },
+                              {
+                                 "kategorie": "egoistisch",
+                                 "text": "Sinnkrise ohne übergeordnetes Ziel"
+                              }
+                           ],
+                           "kategorien": [
+                              "egoistisch",
+                              "altruistisch",
+                              "anomisch",
+                              "fatalistisch"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "Aufopferung für ein Kollektiv",
+                              "Überreglementierung in totalen Institutionen",
+                              "zu starke Bindung an eine Gruppe",
+                              "angeborene Depression"
+                           ],
+                           "fragen": [
+                              "Was kennzeichnet den anomischen Selbstmord?",
+                              "Wann kommt es nach Durkheim zum anomischen Selbstmord?"
+                           ],
+                           "id": "krim-s5-A5-w1-a3",
+                           "richtig": [
+                              "Bedürfnisse und Mittel fallen auseinander (Krise der Bedürfnisregulation)."
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s5-A5-w1",
+                     "merke": "**Suizidtypen (Durkheim 1897):** **egoistisch** (Integration niedrig, keine Bindungen, Sinnkrise), **altruistisch** (Integration hoch, Aufopferung für ein Kollektiv), **anomisch** (Regulation niedrig: Bedürfnisse und Mittel fallen auseinander, z. B. Wirtschaftskrise oder plötzlicher Wohlstand), **fatalistisch** (Regulation hoch: Überreglementierung, z. B. totale Institutionen).",
+                     "titel": "Integration und Regulation"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-A-mix1",
+               "mix": [
+                  "krim-s5-A1",
+                  "krim-s5-A2",
+                  "krim-s5-A3",
+                  "krim-s5-A4",
+                  "krim-s5-A5"
+               ],
+               "titel": "🔀 Gemischt: Durkheim"
+            }
+         ],
+         "titel": "Kriminalgeografie und Durkheim"
+      },
+      {
+         "farbe": 0,
+         "id": "krim-s5-B",
+         "level": [
+            {
+               "id": "krim-s5-B1",
+               "titel": "Ziele und Mittel",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Durkheim",
+                              "Shaw & McKay",
+                              "Messner & Rosenfeld",
+                              "Wilson & Kelling"
+                           ],
+                           "fragen": [
+                              "Von wem stammt diese These?"
+                           ],
+                           "id": "krim-s5-B1-w1-a1",
+                           "richtig": [
+                              "Merton"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "Abweichendes Verhalten ist zu betrachten als „Symptom für das Auseinanderklaffen von kulturell vorgegebenen Zielen und von sozial strukturierten Wegen, auf denen diese Ziele zu erreichen sind“."
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-B1-w1-a2",
+                           "luecken": [
+                              [
+                                 "Zielen",
+                                 "Ziele"
+                              ],
+                              [
+                                 "Wegen",
+                                 "Mitteln",
+                                 "Wege"
+                              ]
+                           ],
+                           "text": "Nach Merton ist abweichendes Verhalten ein Symptom für das Auseinanderklaffen von kulturell vorgegebenen {} und sozial strukturierten {}, auf denen diese erreicht werden.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "ein Gleichgewicht von Zielen und Mitteln",
+                              "eine Überbetonung der Normen",
+                              "fehlende Ziele bei starken Normen",
+                              "eine hohe Zahl an Polizeikontrollen"
+                           ],
+                           "fragen": [
+                              "Was ist nach Merton charakteristisch für anomische Gesellschaften?",
+                              "Wann ist eine Gesellschaft nach Merton anomisch?"
+                           ],
+                           "id": "krim-s5-B1-w1-a3",
+                           "richtig": [
+                              "ein zu großes Gewicht des Ziels (z. B. materieller Erfolg) bei Vernachlässigung der Mittel"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s5-B1-w1",
+                     "merke": "**Robert K. Merton (1910–2003)**: In einer „gesunden“ Gesellschaft sind **Ziele** (Werte) und **Normen bzw. Mittel** im Gleichgewicht. **Zentrale These:** Abweichendes Verhalten ist ein „**Symptom für das Auseinanderklaffen von kulturell vorgegebenen Zielen und von sozial strukturierten Wegen**, auf denen diese Ziele zu erreichen sind“.",
+                     "titel": "Mertons zentrale These"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Gesellschaftstypen zu.",
+                           "id": "krim-s5-B1-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "integrierte Gesellschaft",
+                                 "rechts": "Balance – Veränderung – Kriminalität niedrig"
+                              },
+                              {
+                                 "links": "ritualistische Gesellschaft",
+                                 "rechts": "Normen betont – Stagnation – Kriminalität sehr gering"
+                              },
+                              {
+                                 "links": "anomische Gesellschaft",
+                                 "rechts": "Ziele betont – Instabilität – Kriminalität hoch"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Was beschreibt Merton als anomische Gesellschaft?",
+                           "id": "krim-s5-B1-w2-a2",
+                           "kernpunkte": [
+                              "zu großes Gewicht der kulturellen Ziele (z. B. materieller Erfolg)",
+                              "Vernachlässigung der Normen/legitimen Mittel → Desintegration von Zielen und Mitteln",
+                              "Folge: Instabilität und hohe Kriminalität",
+                              "kann chronisch sein (moderne amerikanische Gesellschaft)"
+                           ],
+                           "musterloesung": "Eine anomische Gesellschaft betont die kulturellen Ziele, etwa materiellen Erfolg, so stark, dass die Normen bzw. legitimen Mittel zur Zielerreichung vernachlässigt werden. Ziele und Mittel sind desintegriert. Das führt zu Instabilität und hoher Kriminalität. Nach Merton kann dieser Zustand chronisch sein, wie in der modernen amerikanischen Gesellschaft.",
+                           "typ": "offen"
+                        },
+                        {
+                           "falsch": [
+                              "die anomische Gesellschaft",
+                              "die integrierte Gesellschaft",
+                              "die amerikanische Gesellschaft",
+                              "die Industriegesellschaft Durkheims"
+                           ],
+                           "fragen": [
+                              "Welche Gesellschaft hat nach Merton die geringste Kriminalität?",
+                              "Wo ist die Kriminalität nach Mertons Modell sehr gering?"
+                           ],
+                           "id": "krim-s5-B1-w2-a3",
+                           "richtig": [
+                              "die ritualistische Gesellschaft (Stagnation)"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s5-B1-w2",
+                     "merke": "**Integrierte** Gesellschaft: **Balance** von Normen und Zielen → Veränderung, Kriminalität **niedrig**. **Ritualistische** Gesellschaft: Normen betont, Ziele vernachlässigt → **Stagnation**, Kriminalität **sehr gering**. **Anomische** Gesellschaft: Ziele betont, Normen vernachlässigt → **Instabilität**, Kriminalität **hoch**. Anomie kann **chronisch** sein, laut Merton in der **modernen amerikanischen Gesellschaft**.",
+                     "titel": "Drei Gesellschaftstypen"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-B2",
+               "titel": "Fünf Anpassungstypen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ergänze Mertons Typologie (+ = akzeptiert, − = abgelehnt, ± = ersetzt).",
+                           "id": "krim-s5-B2-w1-a1",
+                           "kopf": [
+                              "Anpassungstyp",
+                              "Ziele",
+                              "Mittel"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "Konformität",
+                                 "+",
+                                 "+"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Innovation"
+                                    ]
+                                 },
+                                 "+",
+                                 "−"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Ritualismus"
+                                    ]
+                                 },
+                                 "−",
+                                 "+"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Rückzug",
+                                       "Retreatismus"
+                                    ]
+                                 },
+                                 "−",
+                                 "−"
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Rebellion"
+                                    ]
+                                 },
+                                 "±",
+                                 "±"
+                              ]
+                           ]
+                        },
+                        {
+                           "frage": "Ordne die Anpassungstypen zu.",
+                           "id": "krim-s5-B2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Konformität",
+                                 "rechts": "Ziele und Mittel werden akzeptiert."
+                              },
+                              {
+                                 "links": "Innovation",
+                                 "rechts": "Ziele akzeptiert, Erreichen auch mit illegitimen Mitteln"
+                              },
+                              {
+                                 "links": "Ritualismus",
+                                 "rechts": "Ziele aufgegeben, Regeln blind befolgt"
+                              },
+                              {
+                                 "links": "Rückzug",
+                                 "rechts": "Ziele und Mittel abgelehnt, kein Ersatz"
+                              },
+                              {
+                                 "links": "Rebellion",
+                                 "rechts": "Ziele und Mittel durch neue ersetzt"
+                              }
+                           ],
+                           "typ": "zuordnung",
+                           "zeigen": 5
+                        },
+                        {
+                           "erklaerung": "Die Beispiele sind konstruiert; die Typen stammen aus der Vorlesung.",
+                           "frage": "Welcher Anpassungstyp liegt vor?",
+                           "id": "krim-s5-B2-w1-a3",
+                           "items": [
+                              {
+                                 "kategorie": "Innovation",
+                                 "text": "Ein arbeitsloser Mann will reich werden und handelt mit Drogen."
+                              },
+                              {
+                                 "kategorie": "Ritualismus",
+                                 "text": "Eine Beamtin hat Aufstieg abgeschrieben, hält sich aber peinlich genau an jede Vorschrift."
+                              },
+                              {
+                                 "kategorie": "Rückzug",
+                                 "text": "Ein Obdachloser hat Erfolg und Arbeit aufgegeben und lebt zurückgezogen."
+                              },
+                              {
+                                 "kategorie": "Rebellion",
+                                 "text": "Eine Gruppe will das System stürzen und eine neue Ordnung errichten."
+                              }
+                           ],
+                           "kategorien": [
+                              "Innovation",
+                              "Ritualismus",
+                              "Rückzug",
+                              "Rebellion"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "frage": "Nenne neben „Konformität“ die vier weiteren Anpassungstypen nach Merton.",
+                           "id": "krim-s5-B2-w1-a4",
+                           "kernpunkte": [
+                              "Innovation",
+                              "Ritualismus",
+                              "RÃ¼ckzug",
+                              "Rebellion"
+                           ],
+                           "musterloesung": "Innovation, Ritualismus, RÃ¼ckzug und Rebellion.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s5-B2-w1",
+                     "merke": "**Konformität:** Ziele und Mittel akzeptiert. **Innovation:** Ziele akzeptiert, legitime Mittel abgelehnt (nicht verfügbar) → **auch illegitime, kriminelle Mittel**. **Ritualismus** (Überkonformität): Ziele aufgegeben, Mittel **blind befolgt**. **Rückzug:** Ziele und Mittel abgelehnt, **kein Ersatz**. **Rebellion:** Ziele und Mittel abgelehnt und **durch neue ersetzt**.",
+                     "titel": "Die Typologie"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Konformität",
+                              "Ritualismus",
+                              "Rückzug",
+                              "Rebellion"
+                           ],
+                           "fragen": [
+                              "Welcher Anpassungstyp führt nach Merton zur höchsten Kriminalität?",
+                              "Welcher Typ betrifft vor allem die Unterschicht und ist sehr kriminalitätsträchtig?"
+                           ],
+                           "id": "krim-s5-B2-w2-a1",
+                           "richtig": [
+                              "Innovation"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Welche Gruppe ist typischerweise betroffen?",
+                           "id": "krim-s5-B2-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "Konformität",
+                                 "rechts": "die meisten"
+                              },
+                              {
+                                 "links": "Innovation",
+                                 "rechts": "Unterschicht"
+                              },
+                              {
+                                 "links": "Ritualismus",
+                                 "rechts": "untere Mittelschicht"
+                              },
+                              {
+                                 "links": "Rückzug",
+                                 "rechts": "einzelne Personen"
+                              },
+                              {
+                                 "links": "Rebellion",
+                                 "rechts": "Radikale"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "elemente": [
+                              "Innovation (sehr hoch)",
+                              "Rückzug (mäßig)",
+                              "Konformität (niedrig)",
+                              "Ritualismus (sehr niedrig)"
+                           ],
+                           "frage": "Ordne nach dem Kriminalitätsniveau von hoch nach niedrig.",
+                           "id": "krim-s5-B2-w2-a3",
+                           "typ": "reihenfolge"
+                        }
+                     ],
+                     "id": "krim-s5-B2-w2",
+                     "merke": "**Konformität:** Kriminalität niedrig, **die meisten**. **Innovation:** Kriminalität **sehr hoch**, **Unterschicht**. **Ritualismus:** sehr niedrig, **untere Mittelschicht**. **Rückzug:** mäßig, **einzelne Personen**. **Rebellion:** **Revolution**, **Radikale**.",
+                     "titel": "Wer wie abweicht"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-B3",
+               "titel": "Strain und Unterschicht",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "Diskrepanz zwischen Zielen und Mitteln",
+                              "Druck (Strain)",
+                              "Anpassungsreaktion (z. B. Innovation)",
+                              "höhere Rate abweichenden Verhaltens in der Unterschicht"
+                           ],
+                           "frage": "Bringe Mertons Erklärungskette in die richtige Reihenfolge.",
+                           "id": "krim-s5-B3-w1-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "frage": "Wie entsteht nach Merton die erhöhte Rate von Kriminalität bei sozial benachteiligten, armutsbetroffenen Personen?",
+                           "id": "krim-s5-B3-w1-a2",
+                           "kernpunkte": [
+                              "Kulturelle Ziele (materieller Erfolg) gelten für alle",
+                              "Benachteiligten fehlt der Zugang zu legitimen Mitteln → Diskrepanz zwischen Zielen und Mitteln",
+                              "Diskrepanz erzeugt Druck (Strain)",
+                              "Anpassung v. a. durch Innovation: Ziel wird mit illegitimen Mitteln verfolgt → höhere Kriminalität in der Unterschicht"
+                           ],
+                           "musterloesung": "Die Gesellschaft gibt allen das gleiche kulturelle Ziel vor, vor allem materiellen Erfolg. Sozial Benachteiligten fehlen aber legitime Mittel wie Bildung oder gut bezahlte Arbeit. Diese Diskrepanz zwischen Zielen und Mitteln erzeugt Druck (Strain). Viele passen sich durch Innovation an: Sie halten am Ziel fest, nutzen aber illegitime, auch kriminelle Mittel. Deshalb ist die Rate abweichenden Verhaltens in der Unterschicht höher.",
+                           "typ": "offen"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Strain",
+                              "strain"
+                           ],
+                           "frage": "Wie heißt der Druck, der nach Merton aus der Diskrepanz von Zielen und Mitteln entsteht (englisch)?",
+                           "id": "krim-s5-B3-w1-a3",
+                           "musterloesung": "Strain (Druck).",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s5-B3-w1",
+                     "merke": "Zwei Diskrepanzen (Anomie): **innerhalb der kulturellen Struktur** (Normen und Ziele) und **zwischen kultureller und sozialer Struktur** (Ziele und Mittel). Die **Diskrepanz führt zu Druck (Strain)**, Strain ruft **Anpassungsreaktionen** hervor (passiv oder aktiv abweichend). Weil der **Unterschicht legitime Mittel fehlen**, um gleiche Erfolgsziele zu erreichen, ist dort die **Rate abweichenden Verhaltens höher**.",
+                     "titel": "Vom Druck zur Abweichung"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-B4",
+               "titel": "Kritik an Merton",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "sie ist biologistisch",
+                              "sie ignoriert kulturelle Ziele völlig",
+                              "sie erklärt vor allem Affekttaten"
+                           ],
+                           "frage": "Welche Kritikpunkte an Mertons Anomietheorie nennt die Vorlesung?",
+                           "id": "krim-s5-B4-w1-a1",
+                           "richtig": [
+                              "Homogenitätsannahme: zu einfaches Gesellschaftsbild",
+                              "Fokus vor allem auf ökonomische Kriminalität",
+                              "individuelle Reaktionsunterschiede werden nicht erklärt",
+                              "Gelegenheitsstrukturen bzw. illegitime Mittel werden nicht analysiert",
+                              "keine Prozesssicht, Übergang als „Sprung“"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "Mord und Vergewaltigung",
+                              "Affekttaten",
+                              "Wirtschaftskriminalität der Oberschicht",
+                              "Hasskriminalität"
+                           ],
+                           "fragen": [
+                              "Welche Kriminalität erklärt Mertons Theorie am ehesten?",
+                              "Für welche Delikte eignet sich Mertons Anomietheorie besonders?"
+                           ],
+                           "id": "krim-s5-B4-w1-a2",
+                           "richtig": [
+                              "monetäre Delikte wie Raub oder Einbruch"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, individuelle Reaktionsunterschiede bleiben unerklärt.",
+                                 "richtig": false,
+                                 "text": "Merton erklärt, warum jemand gerade zum Ritualisten und nicht zum Innovator wird."
+                              },
+                              {
+                                 "begruendung": "Ja, weil Mittel- und Oberschicht über legitime Mittel verfügen.",
+                                 "richtig": true,
+                                 "text": "Merton erklärt Kriminalität vor allem in der Unterschicht."
+                              },
+                              {
+                                 "begruendung": "Nein, sie finden keine Betrachtung.",
+                                 "richtig": false,
+                                 "text": "Die Zugangsmöglichkeiten zu illegitimen Mitteln stehen im Zentrum seiner Theorie."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s5-B4-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "krim-s5-B4-w1",
+                     "merke": "**Kritik:** zu einfaches Gesellschaftsbild (**Homogenitätsannahme**), **ungenaue Begriffe** („kulturelle Ziele“), **keine Prozesssicht** (Übergang als „Sprung“); Fokus auf **ökonomische Kriminalität** (Raub, Einbruch, nicht Mord oder Vergewaltigung) und **nur Unterschicht**; **individuelle Reaktionsunterschiede** unerklärt (warum Ritualist oder Innovator?); **Zugang zu illegitimen Mitteln / Gelegenheitsstrukturen** nicht betrachtet; fraglich für moderne Gesellschaften.",
+                     "titel": "Schwächen der Anomietheorie"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-B-mix1",
+               "mix": [
+                  "krim-s5-B1",
+                  "krim-s5-B2",
+                  "krim-s5-B3",
+                  "krim-s5-B4"
+               ],
+               "titel": "🔀 Gemischt: Merton"
+            },
+            {
+               "id": "krim-s5-B5",
+               "titel": "Institutionelle Anomietheorie",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "vom Verhältnis der Polizei zur Justiz",
+                              "von der Zahl der Einwohner einer Stadt",
+                              "von der Selbstkontrolle der Einzelnen",
+                              "von der Nähe zum Stadtzentrum"
+                           ],
+                           "fragen": [
+                              "Was ist der Kerngedanke der Institutionellen Anomietheorie?",
+                              "Wovon hängt nach Messner & Rosenfeld die Kriminalitätsbelastung ab?"
+                           ],
+                           "id": "krim-s5-B5-w1-a1",
+                           "richtig": [
+                              "von der Balance gesellschaftlicher Institutionen (Ökonomie, Politik, Gemeinwesen, Familie, Religion)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlRichtig": 4,
+                           "falsch": [
+                              "Polizei",
+                              "Medien",
+                              "Strafvollzug"
+                           ],
+                           "frage": "Welche Institutionen nennt die IAT?",
+                           "id": "krim-s5-B5-w1-a2",
+                           "richtig": [
+                              "Ökonomie",
+                              "Politik",
+                              "Gemeinwesen",
+                              "Familie",
+                              "Religion"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-B5-w1-a3",
+                           "luecken": [
+                              [
+                                 "Rosenfeld"
+                              ],
+                              [
+                                 "1994"
+                              ],
+                              [
+                                 "Dream"
+                              ]
+                           ],
+                           "text": "Die Institutionelle Anomietheorie stammt von Messner und {} ({}) aus dem Buch „Crime and the American {}“.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, das ist ihre Besonderheit.",
+                                 "richtig": true,
+                                 "text": "Die IAT macht Vorhersagen nicht nur zum Umfang, sondern vor allem zur Struktur der Kriminalität."
+                              },
+                              {
+                                 "begruendung": "Nein, auch sie hängt von der Balance der Institutionen ab.",
+                                 "richtig": false,
+                                 "text": "Nach der IAT hängt die Wirksamkeit sozialer Kontrolle nicht von den Institutionen ab."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s5-B5-w1-a4",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "krim-s5-B5-w1",
+                     "merke": "**Messner & Rosenfeld (1994), „Crime and the American Dream“ – Institutionelle Anomietheorie (IAT):** Die **Balance gesellschaftlicher Institutionen** (**Ökonomie, Politik, Gemeinwesen, Familie, Religion**) ist entscheidend für **Ausmaß und Art** der Kriminalitätsbelastung. **Bindung an Institutionen** reguliert Verhalten; auch die **Wirksamkeit sozialer Kontrolle** hängt von der Balance ab. Besonderheit: Vorhersagen auch zur **Struktur** der Kriminalität.",
+                     "titel": "Balance der Institutionen"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Welche Kriminalität folgt aus welcher Dominanz?",
+                           "id": "krim-s5-B5-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "Dominanz der Ökonomie",
+                                 "rechts": "profitorientierte, instrumentelle Kriminalität"
+                              },
+                              {
+                                 "links": "Dominanz von Staat/Politik",
+                                 "rechts": "Korruption, Schwarzmarkt, Steuerbetrug"
+                              },
+                              {
+                                 "links": "Dominanz ziviler Institutionen",
+                                 "rechts": "Hasskriminalität, Bürgerwehren"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Welche Dominanz erklärt das nach der IAT?",
+                           "id": "krim-s5-B5-w2-a2",
+                           "items": [
+                              {
+                                 "kategorie": "Ökonomie",
+                                 "text": "Streben nach Profit mit allen Mitteln"
+                              },
+                              {
+                                 "kategorie": "Staat/Politik",
+                                 "text": "Korruption"
+                              },
+                              {
+                                 "kategorie": "Staat/Politik",
+                                 "text": "Steuerbetrug und Schwarzmarkt"
+                              },
+                              {
+                                 "kategorie": "zivile Institutionen",
+                                 "text": "Hypermoral"
+                              },
+                              {
+                                 "kategorie": "zivile Institutionen",
+                                 "text": "Bürgerwehren"
+                              },
+                              {
+                                 "kategorie": "zivile Institutionen",
+                                 "text": "Menschenrechtsverletzungen"
+                              }
+                           ],
+                           "kategorien": [
+                              "Ökonomie",
+                              "Staat/Politik",
+                              "zivile Institutionen"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "erklaerung": "Die Folie nennt die Folgen der ökonomischen Dominanz; wie genau die anderen Institutionen geschwächt werden, wird nur allgemein (Bindung, soziale Kontrolle) beschrieben.",
+                           "frage": "Wie wirkt sich die Dominanz wirtschaftlicher Werte auf andere gesellschaftliche Institutionen aus (institutionelle Anomietheorie nach Messner & Rosenfeld)?",
+                           "id": "krim-s5-B5-w2-a3",
+                           "kernpunkte": [
+                              "Imbalance: Ökonomie dominiert Familie, Politik, Gemeinwesen, Religion",
+                              "Bindung an die anderen Institutionen und ihre soziale Kontrolle werden geschwächt; Werte und Normen werden schwächer vermittelt",
+                              "Streben nach Profit mit allen Mitteln, marktförmige Einstellungen",
+                              "→ hohes Niveau profitorientierter, instrumenteller Kriminalität"
+                           ],
+                           "musterloesung": "Dominieren wirtschaftliche Werte, gerät die Balance der Institutionen aus dem Gleichgewicht: Familie, Politik, Gemeinwesen und Religion verlieren an Gewicht. Damit werden die Bindung an diese Institutionen und die von ihnen ausgehende soziale Kontrolle schwächer, und sie vermitteln Werte und Normen weniger wirksam. Es setzt sich das Streben nach Profit mit allen Mitteln durch; die Folge ist ein hohes Niveau profitorientierter, instrumenteller Kriminalität.",
+                           "pruefen": true,
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s5-B5-w2",
+                     "merke": "**Dominanz der Ökonomie:** **Streben nach Profit mit allen Mitteln** → hohes Niveau **profitorientierter, instrumenteller Kriminalität**. **Dominanz von Staat/Politik:** **Misstrauen** in politische Institutionen, zynische Einstellungen → **Korruption, Schwarzmarkt, Steuerbetrug**. **Dominanz ziviler Institutionen:** **Hypermoral** → **Hasskriminalität, Bürgerwehren, Menschenrechtsverletzungen**.",
+                     "titel": "Folgen der Dominanz"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "ausreisser": [
+                              "„Wer Hilfe braucht, sollte sie von der Gemeinschaft bekommen.“",
+                              "„Familie ist wichtiger als Karriere.“"
+                           ],
+                           "frage": "Welche Aussage misst keinen marktförmigen Extremismus?",
+                           "gehoert": [
+                              "„Wer sich nicht selbst motivieren kann, ist selber schuld, wenn er scheitert.“",
+                              "„Menschliche Fehler können wir uns nicht mehr leisten.“",
+                              "„Der Schlüssel zum Erfolg ist, besser als die Anderen zu sein.“",
+                              "„Fortschritt gibt es nur durch Wettbewerb.“"
+                           ],
+                           "id": "krim-s5-B5-w3-a1",
+                           "typ": "wasPasstNicht"
+                        },
+                        {
+                           "falsch": [
+                              "Theorie der sozialen Desorganisation",
+                              "Broken Windows",
+                              "Durkheims Suizidtheorie",
+                              "Bindungstheorie"
+                           ],
+                           "fragen": [
+                              "Welche Theorie steht hinter der Messung von „marktförmigem Extremismus“?",
+                              "Zu welcher Theorie passt die Aussage „Menschen, die wenig nützlich sind, kann sich keine Gesellschaft leisten“?"
+                           ],
+                           "id": "krim-s5-B5-w3-a2",
+                           "richtig": [
+                              "Institutionelle Anomietheorie (Dominanz der Ökonomie)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "marktförmiger Extremismus",
+                              "Marktförmiger Extremismus",
+                              "marktförmiges Denken"
+                           ],
+                           "frage": "Wie heißt die Einstellung, nach der Menschen nach ihrem Nutzen und Erfolg im Wettbewerb bewertet werden (IAT)?",
+                           "id": "krim-s5-B5-w3-a3",
+                           "musterloesung": "Marktförmiger Extremismus.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s5-B5-w3",
+                     "merke": "**Marktförmiger Extremismus** wird mit Aussagen gemessen wie: „**Wer nicht bereit ist, was Neues zu wagen, ist selber schuld, wenn er scheitert**“, „**Menschen, die wenig nützlich sind, kann sich keine Gesellschaft leisten**“, „**Der Schlüssel zum Erfolg ist, besser als die Anderen zu sein**“, „**Fortschritt gibt es nur durch Wettbewerb**“.",
+                     "titel": "Marktförmiger Extremismus"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-B-mix2",
+               "mix": [
+                  "krim-s5-B1",
+                  "krim-s5-B2",
+                  "krim-s5-B3",
+                  "krim-s5-B4",
+                  "krim-s5-B5"
+               ],
+               "titel": "🔀 Gemischt: Anomietheorien"
+            }
+         ],
+         "titel": "Merton und die IAT"
+      },
+      {
+         "farbe": 140,
+         "id": "krim-s5-C",
+         "level": [
+            {
+               "id": "krim-s5-C1",
+               "titel": "Die Chicago School",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "sie nutzte nur offizielle Statistiken großer Regionen",
+                              "sie untersuchte biologische Merkmale",
+                              "sie befragte Opfer im Dunkelfeld",
+                              "sie arbeitete nur mit Experimenten"
+                           ],
+                           "fragen": [
+                              "Was unterscheidet die Chicago School von der frühen europäischen Kriminalgeografie?",
+                              "Was war neu am Ansatz der Chicago School?"
+                           ],
+                           "id": "krim-s5-C1-w1-a1",
+                           "richtig": [
+                              "kleinere Analyseeinheiten (Stadtviertel statt Departements)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-C1-w1-a2",
+                           "luecken": [
+                              [
+                                 "1840"
+                              ],
+                              [
+                                 "1930"
+                              ],
+                              [
+                                 "1920"
+                              ]
+                           ],
+                           "text": "Chicago wuchs von unter 5.000 Einwohnern ({}) auf 3,5 Millionen ({}). Die Chicago School entstand in den {}er Jahren.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "Rückgang der Stadtbevölkerung",
+                              "Einführung der PKS",
+                              "Industrialisierung in Frankreich"
+                           ],
+                           "frage": "Was bildete den Hintergrund der Chicago School?",
+                           "id": "krim-s5-C1-w1-a3",
+                           "richtig": [
+                              "rasantes Wachstum der Städte",
+                              "Einwanderungswellen",
+                              "rapider Wandel von Bevölkerungs- und Sozialstruktur"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "krim-s5-C1-w1",
+                     "merke": "Die **Chicago School of Sociology** wurde in den **1920er Jahren** an der University of Chicago begründet: ein **stadtsoziologischer Ansatz** mit **kleineren Analyseeinheiten** als die europäische Kriminalgeografie. Hintergrund: **rasantes Städtewachstum** (Chicago: **unter 5.000 Einwohner 1840 → 3,5 Mio. 1930**), **Einwanderungswellen**, rapider Wandel.",
+                     "titel": "Stadtsoziologie der 1920er"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "zentraler Geschäftsbezirk (City)",
+                              "Übergangszone",
+                              "Zone der Arbeiterklasse",
+                              "Wohnviertel",
+                              "Pendlerzone"
+                           ],
+                           "frage": "Ordne die Zonen von innen nach außen.",
+                           "id": "krim-s5-C1-w2-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "falsch": [
+                              "in der Pendlerzone",
+                              "im Wohnviertel",
+                              "in der Zone der Arbeiterklasse",
+                              "im zentralen Geschäftsbezirk"
+                           ],
+                           "fragen": [
+                              "Wo leben im Zonenmodell die jüngsten Einwanderungsgruppen?",
+                              "Welche Zone ist durch verwahrloste Häuser, Fabriken und Leerstand geprägt?"
+                           ],
+                           "id": "krim-s5-C1-w2-a2",
+                           "richtig": [
+                              "in der Übergangszone"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne den Zonen ihre Merkmale zu.",
+                           "id": "krim-s5-C1-w2-a3",
+                           "paare": [
+                              {
+                                 "links": "Übergangszone",
+                                 "rechts": "Einwanderer, Fabriken, Leerstand"
+                              },
+                              {
+                                 "links": "Zone der Arbeiterklasse",
+                                 "rechts": "Mietwohnungen"
+                              },
+                              {
+                                 "links": "Wohnviertel",
+                                 "rechts": "Einfamilienhäuser, Vorgärten"
+                              },
+                              {
+                                 "links": "Pendlerzone",
+                                 "rechts": "Vorstädte"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        }
+                     ],
+                     "id": "krim-s5-C1-w2",
+                     "merke": "**Park & Burgess (1925)**, Humanökologie: Die Großstadt als **sozialer Organismus** (natürliche Selektion, **Invasion, Konkurrenz und Sukzession**). **Konzentrische Zonen (Burgess):** **1. zentraler Geschäftsbezirk (City)**, **2. Übergangszone** (jüngste Einwanderungsgruppen, verwahrloste Häuser, Fabriken, Leerstand), **3. Zone der Arbeiterklasse** (Mietwohnungen), **4. Wohnviertel** (Einfamilienhäuser), **5. Pendlerzone** (Vorstädte).",
+                     "titel": "Das Zonenmodell"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-C2",
+               "titel": "Shaw & McKay: vier Befunde",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlRichtig": 4,
+                           "falsch": [
+                              "Kriminalität ist im Geschäftsbezirk am niedrigsten",
+                              "bestimmte ethnische Gruppen sind überall kriminell",
+                              "Kriminalität steigt mit der Entfernung vom Zentrum"
+                           ],
+                           "frage": "Welche vier Befunde wollten Shaw & McKay erklären?",
+                           "id": "krim-s5-C2-w1-a1",
+                           "richtig": [
+                              "hohe Kriminalitätsraten in Übergangszonen",
+                              "geringere Raten in Randzonen",
+                              "Raten bleiben hoch trotz Wechsel der ethnischen Zusammensetzung",
+                              "ethnische Gruppen haben nach dem Umzug in Randbereiche niedrigere Raten"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "Bestimmte Ethnien sind krimineller als andere.",
+                              "Die Polizei kontrolliert nur Einwanderer.",
+                              "Kriminalität ist angeboren.",
+                              "Die Statistik ist falsch."
+                           ],
+                           "fragen": [
+                              "Was zeigt der Befund, dass die Raten trotz Bewohnerwechsel hoch bleiben?",
+                              "Warum ist es wichtig, dass die Kriminalität in Übergangszonen trotz neuer Einwanderergruppen hoch blieb?"
+                           ],
+                           "id": "krim-s5-C2-w1-a2",
+                           "richtig": [
+                              "Kriminalität hängt am Ort und seinen Bedingungen, nicht an der ethnischen Gruppe."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Beschreibe die räumliche Verteilung von Jugendkriminalität in Chicago nach Shaw & McKay. In welchen Zonen war die Kriminalität am höchsten, und warum blieb dieses Muster über die Zeit stabil?",
+                           "id": "krim-s5-C2-w1-a3",
+                           "kernpunkte": [
+                              "am höchsten in den Übergangszonen nahe dem Zentrum, geringer in den Randzonen",
+                              "Muster blieb stabil, obwohl die ethnische Zusammensetzung wechselte; Gruppen, die wegzogen, wurden weniger kriminell",
+                              "Erklärung: soziale Desorganisation (Armut, Mobilität, geringe soziale Kontrolle) haftet am Ort",
+                              "kulturelle Transmission: delinquente Traditionen werden von älteren an jüngere Jugendgruppen weitergegeben"
+                           ],
+                           "musterloesung": "Shaw und McKay fanden die höchsten Delinquenzraten in den Übergangszonen nahe dem Stadtzentrum und geringere Raten in den äußeren Zonen. Das Muster blieb über Jahrzehnte stabil, obwohl dort nacheinander verschiedene Einwanderergruppen lebten, und Gruppen, die in Randbereiche zogen, wurden weniger kriminell. Die Ursache liegt also im Ort: Soziale Desorganisation (Armut, hohe Mobilität, schwache soziale Kontrolle) bleibt bestehen, und durch kulturelle Transmission geben ältere Gangmitglieder delinquente Traditionen an jüngere weiter.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s5-C2-w1",
+                     "merke": "**Shaw & McKay (1942)** – Studie zu **60.000 männlichen Jugendlichen** in Chicago. **Vier Befunde:** **1.** **hohe** Kriminalitätsraten in **Übergangszonen**, **2.** **geringere** Raten in **Randzonen**, **3.** Raten bleiben **hoch trotz Wechsel der (ethnischen) Zusammensetzung**, **4.** **ethnische Gruppen, die in Randbereiche ziehen**, haben **niedrigere Raten**.",
+                     "titel": "Delinquenz in Chicago"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "hohe Mieten",
+                              "viele Einfamilienhäuser",
+                              "starke Nachbarschaftsbindung"
+                           ],
+                           "frage": "Welche Merkmale haben die „delinquency areas“?",
+                           "id": "krim-s5-C2-w2-a1",
+                           "richtig": [
+                              "hohe Schulschwänzraten",
+                              "wenig Sozialkontrolle",
+                              "hohe Bevölkerungsmobilität",
+                              "mangelnde Freizeitangebote",
+                              "geringe Mieten"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "ausreisser": [
+                              "geringe Mobilität der Bewohner",
+                              "hohe Mieten",
+                              "viele Vereine"
+                           ],
+                           "frage": "Was ist kein Merkmal der „delinquency areas“?",
+                           "gehoert": [
+                              "Überbevölkerung",
+                              "Säuglingssterblichkeit und Tuberkulose",
+                              "Abhängigkeit von staatlicher Unterstützung",
+                              "mangelnde Freizeitangebote",
+                              "geringe Lebenshaltungskosten"
+                           ],
+                           "id": "krim-s5-C2-w2-a2",
+                           "typ": "wasPasstNicht"
+                        },
+                        {
+                           "akzeptiert": [
+                              "delinquency areas",
+                              "Delinquency Areas",
+                              "delinquency area",
+                              "Delinquenzgebiete"
+                           ],
+                           "frage": "Wie nennen Shaw & McKay Stadtgebiete mit dauerhaft hoher Jugenddelinquenz?",
+                           "id": "krim-s5-C2-w2-a3",
+                           "musterloesung": "„Delinquency areas“.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s5-C2-w2",
+                     "merke": "**Delinquency areas:** hohe **Delinquenz- und Schulschwänzraten**, **soziale Probleme** (Säuglingssterblichkeit, Tuberkulose), **wenig Sozialkontrolle**, **Überbevölkerung und hohe Mobilität**, **Abhängigkeit von staatlicher Unterstützung**, **mangelnde Freizeitangebote**, **geringe Mieten**.",
+                     "titel": "Merkmale der „delinquency areas“"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-C3",
+               "titel": "Desorganisation und Transmission",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Definiere soziale Desorganisation.",
+                           "id": "krim-s5-C3-w1-a1",
+                           "kernpunkte": [
+                              "Unfähigkeit einer Gemeinschaft, ihre Probleme kollektiv zu lösen",
+                              "bzw. kollektive Werte und Ziele zu erreichen"
+                           ],
+                           "musterloesung": "Soziale Desorganisation bezeichnet die Unfähigkeit einer Gemeinschaft, ihre Probleme kollektiv zu lösen oder kollektive Werte und Ziele zu erreichen.",
+                           "typ": "definition"
+                        },
+                        {
+                           "anzahlRichtig": 4,
+                           "falsch": [
+                              "Zahl der Polizeistreifen",
+                              "Strafhöhe",
+                              "Selbstkontrolle der Bewohner"
+                           ],
+                           "frage": "Über welche Merkmale wird soziale Desorganisation gemessen?",
+                           "id": "krim-s5-C3-w1-a2",
+                           "richtig": [
+                              "Bewohnermobilität",
+                              "Mieteranteil",
+                              "Einkommen bzw. Armut",
+                              "physische Verwahrlosung",
+                              "Ethnizität"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "elemente": [
+                              "Armut und hohe Fluktuation",
+                              "schwache Nachbarschaft",
+                              "geringe soziale Kontrolle",
+                              "mehr Devianz",
+                              "Destabilisierung des Viertels"
+                           ],
+                           "frage": "Bringe den Teufelskreis der sozialen Desorganisation in eine sinnvolle Reihenfolge.",
+                           "id": "krim-s5-C3-w1-a3",
+                           "typ": "reihenfolge"
+                        }
+                     ],
+                     "id": "krim-s5-C3-w1",
+                     "merke": "**Soziale Desorganisation** = **Unfähigkeit einer Gemeinschaft, ihre Probleme kollektiv zu lösen** (oder kollektive Werte/Ziele zu erreichen). Gemessen über **Bewohnermobilität**, **Mieteranteil**, **Einkommen/Armut**, **physische Verwahrlosung** und **Ethnizität** (Anteil nicht-weißer Menschen). Teufelskreis: Armut und hohe Fluktuation → schwache Nachbarschaft → **geringe soziale Kontrolle** → **mehr Devianz** → Destabilisierung.",
+                     "titel": "Soziale Desorganisation"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Delinquenz wird vererbt.",
+                              "Eltern vererben ihre Selbstkontrolle.",
+                              "Die Polizei schafft Delinquenz durch Etikettierung.",
+                              "Medien verbreiten Gewalt."
+                           ],
+                           "fragen": [
+                              "Was meint „kulturelle Transmission“ bei Shaw & McKay?",
+                              "Wie werden delinquente Traditionen im Viertel weitergegeben?"
+                           ],
+                           "id": "krim-s5-C3-w2-a1",
+                           "richtig": [
+                              "Ältere Gangmitglieder geben delinquentes Verhalten an jüngere Spielgruppen weiter."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Was erklärt welcher Mechanismus?",
+                           "id": "krim-s5-C3-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "soziale Desorganisation",
+                                 "rechts": "Verlust sozialer Kontrolle durch Armut, Mobilität, Verwahrlosung"
+                              },
+                              {
+                                 "links": "kulturelle Transmission",
+                                 "rechts": "Weitergabe delinquenter Traditionen von Älteren an Jüngere"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Wie erklären soziale Desorganisation und kulturelle Transmission die vier Befunde von Shaw & McKay?",
+                           "id": "krim-s5-C3-w2-a3",
+                           "kernpunkte": [
+                              "Übergangszonen sind sozial desorganisiert (Armut, Mobilität, Mieter, Verwahrlosung) → wenig soziale Kontrolle → hohe Raten (Befund 1); Randzonen organisierter → niedrigere Raten (2)",
+                              "Desorganisation haftet am Ort und delinquente Traditionen werden weitergegeben → Raten bleiben trotz Bevölkerungswechsel hoch (3)",
+                              "Wer in organisierte Randgebiete zieht, verlässt Desorganisation und delinquente Tradition → niedrigere Raten (4)"
+                           ],
+                           "musterloesung": "Die Übergangszonen sind sozial desorganisiert: Armut, hohe Mobilität, viele Mieter und Verwahrlosung schwächen die soziale Kontrolle, daher sind die Raten hoch (Befund 1); in den stabileren Randzonen sind sie niedriger (2). Weil die Desorganisation am Ort haftet und ältere Gangmitglieder delinquente Traditionen an Jüngere weitergeben (kulturelle Transmission), bleiben die Raten hoch, auch wenn die Bewohner wechseln (3). Ziehen Gruppen in organisierte Randgebiete, entkommen sie Desorganisation und delinquenten Traditionen, und ihre Raten sinken (4).",
+                           "typ": "offen"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-C3-w2-a4",
+                           "luecken": [
+                              [
+                                 "Druck"
+                              ],
+                              [
+                                 "Erlernen",
+                                 "Lernen"
+                              ]
+                           ],
+                           "text": "Delinquente Traditionen bestehen aus Werten, {} und Sanktionen. Transmission bedeutet das {} einer Kultur.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "krim-s5-C3-w2",
+                     "merke": "**Kulturelle Transmission:** **Delinquente Traditionen** werden **über Generationen von Jugendgruppen weitergegeben**: **ältere Gangmitglieder** geben delinquentes Verhalten an **jüngere Spielgruppen** weiter; Traditionen bestehen aus **Werten, Druck und Sanktionen**; Transmission = **Erlernen einer Kultur**. So bleiben die Delinquenzraten im Viertel **dauerhaft hoch**.",
+                     "titel": "Kulturelle Transmission"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-C-mix1",
+               "mix": [
+                  "krim-s5-C1",
+                  "krim-s5-C2",
+                  "krim-s5-C3"
+               ],
+               "titel": "🔀 Gemischt: Chicago School"
+            },
+            {
+               "id": "krim-s5-C4",
+               "titel": "Prävention: Chicago Area Project",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Zero Tolerance bei kleinen Vergehen",
+                              "Schnellgerichte",
+                              "Videoüberwachung"
+                           ],
+                           "frage": "Welche Maßnahmen gehören zum Chicago Area Project?",
+                           "id": "krim-s5-C4-w1-a1",
+                           "richtig": [
+                              "Beteiligung der Bewohner an Belangen des Viertels",
+                              "Stärkung von Familien, Schulen, Kirchen und Nachbarschaftsorganisationen",
+                              "community empowerment durch „natürliche Führungspersonen“",
+                              "Freizeitprogramme"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "Es halbierte die Kriminalität.",
+                              "Es erhöhte die Kriminalität.",
+                              "Es wurde nie umgesetzt.",
+                              "Es wurde in New York von Giuliani eingeführt."
+                           ],
+                           "fragen": [
+                              "Wie wirksam war das Chicago Area Project laut Vorlesung?",
+                              "Was ist über die Evaluation des Chicago Area Project bekannt?"
+                           ],
+                           "id": "krim-s5-C4-w1-a2",
+                           "richtig": [
+                              "Die Wirksamkeit ist ungeklärt."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Was sind die praktischen Konsequenzen von Shaw und McKays Theorie für mögliche Präventionsmaßnahmen gegen Kriminalität?",
+                           "id": "krim-s5-C4-w1-a3",
+                           "kernpunkte": [
+                              "am Ort/Viertel ansetzen statt am Einzelnen",
+                              "Gemeinschaftssinn und informelle soziale Kontrolle stärken; Beteiligung der Bewohner",
+                              "Institutionen stärken und vernetzen (Familie, Schule, Kirche, Nachbarschaft); Kontrolle über Kinder",
+                              "community empowerment durch natürliche Führungspersonen; Freizeitangebote (Chicago Area Project; Wirksamkeit ungeklärt)"
+                           ],
+                           "musterloesung": "Wenn Kriminalität aus sozialer Desorganisation des Viertels entsteht, muss Prävention am Viertel ansetzen. Das Chicago Area Project versuchte, den Gemeinschaftssinn und damit die informelle soziale Kontrolle zu stärken: Bewohner sollten sich an Belangen des Viertels beteiligen, Familien, Schulen, Kirchen und Nachbarschaftsorganisationen wurden gestärkt und vernetzt, die Kontrolle über Kinder sollte steigen, natürliche Führungspersonen übernahmen Verantwortung (community empowerment), und es gab Freizeitprogramme. Die Wirksamkeit ist allerdings ungeklärt.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "krim-s5-C4-w1",
+                     "merke": "**Chicago Area Project:** Bewohner von Problemvierteln unterstützen, Delinquenz zu verhindern; **Gemeinschaftssinn fördern** (gegen Verlust informeller Kontrolle): **Beteiligung an Belangen des Viertels**, **Institutionen stärken** (Familien, Schulen, Kirchen, Nachbarschaftsorganisationen) und vernetzen, **Kontrolle über die Kinder erhöhen**, **community empowerment** durch „natürliche Führungspersonen“, **Freizeitprogramme**. Wirksamkeit: **ungeklärt**.",
+                     "titel": "Gemeinschaft stärken"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "Chicago School in den 1920er Jahren",
+                              "Shaw & McKay 1942",
+                              "dominante Theorie bis Ende der 1950er",
+                              "Kritik und widersprüchliche Replikationen",
+                              "erneutes Interesse seit Mitte der 1980er"
+                           ],
+                           "frage": "Bringe die Entwicklung der Desorganisationstheorie in die richtige Reihenfolge.",
+                           "id": "krim-s5-C4-w2-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, die Ergebnisse waren widersprüchlich.",
+                                 "richtig": false,
+                                 "text": "Replikationen der Chicago-Studie bestätigten Shaw & McKay durchweg."
+                              },
+                              {
+                                 "begruendung": "Ja, mit theoretischen Erweiterungen.",
+                                 "richtig": true,
+                                 "text": "Seit Mitte der 1980er Jahre gibt es wieder Interesse an der Theorie."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s5-C4-w2-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "die Einführung der PKS",
+                              "Broken Windows Policing",
+                              "Durkheims Suizidstudie",
+                              "das Bobo-Doll-Experiment"
+                           ],
+                           "fragen": [
+                              "Warum verlor die Desorganisationstheorie ab den 1960ern an Bedeutung?",
+                              "Was drängte die soziale Desorganisationstheorie zurück?"
+                           ],
+                           "id": "krim-s5-C4-w2-a3",
+                           "richtig": [
+                              "die wachsende Popularität individuenbezogener Theorien"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s5-C4-w2",
+                     "merke": "Bis **Ende der 1950er/Anfang der 1960er** war die soziale Desorganisationstheorie **dominant**. Mit **individuenbezogenen Theorien** wuchs die Kritik, **Replikationen** brachten **widersprüchliche Ergebnisse**. **Seit Mitte der 1980er** gibt es **erneutes Interesse** mit theoretischen Erweiterungen.",
+                     "titel": "Niedergang und Wiederaufstieg"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-C-mix2",
+               "mix": [
+                  "krim-s5-C2",
+                  "krim-s5-C3",
+                  "krim-s5-C4"
+               ],
+               "titel": "🔀 Gemischt: Desorganisation und Prävention"
+            }
+         ],
+         "titel": "Chicago School und soziale Desorganisation"
+      },
+      {
+         "farbe": 30,
+         "id": "krim-s5-D",
+         "level": [
+            {
+               "id": "krim-s5-D1",
+               "titel": "Zimbardos Autos",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Es wurde sofort zerlegt.",
+                              "Es wurde gestohlen.",
+                              "Es blieb die ganze Zeit unberührt.",
+                              "Die Polizei schleppte es ab."
+                           ],
+                           "fragen": [
+                              "Was geschah in Zimbardos Experiment mit dem Auto in Palo Alto?",
+                              "Wann wurde das Auto in Palo Alto beschädigt?"
+                           ],
+                           "id": "krim-s5-D1-w1-a1",
+                           "richtig": [
+                              "Es blieb unberührt, bis die Frontscheibe zerschlagen wurde – dann wurde es demoliert."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, erst brauchbare Teile, dann Zerstörung.",
+                                 "richtig": true,
+                                 "text": "In der Bronx begannen Passanten sehr schnell, das Auto zu zerlegen."
+                              },
+                              {
+                                 "begruendung": "Ja, das ist die Grundlage der Broken-Windows-Theorie.",
+                                 "richtig": true,
+                                 "text": "Das Experiment zeigt, dass Menschen Regeln eher übertreten, wenn andere es schon getan haben."
+                              },
+                              {
+                                 "begruendung": "Nein, Zimbardo 1969; Wilson & Kelling formulierten 1982 das Broken-Windows-Konzept.",
+                                 "richtig": false,
+                                 "text": "Zimbardo führte das Experiment 1982 mit Wilson und Kelling durch."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s5-D1-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Zimbardo",
+                              "Philip Zimbardo"
+                           ],
+                           "frage": "Welcher Sozialpsychologe führte 1969 das Experiment mit zwei abgestellten Autos durch?",
+                           "id": "krim-s5-D1-w1-a3",
+                           "musterloesung": "Philip Zimbardo.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "krim-s5-D1-w1",
+                     "merke": "**Zimbardo (1969):** Zwei Autos ohne Nummernschild, Motorhaube offen. In der **Bronx** wurde das Auto **sehr schnell zerlegt und zerstört**; in **Palo Alto** blieb es **unberührt** – bis die **Frontscheibe zerschlagen** wurde, dann wurde es ebenfalls demoliert. Grundlage der Broken-Windows-Theorie: Menschen übertreten Regeln eher, **wenn andere es auch schon getan haben**, und verhalten sich in einem **verwahrlosten Umfeld** eher unordentlich.",
+                     "titel": "Bronx und Palo Alto"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-D2",
+               "titel": "Der Teufelskreis",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "Verfallserscheinungen signalisieren fehlende Sozialkontrolle",
+                              "unkontrollierter Raum zieht problematische Personen an",
+                              "Ansässige haben mehr Furcht und ziehen sich zurück",
+                              "Zivilcourage und informelle Sozialkontrolle gehen zurück",
+                              "Straftäter:innen werden angezogen, Kriminalität steigt",
+                              "Furcht und Rückzug nehmen weiter zu"
+                           ],
+                           "frage": "Bringe den Teufelskreis der Broken-Windows-Theorie in die richtige Reihenfolge.",
+                           "id": "krim-s5-D2-w1-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "falsch": [
+                              "dass das Viertel bald saniert wird",
+                              "dass dort viel Polizei unterwegs ist",
+                              "dass die Bewohner reich sind",
+                              "dass Kriminalität dort angeboren ist"
+                           ],
+                           "fragen": [
+                              "Was signalisieren Verfallserscheinungen wie zerbrochene Fenster nach Wilson & Kelling?",
+                              "Warum sind „broken windows“ nach Wilson & Kelling gefährlich?"
+                           ],
+                           "id": "krim-s5-D2-w1-a2",
+                           "richtig": [
+                              "das Fehlen wirksamer Sozialkontrolle und Toleranz gegenüber Regelverletzungen"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Erkläre den Teufelskreis der Broken Windows Theory: Wie führt städtebaulicher Verfall nach Wilson & Kelling zu mehr Kriminalität? Beschreibe die einzelnen Schritte.",
+                           "id": "krim-s5-D2-w1-a3",
+                           "kernpunkte": [
+                              "1. Verfall (Fenster, Leerstand, Müll, Graffiti) signalisiert fehlende Sozialkontrolle/Toleranz",
+                              "2. zieht problematische Personen an",
+                              "3. Bewohner nehmen Unordnung wahr, Furcht steigt, Rückzug oder Wegzug",
+                              "4. Zivilcourage und informelle Kontrolle sinken",
+                              "5. Straftäter:innen werden angezogen, Kriminalität steigt",
+                              "6. Furcht und Rückzug steigen weiter → Kreislauf"
+                           ],
+                           "musterloesung": "(1) Verfallserscheinungen wie zerbrochene Fenster, Leerstand, Müll oder Graffiti signalisieren, dass niemand kontrolliert und Regelverletzungen toleriert werden. (2) Der unkontrolliert wirkende Raum zieht „problematische“ Personen an. (3) Die Ansässigen nehmen die Unordnung wahr, ihre Kriminalitätsfurcht steigt, sie ziehen sich aus der Öffentlichkeit zurück oder ziehen weg. (4) Dadurch gehen Zivilcourage und informelle Sozialkontrolle zurück. (5) Das zieht Straftäter:innen an, Straftaten werden begünstigt, die Kriminalität steigt. (6) Die Furcht steigt weiter, „anständige“ Bürger:innen ziehen sich weiter zurück, die Sozialkontrolle sinkt weiter.",
+                           "typ": "offen"
+                        },
+                        {
+                           "akzeptiert": [
+                              "incivilities",
+                              "Incivilities",
+                              "incivility"
+                           ],
+                           "frage": "Wie nennen Wilson & Kelling kleine Anzeichen von Unordnung wie Müll oder Graffiti (englisch)?",
+                           "id": "krim-s5-D2-w1-a4",
+                           "musterloesung": "„Incivilities“.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "krim-s5-D2-w1",
+                     "merke": "**Wilson & Kelling (1982):** **1.** **Verfallserscheinungen** (zerbrochene Fenster, Leerstand, Müll, Graffiti) signalisieren **fehlende Sozialkontrolle** → **2.** der unkontrolliert wirkende Raum **zieht problematische Personen an** → **3.** Ansässige nehmen Unordnung wahr, **Kriminalitätsfurcht steigt**, sie **ziehen sich zurück** oder weg → **4.** **Zivilcourage und informelle Sozialkontrolle gehen zurück** → **5.** **zieht Straftäter:innen an**, **Kriminalität steigt** → **6.** Furcht steigt weiter, weiterer Rückzug, weiter sinkende Kontrolle.",
+                     "titel": "Sechs Schritte nach Wilson & Kelling"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "erst bei schweren Gewaltdelikten",
+                              "erst wenn Anzeigen eingehen",
+                              "nur bei organisierter Kriminalität",
+                              "gar nicht, weil Unordnung harmlos ist"
+                           ],
+                           "fragen": [
+                              "Wann besteht nach Wilson & Kelling Handlungsbedarf?",
+                              "Was folgt aus der Broken-Windows-Theorie für die Polizei?"
+                           ],
+                           "id": "krim-s5-D2-w2-a1",
+                           "richtig": [
+                              "bereits bei „incivilities“, nicht erst bei steigender Kriminalität"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "krim-s5-D2-w2-a2",
+                           "luecken": [
+                              [
+                                 "maintenance"
+                              ],
+                              [
+                                 "Anomie"
+                              ]
+                           ],
+                           "text": "Broken windows policing heißt auch „order {} policing“. Kleine Anzeichen von Unordnung fördern das Gefühl von {} und Unsicherheit.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, über das Signal fehlender Kontrolle.",
+                                 "richtig": true,
+                                 "text": "Nach der Broken-Windows-Theorie können Graffiti und Müll schwerere Kriminalität begünstigen."
+                              },
+                              {
+                                 "begruendung": "Nein, schon incivilities zeigen Handlungsbedarf.",
+                                 "richtig": false,
+                                 "text": "Wilson & Kelling halten Unordnung für bedeutungslos, solange keine Straftaten geschehen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "krim-s5-D2-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "krim-s5-D2-w2",
+                     "merke": "Konsequenz: **Nicht erst steigende Kriminalität**, sondern **bereits „incivilities“** zeigen Handlungsbedarf → **„broken windows policing“** (auch „**order maintenance policing**“). Kleine Anzeichen von Unordnung fördern das Gefühl von **Anomie und Unsicherheit** und begünstigen **schwerere Kriminalität**.",
+                     "titel": "Schon Unordnung zählt"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-D3",
+               "titel": "Prävention oder Polizei",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Prävention oder polizeiliche Strategie?",
+                           "id": "krim-s5-D3-w1-a1",
+                           "items": [
+                              {
+                                 "kategorie": "Prävention",
+                                 "text": "Reinigung verwahrloster Orte"
+                              },
+                              {
+                                 "kategorie": "Prävention",
+                                 "text": "Aktivierung der Anwohnenden"
+                              },
+                              {
+                                 "kategorie": "Prävention",
+                                 "text": "Stärkung der Gemeinschaft"
+                              },
+                              {
+                                 "kategorie": "polizeiliche Strategie",
+                                 "text": "Fußstreifen statt Streifenwagen"
+                              },
+                              {
+                                 "kategorie": "polizeiliche Strategie",
+                                 "text": "Zero Tolerance bei kleinen Vergehen"
+                              },
+                              {
+                                 "kategorie": "polizeiliche Strategie",
+                                 "text": "Schnellgerichte"
+                              },
+                              {
+                                 "kategorie": "polizeiliche Strategie",
+                                 "text": "computergestützte Dokumentation von Kontrollen"
+                              }
+                           ],
+                           "kategorien": [
+                              "Prävention",
+                              "polizeiliche Strategie"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "frage": "Unterscheide zwischen präventiven Maßnahmen und polizeilichen Strategien im Rahmen des Broken Windows Policing. Nenne konkrete Beispiele für beide Bereiche.",
+                           "id": "krim-s5-D3-w1-a2",
+                           "kernpunkte": [
+                              "Prävention (situational): Reinigung verwahrloster Orte, Bürgereinbindung/Aktivierung, Stärkung der Gemeinschaft → informelle Kontrolle",
+                              "Polizei: Fußstreifen statt motorisierter Einheiten, mehr Ressourcen und Präsenz",
+                              "Zero Tolerance (NY-Modell, Giuliani): konsequente Verfolgung kleiner Vergehen, gesenkte Eingriffsschwelle",
+                              "computergestützte Dokumentation, Schnellgerichte"
+                           ],
+                           "musterloesung": "Präventive Maßnahmen setzen am Ort und an der Gemeinschaft an: verwahrloste Orte werden gereinigt, Anwohnende werden eingebunden und aktiviert, die Gemeinschaft wird gestärkt, damit sie selbst informelle Kontrolle übernimmt. Polizeiliche Strategien setzen auf staatliche Kontrolle: Fußstreifen statt motorisierter Einheiten, mehr Personal und Präsenz, konsequente Verfolgung auch kleiner Vergehen („Zero Tolerance“, New Yorker Modell unter Giuliani) mit abgesenkter Eingriffsschwelle, computergestützte Dokumentation von Kontrollen, Straftaten und Festnahmen sowie Schnellgerichte.",
+                           "typ": "offen"
+                        },
+                        {
+                           "falsch": [
+                              "Verzicht auf Strafverfolgung bei Bagatellen",
+                              "Förderung von Freizeitprogrammen",
+                              "Stärkung natürlicher Führungspersonen",
+                              "nur Verfolgung schwerer Gewalt"
+                           ],
+                           "fragen": [
+                              "Was bedeutet „Zero Tolerance“?",
+                              "Was kennzeichnet das New Yorker Modell unter Giuliani?"
+                           ],
+                           "id": "krim-s5-D3-w1-a3",
+                           "richtig": [
+                              "konsequentes Einschreiten selbst bei geringfügigen Verstößen"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "krim-s5-D3-w1",
+                     "merke": "**(Situationale) Prävention:** **Reinigung verwahrloster Orte**, **Bürgereinbindung/Aktivierung**, **Stärkung der Gemeinschaft** → Übernahme informeller Kontrolle. **Polizeiliche Strategien:** **Fußstreifen statt motorisierter Einheiten**, **mehr Ressourcen und Präsenz**, **konsequente Verfolgung kleiner Vergehen („Zero Tolerance“, NY-Modell, Giuliani)** mit gesenkter Eingriffsschwelle, **computergestützte Dokumentation**, **Schnellgerichte**.",
+                     "titel": "Zwei Ansatzbereiche"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-D4",
+               "titel": "Bilanz von Zero Tolerance",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Positive oder negative Auswirkung der Zero-Tolerance-Strategie?",
+                           "id": "krim-s5-D4-w1-a1",
+                           "items": [
+                              {
+                                 "kategorie": "positiv",
+                                 "text": "Rückgang der Gewaltverbrechen in New York"
+                              },
+                              {
+                                 "kategorie": "positiv",
+                                 "text": "keine No-go-Areas mehr in U-Bahn und Central Park"
+                              },
+                              {
+                                 "kategorie": "negativ",
+                                 "text": "Anstieg der Beschwerden über Polizeiübergriffe"
+                              },
+                              {
+                                 "kategorie": "negativ",
+                                 "text": "27 Mio. $ Schadensersatz 1997"
+                              },
+                              {
+                                 "kategorie": "negativ",
+                                 "text": "Proteste der Bürgerrechtsbewegung"
+                              },
+                              {
+                                 "kategorie": "negativ",
+                                 "text": "„hire and fire“-Management"
+                              }
+                           ],
+                           "kategorien": [
+                              "positiv",
+                              "negativ"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "2,7 Mio. $",
+                              "270.000 $",
+                              "270 Mio. $",
+                              "2,7 Mrd. $"
+                           ],
+                           "fragen": [
+                              "Wie viel Schadensersatz zahlte New York 1997 für unrechtmäßige Polizeimaßnahmen?",
+                              "Welche Summe steht für die Kosten von Polizeiübergriffen in New York 1997?"
+                           ],
+                           "id": "krim-s5-D4-w1-a2",
+                           "richtig": [
+                              "27 Mio. $"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Anstieg der Gewaltverbrechen",
+                              "mehr No-go-Areas"
+                           ],
+                           "frage": "Welche kritischen Folgen von Zero Tolerance nennt die Vorlesung?",
+                           "id": "krim-s5-D4-w1-a3",
+                           "richtig": [
+                              "übermäßige Polizeigewalt",
+                              "Diskriminierung",
+                              "soziale Ungerechtigkeit",
+                              "Beschwerden über Amtsmissbrauch"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "krim-s5-D4-w1",
+                     "merke": "**Positiv:** Die Kriminalitätsrate in **New York sank** unter **Bratton**, besonders die **Gewaltverbrechen**; vormals gemiedene Gebiete (U-Bahn, Central Park) waren **keine No-go-Areas** mehr. **Negativ:** **starker Anstieg der Beschwerden über Übergriffe und Amtsmissbrauch** (1997: **27 Mio. $ Schadensersatz**), **Proteste** der Bürgerrechtsbewegung, **rigide Managementmethoden** („hire and fire“). Kritisch: **übermäßige Polizeigewalt, Diskriminierung, soziale Ungerechtigkeit**.",
+                     "titel": "Positiv und negativ"
+                  }
+               ]
+            },
+            {
+               "id": "krim-s5-D-mix1",
+               "mix": [
+                  "krim-s5-D1",
+                  "krim-s5-D2",
+                  "krim-s5-D3",
+                  "krim-s5-D4"
+               ],
+               "titel": "🔀 Gemischt: Broken Windows"
+            }
+         ],
+         "titel": "Broken Windows und Zero Tolerance"
+      }
+   ]
+}
