@@ -2502,7 +2502,29 @@
      "nur gute Näherung, Grenzwert"
     ],
     "musterloesung": "Alle drei sind falsch. (1) Die relative Häufigkeit ist empirisch beobachtbar und liefert bei hinreichend großer Stichprobe eine Näherung der Wahrscheinlichkeit. (2) Unmöglich ist ein Ereignis erst bei einer Wahrscheinlichkeit von 0; relative Häufigkeit 0 heißt nur, dass es in der Stichprobe nicht vorkam. (3) Sie liefert nur eine gute Näherung; deshalb kann Wahrscheinlichkeit als Grenzwert der relativen Häufigkeit definiert werden."
+   },
+   {
+    "id": "stat2-s2-ab6",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Richtig oder falsch? Begründe (bei falscher Aussage): (1) Es reicht, wenn zwei der drei Kolmogorov-Axiome erfüllt sind, damit eine Funktion ein Wahrscheinlichkeitsmaß ist. (2) Ist die relative Häufigkeit 1, ist das Ereignis sicher und tritt immer ein. (3) Die Wahrscheinlichkeit ist ein Wert zwischen 0 und 1, der beschreibt, wie oft ein Zufallsereignis eingetreten ist. (4) Im Gegensatz zur relativen Häufigkeit ist die Wahrscheinlichkeit nie direkt beobachtbar. (5) Ein Wahrscheinlichkeitsmaß P ordnet Zufallsereignissen nach festen Regeln eine beliebige Zahl zu. (6) Die relative Häufigkeit ist eine empirisch beobachtbare Größe.",
+    "wissen": [
+     "stat2-s2-C4b-w1",
+     "stat2-s2-D3-w1",
+     "stat2-s2-B1-w1",
+     "stat2-s2-D2-w1",
+     "stat2-s2-B2-w1"
+    ],
+    "kernpunkte": [
+     "(1) falsch: alle drei Axiome müssen erfüllt sein",
+     "(2) falsch: rel. Häufigkeit 1 = bisher immer eingetreten; sicher erst bei Wahrscheinlichkeit 1",
+     "(3) falsch: Wahrscheinlichkeit quantifiziert die Sicherheit, mit der ein Ereignis eintreten wird",
+     "(4) richtig; (6) richtig",
+     "(5) falsch: Zahl zwischen 0 und 1, nicht beliebig"
+    ],
+    "musterloesung": "(1) Falsch: Alle drei Axiome müssen erfüllt sein. (2) Falsch: Eine relative Häufigkeit von 1 heißt nur, dass das Ereignis bisher immer eingetreten ist; sicher ist es erst bei einer Wahrscheinlichkeit von 1. (3) Falsch: Die Wahrscheinlichkeit ist ein Wert zwischen 0 und 1, der die Sicherheit quantifiziert, mit der ein Zufallsereignis eintreten wird (nicht, wie oft es eingetreten ist). (4) Richtig. (5) Falsch: Es wird nach festen Regeln eine Zahl zwischen 0 und 1 zugeordnet. (6) Richtig."
    }
+
   ]
  },
  "probeklausur": {

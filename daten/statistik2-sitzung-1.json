@@ -2678,7 +2678,29 @@
      "d) Kartenspiel ODER Würfel"
     ],
     "musterloesung": "a) Das einmalige Ziehen eines Zettels. b) Ω = {Kartenspiel, Würfel, Murmel}. c) A₁ = {K, W, M}, A₂ = {K, W}, A₃ = {K, M}, A₄ = {M, W}, A₅ = {K}, A₆ = {W}, A₇ = {M}, A₈ = { } (2³ = 8). d) Die Person erhält ein Kartenspiel ODER einen Würfel – das Komma steht für ODER, nicht für „und zusätzlich“."
+   },
+   {
+    "id": "stat2-s1-ab5",
+    "typ": "offen",
+    "ab": true,
+    "frage": "Richtig oder falsch? Begründe (bei falscher Aussage): (1) Ein Zufallsprozess kann stattfinden, auch wenn es nur ein mögliches Ergebnis gibt. (2) ω stellt die Menge aller möglichen Ergebnisse dar und heißt Ergebnismenge. (3) A ∪ B enthält alle Elemente, die in mindestens einer der beiden Mengen vorkommen. (4) Das Würfeln mit einem 8-seitigen Würfel ist ein Zufallsprozess. (5) Ein möglicher Zufallsprozess beim 8-seitigen Würfel wäre, dass eine gerade Zahl gewürfelt wird. (6) A₁ = { } kann Teilmenge sowohl von „einfacher Würfelwurf“ als auch von „Drehen eines Glücksrads“ sein.",
+    "wissen": [
+     "stat2-s1-B1-w1",
+     "stat2-s1-D1-w2",
+     "stat2-s1-C4-w1",
+     "stat2-s1-B2-w1",
+     "stat2-s1-C3-w2"
+    ],
+    "kernpunkte": [
+     "(1) falsch: mind. 2 unterscheidbare Ergebnisse nötig",
+     "(2) falsch: Ω ist die Ergebnismenge, ω ein einzelnes Ergebnis",
+     "(3) richtig; (4) richtig",
+     "(5) falsch: gerade Zahl ist ein Ergebnis/Ereignis, kein Zufallsprozess",
+     "(6) richtig: die leere Menge ist Teilmenge jeder Menge"
+    ],
+    "musterloesung": "(1) Falsch: Ein Zufallsprozess braucht mindestens zwei mögliche, unterscheidbare Ergebnisse. (2) Falsch: Ω ist die Menge aller möglichen Ergebnisse (Ergebnismenge); ω steht für ein einzelnes Ergebnis. (3) Richtig. (4) Richtig. (5) Falsch: „eine gerade Zahl würfeln“ ist ein mögliches Ergebnis des Zufallsprozesses, nicht der Zufallsprozess selbst. (6) Richtig."
    }
+
   ]
  },
  "probeklausur": {
