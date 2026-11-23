@@ -1,0 +1,1154 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s6",
+   "kurztitel": "Vorlesung 6",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s6-pk1",
+            "paare": [
+               {
+                  "links": "1939",
+                  "rechts": "VO gegen jugendliche Schwerverbrecher"
+               },
+               {
+                  "links": "1940",
+                  "rechts": "Jugendarrest"
+               },
+               {
+                  "links": "1941",
+                  "rechts": "unbestimmte Jugendstrafe"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s6-A1-w1"
+            ]
+         },
+         {
+            "frage": "Nenne die Dreigliederung der Sanktionen (RJGG 1943).",
+            "id": "juj-s6-pk2",
+            "kopf": [
+               "Stufe",
+               "Sanktion"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s6-A2-w1"
+            ],
+            "zeigen": 3,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Erziehungsmaßregeln",
+                        "Erziehungsmassregeln"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Zuchtmittel"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Jugendgefängnis",
+                        "Jugendstrafe"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "frage": "NS-typisch oder nicht?",
+            "id": "juj-s6-pk3",
+            "items": [
+               {
+                  "kategorie": "NS-typisch",
+                  "text": "nur deutsche Jugendliche"
+               },
+               {
+                  "kategorie": "NS-typisch",
+                  "text": "Todesstrafe für jugendliche „Schwerverbrecher“"
+               },
+               {
+                  "kategorie": "nicht NS-typisch",
+                  "text": "Zuchtmittel wie Verwarnung und Auflagen"
+               },
+               {
+                  "kategorie": "nicht NS-typisch",
+                  "text": "mehr Einstellungsmöglichkeiten"
+               }
+            ],
+            "kategorien": [
+               "NS-typisch",
+               "nicht NS-typisch"
+            ],
+            "typ": "beispiel",
+            "wissen": [
+               "juj-s6-A2-w1",
+               "juj-s6-A2-w2"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Jugendarrest",
+               "Warnschussarrest"
+            ],
+            "frage": "Was brachte das JGG 1953?",
+            "id": "juj-s6-pk4",
+            "richtig": [
+               "teilweise Einbeziehung Heranwachsender",
+               "Bezeichnung „Jugendstrafe“",
+               "Wiedereinführung der Bewährung"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s6-B1-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken (JGG 1953).",
+            "id": "juj-s6-pk5",
+            "luecken": [
+               [
+                  "6",
+                  "sechs"
+               ],
+               [
+                  "5",
+                  "fünf"
+               ]
+            ],
+            "text": "Mindestmaß der Jugendstrafe: {} Monate; Höchstmaß: {} Jahre (bei schwersten Verbrechen 10).",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s6-B1-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Jugendstrafvollzugsgesetz",
+               "Abschaffung des Jugendarrests"
+            ],
+            "frage": "Was brachte das 1. JGGÄndG 1990?",
+            "id": "juj-s6-pk6",
+            "richtig": [
+               "Stärkung der Diversion",
+               "Täter-Opfer-Ausgleich als Weisung",
+               "Abschaffung der unbestimmten Jugendstrafe",
+               "Bewährung bis 2 Jahre"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s6-B2-w1"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s6-pk7",
+            "segmente": [
+               {
+                  "text": "Das 1. JGGÄndG 1990 stärkte die Diversion."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Die „schädlichen Neigungen“ blieben **unverändert**.",
+                  "text": "Es schaffte die Begründung der Jugendstrafe mit „schädlichen Neigungen“ ab."
+               },
+               {
+                  "text": "Es beschränkte die Untersuchungshaft."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s6-B2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Jugendstrafe ist verfassungswidrig.",
+               "Nachträgliche SV ist verfassungswidrig.",
+               "Jugendarrest ist verfassungswidrig."
+            ],
+            "frage": "Was entschied BVerfGE 116, 69 (2006)?",
+            "id": "juj-s6-pk8",
+            "richtig": [
+               "Jugendstrafvollzug ohne gesetzliche Grundlage ist verfassungswidrig."
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s6-B3-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "die Länder",
+               "Länder",
+               "Bundesländer",
+               "die Bundesländer"
+            ],
+            "frage": "Wer ist seit der Föderalismusreform 2006 für den Jugendstrafvollzug zuständig?",
+            "id": "juj-s6-pk9",
+            "musterloesung": "Die Länder (16 Landes-Jugendstrafvollzugsgesetze).",
+            "typ": "kurzfrage",
+            "wissen": [
+               "juj-s6-B3-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücke.",
+            "id": "juj-s6-pk10",
+            "luecken": [
+               [
+                  "Legalbewährung",
+                  "Legalbewaehrung"
+               ]
+            ],
+            "text": "Seit dem 2. JGGÄndG (2007) ist Ziel des Jugendstrafrechts die {} durch Erziehung.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s6-B3-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "gar keine Sicherungsverwahrung",
+               "die unbestimmte Jugendstrafe",
+               "der Warnschussarrest"
+            ],
+            "frage": "Was gilt heute statt der nachträglichen Sicherungsverwahrung nach Jugendstrafrecht?",
+            "id": "juj-s6-pk11",
+            "richtig": [
+               "die vorbehaltene Sicherungsverwahrung (seit 2013)"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s6-C1-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu (Gesetz 2012).",
+            "id": "juj-s6-pk12",
+            "paare": [
+               {
+                  "links": "§ 16a JGG",
+                  "rechts": "Arrest neben Jugendstrafe"
+               },
+               {
+                  "links": "§ 105 III JGG",
+                  "rechts": "15 Jahre bei Mord (Heranwachsende)"
+               },
+               {
+                  "links": "§§ 61 ff. JGG",
+                  "rechts": "Vorbewährung"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s6-C2-w1"
+            ]
+         },
+         {
+            "frage": "Ordne die Varianten des § 16a I JGG zu.",
+            "id": "juj-s6-pk13",
+            "paare": [
+               {
+                  "links": "Nr. 1",
+                  "rechts": "Verdeutlichungsarrest"
+               },
+               {
+                  "links": "Nr. 2",
+                  "rechts": "Herausnahmearrest"
+               },
+               {
+                  "links": "Nr. 3",
+                  "rechts": "Auffangarrest"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s6-C2-w3"
+            ]
+         },
+         {
+            "falsch": [
+               "Jugendarrest hat die niedrigste Rückfallrate.",
+               "Bewährungsstrafen haben 100 % Rückfall.",
+               "Es gibt keine Rückfallstatistik."
+            ],
+            "frage": "Welches Contra-Argument stützt sich auf die Rückfallstatistik?",
+            "id": "juj-s6-pk14",
+            "richtig": [
+               "Jugendarrest hat mit fast 65 % die zweithöchste Rückfallrate."
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s6-C2-w2"
+            ]
+         },
+         {
+            "elemente": [
+               "RJGG",
+               "JGG 1953",
+               "1. JGGÄndG",
+               "2. JGGÄndG",
+               "Warnschussarrest § 16a"
+            ],
+            "frage": "Bringe in die zeitliche Reihenfolge.",
+            "id": "juj-s6-pk15",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s6-A2-w1",
+               "juj-s6-B1-w1",
+               "juj-s6-B2-w1",
+               "juj-s6-B3-w2",
+               "juj-s6-C2-w1"
+            ]
+         },
+         {
+            "frage": "Nenne je zwei Argumente für und gegen den Koppelungsarrest.",
+            "id": "juj-s6-pk16",
+            "kernpunkte": [
+               "Pro: Bewährung als Freispruch zweiter Klasse; Unrechtsverdeutlichung",
+               "Pro: Initialmaßnahme für Bewährungshilfe / mehr Bewährungsstrafen",
+               "Contra: hohe Rückfallrate nach Jugendarrest (fast 65 %)",
+               "Contra: Hafterfahrung vorhanden, Auflagen/Weisungen genügen, Routinesanktion"
+            ],
+            "musterloesung": "Pro: Eine ausgesetzte Jugendstrafe wird oft als „Freispruch zweiter Klasse“ missverstanden; der Arrest verdeutlicht das Unrecht. Außerdem kann er als Initialmaßnahme den Einstieg in die Bewährungshilfe erleichtern und zu mehr Bewährungsstrafen führen. Contra: Jugendarrest hat die zweithöchste Rückfallrate (fast 65 %), sodass die Abschreckung zweifelhaft ist; viele Betroffene haben schon Hafterfahrung, Bewährungsstrafen lassen sich durch Auflagen und Weisungen spürbar machen, und es droht eine Routinesanktion (net-widening).",
+            "typ": "offen",
+            "wissen": [
+               "juj-s6-C2-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 6"
+   },
+   "quelle": [
+      "JuJ/6. Vorlesung JuJ.pdf",
+      "JuJ/6. NK 2013, 67 - 2. JGGÄndG.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Weitere Entwicklung des Jugendkriminalrechts",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 0,
+         "id": "juj-s6-A",
+         "level": [
+            {
+               "id": "juj-s6-A1",
+               "titel": "Verordnungen 1939–1941",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne das Jahr der Verordnung zu.",
+                           "id": "juj-s6-A1-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "1939",
+                                 "rechts": "Schutz gegen jugendliche Schwerverbrecher"
+                              },
+                              {
+                                 "links": "1940",
+                                 "rechts": "Einführung des Jugendarrests"
+                              },
+                              {
+                                 "links": "1941",
+                                 "rechts": "unbestimmte Verurteilung Jugendlicher"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "1923 als Erziehungsmaßregel im ersten JGG",
+                              "1953 als Jugendstrafe",
+                              "1990 als ambulante Maßnahme",
+                              "2012 als Warnschussarrest"
+                           ],
+                           "fragen": [
+                              "Wann und als was wurde der Jugendarrest eingeführt?",
+                              "Woher stammt der Jugendarrest?"
+                           ],
+                           "id": "juj-s6-A1-w1-a2",
+                           "richtig": [
+                              "1940 als Zuchtmittel zwischen Erziehungsmaßregeln und Freiheitsstrafe"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (NS-Verordnungen).",
+                           "id": "juj-s6-A1-w1-a3",
+                           "luecken": [
+                              [
+                                 "4",
+                                 "vier"
+                              ],
+                              [
+                                 "4",
+                                 "vier"
+                              ],
+                              [
+                                 "Neigungen"
+                              ]
+                           ],
+                           "text": "Jugendarrest dauerte max. {} Wochen. Die unbestimmte Jugendstrafe (1941) ging bis max. {} Jahre und setzte „schädliche {}“ voraus.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s6-A1-w1",
+                     "merke": "**1939:** VO zum Schutz gegen **jugendliche Schwerverbrecher** – bei **über 16-Jährigen** Anklage vor dem **allgemeinen Strafgericht** mit **ungemilderten Strafen (auch Todesstrafe)** bei besonders „verwerflicher Gesinnung“ bzw. „zum Schutz des Volkes“. **1940:** Einführung des **Jugendarrests** (mind. 1 Woche/Wochenende, max. **4 Wochen**) als **Zuchtmittel** zwischen Erziehungsmaßregeln und Freiheitsstrafe. **1941:** **unbestimmte Verurteilung** – wenn mind. 9 Monate nötig und wegen **schädlicher Neigungen** die nötige Dauer nicht absehbar: unbestimmte Jugendstrafe bis **max. 4 Jahre**, Entlassung nur zur Bewährung.",
+                     "titel": "Schwerverbrecher, Jugendarrest, unbestimmte Strafe"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-A2",
+               "titel": "Reichsjugendgerichtsgesetz 1943",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Nenne die Dreigliederung der Sanktionen im RJGG 1943.",
+                           "id": "juj-s6-A2-w1-a1",
+                           "kopf": [
+                              "Stufe",
+                              "Sanktion"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "1",
+                                 {
+                                    "akzeptiert": [
+                                       "Erziehungsmaßregeln",
+                                       "Erziehungsmassregeln",
+                                       "Erziehungsmaßregel"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "2",
+                                 {
+                                    "akzeptiert": [
+                                       "Zuchtmittel"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "3",
+                                 {
+                                    "akzeptiert": [
+                                       "Jugendgefängnis",
+                                       "Jugendstrafe"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 2,
+                           "falsch": [
+                              "fehlende Einsichtsfähigkeit",
+                              "Verwahrlosung",
+                              "Vorstrafen der Eltern"
+                           ],
+                           "frage": "Welche Kriterien für die lange Freiheitsentziehung führte das RJGG 1943 ein?",
+                           "id": "juj-s6-A2-w1-a2",
+                           "richtig": [
+                              "schädliche Neigungen",
+                              "Schwere der Schuld"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "schaffte die kurze Freiheitsstrafe zugunsten des Arrests ab."
+                              },
+                              {
+                                 "begruendung": "Ja, ohne Rückgriff auf höhere Strafrahmen des allgemeinen Strafrechts.",
+                                 "richtig": true,
+                                 "text": "setzte das Höchstmaß der Jugendstrafe auf 10 Jahre."
+                              },
+                              {
+                                 "begruendung": "Nein, viele Neuerungen (z. B. Dreigliederung) waren nicht NS-typisch und wirken bis heute fort.",
+                                 "richtig": false,
+                                 "text": "enthielt ausschließlich NS-typische Regelungen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Das RJGG 1943 …",
+                           "id": "juj-s6-A2-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s6-A2-w1",
+                     "merke": "Das **RJGG vom 06.11.1943** brachte auch **nicht NS-typische** Neuerungen, die bis heute fortwirken: **Dreigliederung** der Sanktionen – **Erziehungsmaßregeln, Zuchtmittel, Jugendgefängnis**; neue **Weisungen** (Lebensgestaltung); erweiterte **Zuchtmittel** (Verwarnung, Auflagen wie Entschuldigung, Schadensersatz, Geldbuße; Arrest). Kriterien der langen Freiheitsentziehung: **schädliche Neigungen, Schwere der Schuld**; Mindestmaß **3 Monate**, Höchstmaß **10 Jahre**. Mehr **Einstellungsmöglichkeiten**, stärkere **Jugendgerichtshilfe**, **erzieherische Befähigung** von Jugendrichter und -staatsanwalt.",
+                     "titel": "Nicht NS-typische Änderungen"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "NS-typisch oder nicht NS-typisch (RJGG 1943)?",
+                           "id": "juj-s6-A2-w2-a1",
+                           "items": [
+                              {
+                                 "kategorie": "NS-typisch",
+                                 "text": "Anwendung nur auf deutsche Jugendliche"
+                              },
+                              {
+                                 "kategorie": "NS-typisch",
+                                 "text": "Strafmündigkeit ab 12 „zum Schutz des Volkes“"
+                              },
+                              {
+                                 "kategorie": "NS-typisch",
+                                 "text": "Hitler-Jugend neben der Jugendgerichtshilfe"
+                              },
+                              {
+                                 "kategorie": "nicht NS-typisch",
+                                 "text": "Dreigliederung Erziehungsmaßregeln/Zuchtmittel/Jugendgefängnis"
+                              },
+                              {
+                                 "kategorie": "nicht NS-typisch",
+                                 "text": "Weisungen zur Lebensgestaltung"
+                              },
+                              {
+                                 "kategorie": "nicht NS-typisch",
+                                 "text": "erzieherische Befähigung von Jugendrichter und -staatsanwalt"
+                              }
+                           ],
+                           "kategorien": [
+                              "NS-typisch",
+                              "nicht NS-typisch"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "sie wurde auf 2 Jahre erweitert",
+                              "sie wurde erstmals eingeführt",
+                              "sie wurde Pflicht für alle Jugendstrafen",
+                              "sie wurde durch den Warnschussarrest ersetzt"
+                           ],
+                           "fragen": [
+                              "Was geschah im RJGG 1943 mit der Strafaussetzung zur Bewährung im Urteil?",
+                              "Welche Möglichkeit wurde 1943 abgeschafft?"
+                           ],
+                           "id": "juj-s6-A2-w2-a2",
+                           "richtig": [
+                              "sie wurde abgeschafft; nur noch Strafrestaussetzung zur Probe"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s6-A2-w2-a3",
+                           "segmente": [
+                              {
+                                 "text": "Das RJGG 1943 galt nur für deutsche Jugendliche."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Für jugendliche „**Schwerverbrecher**“ galt **ungemildertes allgemeines Strafrecht inkl. Todesstrafe**.",
+                                 "text": "Die Todesstrafe war für Jugendliche in jedem Fall ausgeschlossen."
+                              },
+                              {
+                                 "text": "Die Hitler-Jugend stand gleichberechtigt neben der Jugendgerichtshilfe."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s6-A2-w2",
+                     "merke": "**NS-typisch** im RJGG 1943: Anwendung **nur auf deutsche Jugendliche**; Strafmündigkeit grds. ab 14, bei schweren Taten **ab 12**, wenn „zum Schutz des Volkes“ erforderlich; für jugendliche „**Schwerverbrecher**“ **ungemildertes allgemeines Strafrecht inkl. Todesstrafe**; **Abschaffung der Strafaussetzung zur Bewährung** im Urteil; **Hitler-Jugend gleichberechtigt neben der Jugendgerichtshilfe**. Außerdem: **kein Rechtsmittel** bei Erziehungsmaßregeln/Zuchtmitteln, Beseitigung des Strafmakels nach „Bewährung im Dienst der Volksgemeinschaft“.",
+                     "titel": "NS-typische Änderungen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-A-mix1",
+               "mix": [
+                  "juj-s6-A1",
+                  "juj-s6-A2"
+               ],
+               "titel": "🔀 Gemischt: NS-Zeit"
+            }
+         ],
+         "titel": "NS-Zeit: Verordnungen und RJGG 1943"
+      },
+      {
+         "farbe": 220,
+         "id": "juj-s6-B",
+         "level": [
+            {
+               "id": "juj-s6-B1",
+               "titel": "JGG 1953",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Einführung des Jugendarrests",
+                              "Warnschussarrest",
+                              "Täter-Opfer-Ausgleich als Weisung"
+                           ],
+                           "frage": "Was brachte das JGG von 1953?",
+                           "id": "juj-s6-B1-w1-a1",
+                           "richtig": [
+                              "teilweise Einbeziehung Heranwachsender",
+                              "Umbenennung des Jugendgefängnisses in Jugendstrafe",
+                              "Wiedereinführung der Strafaussetzung zur Bewährung",
+                              "obligatorische Bewährungshilfe",
+                              "Aussetzung der Verhängung der Jugendstrafe"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (JGG 1953).",
+                           "id": "juj-s6-B1-w1-a2",
+                           "luecken": [
+                              [
+                                 "6",
+                                 "sechs"
+                              ],
+                              [
+                                 "5",
+                                 "fünf"
+                              ],
+                              [
+                                 "10",
+                                 "zehn"
+                              ]
+                           ],
+                           "text": "Jugendstrafe: Mindestmaß {} Monate, Höchstmaß {} Jahre, bei schwersten Verbrechen {} Jahre.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "seit dem JGG 1923",
+                              "seit dem RJGG 1943",
+                              "seit 1990",
+                              "seit 2012"
+                           ],
+                           "fragen": [
+                              "Seit wann gilt das JGG teilweise auch für Heranwachsende?"
+                           ],
+                           "id": "juj-s6-B1-w1-a3",
+                           "richtig": [
+                              "seit dem JGG 1953"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s6-B1-w1",
+                     "merke": "**JGG vom 04.08.1953:** **Bereinigung der NS-Entartungen**; Strafmündigkeit **ab 14**; **teilweise Einbeziehung Heranwachsender** (18.–20. Lj.). Freiheitsentzug: Mindestmaß **6 Monate**, Höchstmaß **5 Jahre** bzw. **10 Jahre** bei schwersten Verbrechen; **Jugendgefängnis → „Jugendstrafe“**; **Wiedereinführung der Strafaussetzung zur Bewährung** (bis 1 Jahr); **obligatorische Bewährungshilfe**; **Aussetzung der Verhängung** der Jugendstrafe; Angleichung des Gerichtsaufbaus an das allgemeine Strafrecht.",
+                     "titel": "Neuanfang 1953"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-B2",
+               "titel": "1. JGGÄndG 1990",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Jugendarrest",
+                              "Verdeutlichungsarrest",
+                              "Fürsorgeerziehung"
+                           ],
+                           "frage": "Welche ambulanten Weisungen führte das 1. JGGÄndG 1990 ein?",
+                           "id": "juj-s6-B2-w1-a1",
+                           "richtig": [
+                              "Betreuungsweisung",
+                              "sozialer Trainingskurs",
+                              "Täter-Opfer-Ausgleich"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "schaffte die unbestimmte Jugendstrafe ab."
+                              },
+                              {
+                                 "begruendung": "Nein, die Begründung mit „schädlichen Neigungen“ blieb unverändert.",
+                                 "richtig": false,
+                                 "text": "strich die „schädlichen Neigungen“ als Grund für Jugendstrafe."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "erweiterte die Strafaussetzung zur Bewährung auf Jugendstrafen bis 2 Jahre."
+                              },
+                              {
+                                 "begruendung": "Nein, das fehlte weiterhin (bis zum BVerfG 2006).",
+                                 "richtig": false,
+                                 "text": "schuf ein Jugendstrafvollzugsgesetz."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Das 1. JGGÄndG 1990 …",
+                           "id": "juj-s6-B2-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "Einstellung mit Auflagen vor folgenloser Einstellung",
+                              "Anklage vor Einstellung",
+                              "Jugendarrest vor Einstellung",
+                              "keine Einstellung mehr bei Wiederholungstätern"
+                           ],
+                           "fragen": [
+                              "Welches Rangverhältnis bei der Diversion führte das 1. JGGÄndG ein?"
+                           ],
+                           "id": "juj-s6-B2-w1-a3",
+                           "richtig": [
+                              "folgenlose Einstellung vor Einstellung mit Auflagen"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s6-B2-w1",
+                     "merke": "**1. JGG-Änderungsgesetz (30.08.1990)**, entkriminalisierende Reformpolitik: Stärkung der **Diversion** (§§ 45, 47) mit neuem Rangverhältnis – **folgenlose vor auflagenverbundener Einstellung**; neue **ambulante Weisungen** (§ 10): **Betreuungsweisung, sozialer Trainingskurs, Täter-Opfer-Ausgleich**; **Arbeitsleistung** als Auflage (§ 15 I Nr. 4); **Abschaffung der unbestimmten Jugendstrafe**; Bewährung bis **2 Jahre**; **Beschränkung der U-Haft** (Verhältnismäßigkeit, Fluchtgefahr bei unter 16 nur ausnahmsweise, § 72; Pflichtverteidiger). **Keine Änderung** u. a. bei Erziehungsbegriff, Jugendarrest, „schädlichen Neigungen“, fehlendem Jugendstrafvollzugsgesetz.",
+                     "titel": "Teilreform 1990"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-B3",
+               "titel": "BVerfG 2006 und 2. JGGÄndG 2007",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Jugendstrafe sei generell unzulässig.",
+                              "Der Jugendarrest sei zu kurz.",
+                              "Heranwachsende dürften nicht nach JGG bestraft werden.",
+                              "Das JGG verstoße gegen das Erziehungsziel."
+                           ],
+                           "fragen": [
+                              "Warum erklärte das BVerfG 2006 den Jugendstrafvollzug für verfassungswidrig?",
+                              "Was beanstandete BVerfGE 116, 69?"
+                           ],
+                           "id": "juj-s6-B3-w1-a1",
+                           "richtig": [
+                              "Es fehlte eine gesetzliche Grundlage für Grundrechtseingriffe im Jugendstrafvollzug."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "BGH NStZ 2003, 364",
+                              "BVerfG zur Sicherungsverwahrung 2011",
+                              "RJGG 1943",
+                              "Marburger Programm 1882"
+                           ],
+                           "fragen": [
+                              "Aus welcher Entscheidung stammt dieser Satz?"
+                           ],
+                           "id": "juj-s6-B3-w1-a2",
+                           "richtig": [
+                              "BVerfGE 116, 69 (2006)"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„… dass Strafe nur als letztes Mittel und nur als ein in seinen negativen Auswirkungen auf die Persönlichkeit des Betroffenen nach Möglichkeit zu minimierendes Übel verhängt und vollzogen werden darf …“"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, daher 16 zum Teil sehr unterschiedliche Landesgesetze.",
+                                 "richtig": true,
+                                 "text": "Seit der Föderalismusreform 2006 sind die Länder für den Jugendstrafvollzug zuständig."
+                              },
+                              {
+                                 "begruendung": "Nein, wegen der Verschiedenartigkeit der Gefangenengruppen nicht.",
+                                 "richtig": false,
+                                 "text": "Das BVerfG erlaubte den Rückgriff auf das StVollzG für Erwachsene."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Der Gesetzgeber hatte bis Ende 2007 Zeit."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s6-B3-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s6-B3-w1",
+                     "merke": "Das **BVerfG** erklärte den **Jugendstrafvollzug für verfassungswidrig**, weil eine **gesetzliche Grundlage fehlte**: Grundrechtseingriffe (Postkontrolle, Disziplinarmaßnahmen) brauchen auch bei jungen Gefangenen ein Gesetz; ein Rückgriff auf das **StVollzG** scheidet wegen der **Verschiedenartigkeit der Gefangenengruppen** aus. **Frist: Ende 2007.** Nach der **Föderalismusreform 2006** sind die **Länder** zuständig → **16 Landes-Jugendstrafvollzugsgesetze** (NRW: in Kraft 1.1.2008). Kernaussage: Strafe nur als **letztes Mittel** und als möglichst zu minimierendes **Übel**.",
+                     "titel": "BVerfGE 116, 69 (31.05.2006)"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "den Warnschussarrest",
+                              "die Abschaffung der unbestimmten Jugendstrafe",
+                              "die Einbeziehung Heranwachsender",
+                              "den Jugendarrest"
+                           ],
+                           "fragen": [
+                              "Was brachte das 2. JGGÄndG von 2007 vor allem?",
+                              "Seit welchem Gesetz steht das Ziel des Jugendstrafrechts ausdrücklich im JGG?"
+                           ],
+                           "id": "juj-s6-B3-w2-a1",
+                           "richtig": [
+                              "die Zielbestimmung: Legalbewährung durch Erziehung (§ 2 I JGG)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s6-B3-w2-a2",
+                           "luecken": [
+                              [
+                                 "2007"
+                              ],
+                              [
+                                 "Legalbewährung",
+                                 "Legalbewaehrung"
+                              ]
+                           ],
+                           "text": "Seit dem 2. JGGÄndG von {} lautet das Ziel des Jugendstrafrechts: {} durch Erziehung.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "elemente": [
+                              "RJGG",
+                              "JGG 1953",
+                              "1. JGGÄndG",
+                              "BVerfGE 116, 69",
+                              "2. JGGÄndG",
+                              "Gesetz zur Erweiterung der jugendgerichtlichen Handlungsmöglichkeiten"
+                           ],
+                           "frage": "Bringe in die zeitliche Reihenfolge.",
+                           "id": "juj-s6-B3-w2-a3",
+                           "typ": "reihenfolge"
+                        }
+                     ],
+                     "id": "juj-s6-B3-w2",
+                     "merke": "Das **2. JGG-Änderungsgesetz vom 13.12.2007** brachte u. a. die **Zielbestimmung** des Jugendstrafrechts: **Legalbewährung durch Erziehung** (§ 2 I JGG).",
+                     "titel": "2. JGGÄndG (13.12.2007)"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-B-mix1",
+               "mix": [
+                  "juj-s6-B1",
+                  "juj-s6-B2",
+                  "juj-s6-B3"
+               ],
+               "titel": "🔀 Gemischt: 1953 bis 2007"
+            }
+         ],
+         "titel": "Bundesrepublik: JGG 1953 bis 2007"
+      },
+      {
+         "farbe": 330,
+         "id": "juj-s6-C",
+         "level": [
+            {
+               "id": "juj-s6-C1",
+               "titel": "Sicherungsverwahrung",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Sie gilt unverändert seit 2008.",
+                              "Sie wurde 1990 abgeschafft.",
+                              "Sie wurde 2012 durch den Warnschussarrest ersetzt.",
+                              "Sie wurde auf alle Jugendstrafen ausgeweitet."
+                           ],
+                           "fragen": [
+                              "Was geschah mit der nachträglichen Sicherungsverwahrung nach Jugendstrafrecht?",
+                              "Wodurch wurde die nachträgliche SV im Jugendstrafrecht ersetzt?"
+                           ],
+                           "id": "juj-s6-C1-w1-a1",
+                           "richtig": [
+                              "2011 verfassungswidrig; seit 2013 durch die vorbehaltene Sicherungsverwahrung ersetzt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "im Zeitpunkt",
+                              "Zeitpunkt",
+                              "Vorbehalt schon im Urteil",
+                              "der Vorbehalt erfolgt im Urteil"
+                           ],
+                           "frage": "Worin unterscheidet sich die vorbehaltene von der nachträglichen Sicherungsverwahrung vor allem?",
+                           "id": "juj-s6-C1-w1-a2",
+                           "musterloesung": "Vor allem im Zeitpunkt: Die Sicherungsverwahrung wird schon im Urteil vorbehalten.",
+                           "typ": "kurzfrage"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (§ 7 II JGG, 2008).",
+                           "id": "juj-s6-C1-w1-a3",
+                           "luecken": [
+                              [
+                                 "7",
+                                 "sieben"
+                              ],
+                              [
+                                 "2011"
+                              ]
+                           ],
+                           "text": "Voraussetzung war eine Jugendstrafe von mindestens {} Jahren. Das BVerfG erklärte die Regelung {} für verfassungswidrig.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s6-C1-w1",
+                     "merke": "**Gesetz vom 08.07.2008 (§ 7 II JGG):** **nachträgliche Sicherungsverwahrung** auch nach Jugendstrafrecht – nach Jugendstrafe von **mind. 7 Jahren** wegen bestimmter Verbrechen (gegen Leben, körperliche Unversehrtheit, sexuelle Selbstbestimmung; Raub mit Todesfolge u. ä.), wenn vor Vollzugsende eine **erhebliche Gefährlichkeit** erkennbar wird. **BVerfG 4.5.2011: verfassungswidrig.** Seit **1.6.2013** ersetzt durch die **vorbehaltene Sicherungsverwahrung** – Unterschied v. a. der **Zeitpunkt** (Vorbehalt schon im Urteil).",
+                     "titel": "Nachträgliche → vorbehaltene SV"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-C2",
+               "titel": "Gesetz vom 06.07.2012",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Vorschrift der Neuerung von 2012 zu.",
+                           "id": "juj-s6-C2-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "§ 16a JGG",
+                                 "rechts": "Jugendarrest neben Jugendstrafe"
+                              },
+                              {
+                                 "links": "§ 105 III JGG",
+                                 "rechts": "max. 15 Jahre für Heranwachsende bei Mord"
+                              },
+                              {
+                                 "links": "§§ 61 ff. JGG",
+                                 "rechts": "Vorbewährung"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Arrest vor Beginn der Bewährung",
+                              "Bewährung schon vor der Tat",
+                              "Einstellung des Verfahrens mit Auflagen",
+                              "Probezeit für Jugendrichter"
+                           ],
+                           "fragen": [
+                              "Was ist die Vorbewährung?"
+                           ],
+                           "id": "juj-s6-C2-w1-a2",
+                           "richtig": [
+                              "Die Entscheidung über die Aussetzung der Jugendstrafe wird erst einige Zeit nach dem Urteil getroffen."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s6-C2-w1-a3",
+                           "luecken": [
+                              [
+                                 "Schwere"
+                              ],
+                              [
+                                 "15",
+                                 "fünfzehn"
+                              ],
+                              [
+                                 "10",
+                                 "zehn"
+                              ]
+                           ],
+                           "text": "Seit 2012 können Heranwachsende bei Mord und besonderer {} der Schuld bis zu {} Jahre Jugendstrafe erhalten (zuvor {}).",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s6-C2-w1",
+                     "merke": "**Gesetz zur Erweiterung der jugendgerichtlichen Handlungsmöglichkeiten (06.07.2012):** **§ 16a JGG: Jugendarrest neben (ausgesetzter) Jugendstrafe** – sog. **Warnschuss-/Verdeutlichungsarrest** (bis dahin war die Koppelung nach § 8 II a. F. unzulässig); **§ 105 III JGG:** Höchststrafe für **Heranwachsende** bei **Mord und besonderer Schwere der Schuld** von 10 auf **15 Jahre**; **§§ 61 ff. JGG:** gesetzliche Grundlage für die **Vorbewährung** (Entscheidung über die Aussetzung erst einige Zeit nach dem Urteil).",
+                     "titel": "Drei Änderungen"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Argument für oder gegen den Koppelungsarrest (§ 16a JGG)?",
+                           "id": "juj-s6-C2-w2-a1",
+                           "items": [
+                              {
+                                 "kategorie": "Pro",
+                                 "text": "Bewährungsstrafe wird als „Freispruch zweiter Klasse“ missverstanden"
+                              },
+                              {
+                                 "kategorie": "Pro",
+                                 "text": "stationärer Zugriff als Initialmaßnahme für die Bewährungshilfe"
+                              },
+                              {
+                                 "kategorie": "Pro",
+                                 "text": "mehr positive Legalprognosen, also mehr ausgesetzte Jugendstrafen"
+                              },
+                              {
+                                 "kategorie": "Contra",
+                                 "text": "Jugendarrest hat eine Rückfallrate von fast 65 %"
+                              },
+                              {
+                                 "kategorie": "Contra",
+                                 "text": "viele Betroffene haben schon Hafterfahrung"
+                              },
+                              {
+                                 "kategorie": "Contra",
+                                 "text": "Gefahr einer Routinesanktion (net-widening)"
+                              }
+                           ],
+                           "kategorien": [
+                              "Pro",
+                              "Contra"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "etwa 20 %, die niedrigste aller Sanktionen",
+                              "etwa 40 %, wie bei Geldstrafen",
+                              "fast 90 %, die höchste aller Sanktionen",
+                              "unter 10 %"
+                           ],
+                           "fragen": [
+                              "Wie hoch ist laut Verrel die Rückfallrate nach Jugendarrest?",
+                              "Welche Rückfallrate nennt Verrel für den Jugendarrest?"
+                           ],
+                           "id": "juj-s6-C2-w2-a2",
+                           "richtig": [
+                              "fast 65 %, die zweithöchste nach unbedingter Jugendstrafe"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Diskutiere Pro und Contra des Koppelungsarrests (§ 16a JGG).",
+                           "id": "juj-s6-C2-w2-a3",
+                           "kernpunkte": [
+                              "Pro: Bewährung wird als Freispruch zweiter Klasse missverstanden, Unrechtsverdeutlichung",
+                              "Pro: Initialmaßnahme für Bewährungshilfe; mehr Bewährungsstrafen",
+                              "Contra: Jugendarrest hohe Rückfallrate (fast 65 %), Abschreckung zweifelhaft",
+                              "Contra: oft schon Hafterfahrung; Auflagen/Weisungen reichen",
+                              "Contra: Routinesanktion, net-widening, überforderter Arrestvollzug"
+                           ],
+                           "musterloesung": "Befürworter meinen, eine ausgesetzte Jugendstrafe werde als „Freispruch zweiter Klasse“ missverstanden, besonders wenn Mitangeklagte zu Jugendarrest verurteilt werden; der Arrest verdeutliche das Unrecht, ermögliche einen stationären Zugriff als Einstieg in die Bewährungshilfe und könne zu mehr positiven Prognosen und damit mehr Bewährungsstrafen führen. Gegner verweisen auf die Rückfallstatistik (Jugendarrest: fast 65 %, zweithöchste Rate), bezweifeln die Abschreckung durch einen „taste of prison“, betonen, dass viele Betroffene schon Hafterfahrung haben und dass Bewährungsstrafen schon durch Auflagen und Weisungen spürbar gemacht werden können, und befürchten eine Routinesanktion (net-widening) bei ohnehin überfordertem Arrestvollzug.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "juj-s6-C2-w2",
+                     "merke": "**Verrel (NK 2013)** nennt den Warnschussarrest sachlicher **„Koppelungsarrest“**. **Pro:** ausgesetzte Jugendstrafe als „**Freispruch zweiter Klasse**“ missverstanden, fehlende Eindruckswirkung (v. a. wenn Mitangeklagte Arrest bekommen); stationärer Zugriff als **Initialmaßnahme** für die Bewährungshilfe; mehr positive Prognosen → mehr Bewährungsstrafen. **Contra:** Rückfallstatistik – **Jugendarrest hat nach unbedingter Jugendstrafe die zweithöchste Rückfallrate (fast 65 %)**; Skepsis gegenüber „**taste of prison**“; viele haben schon **Hafterfahrung**; Bewährung lässt sich schon durch **Auflagen/Weisungen** spürbar machen; Gefahr der **Routinesanktion** (überforderter Arrestvollzug, **net-widening**).",
+                     "titel": "Koppelungsarrest: Pro und Contra (Verrel)"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Variante des § 16a I JGG ihrem Zweck zu.",
+                           "id": "juj-s6-C2-w3-a1",
+                           "paare": [
+                              {
+                                 "links": "Verdeutlichungsarrest (Nr. 1)",
+                                 "rechts": "Verantwortlichkeit für das Unrecht verdeutlichen"
+                              },
+                              {
+                                 "links": "Herausnahmearrest (Nr. 2)",
+                                 "rechts": "aus schädlichem Lebensumfeld herausnehmen"
+                              },
+                              {
+                                 "links": "Auffangarrest (Nr. 3)",
+                                 "rechts": "nachdrücklichere erzieherische Einwirkung"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "wenn er unter 16 ist",
+                              "wenn er Heranwachsender ist",
+                              "wenn die Jugendstrafe über 2 Jahre liegt",
+                              "wenn er erstmals straffällig ist"
+                           ],
+                           "fragen": [
+                              "Was regelt § 16a II JGG?",
+                              "Wann ist der Verdeutlichungsarrest nach § 16a II JGG in der Regel nicht geboten?"
+                           ],
+                           "id": "juj-s6-C2-w3-a2",
+                           "richtig": [
+                              "wenn der Jugendliche schon Dauerarrest verbüßt hat oder nicht nur kurzfristig in U-Haft war"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Koppelungsarrest",
+                              "Kopplungsarrest"
+                           ],
+                           "frage": "Welchen sachlicheren Begriff verwendet Verrel für den „Warnschussarrest“?",
+                           "id": "juj-s6-C2-w3-a3",
+                           "musterloesung": "Koppelungsarrest.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "fall": "Leon (17) wird zu einer Jugendstrafe auf Bewährung verurteilt. Er hat vor einem Jahr bereits zwei Wochen Dauerarrest verbüßt. Das Gericht überlegt, zusätzlich einen Verdeutlichungsarrest zu verhängen.",
+                           "frage": "Ist das sinnvoll?",
+                           "id": "juj-s6-C2-w3-a4",
+                           "kernpunkte": [
+                              "§ 16a I Nr. 1 JGG: Verdeutlichungsarrest neben ausgesetzter Jugendstrafe",
+                              "§ 16a II: in der Regel nicht geboten, wenn schon Dauerarrest verbüßt (oder nicht nur kurzfristig U-Haft)",
+                              "Freiheitsentzug wirkt nur als neue Erfahrung",
+                              "daher regelmäßig kein Verdeutlichungsarrest"
+                           ],
+                           "musterloesung": "Nach § 16a I Nr. 1 JGG kann neben einer ausgesetzten Jugendstrafe Arrest verhängt werden, um die Verantwortlichkeit zu verdeutlichen. Nach § 16a II JGG ist er aber in der Regel nicht geboten, wenn der Jugendliche schon Dauerarrest verbüßt hat oder nicht nur kurzfristig in U-Haft war – der Freiheitsentzug hat seine „Schockwirkung“ nur als neue Erfahrung. Da Leon schon Dauerarrest verbüßt hat, ist ein Verdeutlichungsarrest regelmäßig nicht geboten.",
+                           "typ": "fall"
+                        }
+                     ],
+                     "id": "juj-s6-C2-w3",
+                     "merke": "§ 16a I JGG kennt **drei Varianten**: **Nr. 1 „Verdeutlichungsarrest“** – um dem Jugendlichen seine **Verantwortlichkeit** für das Unrecht und die Folgen weiterer Taten zu **verdeutlichen** (unter Berücksichtigung von Belehrung, Weisungen und Auflagen); **Nr. 2 „Herausnahmearrest“** – um ihn für begrenzte Zeit aus einem **Lebensumfeld mit schädlichen Einflüssen herauszunehmen** und auf die Bewährungszeit vorzubereiten; **Nr. 3 „Auffangarrest“** – für eine **nachdrücklichere erzieherische Einwirkung** bzw. bessere Erfolgsaussichten in der Bewährungszeit. **§ 16a II:** Verdeutlichungsarrest ist **in der Regel nicht geboten**, wenn der Jugendliche **schon Dauerarrest verbüßt** hat oder **nicht nur kurzfristig in U-Haft** war (Freiheitsentzug wirkt nur als neue Erfahrung).",
+                     "titel": "Drei Varianten des § 16a JGG"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s6-C-mix1",
+               "mix": [
+                  "juj-s6-C1",
+                  "juj-s6-C2"
+               ],
+               "titel": "🔀 Gemischt: Verschärfungen"
+            }
+         ],
+         "titel": "Verschärfungen 2008 und 2012"
+      }
+   ]
+}

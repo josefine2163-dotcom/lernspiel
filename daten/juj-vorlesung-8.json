@@ -1,0 +1,1466 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s8",
+   "kurztitel": "Vorlesung 8",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "falsch": [
+               "Das StGB geht dem JGG vor.",
+               "Beide gelten gleichrangig nebeneinander.",
+               "Das JGG gilt nur für das Verfahren."
+            ],
+            "frage": "In welchem Verhältnis steht das JGG zu StGB, StPO und GVG?",
+            "id": "juj-s8-pk1",
+            "richtig": [
+               "Es geht als spezielle Regelung vor (§ 2 II JGG); die allgemeinen Gesetze gelten nur subsidiär."
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s8-A1-w2"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s8-pk2",
+            "paare": [
+               {
+                  "links": "§§ 9–32 JGG",
+                  "rechts": "Sanktionen"
+               },
+               {
+                  "links": "§§ 33–42 JGG",
+                  "rechts": "Gerichtsverfassung"
+               },
+               {
+                  "links": "§§ 43–81 JGG",
+                  "rechts": "Verfahren"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s8-A1-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s8-pk3",
+            "paare": [
+               {
+                  "links": "StGB",
+                  "rechts": "Tat-Strafrecht"
+               },
+               {
+                  "links": "JGG",
+                  "rechts": "Tat-Täter-Strafrecht"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s8-B1-w1"
+            ]
+         },
+         {
+            "frage": "Nenne die drei Rechtsfolgen des JGG.",
+            "id": "juj-s8-pk4",
+            "kopf": [
+               "Nr.",
+               "Rechtsfolge"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s8-B1-w1"
+            ],
+            "zeigen": 3,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Erziehungsmaßregeln",
+                        "Erziehungsmassregeln"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Zuchtmittel"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Jugendstrafe"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "juj-s8-pk5",
+            "luecken": [
+               [
+                  "5",
+                  "fünf"
+               ],
+               [
+                  "10",
+                  "zehn"
+               ]
+            ],
+            "text": "Höchstmaß der Jugendstrafe: grundsätzlich {} Jahre, bei schwersten Verbrechen {} Jahre.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s8-B1-w2"
+            ]
+         },
+         {
+            "frage": "Was ist das Ziel des Jugendstrafrechts nach § 2 I JGG und mit welchem Mittel wird es verfolgt?",
+            "id": "juj-s8-pk6",
+            "kernpunkte": [
+               "Ziel: erneuten Straftaten entgegenwirken = Legalbewährung",
+               "positive Individualprävention",
+               "Mittel: Rechtsfolgen und Verfahren vorrangig am Erziehungsgedanken ausrichten"
+            ],
+            "musterloesung": "Nach § 2 I 1 JGG soll die Anwendung des Jugendstrafrechts vor allem erneuten Straftaten des Jugendlichen oder Heranwachsenden entgegenwirken: Ziel ist die Legalbewährung (positive Individualprävention). Mittel ist nach § 2 I 2 die vorrangige Ausrichtung von Rechtsfolgen und Verfahren am Erziehungsgedanken.",
+            "typ": "definition",
+            "wissen": [
+               "juj-s8-C1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "positive Individualprävention",
+               "Schuldausgleich als Nebenziel",
+               "Legalbewährung"
+            ],
+            "frage": "Welcher Strafzweck ist im Jugendstrafrecht unzulässig?",
+            "id": "juj-s8-pk7",
+            "richtig": [
+               "negative Generalprävention (Abschreckung anderer)"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s8-C1-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "umfassende Umerziehung",
+               "Abschreckung",
+               "Vergeltung"
+            ],
+            "frage": "Was ist das Erziehungsziel im JGG?",
+            "id": "juj-s8-pk8",
+            "richtig": [
+               "Legalbewährung, nicht der „gute Mensch“"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s8-C2-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s8-pk9",
+            "paare": [
+               {
+                  "links": "1923",
+                  "rechts": "Erziehungsstrafe mit Zwangscharakter"
+               },
+               {
+                  "links": "1991",
+                  "rechts": "Förderung als freiwillige Leistung"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s8-C2-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "65 % binnen 3 Jahren",
+               "30 % binnen 6 Jahren",
+               "95 % binnen 1 Jahr"
+            ],
+            "frage": "Welche Rückfallrate nach Jugendstrafe nennt die Vorlesung?",
+            "id": "juj-s8-pk10",
+            "richtig": [
+               "81 % binnen 6 Jahren"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s8-D1-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "höhere Strafrahmen",
+               "Geldstrafen"
+            ],
+            "frage": "Wodurch werden Jugendliche gegenüber Erwachsenen schlechter gestellt?",
+            "id": "juj-s8-pk11",
+            "richtig": [
+               "eingriffsintensivere Sanktionen bei leichten Taten",
+               "Erziehungsregister bei Diversion",
+               "höhere U-Haft-Quote"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s8-D1-w2"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s8-pk12",
+            "paare": [
+               {
+                  "links": "neo-konservativ",
+                  "rechts": "Erwachsenenstrafrecht mit Milderungen"
+               },
+               {
+                  "links": "Abolitionismus",
+                  "rechts": "nur Jugendhilfe"
+               },
+               {
+                  "links": "neo-liberal",
+                  "rechts": "tatproportionale Sanktionen ohne Erziehung"
+               },
+               {
+                  "links": "konsensual",
+                  "rechts": "Erziehung nur zur Legalbewährung"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s8-D2-w1"
+            ]
+         },
+         {
+            "frage": "Nenne die fünf Prinzipien des JGG.",
+            "id": "juj-s8-pk13",
+            "kopf": [
+               "Nr.",
+               "Prinzip"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s8-E1-w1"
+            ],
+            "zeigen": 5,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Individualisierung"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Flexibilität",
+                        "Flexibilitaet"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Subsidiarität",
+                        "Subsidiaritaet"
+                     ]
+                  }
+               ],
+               [
+                  "4",
+                  {
+                     "akzeptiert": [
+                        "Nichtschlechterstellung",
+                        "Nicht-Schlechterstellung"
+                     ]
+                  }
+               ],
+               [
+                  "5",
+                  {
+                     "akzeptiert": [
+                        "Beschleunigung"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "falsch": [
+               "volle Kompensation wie bei Erwachsenen",
+               "Einstellung des Verfahrens",
+               "Verdoppelung der Strafe"
+            ],
+            "frage": "Was gilt nach BGH NStZ 2003, 364 bei überlanger Verfahrensdauer und Jugendstrafe wegen schädlicher Neigungen?",
+            "id": "juj-s8-pk14",
+            "richtig": [
+               "keine Kompensation, die die erzieherisch erforderliche Dauer unterschreitet"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s8-E1-w3"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Nein, sie sind nicht mit Strafe bedroht.",
+                  "richtig": false,
+                  "text": "Ordnungswidrigkeiten fallen unter das JGG."
+               },
+               {
+                  "begruendung": "Ja, § 1 II JGG.",
+                  "richtig": true,
+                  "text": "Entscheidend ist das Alter zur Tatzeit."
+               },
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Heranwachsende sind 18 bis unter 21."
+               }
+            ],
+            "frage": "Richtig oder falsch?",
+            "id": "juj-s8-pk15",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s8-E2-w1"
+            ]
+         },
+         {
+            "frage": "Erläutere die Probleme der Erziehungsausrichtung des JGG und die Lösungsansätze.",
+            "id": "juj-s8-pk16",
+            "kernpunkte": [
+               "Erziehung durch Strafe? JStR ist echtes Strafrecht; individualpräventives Dilemma; 81 % Rückfall nach Jugendstrafe",
+               "Schlechterstellung im Gewande der Erziehung (Sanktionen, Erziehungsregister, Rechtsmittel, U-Haft)",
+               "Lösungen: neo-konservativ, Abolitionismus, neo-liberal, konsensual",
+               "seit 2008 konsensual: Erziehung nur zur Legalbewährung (§ 2 I)"
+            ],
+            "musterloesung": "Jugendstrafrecht ist echtes Strafrecht; Erziehung durch Strafe ist kaum möglich (individualpräventives Dilemma, niemand kann zu seinem Besten gezwungen werden; 81 % Rückfall nach Jugendstrafe binnen 6 Jahren). Zudem werden Jugendliche „im Gewande der Erziehung“ schlechter gestellt: eingriffsintensivere Sanktionen bei leichten Taten, Erziehungsregister bei Diversion, eingeschränkte Rechtsmittel, 2- bis 4-fach höhere U-Haft-Quote. Lösungsansätze: neo-konservativ (Erwachsenenstrafrecht mit Milderungen), Abolitionismus (nur Jugendhilfe), neo-liberal (ohne Erziehungsgedanken, tatproportionale Sanktionen) und konsensual (Erziehung nur als Mittel zur Legalbewährung). Letzteres wurde 2008 in § 2 I umgesetzt; die Schlechterstellung blieb jedoch weitgehend bestehen.",
+            "typ": "offen",
+            "wissen": [
+               "juj-s8-D1-w1",
+               "juj-s8-D1-w2",
+               "juj-s8-D2-w1"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 8"
+   },
+   "quelle": [
+      "JuJ/8.1 Vorlesung JuJ.pdf",
+      "JuJ/8.2 Vorlesung JuJ.pdf",
+      "JuJ/8.3 Vorlesung JuJ.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Struktur, Anwendungsbereich und Ziel des JGG",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 210,
+         "id": "juj-s8-A",
+         "level": [
+            {
+               "id": "juj-s8-A1",
+               "titel": "Aufbau und Gesetze",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne den Regelungsbereich den Paragrafen des JGG zu.",
+                           "id": "juj-s8-A1-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Anwendungsbereich",
+                                 "rechts": "§§ 1–2"
+                              },
+                              {
+                                 "links": "Verantwortlichkeit und allgemeine Regeln",
+                                 "rechts": "§§ 3–8"
+                              },
+                              {
+                                 "links": "Sanktionen",
+                                 "rechts": "§§ 9–32"
+                              },
+                              {
+                                 "links": "Gerichtsverfassung und Zuständigkeit",
+                                 "rechts": "§§ 33–42"
+                              },
+                              {
+                                 "links": "Verfahren",
+                                 "rechts": "§§ 43–81"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "im Fahreignungsregister",
+                              "im Schuldnerverzeichnis",
+                              "im Melderegister",
+                              "im Handelsregister"
+                           ],
+                           "fragen": [
+                              "Wo ist geregelt, welche Eintragungen über junge Täter gespeichert werden?",
+                              "Welches Register gibt es speziell für junge Täter?"
+                           ],
+                           "id": "juj-s8-A1-w1-a2",
+                           "richtig": [
+                              "im Erziehungsregister (§§ 59 ff. BZRG)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, durch Jugendvollzugsgesetze der Länder.",
+                                 "richtig": true,
+                                 "text": "Der Jugendstrafvollzug ist in jedem Bundesland eigenständig geregelt."
+                              },
+                              {
+                                 "begruendung": "Nein, es ist umfassender.",
+                                 "richtig": false,
+                                 "text": "Das Erziehungsregister ist weniger umfassend als das Bundeszentralregister."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Die RiJGG konkretisieren das JGG."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s8-A1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s8-A1-w1",
+                     "merke": "**JGG-Aufbau:** **1. Teil: Anwendungsbereich §§ 1–2**. **2. Teil: Jugendliche vor dem Jugendgericht** – **Verantwortlichkeit & allgemeine Regeln §§ 3–8**, **Sanktionen §§ 9–32**, **Gerichtsverfassung & Zuständigkeit §§ 33–42**, **Verfahren §§ 43–81**, **Vollstreckung & Vollzug §§ 82–93a**. **3. Teil:** Heranwachsende vor dem Jugendgericht. Dazu: **Richtlinien (RiJGG)**, **Jugendvollzugsgesetze der Länder** (Jugendstrafvollzug, Jugendarrestvollzug) und das **Erziehungsregister** (§§ 59 ff. BZRG, umfassender als das Bundeszentralregister).",
+                     "titel": "Gliederung des JGG"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "§ 1 I JGG",
+                              "§ 105 JGG",
+                              "§ 46 StGB",
+                              "§ 2 I JGG"
+                           ],
+                           "fragen": [
+                              "Welche Vorschrift regelt den Vorrang des JGG vor StGB, StPO und GVG?",
+                              "Wo steht, dass das JGG lex specialis ist?"
+                           ],
+                           "id": "juj-s8-A1-w2-a1",
+                           "richtig": [
+                              "§ 2 II JGG"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Regelt das JGG selbst oder gilt subsidiär das StGB?",
+                           "id": "juj-s8-A1-w2-a2",
+                           "items": [
+                              {
+                                 "kategorie": "eigene JGG-Regel",
+                                 "text": "Sanktionen und ihre Auswahl"
+                              },
+                              {
+                                 "kategorie": "eigene JGG-Regel",
+                                 "text": "Jugendgerichtsverfassung"
+                              },
+                              {
+                                 "kategorie": "subsidiär StGB",
+                                 "text": "Straftatbestände (Besonderer Teil)"
+                              },
+                              {
+                                 "kategorie": "subsidiär StGB",
+                                 "text": "Versuch, Täterschaft und Teilnahme"
+                              },
+                              {
+                                 "kategorie": "subsidiär StGB",
+                                 "text": "Rechtfertigungsgründe"
+                              }
+                           ],
+                           "kategorien": [
+                              "eigene JGG-Regel",
+                              "subsidiär StGB"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "ausreisser": [
+                              "Berufsverbot"
+                           ],
+                           "frage": "Welche Maßregel ist gegenüber Jugendlichen nicht zulässig?",
+                           "gehoert": [
+                              "Entziehung der Fahrerlaubnis",
+                              "Führungsaufsicht",
+                              "Unterbringung im psychiatrischen Krankenhaus",
+                              "Unterbringung in einer Entziehungsanstalt"
+                           ],
+                           "id": "juj-s8-A1-w2-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "juj-s8-A1-w2",
+                     "merke": "Das JGG ist **Sonderstrafrecht** für jugendliche und heranwachsende Täter und ein **einheitliches Gesetz** mit **materiellem und prozessualem Strafrecht sowie Gerichtsverfassungsrecht**. Es **geht StGB, StPO und GVG als spezielle Regelung vor (§ 2 II JGG)** – die allgemeinen Gesetze gelten **nur, soweit das JGG nichts regelt**. **Subsidiär** gilt das StGB z. B. für Vergehen/Verbrechen, Versuch, Täterschaft/Teilnahme, Rechtfertigungs-/Schuldgründe und den **Besonderen Teil** (Straftatbestände). **Maßregeln** nur modifiziert (§§ 7, 106): **kein Berufsverbot**, Sicherungsverwahrung nur **vorbehalten**.",
+                     "titel": "Sonderstrafrecht als lex specialis"
+                  }
+               ]
+            }
+         ],
+         "titel": "Struktur des JGG"
+      },
+      {
+         "farbe": 290,
+         "id": "juj-s8-B",
+         "level": [
+            {
+               "id": "juj-s8-B1",
+               "titel": "Tat- vs. Tat-Täter-Strafrecht",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s8-B1-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "StGB",
+                                 "rechts": "Tat-Strafrecht, Maßstab Schuld (§ 46 I)"
+                              },
+                              {
+                                 "links": "JGG",
+                                 "rechts": "Tat-Täter-Strafrecht, Maßstab Erziehungsbedürfnisse (§ 2 I)"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Rechtsfolge nach StGB oder nach JGG?",
+                           "id": "juj-s8-B1-w1-a2",
+                           "items": [
+                              {
+                                 "kategorie": "StGB",
+                                 "text": "Geldstrafe"
+                              },
+                              {
+                                 "kategorie": "StGB",
+                                 "text": "Freiheitsstrafe"
+                              },
+                              {
+                                 "kategorie": "JGG",
+                                 "text": "Erziehungsmaßregeln"
+                              },
+                              {
+                                 "kategorie": "JGG",
+                                 "text": "Zuchtmittel"
+                              },
+                              {
+                                 "kategorie": "JGG",
+                                 "text": "Jugendstrafe"
+                              }
+                           ],
+                           "kategorien": [
+                              "StGB",
+                              "JGG"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "frage": "Ergänze die drei Rechtsfolgen des JGG mit ihren Paragrafen.",
+                           "id": "juj-s8-B1-w1-a3",
+                           "kopf": [
+                              "Rechtsfolge",
+                              "Vorschriften"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Erziehungsmaßregeln",
+                                       "Erziehungsmassregeln"
+                                    ]
+                                 },
+                                 "§§ 9 ff."
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Zuchtmittel"
+                                    ]
+                                 },
+                                 "§§ 13 ff."
+                              ],
+                              [
+                                 {
+                                    "akzeptiert": [
+                                       "Jugendstrafe"
+                                    ]
+                                 },
+                                 "§§ 17 ff."
+                              ]
+                           ]
+                        }
+                     ],
+                     "id": "juj-s8-B1-w1",
+                     "merke": "**StGB = Tat-Strafrecht:** Strafe beruht auf der verschuldeten Tat und bemisst sich nach der **Schuld (§ 46 I StGB)**. **JGG = Tat-Täter-Strafrecht:** Rechtsfolgen beruhen auf schuldhaftem Fehlverhalten (Tat), bemessen sich aber nach **Täterpersönlichkeit und Erziehungsbedürfnissen (§ 2 I JGG)**. **Rechtsfolgen StGB:** Geldstrafe, Freiheitsstrafe, Maßregeln. **Rechtsfolgen JGG (§ 5):** **Erziehungsmaßregeln (§§ 9 ff.)**, **Zuchtmittel (§§ 13 ff.)**, **Jugendstrafe (§§ 17 ff.)** – **keine Geldstrafe**.",
+                     "titel": "Unterschiede I"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s8-B1-w2-a1",
+                           "luecken": [
+                              [
+                                 "5",
+                                 "fünf"
+                              ],
+                              [
+                                 "10",
+                                 "zehn"
+                              ],
+                              [
+                                 "nicht"
+                              ]
+                           ],
+                           "text": "Die Höchststrafe der Jugendstrafe beträgt grundsätzlich {} Jahre, bei schwersten Verbrechen {} Jahre (§ 18 I 2 JGG). Die Strafrahmen des StGB gelten {} (§ 18 I 3 JGG).",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "frage": "Ordne den Hauptzweck zu.",
+                           "id": "juj-s8-B1-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "allgemeines Strafrecht",
+                                 "rechts": "v. a. Schuldausgleich"
+                              },
+                              {
+                                 "links": "Jugendstrafrecht",
+                                 "rechts": "v. a. Erziehung"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, nur Erziehungsmaßregeln, Zuchtmittel, Jugendstrafe.",
+                                 "richtig": true,
+                                 "text": "Im Jugendstrafrecht gibt es keine Geldstrafe."
+                              },
+                              {
+                                 "begruendung": "Nein, Höchstmaß der Jugendstrafe 10 Jahre (Heranwachsende bei Mord mit besonderer Schuldschwere 15 Jahre).",
+                                 "richtig": false,
+                                 "text": "Ein Jugendlicher kann für Mord lebenslange Freiheitsstrafe bekommen."
+                              },
+                              {
+                                 "begruendung": "Ja, soweit das JGG nichts regelt (§ 2 II).",
+                                 "richtig": true,
+                                 "text": "Im Jugendstrafverfahren gelten StPO und GVG nur ergänzend."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s8-B1-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s8-B1-w2",
+                     "merke": "**Strafrahmen:** Im StGB gelten die Strafrahmen des Besonderen Teils; im JGG **gelten sie nicht (§ 18 I 3)**. **Höchststrafe:** StGB 15 Jahre/lebenslang (§ 38); JGG grds. **5 Jahre**, bei schwersten Verbrechen **10 Jahre** Jugendstrafe (§ 18 I 2). **Zweck:** StGB v. a. **Schuldausgleich**; JGG v. a. **Erziehung**. **Verfahren:** StGB nach StPO/GVG; JGG mit **besonderen Gerichten (Jugendgerichten)** und besonderen Verfahrensregeln, sonst StPO/GVG. Beispiel: Für § 248b oder § 142 StGB droht Erwachsenen FS bis 3 J./Geldstrafe; Jugendliche erhalten z. B. Sozialstunden, Verkehrsunterricht oder Schadenswiedergutmachung.",
+                     "titel": "Unterschiede II"
+                  }
+               ]
+            }
+         ],
+         "titel": "StGB und JGG im Vergleich"
+      },
+      {
+         "farbe": 60,
+         "id": "juj-s8-C",
+         "level": [
+            {
+               "id": "juj-s8-C1",
+               "titel": "§ 2 I JGG",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne zu (§ 2 I JGG).",
+                           "id": "juj-s8-C1-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Ziel",
+                                 "rechts": "Legalbewährung (positive Individualprävention)"
+                              },
+                              {
+                                 "links": "Mittel",
+                                 "rechts": "Ausrichtung am Erziehungsgedanken"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (§ 2 I 1 JGG).",
+                           "id": "juj-s8-C1-w1-a2",
+                           "luecken": [
+                              [
+                                 "erneuten"
+                              ],
+                              [
+                                 "entgegenwirken"
+                              ]
+                           ],
+                           "text": "Die Anwendung des Jugendstrafrechts soll vor allem {} Straftaten eines Jugendlichen oder Heranwachsenden {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "seit 1923",
+                              "seit 1953",
+                              "seit 1990",
+                              "seit 2012"
+                           ],
+                           "fragen": [
+                              "Seit wann gibt es eine ausdrückliche Zielbestimmung im JGG?"
+                           ],
+                           "id": "juj-s8-C1-w1-a3",
+                           "richtig": [
+                              "seit dem 1.1.2008 (2. JGGÄndG)"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s8-C1-w1",
+                     "merke": "**Bis Ende 2007** keine ausdrückliche Zielbestimmung, nur aus Einzelnormen abgeleitet; BGHSt 36, 37: „Im Vordergrund steht der **Erziehungsgedanke** als Basis aller Regelungen des Jugendstrafrechts.“ **Seit 1.1.2008, § 2 I 1 JGG:** „Die Anwendung des Jugendstrafrechts soll **vor allem erneuten Straftaten** eines Jugendlichen oder Heranwachsenden **entgegenwirken**.“ → Ziel: **Legalbewährung (positive Individualprävention)**. **§ 2 I 2:** Rechtsfolgen und – unter Beachtung des elterlichen Erziehungsrechts – auch das Verfahren sind **vorrangig am Erziehungsgedanken** auszurichten → **Erziehung = zentrales Mittel**.",
+                     "titel": "Zielbestimmung seit 2008"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ist dieser Strafzweck im Jugendstrafrecht als Ziel zulässig?",
+                           "id": "juj-s8-C1-w2-a1",
+                           "items": [
+                              {
+                                 "kategorie": "Hauptziel",
+                                 "text": "positive Individualprävention (Legalbewährung)"
+                              },
+                              {
+                                 "kategorie": "nur Nebenziel/Reflex",
+                                 "text": "Schuldausgleich bei Jugendstrafe wegen Schwere der Schuld"
+                              },
+                              {
+                                 "kategorie": "nur Nebenziel/Reflex",
+                                 "text": "positive Generalprävention"
+                              },
+                              {
+                                 "kategorie": "unzulässig",
+                                 "text": "Abschreckung anderer Jugendlicher (negative Generalprävention)"
+                              }
+                           ],
+                           "kategorien": [
+                              "Hauptziel",
+                              "nur Nebenziel/Reflex",
+                              "unzulässig"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "falsch": [
+                              "Weil das GG Abschreckung generell verbietet.",
+                              "Weil Jugendliche nicht abschreckbar sind.",
+                              "Weil § 46 StGB das so vorsieht.",
+                              "Weil das BVerfG 2006 das entschieden hat."
+                           ],
+                           "fragen": [
+                              "Warum ist negative Generalprävention im Jugendstrafrecht unzulässig?"
+                           ],
+                           "id": "juj-s8-C1-w2-a2",
+                           "richtig": [
+                              "Weil § 2 I auf erneute Straftaten „eines Jugendlichen“, also des konkreten Täters, abstellt."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "vorrangig",
+                              "„vorrangig“"
+                           ],
+                           "frage": "Welches Wort in § 2 I 2 JGG lässt Schuldausgleich als Nebenziel zu?",
+                           "id": "juj-s8-C1-w2-a3",
+                           "musterloesung": "„vorrangig“ (am Erziehungsgedanken auszurichten).",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s8-C1-w2",
+                     "merke": "**Was?** **Positive Individualprävention als Hauptziel** – nur der **straffreie junge Mensch** ist Ziel; **negative Generalprävention ist unzulässig** („eines Jugendlichen“ = der konkrete Jugendliche); **positive Generalprävention** nur als **Reflex**. „**Vor allem**“ lässt in Einzelfällen andere Zwecke (Ahndung, Schuldausgleich) zu. **Wie?** **Orientierung am Erziehungsgedanken** (§ 2 I 2) – „**vorrangig**“ lässt z. B. **Schuldausgleich als Nebenziel** bei Jugendstrafe wegen **Schwere der Schuld** zu.",
+                     "titel": "Was ist erlaubt, was nicht?"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s8-C2",
+               "titel": "Der Erziehungsbegriff",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "umfassende Umerziehung zum „guten Menschen“",
+                              "Abschreckung der Allgemeinheit",
+                              "Vergeltung der Schuld",
+                              "Erziehung durch harte Strafen"
+                           ],
+                           "fragen": [
+                              "Welches Erziehungsverständnis hat das JGG?",
+                              "Was ist das Ziel der Erziehung im JGG?"
+                           ],
+                           "id": "juj-s8-C2-w1-a1",
+                           "richtig": [
+                              "individualpräventiv: zielgerichteter Versuch, erneuten Straftaten entgegenzuwirken"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "allgemeines Persönlichkeitsrecht",
+                              "wegen des allgemeinen Persönlichkeitsrechts",
+                              "Art. 2 I, 1 I GG",
+                              "Art. 2 I i.V.m. Art. 1 I GG"
+                           ],
+                           "frage": "Warum wäre eine umfassende (Um-)Erziehung durch das JGG unzulässig?",
+                           "id": "juj-s8-C2-w1-a2",
+                           "musterloesung": "Wegen des allgemeinen Persönlichkeitsrechts (Art. 2 I, 1 I GG).",
+                           "typ": "kurzfrage"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Jugendkriminalität ist immer Ausdruck schwerer Defizite",
+                              "Jugendliche werden ohne Strafe stets rückfällig"
+                           ],
+                           "frage": "Welche Erkenntnisse sprechen dafür, dass nicht jede Jugendstraftat Erziehungsbedarf zeigt?",
+                           "id": "juj-s8-C2-w1-a3",
+                           "richtig": [
+                              "Jugendkriminalität ist ubiquitär",
+                              "sie ist überwiegend episodenhaft (Einmalkriminalität)",
+                              "meist Spontanbewährung ohne formelle Intervention"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s8-C2-w1",
+                     "merke": "Das JGG hat **keine Legaldefinition** von Erziehung. Sozialwissenschaftlich: „**bewusst ergriffene Maßnahmen zur spezifischen Förderung der Persönlichkeit**“ (Durkheim: methodische Sozialisation). **Primär zuständig: die Eltern** (Art. 6 II 1 GG), der Staat nur als **Wächter** (Art. 6 II 2 GG). Das JGG verfolgt **keine umfassende (Um-)Erziehung** – das wäre wegen des **allgemeinen Persönlichkeitsrechts (Art. 2 I, 1 I GG) unzulässig**; Ziel ist nicht der „gute Mensch“, sondern nur **Legalbewährung**: **individualpräventives Erziehungsverständnis**. Grund auch: Jugendkriminalität ist **ubiquitär**, meist **episodenhaft** und endet oft durch **Spontanbewährung**.",
+                     "titel": "Erziehung im JGG"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne das Erziehungsverständnis der Zeit zu.",
+                           "id": "juj-s8-C2-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "1923",
+                                 "rechts": "Strafe als Erziehungsmittel, Zwangscharakter"
+                              },
+                              {
+                                 "links": "1991 (SGB VIII)",
+                                 "rechts": "Recht auf Förderung, freiwillige Leistung"
+                              },
+                              {
+                                 "links": "JGG heute (§ 2 I)",
+                                 "rechts": "individualpräventiv: Legalbewährung"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "1923 wurden Straftaten Jugendlicher als Ausdruck von Erziehungsbedürfnissen gedeutet."
+                              },
+                              {
+                                 "begruendung": "Nein, grundsätzlich freiwillige Leistung.",
+                                 "richtig": false,
+                                 "text": "Nach dem SGB VIII ist staatliche Erziehung grundsätzlich Zwang."
+                              },
+                              {
+                                 "begruendung": "Nein, es gibt keine Legaldefinition.",
+                                 "richtig": false,
+                                 "text": "Das JGG enthält eine Legaldefinition von „Erziehung“."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s8-C2-w2-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Erziehungsstrafe",
+                              "Strafe als Erziehungsmittel"
+                           ],
+                           "frage": "Wie nennt man das Konzept von 1923, nach dem Strafe selbst erzieht?",
+                           "id": "juj-s8-C2-w2-a3",
+                           "musterloesung": "Erziehungsstrafe (Strafe als Erziehungsmittel).",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "juj-s8-C2-w2",
+                     "merke": "**1923:** Konzept der **Strafe als Erziehungsmittel** (Erziehungsstrafe); Jugendstraftaten galten als Ausdruck von **Erziehungsbedürfnissen**; Erziehung hatte stets **Straf-/Zwangscharakter** (Jugendhilfe als Eingriffsverwaltung, JWG 1922). **1991 (SGB VIII):** neues Verständnis – **Förderung und Eigenverantwortlichkeit**; „Jeder junge Mensch hat ein **Recht auf Förderung** seiner Entwicklung …“ (§ 1 I SGB VIII); staatliche Erziehung als **grundsätzlich freiwillige Leistung**.",
+                     "titel": "Wandel des Erziehungsbegriffs"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s8-C-mix1",
+               "mix": [
+                  "juj-s8-C1",
+                  "juj-s8-C2"
+               ],
+               "titel": "🔀 Gemischt: Ziel und Erziehung"
+            }
+         ],
+         "titel": "Ziel des Jugendstrafrechts und Erziehung"
+      },
+      {
+         "farbe": 350,
+         "id": "juj-s8-D",
+         "level": [
+            {
+               "id": "juj-s8-D1",
+               "titel": "Probleme der Erziehungsausrichtung",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "30 % binnen 3 Jahren",
+                              "50 % binnen 10 Jahren",
+                              "65 % binnen 1 Jahr",
+                              "10 % binnen 6 Jahren"
+                           ],
+                           "fragen": [
+                              "Wie hoch ist laut Vorlesung die Rückfallrate nach Jugendstrafe?",
+                              "Welche Rückfallrate nennt die Vorlesung für die Jugendstrafe?"
+                           ],
+                           "id": "juj-s8-D1-w1-a1",
+                           "richtig": [
+                              "81 % binnen 6 Jahren"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "individualpräventives Dilemma",
+                              "Dilemma",
+                              "individualpraeventives Dilemma"
+                           ],
+                           "frage": "Wie nennt die Vorlesung das Problem, dass Verhaltensänderung durch Strafe kaum möglich ist?",
+                           "id": "juj-s8-D1-w1-a2",
+                           "musterloesung": "Individualpräventives Dilemma.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s8-D1-w1-a3",
+                           "segmente": [
+                              {
+                                 "text": "Jugendstrafrecht ist echtes Strafrecht."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Sie sind häufig **nicht** Ausdruck größerer Erziehungsdefizite; ein Eingriff ist **meist eher schädlich**.",
+                                 "text": "Mehrfache leichtere Normverletzungen zeigen stets große Erziehungsdefizite, sodass ein Eingriff immer nützt."
+                              },
+                              {
+                                 "text": "Niemand kann zu „seinem Besten“ gezwungen werden."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s8-D1-w1",
+                     "merke": "Jugendstrafrecht ist **echtes Strafrecht**: Seine Sanktionen sind **repressive Maßnahmen zur Normverdeutlichung**. **Individualpräventives Dilemma:** Verhaltensänderung durch Strafrecht (v. a. stationär) ist kaum möglich – **niemand kann zu „seinem Besten“ gezwungen werden**; z. B. **Rückfallrate nach Jugendstrafe: 81 % binnen 6 Jahren**. Erziehung zu einer eigenverantwortlichen, gemeinschaftsfähigen Persönlichkeit **durch Strafe ist illusorisch**. Auch mehrfache leichtere Taten zeigen oft **keine größeren Erziehungsdefizite** – ein Eingriff ist meist eher **schädlich**.",
+                     "titel": "Erziehung durch Strafe?"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "höhere Strafrahmen als im StGB",
+                              "Geldstrafen statt Erziehungsmaßregeln"
+                           ],
+                           "frage": "Worin zeigt sich die Schlechterstellung Jugendlicher gegenüber Erwachsenen?",
+                           "id": "juj-s8-D1-w2-a1",
+                           "richtig": [
+                              "eingriffsintensivere Sanktionen bei geringen bis mittleren Taten",
+                              "Eintrag ins Erziehungsregister bei Diversion",
+                              "eingeschränkte Rechtsmittel",
+                              "2- bis 4-fach höhere U-Haft-Quote"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "akzeptiert": [
+                              "apokryphe Haftgründe",
+                              "apokryphe Haftgruende",
+                              "apokryph"
+                           ],
+                           "frage": "Wie nennt man Haftgründe, die nicht offen im Gesetz stehen, aber faktisch die U-Haft begründen (z. B. Erziehung)?",
+                           "id": "juj-s8-D1-w2-a2",
+                           "musterloesung": "Apokryphe Haftgründe.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s8-D1-w2-a3",
+                           "luecken": [
+                              [
+                                 "2",
+                                 "zwei"
+                              ],
+                              [
+                                 "4",
+                                 "vier"
+                              ]
+                           ],
+                           "text": "Die U-Haft-Quote bei Jugendlichen ist {}- bis {}-fach höher als bei Erwachsenen.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s8-D1-w2",
+                     "merke": "„Im **Gewande der Erziehung**“ werden Jugendliche oft **schlechter gestellt**: **eingriffsintensivere Sanktionen** bei geringen bis mittleren Taten; bei Diversion **Eintrag ins Erziehungsregister**; **eingeschränkte Rechtsmittel**; **2- bis 4-fach höhere U-Haft-Quote** (**apokryphe Haftgründe**). **Fazit:** Unter dem **Deckmantel der Erziehung** lässt es sich leichter, mit ruhigem Gewissen strafen.",
+                     "titel": "Schlechterstellung gegenüber Erwachsenen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s8-D2",
+               "titel": "Lösungsansätze",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne den Lösungsansatz seiner Forderung zu.",
+                           "id": "juj-s8-D2-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "neo-konservativ",
+                                 "rechts": "Erwachsenenstrafrecht mit Milderungen"
+                              },
+                              {
+                                 "links": "Abolitionismus",
+                                 "rechts": "nur Jugendhilfe statt JGG"
+                              },
+                              {
+                                 "links": "neo-liberal",
+                                 "rechts": "ohne Erziehungsgedanke, tatproportionale Sanktionen"
+                              },
+                              {
+                                 "links": "konsensual",
+                                 "rechts": "Erziehung auf Legalbewährung beschränken"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "der neo-konservativen Lösung",
+                              "dem Abolitionismus",
+                              "der neo-liberalen Lösung",
+                              "keinem Ansatz"
+                           ],
+                           "fragen": [
+                              "Welchem Lösungsansatz folgt § 2 I JGG seit 2008?",
+                              "Welcher Lösungsansatz wurde mit der Reform 2007 (teilweise) umgesetzt?"
+                           ],
+                           "id": "juj-s8-D2-w1-a2",
+                           "richtig": [
+                              "der konsensualen Lösung"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne Vertreter/Beispiele zu.",
+                           "id": "juj-s8-D2-w1-a3",
+                           "paare": [
+                              {
+                                 "links": "Kusch (2006)",
+                                 "rechts": "neo-konservativ"
+                              },
+                              {
+                                 "links": "Japan, Schottland",
+                                 "rechts": "Abolitionismus"
+                              },
+                              {
+                                 "links": "H.-J. Albrecht, P.-A. Albrecht",
+                                 "rechts": "neo-liberal"
+                              },
+                              {
+                                 "links": "DVJJ",
+                                 "rechts": "konsensual"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        }
+                     ],
+                     "id": "juj-s8-D2-w1",
+                     "merke": "**Neo-konservativ:** JGG abschaffen, **Erwachsenenstrafrecht mit Milderungen** (Kusch 2006, viele US-Staaten). **Abolitionismus:** JGG abschaffen, **nur Jugendhilfe** (heute Japan, Schottland). **Neo-liberal:** **Erziehungsgedanke streichen**, Jugendstrafrecht mit **geringeren, aber tatproportionalen** Sanktionen (H.-J. und P.-A. Albrecht). **Konsensual:** Erziehungsausrichtung **modifizieren → nur Legalbewährung** (so seit 2008 in § 2 I); Schlechterstellung durch JGG-Änderungen lösbar (DVJJ). Die Reform 2007 griff **nur** den Teil **Erziehung → Legalbewährung** auf.",
+                     "titel": "Vier Lösungen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s8-D-mix1",
+               "mix": [
+                  "juj-s8-D1",
+                  "juj-s8-D2"
+               ],
+               "titel": "🔀 Gemischt: Probleme und Lösungen"
+            }
+         ],
+         "titel": "Probleme und Lösungsansätze"
+      },
+      {
+         "farbe": 120,
+         "id": "juj-s8-E",
+         "level": [
+            {
+               "id": "juj-s8-E1",
+               "titel": "Fünf Prinzipien des JGG",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Nenne die fünf Prinzipien des JGG.",
+                           "id": "juj-s8-E1-w1-a1",
+                           "kopf": [
+                              "Nr.",
+                              "Prinzip"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 3,
+                           "zeilen": [
+                              [
+                                 "1",
+                                 {
+                                    "akzeptiert": [
+                                       "Individualisierung"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "2",
+                                 {
+                                    "akzeptiert": [
+                                       "Flexibilität",
+                                       "Flexibilitaet"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "3",
+                                 {
+                                    "akzeptiert": [
+                                       "Subsidiarität",
+                                       "Subsidiaritaet"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "4",
+                                 {
+                                    "akzeptiert": [
+                                       "Nichtschlechterstellung",
+                                       "Nicht-Schlechterstellung",
+                                       "Verbot der Schlechterstellung"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "5",
+                                 {
+                                    "akzeptiert": [
+                                       "Beschleunigung",
+                                       "Beschleunigungsgebot"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "frage": "Welches Prinzip steckt dahinter?",
+                           "id": "juj-s8-E1-w1-a2",
+                           "items": [
+                              {
+                                 "kategorie": "Individualisierung",
+                                 "text": "Reaktion richtet sich allein nach der Person des Täters"
+                              },
+                              {
+                                 "kategorie": "Flexibilität",
+                                 "text": "kein fester Strafrahmen, breite Sanktionspalette"
+                              },
+                              {
+                                 "kategorie": "Flexibilität",
+                                 "text": "Verzicht auf die Vollstreckung von Jugendarrest"
+                              },
+                              {
+                                 "kategorie": "Subsidiarität",
+                                 "text": "ambulant vor stationär"
+                              },
+                              {
+                                 "kategorie": "Subsidiarität",
+                                 "text": "Diversion vor förmlichem Verfahren"
+                              }
+                           ],
+                           "kategorien": [
+                              "Individualisierung",
+                              "Flexibilität",
+                              "Subsidiarität"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Jugendstrafe vor Zuchtmitteln",
+                              "stationär vor ambulant"
+                           ],
+                           "frage": "Welche Vorrangregeln folgen aus dem Subsidiaritätsprinzip?",
+                           "id": "juj-s8-E1-w1-a3",
+                           "richtig": [
+                              "Diversion vor förmlichem Verfahren",
+                              "helfende vor repressiven Sanktionen",
+                              "ambulante vor stationären Sanktionen",
+                              "Bewährung vor unbedingter Jugendstrafe"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s8-E1-w1",
+                     "merke": "**Individualisierung:** Aus der Individualprävention folgt, dass jede Reaktion **allein an der Person** des Betroffenen ausgerichtet sein muss (Täterstrafrecht), ebenso möglichst das Verfahren. **Flexibilität:** **kein Strafrahmen**, breite Palette an Sanktionen; flexible Verfahren (U-Haft, vereinfachtes Verfahren) und Vollstreckung (z. B. Verzicht auf Arrestvollstreckung). **Subsidiarität:** Stufenverhältnis – **Diversion vor förmlichem Verfahren**, **helfend vor repressiv**, **ambulant vor stationär**, **Bewährung vor unbedingter Jugendstrafe**.",
+                     "titel": "Individualisierung, Flexibilität, Subsidiarität"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "durch § 2 I JGG",
+                              "durch § 1 JGG",
+                              "durch die Jugendgerichtshilfe",
+                              "durch § 105 JGG"
+                           ],
+                           "fragen": [
+                              "Wodurch durchbricht der Gesetzgeber selbst das Prinzip der Nichtschlechterstellung?"
+                           ],
+                           "id": "juj-s8-E1-w2-a1",
+                           "richtig": [
+                              "durch § 55 JGG (Rechtsmittelbeschränkung) und das Erziehungsregister"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Generalprävention",
+                              "Schuldausgleich"
+                           ],
+                           "frage": "Womit wird das Prinzip der Nichtschlechterstellung begründet?",
+                           "id": "juj-s8-E1-w2-a2",
+                           "richtig": [
+                              "teilweise Art. 3 I GG",
+                              "geringere Verteidigungsmöglichkeiten Jugendlicher",
+                              "höhere Sanktionsempfindlichkeit"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "In der Praxis wird das Prinzip v. a. bei Sanktionierung und U-Haft missachtet."
+                              },
+                              {
+                                 "begruendung": "Nein, durch § 55 JGG und das Erziehungsregister durchbrochen.",
+                                 "richtig": false,
+                                 "text": "Das Prinzip gilt ausnahmslos."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s8-E1-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s8-E1-w2",
+                     "merke": "**Grundsätzlich keine Schlechterstellung** Jugendlicher gegenüber Erwachsenen – z. T. aus **Art. 3 I GG**, vor allem wegen **geringerer Verteidigungsmöglichkeiten** und **höherer Sanktionsempfindlichkeit**. **Durchbrochen** vom Gesetzgeber durch **§ 55 JGG** (eingeschränkte Rechtsmittel) und das **Erziehungsregister**; in der Praxis v. a. bei **Sanktionierung und U-Haft missachtet**.",
+                     "titel": "Nichtschlechterstellung"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Immer Strafmilderung wie bei Erwachsenen.",
+                              "Das Verfahren ist dann einzustellen.",
+                              "Die Jugendstrafe ist zu verdoppeln.",
+                              "Die Frage stellt sich im JGG nicht."
+                           ],
+                           "fragen": [
+                              "Was entschied der BGH (NStZ 2003, 364) zur überlangen Verfahrensdauer bei Jugendstrafe wegen schädlicher Neigungen?",
+                              "Darf nach BGH NStZ 2003, 364 eine Jugendstrafe wegen schädlicher Neigungen wegen Verfahrensverzögerung gemildert werden?"
+                           ],
+                           "id": "juj-s8-E1-w3-a1",
+                           "richtig": [
+                              "Keine Kompensation, wenn dadurch die zur Erziehung erforderliche Dauer unterschritten würde."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Verstoß gegen § 2 II JGG",
+                              "Jugendliche haben keinen Anspruch auf ein faires Verfahren"
+                           ],
+                           "frage": "Welche Kritik gibt es an der BGH-Linie (NStZ 2003, 364)?",
+                           "id": "juj-s8-E1-w3-a2",
+                           "richtig": [
+                              "Schlechterstellung gegenüber Erwachsenen",
+                              "wird als unfair wahrgenommen, Jugendstrafe dann evtl. noch weniger wirksam",
+                              "Milderung ist auch sonst zulässig, z. B. § 21 StGB"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, die empirische Bewährung fehlt (z. B. Bliesener & Thomas 2012).",
+                                 "richtig": false,
+                                 "text": "Dass eine schnelle Reaktion besser wirkt, ist empirisch klar belegt."
+                              },
+                              {
+                                 "begruendung": "Ja, wegen des Erziehungsgedankens (BGH).",
+                                 "richtig": true,
+                                 "text": "Das Beschleunigungsgebot hat in Jugendsachen gesteigerte Bedeutung."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Art. 6 I 1 EMRK stützt das Beschleunigungsgebot."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s8-E1-w3-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s8-E1-w3",
+                     "merke": "**Beschleunigungsprinzip:** soll **Klarheit** über Vorwurf und Sanktion schaffen und die **Belastung minimieren** (im Ansatz § 43 I 1, § 72 V JGG; **Art. 6 I 1 EMRK**). Schnelle Reaktion soll auch der Individualprävention dienen („**Strafe soll der Tat auf dem Fuße folgen**“) – **empirisch aber nicht belegt** (Bliesener & Thomas 2012). **Problem:** Strafminderung wegen **überlanger Verfahrensdauer** auch bei Jugendstrafe wegen schädlicher Neigungen? **BGH NStZ 2003, 364 (3. Senat): nein** – der Ausgleich darf die zur Erziehung erforderliche Dauer nicht unterschreiten. **Kritik:** Schlechterstellung gegenüber Erwachsenen, als unfair empfunden, Milderung auch sonst zulässig (z. B. § 21 StGB); **zweifelnd** 1. und 4. Strafsenat.",
+                     "titel": "Beschleunigung"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s8-E2",
+               "titel": "Anwendungsbereich § 1 JGG",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Ja, immer.",
+                              "Nur bei Heranwachsenden.",
+                              "Nur im Straßenverkehr.",
+                              "Ja, als Zuchtmittel."
+                           ],
+                           "fragen": [
+                              "Fallen Ordnungswidrigkeiten unter das JGG?"
+                           ],
+                           "id": "juj-s8-E2-w1-a1",
+                           "richtig": [
+                              "Nein, weil sie nicht mit Strafe, sondern nur mit Bußgeld bedroht sind."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne zu (§ 1 II JGG).",
+                           "id": "juj-s8-E2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Jugendlicher",
+                                 "rechts": "14 bis unter 18 zur Tatzeit"
+                              },
+                              {
+                                 "links": "Heranwachsender",
+                                 "rechts": "18 bis unter 21 zur Tatzeit"
+                              },
+                              {
+                                 "links": "Kind",
+                                 "rechts": "unter 14, schuldunfähig (§ 19 StGB)"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "erklaerung": "Die Folie nennt nur „in dubio pro reo bzw. § 1 III“; dass die Behandlung als Jugendlicher regelmäßig die günstigere ist, ist eine Ableitung.",
+                           "fall": "Ali begeht kurz vor seinem 18. Geburtstag einen Raub. Sein genaues Geburtsdatum lässt sich nicht klären; ein Gutachten ergibt, dass er zur Tatzeit 17 oder 18 gewesen sein kann.",
+                           "frage": "Wie ist Ali zu behandeln?",
+                           "id": "juj-s8-E2-w1-a3",
+                           "kernpunkte": [
+                              "entscheidend ist das Alter zur Tatzeit (§ 1 II JGG)",
+                              "Klärung durch Sachverständigengutachten",
+                              "bleibt es unklar: in dubio pro reo",
+                              "also Behandlung als Jugendlicher (günstiger)"
+                           ],
+                           "musterloesung": "Maßgeblich ist das Alter zur Tatzeit (§ 1 II JGG). Kann es auch durch ein Sachverständigengutachten nicht geklärt werden, gilt in dubio pro reo: Ali ist so zu behandeln, wie es für ihn günstiger ist, also als Jugendlicher.",
+                           "pruefen": true,
+                           "typ": "fall"
+                        }
+                     ],
+                     "id": "juj-s8-E2-w1",
+                     "merke": "**Sachlich (§ 1 I):** Begehung einer **Jugendverfehlung** = eine nach allgemeinen Vorschriften **mit Strafe bedrohte** (rechtswidrige) Tat. **Ordnungswidrigkeiten** sind **nicht** erfasst (nur Bußgeld). **Persönlich (§ 1 I, II):** **Jugendliche** (14 bis unter 18) und **Heranwachsende** (18 bis unter 21) – bei Heranwachsenden gilt das Verfahren teils nach JGG, die Sanktionen ggf. (§§ 105, 107–110). **Entscheidend: Alter zur Tatzeit (§ 1 II).** Bei Unklarheit: Sachverständigengutachten, sonst **in dubio pro reo** bzw. § 1 III.",
+                     "titel": "Sachlich und persönlich"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s8-E-mix1",
+               "mix": [
+                  "juj-s8-E1",
+                  "juj-s8-E2"
+               ],
+               "titel": "🔀 Gemischt: Prinzipien und Anwendungsbereich"
+            }
+         ],
+         "titel": "Prinzipien und Anwendungsbereich"
+      }
+   ]
+}

@@ -1,0 +1,850 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s7",
+   "kurztitel": "Vorlesung 7",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "falsch": [
+               "ein einheitliches Jugendgesetzbuch",
+               "nur Jugendhilfe",
+               "nur Erwachsenenstrafrecht"
+            ],
+            "frage": "Welches System gilt seit 1922/23 im deutschen Jugendrecht?",
+            "id": "juj-s7-pk1",
+            "richtig": [
+               "das duale System aus Jugendstrafrecht und Jugendhilfe"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s7-A1-w1"
+            ]
+         },
+         {
+            "frage": "Jugendstrafrecht oder Jugendhilfe?",
+            "id": "juj-s7-pk2",
+            "items": [
+               {
+                  "kategorie": "Jugendstrafrecht",
+                  "text": "16-Jähriger stiehlt"
+               },
+               {
+                  "kategorie": "Jugendhilfe",
+                  "text": "11-Jährige stiehlt"
+               },
+               {
+                  "kategorie": "Jugendhilfe",
+                  "text": "Hilfe zur Erziehung mit 20"
+               }
+            ],
+            "kategorien": [
+               "Jugendstrafrecht",
+               "Jugendhilfe"
+            ],
+            "typ": "beispiel",
+            "wissen": [
+               "juj-s7-A1-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Jugendamt",
+               "das kommunale Jugendamt",
+               "kommunales Jugendamt"
+            ],
+            "frage": "Welche Behörde ist für die Jugendhilfe zuständig?",
+            "id": "juj-s7-pk3",
+            "musterloesung": "Das kommunale Jugendamt.",
+            "typ": "kurzfrage",
+            "wissen": [
+               "juj-s7-A1-w2"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken (§ 1 I SGB VIII).",
+            "id": "juj-s7-pk4",
+            "luecken": [
+               [
+                  "selbstbestimmte"
+               ],
+               [
+                  "gemeinschaftsfähige",
+                  "gemeinschaftsfaehige"
+               ]
+            ],
+            "text": "Ziel: eine {}, eigenverantwortliche und {} Persönlichkeit.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s7-A2-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s7-pk5",
+            "paare": [
+               {
+                  "links": "Art. 6 II 1 GG",
+                  "rechts": "Elternrecht und -pflicht"
+               },
+               {
+                  "links": "Art. 6 II 2 GG",
+                  "rechts": "staatliches Wächteramt"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s7-A2-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "mehr repressive Eingriffe",
+               "Einführung des Jugendarrests"
+            ],
+            "frage": "Was änderte das SGB VIII 1991?",
+            "id": "juj-s7-pk6",
+            "richtig": [
+               "Aufhebung der Fürsorgeerziehung",
+               "Freiwilligkeit der Leistungen",
+               "Ausbau der Leistungen"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s7-A2-w2"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Paradigmenwechsel"
+            ],
+            "frage": "Wie nennt die Vorlesung die grundlegende Neuausrichtung der Jugendhilfe durch das SGB VIII?",
+            "id": "juj-s7-pk7",
+            "musterloesung": "Paradigmenwechsel.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s7-A2-w2"
+            ]
+         },
+         {
+            "elemente": [
+               "Jugendarbeit",
+               "Hilfen zur Erziehung",
+               "Anrufung des Familiengerichts",
+               "Inobhutnahme"
+            ],
+            "frage": "Ordne nach steigendem Gefährdungsgrad.",
+            "id": "juj-s7-pk8",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s7-B1-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s7-pk9",
+            "paare": [
+               {
+                  "links": "§ 30 SGB VIII",
+                  "rechts": "Erziehungsbeistandschaft"
+               },
+               {
+                  "links": "§ 34 SGB VIII",
+                  "rechts": "Heimerziehung"
+               },
+               {
+                  "links": "§ 42 SGB VIII",
+                  "rechts": "Inobhutnahme"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s7-B1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Trennung von der Familie",
+               "Bestrafung",
+               "dauerhafte Heimunterbringung"
+            ],
+            "frage": "Was ist das Ziel der Erziehungsbeistandschaft?",
+            "id": "juj-s7-pk10",
+            "richtig": [
+               "Verselbständigung unter Erhalt des Lebensbezugs zur Familie"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s7-B1-w2"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s7-pk11",
+            "segmente": [
+               {
+                  "text": "Die Erziehungsbeistandschaft setzt eine Gefährdung der Entwicklung voraus."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Sie wird **im gewohnten Umfeld** erbracht; die Familie wird eingebunden.",
+                  "text": "Sie wird grundsätzlich in einem Heim erbracht."
+               },
+               {
+                  "text": "Betreut wird durch eine Bezugsperson außerhalb der Familie."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s7-B1-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "das Jugendamt dauerhaft",
+               "die Schule",
+               "der Erziehungsbeistand"
+            ],
+            "frage": "Wer darf eine Heimunterbringung gegen den Willen der Eltern anordnen?",
+            "id": "juj-s7-pk12",
+            "richtig": [
+               "ein Familien- oder Jugendrichter"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s7-B2-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "§ 16a JGG",
+               "§ 105 III JGG"
+            ],
+            "frage": "Welche JGG-Vorschriften erlauben eine Heimunterbringung?",
+            "id": "juj-s7-pk13",
+            "richtig": [
+               "§ 12 Nr. 2 JGG (Erziehungsmaßregel)",
+               "§ 71 II JGG (vorläufige Erziehungsanordnung)",
+               "§ 72 IV JGG (U-Haft-Vermeidung)"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s7-B2-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücke.",
+            "id": "juj-s7-pk14",
+            "luecken": [
+               [
+                  "48",
+                  "achtundvierzig"
+               ]
+            ],
+            "text": "Das Jugendamt darf nach § 42 V SGB VIII Freiheit höchstens {} Stunden entziehen.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s7-B2-w2"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Nein, § 1666 III ist nicht abschließend; alle erforderlichen und geeigneten Maßnahmen sind zulässig.",
+                  "richtig": false,
+                  "text": "§ 1666 BGB enthält einen abschließenden Maßnahmenkatalog."
+               },
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Das SGB VIII hat keine eigene Grundlage für dauerhafte Unterbringung."
+               }
+            ],
+            "frage": "Richtig oder falsch?",
+            "id": "juj-s7-pk15",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s7-B2-w2"
+            ]
+         },
+         {
+            "frage": "Erkläre das Verhältnis von Jugendstrafrecht und Jugendhilfe.",
+            "id": "juj-s7-pk16",
+            "kernpunkte": [
+               "duales System seit 1922/23 (RJWG/JGG), kein einheitliches Jugendgesetzbuch",
+               "Jugendstrafrecht: straffällige Jugendliche ab 14",
+               "Jugendhilfe: Kinder bis 14 (subsidiär danach), Hilfen zur Erziehung bis 21 (max. 24)",
+               "Jugendhilfe (SGB VIII seit 1991) freiwillig, nicht repressiv; Jugendamt zuständig"
+            ],
+            "musterloesung": "Seit 1922/23 (RJWG und JGG) gilt ein duales System; ein einheitliches Jugendgesetzbuch wurde nie verwirklicht. Das Jugendstrafrecht gilt für straffällige Jugendliche ab 14 und wird von Strafgerichten angewandt. Die Jugendhilfe ist für straffällige Kinder unter 14 (subsidiär auch danach) und für Hilfen zur Erziehung bis 21 (max. 24) zuständig; Träger ist das kommunale Jugendamt. Seit dem SGB VIII (1991) ist die Jugendhilfe nicht mehr repressiv: Die Fürsorgeerziehung wurde abgeschafft, die Leistungen sind freiwillig.",
+            "typ": "offen",
+            "wissen": [
+               "juj-s7-A1-w1",
+               "juj-s7-A2-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 7"
+   },
+   "quelle": [
+      "JuJ/7. Vorlesung JuJ.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Jugendstrafrecht und Jugendhilfe",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 160,
+         "id": "juj-s7-A",
+         "level": [
+            {
+               "id": "juj-s7-A1",
+               "titel": "Duales System heute",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Jugendstrafrecht oder Jugendhilfe?",
+                           "id": "juj-s7-A1-w1-a1",
+                           "items": [
+                              {
+                                 "kategorie": "Jugendstrafrecht",
+                                 "text": "15-Jähriger begeht einen Diebstahl"
+                              },
+                              {
+                                 "kategorie": "Jugendstrafrecht",
+                                 "text": "17-Jährige begeht eine Körperverletzung"
+                              },
+                              {
+                                 "kategorie": "Jugendhilfe",
+                                 "text": "12-Jähriger begeht einen Diebstahl"
+                              },
+                              {
+                                 "kategorie": "Jugendhilfe",
+                                 "text": "Hilfe zur Erziehung für eine 19-Jährige"
+                              }
+                           ],
+                           "kategorien": [
+                              "Jugendstrafrecht",
+                              "Jugendhilfe"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Das duale System von 1922/23 besteht bis heute."
+                              },
+                              {
+                                 "begruendung": "Nein, ein einheitliches Jugendgesetzbuch konnte bislang nicht verwirklicht werden.",
+                                 "richtig": false,
+                                 "text": "Seit 1991 gibt es ein einheitliches Jugendgesetzbuch."
+                              },
+                              {
+                                 "begruendung": "Ja, regulär bis 21, max. 24.",
+                                 "richtig": true,
+                                 "text": "Hilfen zur Erziehung sind bis maximal zum 24. Geburtstag möglich."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s7-A1-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s7-A1-w1-a3",
+                           "luecken": [
+                              [
+                                 "14"
+                              ],
+                              [
+                                 "21"
+                              ],
+                              [
+                                 "24"
+                              ]
+                           ],
+                           "text": "Jugendhilfe ist zuständig für straffällige Kinder bis zum {}. Geburtstag; Hilfen zur Erziehung gibt es bis zum {}. (max. {}.) Geburtstag.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s7-A1-w1",
+                     "merke": "Das **1922/23 etablierte duale System** besteht bis heute; ein **einheitliches Jugendgesetzbuch** wurde **nie verwirklicht**. **Jugendstrafrecht:** für straffällige Jugendliche **ab dem 14. Geburtstag**. **Jugendhilfe:** für straffällige **Kinder bis 14** (subsidiär auch danach); **Hilfen zur Erziehung** von Geburt bis zum **21.** (max. **24.**) Geburtstag.",
+                     "titel": "Jugendstrafrecht und Jugendhilfe"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "das Jugendgericht",
+                              "die Staatsanwaltschaft",
+                              "das Bundesfamilienministerium",
+                              "die Polizei"
+                           ],
+                           "fragen": [
+                              "Wer ist für die Jugendhilfe zuständig?"
+                           ],
+                           "id": "juj-s7-A1-w2-a1",
+                           "richtig": [
+                              "das kommunale Jugendamt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "nur die Strafverfolgung junger Täter",
+                              "nur die Heimunterbringung",
+                              "alle Maßnahmen der Schule",
+                              "die Bestrafung durch das Familiengericht"
+                           ],
+                           "fragen": [
+                              "Wie definiert die Vorlesung Jugendhilfe?",
+                              "Was umfasst Jugendhilfe als Oberbegriff?"
+                           ],
+                           "id": "juj-s7-A1-w2-a2",
+                           "richtig": [
+                              "alle behördlichen Maßnahmen zur Förderung des Wohlergehens der Jugend durch Jugendpflege und Hilfen zur Erziehung"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "ausreisser": [
+                              "Jugendamt",
+                              "Erziehungsbeistand",
+                              "Jugendsozialarbeit"
+                           ],
+                           "frage": "Was ist keine „andere Institution“, die Jugendhilfe nach § 10 SGB VIII vorgeht?",
+                           "gehoert": [
+                              "Schule",
+                              "Arbeitsschutz",
+                              "Gesundheitspflege",
+                              "Jugendgerichtsbarkeit"
+                           ],
+                           "id": "juj-s7-A1-w2-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "juj-s7-A1-w2",
+                     "merke": "**Jugendhilfe** = **alle behördlichen Maßnahmen zur Förderung des Wohlergehens der Jugend** durch **Jugendpflege** und **Hilfen zur Erziehung** (Oberbegriff): allgemeine Arbeit (Bildungs-/Betreuungsangebote) und konkrete Hilfen in Problemlagen. **Zuständig:** das **kommunale Jugendamt**. **Einsatzbereich:** alle Erziehungs- und Bildungsbereiche, die **nicht von anderen Institutionen** wahrgenommen werden (§ 10 SGB VIII) – andere sind v. a. Schule, Arbeitsschutz, Gesundheitspflege, Familienrecht, Jugendgerichtsbarkeit und -strafvollzug.",
+                     "titel": "Was ist Jugendhilfe?"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s7-A2",
+               "titel": "SGB VIII: Grundlagen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Fülle die Lücken (§ 1 I SGB VIII).",
+                           "gruppen": [
+                              [
+                                 0,
+                                 1
+                              ]
+                           ],
+                           "id": "juj-s7-A2-w1-a1",
+                           "luecken": [
+                              [
+                                 "eigenverantwortliche"
+                              ],
+                              [
+                                 "gemeinschaftsfähige",
+                                 "gemeinschaftsfaehige"
+                              ]
+                           ],
+                           "text": "Ziel ist eine selbstbestimmte, {} und {} Persönlichkeit.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s7-A2-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "§ 1 II 1 SGB VIII",
+                                 "rechts": "Erziehung als Elternrecht und -pflicht (Art. 6 II 1 GG)"
+                              },
+                              {
+                                 "links": "§ 1 II 2 SGB VIII",
+                                 "rechts": "staatliches Wächteramt (Art. 6 II 2 GG)"
+                              },
+                              {
+                                 "links": "§ 1666 BGB",
+                                 "rechts": "Eingriff des Familiengerichts bei Kindeswohlgefährdung"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Sie ersetzt die Eltern grundsätzlich.",
+                              "Sie bestraft die Eltern.",
+                              "Sie hat keinerlei Bezug zu den Eltern.",
+                              "Sie entscheidet allein über das Sorgerecht."
+                           ],
+                           "fragen": [
+                              "Welche Rolle hat die Jugendhilfe gegenüber den Eltern?",
+                              "Wie verhält sich die Jugendhilfe zum Erziehungsrecht der Eltern?"
+                           ],
+                           "id": "juj-s7-A2-w1-a3",
+                           "richtig": [
+                              "Sie unterstützt und ergänzt ggf. die elterliche Erziehung."
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s7-A2-w1",
+                     "merke": "**§ 1 I SGB VIII (Ziel):** eine **selbstbestimmte, eigenverantwortliche und gemeinschaftsfähige Persönlichkeit** (→ Individuation und Integration). **§ 1 II 1:** Erziehung ist **Elternrecht und -pflicht** (= **Art. 6 II 1 GG**); Jugendhilfe **unterstützt, ggf. ergänzt**; ggf. Eingriff nach **§ 1666 BGB** (Familiengericht). **§ 1 II 2:** **staatliches Wächteramt** (= **Art. 6 II 2 GG**) zur Verhinderung (weiterer) **Kindeswohlgefährdung**. **§ 1 III:** Aufgaben der Jugendhilfe.",
+                     "titel": "§ 1 SGB VIII"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Einführung des Jugendarrests",
+                              "Pflicht zur Heimerziehung"
+                           ],
+                           "frage": "Was kennzeichnet den Paradigmenwechsel durch das SGB VIII (1991)?",
+                           "id": "juj-s7-A2-w2-a1",
+                           "richtig": [
+                              "Aufhebung der Fürsorgeerziehung",
+                              "keine repressiven Eingriffstatbestände",
+                              "Ausbau der Leistungen",
+                              "Freiwilligkeit der Leistungsannahme"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s7-A2-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "Jugendarbeit und Jugendsozialarbeit",
+                                 "rechts": "fördernd, regulär"
+                              },
+                              {
+                                 "links": "Hilfen zur Erziehung",
+                                 "rechts": "helfend, bei Problemen"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s7-A2-w2-a3",
+                           "segmente": [
+                              {
+                                 "text": "Das SGB VIII trat 1991 in Kraft."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Es **hob die Fürsorgeerziehung auf**; repressive Eingriffstatbestände gibt es nicht mehr.",
+                                 "text": "Es baute die Fürsorgeerziehung als zentrales Eingriffsmittel aus."
+                              },
+                              {
+                                 "text": "Die Annahme der Leistungen ist freiwillig."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s7-A2-w2",
+                     "merke": "Das **SGB VIII (1991)** markierte einen **Paradigmenwechsel**: **Aufhebung der Fürsorgeerziehung**, **keine repressiven Eingriffstatbestände** mehr; **Ausbau der Leistungen** (institutionelle Angebote wie Kindergarten, sozialer Trainingskurs; individuelle Hilfe zur Erziehung); **Freiwilligkeit** der Leistungsannahme; Unterscheidung **Jugendarbeit/Jugendsozialarbeit** (fördernd, regulär) und **Hilfen zur Erziehung** (helfend, bei Problemen).",
+                     "titel": "Paradigmenwechsel 1991"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s7-A-mix1",
+               "mix": [
+                  "juj-s7-A1",
+                  "juj-s7-A2"
+               ],
+               "titel": "🔀 Gemischt: Jugendhilfe und SGB VIII"
+            }
+         ],
+         "titel": "Jugendhilfe und SGB VIII"
+      },
+      {
+         "farbe": 40,
+         "id": "juj-s7-B",
+         "level": [
+            {
+               "id": "juj-s7-B1",
+               "titel": "Leistungen nach Gefährdungsgrad",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "Jugendarbeit (§ 11)",
+                              "Jugendsozialarbeit (§ 13)",
+                              "Hilfen zur Erziehung (§§ 27 ff.)",
+                              "Anrufung des Familiengerichts (§ 1666 BGB)",
+                              "Inobhutnahme (§ 42)"
+                           ],
+                           "frage": "Ordne die Reaktionen nach steigendem Gefährdungsgrad.",
+                           "id": "juj-s7-B1-w1-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "frage": "Ordne die Hilfe zur Erziehung ihrer Vorschrift im SGB VIII zu.",
+                           "id": "juj-s7-B1-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Erziehungsberatung",
+                                 "rechts": "§ 28"
+                              },
+                              {
+                                 "links": "Erziehungsbeistandschaft",
+                                 "rechts": "§ 30"
+                              },
+                              {
+                                 "links": "sozialpädagogische Familienhilfe",
+                                 "rechts": "§ 31"
+                              },
+                              {
+                                 "links": "Heimerziehung",
+                                 "rechts": "§ 34"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "Jugendarbeit (§ 11 SGB VIII)",
+                              "Erziehungsberatung (§ 28 SGB VIII)",
+                              "Familienbildung (§ 16 SGB VIII)",
+                              "Jugendarrest"
+                           ],
+                           "fragen": [
+                              "Welche Reaktion ist bei einer dringenden Gefährdung des Kindes durch seinen Aufenthalt vorgesehen?"
+                           ],
+                           "id": "juj-s7-B1-w1-a3",
+                           "richtig": [
+                              "Inobhutnahme (§ 42 SGB VIII)"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s7-B1-w1",
+                     "merke": "Hilfe des Jugendamts **nach Gefährdungsgrad** (Kunkel): **ohne Gefährdung** → **Jugendarbeit** (§ 11); **abstrakte Gefährdung** → Familienbildung/-beratung (§ 16), **Jugendsozialarbeit** (§ 13); **konkrete einfache Gefährdung** + Erziehungsmangel → **Hilfen zur Erziehung** (§§ 27 ff.); **schwerwiegende Gefährdung** i. S. v. **§ 1666 BGB** → bei Weigerung **Anrufung des Familiengerichts**; **dringende Gefährdung** durch den Aufenthalt → **Inobhutnahme** (§ 42), ggf. mit Polizei. Beispiele für Hilfen zur Erziehung: Erziehungsberatung (§ 28), soziale Gruppenarbeit (§ 29), **Erziehungsbeistand** (§ 30), sozialpädagogische Familienhilfe (§ 31), Tagesgruppe (§ 32), **Heimerziehung** (§ 34).",
+                     "titel": "Vom Angebot bis zur Inobhutnahme"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "in einem geschlossenen Heim",
+                              "in einer Jugendarrestanstalt",
+                              "nur in der Schule",
+                              "im Jugendstrafvollzug"
+                           ],
+                           "fragen": [
+                              "Wo wird die Erziehungsbeistandschaft erbracht?",
+                              "Was kennzeichnet die Erziehungsbeistandschaft nach § 30 SGB VIII?"
+                           ],
+                           "id": "juj-s7-B1-w2-a1",
+                           "richtig": [
+                              "im gewohnten Umfeld, unter Einbindung der Familie"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Erziehungsbeistand",
+                              "Betreuungshelfer",
+                              "ein Erziehungsbeistand oder Betreuungshelfer",
+                              "Bezugsperson außerhalb der Familie"
+                           ],
+                           "frage": "Wer betreut den Jugendlichen bei der Erziehungsbeistandschaft?",
+                           "id": "juj-s7-B1-w2-a2",
+                           "musterloesung": "Ein Erziehungsbeistand oder Betreuungshelfer des Jugendamts als Bezugsperson außerhalb der Familie.",
+                           "typ": "kurzfrage"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "setzt eine Gefährdung der Entwicklung des Jugendlichen voraus."
+                              },
+                              {
+                                 "begruendung": "Nein, der Lebensbezug zur Familie soll erhalten bleiben.",
+                                 "richtig": false,
+                                 "text": "löst den Jugendlichen bewusst von seiner Familie."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "fördert die Verselbständigung."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Erziehungsbeistandschaft …",
+                           "id": "juj-s7-B1-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s7-B1-w2",
+                     "merke": "**Voraussetzung:** **Gefährdung der Entwicklung** des Jugendlichen. **Ziel:** Unterstützung bei der Bewältigung der Entwicklungsprobleme **unter Einbeziehung des sozialen Umfelds**; Förderung der **Verselbständigung unter Erhalt des Lebensbezugs zur Familie** – die Hilfe wird **im gewohnten Umfeld** erbracht, die Familie wird eingebunden. **Mittel:** Betreuung durch einen **Erziehungsbeistand oder Betreuungshelfer** des Jugendamts (**Bezugsperson außerhalb der Familie**).",
+                     "titel": "Erziehungsbeistandschaft § 30 SGB VIII"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s7-B2",
+               "titel": "Heimerziehung und Freiheitsentzug",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "das Jugendamt allein",
+                              "die Schule",
+                              "die Polizei",
+                              "der Erziehungsbeistand"
+                           ],
+                           "fragen": [
+                              "Wer darf eine Heimunterbringung gegen den Willen der Sorgeberechtigten anordnen?"
+                           ],
+                           "id": "juj-s7-B2-w1-a1",
+                           "richtig": [
+                              "nur ein Familien- oder Jugendrichter"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Grundlage im Jugendhilferecht oder im Jugendstrafrecht?",
+                           "id": "juj-s7-B2-w1-a2",
+                           "items": [
+                              {
+                                 "kategorie": "Jugendhilfe",
+                                 "text": "§§ 1666, 1666a BGB (Kindeswohlgefährdung)"
+                              },
+                              {
+                                 "kategorie": "Jugendhilfe",
+                                 "text": "Inobhutnahme § 42 SGB VIII"
+                              },
+                              {
+                                 "kategorie": "Jugendstrafrecht",
+                                 "text": "Erziehungsmaßregel § 12 Nr. 2 JGG"
+                              },
+                              {
+                                 "kategorie": "Jugendstrafrecht",
+                                 "text": "vorläufige Erziehungsanordnung § 71 II JGG"
+                              },
+                              {
+                                 "kategorie": "Jugendstrafrecht",
+                                 "text": "U-Haft-Vermeidung § 72 IV JGG"
+                              }
+                           ],
+                           "kategorien": [
+                              "Jugendhilfe",
+                              "Jugendstrafrecht"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Heimerziehung nach § 34 SGB VIII ist grundsätzlich freiwillig."
+                              },
+                              {
+                                 "begruendung": "Ja, § 42 I Nr. 1 SGB VIII.",
+                                 "richtig": true,
+                                 "text": "Ein Kind kann selbst um Inobhutnahme bitten."
+                              },
+                              {
+                                 "begruendung": "Nein, nur Familien- oder Jugendrichter; das Jugendamt nur max. 48 Std. (§ 42 V).",
+                                 "richtig": false,
+                                 "text": "Das Jugendamt kann allein eine dauerhafte geschlossene Unterbringung anordnen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s7-B2-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s7-B2-w1",
+                     "merke": "Unterbringung grundsätzlich **nur freiwillig** als **Heimerziehung** im Rahmen der Hilfe zur Erziehung (**§ 34 SGB VIII**, § 1631b BGB). **Gegen den Willen** der Sorgeberechtigten/Betroffenen **nur durch Familien- oder Jugendrichter**: in der **Jugendhilfe** bei Kindeswohlgefährdung (**§§ 1666, 1666a BGB**) oder bei **Inobhutnahme** (§ 42 I Nr. 1 auf Bitten des Kindes, Nr. 2 bei dringender Gefahr); im **Jugendstrafrecht** als **Erziehungsmaßregel (§ 12 Nr. 2 JGG)**, **vorläufige Erziehungsanordnung (§ 71 II JGG)** oder zur **U-Haft-Vermeidung (§ 72 IV JGG)**.",
+                     "titel": "Heimerziehung § 34 SGB VIII"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s7-B2-w2-a1",
+                           "luecken": [
+                              [
+                                 "48",
+                                 "achtundvierzig"
+                              ],
+                              [
+                                 "Familiengericht"
+                              ]
+                           ],
+                           "text": "Nach § 42 V SGB VIII darf das Jugendamt Freiheit höchstens {} Stunden entziehen; danach entscheidet das {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "Ja, in § 34 SGB VIII.",
+                              "Ja, in § 30 SGB VIII.",
+                              "Ja, als Fürsorgeerziehung.",
+                              "Ja, durch das Jugendamt nach eigenem Ermessen."
+                           ],
+                           "fragen": [
+                              "Enthält das SGB VIII eine eigene Grundlage für dauerhafte Unterbringung?"
+                           ],
+                           "id": "juj-s7-B2-w2-a2",
+                           "richtig": [
+                              "Nein, anders als das frühere JWG mit Fürsorgeerziehung bei „Verwahrlosung“."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "fall": "Nachts greift die Polizei die 13-jährige Mia auf, die unter Drogeneinfluss an einer Autobahn umherirrt. Die Eltern sind nicht erreichbar. Das Jugendamt bringt sie in eine geschlossene Einrichtung.",
+                           "frage": "Ist das zulässig und wie lange?",
+                           "id": "juj-s7-B2-w2-a3",
+                           "kernpunkte": [
+                              "Inobhutnahme wegen dringender Gefahr (§ 42 I Nr. 2 SGB VIII)",
+                              "Freiheitsentzug zur Abwendung einer Gefahr für Leib oder Leben (§ 42 V)",
+                              "max. 48 Stunden durch das Jugendamt",
+                              "danach Entscheidung des Familiengerichts (§§ 1666, 1666a BGB)"
+                           ],
+                           "musterloesung": "Ja: Es besteht eine dringende Gefahr für Mias Wohl, daher ist eine Inobhutnahme nach § 42 I Nr. 2 SGB VIII möglich. Freiheitsentziehende Maßnahmen sind nach § 42 V SGB VIII zur Abwendung einer Gefahr für Leib oder Leben zulässig, aber durch das Jugendamt höchstens 48 Stunden. Danach muss das Familiengericht nach §§ 1666, 1666a BGB entscheiden.",
+                           "typ": "fall"
+                        }
+                     ],
+                     "id": "juj-s7-B2-w2",
+                     "merke": "Freiheitsentziehende Maßnahmen sind nur zulässig: (1) zur **Abwendung einer Gefahr für Leib oder Leben** des Betroffenen oder Dritter (**§ 42 V SGB VIII**) – **max. 48 Stunden durch das Jugendamt**, danach Entscheidung des **Familiengerichts** (§§ 1666, 1666a BGB); (2) wenn die **Gefährdung des Kindeswohls** es erfordert (**§§ 1666, 1666a BGB**) – unbestimmter Rechtsbegriff, **kein abschließender Maßnahmenkatalog** (§ 1666 III). Also: Das SGB VIII hat **keine eigene Grundlage für dauerhafte Unterbringung** (anders das JWG mit Fürsorgeerziehung bei „Verwahrlosung“).",
+                     "titel": "Freiheitsentziehende Maßnahmen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s7-B-mix1",
+               "mix": [
+                  "juj-s7-B1",
+                  "juj-s7-B2"
+               ],
+               "titel": "🔀 Gemischt: Hilfen und Eingriffe"
+            }
+         ],
+         "titel": "Hilfen und Eingriffe"
+      }
+   ]
+}

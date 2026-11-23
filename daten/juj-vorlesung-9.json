@@ -1,0 +1,820 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s9",
+   "kurztitel": "Vorlesung 9",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "falsch": [
+               "Nein, der Erziehungsgedanke geht vor.",
+               "Nur bei Heranwachsenden.",
+               "Nur in der Berufung."
+            ],
+            "frage": "Gelten vor Jugendgerichten alle verfassungsmäßigen Rechte Erwachsener?",
+            "id": "juj-s9-pk1",
+            "richtig": [
+               "Ja, Jugendgerichte sind kein rechtsfreier Raum."
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s9-A1-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s9-pk2",
+            "paare": [
+               {
+                  "links": "Strafrichter",
+                  "rechts": "Jugendrichter"
+               },
+               {
+                  "links": "Schöffengericht",
+                  "rechts": "Jugendschöffengericht"
+               },
+               {
+                  "links": "große Strafkammer",
+                  "rechts": "große Jugendkammer"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s9-A1-w2"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja, am AG und LG.",
+                  "richtig": true,
+                  "text": "Jugendgerichte gibt es nur in der Tatsacheninstanz."
+               },
+               {
+                  "begruendung": "Ja, § 102 JGG.",
+                  "richtig": true,
+                  "text": "Bei terroristischen Straftaten kann das OLG erstinstanzlich zuständig sein."
+               }
+            ],
+            "frage": "Richtig oder falsch?",
+            "id": "juj-s9-pk3",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s9-A1-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "bis 2 Jahre",
+               "bis 5 Jahre",
+               "unbeschränkt"
+            ],
+            "frage": "Bis zu welcher Höhe darf der Jugendrichter Jugendstrafe verhängen?",
+            "id": "juj-s9-pk4",
+            "richtig": [
+               "bis 1 Jahr"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s9-A2-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "bewegliche Zuständigkeit",
+               "bewegliche"
+            ],
+            "frage": "Wie nennt man die Zuständigkeit des Jugendrichters, die von der Anklage der StA abhängt?",
+            "id": "juj-s9-pk5",
+            "musterloesung": "Bewegliche (durch die StA gesteuerte) Zuständigkeit.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s9-A2-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "der Jugendrichter",
+               "Jugendrichter"
+            ],
+            "frage": "Wer entscheidet im Ermittlungsverfahren gegen einen Jugendlichen über U-Haft?",
+            "id": "juj-s9-pk6",
+            "musterloesung": "Der Jugendrichter (§ 34 I JGG), nicht der allgemeine Haftrichter.",
+            "typ": "kurzfrage",
+            "wissen": [
+               "juj-s9-A2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "immer bei Mord",
+               "nur bei Berufungen",
+               "nur bei Kindern"
+            ],
+            "frage": "Wann ist das Jugendschöffengericht zuständig?",
+            "id": "juj-s9-pk7",
+            "richtig": [
+               "wenn weder Jugendrichter noch Jugendkammer zuständig sind"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s9-B1-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücke.",
+            "id": "juj-s9-pk8",
+            "luecken": [
+               [
+                  "5",
+                  "fünf"
+               ]
+            ],
+            "text": "Jugendschöffen werden für {} Jahre gewählt.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s9-B1-w1"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Ordnungswidrigkeiten",
+               "Revisionen"
+            ],
+            "frage": "Wofür ist die Jugendkammer zuständig?",
+            "id": "juj-s9-pk9",
+            "richtig": [
+               "Schwurgerichtssachen",
+               "Berufungen gegen Urteile von Jugendrichter/Jugendschöffengericht",
+               "Vorlage durch das Jugendschöffengericht"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s9-B1-w2"
+            ]
+         },
+         {
+            "frage": "Ordne die Besetzung zu.",
+            "id": "juj-s9-pk10",
+            "paare": [
+               {
+                  "links": "kleine Jugendkammer",
+                  "rechts": "1 Jugendrichter + 2 Schöffen"
+               },
+               {
+                  "links": "große Jugendkammer",
+                  "rechts": "grds. 3 Jugendrichter + 2 Schöffen"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s9-B1-w2"
+            ]
+         },
+         {
+            "frage": "Ergänze die Vorschriften zur sachlichen Zuständigkeit.",
+            "id": "juj-s9-pk11",
+            "kopf": [
+               "Gericht",
+               "Vorschrift"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s9-A2-w1",
+               "juj-s9-B1-w1",
+               "juj-s9-B1-w2"
+            ],
+            "zeigen": 3,
+            "zeilen": [
+               [
+                  "Jugendrichter",
+                  {
+                     "akzeptiert": [
+                        "§ 39",
+                        "§ 39 JGG",
+                        "39"
+                     ]
+                  }
+               ],
+               [
+                  "Jugendschöffengericht",
+                  {
+                     "akzeptiert": [
+                        "§ 40",
+                        "§ 40 JGG",
+                        "40"
+                     ]
+                  }
+               ],
+               [
+                  "Jugendkammer",
+                  {
+                     "akzeptiert": [
+                        "§ 41",
+                        "§ 41 JGG",
+                        "41"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "frage": "Ordne die Gerichtsstände des § 42 I JGG zu.",
+            "id": "juj-s9-pk12",
+            "paare": [
+               {
+                  "links": "Nr. 1",
+                  "rechts": "Familiengericht"
+               },
+               {
+                  "links": "Nr. 2",
+                  "rechts": "freiwilliger Aufenthaltsort"
+               },
+               {
+                  "links": "Nr. 3",
+                  "rechts": "Vollstreckungsleiter"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s9-B2-w1"
+            ]
+         },
+         {
+            "elemente": [
+               "Nr. 3",
+               "Nr. 1",
+               "Nr. 2"
+            ],
+            "frage": "Rangfolge der Gerichtsstände nach § 42 JGG.",
+            "id": "juj-s9-pk13",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s9-B2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "nach dem Wohnort",
+               "nach dem Geschlecht",
+               "nach dem Alter der Opfer"
+            ],
+            "frage": "Wonach richtet sich die sachliche Zuständigkeit?",
+            "id": "juj-s9-pk14",
+            "richtig": [
+               "nach Art und Schwere der zu erwartenden Sanktion"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s9-B2-w1"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s9-pk15",
+            "segmente": [
+               {
+                  "text": "Der Jugendrichter ist zuständig, wenn nur Erziehungsmaßregeln oder Zuchtmittel zu erwarten sind."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Er darf Jugendstrafe nur **bis zu 1 Jahr** verhängen (§ 39 II JGG).",
+                  "text": "Er darf Jugendstrafe bis zu 4 Jahren verhängen."
+               },
+               {
+                  "text": "Er soll zugleich Familienrichter sein."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s9-A2-w1"
+            ]
+         },
+         {
+            "erklaerung": "Fall selbst gebildet aus den Folien; ob schwerer Raub unter § 41 I Nr. 5 JGG fallen kann, bitte prüfen.",
+            "fall": "Die 16-jährige B ist wegen mehrerer Raubtaten vorbestraft und hat bereits Jugendarrest verbüßt. Nun begeht sie erneut einen schweren Raub. Die StA erwartet eine Jugendstrafe von etwa 2 Jahren wegen schädlicher Neigungen.",
+            "frage": "Vor welchem Gericht erhebt die StA Anklage?",
+            "id": "juj-s9-pk16",
+            "kernpunkte": [
+               "Jugendliche → Jugendgericht",
+               "Jugendrichter scheidet aus: Jugendstrafe > 1 Jahr zu erwarten (§ 39)",
+               "keine Schwurgerichtssache, keine Vorlage → nicht Jugendkammer",
+               "Jugendschöffengericht (§ 40, Allgemeinzuständigkeit)"
+            ],
+            "musterloesung": "B ist Jugendliche, also ist ein Jugendgericht zuständig. Der Jugendrichter scheidet aus, da eine Jugendstrafe über 1 Jahr zu erwarten ist (§ 39 JGG). Raub ist keine Schwurgerichtssache, und es liegt keine Vorlage vor; die Jugendkammer ist daher nicht zuständig. Zuständig ist das Jugendschöffengericht (§ 40 JGG, Allgemeinzuständigkeit).",
+            "pruefen": true,
+            "typ": "fall",
+            "wissen": [
+               "juj-s9-A2-w1",
+               "juj-s9-B1-w1",
+               "juj-s9-B1-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 9"
+   },
+   "quelle": [
+      "JuJ/9. Vorlesung JuJ.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Jugendgerichtsverfassung und Zuständigkeit",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 190,
+         "id": "juj-s9-A",
+         "level": [
+            {
+               "id": "juj-s9-A1",
+               "titel": "Grundlagen der Jugendgerichtsverfassung",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Ja, der Erziehungsgedanke geht vor.",
+                              "Ja, aber nur beim Schweigerecht.",
+                              "Nur bei Heranwachsenden.",
+                              "Nur mit Zustimmung der Eltern."
+                           ],
+                           "fragen": [
+                              "Dürfen Jugendgerichte wegen der Erziehungsausrichtung auf Verfassungsgrundsätze wie den gesetzlichen Richter verzichten?"
+                           ],
+                           "id": "juj-s9-A1-w1-a1",
+                           "richtig": [
+                              "Nein, Jugendgerichte sind Teil der Strafjustiz; alle Rechte Erwachsener gelten."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, sie sind Abteilungen der Strafgerichte (BGHSt 18, 79).",
+                                 "richtig": true,
+                                 "text": "Jugendgerichte gehören zur ordentlichen Gerichtsbarkeit."
+                              },
+                              {
+                                 "begruendung": "Ja, § 47a JGG.",
+                                 "richtig": true,
+                                 "text": "Jugendgerichte haben Vorrang vor allgemeinen Strafgerichten."
+                              },
+                              {
+                                 "begruendung": "Nein, spezielle Jugendgerichte gibt es nur in der Tatsacheninstanz (AG, LG).",
+                                 "richtig": false,
+                                 "text": "Es gibt eigene Jugendsenate beim BGH für die Revision."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s9-A1-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "§ 2 I JGG",
+                              "§ 39 JGG",
+                              "§ 105 JGG",
+                              "§ 74 GVG"
+                           ],
+                           "fragen": [
+                              "Welche Vorschrift regelt den Vorrang der Jugendgerichte vor allgemeinen Strafgerichten?"
+                           ],
+                           "id": "juj-s9-A1-w1-a3",
+                           "richtig": [
+                              "§ 47a JGG"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s9-A1-w1",
+                     "merke": "Für die Gerichtsverfassung ist das **JGG lex specialis gegenüber dem GVG**. **Spezielle Jugendgerichte** für alle Verfehlungen Jugendlicher und Heranwachsender (**§§ 33 ff.**, ggf. i. V. m. § 107): **Abteilungen der Strafgerichte**, gehören zur **ordentlichen Gerichtsbarkeit** (BGHSt 18, 79) und haben **Vorrang vor allgemeinen Strafgerichten (§ 47a)**. Verzicht auf Verfassungsgrundsätze wegen der Erziehungsausrichtung? **Nein** – Jugendgerichte sind **kein rechtsfreier Raum**; alle **verfassungsmäßigen Rechte Erwachsener** gelten (Art. 20 III, 101, 103, 104 GG; Art. 6 EMRK).",
+                     "titel": "Jugendgerichte als Teil der Strafjustiz"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne dem allgemeinen Strafgericht das entsprechende Jugendgericht zu.",
+                           "id": "juj-s9-A1-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "Strafrichter (AG)",
+                                 "rechts": "Jugendrichter"
+                              },
+                              {
+                                 "links": "Schöffengericht (AG)",
+                                 "rechts": "Jugendschöffengericht"
+                              },
+                              {
+                                 "links": "kleine Strafkammer (LG)",
+                                 "rechts": "kleine Jugendkammer"
+                              },
+                              {
+                                 "links": "große Strafkammer (LG)",
+                                 "rechts": "große Jugendkammer"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "bei jedem Mord",
+                              "bei Heranwachsenden",
+                              "bei Verkehrsdelikten",
+                              "bei Berufungen"
+                           ],
+                           "fragen": [
+                              "In welchem Fall entscheidet nicht ein Jugendgericht, sondern das OLG in erster Instanz?"
+                           ],
+                           "id": "juj-s9-A1-w2-a2",
+                           "richtig": [
+                              "z. B. bei terroristischen Straftaten (§ 102 JGG)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Jugendgerichte gibt es auch als eigene BGH-Senate",
+                              "Heranwachsende kommen immer vor Erwachsenengerichte"
+                           ],
+                           "frage": "Welche Aussagen zum Aufbau der Jugendgerichte stimmen?",
+                           "id": "juj-s9-A1-w2-a3",
+                           "richtig": [
+                              "Jugendgerichte gibt es nur am AG und LG",
+                              "sie entscheiden nur in der Tatsacheninstanz",
+                              "Revisionen gehen an die allgemeinen Strafsenate von OLG/BGH"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s9-A1-w2",
+                     "merke": "Aufbau **wie §§ 22 ff. GVG**; spezielle Jugendgerichte **nur in der Tatsacheninstanz** (**AG und LG**), **nicht** für die Revision (OLG, BGH). **AG:** **Jugendrichter** (statt Strafrichter), **Jugendschöffengericht** (statt Schöffengericht). **LG:** **kleine Jugendkammer** (Berufung), **große Jugendkammer**. Zuständig für alle Verfahren gegen Jugendliche und Heranwachsende (§§ 33, 107), auch bei Anwendung allgemeinen Strafrechts auf Heranwachsende (§ 108 II) und bei Verbindung mit Verfahren gegen Erwachsene (§ 103). **Ausnahmen:** **OLG als Erstinstanz** (z. B. Terrorismus, § 102); Staatsschutz-/Wirtschaftsstrafkammer bei Verbindung (§ 103 II 2).",
+                     "titel": "Aufbau und Ausnahmen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s9-A2",
+               "titel": "Jugendrichter",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "immer bei Jugendlichen unter 16",
+                              "bei allen Vergehen",
+                              "wenn Jugendstrafe über 1 Jahr zu erwarten ist",
+                              "bei Schwurgerichtssachen"
+                           ],
+                           "fragen": [
+                              "Wann ist der Jugendrichter nach § 39 JGG sachlich zuständig?"
+                           ],
+                           "id": "juj-s9-A2-w1-a1",
+                           "richtig": [
+                              "wenn nur Erziehungsmaßregeln oder Zuchtmittel zu erwarten sind und die StA vor ihm anklagt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s9-A2-w1-a2",
+                           "luecken": [
+                              [
+                                 "1",
+                                 "einem",
+                                 "ein"
+                              ],
+                              [
+                                 "bewegliche Zuständigkeit",
+                                 "bewegliche"
+                              ]
+                           ],
+                           "text": "Der Jugendrichter darf Jugendstrafe nur bis zu {} Jahr verhängen (§ 39 II). Seine Zuständigkeit heißt „{}“, weil die StA sie steuert.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "akzeptiert": [
+                              "erzieherische Wirkungseinheit",
+                              "Wirkungseinheit"
+                           ],
+                           "frage": "Wie nennt man es, dass der Jugendrichter zugleich Familienrichter sein soll (§ 34 II JGG)?",
+                           "id": "juj-s9-A2-w1-a3",
+                           "musterloesung": "„Erzieherische Wirkungseinheit“.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, derselbe Jugendrichter entscheidet über alle Zwangsmaßnahmen (§ 34 I), nicht der allgemeine Haftrichter.",
+                                 "richtig": true,
+                                 "text": "Über U-Haft gegen einen Jugendlichen entscheidet im Ermittlungsverfahren der Jugendrichter."
+                              },
+                              {
+                                 "begruendung": "Nein, § 39 II beschränkt die Strafgewalt, nicht die Anklagezuständigkeit.",
+                                 "richtig": false,
+                                 "text": "Die Grenze von 1 Jahr Jugendstrafe betrifft auch die Anklagezuständigkeit."
+                              },
+                              {
+                                 "begruendung": "Nein, selten (2013: 8,5 % der AG).",
+                                 "richtig": false,
+                                 "text": "In der Praxis sind Jugendrichter meist zugleich Familienrichter."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s9-A2-w1-a4",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s9-A2-w1",
+                     "merke": "Der **Jugendrichter** hat grds. alle Aufgaben des **Strafrichters** am AG als Einzelrichter. Er **soll auch Familienrichter** sein (§ 34 II, „**erzieherische Wirkungseinheit**“ – in der Praxis selten, 2013: 8,5 % der AG). Im **Ermittlungsverfahren** entscheidet **derselbe Jugendrichter über alle Zwangsmaßnahmen** (z. B. Durchsuchung, U-Haft; nicht der allgemeine Haftrichter). **Sachlich zuständig (§ 39):** wenn **nur Erziehungsmaßregeln oder Zuchtmittel** zu erwarten sind **und** die StA vor ihm anklagt – **bewegliche, durch die StA gesteuerte Zuständigkeit**. **Strafgewalt:** **Jugendstrafe nur bis 1 Jahr** (§ 39 II); keine Unterbringung im psych. Krankenhaus.",
+                     "titel": "Jugendrichter §§ 34, 39"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s9-A-mix1",
+               "mix": [
+                  "juj-s9-A1",
+                  "juj-s9-A2"
+               ],
+               "titel": "🔀 Gemischt: Jugendgerichte"
+            }
+         ],
+         "titel": "Jugendgerichte"
+      },
+      {
+         "farbe": 80,
+         "id": "juj-s9-B",
+         "level": [
+            {
+               "id": "juj-s9-B1",
+               "titel": "Jugendschöffengericht und Jugendkammer",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Es ist für alle Berufungen zuständig.",
+                              "Es ist nur für Heranwachsende zuständig.",
+                              "Es ist nur für Schwurgerichtssachen zuständig.",
+                              "Es entscheidet über alle Revisionen."
+                           ],
+                           "fragen": [
+                              "Warum spricht man beim Jugendschöffengericht von „Allgemeinzuständigkeit“?",
+                              "Wann ist das Jugendschöffengericht zuständig?"
+                           ],
+                           "id": "juj-s9-B1-w1-a1",
+                           "richtig": [
+                              "Es ist zuständig, wenn weder Jugendrichter noch Jugendkammer zuständig sind (negative Abgrenzung)."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (§§ 33a, 35 JGG).",
+                           "id": "juj-s9-B1-w1-a2",
+                           "luecken": [
+                              [
+                                 "2",
+                                 "zwei"
+                              ],
+                              [
+                                 "5",
+                                 "fünf"
+                              ]
+                           ],
+                           "text": "Das Jugendschöffengericht besteht aus einem Jugendrichter und {} Jugendschöffen. Diese werden für {} Jahre gewählt.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Volljuristen",
+                              "Mitglied einer Partei"
+                           ],
+                           "frage": "Welche Anforderungen gelten für Jugendschöffen (§ 35 JGG)?",
+                           "id": "juj-s9-B1-w1-a3",
+                           "richtig": [
+                              "gleiche Anzahl Männer und Frauen",
+                              "erzieherisch besonders befähigt",
+                              "aus allen Gruppen der Bevölkerung",
+                              "Wahl für 5 Jahre"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s9-B1-w1",
+                     "merke": "**Sachlich zuständig (§ 40 I)**, wenn **weder Jugendrichter noch Jugendkammer** zuständig sind (v. a. wenn **Jugendstrafe** zu erwarten ist) – **negative Abgrenzung → Allgemeinzuständigkeit**. **Strafgewalt: unbeschränkt** (Jugendstrafe bis 10/15 J., SV, psych. Krankenhaus; § 24 II GVG gilt nicht). **Besetzung (§ 33a I):** **1 Jugendrichter + 2 Jugendschöffen**. **Jugendschöffen** werden für **5 Jahre** gewählt (§ 35): gleich viele **Männer und Frauen**, **erzieherisch befähigt**, aus allen Bevölkerungsgruppen. Kein erweitertes Schöffengericht; Vorlage an die Jugendkammer möglich (§§ 40 II, 41 I Nr. 2).",
+                     "titel": "Jugendschöffengericht §§ 33a, 40"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Besetzung zu.",
+                           "id": "juj-s9-B1-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "Jugendrichter",
+                                 "rechts": "1 Berufsrichter, keine Schöffen"
+                              },
+                              {
+                                 "links": "Jugendschöffengericht",
+                                 "rechts": "1 Jugendrichter + 2 Jugendschöffen"
+                              },
+                              {
+                                 "links": "kleine Jugendkammer",
+                                 "rechts": "1 Jugendrichter + 2 Jugendschöffen, nur Berufung gegen Jugendrichter"
+                              },
+                              {
+                                 "links": "große Jugendkammer",
+                                 "rechts": "grds. 3 Jugendrichter + 2 Jugendschöffen"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Ordnungswidrigkeiten",
+                              "alle Fälle mit Erziehungsmaßregeln"
+                           ],
+                           "frage": "Wofür ist die (große) Jugendkammer zuständig?",
+                           "id": "juj-s9-B1-w2-a2",
+                           "richtig": [
+                              "Schwurgerichtssachen (vorsätzliche Tötungsdelikte)",
+                              "Vorlage durch das Jugendschöffengericht",
+                              "Berufungen gegen Urteile des Jugendschöffengerichts"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "für alle Tötungsdelikte",
+                              "für Berufungen gegen Urteile des Jugendschöffengerichts",
+                              "für Revisionen",
+                              "für Verfahren gegen Kinder"
+                           ],
+                           "fragen": [
+                              "Wann ist die kleine Jugendkammer zuständig?"
+                           ],
+                           "id": "juj-s9-B1-w2-a3",
+                           "richtig": [
+                              "nur für Berufungen gegen Urteile des Jugendrichters"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s9-B1-w2",
+                     "merke": "**Zuständig (§ 41)** u. a. für **Schwurgerichtssachen** (vorsätzliche Tötungsdelikte, § 74 II GVG), **Vorlage durch das Jugendschöffengericht** (Nr. 2), bestimmte **schwerste Delikte**, bei denen **> 5 J. Jugendstrafe, SV oder psych. Krankenhaus** möglich ist (Nr. 5), sowie **Berufungen** gegen Urteile von Jugendrichter/Jugendschöffengericht (§ 41 II). **Strafgewalt: unbeschränkt.** **Besetzung (§ 33b):** **kleine Jugendkammer** = 1 Jugendrichter + 2 Schöffen, **nur für Berufungen gegen Urteile des Jugendrichters**; **große Jugendkammer** = grds. **3 Berufsrichter + 2 Schöffen** (oft reduziert auf 2 + 2, außer u. a. bei Schwurgerichtssachen, hoher Strafe, SV).",
+                     "titel": "Jugendkammer §§ 33b, 41"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s9-B2",
+               "titel": "Örtliche und sachliche Zuständigkeit",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die zusätzlichen Gerichtsstände des § 42 I JGG zu.",
+                           "id": "juj-s9-B2-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Nr. 1",
+                                 "rechts": "Ort des zuständigen Familiengerichts"
+                              },
+                              {
+                                 "links": "Nr. 2",
+                                 "rechts": "freiwilliger Aufenthaltsort bei Anklage"
+                              },
+                              {
+                                 "links": "Nr. 3",
+                                 "rechts": "Ort des Vollstreckungsleiters bei vollzogener Jugendstrafe"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "elemente": [
+                              "Nr. 3 (Vollstreckungsleiter)",
+                              "Nr. 1 (Familiengericht)",
+                              "Nr. 2 (Aufenthaltsort)"
+                           ],
+                           "frage": "In welcher Rangfolge sind die Gerichtsstände des § 42 I JGG zu wählen?",
+                           "id": "juj-s9-B2-w1-a2",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "falsch": [
+                              "nach dem Wohnort des Jugendlichen",
+                              "nach dem Alter der Eltern",
+                              "allein nach dem Tatbestand",
+                              "nach der Wahl des Verteidigers"
+                           ],
+                           "fragen": [
+                              "Wonach richtet sich die sachliche Zuständigkeit im Jugendstrafverfahren in der Regel?"
+                           ],
+                           "id": "juj-s9-B2-w1-a3",
+                           "richtig": [
+                              "nach Art und Schwere der im Einzelfall zu erwartenden Sanktion"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Geburtsort der Eltern",
+                              "Sitz der Schule"
+                           ],
+                           "frage": "Welche allgemeinen Gerichtsstände der StPO gelten auch für Jugendliche?",
+                           "id": "juj-s9-B2-w1-a4",
+                           "richtig": [
+                              "Tatort",
+                              "Wohnsitz",
+                              "Ergreifungsort"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s9-B2-w1",
+                     "merke": "Vor Anklage klärt die StA: **Wo** (örtliche) und **welches Gericht** (sachliche Zuständigkeit). **Örtlich:** grds. **allgemeine Vorschriften** (§ 42 I 1. HS i. V. m. §§ 7 ff. StPO: **Tatort, Wohnsitz, Ergreifungsort**). Das JGG ergänzt für Jugendliche **3 zusätzliche Gerichtsstände** (§ 42 I 2. HS): **Nr. 1** Ort des für familienrechtliche Erziehungsaufgaben zuständigen **Familiengerichts**; **Nr. 2** (auch kurzzeitiger) **freiwilliger Aufenthaltsort** bei Anklage; **Nr. 3** Ort des **Vollstreckungsleiters** bei vollzogener Jugendstrafe. **Reihenfolge:** ggf. **Nr. 3, dann Nr. 1, dann Nr. 2**. **Sachlich:** richtet sich nach **Art und Schwere der zu erwartenden Sanktion**.",
+                     "titel": "Örtliche Zuständigkeit § 42"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "erklaerung": "Die Prozentwerte stammen aus einem Balkendiagramm; die Zuordnung der Zahlen zu Jugend- und allgemeinem Strafrecht ist aus dem Folientext erschlossen.",
+                           "falsch": [
+                              "vor das Jugendschöffengericht (ca. 80 %)",
+                              "vor die Jugendkammer (ca. 50 %)",
+                              "vor das OLG",
+                              "vor den BGH"
+                           ],
+                           "fragen": [
+                              "Vor welches Gericht kommen die meisten Anklagen nach Jugendstrafrecht?"
+                           ],
+                           "id": "juj-s9-B2-w2-a1",
+                           "pruefen": true,
+                           "richtig": [
+                              "vor den Jugendrichter (ca. 80 %)"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "erklaerung": "Die Folie stellt nur die Frage; die Lösung ist selbst erarbeitet (Jugendrichter, ggf. Jugendschöffengericht bei Schwere der Schuld). Bitte mit der Besprechung in der Vorlesung abgleichen.",
+                           "fall": "Der fleißige, sozial gut integrierte 17-jährige Auszubildende A erfasst abends an einer unübersichtlichen Kreuzung beim Linksabbiegen aus Unachtsamkeit und Überforderung den Fußgänger F tödlich. A hatte keine Fahrerlaubnis und wollte seine Freundin beeindrucken.",
+                           "frage": "Vor welchem Gericht wird die StA Anklage erheben?",
+                           "id": "juj-s9-B2-w2-a2",
+                           "kernpunkte": [
+                              "Jugendlicher (17) → Jugendgericht (§§ 1, 33 JGG)",
+                              "fahrlässige Tötung (§ 222 StGB) + Fahren ohne Fahrerlaubnis (§ 21 StVG): keine Schwurgerichtssache → nicht Jugendkammer",
+                              "sozial integriert, Unachtsamkeit → eher Erziehungsmaßregeln/Zuchtmittel als Jugendstrafe",
+                              "daher Jugendrichter (§ 39 JGG); bei erwarteter Jugendstrafe: Jugendschöffengericht (§ 40)"
+                           ],
+                           "musterloesung": "A ist Jugendlicher, also ist ein Jugendgericht zuständig. Fahrlässige Tötung (§ 222 StGB) ist keine Schwurgerichtssache, die Jugendkammer scheidet daher aus. Maßgeblich ist die zu erwartende Sanktion: A ist sozial gut integriert und handelte aus Unachtsamkeit; schädliche Neigungen sind nicht erkennbar. Zu erwarten sind daher Erziehungsmaßregeln oder Zuchtmittel – die StA wird beim Jugendrichter anklagen (§ 39 JGG). Hielte sie wegen der Schwere der Schuld (Tod eines Menschen) eine Jugendstrafe für möglich, wäre das Jugendschöffengericht zuständig (§ 40).",
+                           "pruefen": true,
+                           "typ": "fall"
+                        },
+                        {
+                           "falsch": [
+                              "Weil Jugendliche nie vor die Jugendkammer kommen.",
+                              "Weil Verkehrsdelikte Ordnungswidrigkeiten sind.",
+                              "Weil der Täter keine Fahrerlaubnis hatte.",
+                              "Weil das OLG zuständig ist."
+                           ],
+                           "fragen": [
+                              "Warum ist für die fahrlässige Tötung eines 17-Jährigen nicht die Jugendkammer als Schwurgericht zuständig?"
+                           ],
+                           "id": "juj-s9-B2-w2-a3",
+                           "richtig": [
+                              "Weil Schwurgerichtssachen vorsätzliche Tötungsdelikte sind, nicht fahrlässige."
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s9-B2-w2",
+                     "merke": "**Praxis (2025):** Die meisten Anklagen nach Jugendstrafrecht gehen an den **Jugendrichter (ca. 80 %)**, rund 18 % ans Jugendschöffengericht, nur ca. 1,6 % an die Jugendkammer. **Fall (Folie):** Der gut integrierte 17-jährige Azubi A tötet ohne Fahrerlaubnis aus Unachtsamkeit beim Linksabbiegen einen Fußgänger. → **Fahrlässige Tötung** ist **keine Schwurgerichtssache**; bei einem sozial integrierten Ersttäter sind eher **Erziehungsmaßregeln/Zuchtmittel** zu erwarten → Anklage beim **Jugendrichter (§ 39)**.",
+                     "titel": "Praxis und Fall"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s9-B-mix1",
+               "mix": [
+                  "juj-s9-B1",
+                  "juj-s9-B2"
+               ],
+               "titel": "🔀 Gemischt: Gerichte und Zuständigkeit"
+            }
+         ],
+         "titel": "Schöffengericht, Jugendkammer, Zuständigkeit"
+      }
+   ]
+}

@@ -1,0 +1,1031 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s5",
+   "kurztitel": "Vorlesung 5",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "falsch": [
+               "ab 14",
+               "ab 10",
+               "ab 18"
+            ],
+            "frage": "Ab welchem Alter bestand nach §§ 55–57 RStGB bedingte Strafmündigkeit?",
+            "id": "juj-s5-pk1",
+            "richtig": [
+               "ab 12"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s5-A1-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Einsichtsfähigkeit",
+               "die Einsichtsfähigkeit",
+               "Einsichtsfaehigkeit"
+            ],
+            "frage": "Was musste nach dem RStGB bei 12- bis 17-Jährigen festgestellt werden, bevor sie bestraft werden durften?",
+            "id": "juj-s5-pk2",
+            "musterloesung": "Die Einsichtsfähigkeit.",
+            "typ": "kurzfrage",
+            "wissen": [
+               "juj-s5-A1-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "juj-s5-pk3",
+            "luecken": [
+               [
+                  "3",
+                  "drei"
+               ],
+               [
+                  "15",
+                  "fünfzehn"
+               ],
+               [
+                  "Hälfte",
+                  "Haelfte",
+                  "1/2",
+                  "½"
+               ]
+            ],
+            "text": "Statt Todesstrafe: Gefängnis von {} bis {} Jahren; sonst max. die {} des Strafrahmens.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s5-A1-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "Erziehungsstrafrecht",
+               "reines Fürsorgerecht",
+               "Straflosigkeit"
+            ],
+            "frage": "Wie lässt sich das RStGB 1871 für Jugendliche zusammenfassen?",
+            "id": "juj-s5-pk4",
+            "richtig": [
+               "(gemildertes) Erwachsenenstrafrecht"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s5-A1-w2"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Kontrolllücke zwischen Schulbank und Kasernentor",
+               "Kontrolllücke",
+               "Kontrolllücke zw. Schulbank und Kasernentor"
+            ],
+            "frage": "Mit welcher Formulierung beschreibt die Vorlesung die unkontrollierte Phase zwischen etwa 12./14. und 20. Lj.?",
+            "id": "juj-s5-pk5",
+            "musterloesung": "„Kontrolllücke zwischen Schulbank und Kasernentor“.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s5-B1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Vergeltung statt Prävention",
+               "Abschaffung jeder Strafe",
+               "Todesstrafe für Rückfalltäter"
+            ],
+            "frage": "Was forderte Franz von Liszt im Marburger Programm (1882)?",
+            "id": "juj-s5-pk6",
+            "richtig": [
+               "Prävention statt Vergeltung"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s5-B1-w2"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s5-pk7",
+            "paare": [
+               {
+                  "links": "Individualprävention",
+                  "rechts": "täterbezogen"
+               },
+               {
+                  "links": "Generalprävention",
+                  "rechts": "gesellschaftsbezogen"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s5-B1-w2"
+            ]
+         },
+         {
+            "frage": "Nenne Kernelemente eines Jugendstrafrechts.",
+            "id": "juj-s5-pk8",
+            "kopf": [
+               "Nr.",
+               "Kernelement"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s5-B2-w1"
+            ],
+            "zeigen": 4,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Altersgrenze",
+                        "Altersgrenze für die Sanktionierung"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Einsichtsfähigkeit",
+                        "Einsichtsfaehigkeit"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Erziehung statt Bestrafung",
+                        "Erziehung",
+                        "Besserung statt Bestrafung"
+                     ]
+                  }
+               ],
+               [
+                  "4",
+                  {
+                     "akzeptiert": [
+                        "eigene Sanktionen",
+                        "Sanktionen"
+                     ]
+                  }
+               ],
+               [
+                  "5",
+                  {
+                     "akzeptiert": [
+                        "eigenes Gericht",
+                        "Gericht"
+                     ]
+                  }
+               ],
+               [
+                  "6",
+                  {
+                     "akzeptiert": [
+                        "eigenes Verfahren",
+                        "Verfahren"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "falsch": [
+               "Erlass des JGG",
+               "erster Jugendgerichtstag",
+               "Eröffnung des Jugendgefängnisses"
+            ],
+            "frage": "Was geschah 1908 in Frankfurt a. M.?",
+            "id": "juj-s5-pk9",
+            "richtig": [
+               "Einrichtung des ersten Jugendgerichts per Geschäftsverteilung"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s5-C1-w1"
+            ]
+         },
+         {
+            "elemente": [
+               "RStGB §§ 55–57",
+               "Jugendgericht Frankfurt",
+               "Jugendgefängnis Wittlich",
+               "RJWG",
+               "JGG"
+            ],
+            "frage": "Bringe in die zeitliche Reihenfolge.",
+            "id": "juj-s5-pk10",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s5-A1-w1",
+               "juj-s5-C1-w1",
+               "juj-s5-C2-w2"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s5-pk11",
+            "paare": [
+               {
+                  "links": "einheitliches System",
+                  "rechts": "Erziehung statt Strafe"
+               },
+               {
+                  "links": "duales System",
+                  "rechts": "Erziehung durch Strafe"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s5-C2-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s5-pk12",
+            "paare": [
+               {
+                  "links": "RJWG 1922",
+                  "rechts": "Vormundschaftsrichter, Fürsorge"
+               },
+               {
+                  "links": "JGG 1923",
+                  "rechts": "Strafrichter, Erziehungsstrafrecht"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s5-C2-w2"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Jugendarrest",
+               "Anwendung auf 18- bis 21-Jährige"
+            ],
+            "frage": "Was regelte das JGG von 1923?",
+            "id": "juj-s5-pk13",
+            "richtig": [
+               "Erziehungsmaßregeln",
+               "Einstellung des Verfahrens",
+               "Jugendgerichtshilfe",
+               "Ausschluss der Öffentlichkeit"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s5-C2-w3"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s5-pk14",
+            "segmente": [
+               {
+                  "text": "Das JGG 1923 galt für 14- bis 18-Jährige."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Erziehungsmaßregeln waren **auch bei fehlender Einsichtsfähigkeit** zulässig.",
+                  "text": "Erziehungsmaßregeln setzten zwingend Einsichtsfähigkeit voraus."
+               },
+               {
+                  "text": "Strafe kam nur in Betracht, wenn Erziehungsmaßregeln nicht ausreichten."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s5-C2-w3"
+            ]
+         },
+         {
+            "frage": "Erläutere den Einfluss der modernen Strafrechtsschule auf die Entstehung eines Jugendstrafrechts.",
+            "id": "juj-s5-pk15",
+            "kernpunkte": [
+               "Franz von Liszt, Marburger Programm 1882",
+               "Strafe kein Selbstzweck, sondern Prävention (Individual-/Generalprävention)",
+               "Täterstrafrecht statt Tatschuldvergeltung",
+               "besonders bei Jugendlichen, da nicht abgeschlossene Entwicklung → erziehbar",
+               "führt zu Kernelementen: Erziehung statt Strafe, eigene Sanktionen, Gericht, Verfahren"
+            ],
+            "musterloesung": "Die moderne Strafrechtsschule (Franz von Liszt, Marburger Programm 1882) sah Strafe nicht als Selbstzweck zur Vergeltung, sondern als Mittel der Prävention – individualpräventiv (täterbezogen) und generalpräventiv (gesellschaftsbezogen). Die vergeltende Tatschuldstrafe sollte durch ein präventives Täterstrafrecht ersetzt werden, vor allem bei jungen Tätern, weil sie wegen ihrer nicht abgeschlossenen Entwicklung stärker beeinflussbar (erziehbar) sind. Daraus folgen die Kernelemente eines Jugendstrafrechts: Erziehung statt Bestrafung, eigene anpassbare Sanktionen, ein eigenes Gericht und ein eigenes Verfahren. Diese Ideen mündeten über die Jugendgerichtsbewegung in das JGG 1923.",
+            "typ": "offen",
+            "wissen": [
+               "juj-s5-B1-w2",
+               "juj-s5-B2-w1"
+            ]
+         },
+         {
+            "fall": "Der 13-jährige Karl stiehlt 1880 Brot, der 15-jährige Otto stiehlt 1925 Brot. Bei beiden fehlt die Einsichtsfähigkeit.",
+            "frage": "Wie konnte jeweils reagiert werden?",
+            "id": "juj-s5-pk16",
+            "kernpunkte": [
+               "Karl 1880: RStGB §§ 55–57, 12–17 J. Strafe nur bei Einsichtsfähigkeit",
+               "fehlt sie: Unterbringung in Erziehungsanstalt (bis max. 21.)",
+               "Otto 1925: JGG 1923 anwendbar (14–18)",
+               "Erziehungsmaßregeln auch bei fehlender Einsichtsfähigkeit; ggf. Einstellung"
+            ],
+            "musterloesung": "Karl (1880): Nach §§ 55–57 RStGB war er mit 13 bedingt strafmündig; bestraft werden durfte er nur bei festgestellter Einsichtsfähigkeit. Da sie fehlt, kam nur die Unterbringung in einer Erziehungsanstalt bis max. zum 21. Geburtstag in Betracht. Otto (1925): Es gilt das JGG 1923 (14–18 J.). Auch ohne Einsichtsfähigkeit waren Erziehungsmaßregeln zulässig (z. B. Verwarnung, Schutzaufsicht); zudem konnte das Verfahren eingestellt werden.",
+            "typ": "fall",
+            "wissen": [
+               "juj-s5-A1-w1",
+               "juj-s5-C2-w3"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 5"
+   },
+   "quelle": [
+      "JuJ/5. Vorlesung JuJ.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Die moderne Strafrechtsschule und das Prinzip „Erziehung“",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 20,
+         "id": "juj-s5-A",
+         "level": [
+            {
+               "id": "juj-s5-A1",
+               "titel": "§§ 55–57 RStGB (1871)",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "ab dem 14. Geburtstag",
+                              "ab dem 10. Geburtstag",
+                              "ab dem 16. Geburtstag",
+                              "ab dem 18. Geburtstag"
+                           ],
+                           "fragen": [
+                              "Ab welchem Alter galt nach dem RStGB von 1871 die bedingte Strafmündigkeit?",
+                              "Ab wann konnten junge Täter nach §§ 55–57 RStGB bestraft werden?"
+                           ],
+                           "id": "juj-s5-A1-w1-a1",
+                           "richtig": [
+                              "ab dem 12. Geburtstag"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "die Schuldunfähigkeit",
+                              "ein Gutachten der Jugendgerichtshilfe",
+                              "die Zustimmung der Eltern",
+                              "eine Vorstrafe"
+                           ],
+                           "fragen": [
+                              "Was war bei 12- bis 17-Jährigen nach dem RStGB Voraussetzung für eine Bestrafung?",
+                              "Was musste nach §§ 55–57 RStGB bei 12- bis 17-Jährigen festgestellt werden, bevor sie bestraft werden durften?"
+                           ],
+                           "id": "juj-s5-A1-w1-a2",
+                           "richtig": [
+                              "die Einsichtsfähigkeit"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, bis zum 18. (max. 21.) Geburtstag, z. B. Preußen 1878 bei Verwahrlosung.",
+                                 "richtig": true,
+                                 "text": "konnten Kinder unter 12 nach Landesrecht in einer Erziehungsanstalt untergebracht werden."
+                              },
+                              {
+                                 "begruendung": "Nein, dann war nur die Unterbringung in einer Erziehungsanstalt (bis max. 21.) zulässig.",
+                                 "richtig": false,
+                                 "text": "wurden 12- bis 17-Jährige ohne Einsichtsfähigkeit trotzdem bestraft."
+                              },
+                              {
+                                 "begruendung": "Nein, das JGG kam erst 1923.",
+                                 "richtig": false,
+                                 "text": "gab es bereits ein eigenes Jugendgerichtsgesetz."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach dem RStGB von 1871 …",
+                           "id": "juj-s5-A1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s5-A1-w1",
+                     "merke": "Ab **1871** regelten die **§§ 55–57 Reichsstrafgesetzbuch** junge Täter: **bedingte Strafmündigkeit ab dem 12. Geburtstag**. **Davor:** Unterbringung in einer **Erziehungsanstalt bis zum 18.** (max. 21.) Geburtstag nach **Landesrecht** (z. B. Preußen 1878 – Verwahrlosung). Bei **12- bis 17-Jährigen** musste für eine Bestrafung die **Einsichtsfähigkeit** festgestellt werden; **fehlte sie**: Unterbringung in einer Erziehungsanstalt bis max. zum 21. Geburtstag.",
+                     "titel": "Bedingte Strafmündigkeit ab 12"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Fülle die Lücken (RStGB 1871).",
+                           "id": "juj-s5-A1-w2-a1",
+                           "luecken": [
+                              [
+                                 "3",
+                                 "drei"
+                              ],
+                              [
+                                 "15",
+                                 "fünfzehn"
+                              ],
+                              [
+                                 "Hälfte",
+                                 "Haelfte",
+                                 "1/2",
+                                 "½"
+                              ],
+                              [
+                                 "Verweis"
+                              ]
+                           ],
+                           "text": "Statt Todesstrafe oder lebenslanger Freiheitsstrafe: Gefängnis von {} bis {} Jahren. Sonst höchstens die {} des Strafrahmens. Bei besonders leichten Taten genügte ein {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "ein eigenständiges Erziehungsstrafrecht",
+                              "reines Jugendhilferecht ohne Strafe",
+                              "völlige Straflosigkeit bis 18",
+                              "ein duales System aus RJWG und JGG"
+                           ],
+                           "fragen": [
+                              "Wie lässt sich der Umgang mit Jugendlichen im RStGB von 1871 zusammenfassen?",
+                              "Was galt 1871 für jugendliche Straftäter im Kern?"
+                           ],
+                           "id": "juj-s5-A1-w2-a2",
+                           "richtig": [
+                              "nur (gemildertes) Erwachsenenstrafrecht"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Erziehungsmaßregeln",
+                              "Jugendgerichtshilfe",
+                              "Ausschluss der Öffentlichkeit"
+                           ],
+                           "frage": "Welche Regelungen galten nach dem RStGB von 1871 für junge Täter?",
+                           "id": "juj-s5-A1-w2-a3",
+                           "richtig": [
+                              "keine Todesstrafe",
+                              "Strafrahmen höchstens zur Hälfte",
+                              "Verweis bei besonders leichten Taten",
+                              "Trennung von Erwachsenen im Vollzug"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s5-A1-w2",
+                     "merke": "**Sanktionierung** nach RStGB: nur **Strafmilderung** – **keine Todesstrafe/lebenslange Freiheitsstrafe**, stattdessen **Gefängnis von 3–15 Jahren**; sonst **max. ½ des Strafrahmens**; bei **besonders leichten Taten** auch nur ein **Verweis**. Im Vollzug **Trennung von erwachsenen Gefangenen**. Fazit: nur **(gemildertes) Erwachsenenstrafrecht** für Jugendliche.",
+                     "titel": "Strafmilderung statt eigenem Recht"
+                  }
+               ]
+            }
+         ],
+         "titel": "19. Jahrhundert: Reichsstrafgesetzbuch"
+      },
+      {
+         "farbe": 200,
+         "id": "juj-s5-B",
+         "level": [
+            {
+               "id": "juj-s5-B1",
+               "titel": "Warum ein Jugendstrafrecht?",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "die Zeit zwischen Geburt und Einschulung",
+                              "die Zeit nach dem Wehrdienst bis zur Heirat",
+                              "die Zeit zwischen Studium und Beruf",
+                              "die Zeit im Jugendgefängnis"
+                           ],
+                           "fragen": [
+                              "Welche Lebensphase beschreibt dieses Bild?",
+                              "Was meint diese Formulierung aus der Vorlesung?"
+                           ],
+                           "id": "juj-s5-B1-w1-a1",
+                           "richtig": [
+                              "die Zeit zwischen etwa 12./14. und 20. Lebensjahr ohne Schule und Militär als Kontrolle"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„Kontrolllücke zwischen Schulbank und Kasernentor“"
+                        },
+                        {
+                           "falsch": [
+                              "Einführung der Todesstrafe für Jugendliche",
+                              "Abschaffung der Schulpflicht"
+                           ],
+                           "frage": "Welche Strömungen führten laut Vorlesung zum Sonderstrafrecht für die Jugend?",
+                           "id": "juj-s5-B1-w1-a2",
+                           "richtig": [
+                              "sozialpsychologische Einsichten über Jugend als eigene Altersstufe",
+                              "Entdeckung der Kontrolllücke zwischen Schulbank und Kasernentor",
+                              "Erkenntnisse über rasch steigende Jugendkriminalität",
+                              "moderne Strafrechtsschule",
+                              "Jugendgerichtsbewegung"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "von einem Urteil des Bundesverfassungsgerichts",
+                              "von sinkender Jugendkriminalität",
+                              "von der NS-Gesetzgebung",
+                              "vom SGB VIII"
+                           ],
+                           "fragen": [
+                              "Was war der Ausgangspunkt der Reformen?",
+                              "Wovon gingen die Reformbestrebungen zum Jugendstrafrecht aus?"
+                           ],
+                           "id": "juj-s5-B1-w1-a3",
+                           "richtig": [
+                              "von kontraproduktiven Regelungen im StGB"
+                           ],
+                           "typ": "single"
+                        }
+                     ],
+                     "id": "juj-s5-B1-w1",
+                     "merke": "**Ausgangspunkt:** **kontraproduktive Regelungen im StGB**. Mehrere **Strömungen** führten zu Reformen und schließlich zum **Sonderstrafrecht für die Jugend**: neue **sozialpsychologische Einsichten** (Jugend als eigene Altersstufe), Entdeckung des Jugendlichen in der „**Kontrolllücke zwischen Schulbank und Kasernentor**“ (zw. 12./14. und 20. Lj.), Erkenntnisse über eine **rasche Zunahme der Jugendkriminalität**, die **moderne Strafrechtsschule** (Prävention statt Vergeltung) und die **Jugendgerichtsbewegung**.",
+                     "titel": "Strömungen der Reform"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Émile Durkheim",
+                              "Klaus Hurrelmann",
+                              "Immanuel Kant",
+                              "Cesare Lombroso"
+                           ],
+                           "fragen": [
+                              "Wer verfasste das Marburger Programm von 1882?",
+                              "Mit wem verbindet man die moderne Strafrechtsschule?"
+                           ],
+                           "id": "juj-s5-B1-w2-a1",
+                           "richtig": [
+                              "Franz von Liszt"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s5-B1-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "klassische Strafrechtsschule",
+                                 "rechts": "Vergeltung/Sühne der Tatschuld"
+                              },
+                              {
+                                 "links": "moderne Strafrechtsschule",
+                                 "rechts": "Prävention weiterer Straftaten"
+                              },
+                              {
+                                 "links": "Individualprävention",
+                                 "rechts": "täterbezogen"
+                              },
+                              {
+                                 "links": "Generalprävention",
+                                 "rechts": "gesellschaftsbezogen"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "akzeptiert": [
+                              "weil sie noch erziehbar sind",
+                              "wegen nicht abgeschlossener Entwicklung stärker beeinflussbar",
+                              "weil ihre Entwicklung nicht abgeschlossen ist",
+                              "stärker beeinflussbar",
+                              "erziehbar"
+                           ],
+                           "frage": "Warum sollte das präventive Täterstrafrecht nach von Liszt vor allem bei jungen Straftätern gelten?",
+                           "id": "juj-s5-B1-w2-a3",
+                           "musterloesung": "Weil junge Täter wegen ihrer nicht abgeschlossenen Entwicklung erheblich stärker beeinflussbar (erziehbar) sind als Erwachsene.",
+                           "typ": "kurzfrage"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s5-B1-w2-a4",
+                           "segmente": [
+                              {
+                                 "text": "Das Marburger Programm stammt von 1882."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Strafe ist gerade **kein Selbstzweck**, sondern muss einem gesellschaftlichen Zweck dienen: **Prävention**.",
+                                 "text": "Danach ist Strafe vor allem Selbstzweck zur Sühne des Unrechts."
+                              },
+                              {
+                                 "text": "Die Tatschuldstrafe sollte durch ein präventives Täterstrafrecht ersetzt werden."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s5-B1-w2",
+                     "merke": "**Moderne vs. klassische Strafrechtsschule:** **Franz von Liszt**, **Marburger Programm (1882)**. Kern: Strafe ist **kein Selbstzweck** zur Vergeltung/Sühne, sondern muss einem **gesellschaftlichen Zweck dienen: Prävention** – **Individualprävention** (täterbezogen) und **Generalprävention** (gesellschaftsbezogen). Die vergeltende Tatschuldstrafe sollte durch ein **präventives Täterstrafrecht** ersetzt werden – **vor allem bei jungen Tätern**, da sie wegen ihrer **nicht abgeschlossenen Entwicklung** stärker **beeinflussbar (erziehbar)** seien.",
+                     "titel": "Franz von Liszt: Marburger Programm"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s5-B2",
+               "titel": "Kernelemente eines Jugendstrafrechts",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "öffentliche Hauptverhandlung zur Abschreckung",
+                              "schematische Geld- und Freiheitsstrafen"
+                           ],
+                           "frage": "Welche Kernelemente eines Jugendstrafrechts nennt die Vorlesung?",
+                           "id": "juj-s5-B2-w1-a1",
+                           "richtig": [
+                              "Altersgrenze für die Sanktionierung",
+                              "Einsichtsfähigkeit",
+                              "Erziehung statt Bestrafung",
+                              "eigene Sanktionen",
+                              "eigenes Gericht",
+                              "eigenes Verfahren"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Zu welchem Kernelement gehört das?",
+                           "id": "juj-s5-B2-w1-a2",
+                           "items": [
+                              {
+                                 "kategorie": "eigenes Gericht",
+                                 "text": "spezialisierte Richter"
+                              },
+                              {
+                                 "kategorie": "eigenes Gericht",
+                                 "text": "kein Kontakt mit erwachsenen Straftätern"
+                              },
+                              {
+                                 "kategorie": "eigenes Verfahren",
+                                 "text": "Ausschluss der Öffentlichkeit"
+                              },
+                              {
+                                 "kategorie": "eigenes Verfahren",
+                                 "text": "Erforschung der Lebensumstände und Persönlichkeit"
+                              },
+                              {
+                                 "kategorie": "eigene Sanktionen",
+                                 "text": "an die Persönlichkeit anpassbare Maßnahmen"
+                              },
+                              {
+                                 "kategorie": "eigene Sanktionen",
+                                 "text": "mehr Möglichkeiten zur Einstellung des Verfahrens"
+                              }
+                           ],
+                           "kategorien": [
+                              "eigenes Gericht",
+                              "eigenes Verfahren",
+                              "eigene Sanktionen"
+                           ],
+                           "typ": "beispiel"
+                        },
+                        {
+                           "ausreisser": [
+                              "schematische Freiheitsstrafe",
+                              "öffentliche Verhandlung",
+                              "gemeinsamer Vollzug mit Erwachsenen"
+                           ],
+                           "frage": "Was ist kein Kernelement eines Jugendstrafrechts?",
+                           "gehoert": [
+                              "Altersgrenze",
+                              "Einsichtsfähigkeit",
+                              "Erziehung statt Bestrafung",
+                              "eigenes Gericht"
+                           ],
+                           "id": "juj-s5-B2-w1-a3",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "juj-s5-B2-w1",
+                     "merke": "**Kernelemente:** **Altersgrenze** für die Sanktionierung; **Einsichtsfähigkeit** (Unrecht der Tat); **Erziehung (Besserung) statt Bestrafung**; **eigene Sanktionen** (jugendgerechte, an die Persönlichkeit anpassbare Maßnahmen statt schematischer Geld-/Freiheitsstrafe; mehr **Einstellungsmöglichkeiten**); **eigenes Gericht** (spezialisierte Richter, kein Kontakt mit Erwachsenen); **eigenes Verfahren** (**Ausschluss der Öffentlichkeit**, Erforschung von **Lebensumständen und Persönlichkeit**, externe erzieherische Beratung des Richters, besondere Betreuung).",
+                     "titel": "Was ein Jugendstrafrecht ausmacht"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s5-B-mix1",
+               "mix": [
+                  "juj-s5-B1",
+                  "juj-s5-B2"
+               ],
+               "titel": "🔀 Gemischt: Reformbewegung"
+            }
+         ],
+         "titel": "Reformbewegung: Prävention und Erziehung"
+      },
+      {
+         "farbe": 110,
+         "id": "juj-s5-C",
+         "level": [
+            {
+               "id": "juj-s5-C1",
+               "titel": "Erste Reformen 1908–1912",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "1923 in Berlin",
+                              "1871 in Köln",
+                              "1912 in Wittlich",
+                              "1909 in Marburg"
+                           ],
+                           "fragen": [
+                              "Wo und wann entstand das erste „Jugendgericht“ in Deutschland?"
+                           ],
+                           "id": "juj-s5-C1-w1-a1",
+                           "richtig": [
+                              "1908 in Frankfurt a. M."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "elemente": [
+                              "§§ 55–57 RStGB",
+                              "Marburger Programm",
+                              "erstes Jugendgericht in Frankfurt",
+                              "erster Jugendgerichtstag",
+                              "Jugendgefängnis Wittlich",
+                              "Jugendgerichtsgesetz"
+                           ],
+                           "frage": "Bringe in die zeitliche Reihenfolge.",
+                           "id": "juj-s5-C1-w1-a2",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, durch eine entsprechende Geschäftsverteilung am Amtsgericht; Gesetzentwürfe 1909/1912 scheiterten.",
+                                 "richtig": false,
+                                 "text": "Das Frankfurter Jugendgericht entstand durch ein neues Gesetz."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Vorbild für das Jugendgericht waren die USA."
+                              },
+                              {
+                                 "begruendung": "Nein, nur für 18- bis 21-Jährige.",
+                                 "richtig": false,
+                                 "text": "Das Jugendgefängnis Wittlich war für 14- bis 18-Jährige."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s5-C1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s5-C1-w1",
+                     "merke": "**1908:** erstes „**Jugendgericht**“ in **Frankfurt a. M.** – am Amtsgericht wurde per **Geschäftsverteilung** nach **US-amerikanischem Vorbild** eine Jugendabteilung eingerichtet; Unterstützung durch die **Jugendfürsorge** (Lebensumstände, Erziehungsvorschläge). Es folgten u. a. Köln und Berlin. **1909:** erster **Jugendgerichtstag**. **1909/1912:** erfolglose Gesetzentwürfe (StPO/GVG). **1912:** erstes „echtes“ auf Erziehung ausgerichtetes **Jugendgefängnis in Wittlich** (aber nur für **18- bis 21-Jährige**).",
+                     "titel": "Jugendgericht Frankfurt und Wittlich"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s5-C2",
+               "titel": "Erziehung und/oder Strafe?",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s5-C2-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "einheitliches System",
+                                 "rechts": "Erziehung statt Strafe"
+                              },
+                              {
+                                 "links": "duales System",
+                                 "rechts": "Erziehung durch Strafe"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "für das einheitliche System",
+                              "für reines Erwachsenenstrafrecht",
+                              "für ein reines Fürsorgesystem",
+                              "für gar keine Sonderregeln"
+                           ],
+                           "fragen": [
+                              "Für welches System entschied sich der deutsche Gesetzgeber?",
+                              "Welches System liegt dem deutschen Recht für junge Menschen zugrunde?"
+                           ],
+                           "id": "juj-s5-C2-w1-a2",
+                           "richtig": [
+                              "für das duale System"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Was gilt im dualen System für wen?",
+                           "id": "juj-s5-C2-w1-a3",
+                           "items": [
+                              {
+                                 "kategorie": "straffällige Jugendliche",
+                                 "text": "Strafe und Erziehung"
+                              },
+                              {
+                                 "kategorie": "straffällige Jugendliche",
+                                 "text": "Verfahren im Strafjustizsystem"
+                              },
+                              {
+                                 "kategorie": "sonst auffällige Jugendliche",
+                                 "text": "erzieherische Vormundschaft"
+                              },
+                              {
+                                 "kategorie": "sonst auffällige Jugendliche",
+                                 "text": "Fürsorge, z. B. Heim"
+                              }
+                           ],
+                           "kategorien": [
+                              "straffällige Jugendliche",
+                              "sonst auffällige Jugendliche"
+                           ],
+                           "typ": "beispiel"
+                        }
+                     ],
+                     "id": "juj-s5-C2-w1",
+                     "merke": "**Systemische Grundentscheidung:** **Einheitliches System** – nur **Erziehungsmaßnahmen** für alles abweichende Verhalten: **Erziehung statt Strafe**. **Duales System** – für **straffällige** Jugendliche **Strafe + Erziehung** („**Erziehung durch Strafe**“); für **sonst auffällige** Jugendliche erzieherische Vormundschaft, **Fürsorge** (u. a. Heim). Deutschland entschied sich für das **duale System**.",
+                     "titel": "Einheitliches vs. duales System"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s5-C2-w2-a1",
+                           "paare": [
+                              {
+                                 "links": "RJWG 1922",
+                                 "rechts": "gefährdete und verwahrloste Kinder/Jugendliche"
+                              },
+                              {
+                                 "links": "JGG 1923",
+                                 "rechts": "straffällige Jugendliche"
+                              },
+                              {
+                                 "links": "heute SGB VIII",
+                                 "rechts": "Nachfolger des RJWG"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "der Strafrichter",
+                              "das Jugendgefängnis",
+                              "die Polizei",
+                              "der Reichstag"
+                           ],
+                           "fragen": [
+                              "Wer war nach dem RJWG für die erzieherische Fürsorge zuständig?"
+                           ],
+                           "id": "juj-s5-C2-w2-a2",
+                           "richtig": [
+                              "der Vormundschaftsrichter"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s5-C2-w2-a3",
+                           "luecken": [
+                              [
+                                 "1923"
+                              ],
+                              [
+                                 "Erziehungsstrafrecht"
+                              ],
+                              [
+                                 "Strafjustizsystem",
+                                 "Strafjustiz"
+                              ]
+                           ],
+                           "text": "Das JGG von {} schuf ein „{}“ durch den Strafrichter; das Verfahren blieb im {}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s5-C2-w2",
+                     "merke": "Das **duale System** entstand aus: **Reichsjugendwohlfahrtsgesetz (RJWG, 1922)** für **gefährdete und verwahrloste** Kinder/Jugendliche (heute **SGB VIII**) – erzieherische Fürsorge durch den **Vormundschaftsrichter**; **Jugendgerichtsgesetz (JGG, 1923)** für **straffällige** Jugendliche – „**Erziehungsstrafrecht**“ durch den **Strafrichter**, Verfahren weiterhin im **Strafjustizsystem**.",
+                     "titel": "RJWG 1922 und JGG 1923"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "12- bis 18-Jährige",
+                              "14- bis 21-Jährige",
+                              "18- bis 21-Jährige",
+                              "12- bis 17-Jährige"
+                           ],
+                           "fragen": [
+                              "Für welche Altersgruppe galt das JGG von 1923?"
+                           ],
+                           "id": "juj-s5-C2-w3-a1",
+                           "richtig": [
+                              "14- bis 18-Jährige"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Jugendarrest",
+                              "Warnschussarrest",
+                              "Anwendung auf Heranwachsende"
+                           ],
+                           "frage": "Was führte das JGG von 1923 ein?",
+                           "id": "juj-s5-C2-w3-a2",
+                           "richtig": [
+                              "Erziehungsmaßregeln",
+                              "Einstellung des Verfahrens",
+                              "Ausschluss der Öffentlichkeit",
+                              "Jugendgerichtshilfe",
+                              "höhere Anforderungen an U-Haft"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "waren Erziehungsmaßregeln auch bei fehlender Einsichtsfähigkeit zulässig."
+                              },
+                              {
+                                 "begruendung": "Nein, gemilderte Strafe nur, wenn Erziehungsmaßregeln nicht ausreichten.",
+                                 "richtig": false,
+                                 "text": "war Strafe vorrangig vor Erziehungsmaßregeln."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "wurde der Legalitätsgrundsatz durch Einstellungsmöglichkeiten eingeschränkt."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "konnte eine Freiheitsstrafe zur Bewährung ausgesetzt werden."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach dem JGG 1923 …",
+                           "id": "juj-s5-C2-w3-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "ausreisser": [
+                              "Jugendarrest",
+                              "Todesstrafe",
+                              "Sicherungsverwahrung"
+                           ],
+                           "frage": "Was war keine Erziehungsmaßregel im JGG 1923?",
+                           "gehoert": [
+                              "Verwarnung",
+                              "besondere Verpflichtungen",
+                              "Unterbringung",
+                              "Schutzaufsicht",
+                              "Fürsorgeerziehung"
+                           ],
+                           "id": "juj-s5-C2-w3-a4",
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "juj-s5-C2-w3",
+                     "merke": "**JGG 1923:** Anwendung auf **14- bis 18-Jährige**. **Gestufte Sanktionen:** **Erziehungsmaßregeln** (Verwarnung, besondere Verpflichtungen, Unterbringung, Schutzaufsicht, Fürsorgeerziehung) – **auch bei fehlender Einsichtsfähigkeit**; **gemilderte Freiheits-/Geldstrafe nur, wenn Erziehungsmaßregeln nicht ausreichen** (Aussetzung zur Bewährung möglich). **Einstellung** des Verfahrens möglich (**Einschränkung des Legalitätsgrundsatzes**). **Besonderes Verfahren:** Jugendgerichte (nur Schöffengericht), höhere Anforderungen an **U-Haft**, **Ausschluss der Öffentlichkeit**. Normative Einführung der **Jugendgerichtshilfe**.",
+                     "titel": "Inhalt des JGG vom 16.02.1923"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s5-C-mix1",
+               "mix": [
+                  "juj-s5-C1",
+                  "juj-s5-C2"
+               ],
+               "titel": "🔀 Gemischt: 20. Jahrhundert"
+            }
+         ],
+         "titel": "20. Jahrhundert: Jugendgericht und JGG 1923"
+      }
+   ]
+}
