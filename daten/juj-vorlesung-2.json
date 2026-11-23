@@ -1,0 +1,1532 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s2",
+   "kurztitel": "Vorlesung 2",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "falsch": [
+               "84 %",
+               "37 %",
+               "4,3 %"
+            ],
+            "frage": "Wie viele Mädchen berichteten in Duisburg zwischen 13. und 18. Lj. mindestens ein Delikt?",
+            "id": "juj-s2-pk1",
+            "richtig": [
+               "69 %"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s2-A1-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Ubiquität",
+               "Ubiquitaet"
+            ],
+            "frage": "Wie heißt das Grundphänomen der weiten Verbreitung leichter Jugenddelinquenz?",
+            "id": "juj-s2-pk2",
+            "musterloesung": "Ubiquität.",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s2-A1-w2"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Jährlich werden im Hellfeld 4,3 % aller Jugendlichen registriert."
+               },
+               {
+                  "begruendung": "Nein, sie ist dem Grunde nach gleich.",
+                  "richtig": false,
+                  "text": "Die Deliktsstruktur unterscheidet sich zwischen Hell- und Dunkelfeld grundlegend."
+               },
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Im Dunkelfeld ist die Verbreitung viel höher als im Hellfeld."
+               }
+            ],
+            "frage": "Richtig oder falsch?",
+            "id": "juj-s2-pk3",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s2-A2-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken.",
+            "id": "juj-s2-pk4",
+            "luecken": [
+               [
+                  "Glockenkurve",
+                  "Glocke"
+               ],
+               [
+                  "14",
+                  "vierzehnten"
+               ]
+            ],
+            "text": "Der Altersverlauf der Delinquenz entspricht einer {}. Im Dunkelfeld liegt der Höhepunkt etwa im {}. Lebensjahr.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s2-B1-w1"
+            ]
+         },
+         {
+            "frage": "Erkläre den Begriff Spontanbewährung.",
+            "id": "juj-s2-pk5",
+            "kernpunkte": [
+               "entwicklungstypischer Rückgang der Delinquenz",
+               "endet aus sich selbst heraus, ohne formelle Intervention durch Polizei/Justiz",
+               "Ergebnis gelingender Normsozialisation durch Familie, Schule, Freunde"
+            ],
+            "musterloesung": "Spontanbewährung ist der entwicklungstypische Rückgang der Delinquenz im Jugendalter: Das Verhalten endet vielfach aus sich selbst heraus, ohne formelle Intervention durch Polizei oder Justiz. Es ist i. d. R. das Ergebnis gelingender Normsozialisation durch Familie, Schule und Freunde.",
+            "typ": "definition",
+            "wissen": [
+               "juj-s2-B1-w2"
+            ]
+         },
+         {
+            "elemente": [
+               "anfangs 1–2-mal auffällig",
+               "ca. 50 % begehen ein 3. Delikt",
+               "davon rund 50 % ein 4. Delikt",
+               "davon ca. 33 % ein 5. Delikt"
+            ],
+            "frage": "Bringe die Abbruchkaskade in die richtige Reihenfolge.",
+            "id": "juj-s2-pk6",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s2-B2-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "etwa 10 %",
+               "etwa 30 %",
+               "fast 100 %"
+            ],
+            "frage": "Wie viele Jugendverfahren werden bundesweit nach §§ 45, 47 JGG eingestellt (Boers)?",
+            "id": "juj-s2-pk7",
+            "richtig": [
+               "knapp 70 %"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s2-B2-w2"
+            ]
+         },
+         {
+            "falsch": [
+               "Mädchen sind delinquenter als Jungen.",
+               "Jungen werden seltener registriert.",
+               "Es gibt keine Unterschiede."
+            ],
+            "frage": "Was zeigt der Vergleich der Geschlechterunterschiede im Hell- und Dunkelfeld?",
+            "id": "juj-s2-pk8",
+            "richtig": [
+               "Mädchen haben ein geringeres Registrierungsrisiko."
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s2-B2-w3"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken zur Intensivtäter-Definition der Vorlesung.",
+            "id": "juj-s2-pk9",
+            "luecken": [
+               [
+                  "5",
+                  "fünf"
+               ],
+               [
+                  "50"
+               ],
+               [
+                  "75"
+               ]
+            ],
+            "text": "Täter: mindestens {} Delikte pro Jahr. Gruppe: mehr als {} % aller Delikte und mehr als {} % der Gewaltdelikte.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s2-C1-w1"
+            ]
+         },
+         {
+            "frage": "Ordne zu.",
+            "id": "juj-s2-pk10",
+            "paare": [
+               {
+                  "links": "Intensivtäter",
+                  "rechts": "Teilmenge der Mehrfachtäter, begehen das Gros der Gewaltdelikte"
+               },
+               {
+                  "links": "Mehrfachtäter",
+                  "rechts": "wiederholte Delikte ohne das Gewaltkriterium"
+               },
+               {
+                  "links": "Klassifikation",
+                  "rechts": "nicht einheitlich möglich"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s2-C1-w2"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "falsch": [
+               "Intensivtäter sind spezialisierte Gewalttäter.",
+               "Die Hälfte der Jugendlichen begeht schwere Gewalt."
+            ],
+            "frage": "Welche Aussagen zur Intensität treffen zu?",
+            "id": "juj-s2-pk11",
+            "richtig": [
+               "Schwere Gewaltdelikte sind selten.",
+               "Selbst bei Intensivtätern sind über 70 % Eigentumsdelikte.",
+               "Ca. 2 % begehen 5 und mehr schwere Gewaltdelikte.",
+               "Auch Intensivtäter zeigen Spontanbewährung."
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s2-C2-w1"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Persistenz",
+               "Persistenz, weil Karriere stigmatisiert",
+               "Persistenz statt Karriere"
+            ],
+            "frage": "Welchen Begriff schlägt Boers statt „kriminelle Karriere“ vor, und warum?",
+            "id": "juj-s2-pk12",
+            "musterloesung": "Persistenz, weil „Karriere“ stigmatisierend und dramatisierend ist und eine geplante Laufbahn suggeriert.",
+            "typ": "kurzfrage",
+            "wissen": [
+               "juj-s2-C2-w2"
+            ]
+         },
+         {
+            "frage": "Nenne die drei Grundphänomene der Trias.",
+            "id": "juj-s2-pk13",
+            "kopf": [
+               "Nr.",
+               "Grundphänomen"
+            ],
+            "typ": "tabelle",
+            "wissen": [
+               "juj-s2-C3-w1"
+            ],
+            "zeigen": 3,
+            "zeilen": [
+               [
+                  "1",
+                  {
+                     "akzeptiert": [
+                        "Ubiquität",
+                        "Ubiquitaet"
+                     ]
+                  }
+               ],
+               [
+                  "2",
+                  {
+                     "akzeptiert": [
+                        "Spontanbewährung",
+                        "Spontanbewaehrung"
+                     ]
+                  }
+               ],
+               [
+                  "3",
+                  {
+                     "akzeptiert": [
+                        "Intensität",
+                        "Intensitaet"
+                     ]
+                  }
+               ]
+            ]
+         },
+         {
+            "falsch": [
+               "sie ist zu teuer",
+               "sie ist verfassungswidrig",
+               "sie dauert zu kurz"
+            ],
+            "frage": "Warum ist Inhaftierung junger Täter laut Vorlesung meist kontraproduktiv?",
+            "id": "juj-s2-pk14",
+            "richtig": [
+               "hohe Rückfallraten und negatives Lernumfeld"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s2-D2-w1"
+            ]
+         },
+         {
+            "fall": "Mia (14) wird beim Ladendiebstahl erwischt. Es ist ihre erste Auffälligkeit. Die Staatsanwältin überlegt, ob sie Anklage erheben oder das Verfahren einstellen soll.",
+            "frage": "Was spricht aus kriminologischer Sicht für eine Einstellung?",
+            "id": "juj-s2-pk15",
+            "kernpunkte": [
+               "Ubiquität: Ladendiebstahl ist typisch und statistisch normal",
+               "Spontanbewährung: Delinquenz endet meist ohne formelle Intervention",
+               "Abbruchkaskade: nur ca. 50 % begehen ein 3. Delikt",
+               "Diversion vermeidet, die Normsozialisation strafrechtlich zu konterkarieren"
+            ],
+            "musterloesung": "Ein einzelner Ladendiebstahl ist jugendtypisch und statistisch normal (Ubiquität). Delinquenz endet meist von selbst, ohne Polizei oder Justiz, durch gelingende Normsozialisation (Spontanbewährung); von den anfangs Auffälligen begeht nur etwa die Hälfte ein 3. Delikt. Eine Einstellung (Diversion nach §§ 45, 47 JGG) vermeidet, diese Prozesse strafrechtlich zu konterkarieren.",
+            "typ": "fall",
+            "wissen": [
+               "juj-s2-B1-w2",
+               "juj-s2-B2-w2"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s2-pk16",
+            "segmente": [
+               {
+                  "text": "Bei Jugendlichen ist der Anteil leichter Delikte am höchsten."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Schwere Kriminalität ist **Erwachsenen-, nicht Jugendkriminalität**.",
+                  "text": "Schwere Kriminalität ist vor allem Jugendkriminalität."
+               },
+               {
+                  "text": "Das meiste regelt sich bis zum Ende des Jugendalters von selbst."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s2-D1-w2"
+            ]
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 2"
+   },
+   "quelle": [
+      "JuJ/2. Vorlesung JuJ.pdf",
+      "JuJ/JStR Teil 2.pdf",
+      "JuJ/2. Boers, Skript Trias der Delinquenz.pdf",
+      "JuJ/JuJ 2 Mitschrift.odt",
+      "JuJ/2. Boers et al. - Delinquenzverläufe.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Grundlegende Erklärungszusammenhänge: die Trias",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 30,
+         "id": "juj-s2-A",
+         "level": [
+            {
+               "id": "juj-s2-A1",
+               "titel": "Fast alle tun es",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "69 %",
+                              "61 %",
+                              "37 %",
+                              "15 %"
+                           ],
+                           "fragen": [
+                              "Wie viele männliche Befragte in Duisburg berichteten zwischen 13. und 18. Lj. mindestens ein Delikt?",
+                              "Wie hoch war die Lebensprävalenz der Jungen in der Duisburger Studie?"
+                           ],
+                           "id": "juj-s2-A1-w1-a1",
+                           "richtig": [
+                              "84 %"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ergänze die Lebensprävalenzraten (Duisburg, 13.–18. Lj.).",
+                           "id": "juj-s2-A1-w1-a2",
+                           "kopf": [
+                              "Delikte",
+                              "männlich",
+                              "weiblich"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "alle Delikte",
+                                 {
+                                    "akzeptiert": [
+                                       "84 %",
+                                       "84"
+                                    ]
+                                 },
+                                 {
+                                    "akzeptiert": [
+                                       "69 %",
+                                       "69"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Gewalt",
+                                 {
+                                    "akzeptiert": [
+                                       "61 %",
+                                       "61"
+                                    ]
+                                 },
+                                 {
+                                    "akzeptiert": [
+                                       "37 %",
+                                       "37"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, 69 %.",
+                                 "richtig": true,
+                                 "text": "hat eine Mehrheit der Mädchen bis zum 18. Lj. mindestens ein Delikt begangen."
+                              },
+                              {
+                                 "begruendung": "Nein, 61 % (weite Gewaltdefinition).",
+                                 "richtig": false,
+                                 "text": "haben nur wenige Jungen jemals ein Gewaltdelikt begangen."
+                              },
+                              {
+                                 "begruendung": "Ja, Täterbefragung.",
+                                 "richtig": true,
+                                 "text": "beruhen die Zahlen auf Selbstberichten (Dunkelfeld)."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach der Duisburger Studie …",
+                           "id": "juj-s2-A1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s2-A1-w1",
+                     "merke": "**Duisburger Täterbefragung (2002–2007):** Zwischen dem **13. und 18. Lebensjahr** gaben **84 % der Jungen und 69 % der Mädchen** an, mindestens ein Eigentums-, Sachbeschädigungs- oder Gewaltdelikt begangen zu haben; bei **Gewalt** (weite Definition) waren es **61 % bzw. 37 %**.",
+                     "titel": "Lebensprävalenz in Duisburg"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "akzeptiert": [
+                              "Ubiquität",
+                              "Ubiquitaet",
+                              "ubiquitär"
+                           ],
+                           "frage": "Wie heißt das Grundphänomen, dass leichte Jugenddelinquenz über alle Schichten weit verbreitet ist?",
+                           "id": "juj-s2-A1-w2-a1",
+                           "musterloesung": "Ubiquität.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "Schwere Gewaltdelikte sind bei Jugendlichen üblich.",
+                              "Jugenddelinquenz ist moralisch in Ordnung.",
+                              "Jugenddelinquenz kommt nur in unteren Schichten vor.",
+                              "Jugendliche werden nicht bestraft."
+                           ],
+                           "fragen": [
+                              "Was bedeutet es, dass Jugenddelinquenz „statistisch normal“ ist?",
+                              "In welchem Sinn ist Jugenddelinquenz „normal“?"
+                           ],
+                           "id": "juj-s2-A1-w2-a2",
+                           "richtig": [
+                              "Gelegentliche leichte und mittelschwere Delikte kommen bei fast allen jungen Menschen vor."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s2-A1-w2-a3",
+                           "luecken": [
+                              [
+                                 "normal"
+                              ],
+                              [
+                                 "Schichten",
+                                 "gesellschaftlichen Schichten",
+                                 "Teilgruppen"
+                              ],
+                              [
+                                 "ubiquitär",
+                                 "ubiquitaer",
+                                 "weit verbreitet"
+                              ]
+                           ],
+                           "text": "Das gelegentliche Begehen leichterer und mittelschwerer Delikte ist statistisch {}. Wegen hoher Täterprävalenz über alle {} hinweg ist Jugenddelinquenz {}.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s2-A1-w2",
+                     "merke": "**1. Grundphänomen: Ubiquität.** Das **gelegentliche Begehen leichterer und mittelschwerer Delikte** ist bei jungen Menschen **statistisch „normal“**; das **Überschreiten von Grenzen** ist wohl typischer Bestandteil der jugendlichen Entwicklung. Wegen der hohen Täterprävalenz **über alle gesellschaftlichen Schichten hinweg** ist Jugenddelinquenz **weit verbreitet = ubiquitär**.",
+                     "titel": "Statistisch normal"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-A2",
+               "titel": "Hellfeld gegen Dunkelfeld",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "84 %",
+                              "43 %",
+                              "15,9 %",
+                              "0,4 %"
+                           ],
+                           "fragen": [
+                              "Wie viele Jugendliche werden laut Vorlesung jährlich im Hellfeld wegen eines Delikts registriert?"
+                           ],
+                           "id": "juj-s2-A2-w1-a1",
+                           "richtig": [
+                              "4,3 %"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Die Delinquenzverbreitung ist im Dunkelfeld deutlich höher als im Hellfeld."
+                              },
+                              {
+                                 "begruendung": "Nein, die Deliktsstruktur ist gleich; auch im Dunkelfeld sind sie selten.",
+                                 "richtig": false,
+                                 "text": "Im Dunkelfeld sind schwere Gewaltdelikte häufig, nur im Hellfeld selten."
+                              },
+                              {
+                                 "begruendung": "Ja, 6,1 % gegenüber 2,4 %.",
+                                 "richtig": true,
+                                 "text": "Jungen werden im Hellfeld häufiger registriert als Mädchen."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s2-A2-w1-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s2-A2-w1-a3",
+                           "paare": [
+                              {
+                                 "links": "Hellfeld",
+                                 "rechts": "jährlich 4,3 % der Jugendlichen registriert"
+                              },
+                              {
+                                 "links": "Dunkelfeld",
+                                 "rechts": "84 % der Jungen, 69 % der Mädchen berichten ein Delikt"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        }
+                     ],
+                     "id": "juj-s2-A2-w1",
+                     "merke": "Im **Hellfeld** werden **jährlich nur 4,3 % aller Jugendlichen** wegen eines Delikts registriert (Jungen 6,1 %, Mädchen 2,4 %); im **Dunkelfeld** berichten **84 % / 69 %** mindestens ein Delikt. Die **Deliktsstruktur** ist in beiden Feldern dem Grunde nach **gleich**: Schwere Gewalt- und Diebstahlsdelikte sind auch im Dunkelfeld selten (Boers, Skript Trias).",
+                     "titel": "Nur wenige werden registriert"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-A-mix1",
+               "mix": [
+                  "juj-s2-A1",
+                  "juj-s2-A2"
+               ],
+               "titel": "🔀 Gemischt: Ubiquität"
+            }
+         ],
+         "titel": "Ubiquität"
+      },
+      {
+         "farbe": 140,
+         "id": "juj-s2-B",
+         "level": [
+            {
+               "id": "juj-s2-B1",
+               "titel": "Die Glockenkurve",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "akzeptiert": [
+                              "Glockenkurve",
+                              "Glocke",
+                              "glockenförmig",
+                              "Glockenform"
+                           ],
+                           "frage": "Welcher Kurvenform entspricht der Altersverlauf der Jugenddelinquenz?",
+                           "id": "juj-s2-B1-w1-a1",
+                           "musterloesung": "Einer Glockenkurve: steiler Anstieg, ebenso starker Rückgang.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "falsch": [
+                              "im 10. Lebensjahr",
+                              "im 18.–20. Lebensjahr",
+                              "mit 25 Jahren",
+                              "sie steigt bis ins Erwachsenenalter"
+                           ],
+                           "fragen": [
+                              "Wann erreicht die Delinquenz im Dunkelfeld ihren Höhepunkt?",
+                              "Bis zu welchem Alter steigt die selbstberichtete Delinquenz steil an?"
+                           ],
+                           "id": "juj-s2-B1-w1-a2",
+                           "richtig": [
+                              "etwa im 14. (15.) Lebensjahr"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, nach der Zusammenfassungsfolie erst im Heranwachsendenalter; nach dem Skript bei Mädchen 14.–16., bei Jungen 18.–20. Lj.",
+                                 "richtig": true,
+                                 "text": "Im Hellfeld liegt der Maximalwert später als im Dunkelfeld."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Jungen und Mädchen zeigen einen grundsätzlich gleichen Verlauf."
+                              },
+                              {
+                                 "begruendung": "Nein, es folgt ein ebenso starker Rückgang.",
+                                 "richtig": false,
+                                 "text": "Nach dem Höhepunkt bleibt die Delinquenz auf hohem Niveau."
+                              }
+                           ],
+                           "erklaerung": "Die Folien widersprechen sich beim Hellfeld-Höhepunkt: eine Folie nennt das 14./15. Lj., die Zusammenfassung „erst im Heranwachsendenalter“; das Boers-Skript nennt Mädchen 14.–16., Jungen 18.–20. Lj.",
+                           "frage": "Richtig oder falsch? Zum Altersverlauf:",
+                           "id": "juj-s2-B1-w1-a3",
+                           "pruefen": true,
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s2-B1-w1-a4",
+                           "luecken": [
+                              [
+                                 "14",
+                                 "vierzehnten",
+                                 "15"
+                              ],
+                              [
+                                 "16",
+                                 "sechzehnten",
+                                 "15"
+                              ]
+                           ],
+                           "text": "Im Dunkelfeld steigt die Delinquenz bis zum {}. Lebensjahr stark an; ab dem {}. Lebensjahr geht sie zurück.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s2-B1-w1",
+                     "merke": "**2. Grundphänomen: Spontanbewährung.** Der **Altersverlauf** der Delinquenz entspricht einer **Glockenkurve**: Auf einen **steilen Anstieg** folgt ein **ebenso starker Rückgang**. **Dunkelfeld:** steiler Anstieg bis zum **14. (15.) Lj.**, ab dem **16. Lj.** Rückgang. **Hellfeld:** Maximalwert **später**. Männlich und weiblich gleicher Verlauf.",
+                     "titel": "Anstieg und Rückgang"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "ohne jeden Einfluss anderer Menschen",
+                              "plötzlich über Nacht",
+                              "nur nach einer Jugendstrafe",
+                              "nur nach einer Therapie"
+                           ],
+                           "fragen": [
+                              "Was bedeutet „spontan“ bei der Spontanbewährung?",
+                              "Ohne was endet die Delinquenz bei der Spontanbewährung?"
+                           ],
+                           "id": "juj-s2-B1-w2-a1",
+                           "richtig": [
+                              "ohne formelle Kontrollintervention durch Polizei oder Justiz"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "Jugendstrafe",
+                              "Abschreckung durch Polizeikontrollen",
+                              "Jugendarrest"
+                           ],
+                           "frage": "Wodurch kommt die Spontanbewährung in der Regel zustande?",
+                           "id": "juj-s2-B1-w2-a2",
+                           "richtig": [
+                              "gelingende Normsozialisation durch die Familie",
+                              "gelingende Normsozialisation durch die Schule",
+                              "gelingende Normsozialisation durch Freunde"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s2-B1-w2-a3",
+                           "segmente": [
+                              {
+                                 "text": "Spontanbewährung ist ein entwicklungstypischer Rückgang der Delinquenz."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Sie tritt **ohne formelle Intervention** ein, als Ergebnis gelingender Normsozialisation durch Familie, Schule und Freunde.",
+                                 "text": "Sie ist vor allem das Ergebnis konsequenter Strafverfolgung durch Polizei und Justiz."
+                              },
+                              {
+                                 "text": "„Spontan“ heißt dabei: aus sich selbst heraus."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s2-B1-w2",
+                     "merke": "**Spontanbewährung** ist ein **entwicklungstypischer Rückgang**: Delinquentes Verhalten endet im Jugendalter vielfach **aus sich selbst heraus**, **ohne Intervention durch Polizei/Justiz**. „Spontan“ heißt nicht ohne jede, sondern **ohne formelle Kontrollintervention**: Sie ist i. d. R. Ergebnis **gelingender Normsozialisation** durch **Familie, Schule und Freunde**.",
+                     "titel": "Was „spontan“ bedeutet"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-B2",
+               "titel": "Das Meiste regelt sich von selbst",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "1–2-mal auffällig zu Beginn des Jugendalters",
+                              "ca. 50 % begehen ein 3. Delikt",
+                              "davon rund 50 % ein 4. Delikt",
+                              "davon ca. 33 % ein 5. Delikt"
+                           ],
+                           "frage": "Bringe die Abbruchkaskade in die richtige Reihenfolge.",
+                           "id": "juj-s2-B2-w1-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "falsch": [
+                              "fast alle",
+                              "ca. 90 %",
+                              "ca. 10 %",
+                              "ca. 33 %"
+                           ],
+                           "fragen": [
+                              "Wie viele der anfangs 1–2-mal Auffälligen begehen ein 3. Delikt?"
+                           ],
+                           "id": "juj-s2-B2-w1-a2",
+                           "richtig": [
+                              "ca. 50 %"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "episodenhaft",
+                              "Episodenhaftigkeit",
+                              "episodisch",
+                              "Hinausreifen"
+                           ],
+                           "frage": "Wie nennt man es, dass Jugenddelinquenz nur eine vorübergehende Phase ist?",
+                           "id": "juj-s2-B2-w1-a3",
+                           "musterloesung": "Sie ist episodenhaft (entwicklungstypisches Hinausreifen).",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s2-B2-w1",
+                     "merke": "Von den zu Beginn des Jugendalters **1–2-mal Auffälligen** begehen im Altersverlauf **nur ca. 50 % ein 3.**, davon **nur rund 50 % ein 4.** und davon **ca. 33 % ein 5. Delikt**. **Das Meiste regelt sich von selbst:** Delinquenz im Jugendalter ist **episodenhaft** – entwicklungstypisches Hinausreifen, Normfindung und Rechtsbewusstsein im Verlauf erfolgreicher Sozialisation.",
+                     "titel": "Die Abbruchkaskade"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Jugendliche sollten früher in Haft kommen.",
+                              "Diversion sollte abgeschafft werden.",
+                              "Jedes Delikt muss angeklagt werden.",
+                              "Das Strafmündigkeitsalter sollte sinken."
+                           ],
+                           "fragen": [
+                              "Welche Folgerung zieht Boers aus der Spontanbewährung für das Jugendstrafverfahren?",
+                              "Warum ist Diversion nach Boers sinnvoll?"
+                           ],
+                           "id": "juj-s2-B2-w2-a1",
+                           "richtig": [
+                              "Diversion vermeidet, die Normsozialisation strafrechtlich zu konterkarieren."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s2-B2-w2-a2",
+                           "luecken": [
+                              [
+                                 "70",
+                                 "siebzig"
+                              ],
+                              [
+                                 "45, 47",
+                                 "45 und 47",
+                                 "45,47"
+                              ]
+                           ],
+                           "text": "Bundesweit werden knapp {} % der Jugendverfahren nach §§ {} JGG eingestellt.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, das ist nicht bekannt.",
+                                 "richtig": true,
+                                 "text": "wurde ein vergleichbarer Rückgang noch nie durch spezifische Präventions- oder Strafmaßnahmen erreicht."
+                              },
+                              {
+                                 "begruendung": "Ja, die Dunkelfeldraten sinken ab dem 15. Lj.",
+                                 "richtig": true,
+                                 "text": "tritt die Spontanbewährung überwiegend schon kurz nach Erreichen der Strafmündigkeit ein."
+                              },
+                              {
+                                 "begruendung": "Nein, sie ist gerade deshalb notwendig.",
+                                 "richtig": false,
+                                 "text": "ist Diversion bei Spontanbewährung überflüssig."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach Boers …",
+                           "id": "juj-s2-B2-w2-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s2-B2-w2",
+                     "merke": "Es ist **nicht bekannt**, dass ein solcher Rückgang **mit spezifischen präventiven oder repressiven Maßnahmen** erreicht worden wäre. Die früh einsetzende Spontanbewährung unterstreicht die Notwendigkeit der **Diversion**: Bundesweit werden knapp **70 % der Jugendverfahren nach §§ 45, 47 JGG eingestellt**. Diversion **vermeidet, die normsozialisatorischen Prozesse strafrechtlich zu konterkarieren** (Boers, Skript Trias).",
+                     "titel": "Folge: Diversion"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Mädchen begehen mehr Delikte als Jungen.",
+                              "Mädchen lügen in Befragungen häufiger.",
+                              "Es gibt keine Geschlechterunterschiede.",
+                              "Jungen werden seltener angezeigt."
+                           ],
+                           "fragen": [
+                              "Was folgt daraus, dass die Geschlechterunterschiede im Dunkelfeld kleiner sind als im Hellfeld?",
+                              "Was zeigt der Vergleich von Hell- und Dunkelfeld bei Mädchen?"
+                           ],
+                           "id": "juj-s2-B2-w3-a1",
+                           "richtig": [
+                              "Mädchen haben ein geringeres Registrierungsrisiko als Jungen."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Jungen haben auch im Dunkelfeld höhere Prävalenzraten als Mädchen."
+                              },
+                              {
+                                 "begruendung": "Nein, bei Mädchen ist er deutlicher ausgeprägt.",
+                                 "richtig": false,
+                                 "text": "Bei Mädchen ist der Rückgang der Delinquenz weniger deutlich als bei Jungen."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Ab dem 16. Lebensjahr nehmen die Geschlechterunterschiede auch im Dunkelfeld zu."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s2-B2-w3-a2",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "geringeres Registrierungsrisiko",
+                              "Registrierungsrisiko",
+                              "niedrigeres Registrierungsrisiko"
+                           ],
+                           "frage": "Wie heißt das geringere Risiko von Mädchen, bei gleicher Tat polizeilich erfasst zu werden?",
+                           "id": "juj-s2-B2-w3-a3",
+                           "musterloesung": "Ein geringeres Registrierungsrisiko.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s2-B2-w3",
+                     "merke": "Jungen haben auch im Dunkelfeld **höhere Prävalenzraten**, aber im **frühen Jugendalter** sind die Unterschiede **deutlich geringer als im Hellfeld**: **Mädchen haben ein geringeres Registrierungsrisiko**. Ab dem 16. Lj. wachsen die Unterschiede; bei Mädchen ist der **Rückgang deutlicher** (Boers, Skript Trias).",
+                     "titel": "Mädchen und Jungen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-B-mix1",
+               "mix": [
+                  "juj-s2-B1",
+                  "juj-s2-B2"
+               ],
+               "titel": "🔀 Gemischt: Spontanbewährung"
+            }
+         ],
+         "titel": "Spontanbewährung"
+      },
+      {
+         "farbe": 270,
+         "id": "juj-s2-C",
+         "level": [
+            {
+               "id": "juj-s2-C1",
+               "titel": "Wer ist Intensivtäter?",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "ab 2 Delikten",
+                              "ab 10 Delikten",
+                              "ab 1 Gewaltdelikt",
+                              "ab 20 Delikten"
+                           ],
+                           "fragen": [
+                              "Ab wie vielen Delikten pro Jahr gilt ein Täter laut Vorlesung als Intensivtäter?"
+                           ],
+                           "id": "juj-s2-C1-w1-a1",
+                           "richtig": [
+                              "ab 5 Delikten"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s2-C1-w1-a2",
+                           "luecken": [
+                              [
+                                 "5",
+                                 "fünf"
+                              ],
+                              [
+                                 "50"
+                              ],
+                              [
+                                 "75"
+                              ]
+                           ],
+                           "text": "Intensivtäter begehen mindestens {} Delikte pro Jahr. Als Gruppe begehen sie mehr als {} % aller Delikte und mehr als {} % aller Gewaltdelikte ihrer Altersgruppe.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, keine einheitliche Definition.",
+                                 "richtig": false,
+                                 "text": "Es gibt eine bundesweit einheitliche Definition des Intensivtäters."
+                              },
+                              {
+                                 "begruendung": "Ja, über 75 %.",
+                                 "richtig": true,
+                                 "text": "Die Gruppe der Intensivtäter begeht den Großteil der Gewaltdelikte ihrer Altersgruppe."
+                              },
+                              {
+                                 "begruendung": "Ja, ≥ 5 Delikte pro Jahr.",
+                                 "richtig": true,
+                                 "text": "Ein Täter mit 5 Delikten im Jahr gilt nach der Vorlesung als Intensivtäter."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s2-C1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s2-C1-w1",
+                     "merke": "**Intensivtäter (Vorlesung):** **Täter**, der **≥ 5 Delikte pro Jahr** begeht; die **Gruppe** begeht **> 50 % aller Delikte** und **> 75 % aller Gewaltdelikte ihrer Altersgruppe**. Eine **einheitliche Definition gibt es nicht**.",
+                     "titel": "Definition in der Vorlesung"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Mehrfachtäter sind eine Teilmenge der Intensivtäter.",
+                              "Beide Begriffe bedeuten dasselbe.",
+                              "Sie schließen sich gegenseitig aus.",
+                              "Mehrfachtäter begehen mehr Gewaltdelikte."
+                           ],
+                           "fragen": [
+                              "Wie verhalten sich Intensivtäter und Mehrfachtäter zueinander?",
+                              "Was sind Intensivtäter nach Boers im Verhältnis zu Mehrfachtätern?"
+                           ],
+                           "id": "juj-s2-C1-w2-a1",
+                           "richtig": [
+                              "Intensivtäter sind eine Teilmenge der Mehrfachtäter."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne zu.",
+                           "id": "juj-s2-C1-w2-a2",
+                           "paare": [
+                              {
+                                 "links": "Mehrfachtäter",
+                                 "rechts": "wiederholte Delikte, ohne das Gros der Gewaltdelikte"
+                              },
+                              {
+                                 "links": "Intensivtäter",
+                                 "rechts": "begehen im Zeitraum das Gros der Gewaltdelikte"
+                              },
+                              {
+                                 "links": "Klassifikation",
+                                 "rechts": "nicht einheitlich möglich"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s2-C1-w2-a3",
+                           "segmente": [
+                              {
+                                 "text": "Nach Boers ist eine normative Definition des Intensivtäters möglich."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Eine einheitliche **Klassifikation** ist **nicht** möglich, weil sich je nach Daten, Delikt, Zeitraum und Gruppe andere Basishäufigkeiten ergeben.",
+                                 "text": "Ebenso ist eine einheitliche Klassifikation für alle Datenarten möglich."
+                              },
+                              {
+                                 "text": "Intensivtäter sind eine Teilmenge der Mehrfachtäter."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s2-C1-w2",
+                     "merke": "Nach **Boers (Skript)**: **Intensivtäter** begehen in einem begrenzten Zeitraum **das Gros der Gewaltdelikte** (z. B. ≥ 50 % aller Delikte und ≥ 75 % der Gewaltdelikte). **Mehrfachtäter** begehen wiederholt (etwa 3+) Delikte, ohne dieses qualitative Gewaltkriterium. **Intensivtäter sind eine Teilmenge der Mehrfachtäter.** Eine **Definition** ist normativ möglich, eine **einheitliche Klassifikation** nicht (Hell-/Dunkelfeld, Delikt, Zeitraum, Gruppe).",
+                     "titel": "Mehrfach- und Intensivtäter"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-C2",
+               "titel": "Deliktsschwere und Intensität",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "schwere Gewaltdelikte mit über 70 %",
+                              "Drogendelikte mit über 50 %",
+                              "Tötungsdelikte",
+                              "Sexualdelikte"
+                           ],
+                           "fragen": [
+                              "Welche Delikte überwiegen selbst bei Intensivtätern?",
+                              "Welchen Anteil haben Eigentumsdelikte bei Intensivtätern?"
+                           ],
+                           "id": "juj-s2-C2-w1-a1",
+                           "richtig": [
+                              "Eigentumsdelikte mit über 70 %"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ergänze die Zahlen zur Intensität.",
+                           "id": "juj-s2-C2-w1-a2",
+                           "kopf": [
+                              "Befund",
+                              "Anteil"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "Jugendliche mit Gewaltdelikt im Hellfeld",
+                                 {
+                                    "akzeptiert": [
+                                       "1,5 %",
+                                       "1,5",
+                                       "1.5"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Jugendliche mit ≥ 5 Gewaltdelikten",
+                                 {
+                                    "akzeptiert": [
+                                       "5-6 %",
+                                       "5–6 %",
+                                       "5-6",
+                                       "5 bis 6"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Jugendliche mit ≥ 5 schweren Gewaltdelikten",
+                                 {
+                                    "akzeptiert": [
+                                       "2 %",
+                                       "2"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Eigentumsdelikte bei Intensivtätern",
+                                 {
+                                    "akzeptiert": [
+                                       "über 70 %",
+                                       "> 70 %",
+                                       "70 %",
+                                       "70"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, schwere Gewalt ist selten.",
+                                 "richtig": true,
+                                 "text": "Die meisten Gewaltdelikte Jugendlicher sind Körperverletzungen."
+                              },
+                              {
+                                 "begruendung": "Nein, selbst bei ihnen sind über 70 % Eigentumsdelikte.",
+                                 "richtig": false,
+                                 "text": "Intensivtäter sind spezialisierte Gewalttäter."
+                              },
+                              {
+                                 "begruendung": "Ja, mit ähnlichem Altersverlauf.",
+                                 "richtig": true,
+                                 "text": "Auch bei Intensivtätern gibt es Spontanbewährung."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s2-C2-w1-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "Intensivtäter hören nie auf.",
+                              "Ca. 30 % aller Jugendlichen sind Intensivtäter."
+                           ],
+                           "frage": "Welche Aussagen zur Intensität treffen zu?",
+                           "id": "juj-s2-C2-w1-a4",
+                           "richtig": [
+                              "Schwere Gewaltdelikte sind selten.",
+                              "Ca. 2 % begehen 5 und mehr schwere Gewaltdelikte.",
+                              "Im Dunkelfeld haben ca. 5–6 % ein Gewaltdelikt begangen.",
+                              "Der Altersverlauf ähnelt dem der allgemeinen Delinquenz."
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s2-C2-w1",
+                     "merke": "**3. Grundphänomen: Intensität.** **Schwere Gewaltdelikte** werden **selten** begangen, meist sind es **Körperverletzungen**. Hellfeld: ca. **1,5 %** Jugendliche mit Gewaltdelikt; Dunkelfeld: ca. **5–6 %**. Ca. **5–6 %** begehen **≥ 5 Gewaltdelikte**, ca. **2 %** **≥ 5 schwere Gewaltdelikte**. **Selbst bei Intensivtätern > 70 % Eigentumsdelikte**. Auch hier: **Spontanbewährung**.",
+                     "titel": "Schwere Gewalt ist selten"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Er ist zu neutral.",
+                              "Er stammt aus dem Strafgesetzbuch.",
+                              "Er gilt nur für Erwachsene.",
+                              "Er beschreibt nur Bagatelltäter."
+                           ],
+                           "fragen": [
+                              "Warum hält Boers den Begriff „kriminelle Karriere“ für ungeeignet?",
+                              "Was spricht nach Boers gegen den Begriff „kriminelle Karriere“?"
+                           ],
+                           "id": "juj-s2-C2-w2-a1",
+                           "richtig": [
+                              "Er ist stigmatisierend und suggeriert eine geplante Laufbahn."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Persistenz",
+                              "persistenter Delinquenzverlauf",
+                              "Persistence"
+                           ],
+                           "frage": "Welchen Begriff schlägt Boers statt „kriminelle Karriere“ vor?",
+                           "id": "juj-s2-C2-w2-a2",
+                           "musterloesung": "Persistenz.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "frage": "Fülle die Lücke.",
+                           "id": "juj-s2-C2-w2-a3",
+                           "luecken": [
+                              [
+                                 "drei bis vier",
+                                 "3-4",
+                                 "3–4",
+                                 "3 bis 4"
+                              ]
+                           ],
+                           "text": "Ein persistenter Verlauf sollte, um „dauerhaft“ zu heißen, wohl mindestens {} Jahre dauern.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s2-C2-w2",
+                     "merke": "Boers schlägt vor, statt „**kriminelle Karriere**“ den Begriff **Persistenz** zu verwenden: „Karriere“ ist **stigmatisierend und dramatisierend** und suggeriert eine **geplante Laufbahn**. **Persistenz** liegt erst vor, wenn ein Mehrfach- oder Intensivtäter **über mehrere Zeiteinheiten ohne große Unterbrechung** aktiv ist – wohl **mindestens drei bis vier Jahre**.",
+                     "titel": "Persistenz statt Karriere"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-C3",
+               "titel": "Die Trias im Überblick",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Elemente der Trias zu.",
+                           "id": "juj-s2-C3-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "Ubiquität",
+                                 "rechts": "weite Verbreitung leichter Delinquenz"
+                              },
+                              {
+                                 "links": "Spontanbewährung",
+                                 "rechts": "weitgehender Abbruch ohne formelle Kontrollintervention"
+                              },
+                              {
+                                 "links": "Intensität",
+                                 "rechts": "Konzentration auf wenige Intensivtäter"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "frage": "Nenne die drei Grundphänomene der Trias.",
+                           "id": "juj-s2-C3-w1-a2",
+                           "kopf": [
+                              "Nr.",
+                              "Grundphänomen"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "1",
+                                 {
+                                    "akzeptiert": [
+                                       "Ubiquität",
+                                       "Ubiquitaet"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "2",
+                                 {
+                                    "akzeptiert": [
+                                       "Spontanbewährung",
+                                       "Spontanbewaehrung"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "3",
+                                 {
+                                    "akzeptiert": [
+                                       "Intensität",
+                                       "Intensitaet",
+                                       "Intensivtäterschaft"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "ausreisser": [
+                              "Generalprävention",
+                              "Subsidiarität",
+                              "Legalitätsprinzip"
+                           ],
+                           "frage": "Was gehört nicht zur Trias der Jugenddelinquenz?",
+                           "gehoert": [
+                              "Ubiquität",
+                              "Spontanbewährung",
+                              "Intensität"
+                           ],
+                           "id": "juj-s2-C3-w1-a3",
+                           "typ": "wasPasstNicht"
+                        },
+                        {
+                           "frage": "Beschreibe die Trias der Jugenddelinquenz.",
+                           "id": "juj-s2-C3-w1-a4",
+                           "kernpunkte": [
+                              "Ubiquität: leichte/mittlere Delikte bei fast allen, alle Schichten (84 %/69 %)",
+                              "Spontanbewährung: Glockenkurve, Rückgang ohne formelle Intervention durch Normsozialisation",
+                              "Intensität: wenige Intensivtäter (≥ 5 Delikte/Jahr) begehen das Gros der (Gewalt-)Delikte",
+                              "auch Intensivtäter zeigen Spontanbewährung"
+                           ],
+                           "musterloesung": "Die Trias beschreibt Verbreitung und Altersverlauf der Jugenddelinquenz. Ubiquität: Leichte und mittelschwere Delikte begehen fast alle jungen Menschen über alle Schichten hinweg (in Duisburg 84 % der Jungen, 69 % der Mädchen). Spontanbewährung: Der Altersverlauf ist eine Glockenkurve; die Delinquenz endet meist ohne formelle Intervention als Ergebnis gelingender Normsozialisation. Intensität: Eine kleine Gruppe von Intensivtätern (≥ 5 Delikte/Jahr) begeht über die Hälfte aller und drei Viertel der Gewaltdelikte; auch sie zeigt Spontanbewährung.",
+                           "typ": "offen"
+                        }
+                     ],
+                     "id": "juj-s2-C3-w1",
+                     "merke": "Die **Trias** – **Ubiquität** (weite Verbreitung), **Spontanbewährung** (Abbruch ohne formelle Intervention) und **Intensität** (Konzentration auf wenige Intensivtäter) – bildet die **Grundphänomene zur Beschreibung der Verbreitung und des Altersverlaufs** der Jugenddelinquenz (Boers).",
+                     "titel": "Ubiquität, Spontanbewährung, Intensität"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-C-mix1",
+               "mix": [
+                  "juj-s2-C1",
+                  "juj-s2-C2",
+                  "juj-s2-C3"
+               ],
+               "titel": "🔀 Gemischt: Die Trias"
+            }
+         ],
+         "titel": "Intensität und die Trias"
+      },
+      {
+         "farbe": 0,
+         "id": "juj-s2-D",
+         "level": [
+            {
+               "id": "juj-s2-D1",
+               "titel": "Die Zahlen sprechen dagegen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 3,
+                           "falsch": [
+                              "mehr tatsächlich begangene Taten",
+                              "mildere Strafen",
+                              "weniger Polizei"
+                           ],
+                           "frage": "Worauf beruht laut Vorlesung ein Anstieg der registrierten Jugendkriminalität?",
+                           "id": "juj-s2-D1-w1-a1",
+                           "richtig": [
+                              "erhöhtes Anzeigeverhalten",
+                              "Aufklärungsquote",
+                              "leichtere Überführbarkeit"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "falsch": [
+                              "seit 1980",
+                              "seit 2020",
+                              "seit 1950",
+                              "sie steigt seit 2008"
+                           ],
+                           "fragen": [
+                              "Seit wann geht die Jugendgewalt im Hellfeld zurück?",
+                              "Seit wann ist die Gewaltkriminalität Jugendlicher im Hellfeld rückläufig?"
+                           ],
+                           "id": "juj-s2-D1-w1-a2",
+                           "richtig": [
+                              "seit 2008"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Im Dunkelfeld stagniert oder sinkt die Jugendkriminalität seit den 1990ern."
+                              },
+                              {
+                                 "begruendung": "Nein, die weitere Entwicklung muss erst abgewartet werden.",
+                                 "richtig": false,
+                                 "text": "Der aktuelle Anstieg beweist, dass eine Verschärfung nötig ist."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Im Hellfeld ist die Jugendkriminalität allgemein seit Ende der 1990er rückläufig oder stagniert."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s2-D1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s2-D1-w1",
+                     "merke": "Gegen eine Verschärfung spricht: **Stagnation oder Rückgang** der Jugendkriminalität – im **Hellfeld** allgemein **seit Ende der 1990er**, **Gewalt seit 2008**; im **Dunkelfeld seit den 1990ern**. Ein Anstieg beruht auf **erhöhtem Anzeigeverhalten**, Aufklärungsquote und leichterer Überführbarkeit; beim **aktuellen Anstieg** muss die weitere Entwicklung **abgewartet** werden.",
+                     "titel": "Stagnation und Rückgang"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Schwere Kriminalität ist vor allem Jugendkriminalität.",
+                              "Kinder begehen die meisten schweren Taten.",
+                              "Heranwachsende begehen fast nur schwere Taten.",
+                              "Es gibt keine Unterschiede nach Alter."
+                           ],
+                           "fragen": [
+                              "Wessen Kriminalität ist laut Vorlesung die schwere Kriminalität?",
+                              "Wo ist der Anteil leichter Delikte am höchsten?"
+                           ],
+                           "id": "juj-s2-D1-w2-a1",
+                           "richtig": [
+                              "Schwere Kriminalität ist Erwachsenenkriminalität; bei Jugendlichen überwiegen leichte Delikte."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s2-D1-w2-a2",
+                           "segmente": [
+                              {
+                                 "text": "Jugendkriminalität ist vielfach unprofessionelle Bagatellkriminalität."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Auch bei **Gewaltdelinquenz und Intensiv(gewalt)tätern** regelt sich das meiste bis zum Ende des Jugendalters von selbst.",
+                                 "text": "Bei Intensivgewalttätern regelt sich nichts von selbst."
+                              },
+                              {
+                                 "text": "Ab dem 15./16. Lebensjahr geht die Delinquenz stark zurück."
+                              }
+                           ],
+                           "typ": "fehler"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s2-D1-w2-a3",
+                           "luecken": [
+                              [
+                                 "leichter"
+                              ],
+                              [
+                                 "15./16.",
+                                 "15",
+                                 "16",
+                                 "15/16"
+                              ]
+                           ],
+                           "text": "Bei Jugendlichen ist der Anteil {} Delikte am höchsten. Die Delinquenz geht schon ab dem {}. Lebensjahr stark zurück.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s2-D1-w2",
+                     "merke": "**Schwere Kriminalität ist Erwachsenen-, nicht Jugendkriminalität**: Bei Jugendlichen ist der **Anteil leichter Delikte am höchsten**, vielfach **unprofessionelle Bagatellkriminalität**. Delinquenz ist zwar ubiquitär, geht aber **schon ab dem 15./16. Lj. stark zurück** – das meiste regelt sich bis zum Ende des Jugendalters **von selbst**, **auch bei Intensiv(gewalt)tätern**.",
+                     "titel": "Schwere Kriminalität ist Erwachsenensache"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-D2",
+               "titel": "Strafe wirkt nicht wie gedacht",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Jugendliche kennen das StGB zu gut.",
+                              "Die Gerichte verhängen keine Strafen.",
+                              "Jugendliche sind schuldunfähig.",
+                              "Verschärfungen sind verfassungswidrig."
+                           ],
+                           "fragen": [
+                              "Warum sind Strafverschärfungen gegenüber Jugendlichen i. d. R. wirkungslos?",
+                              "Was fehlt laut Vorlesung für eine abschreckende Wirkung von Strafverschärfungen?"
+                           ],
+                           "id": "juj-s2-D2-w1-a1",
+                           "richtig": [
+                              "Es gibt keinen rational kalkulierenden Jugendlichen, der vorher über die Strafe nachdenkt."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "falsch": [
+                              "Jugendliche werden immer brutaler",
+                              "harte Strafen senken Rückfallraten"
+                           ],
+                           "frage": "Welche Argumente gegen eine Verschärfung des Jugendstrafrechts nennt die Vorlesung?",
+                           "id": "juj-s2-D2-w1-a2",
+                           "richtig": [
+                              "Stagnation oder Rückgang der Jugendkriminalität",
+                              "schwere Kriminalität ist Erwachsenenkriminalität",
+                              "starker Rückgang ab dem 15./16. Lj.",
+                              "Strafverschärfungen wirkungslos, kein rational kalkulierender Jugendlicher",
+                              "Inhaftierung meist kontraproduktiv",
+                              "Höherbelastung in jeder Generation"
+                           ],
+                           "typ": "multi"
+                        },
+                        {
+                           "frage": "Sollte das Jugendstrafrecht verschärft werden? Begründe mit den Argumenten der Vorlesung.",
+                           "id": "juj-s2-D2-w1-a3",
+                           "kernpunkte": [
+                              "Nein: Stagnation/Rückgang (Hellfeld seit Ende 1990er, Gewalt seit 2008; Dunkelfeld seit 1990ern), Anstieg durch Anzeigeverhalten",
+                              "schwere Kriminalität ist Erwachsenenkriminalität, bei Jugendlichen meist Bagatellen",
+                              "Altersverlauf: starker Rückgang ab 15./16. Lj., auch bei Intensivtätern",
+                              "Verschärfung wirkungslos (kein rationales Kalkül), Inhaftierung kontraproduktiv (Rückfall, Lernumfeld)",
+                              "Höherbelastung in jeder Generation, JStR hat sich bewährt"
+                           ],
+                           "musterloesung": "Nein. Die Jugendkriminalität stagniert oder sinkt (Hellfeld seit Ende der 1990er, Gewalt seit 2008; Dunkelfeld seit den 1990ern); Anstiege beruhen vor allem auf mehr Anzeigen. Schwere Kriminalität ist Erwachsenenkriminalität, bei Jugendlichen überwiegen leichte Delikte. Die Delinquenz geht ab dem 15./16. Lj. stark zurück, auch bei Intensivtätern. Strafverschärfungen wirken nicht, weil Jugendliche nicht rational kalkulieren, und Inhaftierung ist wegen hoher Rückfallraten und eines negativen Lernumfelds meist kontraproduktiv. Die Höherbelastung junger Menschen zeigt sich in jeder Generation; das Jugendstrafrecht hat sich bewährt.",
+                           "typ": "offen"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, hohe Rückfallraten, negatives Lernumfeld.",
+                                 "richtig": true,
+                                 "text": "Inhaftierung ist meist kontraproduktiv."
+                              },
+                              {
+                                 "begruendung": "Nein, sie wird in jeder Generation beobachtet.",
+                                 "richtig": false,
+                                 "text": "Die Höherbelastung junger Menschen ist ein neues Phänomen und deshalb Anlass zur Verschärfung."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Das Jugendstrafrecht hat sich laut Vorlesung bewährt."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s2-D2-w1-a4",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s2-D2-w1",
+                     "merke": "**Strafverschärfungen** sind i. d. R. **wirkungslos**, da es **keinen rational kalkulierenden Jugendlichen** gibt (sie müssten vorher über die Strafe nachdenken, um abgeschreckt zu werden). **Inhaftierung** ist meist **kontraproduktiv** (hohe Rückfallraten, negatives Lernumfeld). Eine **Höherbelastung** junger Menschen ist **kein Anlass für Verschärfung**, da sie **in jeder Generation** beobachtet wird – das **Jugendstrafrecht hat sich bewährt**.",
+                     "titel": "Verschärfungen wirkungslos"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s2-D-mix1",
+               "mix": [
+                  "juj-s2-D1",
+                  "juj-s2-D2"
+               ],
+               "titel": "🔀 Gemischt: Verschärfung?"
+            }
+         ],
+         "titel": "Verschärfung des Jugendstrafrechts?"
+      }
+   ]
+}

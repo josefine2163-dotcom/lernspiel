@@ -1,0 +1,1282 @@
+{
+   "fach": "Jugendkriminologie und Jugendkriminalrecht",
+   "format": 1,
+   "id": "juj-s1",
+   "kurztitel": "Vorlesung 1",
+   "probeklausur": {
+      "anzahl": 12,
+      "aufgaben": [
+         {
+            "frage": "Ordne die Begriffe zu.",
+            "id": "juj-s1-pk1",
+            "paare": [
+               {
+                  "links": "Hellfeld",
+                  "rechts": "den Strafverfolgungsbehörden bekannt gewordene Straftaten"
+               },
+               {
+                  "links": "relatives Dunkelfeld",
+                  "rechts": "durch Befragung bekannte Straftaten"
+               },
+               {
+                  "links": "absolutes Dunkelfeld",
+                  "rechts": "alle Straftaten, auch unbekannte"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s1-A2-w1"
+            ]
+         },
+         {
+            "frage": "Fülle die Lücken (PKS 2025, nur Deutsche).",
+            "id": "juj-s1-pk2",
+            "luecken": [
+               [
+                  "6,7",
+                  "6.7"
+               ],
+               [
+                  "15,9",
+                  "15.9"
+               ]
+            ],
+            "text": "Jugendliche und Heranwachsende: {} % der Bevölkerung, {} % der Tatverdächtigen.",
+            "typ": "lueckentext",
+            "wissen": [
+               "juj-s1-A3-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Heranwachsende (18–20)",
+               "Erwachsene (ab 21)",
+               "Kinder (8–13)"
+            ],
+            "frage": "Welche Altersgruppe hatte 2025 die höchste TVBZ?",
+            "id": "juj-s1-pk3",
+            "richtig": [
+               "Jugendliche (14–17)"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s1-A3-w2"
+            ]
+         },
+         {
+            "akzeptiert": [
+               "Tatverdächtigenbelastungszahl",
+               "TVBZ",
+               "Tatverdächtigen-Belastungszahl"
+            ],
+            "frage": "Wie heißt die Zahl der Tatverdächtigen pro 100.000 Einwohner derselben Altersgruppe?",
+            "id": "juj-s1-pk4",
+            "musterloesung": "Tatverdächtigenbelastungszahl (TVBZ).",
+            "typ": "begriff",
+            "wissen": [
+               "juj-s1-A3-w2"
+            ]
+         },
+         {
+            "anzahlFalsch": 2,
+            "anzahlRichtig": 3,
+            "erklaerung": "Die Kriminologie-Folie nennt für 2025 andere Anteile; die Gruppe über 10 % ist aber dieselbe.",
+            "falsch": [
+               "Raub",
+               "BtM-Delikte"
+            ],
+            "frage": "Welche Delikte machten 2025 laut JuJ-Folie mehr als 10 % der Delikte Jugendlicher aus?",
+            "id": "juj-s1-pk5",
+            "pruefen": true,
+            "richtig": [
+               "einfacher Diebstahl",
+               "einfache Körperverletzung",
+               "gefährliche Körperverletzung",
+               "Sachbeschädigung"
+            ],
+            "typ": "multi",
+            "wissen": [
+               "juj-s1-A3-w3"
+            ]
+         },
+         {
+            "elemente": [
+               "kaum Veränderungen, tendenziell rückläufig (1980er)",
+               "Zunahme durch Umbruch in Ostdeutschland/-europa (1990er)",
+               "rückläufig (seit Anfang 2000er)"
+            ],
+            "frage": "Bringe die Entwicklung im Hellfeld in die richtige zeitliche Reihenfolge.",
+            "id": "juj-s1-pk6",
+            "typ": "reihenfolge",
+            "wissen": [
+               "juj-s1-B1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "seit Mitte der 1990er rückläufig",
+               "seit 1980 stetig gleich",
+               "starker Anstieg bis heute"
+            ],
+            "frage": "Wie entwickelte sich die gefährliche Körperverletzung Jugendlicher im Hellfeld?",
+            "id": "juj-s1-pk7",
+            "richtig": [
+               "starker Anstieg seit Anfang der 1990er, ab 2008 deutlicher Rückgang"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s1-B2-w1"
+            ]
+         },
+         {
+            "frage": "Ordne die Entwicklung im Hellfeld zu.",
+            "id": "juj-s1-pk8",
+            "paare": [
+               {
+                  "links": "schwere Eigentumsdelikte",
+                  "rechts": "seit Mitte der 1990er rückläufig"
+               },
+               {
+                  "links": "Raub",
+                  "rechts": "bis Mitte der 1990er starker Anstieg, seit Ende der 1990er rückläufig"
+               },
+               {
+                  "links": "gefährliche Körperverletzung",
+                  "rechts": "ab 2008 deutlicher Rückgang"
+               }
+            ],
+            "typ": "zuordnung",
+            "wissen": [
+               "juj-s1-B2-w1"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Mitte der 1990er lag das Niveau deutlich über dem Westniveau."
+               },
+               {
+                  "begruendung": "Nein, geringer.",
+                  "richtig": false,
+                  "text": "Bei gefährlicher Körperverletzung stieg es stärker als im Westen."
+               },
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "Bei schwerem Diebstahl und Raub sank es ab Ende der 1990er Richtung Westniveau."
+               }
+            ],
+            "frage": "Richtig oder falsch? Zu Ostdeutschland:",
+            "id": "juj-s1-pk9",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s1-B3-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "starke Zunahme der Körperverletzung",
+               "keine Veränderung",
+               "Zunahme nur bei Raub"
+            ],
+            "frage": "Was zeigte das Dunkelfeld Anfang der 1990er im Westen?",
+            "id": "juj-s1-pk10",
+            "richtig": [
+               "Zunahme vor allem bei Diebstahl, kaum bei Körperverletzung"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s1-C1-w1"
+            ]
+         },
+         {
+            "aussagen": [
+               {
+                  "begruendung": "Ja, auch bei Mehrfachtätern.",
+                  "richtig": true,
+                  "text": "In Großstädten war die Jugendgewalt 1997–2008 insgesamt rückläufig."
+               },
+               {
+                  "begruendung": "Nein, erheblicher Rückgang, danach leicht schwankend.",
+                  "richtig": false,
+                  "text": "In Niedersachsen stieg die Jugendgewalt 2007/08–2024 stark an."
+               },
+               {
+                  "begruendung": "Ja.",
+                  "richtig": true,
+                  "text": "In Münster und Duisburg gab es Anfang der 2000er keine wesentlichen Veränderungen."
+               }
+            ],
+            "frage": "Richtig oder falsch? Zum Dunkelfeld:",
+            "id": "juj-s1-pk11",
+            "typ": "richtigfalsch",
+            "wissen": [
+               "juj-s1-C2-w1"
+            ]
+         },
+         {
+            "frage": "Erkläre den Widerspruch zwischen Hell- und Dunkelfeld bei der Jugendgewalt.",
+            "id": "juj-s1-pk12",
+            "kernpunkte": [
+               "Hellfeld: Zunahme der registrierten Gewalt",
+               "Dunkelfeld: allenfalls gleichbleibend",
+               "Grund: geringere Gewalttoleranz",
+               "Grund: relevante Zunahme der Anzeigequote"
+            ],
+            "musterloesung": "Im Hellfeld stieg die registrierte Jugendgewalt, im Dunkelfeld blieb sie allenfalls gleich. Der Widerspruch beruht vornehmlich auf einer geringeren Gewalttoleranz und einer relevanten Zunahme der Anzeigequote: Es werden mehr Taten angezeigt, nicht mehr begangen.",
+            "typ": "offen",
+            "wissen": [
+               "juj-s1-C3-w1"
+            ]
+         },
+         {
+            "frage": "Finde den Fehler.",
+            "id": "juj-s1-pk13",
+            "segmente": [
+               {
+                  "text": "Der Alkoholkonsum Jugendlicher ist sehr verbreitet."
+               },
+               {
+                  "fehler": true,
+                  "korrektur": "Er nimmt **bis zum Ende des Jugendalters stetig zu**, anders als die Delinquenz.",
+                  "text": "Wie die Delinquenz geht er ab dem 15. Lebensjahr deutlich zurück."
+               },
+               {
+                  "text": "4–24 % trinken mit hoher Intensität."
+               }
+            ],
+            "typ": "fehler",
+            "wissen": [
+               "juj-s1-D1-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "kein Zusammenhang",
+               "Zusammenhang wird mit dem Alter stärker",
+               "Zusammenhang nur mit Eigentumsdelikten"
+            ],
+            "frage": "Was gilt für den Zusammenhang von Alkohol und Delinquenz?",
+            "id": "juj-s1-pk14",
+            "richtig": [
+               "deutliche Korrelation vor allem mit Gewaltdelinquenz, ab dem 15. Lj. schwächer"
+            ],
+            "typ": "single",
+            "wissen": [
+               "juj-s1-D2-w1"
+            ]
+         },
+         {
+            "fall": "Ein Politiker sagt: „Jugendliche sind 6,7 % der Bevölkerung, aber 15,9 % der Tatverdächtigen. Und die Gewalt in der PKS steigt seit Jahren. Wir müssen das Jugendstrafrecht verschärfen!“",
+            "frage": "Was ist an seiner Argumentation aus Sicht der Vorlesung zu kritisieren?",
+            "id": "juj-s1-pk15",
+            "kernpunkte": [
+               "Überrepräsentation junger Menschen ist bekannt (Ubiquität), überwiegend leichte Delikte",
+               "PKS ist nur Hellfeld",
+               "Dunkelfeld zeigt keine Zunahme, Hellfeldanstieg durch höhere Anzeigequote/geringere Gewalttoleranz",
+               "im Hellfeld seit Anfang 2000er (Gewalt seit 2008) eher Rückgang"
+            ],
+            "musterloesung": "Die Überrepräsentation junger Menschen unter den Tatverdächtigen ist ein bekanntes Phänomen und betrifft überwiegend leichte Delikte. Die PKS bildet nur das Hellfeld ab; das Dunkelfeld zeigte bei Gewalt keine Zunahme. Ein Anstieg im Hellfeld beruht vor allem auf höherer Anzeigequote und geringerer Gewalttoleranz. Zudem ist die registrierte Jugendkriminalität seit Anfang der 2000er, die gefährliche Körperverletzung seit 2008 rückläufig.",
+            "typ": "fall",
+            "wissen": [
+               "juj-s1-A3-w1",
+               "juj-s1-C3-w1"
+            ]
+         },
+         {
+            "falsch": [
+               "Sokrates, Apologie",
+               "Durkheim, Regeln der soziologischen Methode",
+               "von Liszt, Marburger Programm"
+            ],
+            "fragen": [
+               "Aus welchem Werk stammt dieses Zitat über die Jugend?"
+            ],
+            "id": "juj-s1-pk16",
+            "richtig": [
+               "Shakespeare, Das Wintermärchen"
+            ],
+            "typ": "zitat",
+            "wissen": [
+               "juj-s1-A1-w1"
+            ],
+            "zitat": "„… denn dazwischen ist nichts, als den Dirnen Kinder schaffen, die Alten ärgern, stehlen, balgen.“"
+         }
+      ],
+      "bestehenProzent": 50,
+      "titel": "Probeklausur JuJ, Vorlesung 1"
+   },
+   "quelle": [
+      "JuJ/1. Vorlesung JuJ.pdf",
+      "JuJ/1. JStR Teil 1.pdf",
+      "JuJ/1. JStR Einführung.pdf",
+      "JuJ/Vorlesungsübersicht Jugendkrimiologie und Jugendkriminalrecht.pdf"
+   ],
+   "sprache": "de",
+   "titel": "Ausmaß und Entwicklung der Jugendkriminalität",
+   "verarbeitet": "2026-11-23",
+   "welten": [
+      {
+         "farbe": 30,
+         "id": "juj-s1-A",
+         "level": [
+            {
+               "id": "juj-s1-A1",
+               "titel": "Immer schlimmer, immer brutaler?",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Sokrates",
+                              "Franz von Liszt",
+                              "Émile Durkheim",
+                              "Klaus Boers"
+                           ],
+                           "fragen": [
+                              "Von wem stammt dieses Zitat über die Jugend?"
+                           ],
+                           "id": "juj-s1-A1-w1-a1",
+                           "richtig": [
+                              "William Shakespeare"
+                           ],
+                           "typ": "zitat",
+                           "zitat": "„Ich wollte, es gäbe gar kein Alter zwischen 10 und 23, oder die jungen Leute verschliefen die ganze Zeit.“"
+                        },
+                        {
+                           "falsch": [
+                              "zwischen 14 und 18",
+                              "zwischen 12 und 21",
+                              "zwischen 16 und 25",
+                              "zwischen 8 und 14"
+                           ],
+                           "fragen": [
+                              "Welche Altersspanne wünschte sich Shakespeare im „Wintermärchen“ weg?",
+                              "Zwischen welchen Altern sollte es nach Shakespeares Wunsch „gar kein Alter“ geben?"
+                           ],
+                           "id": "juj-s1-A1-w1-a2",
+                           "richtig": [
+                              "zwischen 10 und 23"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, schon Shakespeare (1610) klagte so.",
+                                 "richtig": false,
+                                 "text": "Die Klage über eine verdorbene Jugend ist ein neues Phänomen der letzten Jahrzehnte."
+                              },
+                              {
+                                 "begruendung": "Ja (1973, 1998, 2008, 2011).",
+                                 "richtig": true,
+                                 "text": "Die Vorlesung stellt die Frage „immer schlimmer, immer brutaler?“ anhand von Spiegel-Titeln aus mehreren Jahrzehnten."
+                              },
+                              {
+                                 "begruendung": "Ja, 3. Akt, 3. Szene.",
+                                 "richtig": true,
+                                 "text": "Shakespeares Zitat stammt aus dem „Wintermärchen“."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s1-A1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s1-A1-w1",
+                     "merke": "Die Klage über eine „immer schlimmere“ Jugend ist alt: Schon **Shakespeare** (Das Wintermärchen, 1623 [1610]) wünschte, es gäbe **kein Alter zwischen 10 und 23**, weil die Jungen dann nur Dirnen Kinder schaffen, die Alten ärgern, stehlen und balgen. Medien (z. B. Spiegel-Titel 1973–2011) fragen bis heute, ob Jugendkriminalität „immer schlimmer, immer brutaler“ wird.",
+                     "titel": "Die alte Klage über die Jugend"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-A2",
+               "titel": "Hellfeld und Dunkelfeld",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne die Begriffe zu.",
+                           "id": "juj-s1-A2-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "absolutes Dunkelfeld",
+                                 "rechts": "alle, auch unbekannte Straftaten"
+                              },
+                              {
+                                 "links": "relatives Dunkelfeld",
+                                 "rechts": "durch Befragung bekannte Straftaten"
+                              },
+                              {
+                                 "links": "Hellfeld",
+                                 "rechts": "offiziell registrierte Straftaten (PKS)"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "alle überhaupt begangenen Straftaten",
+                              "nur polizeilich registrierte Straftaten",
+                              "nur abgeurteilte Straftaten",
+                              "nur Ordnungswidrigkeiten"
+                           ],
+                           "fragen": [
+                              "Was gehört zum relativen Dunkelfeld?",
+                              "Welche Straftaten erfasst das relative Dunkelfeld?"
+                           ],
+                           "id": "juj-s1-A2-w1-a2",
+                           "richtig": [
+                              "Straftaten, die durch Befragungen bekannt werden"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Hellfeld",
+                              "Hell-Feld"
+                           ],
+                           "frage": "Wie heißt der Bereich der den Strafverfolgungsbehörden bekannt gewordenen Straftaten?",
+                           "id": "juj-s1-A2-w1-a3",
+                           "musterloesung": "Hellfeld.",
+                           "typ": "begriff"
+                        },
+                        {
+                           "anzahlFalsch": 2,
+                           "anzahlRichtig": 2,
+                           "falsch": [
+                              "Polizeiliche Kriminalstatistik",
+                              "Strafverfolgungsstatistik",
+                              "Erziehungsregister"
+                           ],
+                           "frage": "Wie wird das Dunkelfeld der Jugenddelinquenz erhellt?",
+                           "id": "juj-s1-A2-w1-a4",
+                           "richtig": [
+                              "Opferbefragungen",
+                              "Täterbefragungen (Jugendliche)"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s1-A2-w1",
+                     "merke": "**Absolutes Dunkelfeld:** alle (unbekannten) Straftaten. **Relatives Dunkelfeld:** durch **Befragung bekannte** Straftaten (Täter- und Opferbefragungen). **Hellfeld:** **offiziell registrierte** Straftaten, also die den Strafverfolgungsbehörden bekannt gewordenen (z. B. **PKS**).",
+                     "titel": "Drei Bereiche"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-A3",
+               "titel": "Jugendliche in der PKS 2025",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "6,7 %",
+                              "5,0 %",
+                              "79,1 %",
+                              "30,2 %"
+                           ],
+                           "fragen": [
+                              "Welchen Anteil an allen Tatverdächtigen stellten Jugendliche und Heranwachsende in der PKS 2025?",
+                              "Jugendliche und Heranwachsende sind 6,7 % der Bevölkerung. Wie hoch war ihr TV-Anteil 2025?"
+                           ],
+                           "id": "juj-s1-A3-w1-a1",
+                           "richtig": [
+                              "15,9 %"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken (PKS 2025, nur Deutsche).",
+                           "id": "juj-s1-A3-w1-a2",
+                           "luecken": [
+                              [
+                                 "6,7",
+                                 "6.7"
+                              ],
+                              [
+                                 "15,9",
+                                 "15.9"
+                              ]
+                           ],
+                           "text": "Jugendliche und Heranwachsende machen {} % der Bevölkerung aus, aber {} % aller Tatverdächtigen.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Jugendliche stellen 9,3 % der Tatverdächtigen bei 3,7 % Bevölkerungsanteil."
+                              },
+                              {
+                                 "begruendung": "Nein: 12,9 % der Bevölkerung, nur 5,0 % der TV.",
+                                 "richtig": false,
+                                 "text": "Kinder sind unter den Tatverdächtigen überrepräsentiert."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Heranwachsende stellen 6,6 % der Tatverdächtigen bei 3,0 % Bevölkerungsanteil."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? (PKS 2025, nur Deutsche)",
+                           "id": "juj-s1-A3-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s1-A3-w1",
+                     "merke": "**PKS 2025** (nur Deutsche): **Jugendliche (14–17) und Heranwachsende (18–20)** sind **6,7 % der Bevölkerung** (3,7 % + 3,0 %), stellen aber **15,9 % aller Tatverdächtigen** (9,3 % + 6,6 %). Kinder: 12,9 % der Bevölkerung, 5,0 % der TV; Erwachsene: 80,4 % bzw. 79,1 %.",
+                     "titel": "Anteil an den Tatverdächtigen"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Tatverdächtige pro 1.000 Einwohner insgesamt",
+                              "Anteil der Verurteilten an allen Tatverdächtigen",
+                              "Zahl der Straftaten pro Tatverdächtigem",
+                              "Anteil der aufgeklärten Fälle"
+                           ],
+                           "fragen": [
+                              "Was misst die TVBZ?",
+                              "Wie ist die Tatverdächtigenbelastungszahl definiert?"
+                           ],
+                           "id": "juj-s1-A3-w2-a1",
+                           "richtig": [
+                              "Tatverdächtige einer Altersgruppe pro 100.000 Einwohner derselben Altersgruppe"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "elemente": [
+                              "Jugendliche (14–17)",
+                              "Heranwachsende (18–20)",
+                              "Erwachsene (ab 21)",
+                              "Kinder (8–13)"
+                           ],
+                           "frage": "Ordne die Altersgruppen nach ihrer TVBZ 2025, von der höchsten zur niedrigsten.",
+                           "id": "juj-s1-A3-w2-a2",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "frage": "Ergänze die TVBZ 2025 (nur Deutsche).",
+                           "id": "juj-s1-A3-w2-a3",
+                           "kopf": [
+                              "Altersgruppe",
+                              "TVBZ"
+                           ],
+                           "typ": "tabelle",
+                           "zeigen": 2,
+                           "zeilen": [
+                              [
+                                 "Jugendliche (14–17)",
+                                 {
+                                    "akzeptiert": [
+                                       "4.299",
+                                       "4299"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Heranwachsende (18–20)",
+                                 {
+                                    "akzeptiert": [
+                                       "3.936",
+                                       "3936"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Erwachsene (ab 21)",
+                                 {
+                                    "akzeptiert": [
+                                       "1.649",
+                                       "1649"
+                                    ]
+                                 }
+                              ],
+                              [
+                                 "Kinder (8–13)",
+                                 {
+                                    "akzeptiert": [
+                                       "1.453",
+                                       "1453"
+                                    ]
+                                 }
+                              ]
+                           ]
+                        },
+                        {
+                           "akzeptiert": [
+                              "Tatverdächtigenbelastungszahl",
+                              "Tatverdächtigen-Belastungszahl",
+                              "Tatverdaechtigenbelastungszahl"
+                           ],
+                           "frage": "Wofür steht die Abkürzung TVBZ?",
+                           "id": "juj-s1-A3-w2-a4",
+                           "musterloesung": "Tatverdächtigenbelastungszahl.",
+                           "typ": "begriff"
+                        }
+                     ],
+                     "id": "juj-s1-A3-w2",
+                     "merke": "Die **TVBZ** ist die Zahl der Tatverdächtigen einer Altersgruppe **pro 100.000 Einwohner derselben Altersgruppe**. PKS 2025 (Deutsche): gesamt 1.813; **Jugendliche 4.299** (höchster Wert), **Heranwachsende 3.936**, Erwachsene 1.649, Kinder (8–13) 1.453.",
+                     "titel": "Tatverdächtigenbelastungszahl"
+                  },
+                  {
+                     "aufgaben": [
+                        {
+                           "erklaerung": "Die Kriminologie-Folie (Sitzung 6) nennt für 2025 andere Anteile (einfache KV 24,9 %, einfacher Diebstahl 23,4 %). Für JuJ gelten die Zahlen dieser Folie.",
+                           "falsch": [
+                              "Raub",
+                              "BtM-Delikte",
+                              "Betrug",
+                              "schwerer Diebstahl"
+                           ],
+                           "fragen": [
+                              "Welches Delikt ist laut JuJ-Folie das häufigste Delikt Jugendlicher 2025?"
+                           ],
+                           "id": "juj-s1-A3-w3-a1",
+                           "pruefen": true,
+                           "richtig": [
+                              "einfacher Diebstahl"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "elemente": [
+                              "einfacher Diebstahl",
+                              "einfache Körperverletzung",
+                              "Beleidigung",
+                              "Raub"
+                           ],
+                           "erklaerung": "Die Kriminologie-Folie (Sitzung 6) nennt für 2025 andere Anteile.",
+                           "frage": "Ordne die Delikte Jugendlicher 2025 (JuJ-Folie) vom häufigsten zum seltensten.",
+                           "id": "juj-s1-A3-w3-a2",
+                           "pruefen": true,
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "ausreisser": [
+                              "Raub",
+                              "BtM-Delikte",
+                              "schwerer Diebstahl"
+                           ],
+                           "erklaerung": "Nach der JuJ-Folie; die Kriminologie-Folie nennt etwas andere Anteile, die Gruppe über 10 % ist dort aber dieselbe.",
+                           "frage": "Was gehört nicht zu den typischen Delikten Jugendlicher mit über 10 % Anteil (2025)?",
+                           "gehoert": [
+                              "einfacher Diebstahl",
+                              "einfache Körperverletzung",
+                              "gefährliche Körperverletzung",
+                              "Sachbeschädigung"
+                           ],
+                           "id": "juj-s1-A3-w3-a3",
+                           "pruefen": true,
+                           "typ": "wasPasstNicht"
+                        }
+                     ],
+                     "id": "juj-s1-A3-w3",
+                     "merke": "**Typische Delikte Jugendlicher 2025** (PKS, deutsche TV) laut JuJ-Folie: **einfacher Diebstahl 25,9 %**, **einfache Körperverletzung 16,6 %**, gefährliche KV 12,7 %, Sachbeschädigung 12,2 %, Beleidigung 9,6 %, Betrug 8,7 %, schwerer Diebstahl 5,5 %, BtM 5,1 %, Raub 3,7 %.",
+                     "titel": "Typische Delikte Jugendlicher 2025"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-A-mix1",
+               "mix": [
+                  "juj-s1-A1",
+                  "juj-s1-A2",
+                  "juj-s1-A3"
+               ],
+               "titel": "🔀 Gemischt: Hell- und Dunkelfeld, PKS"
+            }
+         ],
+         "titel": "Hell- und Dunkelfeld, Zahlen 2025"
+      },
+      {
+         "farbe": 0,
+         "id": "juj-s1-B",
+         "level": [
+            {
+               "id": "juj-s1-B1",
+               "titel": "Phasen seit den 1980er Jahren",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "elemente": [
+                              "1980er: kaum Veränderungen, tendenziell rückläufig",
+                              "1990er: Zunahme durch sozialen Umbruch in Ostdeutschland/-europa",
+                              "seit Anfang 2000er: rückläufig"
+                           ],
+                           "frage": "Bringe die Phasen der Jugendkriminalität im Hellfeld in die zeitliche Reihenfolge.",
+                           "id": "juj-s1-B1-w1-a1",
+                           "typ": "reihenfolge"
+                        },
+                        {
+                           "falsch": [
+                              "auf einer Verschärfung des JGG",
+                              "auf der Einführung der PKS",
+                              "auf der Corona-Pandemie",
+                              "auf einer Senkung der Strafmündigkeit"
+                           ],
+                           "fragen": [
+                              "Worauf beruht laut Vorlesung die Zunahme der Jugendkriminalität im Hellfeld in den 1990er Jahren im Wesentlichen?",
+                              "Was erklärt den Anstieg der registrierten Jugendkriminalität in den 1990ern?"
+                           ],
+                           "id": "juj-s1-B1-w1-a2",
+                           "richtig": [
+                              "auf dem sozialen Umbruch in Ostdeutschland/-europa"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s1-B1-w1-a3",
+                           "segmente": [
+                              {
+                                 "text": "In den 1980er Jahren gab es im Hellfeld kaum Veränderungen."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Sie ist (spätestens) seit Anfang der 2000er Jahre **rückläufig**.",
+                                 "text": "Seit Anfang der 2000er Jahre steigt die registrierte Jugendkriminalität stetig an."
+                              },
+                              {
+                                 "text": "In den 1990ern nahm sie insgesamt zu."
+                              }
+                           ],
+                           "typ": "fehler"
+                        }
+                     ],
+                     "id": "juj-s1-B1-w1",
+                     "merke": "**Hellfeld, Jugendliche und Heranwachsende:** **1980er Jahre** kaum Veränderungen, tendenziell rückläufig. **1990er–2000er** insgesamt **Zunahme**, im Wesentlichen durch den **sozialen Umbruch in Ostdeutschland/-europa**. **Spätestens seit Anfang der 2000er** rückläufig.",
+                     "titel": "1980er bis heute"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-B2",
+               "titel": "Entwicklung nach Delikten",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "frage": "Ordne dem Delikt seine Entwicklung im Hellfeld zu.",
+                           "id": "juj-s1-B2-w1-a1",
+                           "paare": [
+                              {
+                                 "links": "gefährliche Körperverletzung",
+                                 "rechts": "Anstieg seit Anfang 1990er, ab 2008 deutlicher Rückgang"
+                              },
+                              {
+                                 "links": "schwere Eigentumsdelikte",
+                                 "rechts": "seit Mitte der 1990er rückläufig"
+                              },
+                              {
+                                 "links": "Raub",
+                                 "rechts": "starker Anstieg bis Mitte 1990er, seit Ende 1990er rückläufig"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "falsch": [
+                              "seit Mitte der 1990er",
+                              "seit Anfang der 1980er",
+                              "seit 2020",
+                              "sie steigt bis heute"
+                           ],
+                           "fragen": [
+                              "Seit wann geht die gefährliche Körperverletzung Jugendlicher im Hellfeld deutlich zurück?"
+                           ],
+                           "id": "juj-s1-B2-w1-a2",
+                           "richtig": [
+                              "ab 2008"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, bis 2008.",
+                                 "richtig": true,
+                                 "text": "stieg die gefährliche Körperverletzung seit Anfang der 1990er fortlaufend stark an."
+                              },
+                              {
+                                 "begruendung": "Nein, sie sind seit Mitte der 1990er rückläufig.",
+                                 "richtig": false,
+                                 "text": "steigen schwere Eigentumsdelikte seit Mitte der 1990er."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "ist Raub seit Ende der 1990er rückläufig."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Im Hellfeld …",
+                           "id": "juj-s1-B2-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s1-B2-w1",
+                     "merke": "**Gefährliche Körperverletzung:** fortlaufend **starker Anstieg seit Anfang der 1990er**, **ab 2008 deutlicher Rückgang**. **Schwere Eigentumsdelikte:** **seit Mitte der 1990er rückläufig**. **Raub:** **starker Anstieg bis Mitte der 1990er**, **seit Ende der 1990er rückläufig**.",
+                     "titel": "KV, Eigentum, Raub"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-B3",
+               "titel": "Besonderheit Ostdeutschland",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Mitte der 1990er stieg die Jugendkriminalität stark auf ein höheres Niveau als im Westen."
+                              },
+                              {
+                                 "begruendung": "Nein, geringer als im Westen.",
+                                 "richtig": false,
+                                 "text": "Bei der gefährlichen Körperverletzung war der Anstieg stärker als im Westen."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Bei schwerem Diebstahl und Raub ging es ab Ende der 1990er Richtung Westniveau zurück."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Zu Ostdeutschland:",
+                           "id": "juj-s1-B3-w1-a1",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "falsch": [
+                              "weiterer starker Anstieg",
+                              "Anstieg über das doppelte Westniveau",
+                              "keine Veränderung",
+                              "vollständiges Verschwinden"
+                           ],
+                           "fragen": [
+                              "Wie entwickelten sich schwerer Diebstahl und Raub in Ostdeutschland ab Ende der 1990er?",
+                              "Was geschah ab Ende der 1990er im Osten bei schwerem Diebstahl und Raub?"
+                           ],
+                           "id": "juj-s1-B3-w1-a2",
+                           "richtig": [
+                              "Rückgang in Richtung Westniveau"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s1-B3-w1-a3",
+                           "luecken": [
+                              [
+                                 "höheres",
+                                 "hoeheres"
+                              ],
+                              [
+                                 "geringer",
+                                 "niedriger",
+                                 "schwächer"
+                              ]
+                           ],
+                           "text": "Mitte der 1990er stieg die Jugendkriminalität im Osten auf ein deutlich {} Niveau als im Westen. Bei gefährlicher Körperverletzung war der Anstieg {} als im Westen.",
+                           "typ": "lueckentext"
+                        }
+                     ],
+                     "id": "juj-s1-B3-w1",
+                     "merke": "**Ostdeutschland:** **Mitte der 1990er** starke Zunahme auf ein **deutlich höheres Niveau als im Westen**; **ab Ende der 1990er** bei **schwerem Diebstahl und Raub Rückgang Richtung Westniveau**; bei **gefährlicher Körperverletzung** war der **Anstieg geringer als im Westen**.",
+                     "titel": "Ost und West"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-B-mix1",
+               "mix": [
+                  "juj-s1-B1",
+                  "juj-s1-B2",
+                  "juj-s1-B3"
+               ],
+               "titel": "🔀 Gemischt: Hellfeld-Entwicklung"
+            }
+         ],
+         "titel": "Entwicklung im Hellfeld"
+      },
+      {
+         "farbe": 220,
+         "id": "juj-s1-C",
+         "level": [
+            {
+               "id": "juj-s1-C1",
+               "titel": "Datenlage und 1990er",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "das BKA mit der PKS",
+                              "die Staatsanwaltschaften",
+                              "das Statistische Bundesamt",
+                              "die Jugendgerichtshilfe"
+                           ],
+                           "fragen": [
+                              "Wer sorgt laut Vorlesung zuletzt für eine gewisse Verstetigung der Dunkelfeldbefragungen?",
+                              "Durch welche Befragungen gibt es inzwischen regelmäßigere Dunkelfelddaten?"
+                           ],
+                           "id": "juj-s1-C1-w1-a1",
+                           "richtig": [
+                              "das KFN"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Ordne zu: Dunkelfeld Anfang der 1990er Jahre.",
+                           "id": "juj-s1-C1-w1-a2",
+                           "paare": [
+                              {
+                                 "links": "Westdeutschland",
+                                 "rechts": "Zunahme vor allem bei Diebstahl, kaum bei Körperverletzung"
+                              },
+                              {
+                                 "links": "Ostdeutschland",
+                                 "rechts": "kein größeres Ausmaß, keine Zunahme"
+                              }
+                           ],
+                           "typ": "zuordnung"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Nein, lange gab es keine.",
+                                 "richtig": false,
+                                 "text": "Es gab lange regelmäßige, flächendeckende Dunkelfeld-Trendstudien."
+                              },
+                              {
+                                 "begruendung": "Ja, kaum dagegen die Körperverletzung.",
+                                 "richtig": true,
+                                 "text": "Anfang der 1990er nahm im Westen vor allem der Diebstahl zu."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Im Osten zeigte das Dunkelfeld Anfang der 1990er keine Zunahme."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s1-C1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s1-C1-w1",
+                     "merke": "Im Dunkelfeld gab es **lange keine regelmäßigen und flächendeckenden Trenduntersuchungen**; zuletzt eine gewisse **Verstetigung, vor allem durch Befragungen des KFN**. **Anfang der 1990er:** **Westen** Zunahme vor allem bei **Diebstahl**, kaum bei Körperverletzung; **Osten** kein größeres Ausmaß, **keine Zunahme**.",
+                     "titel": "Wenige Trenduntersuchungen"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-C2",
+               "titel": "Großstädte und Niedersachsen",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "starker Anstieg",
+                              "Verdopplung",
+                              "Anstieg nur bei Mehrfachtätern",
+                              "keine Daten vorhanden"
+                           ],
+                           "fragen": [
+                              "Wie entwickelte sich die Gewaltkriminalität Jugendlicher im Dunkelfeld der Großstädte 1997–2008?",
+                              "Was zeigten die Großstadtbefragungen 1997 bis 2008 zur Jugendgewalt?"
+                           ],
+                           "id": "juj-s1-C2-w1-a1",
+                           "richtig": [
+                              "insgesamt rückläufig, auch bei Mehrfachtätern"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s1-C2-w1-a2",
+                           "luecken": [
+                              [
+                                 "erheblichen",
+                                 "starken",
+                                 "deutlichen"
+                              ],
+                              [
+                                 "schwankend",
+                                 "schwankend"
+                              ]
+                           ],
+                           "text": "In Niedersachsen gab es 2007/08–2024 einen {} Rückgang der Gewaltkriminalität, danach war sie leicht {}.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "falsch": [
+                              "Großstädte 1997–2008: starke Zunahme der Gewalt",
+                              "Niedersachsen: stetiger Anstieg bis 2024"
+                           ],
+                           "frage": "Welche Aussagen zum Dunkelfeld treffen zu?",
+                           "id": "juj-s1-C2-w1-a3",
+                           "richtig": [
+                              "Großstädte 1997–2008: Gewalt insgesamt rückläufig",
+                              "Münster 2000–2002: keine wesentlichen Veränderungen",
+                              "Duisburg 2002–2004: keine wesentlichen Veränderungen",
+                              "Niedersachsen 2007/08–2024: erheblicher Rückgang"
+                           ],
+                           "typ": "multi"
+                        }
+                     ],
+                     "id": "juj-s1-C2-w1",
+                     "merke": "**Großstadtbefragungen 1997–2008:** **Gewaltkriminalität insgesamt rückläufig** (auch bei Mehrfachtätern). In **Münster (2000–2002)** und **Duisburg (2002–2004)** keine wesentlichen Veränderungen. **Niedersachsen 2007/08–2024:** **erheblicher Rückgang** der Gewalt, danach **leicht schwankend**.",
+                     "titel": "Gewalt im Dunkelfeld rückläufig"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-C3",
+               "titel": "Widerspruch Hellfeld – Dunkelfeld",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "auf mehr tatsächlicher Gewalt",
+                              "auf Fehlern in den Befragungen",
+                              "auf weniger Polizei",
+                              "auf einer Senkung der Strafmündigkeit"
+                           ],
+                           "fragen": [
+                              "Worauf beruht der Widerspruch zwischen steigender Gewalt im Hellfeld und gleichbleibender im Dunkelfeld?",
+                              "Wie erklärt die Vorlesung, dass Jugendgewalt im Hellfeld stieg, im Dunkelfeld aber nicht?"
+                           ],
+                           "id": "juj-s1-C3-w1-a1",
+                           "richtig": [
+                              "auf geringerer Gewalttoleranz und einer höheren Anzeigequote"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "fall": "Eine Zeitung titelt: „Polizeistatistik beweist: Jugendgewalt nimmt dramatisch zu!“ Gleichzeitig zeigen Schülerbefragungen, dass der Anteil der Jugendlichen, die Gewalt ausüben, gleich bleibt.",
+                           "frage": "Wie lässt sich der Widerspruch erklären?",
+                           "id": "juj-s1-C3-w1-a2",
+                           "kernpunkte": [
+                              "Hellfeld bildet nur bekannt gewordene Taten ab",
+                              "Dunkelfeld (Befragungen) zeigt kein Mehr an Taten",
+                              "steigende Anzeigequote: mehr Taten werden angezeigt",
+                              "geringere Gewalttoleranz/-akzeptanz"
+                           ],
+                           "musterloesung": "Die PKS zeigt nur das Hellfeld, also die angezeigten und registrierten Taten. Die Befragungen erhellen das Dunkelfeld und zeigen keine Zunahme der tatsächlichen Gewalt. Der Anstieg im Hellfeld beruht vor allem auf einer höheren Anzeigequote und einer geringeren Gewalttoleranz in der Gesellschaft: Mehr Taten werden angezeigt, nicht mehr Taten begangen.",
+                           "typ": "fall"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja, zwischen 1998 und 2005–2008.",
+                                 "richtig": true,
+                                 "text": "stieg die Anzeigequote bei Körperverletzungen in mehreren Städten."
+                              },
+                              {
+                                 "begruendung": "Nein, sie sank.",
+                                 "richtig": false,
+                                 "text": "stieg die Gewaltakzeptanz der Jugendlichen."
+                              },
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "blieb das Dunkelfeld der Gewalt allenfalls gleich, während das Hellfeld stieg."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch? Nach den KFN-Befragungen (Baier et al. 2009) …",
+                           "id": "juj-s1-C3-w1-a3",
+                           "typ": "richtigfalsch"
+                        },
+                        {
+                           "akzeptiert": [
+                              "höhere Anzeigequote",
+                              "Zunahme der Anzeigequote",
+                              "Anzeigeverhalten",
+                              "geringere Gewalttoleranz",
+                              "sinkende Gewaltakzeptanz",
+                              "mehr Anzeigen"
+                           ],
+                           "frage": "Nenne einen der zwei Gründe für den Anstieg der Jugendgewalt im Hellfeld trotz gleichbleibenden Dunkelfelds.",
+                           "id": "juj-s1-C3-w1-a4",
+                           "musterloesung": "Höhere Anzeigequote und geringere Gewalttoleranz.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s1-C3-w1",
+                     "merke": "Bei Gewaltdelikten stieg das **Hellfeld**, während das **Dunkelfeld allenfalls gleich blieb**. Der Widerspruch beruht vornehmlich auf **geringerer Gewalttoleranz** und einer **relevanten Zunahme der Anzeigequote**. KFN-Schülerbefragungen (Baier et al. 2009) zeigen zwischen 1998 und 2005–2008 in mehreren Städten **steigende Anzeigequoten bei KV** und **sinkende Gewaltakzeptanz**.",
+                     "titel": "Warum das Hellfeld anstieg"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-C-mix1",
+               "mix": [
+                  "juj-s1-C1",
+                  "juj-s1-C2",
+                  "juj-s1-C3"
+               ],
+               "titel": "🔀 Gemischt: Dunkelfeld"
+            }
+         ],
+         "titel": "Entwicklung im Dunkelfeld"
+      },
+      {
+         "farbe": 140,
+         "id": "juj-s1-D",
+         "level": [
+            {
+               "id": "juj-s1-D1",
+               "titel": "Wie verbreitet ist Alkohol?",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "Er verläuft genauso wie die Delinquenz als Glockenkurve.",
+                              "Er sinkt ab dem 14. Lebensjahr.",
+                              "Er ist im Kindesalter am höchsten.",
+                              "Er bleibt über die gesamte Jugend gleich."
+                           ],
+                           "fragen": [
+                              "Wie entwickelt sich der Alkoholkonsum im Jugendalter, verglichen mit der Delinquenz?",
+                              "Was unterscheidet den Altersverlauf des Alkoholkonsums von dem der Delinquenz?"
+                           ],
+                           "id": "juj-s1-D1-w1-a1",
+                           "richtig": [
+                              "Er nimmt bis zum Ende des Jugendalters stetig zu, die Delinquenz geht dagegen früher zurück."
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Fülle die Lücken.",
+                           "id": "juj-s1-D1-w1-a2",
+                           "luecken": [
+                              [
+                                 "21-50",
+                                 "21–50",
+                                 "21 bis 50"
+                              ],
+                              [
+                                 "4-24",
+                                 "4–24",
+                                 "4 bis 24"
+                              ]
+                           ],
+                           "text": "Alkoholkonsum mittlerer Intensität: {} %, hoher Intensität: {} % der Jugendlichen.",
+                           "typ": "lueckentext"
+                        },
+                        {
+                           "aussagen": [
+                              {
+                                 "begruendung": "Ja.",
+                                 "richtig": true,
+                                 "text": "Prävalenz und Inzidenz des Alkoholkonsums Jugendlicher sind sehr hoch."
+                              },
+                              {
+                                 "begruendung": "Nein, er nimmt bis zum Ende des Jugendalters stetig zu.",
+                                 "richtig": false,
+                                 "text": "Der Alkoholkonsum geht wie die Delinquenz ab dem 15. Lebensjahr zurück."
+                              },
+                              {
+                                 "begruendung": "Ja, 4–24 %.",
+                                 "richtig": true,
+                                 "text": "Bis zu 24 % trinken mit hoher Intensität."
+                              }
+                           ],
+                           "frage": "Richtig oder falsch?",
+                           "id": "juj-s1-D1-w1-a3",
+                           "typ": "richtigfalsch"
+                        }
+                     ],
+                     "id": "juj-s1-D1-w1",
+                     "merke": "**Prävalenz und Inzidenz des Alkoholkonsums** Jugendlicher sind **sehr hoch**: **21–50 %** trinken mit **mittlerer**, **4–24 %** mit **hoher Intensität**. Anders als die Delinquenz **nimmt der Alkoholkonsum bis zum Ende des Jugendalters stetig zu**.",
+                     "titel": "Hohe Prävalenz"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-D2",
+               "titel": "Alkohol und Straftaten",
+               "wissen": [
+                  {
+                     "aufgaben": [
+                        {
+                           "falsch": [
+                              "vor allem mit Betrug",
+                              "nur mit BtM-Delikten",
+                              "mit gar keiner Delinquenz",
+                              "nur mit Verkehrsdelikten"
+                           ],
+                           "fragen": [
+                              "Mit welcher Delinquenz korreliert Alkoholkonsum besonders deutlich?",
+                              "Wo ist der Zusammenhang zwischen Alkohol und Delinquenz am stärksten?"
+                           ],
+                           "id": "juj-s1-D2-w1-a1",
+                           "richtig": [
+                              "vor allem mit Gewaltdelinquenz"
+                           ],
+                           "typ": "single"
+                        },
+                        {
+                           "frage": "Finde den Fehler.",
+                           "id": "juj-s1-D2-w1-a2",
+                           "segmente": [
+                              {
+                                 "text": "Alkoholkonsum korreliert deutlich mit Eigentums- und Gewaltdelinquenz."
+                              },
+                              {
+                                 "fehler": true,
+                                 "korrektur": "Ab dem 15. Lebensjahr wird er **schwächer**, weil der Konsum besser beherrscht wird.",
+                                 "text": "Mit zunehmendem Alter wird dieser Zusammenhang immer stärker."
+                              },
+                              {
+                                 "text": "Der Konsum selbst nimmt bis zum Ende des Jugendalters zu."
+                              }
+                           ],
+                           "typ": "fehler"
+                        },
+                        {
+                           "akzeptiert": [
+                              "Konsum wird besser beherrscht",
+                              "besser beherrscht",
+                              "weil der Konsum mit dem Alter besser beherrscht wird",
+                              "besserer Umgang mit Alkohol"
+                           ],
+                           "frage": "Warum wird der Zusammenhang von Alkohol und Delinquenz ab dem 15. Lebensjahr schwächer?",
+                           "id": "juj-s1-D2-w1-a3",
+                           "musterloesung": "Weil der Konsum mit dem Alter (hinsichtlich Delinquenz) besser beherrscht wird.",
+                           "typ": "kurzfrage"
+                        }
+                     ],
+                     "id": "juj-s1-D2-w1",
+                     "merke": "**Alkoholkonsum korreliert deutlich mit Eigentums- und vor allem Gewaltdelinquenz.** Der Zusammenhang wird aber **ab dem 15. Lebensjahr schwächer**: Hinsichtlich Delinquenz wird der Konsum **mit dem Alter besser beherrscht** (Duisburg 2002–2007).",
+                     "titel": "Korrelation wird schwächer"
+                  }
+               ]
+            },
+            {
+               "id": "juj-s1-D-mix1",
+               "mix": [
+                  "juj-s1-D1",
+                  "juj-s1-D2"
+               ],
+               "titel": "🔀 Gemischt: Alkohol"
+            }
+         ],
+         "titel": "Alkohol und Delinquenz"
+      }
+   ]
+}
