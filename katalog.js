@@ -83,6 +83,7 @@ export async function ladeKatalog() {
         }
       }
     }
+    for (const welt of doc.welten || []) baueKurz(welt, doc);
     const zusatz = (liste, art) => {
       for (const f of liste || []) {
         pruefeForm(f, art, datei);
@@ -111,6 +112,11 @@ export const docVon = id => K.docs.find(d => d.id === id);
 // Alle Wissenspunkt-IDs eines Bereichs: "alles", "f:Fach", "d:Dokument", "w:Welt", "l:Level"
 export function wissenIn(bereich) {
   const [art, wert] = bereich.includes(":") ? [bereich[0], bereich.slice(2)] : ["a", ""];
+  if (art === "l") {
+    const e = K.level.get(wert);
+    if (e?.level.extra) aktualisiereExtra(e.welt);
+    if (e?.level.kurz || e?.level.extra) return e.level.wissen.map(w => w.id);
+  }
   const aus = e => {
     if (art === "a") return true;
     if (art === "f") return e.doc.fach === wert;
@@ -119,6 +125,59 @@ export function wissenIn(bereich) {
     return e.level.id === wert || !!K.level.get(wert)?.level.mix?.includes(e.level.id);
   };
   return [...K.wissen.entries()].filter(([, e]) => aus(e)).map(([id]) => id);
+}
+
+// ---------- Kurz-Modus (Schalter pro Gerät, localStorage „ls-kurz“) ----------
+// Statt vieler kleiner Level zeigt die Karte größere Level aus bis zu KURZ_MAX_WISSEN Wissenspunkten
+// (nie über ein Mischlevel hinweg). Mischlevel entfallen. Am Ende jeder Welt erscheint ein Extra-Level,
+// solange dort Wissenspunkte mit roter Ampel sind. Daten, IDs und Spielstand bleiben unverändert;
+// die großen Level bekommen eigene IDs (<Welt>-k1, <Welt>-extra), ihre Sterne kommen aus den kleinen Leveln,
+// bis sie selbst gespielt wurden.
+const KURZ_MAX_WISSEN = 5;
+export const KURZ_OHNE = new Set(["Statistik 2"]);
+let kurzOhneSpeicher = false;
+export function kurzAn() {
+  try { return localStorage.getItem("ls-kurz") === "an"; } catch { return kurzOhneSpeicher; }
+}
+export function setzeKurz(an) {
+  kurzOhneSpeicher = an;
+  try { localStorage.setItem("ls-kurz", an ? "an" : "aus"); } catch {}
+}
+export const kurzFuer = doc => kurzAn() && !KURZ_OHNE.has(doc.fach);
+
+function kurzTitel(teile) {
+  const t = teile.map(l => l.titel);
+  if (t.length <= 2 || t.join(" · ").length <= 60) return t.join(" · ");
+  return `${t[0]} · … · ${t[t.length - 1]}`;
+}
+
+function baueKurz(welt, doc) {
+  const gruppen = [];
+  let akt = null;
+  for (const l of welt.level) {
+    if (l.mix) { akt = null; continue; }
+    const n = (l.wissen || []).length;
+    if (!akt || akt.n + n > KURZ_MAX_WISSEN) { akt = { teile: [], wissen: [], n: 0 }; gruppen.push(akt); }
+    akt.teile.push(l);
+    akt.wissen.push(...(l.wissen || []));
+    akt.n += n;
+  }
+  welt._kurz = gruppen.map((g, i) => ({ id: `${welt.id}-k${i + 1}`, titel: kurzTitel(g.teile), wissen: g.wissen, teile: g.teile.map(l => l.id), kurz: true }));
+  welt._extra = { id: `${welt.id}-extra`, titel: "Extra: Das sitzt noch nicht", wissen: [], extra: true };
+  for (const lv of [...welt._kurz, welt._extra]) K.level.set(lv.id, { level: lv, welt, doc });
+}
+
+// Wissenspunkte der Welt mit roter Ampel (K.istRot setzt spiel.js)
+function aktualisiereExtra(welt) {
+  const rot = K.istRot || (() => false);
+  welt._extra.wissen = welt._kurz.flatMap(l => l.wissen).filter(w => rot(w.id));
+}
+
+// Die Level einer Welt, wie die Karte sie zeigt
+export function levelListe(welt, doc) {
+  if (!welt._kurz || !kurzFuer(doc)) return welt.level;
+  aktualisiereExtra(welt);
+  return welt._extra.wissen.length ? [...welt._kurz, welt._extra] : welt._kurz;
 }
 
 export function bereichName(bereich) {

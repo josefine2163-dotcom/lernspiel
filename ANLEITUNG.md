@@ -55,6 +55,10 @@ Dein Fortschritt mit Rang, XP, Erfolgen und allen Wissenspunkten steckt hinter d
 
 Mit dem 📖-Symbol oben rechts schaltest du **Infoblöcke** an und aus. Sind sie an, kommt vor der ersten Frage zu jedem Wissenspunkt ein kurzer Block mit dem Merksatz zum Auffrischen. Richtige Antworten direkt danach zählen, die nächste Wiederholung kommt aber schon am nächsten Tag, weil du die Antwort gerade gelesen hast. Bosse, Blitzrunde, Arbeitsblatt-Boss und Probeklausur bleiben ohne Infoblöcke. Die Einstellung bleibt, bis du sie wieder umschaltest.
 
+### Kurz-Modus (z. B. fürs Handy)
+
+Unter ⚙️ → **Kurz-Modus** fasst die Karte bei Kriminologie und JuJ mehrere kleine Level zu größeren zusammen (höchstens 5 Wissenspunkte je Level), und die 🔀-Mischlevel fallen weg. Am Ende einer Welt erscheint ein **💪 Extra-Level** nur dann, wenn dort Wissenspunkte mit roter Ampel sind; es verschwindet wieder, sobald alles mindestens gelb ist. Aufgaben und Fortschritt bleiben gleich. Der Schalter gilt nur auf dem Gerät, auf dem du ihn einschaltest. Statistik 2 bleibt unverändert.
+
 Hinter dem 📈-Symbol findest du die **Level-Statistik**: Dort siehst du für jedes Level, wie gut du es kannst und ob du besser oder schlechter geworden bist. Klicke auf eine Gruppe wie „Noch nicht gut“, um nur diese Level zu sehen. Ein Klick auf ein Level zeigt die einzelnen Wissenspunkte und den Knopf zum Üben.
 
 ## 3. Neue Dokumente hinzufügen

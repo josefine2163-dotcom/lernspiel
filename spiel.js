@@ -2,7 +2,7 @@
 // Der Fortschritt hängt nicht an Fragen, sondern an Wissenspunkten. Jeder Wissenspunkt
 // hat mehrere Aufgabenformen; die App sucht jedes Mal eine aus, die zuletzt nicht dran war.
 
-import { K, wissenIn } from "./katalog.js";
+import { K, wissenIn, levelListe } from "./katalog.js";
 import { mische, neueId } from "./util.js";
 import * as speicher from "./speicher.js";
 import { versteckt } from "./meldungen.js";
@@ -149,10 +149,16 @@ export function kannBereich(ids) {
   return { prozent: summe / ids.length, gesehen, gesamt: ids.length, fest, faellig, schnitt: gesehen ? summe / gesehen : null };
 }
 
+// Für den Kurz-Modus: Wissenspunkte mit roter Ampel kommen ins Extra-Level
+K.istRot = id => { const k = kann(id); return k != null && k < 67; };
+
 export const istFaellig = id => { const w = S.wissen.get(id); return !!w?.n && w.faellig <= Date.now(); };
 
 export function sterneVon(ziel) {
-  return S.laeufe.filter(l => l.ziel === ziel && l.geschafft !== false).reduce((m, l) => Math.max(m, l.sterne || 0), 0);
+  const eigene = S.laeufe.filter(l => l.ziel === ziel && l.geschafft !== false).reduce((m, l) => Math.max(m, l.sterne || 0), 0);
+  // Großes Level im Kurz-Modus: bis es selbst gespielt wurde, zählen die kleinen Level darin
+  const teile = K.level.get(ziel)?.level.teile;
+  return !eigene && teile ? Math.min(...teile.map(sterneVon)) : eigene;
 }
 export const laeufeVon = ziel => S.laeufe.filter(l => l.ziel === ziel);
 
@@ -427,7 +433,7 @@ export function klausurAufgaben(doc) {
 export function pfadVon(doc) {
   const stationen = [];
   for (const welt of doc.welten) {
-    for (const level of welt.level) stationen.push({ art: "level", id: level.id, level, welt });
+    for (const level of levelListe(welt, doc)) stationen.push({ art: "level", id: level.id, level, welt });
     stationen.push({ art: "boss", id: welt.id, welt });
   }
   return stationen;

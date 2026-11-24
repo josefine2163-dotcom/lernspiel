@@ -1,7 +1,7 @@
 // ---------- Lernspiel: Seiten und Navigation ----------
 
 import { h, fuelle, toast, ampel, sparkline, datumText, AM_PC } from "./util.js";
-import { K, ladeKatalog, faecher, docVon, wissenIn } from "./katalog.js";
+import { K, ladeKatalog, faecher, docVon, wissenIn, levelListe, kurzAn, setzeKurz } from "./katalog.js";
 import * as speicher from "./speicher.js";
 import {
   S, ladeSpielstand, kann, kannBereich, sterneVon, laeufeVon, rang, serie, heuteXp, TAGESZIEL, FEST_AB_STUFE, ERFOLGE, tagKey,
@@ -133,7 +133,7 @@ function fachBlock(name, docs) {
 function vorlesungKarte(doc) {
   const ids = wissenIn("d:" + doc.id);
   const k = kannBereich(ids);
-  const stationen = doc.welten.flatMap(w => w.level);
+  const stationen = doc.welten.flatMap(w => levelListe(w, doc));
   const gespielt = stationen.filter(l => sterneVon(l.id) > 0).length;
   const sterne = stationen.reduce((s, l) => s + sterneVon(l.id), 0);
   return h("a", { class: "vorlesung", href: `#/karte/${doc.id}` },
@@ -209,7 +209,7 @@ function schwerPanel(ids) {
 const wissensListe = liste => h("ul", { class: "wissens-liste" }, liste.map(x => h("li", {}, K.wissen.get(x.id).w.titel, ampelMarke(x.k))));
 
 function weltKarte(doc, welt, wi, weiter) {
-  const stationen = [...welt.level.map(l => ({ art: "level", id: l.id, level: l })), { art: "boss", id: welt.id }];
+  const stationen = [...levelListe(welt, doc).map(l => ({ art: "level", id: l.id, level: l })), { art: "boss", id: welt.id }];
   const hoehe = stationen.length * ZEILE + 20;
   // Zickzack: Prozent-Positionen für Knoten und Verbindungslinie
   const pos = stationen.map((_, i) => 50 + Math.sin(i * 1.15) * 24);
@@ -253,14 +253,15 @@ function knoten(doc, welt, s, i, x, weiter) {
   const farbe = !gespielt ? "offen" : ampel(k.prozent);
   const labelLinks = x > 55;
   const istMix = !istBoss && !!s.level.mix;
-  const nummer = istBoss ? "🐉" : istMix ? "🔀" : welt.level.filter(l => !l.mix).indexOf(s.level) + 1;
+  const istExtra = !istBoss && !!s.level.extra;
+  const nummer = istBoss ? "🐉" : istMix ? "🔀" : istExtra ? "💪" : levelListe(welt, doc).filter(l => !l.mix && !l.extra).indexOf(s.level) + 1;
   return h("div", {
     class: "knoten-box" + (hier ? " hier" : "") + (labelLinks ? " label-links" : ""),
     style: `left:${x}%;top:${i * ZEILE + ZEILE / 2}px`
   },
     hier ? h("div", { class: "hier-marke" }, "Hier weiter") : null,
     h("button", {
-      type: "button", class: `knoten ${farbe}${istBoss ? " boss" : ""}${istMix ? " mix" : ""}${fest ? " gold" : ""}`,
+      type: "button", class: `knoten ${farbe}${istBoss ? " boss" : ""}${istMix || istExtra ? " mix" : ""}${fest ? " gold" : ""}`,
       "aria-label": (istBoss ? "Boss: " + welt.titel : s.level.titel) + `, ${sterne} Sterne`,
       onclick: () => zeigeStation(doc, welt, s)
     }, nummer, faellig ? h("span", { class: "glocke", title: "Wieder fällig" }, "🔔") : null, fest ? h("span", { class: "krone", title: "Sitzt fest" }, "👑") : null),
@@ -282,6 +283,8 @@ function zeigeStation(doc, welt, s) {
     h("div", { class: "grosse-sterne klein-sterne" }, "★".repeat(sterne) + "☆".repeat(3 - sterne)),
     istBoss ? h("p", {}, "Fragen aus der ganzen Welt, mit dem Schwersten zuerst. Du hast 3 Herzen.") : null,
     istMix ? h("p", {}, `Gemischte, etwas schwerere Fragen aus den letzten ${s.level.mix.length} Leveln.`) : null,
+    s.level?.extra ? h("p", {}, "Hier landen alle Wissenspunkte dieser Welt, deren Ampel rot ist. Das Level verschwindet, sobald alles mindestens gelb ist.") : null,
+    s.level?.teile?.length > 1 ? h("p", {}, `Fasst ${s.level.teile.length} kleine Level zusammen (Kurz-Modus).`) : null,
     h("div", { class: "station-werte" },
       h("span", {}, "Kann ich: ", h("strong", {}, Math.round(k.prozent) + " %")),
       laeufe.length > 1 ? sparkline(laeufe.map(l => (l.quote || 0) * 100)) : null,
@@ -533,6 +536,13 @@ function einstellungenSeite() {
       h("p", {}, "Ist das an, kommt vor der ersten Frage zu jedem Wissenspunkt ein kurzer Infoblock mit dem Merksatz. Richtige Antworten direkt danach zählen, schieben die nächste Wiederholung aber nicht weiter hinaus, weil du die Antwort gerade gelesen hast. Bosse, Blitzrunde, Arbeitsblatt-Boss und Probeklausur bleiben ohne Infoblöcke. Du kannst es auch oben mit 📖 umschalten."),
       h("button", { type: "button", class: "knopf" + (infoAn() ? " haupt" : " leise"), "aria-pressed": String(infoAn()), onclick: schalteInfo },
         infoAn() ? "📖 Infoblöcke sind an" : "📕 Infoblöcke sind aus")),
+    h("section", { class: "panel einstell" },
+      h("h2", {}, "Kurz-Modus"),
+      h("p", {}, "Ist das an, fasst die Karte bei Kriminologie und JuJ mehrere kleine Level zu größeren zusammen (höchstens 5 Wissenspunkte je Level), und die Mischlevel fallen weg. Am Ende jeder Welt erscheint ein 💪 Extra-Level nur dann, wenn dort Wissenspunkte mit roter Ampel sind. Alle Aufgaben und dein Fortschritt bleiben erhalten; der Schalter gilt nur auf diesem Gerät. Statistik 2 bleibt wie es ist."),
+      h("button", {
+        type: "button", class: "knopf" + (kurzAn() ? " haupt" : " leise"), "aria-pressed": String(kurzAn()),
+        onclick: () => { setzeKurz(!kurzAn()); toast(kurzAn() ? "✂️ Kurz-Modus ist an." : "Kurz-Modus ist aus: alle kleinen Level."); route(); }
+      }, kurzAn() ? "✂️ Kurz-Modus ist an" : "📚 Kurz-Modus ist aus")),
     meldungenPanel(),
     h("section", { class: "panel einstell" },
       h("h2", {}, "Spielstand sichern"),
