@@ -120,10 +120,19 @@ small { color: var(--muted); }
 
 .spieler-karte { display: flex; align-items: center; gap: 1rem; padding: .9rem 1.1rem; }
 .rang-abzeichen {
-  flex: none; width: 52px; height: 52px; display: grid; place-items: center; font-weight: 900; font-size: 1.3rem; color: #2a1c00;
+  flex: none; width: 52px; height: 52px; display: grid; place-items: center; font-weight: 900; font-size: 1.6rem; color: #2a1c00;
   background: #ffc53d; border: 3px solid #c98b00; border-radius: 50%;
 }
 .spieler-text { flex: 1; min-width: 0; display: grid; gap: .25rem; }
+.rang-nr { font-weight: 500; color: var(--muted); }
+.rang-liste { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .5rem; }
+.rang-eintrag { display: grid; grid-template-columns: auto 1fr; column-gap: .5rem; align-items: center; padding: .5rem .65rem; border: 2px solid var(--fl2); border-radius: 12px; }
+.rang-eintrag .rang-icon { grid-row: span 2; font-size: 1.5rem; }
+.rang-eintrag strong { font-size: .9rem; line-height: 1.2; }
+.rang-eintrag small { opacity: .75; }
+.rang-eintrag.zu { opacity: .5; }
+.rang-eintrag.jetzt { border-color: var(--gold); background: var(--gold-hell, #fff4d6); }
+.rang-eintrag.jetzt small { font-weight: 700; color: var(--gold); opacity: 1; }
 
 /* ---------- Fortschrittsbalken ---------- */
 .balken { flex: 1; height: 14px; border-radius: 99px; background: var(--fl2); overflow: hidden; min-width: 40px; }

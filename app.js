@@ -4,7 +4,7 @@ import { h, fuelle, toast, ampel, sparkline, datumText, AM_PC } from "./util.js"
 import { K, ladeKatalog, faecher, docVon, wissenIn, levelListe, kurzAn, setzeKurz } from "./katalog.js";
 import * as speicher from "./speicher.js";
 import {
-  S, ladeSpielstand, kann, kannBereich, sterneVon, laeufeVon, rang, serie, heuteXp, TAGESZIEL, FEST_AB_STUFE, ERFOLGE, tagKey,
+  S, ladeSpielstand, kann, kannBereich, sterneVon, laeufeVon, rang, RAENGE, serie, heuteXp, TAGESZIEL, FEST_AB_STUFE, ERFOLGE, tagKey,
   schwereListe, besserListe, levelStatistik, abBeherrscht, istFaellig, hierWeiter, naechsterSchritt, infoAn, setzeInfo,
   planLevel, planBoss, planMission, planSchwaechen, planBlitz, planEndlos, planArbeitsblatt
 } from "./spiel.js";
@@ -66,11 +66,24 @@ function seite(...inhalt) {
 function spielerKarte() {
   const r = rang();
   return h("section", { class: "spieler-karte" },
-    h("div", { class: "rang-abzeichen", "aria-hidden": "true" }, r.stufe),
+    h("div", { class: "rang-abzeichen", "aria-hidden": "true" }, r.icon),
     h("div", { class: "spieler-text" },
-      h("strong", {}, r.name),
+      h("strong", {}, r.name, h("small", { class: "rang-nr" }, ` · Rang ${r.stufe} von ${RAENGE.length}`)),
       h("div", { class: "balken gold" }, h("span", { style: `width:${r.anteil * 100}%` })),
-      h("small", {}, r.bis == null ? "Höchster Rang erreicht!" : `Noch ${r.bis - S.xp} XP bis zum nächsten Rang`)));
+      h("small", {}, r.bis == null ? "Höchster Rang erreicht!" : `Noch ${r.bis - S.xp} XP bis ${RAENGE[r.stufe][2]} ${r.naechster}`)));
+}
+
+function rangListe() {
+  const r = rang();
+  return h("section", { class: "panel" }, h("h2", {}, "Alle Ränge"),
+    h("p", { class: "hinweis" }, `${r.stufe} von ${RAENGE.length} erreicht. XP gibt es für richtige Antworten, Sterne, Bosse und Missionen.`),
+    h("ol", { class: "rang-liste" }, RAENGE.map(([xp, name, icon], i) => {
+      const status = i + 1 < r.stufe ? "ok" : i + 1 === r.stufe ? "jetzt" : "zu";
+      return h("li", { class: "rang-eintrag " + status },
+        h("span", { class: "rang-icon", "aria-hidden": "true" }, status === "zu" ? "🔒" : icon),
+        h("strong", {}, name),
+        h("small", {}, status === "jetzt" ? "aktuell" : xp.toLocaleString("de-DE") + " XP"));
+    })));
 }
 
 function modusKachel(icon, name, text, link, opts = {}) {
@@ -340,6 +353,7 @@ function fortschrittSeite() {
       stat("🔥 " + serie(), "Tage in Folge"),
       stat("🔥 " + S.bestCombo, "Beste Serie")),
     h("section", { class: "panel" }, xpDiagramm()),
+    rangListe(),
     h("section", { class: "panel" }, h("h2", {}, "Erfolge"),
       h("div", { class: "erfolge" }, ERFOLGE.map(e => {
         const ok = e.ok();

@@ -23,8 +23,13 @@ const SCHWERE = {
 const schwereVon = f => f.schwere || (f.typ === "lueckentext" && f.wortbank ? 1 : SCHWERE[f.typ] || 2);
 
 export const RAENGE = [
-  [0, "Neuling"], [200, "Entdecker:in"], [600, "Spurensucher:in"], [1500, "Kenner:in"],
-  [3000, "Profi"], [6000, "Meister:in"], [10000, "Großmeister:in"], [16000, "Legende"]
+  [0, "Neuling", "🌱"], [100, "Ersti", "📘"], [200, "Entdecker:in", "🔍"], [400, "Kundschafter:in", "🧭"],
+  [600, "Spurensucher:in", "🐾"], [1000, "Protokollant:in", "📝"], [1500, "Kenner:in", "🎓"], [2200, "Tüftler:in", "🧩"],
+  [3000, "Profi", "💼"], [4500, "Ermittler:in", "🔎"], [6000, "Meister:in", "🏅"], [8000, "Gutachter:in", "⚖️"],
+  [10000, "Großmeister:in", "👑"], [13000, "Forscher:in", "🔬"], [16000, "Legende", "🌟"], [20000, "Doktorand:in", "📜"],
+  [25000, "Dozent:in", "🏛️"], [31000, "Professor:in", "🎖️"], [38000, "Weise:r", "🦉"], [46000, "Diamant", "💎"],
+  [55000, "Überflieger:in", "🚀"], [65000, "Mythos", "🐉"], [76000, "Unaufhaltsam", "☄️"], [88000, "Titan:in", "🗿"],
+  [100000, "Lernspiel-Ikone", "🏆"]
 ];
 
 // ---------- Spielstand ----------
@@ -165,9 +170,9 @@ export const laeufeVon = ziel => S.laeufe.filter(l => l.ziel === ziel);
 export function rang() {
   let i = 0;
   RAENGE.forEach(([xp], j) => { if (S.xp >= xp) i = j; });
-  const [von, name] = RAENGE[i];
+  const [von, name, icon] = RAENGE[i];
   const bis = RAENGE[i + 1]?.[0] ?? null;
-  return { stufe: i + 1, name, von, bis, anteil: bis == null ? 1 : (S.xp - von) / (bis - von) };
+  return { stufe: i + 1, name, icon, von, bis, naechster: RAENGE[i + 1]?.[1] ?? null, anteil: bis == null ? 1 : (S.xp - von) / (bis - von) };
 }
 
 // Tagesserie: heute zählt mit, fehlt heute noch, zählt die Serie bis gestern weiter

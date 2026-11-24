@@ -301,7 +301,7 @@ export function spieleRunde(wurzel, def) {
         wert("Beste Serie", "🔥 " + bestCombo),
         def.stoppuhr ? wert("Zeit", `${Math.floor(sek / 60)}:${String(sek % 60).padStart(2, "0")}`) : null,
         def.art === "blitz" ? wert("Rekord", Math.max(vorherBeste, volle) + " / 10") : null),
-      neuRang.stufe > rangVorher ? h("div", { class: "aufstieg" }, `⬆️ Neuer Rang: ${neuRang.name}`) : null,
+      neuRang.stufe > rangVorher ? h("div", { class: "aufstieg" }, `⬆️ Neuer Rang: ${neuRang.icon} ${neuRang.name}`) : null,
       neueErfolge.map(e => h("div", { class: "aufstieg erfolg" }, `${e.icon} Neuer Erfolg: ${e.name}`)),
       h("div", { class: "ergebnis-knoepfe" },
         h("a", { class: "knopf leise", href: zurueck }, "Zur Karte"),
