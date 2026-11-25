@@ -3,6 +3,7 @@
 // st ist der Antwortzustand einer Aufgabe; gesperrt = Lösung wird angezeigt.
 
 import { h, fmt, mische, passt, runde05, zahl, fuelle } from "./util.js";
+import { istMathe, zeichenLeiste } from "./zeichen.js";
 
 export const TYP_NAMEN = {
   single: "Single Choice",
@@ -424,14 +425,18 @@ export function aufgabeKarte(a, st, opts = {}) {
       karte.dispatchEvent(new CustomEvent("enter", { bubbles: true }));
     }
   });
+  // Mathe-Fächer: Leiste mit Sonderzeichen unter den Textfeldern
+  const leiste = istMathe(a.id) ? zeichenLeiste(karte) : null;
   const zeichne = () => {
     const ui = TYPEN[a.typ].ui(a, st, !!opts.gesperrt, zeichne);
-    fuelle(karte, 
+    const hatText = ui?.matches?.("input[type=text], textarea") || ui?.querySelector?.("input[type=text], textarea");
+    fuelle(karte,
       kopf(a, opts),
       opts.thema ? h("div", { class: "aufgabe-thema", title: "Aus diesem Thema stammt die Frage" }, "📍 ", opts.thema) : null,
       a.typ === "fall" ? h("div", { class: "fall-box" }, h("div", { class: "klein" }, "Fall"), fmt(a.fall, "p")) : null,
       fmt(a.frage || (a.typ === "zitat" ? "Wer hat’s gesagt?" : ""), "h3", "frage"),
       ui,
+      leiste && hatText && !opts.gesperrt ? leiste : null,
       opts.gesperrt ? loesungsTeil(a, st, zeichne, !!opts.nurLesen) : null
     );
     opts.onAenderung?.();

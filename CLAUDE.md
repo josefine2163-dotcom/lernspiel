@@ -7,7 +7,7 @@ Lern-App im Spielstil: **nur Fragen und Aufgaben, keine Lerninhalte vorab**. Die
 - `dokumente/<Fach>/` – Originaldateien. Dokumente im selben Unterordner gehören zu einem Fach und erscheinen als Vorlesungen.
 - `daten/` – pro Vorlesung eine JSON-Datei, dazu `daten/index.json` (Liste aller Dateien).
 - `meldungen/` – `gemeldet.json` (schreibt die App über den Server) und `antworten.json` (schreibt Claude Code), siehe unten.
-- App: `index.html`, `app.js` (Seiten), `spiel.js` (Spiellogik), `runde.js` (Spielrunde), `klausur.js`, `aufgaben.js` (Aufgabentypen), `katalog.js`, `speicher.js`, `meldungen.js` (Fragen melden), `rechnen.js` (Extra-Übungsaufgaben), `pruefen.js`, `util.js`, `style.css`, `sw.js`.
+- App: `index.html`, `app.js` (Seiten), `spiel.js` (Spiellogik), `runde.js` (Spielrunde), `klausur.js`, `aufgaben.js` (Aufgabentypen), `katalog.js`, `speicher.js`, `meldungen.js` (Fragen melden), `rechnen.js` (Extra-Übungsaufgaben), `zeichen.js` (Zeichenleiste Ω ∩ ≤ … unter Textfeldern in Mathe-Fächern, `MATHE_FAECHER`; `norm()` in `util.js` liest diese Zeichen als Wörter, z. B. „∅“ = „leere Menge“), `pruefen.js`, `util.js`, `style.css`, `sw.js`.
 - Start: `App-starten.bat` (PowerShell-Server auf http://localhost:8093). Vorschau in Claude Code: launch-Konfiguration `lernspiel`.
 
 ## Auftrag „Verarbeite die neuen Dokumente“

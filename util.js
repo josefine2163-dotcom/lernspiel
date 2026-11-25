@@ -38,12 +38,21 @@ export function mische(arr) {
   return a;
 }
 
-// Vergleichsform: klein, ohne Umlaute/Akzente, ohne Leer- und Satzzeichen
+// Mathezeichen zählen beim Vergleich als Wort (sonst wäre „Ω“ leer); „∅“ = „leere Menge“ usw.
+const ZEICHEN_WORT = {
+  "Ω": "omega", "ω": "omega", "∅": "leeremenge", "∩": "schnitt", "∪": "vereinigung", "⊂": "teilmenge", "⊆": "teilmenge",
+  "∈": "element", "∉": "keinelement", "≤": "kleinergleich", "≥": "groessergleich", "≠": "ungleich", "≈": "ungefaehr",
+  "μ": "mu", "µ": "mu", "σ": "sigma", "Σ": "summe", "√": "wurzel", "∞": "unendlich"
+};
+const ZEICHEN_RE = new RegExp("[" + Object.keys(ZEICHEN_WORT).join("") + "]", "g");
+
+// Vergleichsform: klein, ohne Umlaute/Akzente, ohne Leer- und Satzzeichen; ² → 2, p₁ → p1
 export function norm(s) {
   return String(s ?? "")
+    .replace(ZEICHEN_RE, z => ZEICHEN_WORT[z])
     .toLowerCase()
     .replace(/ß/g, "ss").replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue")
-    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .normalize("NFKD").replace(/[̀-ͯ]/g, "")
     .replace(/[^a-z0-9]/g, "");
 }
 
