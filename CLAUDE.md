@@ -92,7 +92,7 @@ Schema: Dokument `krim-s1` · Welt `krim-s1-A` · Level `krim-s1-A1` · Mischlev
 | `zitat` | `zitat`, `richtig[]`, `falsch[]` | 1 |
 | `richtigfalsch` | `aussagen[{text, richtig, begruendung}]`, optional `zeigen` (Standard 3). Bei falschen Aussagen sagt `begruendung`, warum. | 1 |
 | `zuordnung` | `paare[{links, rechts}]`, optional `zeigen` (Standard 4) | 1 |
-| `beispiel` | `kategorien[]`, `items[{text, kategorie}]`, optional `zeigen` | 1 |
+| `beispiel` | `kategorien[]`, `items[{text, kategorie}]` (`kategorie` = Index oder Name aus `kategorien`), optional `zeigen` | 1 |
 | `lueckentext` | `text` mit `{}`, `luecken[[Antwort, Alternativen]]`, optional `gruppen`, `wortbank` (dann Schwere 1), `ablenker[]` | 2 |
 | `multi` | `richtig[]`, `falsch[]`, `anzahlRichtig` (3), `anzahlFalsch` (2) | 2 |
 | `reihenfolge` | `elemente[]` in richtiger Reihenfolge | 2 |

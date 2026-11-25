@@ -6938,9 +6938,10 @@
                            "akzeptiert": [
                               "geborener Verbrecher",
                               "der geborene Verbrecher",
-                              "geborene Verbrecher"
+                              "geborene Verbrecher",
+                              "geborener Täter"
                            ],
-                           "frage": "Mit welchem Schlagwort ist Lombrosos Lehre verbunden?",
+                           "frage": "Lombroso meinte, 30–40 % aller Verbrecher seien aus biologischen Gründen zur Kriminalität vorherbestimmt. Wie nannte er diesen Tätertyp?",
                            "id": "krim-s2-D4-w1-a3",
                            "musterloesung": "Der „geborene Verbrecher“.",
                            "typ": "begriff"

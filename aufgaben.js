@@ -27,6 +27,9 @@ export const TYP_NAMEN = {
 export const SELBST = new Set(["definition", "offen", "fall"]);
 const NACHBESSERBAR = new Set(["kurzfrage", "begriff", "lueckentext", "tabelle"]);
 
+// Beispiel zuordnen: richtige Kategorie als Index, auch wenn die Daten den Namen nennen
+const katIndex = (a, it) => (typeof it.kategorie === "number" ? it.kategorie : a.kategorien.indexOf(it.kategorie));
+
 // ---------- Auswahl mit einer richtigen Antwort ----------
 function einzelwahl(a, st, gesperrt, neu) {
   st.reihe ??= a.mischen === false ? a.optionen.map((_, i) => i) : mische(a.optionen.map((_, i) => i));
@@ -196,6 +199,7 @@ const TYPEN = {
   },
 
   // ---------- Beispiel zuordnen (Kategorien) ----------
+  // kategorie steht in den Daten als Index (0, 1, …) oder als Name aus kategorien[]; gewählt wird immer der Index
   beispiel: {
     ui(a, st, gesperrt, neu) {
       st.wahl ??= [];
@@ -204,19 +208,20 @@ const TYPEN = {
         h("p", { class: "hinweis" }, "Ordne jedes Beispiel einer Kategorie zu."),
         st.reihe.map(i => {
           const it = a.items[i];
-          const korrekt = st.wahl[i] === it.kategorie;
+          const ziel = katIndex(a, it);
+          const korrekt = st.wahl[i] === ziel;
           return h("div", { class: "bsp-zeile" + (gesperrt ? (korrekt ? " ist-richtig" : " ist-falsch") : "") },
             fmt(it.text, "div", "bsp-text"),
             h("div", { class: "bsp-kats" }, a.kategorien.map((k, j) => {
               let cls = "chip" + (st.wahl[i] === j ? " gewaehlt" : "");
-              if (gesperrt && j === it.kategorie) cls += " richtig";
+              if (gesperrt && j === ziel) cls += " richtig";
               else if (gesperrt && st.wahl[i] === j) cls += " falsch";
               return h("button", { type: "button", class: cls, disabled: gesperrt, onclick: () => { st.wahl[i] = j; neu(); } }, k);
             })),
             gesperrt && it.hinweis ? fmt(it.hinweis, "div", "hinweis") : null);
         }));
     },
-    bruch: (a, st) => a.items.filter((it, i) => (st.wahl || [])[i] === it.kategorie).length / a.items.length
+    bruch: (a, st) => a.items.filter((it, i) => (st.wahl || [])[i] === katIndex(a, it)).length / a.items.length
   },
 
   // ---------- Reihenfolge ----------
@@ -401,7 +406,7 @@ export function musterAntwort(a) {
     case "richtigfalsch": return { urteil: a.aussagen.map(s => s.richtig) };
     case "lueckentext": return { werte: a.luecken.map(l => l[0]) };
     case "zuordnung": return { wahl: a.paare.map(p => p.rechts) };
-    case "beispiel": return { wahl: a.items.map(it => it.kategorie) };
+    case "beispiel": return { wahl: a.items.map(it => katIndex(a, it)) };
     case "reihenfolge": return { ord: a.elemente.map((_, i) => i), bewegt: true };
     case "kurzfrage": case "begriff": return { text: a.akzeptiert[0] };
     case "fehler": return { mark: new Set(a.segmente.flatMap((s, i) => (s.fehler ? [i] : []))) };

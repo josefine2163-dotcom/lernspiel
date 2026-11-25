@@ -15,7 +15,10 @@ export function testeAlleAufgaben(durchgaenge = 25) {
       tests++;
       try {
         const a = instanziere(form);
-        const voll = punkteVon(a, musterAntwort(a));
+        const muster = musterAntwort(a);
+        if (a.typ === "beispiel" && muster.wahl.some(k => !(k >= 0 && k < a.kategorien.length)))
+          fehler.push(`${id}: Kategorie eines Beispiels steht nicht in „kategorien“`);
+        const voll = punkteVon(a, muster);
         if (voll !== a.punkte) fehler.push(`${id}: richtige Antwort gibt ${voll} statt ${a.punkte} Punkte`);
         const leer = punkteVon(a, {}) ?? 0;
         if (leer !== 0) fehler.push(`${id}: leere Antwort gibt ${leer} Punkte`);

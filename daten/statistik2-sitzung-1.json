@@ -314,9 +314,9 @@
            "begruendung": "Das macht die **Inferenz**; die Deskription beschreibt nur die Stichprobe."
           },
           {
-           "text": "Deskriptive Statistik war Thema von Statistik 1.",
-           "richtig": true,
-           "begruendung": "Ja."
+           "text": "Die Deskription schätzt und testet die „wahren“ Parameter.",
+           "richtig": false,
+           "begruendung": "**Schätzen und Testen** gehört zur **Inferenz**; die Deskription trifft nur Aussagen über die Stichprobe."
           }
          ]
         },
@@ -1017,24 +1017,6 @@
           "Glücksrad drehen"
          ],
          "musterloesung": "Z. B. Würfeln, Werfen einer Münze, Drehen eines Glücksrads, Ziehen eines Loses."
-        },
-        {
-         "id": "stat2-s1-B1b-w1-a5",
-         "typ": "multi",
-         "frage": "Welche Beispiele für Zufallsprozesse nennt die Vorlesung?",
-         "richtig": [
-          "Würfeln mit einem 6-seitigen Würfel",
-          "Werfen einer Münze",
-          "Ziehen eines Loses",
-          "Drehen eines Glücksrads mit 4 Farben"
-         ],
-         "falsch": [
-          "eine gerade Zahl würfeln",
-          "Werfen einer Münze mit zwei Kopf-Seiten",
-          "Kopf liegt oben"
-         ],
-         "anzahlRichtig": 3,
-         "anzahlFalsch": 2
         }
        ]
       }
