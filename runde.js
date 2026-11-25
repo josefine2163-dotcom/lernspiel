@@ -4,7 +4,7 @@
 import { h, fmt, fuelle, neueId } from "./util.js";
 import { aufgabeKarte, beantwortet, punkteVon, SELBST } from "./aufgaben.js";
 import { K } from "./katalog.js";
-import { S, instanziere, waehleForm, merkeAntwort, merkeLauf, rang, erreichteErfolge, ERFOLGE, pfadVon, infoAn, INFO_MODI } from "./spiel.js";
+import { S, instanziere, waehleForm, merkeAntwort, merkeLauf, rang, erreichteErfolge, ERFOLGE, pfadVon, infoAn, INFO_MODI, themaVon } from "./spiel.js";
 import { meldeDialog, versteckt } from "./meldungen.js";
 
 // ---------- Kleine Effekte ----------
@@ -155,6 +155,18 @@ export function spieleRunde(wurzel, def) {
     window.scrollTo(0, 0);
   }
 
+  // Themenzeile nur, wenn das Thema nicht schon aus der Runde klar ist:
+  // in Mission, Schwächen-Jagd, Blitzrunde, Endlos und bei Wiederholungen aus anderen Welten
+  function themaZeile(item, form) {
+    if (!item.wissen) return null;
+    const welt = K.wissen.get(item.wissen)?.welt.id;
+    const rundenWelt = def.art === "boss" ? def.ziel : def.art === "level" ? K.level.get(def.ziel)?.welt.id : null;
+    if (rundenWelt && rundenWelt === welt) return null;
+    const bereich = rundenWelt ? "d:" : String(def.ziel).replace(/^[a-z]+:/, "");
+    if (aktuell.thema === undefined) aktuell.thema = themaVon(item.wissen, form, bereich);
+    return aktuell.thema;
+  }
+
   function zeigeAufgabe() {
     zeichneKopf();
     const { a, st, gesperrt, item } = aktuell;
@@ -163,6 +175,7 @@ export function spieleRunde(wurzel, def) {
       h("div", { class: "balken boss-hp", title: "Leben des Bosses" }, h("span", { style: `width:${Math.max(0, 100 - (schaden / bossHp) * 100)}%` }))) : null;
     const karte = aufgabeKarte(a, st, {
       gesperrt, wiederholung: item.wiederholung || item.nachFehler, onAenderung: () => zeichneFuss(),
+      thema: themaZeile(item, aktuell.form),
       melden: () => meldeDialog(a, st, ueberspringe)
     });
     fuelle(buehne, bossTeil, karte);

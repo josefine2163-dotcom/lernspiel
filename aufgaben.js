@@ -428,6 +428,7 @@ export function aufgabeKarte(a, st, opts = {}) {
     const ui = TYPEN[a.typ].ui(a, st, !!opts.gesperrt, zeichne);
     fuelle(karte, 
       kopf(a, opts),
+      opts.thema ? h("div", { class: "aufgabe-thema", title: "Aus diesem Thema stammt die Frage" }, "📍 ", opts.thema) : null,
       a.typ === "fall" ? h("div", { class: "fall-box" }, h("div", { class: "klein" }, "Fall"), fmt(a.fall, "p")) : null,
       fmt(a.frage || (a.typ === "zitat" ? "Wer hat’s gesagt?" : ""), "h3", "frage"),
       ui,

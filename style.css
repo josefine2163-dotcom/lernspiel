@@ -637,3 +637,9 @@ dialog.melde-dlg { text-align: left; width: min(520px, calc(100vw - 32px)); }
 .rechen-weg { color: var(--muted); margin-top: .2rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
 .rechen-fuss { display: grid; gap: .7rem; justify-items: start; }
 .rechen-fuss:empty { display: none; }
+
+/* Themenzeile über Wiederholungsfragen (runde.js, themaZeile) */
+.aufgabe-thema {
+  display: inline-block; margin: .1rem 0 .5rem; padding: .2em .7em; border-radius: 99px;
+  background: var(--fl2); color: var(--muted); font-size: .82rem; font-weight: 600; line-height: 1.35;
+}

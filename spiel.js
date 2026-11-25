@@ -340,6 +340,38 @@ export function waehleForm(id, { nachFehler = false, nurKurz = false, schwerer =
   return beste;
 }
 
+// ---------- Themenzeile über Wiederholungsfragen ----------
+// Sagt, woher eine Frage stammt (Fach · Sitzung · Welt), ohne die Lösung zu verraten:
+// Teile, die ein Wort mit einer richtigen Antwort teilen, werden weggelassen.
+const STOPP = new Set(("eine einer eines einem einen sind oder nach auch dass wird werden wurde sich nicht beim ueber unter sein "
+  + "ihre ihrer kein keine alle mehr wenn eher zwei drei vier fuenf jahr jahre jahren sowie durch haben zwischen sitzung vorlesung "
+  + "teil vergleich grundlagen begriff begriffe").split(" "));
+const normal = s => String(s).toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss");
+const stamm = s => normal(s).split(/[^a-z0-9]+/).filter(x => x.length >= 4 && !STOPP.has(x)).map(x => x.slice(0, 6));
+
+function antwortTexte(f) {
+  const t = [];
+  const neu = x => { if (x != null) t.push(String(x)); };
+  (f.richtig || []).forEach(neu);
+  (f.akzeptiert || []).forEach(neu);
+  (f.ausreisser || []).forEach(neu);
+  (f.luecken || []).flat().forEach(neu);
+  if (f.optionen && f.loesung != null) [].concat(f.loesung).forEach(i => neu(f.optionen[i]));
+  (f.zeilen || []).flat().forEach(c => c && typeof c === "object" && (c.akzeptiert || []).forEach(neu));
+  return t;
+}
+
+export function themaVon(wissenId, form, bereich = "") {
+  const e = K.wissen.get(wissenId);
+  if (!e) return null;
+  const verraten = new Set(antwortTexte(form).flatMap(stamm));
+  const sicher = text => text && !stamm(text).some(w => verraten.has(w));
+  // Was der Bereich der Runde schon festlegt (ein Fach, eine Sitzung), steht nicht noch einmal da
+  const nurDoc = bereich.startsWith("d:"), nurFach = nurDoc || bereich === "f:" + e.doc.fach;
+  const teile = [nurFach ? null : e.doc.fach, nurDoc ? null : e.doc.kurztitel, e.welt.titel].filter(sicher);
+  return teile.length ? teile.join(" · ") : null;
+}
+
 // ---------- Rundenpläne ----------
 // Ein Rundeneintrag ist { wissen, ... } (Form wird erst beim Drankommen gewählt) oder { form }.
 
